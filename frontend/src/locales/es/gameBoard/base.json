@@ -1,21 +1,27 @@
 {
-    "skillTestTitle": "Prueba de habilidad",
-    "toBeCommitted": "Por asignar",
-    "committedCards": "Cartas asignadas",
-
-    "waitingForMorePlayers": "Esperando a más jugadores",
-    "showInviteLink": "Invítalos con esta URL:",
-
-    "gameOver": "Juego terminado",
-    "watchReplay": "Ver repetición",
-
-    "submit": "Enviar",
-    "cancel": "Cancelar",
-    "close": "Cerrar",
-
-    "outOfSyncHint": "Tu partida no está sincronizada, intentando reconectar...",
-
-    "error": "Error",
-    "errorContent": "Probablemente se trate de un error. Por favor, envía un informe de error.",
-    "fileBug": "Archivar error"
+  "applyAll": "Todo",
+  "skillTestTitle": "Prueba de habilidad",
+  "toBeCommitted": "Por asignar",
+  "committedCards": "Cartas asignadas",
+  "waitingForMorePlayers": "Esperando a más jugadores",
+  "showInviteLink": "Invítalos con esta URL:",
+  "gameOver": "Juego terminado",
+  "campaignWon": "La campaña se ha ganado",
+  "campaignLost": "La campaña se ha perdido",
+  "scenarioWon": "El escenario se ha ganado",
+  "scenarioLost": "El escenario se ha perdido",
+  "campaignWonUncertain": "La campaña se ha ganado…?",
+  "outcomeUncertain": "La Guía de campaña imprime este final como «Los investigadores ganan la campaña…?» y no dice más.",
+  "outcomeNote": {
+    "neverSeenInTheWakingWorld": "…y no se les vuelve a ver ni a oír en el mundo de la vigilia.",
+    "neverSeenOrHeardFromAgain": "…pero no se les vuelve a ver ni a oír jamás."
+  },
+  "watchReplay": "Ver repetición",
+  "submit": "Enviar",
+  "cancel": "Cancelar",
+  "close": "Cerrar",
+  "outOfSyncHint": "Tu partida no está sincronizada, intentando reconectar...",
+  "error": "Error",
+  "errorContent": "Probablemente se trate de un error. Por favor, envía un informe de error.",
+  "fileBug": "Archivar error"
 }

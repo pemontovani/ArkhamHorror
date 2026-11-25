@@ -1,40 +1,117 @@
 {
-    "newGame": "Nueva Partida",
-
-    "numberOfPlayers" : "Número de Jugadores",
-    "withFriends": "Con Amigos",
-    "multihandedSolo": "Multijugador a Dos Manos",
-
-    "campaign": "Campaña",
-    "standalone": "Independiente",
-    "sideStory": "Historia Secundaria",
-
-    "alphaWarning": "Esta campaña está actualmente en desarrollo. Probablemente no funcione aún y no deberías reportar errores sobre ella.",
-    "betaWarning": "Esta campaña está lista para pruebas pero espera que tus partidas se rompan frecuentemente.",
-    "betaWarningScenario": "Este escenario está listo para pruebas pero espera que tus partidas se rompan frecuentemente.",
-
-    "normal": "Normal",
-    "returnTo": "Retorno a...",
-    
-    "fullCampaign": "Campaña Completa",
-    "partialCampaign": "Campaña Parcial",
-
-    "difficulty": "Dificultad",
-    "Easy": "Fácil",
-    "Standard": "Normal",
-    "Hard": "Difícil",
-    "Expert": "Experto",
-
-    "includeTarotReadings": "Incluir Lecturas de Tarot",
-
-    "gameName": "Nombre de la Partida",
-    "create": "Crear",
-
-    "chooseYourDeck": "Elige tu mazo | Elige tu mazos",
-    "tabooList": "Lista de Taboo: {tabooList}",
-    "useExistingDeck": "Usar Mazo Existente",
-    "loadNewDeck": "Cargar Nuevo Mazo",
-    "selectADeck": "-- Selecciona un Mazo --",
-    "deckUrlPlaceholder": "URL de mazo de ArkhamDB o arkham.build",
-    "choose": "Elegir"
+  "difficultyFlavor": {
+    "Easy": "Quiero vivir la historia",
+    "Standard": "Quiero un desafío",
+    "Hard": "Quiero una auténtica pesadilla",
+    "Expert": "Quiero Arkham Horror"
+  },
+  "newGame": "Nueva Partida",
+  "numberOfPlayers": "Número de Jugadores",
+  "withFriends": "Con Amigos",
+  "multihandedSolo": "Multijugador a Dos Manos",
+  "switchingPerspectives": "Cambiar de perspectiva",
+  "switchingPerspectivesDescription": "En solitario con varias manos, a veces tendrás que actuar desde el punto de vista de un investigador concreto. Usa el icono del <strong>ojo</strong> en las pestañas de jugador para cambiar a la perspectiva de ese investigador.",
+  "campaign": "Campaña",
+  "standalone": "Independiente",
+  "sideStory": "Historia Secundaria",
+  "requiresInvestigator": "Requiere a {name}",
+  "alphaWarning": "Esta campaña está actualmente en desarrollo. Probablemente no funcione aún y no deberías reportar errores sobre ella.",
+  "betaWarning": "Esta campaña está lista para pruebas pero espera que tus partidas se rompan frecuentemente.",
+  "betaWarningScenario": "Este escenario está listo para pruebas pero espera que tus partidas se rompan frecuentemente.",
+  "normal": "Normal",
+  "returnTo": "Retorno a...",
+  "fullCampaign": "Campaña Completa",
+  "bothScenarios": "Ambos escenarios (campaña)",
+  "scenarios": "Escenarios",
+  "partialCampaign": "Campaña Parcial",
+  "multiplayerVariant": "Variante multijugador",
+  "campaignType": "Tipo de campaña",
+  "pickScenario": "Elegir escenario",
+  "difficulty": "Dificultad",
+  "Easy": "Fácil",
+  "Standard": "Normal",
+  "Hard": "Difícil",
+  "Expert": "Experto",
+  "includeTarotReadings": "Incluir Lecturas de Tarot",
+  "allowSpectators": "Permitir espectadores",
+  "allowSpectatorsDescription": "Publica esta partida en la página de inicio para que cualquiera pueda verla. Los espectadores ven la mesa, pero no pueden realizar ninguna acción. Se decide ahora y no puede cambiarse una vez empezada la partida.",
+  "allowSpectatorsMakeDefault": "Usar como predeterminado",
+  "allowSpectatorsDefaultSaved": "Guardado como tu opción predeterminada",
+  "playMode": "Modo de juego",
+  "singleGroupMode": "Modo de un solo grupo",
+  "epicMultiplayerMode": "Modo multijugador épico",
+  "singleScenarioMode": "Un solo escenario",
+  "miniCampaignMode": "Minicampaña",
+  "miniCampaignDescription": "<p>Juega tres partidas consecutivas, una por cada grupo, en el orden que elijas. A diferencia de una campaña normal:</p><ul><li>Usa las reglas de construcción de mazos para escenarios independientes. No necesitas empezar con 0 de experiencia.</li><li>Los jugadores pueden intercambiar investigadores y/o mazos entre escenarios.</li><li>No se obtiene ni se gasta experiencia entre escenarios.</li><li>No hay Registro de campaña; los investigadores no sufren trauma, y los que mueran o enloquezcan pueden usarse igualmente en otros escenarios.</li></ul>",
+  "numberOfGroups": "Número de grupos",
+  "groupName": "Nombre del grupo",
+  "groupPlayers": "Jugadores",
+  "imposeTimeLimit": "Imponer límite de tiempo",
+  "timeLimitMinutes": "Límite de tiempo (minutos)",
+  "gameName": "Nombre de la Partida",
+  "create": "Crear",
+  "chooseYourDeck": "Elige tu mazo | Elige tu mazos",
+  "decksChosen": "{chosen} de {total} mazos elegidos",
+  "seatNumber": "Investigador {number}",
+  "seatNoDeckYet": "Todavía no se ha elegido mazo",
+  "tabooList": "Lista de Taboo: {tabooList}",
+  "useExistingDeck": "Usar Mazo Existente",
+  "loadNewDeck": "Cargar Nuevo Mazo",
+  "selectADeck": "-- Selecciona un Mazo --",
+  "deckUrlPlaceholder": "URL de mazo de ArkhamDB o arkham.build",
+  "choose": "Elegir",
+  "variant": "Variante de campaña",
+  "fullCampaignOption": {
+    "theDreamEaters": "Los devoradores de sueños<br><small>Campaña de 8 partes</small>",
+    "theDreamQuest": "La búsqueda de los sueños<br><small>Campaña de 4 partes</small>",
+    "theWebOfDreams": "La red de los sueños<br><small>Campaña de 4 partes</small>"
+  },
+  "advancedRulesConfiguration": "Configuración avanzada de reglas",
+  "rulesPresets": "Ajustes predefinidos",
+  "presetCustom": "Personalizado",
+  "preset": {
+    "chapter1": {
+      "name": "Capítulo 1",
+      "description": "Recomendado para campañas del Capítulo 1."
+    },
+    "chapter2": {
+      "name": "Capítulo 2",
+      "description": "Recomendado para campañas del Capítulo 2."
+    }
+  },
+  "chapter1Heading": "Capítulo 1",
+  "chapter2Heading": "Capítulo 2",
+  "homebrewHeading": "Homebrew",
+  "designedBy": "diseñado por {name}",
+  "sideStoriesHeading": "Historias paralelas",
+  "challengeScenariosHeading": "Escenarios desafío",
+  "asIfAtBehavior": "Comportamiento de «como si» estuviera en un Lugar",
+  "asIfAtChapter1": "Reglas del Capítulo 1",
+  "asIfAtChapter1Description": "«Como si» estuviera en un Lugar se aplica durante toda la carta o habilidad, incluidos los Triggers de ventana de otras cartas.",
+  "asIfAtChapter2": "Reglas del Capítulo 2",
+  "asIfAtChapter2Description": "«Como si» estuviera en un Lugar se aplica solo durante la resolución de la habilidad o acción indicada. Las demás habilidades de cartas y Triggers de ventana se resuelven con el estado real de la partida.",
+  "recommendedOptions": "Opciones recomendadas",
+  "recommendedOption": {
+    "PlayersDoNotControlStoryAssetClues": {
+      "title": "Los jugadores no controlan las pistas de los apoyos de historia",
+      "description": "Desde La fiesta del Valle de la Cicuta, los jugadores controlan las pistas de los apoyos que controlan. Esto provoca interacciones extrañas en esta campaña, así que se recomienda activar esta opción para excluir los apoyos de historia de esa regla."
+    },
+    "UseSwarmPlaceholders": {
+      "title": "Usar cartas sustitutas para los enjambres",
+      "description": "En lugar de usar cartas del mazo del investigador Jefe como sustitutas del enjambre, genera cartas sustitutas que no pertenecen al mazo de ningún investigador."
+    }
+  },
+  "narrative": {
+    "title": "Texto de la historia",
+    "description": "Qué versión de la historia de esta campaña lees. Solo cambia la prosa: las cartas, las reglas, la preparación y el Registro de campaña son idénticos en cualquier caso.",
+    "campaignGuide": "Guía de campaña oficial",
+    "campaignGuideDescription": "La historia tal como se publicó, leída de la Guía de campaña. Es la opción predeterminada.",
+    "community": "Contenido de la comunidad",
+    "beta": "Beta",
+    "betaWarning": "Está lista para probarse, pero una versión de la comunidad se ha jugado mucho menos que la Guía de campaña. Informa de un error si algo se lee mal.",
+    "by": "por {designer}"
+  },
+  "deckRequirements": "Requisitos del mazo",
+  "blobElseTitle": "¡La masa que devoró todo lo DEMÁS!",
+  "returnToName": "Regreso a {name}"
 }

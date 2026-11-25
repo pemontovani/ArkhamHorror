@@ -956,8 +956,8 @@
     "cannotGainResourcesBecause": "{source} te impide ganar recursos",
     "cannotGainResourcesFromCards": "Un efecto te impide ganar recursos de efectos de cartas",
     "cannotGainResourcesFromCardsBecause": "{source} te impide ganar recursos de efectos de cartas",
-    "silenceCard": "Silenciar: omite los desencadenantes y reacciones gratuitos de esta carta mientras esté oculta",
-    "unsilenceCard": "Dejar de silenciar: vuelve a ofrecer los desencadenantes de esta carta"
+    "silenceCard": "Silenciar: omite los Triggers y reacciones gratuitos de esta carta mientras esté oculta",
+    "unsilenceCard": "Dejar de silenciar: vuelve a ofrecer los Triggers de esta carta"
   },
   "enemy": {
     "debug": "Depurar"

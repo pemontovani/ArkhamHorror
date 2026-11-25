@@ -1,0 +1,48 @@
+{
+  "title": "Historial",
+  "round": "Ronda",
+  "phase": "Fase",
+  "turn": "Turno",
+  "empty": "Todavía no hay nada registrado en este ámbito.",
+  "section": {
+    "counts": "Recuentos",
+    "playedCards": "Cartas jugadas",
+    "treacheriesDrawn": "Traiciones robadas",
+    "enemiesDrawn": "Enemigos robados",
+    "enemiesDefeated": "Enemigos derrotados",
+    "enemiesAttackedBy": "Enemigos que atacaron",
+    "dealtDamageTo": "Daño infligido a",
+    "locationsInvestigated": "Lugares investigados",
+    "cluesDiscovered": "Pistas descubiertas",
+    "skillTests": "Pruebas de habilidad"
+  },
+  "field": {
+    "actionsCompleted": "Acciones completadas",
+    "actionsSpent": "Acciones gastadas",
+    "moved": "Movimientos",
+    "cardsDrawn": "Cartas robadas",
+    "resourcesGained": "Recursos ganados",
+    "attacksOfOpportunity": "Ataques de oportunidad",
+    "successfulAttacks": "Ataques con éxito",
+    "successfulEvasions": "Evasiones con éxito",
+    "successfulInvestigations": "Investigaciones con éxito",
+    "successfulExplore": "Exploraciones con éxito"
+  },
+  "playedCard": {
+    "at": "En {location}",
+    "target": "Objetivo: {target}",
+    "paid": "Pagó {n} recursos"
+  },
+  "skillResult": {
+    "unrun": "Sin resolver",
+    "succeededBy": "Éxito por {n}",
+    "failedBy": "Fracaso por {n}"
+  },
+  "enemy": {
+    "health": "Salud: {n}",
+    "defeated": "Derrotado"
+  },
+  "clues": {
+    "count": "Pistas: {n}"
+  }
+}

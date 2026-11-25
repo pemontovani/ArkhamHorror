@@ -1,0 +1,227 @@
+{
+  "title": "Dones y Ultimátums",
+  "boons": "Dones",
+  "ultimatums": "Ultimátums",
+  "refractions": "Refracciones",
+  "selectedCount": "{count} seleccionados",
+  "noneSelected": "Ninguno seleccionado",
+  "settingsToggleTitle": "Ultimátums y Dones activados",
+  "settingsToggleDescription": "Activa o desactiva en esta partida los Ultimátums y Dones seleccionados. Afecta a todos los jugadores. Las entradas de construcción de mazos (como el Ultimátum del inmortal o el de Iniciación) se aplican al elegir los mazos y este interruptor no les afecta.",
+  "currentlyDisabled": "(actualmente desactivado)",
+  "deckbuildingBadge": "Construcción de mazos: no le afecta el interruptor de la partida",
+  "rolledThisGame": "Sorteados en esta partida",
+  "deckErrors": {
+    "highlander": "Ultimátum del inmortal: solo se permite 1 copia de {name}",
+    "induction": "Ultimátum de iniciación: los mazos solo pueden incluir cartas de nivel 0 ({name})",
+    "exile": "Ultimátum del exilio: las cartas con exilio son solo para el modo campaña ({name})",
+    "orthodoxy": "Ultimátum de ortodoxia: este mazo debe usar una lista de tabú"
+  },
+  "entries": {
+    "BoonOfTheAncients": {
+      "name": "Don de los antiguos",
+      "text": "Solo modo campaña. Cada investigador empieza la campaña con 5 de experiencia adicional."
+    },
+    "BoonOfAthena": {
+      "name": "Don de Atenea",
+      "text": "La primera vez en cada partida que saques la ficha de fracaso automático, puedes cancelarla, devolverla a la bolsa de caos y sacar otra en su lugar."
+    },
+    "BoonOfDestiny": {
+      "name": "Don del destino",
+      "text": "Antes de robar tu mano inicial, puedes buscar en tu mazo 1 copia de una carta y añadirla a tu mano (no cambia el número de cartas de tu mano inicial)."
+    },
+    "BoonOfHades": {
+      "name": "Don de Hades",
+      "text": "Cada investigador empieza la partida con 2 recursos adicionales en su reserva de recursos."
+    },
+    "BoonOfHermes": {
+      "name": "Don de Hermes",
+      "text": "Cada investigador puede realizar una acción adicional en su turno, que solo puede usarse para moverse."
+    },
+    "BoonOfThoth": {
+      "name": "Don de Thot",
+      "text": "Cada investigador empieza la partida con 1 carta adicional en su mano inicial."
+    },
+    "BoonOfOsiris": {
+      "name": "Don de Osiris",
+      "text": "La primera vez que cada investigador fuera a ser derrotado en un escenario, tras sufrir el trauma, cura todo el daño y el horror de ese investigador. Ese investigador no puede recibir daño hasta el comienzo de su próximo turno."
+    },
+    "BoonOfTheMorrigan": {
+      "name": "Don de la Morrígan",
+      "text": "Cuando un jugador fuera a añadir una debilidad básica aleatoria a su mazo durante la construcción, en su lugar roba tres debilidades básicas aleatorias, devuelve a la colección la que elija y selecciona al azar una de las dos restantes. La debilidad seleccionada se añade a su mazo."
+    },
+    "BoonOfPersephone": {
+      "name": "Don de Perséfone",
+      "text": "Solo modo campaña. Si un investigador es derrotado, obtiene 3 de experiencia adicional."
+    },
+    "BoonOfTheExplorer": {
+      "name": "Don del explorador",
+      "text": "Cada investigador puede realizar una acción adicional en su turno, que solo puede usarse para Explorar."
+    },
+    "BoonOfTheChild": {
+      "name": "Don del niño",
+      "text": "Una vez por ronda, un investigador puede jugar el evento superior de su pila de descarte como si estuviera en su mano. Si lo hace, después de que ese evento se resuelva, debe colocarlo debajo de su mazo."
+    },
+    "UltimatumOfAgony": {
+      "name": "Ultimátum de agonía",
+      "text": "Al asignar daño u horror, los investigadores deben asignar tanto daño u horror como sea posible a una sola carta antes de poder asignar el exceso a otra."
+    },
+    "UltimatumOfBrokenPromises": {
+      "name": "Ultimátum de las promesas rotas",
+      "text": "Retira la ficha del signo arcano de la bolsa de caos durante la preparación de una campaña o un escenario independiente."
+    },
+    "UltimatumOfTheBrokenVeil": {
+      "name": "Ultimátum del velo roto",
+      "text": "Siempre que se descarten 1 o más cartas de debilidad de la parte superior del mazo de un investigador, baraja esas cartas de nuevo en su mazo."
+    },
+    "UltimatumOfChaos": {
+      "name": "Ultimátum del caos",
+      "text": "El mazo inicial de cartas que no sean de firma ni debilidades de cada investigador debe seleccionarse al azar entre todas las opciones elegibles de la colección de ese jugador. (Regla de honor: la aplicación no la impone)."
+    },
+    "UltimatumOfDisaster": {
+      "name": "Ultimátum del desastre",
+      "text": "Los requisitos de construcción de mazo de cada investigador obtienen «1 debilidad básica aleatoria adicional»."
+    },
+    "UltimatumOfDread": {
+      "name": "Ultimátum del pavor",
+      "text": "No te saltes la fase de Mitos durante la primera ronda de cada partida."
+    },
+    "UltimatumOfFailure": {
+      "name": "Ultimátum del fracaso",
+      "text": "Añade una ficha de fracaso automático adicional a la bolsa de caos durante la preparación de una campaña (o escenario independiente)."
+    },
+    "UltimatumOfFinality": {
+      "name": "Ultimátum definitivo",
+      "text": "Solo modo campaña. Si un investigador es derrotado por daño, muere. Si es derrotado por horror, enloquece."
+    },
+    "UltimatumOfForbiddenKnowledge": {
+      "name": "Ultimátum del conocimiento prohibido",
+      "text": "Cada investigador empieza la partida con 1 carta menos en su mano inicial."
+    },
+    "UltimatumOfHardship": {
+      "name": "Ultimátum de la penuria",
+      "text": "Cada investigador empieza la partida con 2 recursos menos en su reserva de recursos."
+    },
+    "UltimatumOfTheHighlander": {
+      "name": "Ultimátum del inmortal",
+      "text": "El mazo de cada investigador solo puede incluir 1 copia de cada carta que no sea debilidad, según su título (salvo que sus requisitos de construcción exijan varias copias de esa carta)."
+    },
+    "UltimatumOfInduction": {
+      "name": "Ultimátum de iniciación",
+      "text": "Solo modo campaña. Los mazos de investigador solo pueden contener cartas de nivel 0. Los investigadores no pueden obtener ni gastar experiencia."
+    },
+    "UltimatumOfOrthodoxy": {
+      "name": "Ultimátum de ortodoxia",
+      "text": "Juega la partida usando la Lista de tabú."
+    },
+    "UltimatumOfTheScream": {
+      "name": "Ultimátum de El Grito",
+      "text": "Solo modo campaña. Cuando sea derrotado un apoyo Aliado único que controles, que no sea de historia ni debilidad, retíralo de la partida. No puedes jugar esa carta durante el resto de la campaña. Cuando termine el escenario, retira ese aliado y todas sus copias del mazo de cada jugador."
+    },
+    "UltimatumOfSurvival": {
+      "name": "Ultimátum de supervivencia",
+      "text": "Solo modo campaña. Si un investigador muere o enloquece, su jugador queda eliminado de la campaña y no puede seguir jugando con un nuevo investigador."
+    },
+    "UltimatumOfUltimatums": {
+      "name": "Ultimátum de ultimátums",
+      "text": "Solo modo campaña. Antes de cada partida de la campaña, elige 1 ultimátum o don al azar y empieza la partida con él activo. (No se aplica a los que afectan a la construcción de mazos o de la bolsa de caos)."
+    },
+    "UltimatumOfExile": {
+      "name": "Ultimátum del exilio",
+      "text": "Trata cada carta con «exilio» en su cuadro de texto como si además tuviera «Solo modo campaña»."
+    },
+    "UltimatumOfTheSpiral": {
+      "name": "Ultimátum de la espiral",
+      "text": "Solo modo campaña. Después de que un investigador sea derrotado, añade 1 debilidad básica aleatoria a su mazo."
+    },
+    "UltimatumOfMalevolence": {
+      "name": "Ultimátum de malevolencia",
+      "text": "Solo dificultad Fácil o Normal. Al jugar, usa el lado «Difícil/Experto» de la carta de referencia del escenario."
+    },
+    "UltimatumOfVenom": {
+      "name": "Ultimátum del veneno",
+      "text": "La era olvidada. Cada copia de Envenenado obtiene «Obligado – Cuando termine la partida, si no has sido eliminado: sufre 1 trauma físico»."
+    },
+    "UltimatumOfAmbuscade": {
+      "name": "Ultimátum de la emboscada",
+      "text": "La era olvidada. Después de cada exploración con éxito, el investigador que la realizó revela la carta superior del mazo de Encuentro. Si es un enemigo, la roba. En caso contrario, la descarta."
+    },
+    "UltimatumOfAnnoyance": {
+      "name": "Ultimátum de la molestia",
+      "text": "Los confines de la Tierra. Cuando empiece la campaña, baraja 3 cartas al azar del conjunto de encuentro Tekeli-li en el mazo de cada investigador."
+    },
+    "BoonOfAtonement": {
+      "name": "Don de la expiación",
+      "text": "Sombras de sufrimiento (Las llaves escarlata). Cada plan obtiene +1 de umbral de perdición."
+    },
+    "BoonOfBliss": {
+      "name": "Don de la dicha",
+      "text": "El destino del Valle (La fiesta del Valle de la Cicuta). Cada plan obtiene +2 de umbral de perdición."
+    },
+    "UltimatumOfTheUnspeakableName": {
+      "name": "Ultimátum del nombre inefable",
+      "text": "El camino a Carcosa. Si en tu Registro de campaña está anotado que hiciste caso a la advertencia de Daniel, cada vez que pronuncies en voz alta el nombre HASTUR durante la preparación o la partida de un escenario, además de recibir 1 horror, sufre 1 trauma mental."
+    },
+    "UltimatumOfTheBrassCrown": {
+      "name": "Ultimátum de la corona de latón",
+      "text": "El camino a Carcosa. Si en tu Registro de campaña está anotado que hiciste caso a la advertencia de Daniel, al comienzo de cada escenario recibe 1 horror por cada vez que hayas pronunciado, escrito o tecleado el nombre HASTUR desde el final del escenario anterior."
+    },
+    "UltimatumOfTheFaultyCarburetor": {
+      "name": "Ultimátum del carburador averiado",
+      "text": "Horror a toda máquina (La conspiración de Innsmouth). Durante la preparación, si juegas con exactamente 2 investigadores, ambos deben elegir subir al mismo vehículo."
+    },
+    "UltimatumOfTheSleeper": {
+      "name": "Ultimátum del durmiente",
+      "text": "La perdición de Arkham parte II (La ciudad sumergida). El valor de salud del lado Enfurecido de cada enemigo Cthulhu pasa a ser «X por investigador»."
+    },
+    "UltimatumOfInvisibility": {
+      "name": "Ultimátum de invisibilidad",
+      "text": "Invisibles y sin dimensión (El legado de Dunwich). Cada Progenie de Yog-Sothoth obtiene el rasgo Élite y es inmune a todos los efectos de cartas de jugador excepto a los de Fórmula esoterica."
+    },
+    "UltimatumOfTheMan": {
+      "name": "Ultimátum del Hombre",
+      "text": "La máscara pálida (El camino a Carcosa). A efectos de la habilidad de aparición de Morador de cadáver, El hombre de la máscara pálida no cuenta como enemigo Humanoide. Mientras sea el Acto 2, El hombre de la máscara pálida no puede abandonar la Tumba de sombras."
+    },
+    "UltimatumOfSpoilage": {
+      "name": "Ultimátum del deterioro",
+      "text": "La ciudad sumergida. Los investigadores no pueden desencadenar habilidades de apoyos Artefacto ni asignarles daño. Si un apoyo Objeto del conjunto de encuentro Expedición es derrotado o descartado, no puede elegirse durante la preparación el resto de la campaña."
+    },
+    "UltimatumOfDeath": {
+      "name": "Ultimátum de la muerte",
+      "text": "La máscara pálida (El camino a Carcosa). Tras la preparación, avanza inmediatamente el Plan 1a a Espectro de la muerte y haz que aparezca agotado en tu Lugar inicial. El Plan 2a obtiene +6 de umbral de perdición. Espectro de la muerte obtiene: «Obligado – Cuando sea derrotado: en lugar de añadirlo a la zona de victoria, cura todo su daño y agótalo. No se prepara durante la próxima fase de mantenimiento»."
+    },
+    "BoonOfTheDreamer": {
+      "name": "Don del Soñador",
+      "text": "Donde moran los dioses (Los devoradores de sueños). Tras avanzar al Acto 5, avanza al plan 3a y retira toda la perdición de él. Este plan obtiene +2 de umbral de perdición."
+    },
+    "UltimatumOfMultiplication": {
+      "name": "Ultimátum de la multiplicación",
+      "text": "Invisibles y sin dimensión (El legado de Dunwich). En lugar de las instrucciones normales de preparación, empieza la partida con las cinco cartas de Progenie de Yog-Sothoth en juego: una en cada uno de los cinco Lugares distintos de la Aldea de Dunwich. Durante este escenario, siempre que un efecto fuera a hacer aparecer una Progenie de Yog-Sothoth dejada aparte, en su lugar debes colocar una perdición en el plan actual."
+    },
+    "UltimatumOfTheDrowned": {
+      "name": "Ultimátum de los ahogados",
+      "text": "Hacia el remolino (La conspiración de Innsmouth). Cada plan obtiene –1 de umbral de perdición. El efecto Obligado de los lados Despierto y Enfurecido de Dagon e Hydra pasa a ser: «Obligado – Después de que sea evitado o reciba daño: haz lo mismo también a una copia de su Progenie en juego. Prepárala»."
+    },
+    "BoonOfTheMiners": {
+      "name": "Don de los mineros",
+      "text": "El destino del Valle (La fiesta del Valle de la Cicuta). La primera habilidad de El destino del Valle (v. III) pasa a ser «{'{'}action{'}'} Gasta X pistas: coloca X recursos en tu Lugar, como yesca…» y la segunda pasa a ser «{'{'}fast{'}'} Si tu Lugar tiene 1 {'{'}perPlayer{'}'} de yesca, retira toda la yesca: roba 1 traición ¡Fuego! dejada aparte. (Límite de grupo de una vez por Lugar)»."
+    },
+    "BoonOfTheDance": {
+      "name": "Don del baile",
+      "text": "La fiesta del Valle de la Cicuta. Al elegir con qué residentes compartir un baile durante el preludio La segunda noche, los jugadores pueden consultar los requisitos de Nivel de relación de una entrada del códice antes de resolverla."
+    }
+  },
+  "morrigan": {
+    "instructions": "Elige 1 de estas 3 debilidades básicas aleatorias para devolverla a la colección. Una de las 2 restantes se elegirá al azar y se añadirá a tu mazo.",
+    "returnAction": "Devolver a la colección",
+    "waiting": "Esperando a que {investigator} elija una debilidad que devolver…"
+  },
+  "deckRequirements": {
+    "chaos": "Ultimátum del caos: las cartas de tu mazo que no sean de firma ni debilidades deben elegirse al azar de tu colección (regla de honor: la aplicación no la impone)",
+    "disaster": "Ultimátum del desastre: tu mazo obtiene 1 debilidad básica aleatoria adicional (se añade automáticamente)",
+    "highlander": "Ultimátum del inmortal: solo 1 copia de cada carta que no sea debilidad, según su título (salvo que tu investigador exija más)",
+    "induction": "Ultimátum de iniciación: solo cartas de nivel 0; no se puede obtener ni gastar experiencia",
+    "orthodoxy": "Ultimátum de ortodoxia: tu mazo debe usar una lista de tabú",
+    "exile": "Ultimátum del exilio: las cartas con exilio no pueden usarse en juego independiente"
+  },
+  "betaBadge": "Beta"
+}

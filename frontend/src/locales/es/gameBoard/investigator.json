@@ -1,9 +1,10 @@
 {
-    "discards": "Descartes",
-    "endTurn": "Finalizar Turno",
-    "skipTriggers": "Saltar Desencadenantes",
-    "skipAllTriggers": "Saltar Desencadenantes de Todos los Investigadores",
-    "devouredCards": "Devoradas ({count})",
-    "underneathCards": "Enterradas ({count})"
-
+  "discards": "Descartes",
+  "endTurn": "Finalizar Turno",
+  "endTurnShort": "Fin",
+  "skipTriggers": "Saltar Triggers",
+  "skipAllTriggers": "Saltar Triggers de Todos los Investigadores",
+  "devouredCards": "Devoradas ({count})",
+  "underneathCards": "Enterradas ({count})",
+  "freeAbilitiesUnavailable": "<strong>Habilidades gratuitas no disponibles</strong><br>Las habilidades rápidas y gratuitas no pueden usarse durante una acción inmediata."
 }
