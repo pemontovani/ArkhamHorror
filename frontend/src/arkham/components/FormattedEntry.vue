@@ -1,7 +1,8 @@
 <script lang="ts">
 import { defineComponent, h } from 'vue'
 import { type FlavorTextEntry, type FlavorTextModifier, type ImageModifier, type ListItemEntry } from '@/arkham/types/FlavorText'
-import { baseUrl, formatContent, imgsrc } from '@/arkham/helpers'
+import { formatContent, imgsrc } from '@/arkham/helpers'
+import { useSiteSettingsStore } from '@/stores/site_settings'
 import { cardImage } from '@/arkham/cardImages'
 import { type ComposerTranslation, useI18n } from 'vue-i18n'
 import { tarotArcanaImage } from '@/arkham/types/TarotCard'
@@ -82,7 +83,11 @@ function formatEntry(t: ComposerTranslation, entry: FlavorTextEntry, classes: { 
     // `setImgPath` points at the core encounter-set icons; homebrew campaigns keep
     // their icons under their own directory (see vite.config.js), so they build the
     // path from `imgPath` instead: {imgPath}/homebrew/<campaign>/sets/<set>.png
-    case 'I18nEntry': return h('div', { innerHTML: formatContent(t(entry.key, {...entry.variables, imgPath: `${baseUrl}/img/arkham`, setImgPath: `${baseUrl}/img/arkham/encounter-sets` })) })
+    case 'I18nEntry': {
+      // The same host `imgsrc` uses, so a self-hosted install serves these too.
+      const imgPath = `${useSiteSettingsStore().assetHost}/img/arkham`
+      return h('div', { innerHTML: formatContent(t(entry.key, {...entry.variables, imgPath, setImgPath: `${imgPath}/encounter-sets` })) })
+    }
     case 'ModifyEntry': {
       const styles = entryStyles(entry)
       if (styles.codex) {

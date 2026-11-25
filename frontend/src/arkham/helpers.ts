@@ -156,8 +156,6 @@ export function buildShareableUrl(resolvedHref: string): string {
   return window.location.origin + window.location.pathname + resolvedHref
 }
 
-export const baseUrl = import.meta.env.PROD ? "https://assets.arkhamhorror.app" : ''
-
 export function isLocalized(src: string) {
   const language = localStorage.getItem('language') || 'en'
   // Always return true for English since all base images are English

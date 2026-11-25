@@ -22,7 +22,14 @@
 #
 # The base file already mounts ./frontend/public/img and ./frontend-3ed/public/img
 # into the container, so no volumes need repeating here.
+#
+# This override also runs a locally built image (Dockerfile.frontend), which adds
+# this checkout's frontend to the saved base image. A different image name keeps
+# `docker compose pull` on the base file from replacing it.
 services:
   web:
+    image: "arkham-local:offline"
+    build:
+      dockerfile: Dockerfile.frontend
     environment:
       - ASSET_HOST=http://localhost:3000

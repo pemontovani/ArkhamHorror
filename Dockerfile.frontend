@@ -1,0 +1,27 @@
+# Rebuilds only the web frontend on top of an image that already exists on this
+# machine, so changes under frontend/ ship without compiling the Haskell backend.
+#
+#   docker tag halogenandtoast/arkham-horror:latest arkham-local:base   # once
+#   docker compose -f docker-compose.yml -f docker-compose.local-assets.yml build web
+#
+# The base supplies the API, nginx and the third edition frontend. Backend changes
+# in this checkout are NOT picked up; that needs the full Dockerfile.
+ARG BASE_IMAGE=arkham-local:base
+
+# Same Node version and steps as the frontend stage of the full Dockerfile.
+FROM node:24.7.0-alpine AS frontend
+
+ENV LC_ALL=C.UTF-8
+
+WORKDIR /opt/arkham/src/frontend
+COPY ./frontend/package.json ./frontend/tsconfig.json ./frontend/vite.config.js ./frontend/eslint.config.js ./frontend/package-lock.json ./
+RUN --mount=type=cache,target=/root/.npm npm ci
+COPY ./frontend ./
+# Empty: the app takes the image host from the API (ASSET_HOST) at run time.
+ENV VITE_ASSET_HOST=""
+ENV VITE_AUTH_COOKIE_DOMAIN=""
+RUN npm run build
+
+FROM ${BASE_IMAGE}
+
+COPY --from=frontend --chown=yesod:yesod /opt/arkham/src/frontend/dist /opt/arkham/src/frontend/dist
