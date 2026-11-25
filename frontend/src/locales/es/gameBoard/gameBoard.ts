@@ -9,9 +9,9 @@ import card from '@/locales/es/gameBoard/card.json'
 import upgrade from '@/locales/es/gameBoard/upgrade.json'
 import create from '@/locales/es/gameBoard/create.json'
 import ultimatumsAndBoons from '@/locales/en/gameBoard/ultimatumsAndBoons.json'
-import achievements from '@/locales/en/gameBoard/achievements.json'
+import achievements from '@/locales/es/gameBoard/achievements.json'
 
-// historyPanel, ultimatumsAndBoons and achievements have no Spanish file yet, so
-// they come from English. Every other key a Spanish file leaves out falls back to
+// historyPanel and ultimatumsAndBoons have no Spanish file yet, so they come
+// from English. Every other key a Spanish file leaves out falls back to
 // English too (fallbackLocale in main.ts), so a partial translation is safe.
 export default {...base, phase, skillTest, gameBar, historyPanel, investigator, scenario, card, upgrade, create, ultimatumsAndBoons, achievements}

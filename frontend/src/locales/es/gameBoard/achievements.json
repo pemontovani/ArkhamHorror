@@ -1,0 +1,1043 @@
+{
+  "toastTitle": "¡Logro desbloqueado!",
+  "tabTitle": "Logros",
+  "tabs": {
+    "official": "Oficiales",
+    "homebrew": "Homebrew"
+  },
+  "pageTitle": "Logros",
+  "gameDeleted": "(partida eliminada)",
+  "viewGame": "Ver partida",
+  "settingsToggleTitle": "Seguimiento de logros",
+  "settingsToggleDescription": "Registra los logros oficiales de esta campaña mientras juegas. Los desbloqueos se guardan en tu cuenta y se muestran en el Registro de campaña.",
+  "noneEarnedYet": "Todavía no has conseguido ningún logro.",
+  "progressLabel": "{earned} de {total} logros conseguidos",
+  "campaigns": {
+    "10": "La fiesta del Valle de la Cicuta",
+    "11": "La ciudad sumergida",
+    "13": "Hijos de la sangre",
+    "50": "Regreso a La noche de la fanática",
+    "51": "Regreso a El legado de Dunwich",
+    "52": "Regreso a El camino a Carcosa",
+    "53": "Regreso a La era olvidada",
+    "54": "Regreso a El círculo roto",
+    "06": "Los devoradores de sueños",
+    "07": "La conspiración de Innsmouth",
+    "08": "Los confines de la Tierra",
+    "09": "Las llaves escarlata"
+  },
+  "entries": {
+    "TheZealotsRevenge": {
+      "name": "La venganza de la fanática",
+      "text": "Haz que la habilidad de reacción de Lita Chantler dé el golpe de gracia al Sacerdote gul."
+    },
+    "IDontTrustHer": {
+      "name": "No me fío de ella",
+      "text": "Cuando se te ofrezca añadir a Lita Chantler a tu mazo, niégate."
+    },
+    "InsuranceDoesntCoverGhouls": {
+      "name": "El seguro no cubre gules",
+      "text": "Quema tu casa hasta los cimientos en El encuentro."
+    },
+    "ButDoIHaveTo": {
+      "name": "…¿Pero tengo que hacerlo?",
+      "text": "En Las máscaras de medianoche, haz que cada investigador permanezca en Tu casa durante las tres primeras rondas."
+    },
+    "ConspiracyOfSilence": {
+      "name": "Conspiración de silencio",
+      "text": "Encuentra e interroga a los seis sectarios únicos en Las máscaras de medianoche."
+    },
+    "TourOfArkham": {
+      "name": "Visita guiada por Arkham",
+      "text": "Desencadena cada una de las habilidades «una vez por partida» de todos los Lugares en juego en Las máscaras de medianoche."
+    },
+    "DoYouGetItNow": {
+      "name": "¿Lo pillas ahora?",
+      "text": "Desencadena la habilidad Obligado de Billy Cooper derrotando al Sacerdote gul en su Lugar."
+    },
+    "PinchHitter": {
+      "name": "Bateador de emergencia",
+      "text": "Derrota tres enemigos Gul con un Bate de béisbol sin que se rompa."
+    },
+    "EvenDeathMayDie": {
+      "name": "Incluso la muerte puede morir",
+      "text": "Derrota a Umôrdhoth mientras tenga unido Cámara de la defunción terrenal."
+    },
+    "BreakTheCircle": {
+      "name": "Rompe el círculo",
+      "text": "Completa El Devorador de las Profundidades sin que aparezca Umôrdhoth."
+    },
+    "TheyreJustMisunderstood": {
+      "name": "Solo son unos incomprendidos",
+      "text": "Gana la campaña La noche de la fanática sin derrotar ni un solo enemigo Sectario único."
+    },
+    "UmordhothsFavor": {
+      "name": "El favor de Umôrdhoth",
+      "text": "Gana la campaña La noche de la fanática sin derrotar ni un solo enemigo Gul."
+    },
+    "ZealotLineInTheSand": {
+      "name": "Una raya en la arena",
+      "text": "Gana la campaña La noche de la fanática con al menos tres Ultimátums activos."
+    },
+    "ArkhamExpertise": {
+      "name": "Experto en Arkham",
+      "text": "Gana la campaña La noche de la fanática en dificultad Experto."
+    },
+    "WhatIsThisStuffAnyway": {
+      "name": "¿Pero qué es este potingue?",
+      "text": "Derrota a El Experimento con la Pócima alquímica en Actividad extracurricular."
+    },
+    "NoVoidForYou": {
+      "name": "Para ti no hay vacío",
+      "text": "Completa El museo Miskatonic sin derrotar nunca al Horrendo cazador."
+    },
+    "FirstRuleOfArkham": {
+      "name": "Primera regla de Arkham",
+      "text": "Quema el Necronomicón en El museo Miskatonic."
+    },
+    "AllAboard": {
+      "name": "¡Pasajeros al tren!",
+      "text": "Completa El Essex County Express sin dejar que ningún Pasajero indefenso salga del juego."
+    },
+    "TheGangsAllHere": {
+      "name": "Está toda la banda",
+      "text": "En Los supervivientes, haz que los siguientes personajes sobrevivan a El legado de Dunwich:",
+      "items": {
+        "DrHenryArmitage": "Dr. Henry Armitage",
+        "ZebulonWhateley": "Zebulon Whateley",
+        "DrFrancisMorgan": "Dr. Francis Morgan",
+        "EarlSawyer": "Earl Sawyer",
+        "ProfessorWarrenRice": "Profesor Warren Rice"
+      }
+    },
+    "NoBroodLeftBehind": {
+      "name": "No dejamos progenie atrás",
+      "text": "Que ninguna Progenie de Yog-Sothoth escape a la naturaleza en Invisibles y sin dimensión."
+    },
+    "RemindMeNotToPissHerOff": {
+      "name": "Recuérdame que no la cabree",
+      "text": "Derrota a cualquiera de las versiones de Seth Bishop mientras controlas a Naomi O'Bannion."
+    },
+    "Eureka": {
+      "name": "¡Eureka!",
+      "text": "Identifica la Solución extraña."
+    },
+    "BeyondWhatVeil": {
+      "name": "¿Qué más allá?",
+      "text": "Recibe 10 de daño de Al otro lado del velo sin ser derrotado."
+    },
+    "HereWeGoAgain": {
+      "name": "Ya estamos otra vez",
+      "text": "Ten en juego a la vez al Dr. Henry Armitage, al Dr. Francis Morgan y al profesor Warren Rice."
+    },
+    "BirdHunting": {
+      "name": "Caza de aves",
+      "text": "Derrota 3 Chotacabras en un solo turno."
+    },
+    "TheyArentGettingAwayWithThis": {
+      "name": "No se saldrán con la suya",
+      "text": "Gana la campaña El legado de Dunwich como «Ashcan» Pete con Duke anotado bajo «Sacrificados a Yog-Sothoth»."
+    },
+    "TabulaRasa": {
+      "name": "Tabula rasa",
+      "text": "Gana la campaña El legado de Dunwich sin fichas de Tablilla ni de Primigenio en la bolsa de caos."
+    },
+    "DunwichLineInTheSand": {
+      "name": "Una raya en la arena",
+      "text": "Gana la campaña El legado de Dunwich con al menos tres Ultimátums activos."
+    },
+    "DunwichExpertise": {
+      "name": "Experto en Dunwich",
+      "text": "Gana la campaña El legado de Dunwich en dificultad Experto."
+    },
+    "FairWarning": {
+      "name": "Avisado quedas",
+      "text": "Derrota al Emisario real tres veces durante una misma partida de Se cierra el telón."
+    },
+    "FirstSteps": {
+      "name": "Primeros pasos",
+      "text": "Entrevista a las siguientes personalidades en El Último Rey:",
+      "items": {
+        "ConstanceDumaine": "Constance Dumaine",
+        "SebastienMoreau": "Sebastien Moreau",
+        "JordanPerry": "Jordan Perry",
+        "AshleighClarke": "Ashleigh Clarke",
+        "IshimaruHaruko": "Ishimaru Haruko"
+      }
+    },
+    "CrashingTheParty": {
+      "name": "Colándose en la fiesta",
+      "text": "Derrota a la versión Lunática de Dianne Devine en El Último Rey."
+    },
+    "ForPryingEyes": {
+      "name": "Para ojos curiosos",
+      "text": "Añade la Biblioteca oculta a la zona de victoria en Ecos del pasado."
+    },
+    "TheCuckoosNest": {
+      "name": "El nido del cuco",
+      "text": "Desiste con Daniel Chesterfield bajo el control de un investigador en El juramento inconfesable."
+    },
+    "TakeALookAtThis": {
+      "name": "¡Échale un vistazo a esto!",
+      "text": "Negocia con el Portador de la locura en El juramento inconfesable."
+    },
+    "ThePathOfDeath": {
+      "name": "El sendero de la muerte",
+      "text": "Usa tu Broche de ónice negro para encontrar un atajo en La máscara pálida."
+    },
+    "GuessingGame": {
+      "name": "Juego de adivinanzas",
+      "text": "Avanza hasta el último plan de un mazo de Plan antes de avanzar el primer plan del otro mazo de Plan en Surgen estrellas negras."
+    },
+    "HasturMadeMeDoIt": {
+      "name": "Hastur me obligó",
+      "text": "Derrota a Hastur en Penumbrosa Carcosa mientras tengas una traición de Posesión en la mano."
+    },
+    "SayMyName": {
+      "name": "Di mi nombre",
+      "text": "Tras haber hecho caso a la advertencia de Daniel, pronuncia en voz alta el nombre HASTUR siete veces o más durante un mismo escenario (o su preparación)."
+    },
+    "GetBackHere": {
+      "name": "¡Vuelve aquí!",
+      "text": "Gana la campaña El camino a Carcosa sin haber terminado nunca un escenario con El hombre de la máscara pálida en juego."
+    },
+    "ThePathIsFalse": {
+      "name": "El camino es falso",
+      "text": "Gana la campaña El camino a Carcosa con 8 de Duda."
+    },
+    "ThePathIsReal": {
+      "name": "El camino es real",
+      "text": "Gana la campaña El camino a Carcosa con 8 de Convicción."
+    },
+    "ThePathIsMine": {
+      "name": "El camino es mío",
+      "text": "Gana la campaña El camino a Carcosa con menos de 2 de Duda y Convicción en total."
+    },
+    "CarcosaLineInTheSand": {
+      "name": "Una raya en la arena",
+      "text": "Gana la campaña El camino a Carcosa con al menos tres Ultimátums activos."
+    },
+    "CarcosaExpertise": {
+      "name": "Experto en Carcosa",
+      "text": "Gana la campaña El camino a Carcosa en dificultad Experto."
+    },
+    "WhyDidItHaveToBeSnakes": {
+      "name": "¿Por qué tenían que ser serpientes?",
+      "text": "Derrota veinte enemigos Serpiente a lo largo de la campaña La era olvidada."
+    },
+    "WatchThemUnravel": {
+      "name": "Míralos deshilacharse",
+      "text": "Completa los cuatro mazos de Acto durante una misma partida de Los hilos del destino."
+    },
+    "HopeForHumanity": {
+      "name": "Esperanza para la humanidad",
+      "text": "Devuelve a Ichtaca la fe en la humanidad en El límite del otro lado."
+    },
+    "Scenario5What": {
+      "name": "¿Escenario 5-qué?",
+      "text": "Sáltate El corazón de los antiguos, Parte 1."
+    },
+    "BeyondPerfection": {
+      "name": "Más allá de la perfección",
+      "text": "Completa las ocho tareas del acto 2 de La Ciudad de los Archivos durante una misma partida."
+    },
+    "IRememberEverything": {
+      "name": "¡Lo recuerdo todo!",
+      "text": "Restaura la memoria de Alejandro en La Ciudad de los Archivos."
+    },
+    "Patricide": {
+      "name": "Parricidio",
+      "text": "Derrota a Yig en Las profundidades de Yoth."
+    },
+    "HesGotAPoint": {
+      "name": "Algo de razón tiene",
+      "text": "Ponte del lado de Alejandro en Eones destrozados."
+    },
+    "ValusiaSoundsGreat": {
+      "name": "Valusia suena genial",
+      "text": "Ponte del lado de Ichtaca en Eones destrozados."
+    },
+    "IveBuiltUpAnImmunity": {
+      "name": "He desarrollado inmunidad",
+      "text": "Gana la campaña La era olvidada sin envenenarte nunca."
+    },
+    "WeHaveAnUnderstanding": {
+      "name": "Tenemos un acuerdo",
+      "text": "Gana la campaña La era olvidada sin infligir nunca daño al Heraldo de Valusia."
+    },
+    "WhoNeedsAnyOfThisJunk": {
+      "name": "¿Quién necesita estos trastos?",
+      "text": "Gana la campaña La era olvidada sin comprar ningún suministro."
+    },
+    "DontTreadOnMe": {
+      "name": "No me pises",
+      "text": "Gana la campaña La era olvidada sin marcas anotadas bajo Furia de Yig en tu Registro de campaña."
+    },
+    "BaneOfYig": {
+      "name": "Azote de Yig",
+      "text": "Gana la campaña La era olvidada con 25 o más marcas anotadas bajo Furia de Yig en tu Registro de campaña."
+    },
+    "IfICouldTurnBackTime": {
+      "name": "Si pudiera volver atrás en el tiempo",
+      "text": "Forja tu propio camino, desbloquea el Escenario IX y gana la campaña La era olvidada."
+    },
+    "YothExpertise": {
+      "name": "Experto en Yoth",
+      "text": "Gana la campaña La era olvidada en dificultad Experto."
+    },
+    "WhoYouGonnaCall": {
+      "name": "¿A quién vas a llamar?",
+      "text": "Derrota 13 enemigos Espectro o Espectrales a lo largo de la campaña. No cuentan los enemigos que no se descartan ni se añaden a la zona de victoria."
+    },
+    "SaviorOfHumanity": {
+      "name": "Salvador de la humanidad",
+      "text": "Rescata a todos los enemigos del Crepúsculo de Plata que aparezcan en A las puertas de la muerte."
+    },
+    "TenOutOfTenWouldReadAgain": {
+      "name": "10/10, lo volvería a leer",
+      "text": "Usando El Libro Negro, recibe un total de 10 de horror con su habilidad a lo largo de la campaña."
+    },
+    "CarlShmarl": {
+      "name": "Carl Shmarl",
+      "text": "Entra en el círculo interior de la Logia del Crepúsculo de Plata y traiciónalos en Unión y desilusión."
+    },
+    "TheThreefoldRule": {
+      "name": "La ley del tres",
+      "text": "Únete a Erynn y vuélvete contra su aquelarre en Unión y desilusión."
+    },
+    "NewWorldOrder": {
+      "name": "Nuevo orden mundial",
+      "text": "Ayuda a la Logia del Crepúsculo de Plata a ganar la campaña El círculo roto."
+    },
+    "ImmortalitySoundsNice": {
+      "name": "La inmortalidad suena bien",
+      "text": "Ayuda al aquelarre de Anette a ganar la campaña El círculo roto."
+    },
+    "MoreLikeExcursion": {
+      "name": "Más bien una excursión",
+      "text": "Completa En las garras del caos sin que se produzca ni una sola incursión."
+    },
+    "MemberThese": {
+      "name": "¿Te acuerdas de esto?",
+      "text": "Descubre los siguientes Recuerdos:",
+      "items": {
+        "MesmerizingFlute": "Flauta hipnótica",
+        "KeziahsFormulae": "Fórmulas de Keziah",
+        "RitualComponents": "Componentes rituales",
+        "WornCrucifix": "Crucifijo desgastado",
+        "ScrapOfTornShadow": "Jirón de sombra desgarrada",
+        "WispOfSpectralMist": "Voluta de niebla espectral",
+        "StrangeIncantation": "Extraño conjuro",
+        "CornHuskDoll": "Muñeca de hojas de maíz",
+        "GilmansJournal": "Diario de Gilman",
+        "BloodyTreeCarvings": "Tallas sangrientas en un árbol"
+      }
+    },
+    "CaseClosed": {
+      "name": "Caso cerrado",
+      "text": "Salva a cada uno de los siguientes personajes de un destino terrible:",
+      "items": {
+        "ValentinoRivas": "Valentino Rivas",
+        "GavriellaMizrah": "Gavriella Mizrah",
+        "PennyWhite": "Penny White",
+        "JeromeDavids": "Jerome Davids"
+      }
+    },
+    "MusicOfTheOuterGods": {
+      "name": "Música de los Dioses Exteriores",
+      "text": "Acepta tu destino y gana la campaña El círculo roto uniéndote a los Flautistas de Azathoth."
+    },
+    "WeaverOfShadowAndMist": {
+      "name": "Tejedor de sombra y niebla",
+      "text": "Rechaza tu destino y gana la campaña El círculo roto creando un conjuro para contener a Azathoth."
+    },
+    "FinePrint": {
+      "name": "La letra pequeña",
+      "text": "Gana la campaña El círculo roto firmando tu nombre en El Libro Negro de Azathoth."
+    },
+    "SpeakTheWordsAloud": {
+      "name": "atla zov ne sarbalap sal aicnunorP",
+      "text": "Gana la campaña El círculo roto descubriendo e invirtiendo un antiguo conjuro."
+    },
+    "CircleExpertise": {
+      "name": "Experto en el Círculo",
+      "text": "Gana la campaña El círculo roto en dificultad Experto."
+    },
+    "OneFirstLastJob": {
+      "name": "Un primer último trabajo",
+      "text": "Completa la campaña La ciudad sumergida una vez en cualquier dificultad."
+    },
+    "SeasonTwo": {
+      "name": "Segunda temporada",
+      "text": "Juega la campaña en dificultad Difícil o Experto con 4 investigadores de 4 campañas anteriores distintas. Actualmente no se puede conseguir: requiere el modo de campaña épica, que aún no está implementado."
+    },
+    "CliffDiver": {
+      "name": "Saltador de acantilados",
+      "text": "Completa la campaña sin llevar nunca un traje de buceo."
+    },
+    "ThisIsACoup": {
+      "name": "Esto es un golpe de Estado",
+      "text": "Derrota a Naomi O’Bannion y a Sadie Sheldon en Un último trabajo usando solo la habilidad de negociar del acto 3a."
+    },
+    "ThoroughSearch": {
+      "name": "Búsqueda exhaustiva",
+      "text": "Termina La muralla occidental con todos los Lugares revelados."
+    },
+    "TidalFlipMinigame": {
+      "name": "Minijuego de mareas",
+      "text": "Completa El barrio sumergido con todos los Lugares revelados y sin inundar."
+    },
+    "NoAcolyteLeftBehind": {
+      "name": "Ningún acólito atrás",
+      "text": "Rescata a 5 sectarios en El apiario."
+    },
+    "KillTheAdds": {
+      "name": "Acaba con los refuerzos",
+      "text": "Derrota a la Madre en El apiario usando solo su efecto Obligado."
+    },
+    "InTheDeepEnd": {
+      "name": "En lo más hondo",
+      "text": "Escapa de La gran cámara con la Tablilla de marea después de que todos los Lugares se hayan inundado por completo."
+    },
+    "SorryDidntSeeYouThere": {
+      "name": "Perdona, no te había visto",
+      "text": "Supera La corte de los antiguos sin mover el Gran ascensor después de que aparezca el Tirano colosal."
+    },
+    "SkyRider": {
+      "name": "Jinete del cielo",
+      "text": "Termina tu turno a cielo abierto al menos 5 veces durante una misma partida de Cañones de obsidiana."
+    },
+    "SkipToTheEnd": {
+      "name": "Salta al final",
+      "text": "Derrota a Cthulhu en Sepulcro del durmiente."
+    },
+    "AlienSchoolDropout": {
+      "name": "Abandono de la escuela alienígena",
+      "text": "Completa la campaña sin traducir ni un solo glifo alienígena."
+    },
+    "AlienSchoolGraduate": {
+      "name": "Graduado en la escuela alienígena",
+      "text": "Traduce los 26 glifos alienígenas durante una misma partida de la campaña La ciudad sumergida."
+    },
+    "EmptyHanded": {
+      "name": "Con las manos vacías",
+      "text": "Regresa de R’lyeh sin haber recogido ningún apoyo de historia Artefacto."
+    },
+    "WhyWontYouStayDead": {
+      "name": "¿POR QUÉ. NO. TE. QUEDAS. MUERTO?!",
+      "text": "Añade El ineludible a la zona de victoria al menos 20 veces durante una misma campaña."
+    },
+    "DrownedCityLineInTheSand": {
+      "name": "Una raya en la arena",
+      "text": "Gana la campaña La ciudad sumergida con al menos tres Ultimátums activos."
+    },
+    "RlyehExpertise": {
+      "name": "Experto en R’lyeh",
+      "text": "Gana la campaña La ciudad sumergida en dificultad Experto."
+    },
+    "WithYourPowersCombined": {
+      "name": "Con vuestros poderes combinados…",
+      "text": "Termina la campaña La ciudad sumergida habiendo conseguido los siguientes artefactos:",
+      "items": {
+        "BarrierNode": "Nodo de la barrera",
+        "GrislyMask": "Grisly “Mask”",
+        "ObsidianClaw": "Garra de obsidiana",
+        "TidalTablet": "Tablilla de marea",
+        "ShardOfYchlecht": "Shard of Y’ch’lecht",
+        "HorrorInClay": "Horror de arcilla"
+      }
+    },
+    "Obligations": {
+      "name": "Obligaciones",
+      "text": "Termina la campaña La ciudad sumergida con las siguientes tareas completadas:",
+      "items": {
+        "WalkInFaith": "Caminar con fe",
+        "DreamsOfDestruction": "Sueños de destrucción",
+        "ToeTheLine": "Cumplir las normas",
+        "DoNoHarm": "No hacer daño",
+        "GoodMoney": "Un buen dinero",
+        "NoPlaceLikeHome": "Como en casa, en ningún sitio",
+        "ProveYourWorth": "Demostrar tu valía",
+        "PlumbTheDepths": "Sondear las profundidades"
+      }
+    },
+    "DoYouAlwaysFollowOrders": {
+      "name": "¿Siempre obedeces las órdenes?",
+      "text": "No te apartes del sendero en Más allá de las Puertas del Sueño."
+    },
+    "AwwButTheyreSoCute": {
+      "name": "Ay, pero si son monísimos",
+      "text": "No derrotes ni un solo enemigo Zoog en Más allá de las Puertas del Sueño."
+    },
+    "LosingMyReligion": {
+      "name": "Perdiendo mi religión",
+      "text": "En una misma partida, encuentra y descubre las 10 Señales de los dioses en La búsqueda de Kadath."
+    },
+    "FantasyFlightGamesDoesNotCondoneAccomplishingThisAchievement": {
+      "name": "Fantasy Flight Games (®) no aprueba que consigas este logro",
+      "text": "Infringe la ley de Ulthar en La búsqueda de Kadath."
+    },
+    "TacticalEspionageAction": {
+      "name": "Acción de espionaje táctico",
+      "text": "Completa El lado oscuro de la luna con el nivel de alarma de cada investigador a cero."
+    },
+    "MoonLizardsIDontBelieveTheyExist": {
+      "name": "¿Lagartos lunares? No creo que existan",
+      "text": "Derrota al Lagarto lunar en El lado oscuro de la luna."
+    },
+    "BarkhamHorrorEnthusiast": {
+      "name": "Entusiasta de Barkham Horror",
+      "text": "Derrota 1 o más Gatos de Saturno usando una habilidad de combatir sobre un aliado gato o un aliado perro."
+    },
+    "OnlyWayToBeSure": {
+      "name": "La única forma de asegurarse",
+      "text": "Reduce al Sumo Sacerdote Que No Debe Ser Descrito a 1 de salud restante y, aun así, tíralo a un pozo en Donde moran los dioses."
+    },
+    "GiveThemSomethingToTalkAbout": {
+      "name": "Dales algo de qué hablar",
+      "text": "En una misma ronda, añade todas las formas ocultas de Nyarlathotep a la zona de victoria en Donde moran los dioses."
+    },
+    "ThisIsntEvenMyFinalForm": {
+      "name": "¡Ni siquiera es mi forma final!",
+      "text": "Expón y derrota después la Forma verdadera de Nyarlathotep en Donde moran los dioses."
+    },
+    "DontTellAnyoneBut": {
+      "name": "No se lo cuentes a nadie, pero…",
+      "text": "Usando la habilidad del El gran salón, da 6 cartas ocultas distintas a otro investigador en Donde moran los dioses."
+    },
+    "DreamQuestLineInTheSand": {
+      "name": "Una raya en la arena",
+      "text": "Gana la campaña La búsqueda de los sueños con al menos tres Ultimátums activos."
+    },
+    "DreamlandsExpertise": {
+      "name": "Experto en las Tierras del Sueño",
+      "text": "Gana la campaña La búsqueda de los sueños en dificultad Experto."
+    },
+    "BewareTheBlackCat": {
+      "name": "Cuidado con el gato negro",
+      "text": "Completa la campaña Los devoradores de sueños con «vale, está bien, que sea a tu manera» anotado en tu Registro de campaña."
+    },
+    "ReunitedAndItFeelsSoGood": {
+      "name": "Reunidos, y qué bien sienta",
+      "text": "Gana Los devoradores de sueños como campaña entrelazada de 8 partes y haz que ambos grupos se reúnan en el epílogo."
+    },
+    "EveryonesAFeministUntilThereIsASpiderAround": {
+      "name": "Todos son valientes hasta que aparece una araña",
+      "text": "Derrota veinte enemigos Araña. (Las cartas de enjambre no cuentan)."
+    },
+    "TheCarterMethod": {
+      "name": "El método Carter",
+      "text": "Deja que todos los Lugares se infesten y después séllalos todos en Pesadilla consciente."
+    },
+    "TheDoctorIsIn": {
+      "name": "La doctora está de guardia",
+      "text": "Lleva contigo a la Dra. Shivani Maheswaran y no dejes que reciba nada de daño ni de horror en Pesadilla consciente."
+    },
+    "DejaVu": {
+      "name": "Déjà vu",
+      "text": "Resuelve todas las habilidades gratuitas de todos los Lugares en Mil formas de horror (sin contar las Escaleras misteriosas durante el acto 2)."
+    },
+    "TheCasaLomaManeuver": {
+      "name": "La maniobra Casa Loma",
+      "text": "Escapa de las escaleras interminables con Lo innombrable en la escalera más alta en Mil formas de horror."
+    },
+    "IRememberThisPlace": {
+      "name": "Recuerdo este lugar",
+      "text": "Encuentra la salida del Inframundo en Punto sin retorno."
+    },
+    "BadAdvice": {
+      "name": "Mal consejo",
+      "text": "Dale la vuelta a cada Lugar al menos una vez en Punto sin retorno."
+    },
+    "MarchOfTheGhouls": {
+      "name": "La marcha de los gules",
+      "text": "Ten 4 enemigos Gul unidos a Richard Upton Pickman en Punto sin retorno."
+    },
+    "TheIshimuraFlex": {
+      "name": "La exhibición Ishimura",
+      "text": "En una misma ronda, derrota las 4 Patas de Atlach-Nacha en Tejedora del cosmos."
+    },
+    "YouSpinMeRightRound": {
+      "name": "Me haces dar vueltas",
+      "text": "Haz que Atlach-Nacha gire 360 grados completos en una sola fase en Tejedora del cosmos."
+    },
+    "MasterOfUnlocking": {
+      "name": "Maestro de las cerraduras",
+      "text": "Usa La llave de plata para cancelar un total de al menos 10 de horror a lo largo de un mismo escenario."
+    },
+    "WebOfDreamsLineInTheSand": {
+      "name": "Una raya en la arena",
+      "text": "Gana la campaña La red de los sueños con al menos tres Ultimátums activos."
+    },
+    "UnderworldExpertise": {
+      "name": "Experto en el Inframundo",
+      "text": "Gana la campaña La red de los sueños en dificultad Experto."
+    },
+    "WouldYouJustDieAlready": {
+      "name": "¿Quieres morirte de una vez?",
+      "text": "Derrota a La amalgama 5 o más veces en El pozo de la desesperación."
+    },
+    "ElementaryDearDawson": {
+      "name": "Elemental, querido Dawson",
+      "text": "Adivina el sospechoso y el escondite correctos en La desaparición de Elina Harper."
+    },
+    "AintNothinGonnaBreakMyStride": {
+      "name": "Nada me va a frenar",
+      "text": "Destruye todas las barreras en Hasta el cuello."
+    },
+    "SpeedingTicket": {
+      "name": "Multa por exceso de velocidad",
+      "text": "Llega al Acceso al Cabo del Halcón sin detener voluntariamente ningún vehículo, sin bajarte de ningún vehículo ni entrar en una copia de El camino largo en Horror a toda máquina."
+    },
+    "YoureLockedInHereWithMe": {
+      "name": "Eres tú quien está encerrado conmigo",
+      "text": "Completa Una luz en la niebla sin que capturen a ningún investigador."
+    },
+    "FishOutOfWater": {
+      "name": "Como pez fuera del agua",
+      "text": "Completa Hacia el remolino con cada investigador todavía con su traje de buceo puesto."
+    },
+    "DontWakeDaddy": {
+      "name": "No despiertes a papá",
+      "text": "Completa La guarida de Dagon y Hacia el remolino sin despertar a Dagon ni a Hydra."
+    },
+    "GoneFishing": {
+      "name": "Me voy de pesca",
+      "text": "Derrota 20 enemigos Profundo."
+    },
+    "FullBuild": {
+      "name": "Equipo completo",
+      "text": "Equipa a la vez el Ídolo desgastado por el oleaje, el Manto despertado y el Diadema de Y'ha-nthlei."
+    },
+    "YouWakeUpInARoom": {
+      "name": "«Despiertas en una habitación...»",
+      "text": "Recupera cada uno de los siguientes recuerdos a lo largo de la campaña La conspiración de Innsmouth:",
+      "items": {
+        "AMeetingWithThomasDawson": "Una reunión con Thomas Dawson.",
+        "ABattleWithAHorrifyingDevil": "Un combate con un diablo horripilante.",
+        "ADecisionToStickTogether": "La decisión de permanecer juntos.",
+        "AnEncounterWithASecretCult": "Un encuentro con una secta secreta.",
+        "ADealWithJoeSargent": "Un trato con Joe Sargent.",
+        "AFollowedLead": "Una pista seguida.",
+        "AnIntervention": "Una intervención.",
+        "AJailbreak": "Una fuga de la cárcel.",
+        "DiscoveryOfAStrangeIdol": "El descubrimiento de un extraño ídolo.",
+        "DiscoveryOfAnUnholyMantle": "El descubrimiento de un manto impío.",
+        "DiscoveryOfAMysticalRelic": "El descubrimiento de una reliquia mística.",
+        "AConversationWithMrMoore": "Una conversación con el Sr. Moore.",
+        "TheLifecycleOfADeepOne": "El ciclo vital de un «Profundo».",
+        "AStingingBetrayal": "Una traición dolorosa.",
+        "TheHorribleTruth": "La horrible verdad."
+      }
+    },
+    "BiggerFishToFry": {
+      "name": "Peces más gordos que pescar",
+      "text": "Completa la campaña La conspiración de Innsmouth sin derrotar ni un solo enemigo Profundo."
+    },
+    "InnsmouthLineInTheSand": {
+      "name": "Una raya en la arena",
+      "text": "Gana la campaña La conspiración de Innsmouth con al menos tres Ultimátums activos."
+    },
+    "InnsmouthExpertise": {
+      "name": "Experto en Innsmouth",
+      "text": "Gana la campaña La conspiración de Innsmouth en dificultad Experto."
+    },
+    "SafeBet": {
+      "name": "Apuesta segura",
+      "text": "Acampa en un Lugar con valor de refugio 8 en Hielo y muerte, Parte I."
+    },
+    "LookAtAllThisStuff": {
+      "name": "¡Mira cuántas cosas!",
+      "text": "Recupera los siete suministros en Hielo y muerte y llévalos todos a la Cumbre en Hacia los picos prohibidos."
+    },
+    "InYourHead": {
+      "name": "En tu cabeza",
+      "text": "Termina Espejismo letal con nueve cartas de historia en la zona de victoria."
+    },
+    "ChaosChaos": {
+      "name": "Caos, caos",
+      "text": "Reúne y gasta un total de diez o más llaves en Ciudad de los antiguos."
+    },
+    "KnockKnock": {
+      "name": "Toc, toc",
+      "text": "Reúne, activa y coloca los cinco sellos en El corazón de la locura, Parte I."
+    },
+    "MadWithPower": {
+      "name": "Embriagado de poder",
+      "text": "Agota a la vez quince copias de La locura sin nombre en El corazón de la locura, Parte II."
+    },
+    "ConstructAdditionalPylons": {
+      "name": "Construye pilones adicionales",
+      "text": "Derrumba los cinco Pilones de niebla y escapa con vida en El corazón de la locura, Parte II."
+    },
+    "TheSoundOfMadness": {
+      "name": "El sonido de la locura",
+      "text": "Roba diez copias de «¡Tekeli-li!» durante una misma partida."
+    },
+    "SorryImAllOutOfDogPuns": {
+      "name": "Lo siento, se me acabaron los chistes perrunos",
+      "text": "Ten en juego a la vez a Anyu y cuatro o más apoyos más con «Perro» en su título."
+    },
+    "KindOfAHatOnAHat": {
+      "name": "Un sombrero encima de otro",
+      "text": "Juega un Trineo de madera desde una Mochila y usa de inmediato su habilidad para unirle una Mochila."
+    },
+    "ThisWasYourIdea": {
+      "name": "Esto fue idea tuya",
+      "text": "Usa la habilidad del profesor William Dyer para curar al menos 4 de horror de Danforth durante un mismo escenario."
+    },
+    "NoRespectForTheDead": {
+      "name": "Sin respeto por los muertos",
+      "text": "Controla a la vez al menos cinco apoyos del conjunto de encuentro Memorials of the Lost."
+    },
+    "WukWukBoom": {
+      "name": "Cuac, cuac, bum",
+      "text": "Usa Dinamita para derrotar a la vez a dos Pingüino albino gigante."
+    },
+    "TheColdNeverBotheredMeAnyway": {
+      "name": "El frío nunca me molestó",
+      "text": "Gana la campaña Los confines de la Tierra con ocho fichas de Escarcha en la bolsa de caos al final de la campaña."
+    },
+    "HellFrozeOver": {
+      "name": "Se heló el infierno",
+      "text": "Gana la campaña Los confines de la Tierra con cero fichas de Escarcha en la bolsa de caos al final de la campaña."
+    },
+    "AbandonedAndAlone": {
+      "name": "Abandonado y solo",
+      "text": "Gana la campaña Los confines de la Tierra sin llevar nunca un apoyo compañero contigo en un escenario."
+    },
+    "FriendsForever": {
+      "name": "Amigos para siempre",
+      "text": "Lleva contigo al mismo compañero en cada escenario, asegúrate de que haya afrontado sus demonios y gana la campaña Los confines de la Tierra con él todavía vivo."
+    },
+    "ThereAndBackAgain": {
+      "name": "Ida y vuelta",
+      "text": "Gana la campaña Los confines de la Tierra con cada uno de los siguientes supervivientes:",
+      "items": {
+        "DrAmyKensler": "Dra. Amy Kensler",
+        "ProfWilliamDyer": "Prof. William Dyer",
+        "Danforth": "Danforth",
+        "JamesCookieFredericks": "James «Cookie» Fredericks",
+        "EliyahAshevak": "Eliyah Ashevak",
+        "DrMalaSinha": "Dra. Mala Sinha",
+        "TakadaHiroko": "Takada Hiroko",
+        "AveryClaypool": "Avery Claypool",
+        "RoaldEllsworth": "Roald Ellsworth"
+      }
+    },
+    "SnowLineInTheSand": {
+      "name": "Una raya en la… nieve",
+      "text": "Gana la campaña Los confines de la Tierra con al menos tres Ultimátums activos."
+    },
+    "AntarcticExpertise": {
+      "name": "Experto en la Antártida",
+      "text": "Gana la campaña Los confines de la Tierra en dificultad Experto."
+    },
+    "CluedIn": {
+      "name": "Bien informado",
+      "text": "No gastes ni sueltes ni una sola pista por cartas de traición en Acertijos y lluvia."
+    },
+    "TakeThatGhulat": {
+      "name": "¡Toma esa, Ghulat!",
+      "text": "Consigue que no muera ni un solo civil en Calor Muerto."
+    },
+    "WhatsInAName": {
+      "name": "¿Qué hay en un nombre?",
+      "text": "Dile a Amaranth su verdadero nombre en Calor Muerto."
+    },
+    "PorqueNoLosDos": {
+      "name": "¿Por qué no los dos?",
+      "text": "Derrota a la vez las dos copias de Desi en Bailar como locos."
+    },
+    "LostAndFound": {
+      "name": "Objetos perdidos",
+      "text": "Toma el control de El antiprisma monstruoso sin ni una sola pista sobre Clues Unveiled en Tratos en la oscuridad."
+    },
+    "ILikeTowerDefenseGames": {
+      "name": "Me gustan los juegos de defensa de torres",
+      "text": "Defiende al El caballero burdeos sin que se destruya ningún Locus de Llave en Perros de guerra v. I."
+    },
+    "PlayWithYourFood": {
+      "name": "Juega con la comida",
+      "text": "Roba La luz de Faros al El caballero burdeos o a La bestia de capucha carmesí mientras le quede exactamente 1 de salud en Perros de guerra v. II o v. III."
+    },
+    "MoreLikeDestroyedChimera": {
+      "name": "Más bien Quimera «destruida»",
+      "text": "Derrota las cinco formas de la Quimera del vacío en una misma sesión de Sobre hielo peligroso."
+    },
+    "WhoWatchesTheWatcher": {
+      "name": "¿Quién vigila al vigilante?",
+      "text": "Desbloquea un acto final secreto en Sombras sanguinas."
+    },
+    "UnderMyUmbrella": {
+      "name": "Bajo mi paraguas",
+      "text": "No dejes que Tzu San Niang devore ni un solo enemigo Espectro en Sombras de sufrimiento."
+    },
+    "AllHollow": {
+      "name": "Todo vacío",
+      "text": "Descubre un lugar donde moran los Seres del exterior y viaja allí para desbloquear Sin rastro."
+    },
+    "RedLooksGoodOnMe": {
+      "name": "El rojo me sienta bien",
+      "text": "Únete al Círculo Rojo en El congreso de las Llaves."
+    },
+    "BloodyRedRevolution": {
+      "name": "Sangrienta revolución roja",
+      "text": "Derroca al Círculo Rojo en El congreso de las Llaves."
+    },
+    "ScarletWithYourPowersCombined": {
+      "name": "Con vuestros poderes combinados…",
+      "text": "Cambia 5 llaves en un solo turno."
+    },
+    "GiftOfGab": {
+      "name": "Don de la palabra",
+      "text": "Consigue que el comisario Taylor te ordene «hablar» 3 veces durante una misma campaña."
+    },
+    "ImJustHereForTheLocalCuisine": {
+      "name": "«Solo he venido por la cocina local»",
+      "text": "En una misma campaña, prueba la cocina y/o visita bares o cafés de los siguientes lugares: Marrakech, La Habana, Buenos Aires, Tokio y Kuala Lumpur."
+    },
+    "SpeedDemon": {
+      "name": "Demonio de la velocidad",
+      "text": "Gana la campaña Las llaves escarlata con solo 17 o menos de tiempo transcurrido."
+    },
+    "TrustNobody": {
+      "name": "No te fíes de nadie",
+      "text": "Gana la campaña Las llaves escarlata con 4 fichas de Primigenio en la bolsa de caos y sin retirar nunca ninguna ficha de Primigenio."
+    },
+    "TrustEverybody": {
+      "name": "Fíate de todos",
+      "text": "Gana la campaña Las llaves escarlata con 4 fichas de Tablilla en la bolsa de caos y sin retirar nunca ninguna ficha de Tablilla."
+    },
+    "HereIsYourBadge": {
+      "name": "Aquí tienes tu placa",
+      "text": "Gana la campaña Las llaves escarlata y consigue un puesto permanente en la Fundación."
+    },
+    "KeyToMyHeart": {
+      "name": "La llave de mi corazón",
+      "text": "Reúne cada una de las siguientes llaves a lo largo de la campaña Las llaves escarlata:",
+      "items": {
+        "TheEyeOfRavens": "El ojo de cuervos",
+        "TheLastBlossom": "La última flor",
+        "TheLightOfPharos": "La luz de Faros",
+        "TheSableGlass": "El cristal azabache",
+        "TheWeepingLady": "La dama plañidera",
+        "TheTwistedAntiprism": "El antiprisma monstruoso",
+        "TheShadeReaper": "El cosechador de sombras",
+        "TheMirroringBlade": "La hoja reflectante",
+        "TheBaleEngine": "El motor de malignidad",
+        "TheRuinousChime": "La campana de ruina",
+        "TheWellspringOfFortune": "El manantial de la fortuna"
+      }
+    },
+    "ScarletLineInTheSand": {
+      "name": "Una raya en la arena",
+      "text": "Gana la campaña Las llaves escarlata con al menos tres Ultimátums activos."
+    },
+    "GlobalExpertise": {
+      "name": "Experto mundial",
+      "text": "Gana la campaña Las llaves escarlata en dificultad Experto."
+    },
+    "Aperitif": {
+      "name": "Aperitivo",
+      "text": "Completa la campaña La fiesta del Valle de la Cicuta una vez en cualquier dificultad."
+    },
+    "Unshattered": {
+      "name": "Intacto",
+      "text": "Consigue todos los finales de esta campaña.",
+      "items": {
+        "MarquezSacrificedHerself": "La Dra. Marquez se sacrificó por el Valle",
+        "TheInvestigatorsSacrificedThemselves": "Los investigadores se sacrificaron por el Valle",
+        "TheValeWasSaved": "El Valle fue salvado",
+        "TheValeBurned": "El Valle ardió",
+        "BarelySurvivedTheFeast": "Los investigadores sobrevivieron por los pelos a la fiesta",
+        "BecameTheTrueFeast": "Los investigadores se convirtieron en el verdadero festín"
+      }
+    },
+    "AStrongSilentType": {
+      "name": "Fuerte y callado",
+      "text": "Termina la campaña La fiesta del Valle de la Cicuta sin desencadenar voluntariamente ninguna entrada del códice."
+    },
+    "ColourOutsideTheLines": {
+      "name": "Colorear fuera de las líneas",
+      "text": "Sáltate La hondonada retorcida y La noche más larga durante una misma partida."
+    },
+    "LifeOfTheParty": {
+      "name": "El alma de la fiesta",
+      "text": "Completa la campaña La fiesta del Valle de la Cicuta con cada residente en Nivel de relación 2 o superior."
+    },
+    "DancingQueen": {
+      "name": "La reina del baile",
+      "text": "Comparte un baile con 4 residentes distintos durante el preludio La segunda noche."
+    },
+    "AudreyIII": {
+      "name": "Audrey III",
+      "text": "Completa un escenario enfrentado a una Broteponzoña con 10 o más de maleza sobre ella."
+    },
+    "HoldOnToYourPotatoes": {
+      "name": "¡Agarra bien las patatas!",
+      "text": "Completa Escrito en la roca con un residente y el apoyo Esquirla prismática bajo tu control."
+    },
+    "DreamHomeBreakover": {
+      "name": "Reforma de ensueño",
+      "text": "Completa La Casa Cicuta con 10 Lugares en la zona de victoria."
+    },
+    "SettlingTheScore": {
+      "name": "Ajuste de cuentas",
+      "text": "Derrota a la La cosa de las profundidades en La cosa de las profundidades."
+    },
+    "HereCrabbyCrabby": {
+      "name": "«¡Ven, cangrejito, cangrejito!»",
+      "text": "Haz que el Limulus Hybrid se dé la vuelta al menos 8 veces durante La hermana perdida."
+    },
+    "ADifferentKindOfStingOps": {
+      "name": "Otro tipo de operación encubierta",
+      "text": "Completa El páramo silencioso sin que aparezca la Reina de progenie."
+    },
+    "WaitTheresNoShroudedShrine": {
+      "name": "Espera, ¿no hay santuario velado?",
+      "text": "Sobrevive a La hondonada retorcida en modo independiente hasta alcanzar al menos Nivel de oscuridad 10."
+    },
+    "BearNecessities": {
+      "name": "Lo mínimo para un oso",
+      "text": "Derrota al Híbrido úrsido en La noche más larga usando solo efectos de cartas de escenario."
+    },
+    "LetsDoTheTimeWarp": {
+      "name": "¡Hagamos un salto en el tiempo!",
+      "text": "Completa la resolución Corderos al matadero en el preludio La última noche."
+    },
+    "OblivionShmoblivion": {
+      "name": "Olvido, qué olvido",
+      "text": "Gana El destino del Valle con cada enemigo Emisario cósmico en la zona de victoria."
+    },
+    "HighDive": {
+      "name": "Salto de altura",
+      "text": "Sacrifícate por el Valle en El destino del Valle."
+    },
+    "BestFriendsForever": {
+      "name": "¡Mejores amigos para siempre!",
+      "text": "Alcanza el Nivel de relación 6 con los siguientes residentes:",
+      "items": {
+        "LeahAtwood": "Leah Atwood",
+        "SimeonAtwood": "Simeon Atwood",
+        "RiverHawthorne": "River Hawthorne",
+        "GideonMizrah": "Gideon Mizrah",
+        "WilliamHemlock": "William Hemlock"
+      }
+    },
+    "KnowYourPlace": {
+      "name": "Conoce tu lugar",
+      "text": "Gana la campaña La fiesta del Valle de la Cicuta con la Madre Rachel en Nivel de relación 3 o superior."
+    },
+    "HeartOfSteel": {
+      "name": "Corazón de acero",
+      "text": "Gana la campaña La fiesta del Valle de la Cicuta con Judith Park en Nivel de relación 7."
+    },
+    "HoldingOutForAHimbo": {
+      "name": "Esperando a un guaperas",
+      "text": "Gana la campaña La fiesta del Valle de la Cicuta con Theo Peters en Nivel de relación 7."
+    },
+    "CaptivatingScream": {
+      "name": "Grito cautivador",
+      "text": "Gana la campaña La fiesta del Valle de la Cicuta como Patrice Hathaway."
+    },
+    "HemlockLineInTheSand": {
+      "name": "Una raya en la arena",
+      "text": "Gana la campaña La fiesta del Valle de la Cicuta con al menos tres Ultimátums activos."
+    },
+    "HemlockExpertise": {
+      "name": "Experto en el Valle de la Cicuta",
+      "text": "Gana la campaña La fiesta del Valle de la Cicuta en dificultad Experto."
+    },
+    "HideAndSeek": {
+      "name": "El escondite",
+      "text": "Derrota a Julia Stern antes de que avance el plan 2a en River of Blood."
+    },
+    "FriendlyNeighborhoodInvestigator": {
+      "name": "Tu amistoso investigador de barrio",
+      "text": "No dejes que derroten a ni un solo enemigo Civil durante River of Blood."
+    },
+    "TrophyCollector": {
+      "name": "Coleccionista de trofeos",
+      "text": "Añade Fang of Zburamoarte al mazo de cualquier investigador."
+    },
+    "NoMeatSlabUnhooked": {
+      "name": "Ni una res sin descolgar",
+      "text": "Termina New Horizons con todos los Lugares revelados y sin pistas restantes en los Lugares."
+    },
+    "FilingPaperwork": {
+      "name": "Papeleo",
+      "text": "Añade Forged Permit o Sanguine Song al mazo de cualquier investigador."
+    },
+    "ThatLlLearnHim": {
+      "name": "Así aprenderá",
+      "text": "Usa la habilidad de Zburamoarte's Lair para dar el golpe de gracia a Zburamoarte en New Horizons."
+    },
+    "SafetyInspector": {
+      "name": "Inspector de seguridad",
+      "text": "No dejes que derroten a ni un solo enemigo Civil durante New Horizons."
+    },
+    "ThanksForYourVote": {
+      "name": "Gracias por tu voto",
+      "text": "Añade a Charlie Kane al mazo de cualquier investigador."
+    },
+    "HellHathNoFury": {
+      "name": "No hay furia como esa",
+      "text": "Haz que Julia Stern dé el golpe de gracia a Howard Wilkes en Blood Money."
+    },
+    "LookOutBelow": {
+      "name": "¡Cuidado abajo!",
+      "text": "Usa la habilidad del Lugar Palcos para derrotar a Howard Wilkes en Blood Money."
+    },
+    "APartyEveryoneCanEnjoy": {
+      "name": "Una fiesta para todos",
+      "text": "No dejes que derroten a ni un solo enemigo Civil durante Blood Money."
+    },
+    "IfYouCantBeatThem": {
+      "name": "Si no puedes vencerlos…",
+      "text": "Completa el escenario Blood Money con cada copia disponible de Suspicious Guest en la zona de victoria."
+    },
+    "YouGotRedOnYou": {
+      "name": "Tienes algo rojo encima",
+      "text": "Sella 3 fichas de {blood} en tu investigador en una sola ronda."
+    },
+    "DontForgetYourPPE": {
+      "name": "No olvides tu equipo de protección",
+      "text": "Termina Hijos de la sangre con 0 fichas de {blood} en la bolsa de caos."
+    },
+    "BathedInBlood": {
+      "name": "Bañado en sangre",
+      "text": "Termina Hijos de la sangre con 12 fichas de {blood} en la bolsa de caos."
+    },
+    "AndAllIGotWereTheseBloodyFangs": {
+      "name": "Y solo me llevé estos colmillos ensangrentados",
+      "text": "Desbloquea la carta de recompensa de campaña Elegido de Zburamoarte."
+    },
+    "ItsPartOfMyBackstory": {
+      "name": "Es parte de mi trasfondo",
+      "text": "Completa Hijos de la sangre con los siguientes investigadores:",
+      "items": {
+        "DanielaReyes": "Daniela Reyes",
+        "MigueldelaCruz": "Miguel de la Cruz"
+      }
+    },
+    "WaterfrontWetWork": {
+      "name": "Trabajo sucio en el muelle",
+      "text": "Completa la campaña Hijos de la sangre en las siguientes dificultades:",
+      "items": {
+        "Easy": "Fácil",
+        "Standard": "Normal",
+        "Hard": "Difícil",
+        "Expert": "Experto"
+      }
+    }
+  },
+  "clearCampaign": "Borrar campaña",
+  "clearOne": "Borrar este logro",
+  "clearCampaignConfirm": "¿Borrar todos los logros conseguidos de {campaign}? Esto no se puede deshacer.",
+  "clearOneConfirm": "¿Borrar el logro «{name}»? Esto no se puede deshacer.",
+  "parts": {
+    "theDreamQuest": "La búsqueda de los sueños",
+    "theWebOfDreams": "La red de los sueños"
+  }
+}

@@ -1,0 +1,10 @@
+# Override for frontend development: publishes the API (:3002 inside the web
+# container) so `npm run dev` in frontend/ (vite proxies /api to 127.0.0.1:3002)
+# talks to the prebuilt backend image instead of a locally compiled one.
+#
+#   docker compose -f docker-compose.yml -f docker-compose.dev-api.yml up -d db migrate web
+#   cd frontend && npm run dev        # http://localhost:8080
+services:
+  web:
+    ports:
+      - "127.0.0.1:3002:3002"
