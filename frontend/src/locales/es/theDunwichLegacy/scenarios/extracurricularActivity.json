@@ -1,18 +1,18 @@
 {
   "heading": "Escenario I-A",
   "intro": {
-    "title": "Escenario I-A: Actividad extraescolar",
+    "title": "Escenario I-A: Actividad extracurricular",
     "body": "<p>El Dr. Armitage está preocupado de que su colega, el profesor Warren Rice, pueda estar en problemas, así que os ha pedido ayuda para encontrar a su amigo. Parece irrazonablemente nervioso por la desaparición de su colega, considerando que el profesor Rice sólo lleva «desaparecido» unas pocas horas…</p>"
   },
   "setup": {
-    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de encuentro: *Actividad extraescolar*, *Brujería*, *El Más Allá*, *Los siervos de Bishop*, *Chotacabras*, *Males ancestrales*, *Puertas cerradas* y *Agentes de Yog‑Sothoth*. Estos conjuntos se indican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/extracurricular-activity.png' /><img src='{setImgPath}/sorcery.png' /><img src='{setImgPath}/the-beyond.png' /><img src='{setImgPath}/bishops-thralls.png' /><img src='{setImgPath}/whippoorwills.png' /><img src='{setImgPath}/ancient-evils.png' /><img src='{setImgPath}/locked-doors.png' /><img src='{setImgPath}/agents-of-yog.png' /></section>",
+    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de encuentro: *Actividad extracurricular*, *Hechicería*, *El Más Allá*, *Los siervos de Bishop*, *Chotacabras*, *Antiguos males*, *Puertas cerradas* y *Agentes de Yog‑Sothoth*. Estos conjuntos se indican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/extracurricular-activity.png' /><img src='{setImgPath}/sorcery.png' /><img src='{setImgPath}/the-beyond.png' /><img src='{setImgPath}/bishops-thralls.png' /><img src='{setImgPath}/whippoorwills.png' /><img src='{setImgPath}/ancient-evils.png' /><img src='{setImgPath}/locked-doors.png' /><img src='{setImgPath}/agents-of-yog.png' /></section>",
     "facultyOffices": {
-      "body": "Según las siguientes circunstancias, debe usarse una versión distinta de Despachos de la facultad en este escenario.",
-      "theNightIsStillYoung": "Si Actividad extraescolar es el primer escenario de la campaña, usa Despachos de la facultad (*La noche es joven*). Déjala aparte, fuera de juego. Retira del juego Despachos de la facultad (*Es tarde*).",
-      "theHourIsLate": "Si has completado La casa siempre gana, usa Despachos de la facultad (*Es tarde*). Déjala aparte, fuera de juego. Retira del juego Despachos de la facultad (*La noche es joven*)."
+      "body": "Según las siguientes circunstancias, debe usarse una versión distinta de Despachos del profesorado en este escenario.",
+      "theNightIsStillYoung": "Si Actividad extracurricular es el primer escenario de la campaña, usa Despachos del profesorado (*La noche es joven*). Déjala aparte, fuera del juego. Retira del juego Despachos del profesorado (*Es tarde*).",
+      "theHourIsLate": "Si has completado La casa siempre gana, usa Despachos del profesorado (*Es tarde*). Déjala aparte, fuera del juego. Retira del juego Despachos del profesorado (*La noche es joven*)."
     },
-    "setAside": "Deja aparte las siguientes cartas, fuera de juego: «Jazz» Mulligan, Pócima alquímica, El Experimento, Profesor Warren Rice, Residencia de estudiantes y Laboratorios de alquimia.",
-    "placeLocations": "Pon en juego los Lugares Patio de Miskatonic, Biblioteca Orne, Edificio de Humanidades, Asociación de estudiantes, Edificio de Ciencias y Edificio de Administración. Cada investigador comienza la partida en el Patio de Miskatonic."
+    "setAside": "Deja aparte las siguientes cartas, fuera del juego: «Jazz» Mulligan, Pócima alquímica, El Experimento, Profesor Warren Rice, Residencia estudiantil y Laboratorios de alquimia.",
+    "placeLocations": "Pon en juego los Lugares Patio principal de Miskatonic, Biblioteca Orne, Edificio de Humanidades, Sindicato de estudiantes, Edificio de Ciencias y Edificio de Administración. Cada investigador comienza la partida en el Patio principal de Miskatonic."
   },
   "resolutions": {
     "noResolution": {

@@ -103,3 +103,10 @@ skills-lock.json
 # Local homebrew working data (guide transcriptions, codegen maps); the
 # checked-in guide is docs/homebrew.md
 docs/homebrew/
+
+# Images downloaded with scripts/fetch-assets.sh (fork-local). The files already
+# tracked upstream stay tracked; anything new under these paths is ignored.
+# Add a deliberate new image with `git add -f`.
+frontend/public/img/
+frontend/homebrew/*/img/
+frontend-3ed/public/img/

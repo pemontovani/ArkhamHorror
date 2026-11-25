@@ -23,11 +23,11 @@
       "investigate": "{'{'}action{'}'}: _Investigar_. Si tienes éxito, en lugar de descubrir pistas, pon en juego una Senda alterada aleatoria dejada aparte. (Límite una vez por ronda.)"
     },
     "destroyedPath": {
-      "investigate": "{'{'}action{'}'}: _Investigar_. Si tienes éxito, en lugar de descubrir pistas, retira 1 perdición de Senda destruida."
+      "investigate": "{'{'}action{'}'}: _Investigar_. Si tienes éxito, en lugar de descubrir pistas, retira 1 perdición de Sendero destruido."
     }
   },
   "intro": {
-    "title": "Escenario VI: Donde aguarda la fatalidad",
+    "title": "Escenario VI: Donde aguarda la perdición",
     "body": "<p>Despertáis al sonido de chillidos. Temiendo lo peor, agarráis vuestro equipo y salís a las calles de Dunwich. En cuanto ponéis un pie fuera, percibís una vileza en el aire gélido de la noche: un olor nauseabundo y penetrante apenas describible, y una pesadez en la atmósfera que dificulta respirar. Los vecinos de Dunwich han cerrado sus puertas, y el pueblo se siente callado y solitario. A lo lejos, un tenue resplandor emana de la cima de una colina sobre la aldea. Conocéis esa colina tanto por vuestras conversaciones con Zebulon como por los registros de Armitage. Se llama Colina Sentinel. Los relatos hablan de ritos satánicos que se celebran allí: ritos en los que grandes piras rituales iluminan el cielo nocturno mientras el suelo tiembla con furia debajo.</p><p>Bandadas de chotacabras se posan en los tejados de la aldea a vuestro alrededor, observándoos de forma ominosa mientras subís al viejo y destartalado camión de Zebulon. Conforme os dirigís a la Colina Sentinel, más chillidos llenan el cielo con un tono terrible que os duele en los oídos. Todo lo que habéis leído y experimentado en Dunwich ha llevado a esto. Si el infame ritual que Seth busca realizar tiene algo que ver con lo que Armitage y sus colegas impidieron hace varios meses, implica el favor de una criatura ancestral: Yog‑Sothoth. No detener este ritual puede significar la fatalidad… no sólo para Dunwich, sino para el mundo entero.</p>",
     "proceedToPart1": "Consulta el Registro de campaña. Si *Naomi cubre las espaldas de los investigadores*: Procede a la _Parte 1_.",
     "otherwise": "En caso contrario: Pasa a la _Preparación_.",
@@ -36,20 +36,20 @@
     }
   },
   "setup": {
-    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de encuentro: Donde aguarda la fatalidad, Bestias siervas, Brujería, Los siervos de Bishop, Miedo paralizante, Males ancestrales, Frío glacial. Estos conjuntos se indican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/where-doom-awaits.png' /><img src='{setImgPath}/beast-thralls.png' /><img src='{setImgPath}/sorcery.png' /><img src='{setImgPath}/bishops-thralls.png' /><img src='{setImgPath}/striking-fear.png' /><img src='{setImgPath}/ancient-evils.png' /><img src='{setImgPath}/chilling-cold.png' /></section>",
-    "placeLocations": "Pon en juego Base de la colina, Senda ascendente y Cima de Sentinel. Cada investigador comienza la partida en la Base de la colina.",
-    "divergingPaths": "Retira del juego 1 copia de Senda divergente, al azar. Deja aparte las otras 3 copias de Senda divergente, fuera de juego.",
-    "alteredPaths": "Retira del juego 1 copia de Senda alterada, al azar. Deja aparte las otras 3 copias de Senda alterada, fuera de juego.",
-    "setAside": "Deja aparte a Seth Bishop, fuera de juego.",
+    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de encuentro: Donde aguarda la perdición, Bestias siervas, Hechicería, Los siervos de Bishop, Miedo impactante, Antiguos males, Frío helador. Estos conjuntos se indican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/where-doom-awaits.png' /><img src='{setImgPath}/beast-thralls.png' /><img src='{setImgPath}/sorcery.png' /><img src='{setImgPath}/bishops-thralls.png' /><img src='{setImgPath}/striking-fear.png' /><img src='{setImgPath}/ancient-evils.png' /><img src='{setImgPath}/chilling-cold.png' /></section>",
+    "placeLocations": "Pon en juego Pie de la colina, Sendero ascendente y Cumbre de Sentinel Hill. Cada investigador comienza la partida en la Pie de la colina.",
+    "divergingPaths": "Retira del juego 1 copia de Senda divergente, al azar. Deja aparte las otras 3 copias de Senda divergente, fuera del juego.",
+    "alteredPaths": "Retira del juego 1 copia de Senda alterada, al azar. Deja aparte las otras 3 copias de Senda alterada, fuera del juego.",
+    "setAside": "Deja aparte a Seth Bishop, fuera del juego.",
     "adjustChaosBag": "Según tu nivel de dificultad, añade las siguientes fichas de caos a la bolsa de caos, durante el resto de la campaña:<div class='columns'><ul><li>_Fácil_: -3</li><li>_Normal_: -5</li></ul><ul><li>_Difícil_: -6</li><li>_Experto_: -7</li></ul></div>",
     "act2": {
       "instructions": "Según las siguientes circunstancias, debe usarse una versión distinta del Acto 2 en este escenario. Cada otra versión del Acto 2 se retira del juego.",
-      "v1": "Consulta el Registro de campaña. Si *los investigadores restauraron a Silas Bishop*, usa Acto 2—Subiendo la colina (v. I)",
-      "v2": "Si lo anterior no es cierto, consulta el Registro de campaña. Si *los investigadores no consiguieron recuperar el Necronomicón*, o si *el Necronomicón fue robado*, usa Acto 2—Subiendo la colina (v. II)",
-      "v3": "Si ninguna de las anteriores es cierta, usa Acto 2—Subiendo la colina (v. III)"
+      "v1": "Consulta el Registro de campaña. Si *los investigadores restauraron a Silas Bishop*, usa Acto 2—Ascender por la colina (v. I)",
+      "v2": "Si lo anterior no es cierto, consulta el Registro de campaña. Si *los investigadores no consiguieron recuperar el Necronomicón*, o si *el Necronomicón fue robado*, usa Acto 2—Ascender por la colina (v. II)",
+      "v3": "Si ninguna de las anteriores es cierta, usa Acto 2—Ascender por la colina (v. III)"
     },
     "addDoom": "Consulta el Registro de campaña. *Por cada Prole de Yog-Sothoth que escapó a la naturaleza*, añade 1 perdición al plan 1a.",
-    "hideousAbominations": "Consulta el Registro de campaña. Si *los investigadores libraron a Silas Bishop de su sufrimiento*, restos del cuerpo de la criatura han mutado y crecido en la Colina Sentinel. Pon en juego 1 enemigo «Aglomeración de esferas» del conjunto de encuentro Abominaciones horribles en la Senda ascendente. Baraja el resto de ese conjunto en el mazo de Encuentro. Este conjunto se indica con el siguiente icono:<section class='encounter-sets'><img src='{setImgPath}/hideous-abominations.png' /></section>"
+    "hideousAbominations": "Consulta el Registro de campaña. Si *los investigadores libraron a Silas Bishop de su sufrimiento*, restos del cuerpo de la criatura han mutado y crecido en la Colina Sentinel. Pon en juego 1 enemigo «Conglomerado de esferas» del conjunto de encuentro Abominaciones espantosas en la Sendero ascendente. Baraja el resto de ese conjunto en el mazo de Encuentro. Este conjunto se indica con el siguiente icono:<section class='encounter-sets'><img src='{setImgPath}/hideous-abominations.png' /></section>"
   },
   "resolutions": {
     "noResolution": {

@@ -2,15 +2,15 @@
   "heading": "Escenario II",
   "tokens": {
     "easyStandard": {
-      "skull": "-1 (-3 en su lugar si el Horror cazador está en tu Lugar.)",
-      "cultist": "-1. Si fracasas, busca el Horror cazador en el mazo de Encuentro, la pila de descartes y el vacío, y genéralo en tu Lugar, si es posible.",
+      "skull": "-1 (-3 en su lugar si el Horrendo cazador está en tu Lugar.)",
+      "cultist": "-1. Si fracasas, busca el Horrendo cazador en el mazo de Encuentro, la pila de descartes y el vacío, y haz que aparezca en tu Lugar, si es posible.",
       "tablet": "-2. Devuelve 1 de tus pistas a tu Lugar actual.",
       "elderThing": "-3. Si fracasas, descarta un apoyo que controles."
     },
     "hardExpert": {
-      "skull": "-2 (-4 en su lugar si el Horror cazador está en tu Lugar.)",
-      "cultist": "-3. Si fracasas, busca el Horror cazador en el mazo de Encuentro, la pila de descartes y el vacío, y genéralo en tu Lugar, si es posible.",
-      "tablet": "-4. Si el Horror cazador está en tu Lugar, te ataca inmediatamente.",
+      "skull": "-2 (-4 en su lugar si el Horrendo cazador está en tu Lugar.)",
+      "cultist": "-3. Si fracasas, busca el Horrendo cazador en el mazo de Encuentro, la pila de descartes y el vacío, y haz que aparezca en tu Lugar, si es posible.",
+      "tablet": "-4. Si el Horrendo cazador está en tu Lugar, te ataca inmediatamente.",
       "elderThing": "-5. Si fracasas, descarta un apoyo que controles."
     }
   },
@@ -29,18 +29,18 @@
     }
   },
   "setup": {
-    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de encuentro: *El museo Miskatonic*, *Mala suerte*, *Brujería*, *El Más Allá*, *Frío glacial* y *Puertas cerradas*. Estos conjuntos se indican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/the-miskatonic-museum.png' /><img src='{setImgPath}/bad-luck.png' /><img src='{setImgPath}/sorcery.png' /><img src='{setImgPath}/the-beyond.png' /><img src='{setImgPath}/chilling-cold.png' /><img src='{setImgPath}/locked-doors.png' /></section>",
-    "placeLocations": "Pon en juego al azar uno de los dos Lugares Oficina de administración y uno de los dos Lugares Oficina de seguridad. Retira del juego las demás versiones de Oficina de administración y Oficina de seguridad. A continuación, pon en juego los Lugares Entrada del museo y Salas del museo. Cada investigador comienza la partida en la Entrada del museo.",
+    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de encuentro: *El museo Miskatonic*, *Mala suerte*, *Hechicería*, *El Más Allá*, *Frío helador* y *Puertas cerradas*. Estos conjuntos se indican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/the-miskatonic-museum.png' /><img src='{setImgPath}/bad-luck.png' /><img src='{setImgPath}/sorcery.png' /><img src='{setImgPath}/the-beyond.png' /><img src='{setImgPath}/chilling-cold.png' /><img src='{setImgPath}/locked-doors.png' /></section>",
+    "placeLocations": "Pon en juego al azar uno de los dos Lugares Despacho de administración y uno de los dos Lugares Oficina de seguridad. Retira del juego las demás versiones de Despacho de administración y Oficina de seguridad. A continuación, pon en juego los Lugares Entrada del museo y Salas del museo. Cada investigador comienza la partida en la Entrada del museo.",
     "exhibitDeck": {
-      "instructions": "Deja aparte los 6 Lugares «Sala de exposiciones» como un «mazo de Exposiciones» separado. Para ello, realiza lo siguiente:",
-      "bottom": "Baraja juntas la Sala de exposiciones (*Sala restringida*) y otras 2 Salas de exposiciones al azar para formar las 3 cartas inferiores del mazo de Exposiciones, con el lado no revelado boca arriba.",
-      "top": "A continuación, coloca las otras 3 Salas de exposiciones encima, en un orden aleatorio. Las 6 cartas del mazo de Exposiciones deben mostrar sólo el lado no revelado, de modo que los jugadores no sepan cuál es la Sala de exposiciones (*Sala restringida*)."
+      "instructions": "Deja aparte los 6 Lugares «Sala de exposición» como un «mazo de Exposiciones» separado. Para ello, realiza lo siguiente:",
+      "bottom": "Baraja juntas la Sala de exposición (*Sala restringida*) y otras 2 Salas de exposición al azar para formar las 3 cartas inferiores del mazo de Exposiciones, con el lado no revelado boca arriba.",
+      "top": "A continuación, coloca las otras 3 Salas de exposición encima, en un orden aleatorio. Las 6 cartas del mazo de Exposiciones deben mostrar sólo el lado no revelado, de modo que los jugadores no sepan cuál es la Sala de exposición (*Sala restringida*)."
     },
-    "setAside": "Deja aparte las siguientes cartas, fuera de juego: Harold Walsted, Adam Lynch, El Necronomicón (*Traducción de Olaus Wormius*) y Engendrado en las sombras."
+    "setAside": "Deja aparte las siguientes cartas, fuera del juego: Harold Walsted, Adam Lynch, El Necronomicón (*Traducción de Olaus Wormius*) y Surgido de las sombras."
   },
   "theVoid": {
     "title": "«El vacío»",
-    "body": "Algunas cartas de este escenario hacen referencia a un área llamada «el vacío». El vacío es un área fuera de juego junto al mazo de actos y planes a la que el enemigo Horror cazador puede entrar y salir mediante efectos de cartas. Mientras el Horror cazador está en el vacío, se considera fuera de juego y no puede verse afectado por cartas de jugador ni por acciones de investigadores."
+    "body": "Algunas cartas de este escenario hacen referencia a un área llamada «el vacío». El vacío es un área fuera del juego junto al mazo de actos y planes a la que el enemigo Horrendo cazador puede entrar y salir mediante efectos de cartas. Mientras el Horrendo cazador está en el vacío, se considera fuera del juego y no puede verse afectado por cartas de jugador ni por acciones de investigadores."
   },
   "specialRules": [
     {

@@ -1,0 +1,28 @@
+# Override: serve every image from this machine instead of the CDN.
+#
+# Use it on top of the base file:
+#
+#   docker compose -f docker-compose.yml -f docker-compose.local-assets.yml up
+#
+# Why ASSET_HOST is an absolute URL and not empty
+# -----------------------------------------------
+# The card faces you download carry a watermark. The production build removes it
+# in the browser (frontend/src/arkham/unwatermark.ts), but only for URLs that
+# start with http(s)://. An empty ASSET_HOST gives relative URLs
+# (/img/arkham/cards/...), which that code treats as "dev server, clean masters",
+# so the mark would stay on screen. Pointing ASSET_HOST at this same nginx gives
+# absolute URLs, the mark is removed, and nothing leaves your machine.
+#
+# Change the port/host if you publish the app differently, or if other devices
+# on your network will connect (use this machine's IP, e.g. http://192.168.1.20:3000).
+# The browser must be able to reach whatever you write here.
+#
+# Before the first run, download the images (see analisis.md):
+#   ./scripts/fetch-assets.sh en+es      # frontend/public/img  (+ frontend-3ed)
+#
+# The base file already mounts ./frontend/public/img and ./frontend-3ed/public/img
+# into the container, so no volumes need repeating here.
+services:
+  web:
+    environment:
+      - ASSET_HOST=http://localhost:3000

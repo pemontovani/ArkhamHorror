@@ -21,15 +21,15 @@
     "viewChaosBag": "Ver Bolsa de Caos",
     "chaosBag": "Bolsa de Caos",
     "chaosBagStats": {
-        "tokens": "{count} tokens",
-        "chanceOfSuccess": "chance of success",
-        "showOdds": "Show odds",
-        "skill": "Skill",
-        "difficulty": "Difficulty",
-        "reset": "Reset",
-        "autoFail": "auto fail",
-        "autoSuccess": "auto succeed",
-        "caveat": "Assumes one draw, expanding the extra draw that bless, curse and frost trigger. Card effects that reveal another token, the two-frost auto-fail, and draw-several-pick-one effects are not modeled."
+        "tokens": "{count} fichas",
+        "chanceOfSuccess": "probabilidad de éxito",
+        "showOdds": "Mostrar probabilidades",
+        "skill": "Habilidad",
+        "difficulty": "Dificultad",
+        "reset": "Restablecer",
+        "autoFail": "fracaso automático",
+        "autoSuccess": "éxito automático",
+        "caveat": "Supone una sola extracción, ampliada con la extracción adicional que provocan las fichas de bendición, maldición y escarcha. No se modelan los efectos de cartas que revelan otra ficha, el fracaso automático de dos fichas de escarcha ni los efectos de «saca varias y elige una»."
     },
     "add": "Añadir",
     

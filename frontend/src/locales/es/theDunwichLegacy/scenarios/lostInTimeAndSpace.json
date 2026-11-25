@@ -19,9 +19,9 @@
     "body": "<p>Cruzar el portal no se parece a nada que hayáis experimentado. Sentís vuestro cuerpo retorciéndose y distorsionándose, agitado a través de realidades mientras el portal os arrastra hacia su destino último: un lugar más allá del alcance de la imaginación humana.</p><p>De pronto, todo queda en silencio y el caos del viaje se sustituye por una sensación de soledad y pavor. Estáis en un lugar inimaginable, vasto más allá de vuestra capacidad de razonar y además por completo ajeno. El paisaje es surrealista y extraño, la arquitectura imposible. Estáis tan lejos de casa que el hogar se ha convertido en un sueño raído que apenas recordáis. Incluso si encontráis una salida de este lugar atroz, puede que nunca volváis a ser los mismos.</p>"
   },
   "setup": {
-    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de encuentro: *Perdidos en el tiempo y el espacio*, *Brujería*, *El Más Allá*, *Abominaciones horribles*, *Agentes de Yog-Sothoth*. Estos conjuntos se indican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/lost-in-time-and-space.png' /><img src='{setImgPath}/sorcery.png' /><img src='{setImgPath}/the-beyond.png' /><img src='{setImgPath}/hideous-abominations.png' /><img src='{setImgPath}/agents-of-yog.png' /></section>",
+    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de encuentro: *Perdidos en el tiempo y el espacio*, *Hechicería*, *El Más Allá*, *Abominaciones espantosas*, *Agentes de Yog-Sothoth*. Estos conjuntos se indican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/lost-in-time-and-space.png' /><img src='{setImgPath}/sorcery.png' /><img src='{setImgPath}/the-beyond.png' /><img src='{setImgPath}/hideous-abominations.png' /><img src='{setImgPath}/agents-of-yog.png' /></section>",
     "placeLocations": "Pon en juego Otra dimensión. Cada investigador comienza la partida en Otra dimensión.",
-    "setAside": "Deja aparte las siguientes cartas, fuera de juego: El borde del universo, Desgarro a través del tiempo y Yog-Sothoth."
+    "setAside": "Deja aparte las siguientes cartas, fuera del juego: Los bordes del universo, Desgarro en el tiempo y Yog-Sothoth."
   },
   "locationsInTheEncounterDeck": {
     "title": "Lugares en el mazo de Encuentro",
@@ -63,12 +63,12 @@
   "label": {
     "yogSothoth": "Descarta las {cards} cartas superiores y recibe {horror} horror",
     "tearThroughSpace": {
-      "placeDoom": "Coloca 1 perdición sobre Desgarro a través del espacio",
-      "discard": "Descarta Desgarro a través del espacio"
+      "placeDoom": "Coloca 1 perdición sobre Desgarro en el espacio",
+      "discard": "Descarta Desgarro en el espacio"
     },
     "endlessBridge": {
-      "placeDoom": "Coloca 1 perdición sobre Puente interminable",
-      "discard": "Descarta Puente interminable"
+      "placeDoom": "Coloca 1 perdición sobre Puente infinito",
+      "discard": "Descarta Puente infinito"
     },
     "sethBishop": {
       "move": "Muévete a Otra dimensión después de este ataque",
@@ -83,11 +83,11 @@
       "discard": "Descarta Luminosidad imponente"
     },
     "unstableVortex": {
-      "chooseTearThroughSpace": "Elige un desgarro a través del espacio para descartar",
+      "chooseTearThroughSpace": "Elige un desgarro en el espacio para descartar",
       "shuffle": "Baraja Vórtice inestable en el mazo de Encuentro"
     },
     "dimensionalDoorway": {
-      "shuffle": "Baraja Portal dimensional en el mazo de Encuentro"
+      "shuffle": "Baraja Entrada dimensional en el mazo de Encuentro"
     }
   }
 }

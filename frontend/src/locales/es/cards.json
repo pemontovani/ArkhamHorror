@@ -1,0 +1,1734 @@
+{
+  "label": {
+    "abyssalTome2": {
+      "placeDoom": "Coloca 1 perdición sobre Tomo abisal",
+      "doNotPlaceDoom": "No coloques perdición sobre Tomo abisal"
+    },
+    "acridMiasma": {
+      "hunter": "Resuelve la palabra clave Cazador de cada enemigo en juego"
+    },
+    "aethericCurrentYuggoth": {
+      "exhaustEnemyAndMove": "Agota al enemigo y muévelo",
+      "doNotExhaustEnemy": "No agotes al enemigo"
+    },
+    "agathaCrane": {
+      "cancel": "Cancela esta ficha y roba otra. Si lo haces, roba 1 carta",
+      "skip": "No cancelar esta ficha"
+    },
+    "agnesBakerParallel": {
+      "shuffle": "¿Barajar el evento en el mazo en lugar de descartarlo?"
+    },
+    "ajax": {
+      "moveTwice": "Muévete dos veces",
+      "moveToField": "Muévete a cualquier Lugar Campo"
+    },
+    "alchemicalDistillation": {
+      "doNotEmpower": "No potenciar",
+      "doNotResolveASecondOption": "No resolver una segunda opción",
+      "doneMoving": "Movimiento terminado",
+      "empowerIncreaseDifficultyBy2": "Potenciar (aumenta la dificultad en 2)",
+      "resolveASecondOption": "Resolver una segunda opción",
+      "placeChargeOrSecret": "Coloca {count} carga o secreto en un apoyo que controles | Coloca {count} cargas o secretos en un apoyo que controles",
+      "moveUpTo": "Muévete hasta {count} veces"
+    },
+    "alienWhispers": {
+      "damageAsset": "Recibe 1 daño en un apoyo que controles",
+      "horrorAsset": "Recibe 1 horror en un apoyo que controles"
+    },
+    "alyssaGraham": {
+      "addDoom": "Añade 1 perdición a Alyssa para mover la carta debajo",
+      "add1DoomToAlyssaToMoveCardToBottom": "Añade 1 perdición a Alyssa para mover la carta debajo",
+      "leaveCardOnTop": "Dejar la carta encima"
+    },
+    "amandaSharpe": {
+      "double": "Duplicar iconos de habilidad",
+      "skip": "No duplicar iconos de habilidad"
+    },
+    "anchorChain": {
+      "discardPrompt": "¿Descartar 1 carta de tu mano para impedir que ese enemigo se prepare durante la próxima fase de mantenimiento?"
+    },
+    "antediluvianHymn": {
+      "doNotAddCurseToken": "No añadir 1 ficha de {'{'}curse{'}'} para colocar una carta debajo del mazo de Encuentro"
+    },
+    "anyuFaithfulCompanion": {
+      "attemptToEvadeWithABaseAgilitySkillOf4": "_Evitar_. Intenta evitar con una habilidad base de {'{'}agility{'}'} de 4",
+      "discardAnyuToChooseUpToThreeInAnyOrder": "Descarta a Anyu para elegir hasta tres, en cualquier orden",
+      "gain2SkillValue": "Obtienes +2 de valor de habilidad en tu próxima prueba de habilidad esta ronda",
+      "doneChoosingOptions": "Terminar de elegir opciones"
+    },
+    "arcaneInitiate3": {
+      "place1Doom": "Coloca 1 perdición",
+      "place2Horror": "Coloca 2 horror"
+    },
+    "archaicGlyphsMarkingsOfIsis3": {
+      "doNotPlayAsset": "No juegues un apoyo"
+    },
+    "ariadnesTwine3": {
+      "moveSecretToResource": "Mueve 1 secreto de un apoyo que controles a tu reserva de recursos, como recurso",
+      "moveResourceToSecret": "Mueve 1 recurso de tu reserva de recursos a un apoyo que controles, como secreto",
+      "moveResourceToSecret2": "Mueve 1 recurso de tu reserva de recursos a un apoyo que controles, como secreto",
+      "moveSecretToResource2": "Mueve 1 secreto de un apoyo que controles a tu reserva de recursos, como recurso"
+    },
+    "armageddon": {
+      "placeCharge": "Coloca 1 carga sobre Armagedón",
+      "dealDamageToEnemy": "Inflige 1 daño a un enemigo en tu Lugar",
+      "deal1DamageToAnEnemyAtYourLocation": "Inflige 1 daño a un enemigo en tu Lugar",
+      "place1ChargeOnArmageddon": "Coloca 1 carga sobre Armagedón"
+    },
+    "armageddon4": {
+      "placeCharge": "Coloca 1 carga sobre Armagedón (4)",
+      "dealDamageToEnemy": "Inflige 1 daño a un enemigo en tu Lugar",
+      "deal1DamageToAnEnemyAtYourLocation": "Inflige 1 daño a un enemigo en tu Lugar",
+      "place1ChargeOnArmageddon4": "Coloca 1 carga sobre Armagedón (4)"
+    },
+    "artisticInspiration": {
+      "getPlus1": "Obtén +1",
+      "getMinus1": "Obtén -1"
+    },
+    "ashcanPeteParallel": {
+      "skip": "No devolver ninguna carta"
+    },
+    "atACrossroads": {
+      "act": "El investigador elegido debe realizar inmediatamente una acción como si fuera su turno y después descarta 1 carta al azar de su mano.",
+      "draw": "El investigador elegido pierde 1 acción durante su próximo turno y después roba 3 cartas."
+    },
+    "augur": {
+      "putIntoPlayFromDiscard": "Poner en juego desde el descarte"
+    },
+    "averyClaypoolAntarcticGuideResolute": {
+      "revealANewChaosToken": "Revela una nueva ficha de caos",
+      "spend1Supply": "Gasta 1 suministro"
+    },
+    "backInjury": {
+      "putBackInjuryIntoPlayInYourThreatArea": "Pon Espalda herida en juego en tu zona de amenaza",
+      "take1DamageAndShuffleItIntoYourDeck": "Recibe 1 daño y baraja la carta en tu mazo"
+    },
+    "baitAndSwitch": {
+      "evadeAndMove": "Evitar. Si tienes éxito y el enemigo no es Élite, evita al enemigo y muévelo a un Lugar conectado.",
+      "evadeAndSwitch": "Evitar. Úsalo solo contra un enemigo que no sea Élite en un Lugar conectado. Si tienes éxito, evita a ese enemigo e intercambia Lugares con él."
+    },
+    "baseballBat2": {
+      "returnToHand": "Devuelve Bate de béisbol a tu mano después de este ataque",
+      "extraDamage": "Este ataque inflige +1 de daño adicional. Descarta Bate de béisbol después de este ataque"
+    },
+    "beguile": {
+      "moveAttachedEnemy": "Mueve al enemigo unido a un Lugar conectado revelado",
+      "basicInvestigate": "Realiza una acción básica de investigar en su Lugar",
+      "basicEvade": "Realiza una acción básica de evitar en su Lugar"
+    },
+    "beloved": {
+      "removeForAutoSuccess": "Retira Amada de la partida para sustituir los efectos de esa ficha por lo siguiente: «Tienes éxito automáticamente. (No reveles otra ficha. Devuelve esta ficha a la bolsa de caos cuando termine esta prueba)».",
+      "remove": "Retira Amada de la partida para sustituir los efectos de esa ficha por lo siguiente: «Tienes éxito automáticamente. (No reveles otra ficha. Devuelve esta ficha a la bolsa de caos cuando termine esta prueba)».",
+      "skip": "No retirar"
+    },
+    "berettaM19184": {
+      "dealAnAdditional1Damage": "Inflige +1 de daño adicional",
+      "readyBerettaM1918": "Prepara Beretta M1918"
+    },
+    "bewitching3": {
+      "draw1AttachedCard": "Roba 1 carta unida",
+      "searchTopOfDeck": "Busca en las 9 cartas superiores de tu mazo una copia de una carta unida, róbala y baraja tu mazo",
+      "chooseNoMoreTrickCards": "No elegir más cartas de Truco"
+    },
+    "blackMarket": {
+      "missingOwner": "A una carta dejada aparte le faltaba su propietario. Selecciona el propietario correcto"
+    },
+    "blessedBlade": {
+      "exhaustToAddBless": "Agota Hoja bendecida para añadir 1 ficha de {'{'}bless{'}'}",
+      "exhaustForBless": "Agota Hoja bendecida para añadir 1 ficha de {'{'}bless{'}'}",
+      "exhaust": "Agota Hoja bendecida (4) para añadir 1 ficha de {'{'}bless{'}'} | Agota Hoja bendecida (4) para añadir {count} fichas de {'{'}bless{'}'}"
+    },
+    "blessedBlade4": {
+      "exhaustForBless": "Agota Hoja bendecida (4) para añadir 1 ficha de {'{'}bless{'}'} | Agota Hoja bendecida (4) para añadir {count} fichas de {'{'}bless{'}'}"
+    },
+    "bloodRite": {
+      "gainResource": "Ganar recurso",
+      "spendDealDamage": "Gasta un recurso e inflige 1 daño a un enemigo en tu Lugar",
+      "continueDiscarded": "Continuar habiendo descartado {count} cartas",
+      "spendDamage": "Gasta un recurso e inflige 1 daño a un enemigo en tu Lugar"
+    },
+    "blur1": {
+      "useAgility": "Usar agilidad",
+      "useWillpower": "Usar voluntad"
+    },
+    "blur4": {
+      "useAgility": "Usar agilidad",
+      "useWillpower": "Usar voluntad"
+    },
+    "boardingParty5": {
+      "doNotAttackAgain": "No agotar a un Aliado para atacar de nuevo"
+    },
+    "bonesaw": {
+      "doNotTakeDamage": "No recibir daño",
+      "take1DamageToDo1Damage": "Recibe 1 daño para infligir +1 de daño"
+    },
+    "bookOfLivingMythsChronicleOfWonders": {
+      "resolveBlessToken": "Resolver ficha de {'{'}bless{'}'}",
+      "resolveCurseToken": "Resolver ficha de {'{'}curse{'}'}"
+    },
+    "brokenBottle": {
+      "discardForDamage": "Descarta para infligir +1 de daño"
+    },
+    "buriedSecrets": {
+      "takeHorror": "Recibe 2 horror para barajar en tu mazo"
+    },
+    "butterflySwords2": {
+      "doNotFightAgain": "No combatir de nuevo",
+      "fightAgain": "Combatir de nuevo"
+    },
+    "butterflySwords5": {
+      "doNotFightAgain": "No combatir de nuevo",
+      "exhaustToDo1Damage": "Agota para infligir +1 de daño",
+      "fightAgain": "Combatir de nuevo",
+      "doNotExhaust": "No agotar",
+      "exhaustForDamage": "Agota para infligir +1 de daño"
+    },
+    "callForBackup": {
+      "rogue": "carta de {'{'}rogue{'}'}: puedes moverte a un Lugar conectado",
+      "guardian": "carta de {'{'}guardian{'}'}: inflige 1 daño a un enemigo en tu Lugar",
+      "seeker": "carta de {'{'}seeker{'}'}: descubre 1 pista en tu Lugar",
+      "mystic": "carta de {'{'}mystic{'}'}: cura 1 horror de cualquier carta",
+      "survivor": "carta de {'{'}survivor{'}'}: cura 1 daño de cualquier carta"
+    },
+    "callForBackup2": {
+      "rogueOption": "carta de {'{'}rogue{'}'}: puedes moverte a un Lugar conectado",
+      "guardianOption": "carta de {'{'}guardian{'}'}: inflige 1 daño a un enemigo en tu Lugar",
+      "seekerOption": "carta de {'{'}seeker{'}'}: descubre 1 pista en tu Lugar",
+      "mysticOption": "carta de {'{'}mystic{'}'}: cura 1 horror de cualquier carta",
+      "survivorOption": "carta de {'{'}survivor{'}'}: cura 1 daño de cualquier carta"
+    },
+    "callOfMadness": {
+      "shuffleTekelili": "Baraja las 3 cartas superiores del mazo de Tekeli-li en tu mazo"
+    },
+    "callOfTheDreamlands": {
+      "reduceCost": "Juégala, reduciendo su coste en 1",
+      "reduceDreaming": "Juégala, reduciendo su valor onírico en 1"
+    },
+    "carolynFern": {
+      "doNotHeal": "No curar nada"
+    },
+    "ceremonialSickle": {
+      "exhaustForBoost": "Agota Hoz ceremonial y coloca 1 perdición sobre ella para obtener +1 de valor de habilidad e infligir +1 de daño en este ataque.",
+      "onDefeatEnemy": "Si este ataque derrota a un enemigo, retira 1 perdición de Hoz ceremonial"
+    },
+    "ceremonialSickle4": {
+      "exhaustForBoost": "Agota Hoz ceremonial y coloca 1 perdición sobre ella para obtener +3 de valor de habilidad e infligir +1 de daño en este ataque.",
+      "onDefeatEnemy": "Si este ataque derrota a un enemigo, prepara Hoz ceremonial y retira toda la perdición de ella."
+    },
+    "chainsaw4": {
+      "deal1DamageToTheAttackedEnemy": "Inflige 1 daño al enemigo atacado",
+      "place1SupplyOnChainsaw": "Coloca 1 suministro sobre Motosierra"
+    },
+    "chuckFergus2": {
+      "thatEventCosts2FewerResourcesToPlay": "Ese evento cuesta 2 recursos menos de jugar.",
+      "thatEventGainsFast": "Ese evento obtiene Rápido",
+      "gain2SkillValue": "Obtienes +2 de valor de habilidad mientras realizas una prueba de habilidad durante la resolución de ese evento."
+    },
+    "chuckFergus5": {
+      "thatEventCosts2FewerResourcesToPlay": "Ese evento cuesta 2 recursos menos de jugar.",
+      "thatEventGainsFast": "Ese evento obtiene Rápido",
+      "gain2SkillValue": "Obtienes +2 de valor de habilidad mientras realizas una prueba de habilidad durante la resolución de ese evento."
+    },
+    "cleanSneak": {
+      "damage": "Inflige 2 daño a ese enemigo"
+    },
+    "cookiesCustom32": {
+      "fightWithABaseCombatSkillOf5": "Combate con una habilidad base de {'{'}combat{'}'} de 5",
+      "get2CombatForThisAttack": "Obtén +2 {'{'}combat{'}'} en este ataque"
+    },
+    "corrosiveSlime": {
+      "devourResource": "El Sujeto 8L-08 devora uno de tus recursos",
+      "devourRandomCardFromHand": "El Sujeto 8L-08 devora una carta al azar de tu mano"
+    },
+    "corsairsCache": {
+      "addToHand": "Añádela a tu mano",
+      "discardForResources": "Descártala y gana recursos iguales a su coste impreso"
+    },
+    "cosmicFlame": {
+      "spendChargeForDamage": "Gasta 1 carga para infligir +1 de daño"
+    },
+    "cosmicFlame5": {
+      "spendChargeForDamage": "Gasta 1 carga para infligir 1 daño a un enemigo en tu Lugar"
+    },
+    "cosmicRevelation": {
+      "draw": "roba 1 carta",
+      "play": "juega 1 carta revelada"
+    },
+    "cosmicRevelation1": {
+      "even": "Par",
+      "odd": "Impar",
+      "playRevealed": "juega 1 carta revelada"
+    },
+    "crisisOfFaith": {
+      "replaceBlessWithCurse": "Sustituye la ficha de bendición por una de maldición",
+      "swap": "Sustituye la ficha de bendición por una de maldición"
+    },
+    "customGrip": {
+      "doNotPlayFirearm": "No juegues un Arma de fuego"
+    },
+    "cyclopeanHammer5": {
+      "doNotMoveEnemy": "No muevas al enemigo",
+      "exhaustForExtraDamage": "Agota Martillo ciclópeo para, en su lugar, infligir +2 de daño y mover al enemigo hasta dos Lugares lejos de ti.",
+      "moveEnemy": "Mover al enemigo",
+      "moveEnemyAway": "Alejar al enemigo"
+    },
+    "daisyWalkerParallel": {
+      "skip": "No usar la habilidad de Daisy"
+    },
+    "damningTestimony": {
+      "doNotSpendEvidence": "No gastar Pruebas",
+      "investigateTheEnemysLocation": "Investiga el Lugar del enemigo",
+      "investigateYourLocation": "Investiga tu Lugar",
+      "spendEvidence": "Gasta 1 Prueba para evitar automáticamente al enemigo elegido.",
+      "spendForClue": "Gasta 1 Prueba para descubrir 1 pista adicional en el Lugar del enemigo elegido."
+    },
+    "darkRitual": {
+      "discardDarkRitual": "Descarta Ritual oscuro",
+      "spend1Resource": "Gasta 1 recurso"
+    },
+    "davidRenfield": {
+      "doNotPlaceDoomOnDavidRenfield": "No coloques perdición sobre David Renfield",
+      "placeDoomOnDavidRenfield": "Coloca perdición sobre David Renfield"
+    },
+    "decoy": {
+      "evadeOne": "Evita a 1 enemigo",
+      "evadeTwo": "Evita a 2 enemigos"
+    },
+    "decoyTrap": {
+      "discardMove": "Descarta Decoy Trap para moverte a su Lugar"
+    },
+    "defiance": {
+      "skull": "Elegir {'{'}skull{'}'}",
+      "cultist": "Elegir {'{'}cultist{'}'}",
+      "tablet": "Elegir {'{'}tablet{'}'}",
+      "elderThing": "Elegir {'{'}elderThing{'}'}"
+    },
+    "delayTheInevitable": {
+      "discard": "Descarta Retrasar lo inevitable"
+    },
+    "denyExistence": {
+      "cancelDiscardFromHand": "Cancela el descarte de cartas de tu mano",
+      "cancelLoseResources": "Cancela la pérdida de 1 recurso | Cancela la pérdida de {count} recursos",
+      "cancelLoseActions": "Cancela la pérdida de 1 acción | Cancela la pérdida de {count} acciones"
+    },
+    "denyExistence5": {
+      "drawInstead": "Roba esa cantidad de cartas en lugar de descartar",
+      "gainResourcesInstead": "Gana 1 recurso en su lugar | Gana {count} recursos en su lugar",
+      "gainActionsInstead": "Gana 1 acción en su lugar | Gana {count} acciones en su lugar",
+      "healDamageInstead": "Cura 1 daño en su lugar | Cura {count} daño en su lugar",
+      "healHorrorInstead": "Cura 1 horror en su lugar | Cura {count} horror en su lugar"
+    },
+    "detectivesColt1911s": {
+      "doNotMoveAnInsight": "No muevas una percepción"
+    },
+    "devilFriendOrFoe2": {
+      "damageConcealed": "Dañar la carta encubierta",
+      "doNotDamageConcealed": "No dañar la carta encubierta"
+    },
+    "dexterDrake": {
+      "skip": "No devolver un apoyo"
+    },
+    "dialOfAncientsSignsOfCataclysm4": {
+      "spend1Charge": "Gasta 1 carga",
+      "spend1ChargeOrReleaseThisToken": "Gasta 1 carga o libera esta ficha"
+    },
+    "dianaStanley": {
+      "doNotAdd": "No añadas ninguna carta a tu mano"
+    },
+    "disciplineAlignmentOfSpirit": {
+      "take1DirectDamageToHeal3Horror": "Recibe 1 daño directo para curar 3 horror",
+      "take1DirectHorrorToHeal3Damage": "Recibe 1 horror directo para curar 3 daño"
+    },
+    "divination1": {
+      "useIntellect": "Usar {'{'}intellect{'}'}",
+      "useWillpowerInsteadOfIntellect": "Usar {'{'}willpower{'}'} en lugar de {'{'}intellect{'}'}"
+    },
+    "divination4": {
+      "useIntellect": "Usar {'{'}intellect{'}'}",
+      "useWillpowerInsteadOfIntellect": "Usar {'{'}willpower{'}'} en lugar de {'{'}intellect{'}'}"
+    },
+    "doppelganger": {
+      "moveToDoppelganger": "Muévete al Lugar del doble",
+      "evadeEnemy": "Evitar al enemigo"
+    },
+    "doppelganger1": {
+      "moveToLocationOfDoppelganger": "Muévete al Lugar del doble",
+      "evadeEnemy": "Evitar al enemigo"
+    },
+    "doubleDown2": {
+      "spendResources": "Gastar recursos en Doblar la apuesta"
+    },
+    "dowsingRod": {
+      "exhaustForBoost": "Agota Varita de zahorí y coloca 1 perdición sobre ella para moverte a un Lugar conectado.",
+      "onLastClue": "Si esta investigación descubre la última pista de un Lugar, retira 1 perdición de Varita de zahorí."
+    },
+    "dowsingRod4": {
+      "exhaustForBoost": "Agota Varita de zahorí y coloca 1 perdición sobre ella para moverte a un Lugar conectado y obtener +2 de valor de habilidad en esta investigación.",
+      "onLastClue": "Si esta investigación descubre la última pista de un Lugar, prepara Varita de zahorí y retira toda la perdición de ella."
+    },
+    "drWilliamTMaleson2": {
+      "chooseCardToResolve": "Elige la carta que resolver"
+    },
+    "drawingThin": {
+      "draw1Card": "Roba 1 carta",
+      "take2Resources": "Toma 2 recursos"
+    },
+    "dreamQuest": {
+      "drawCard": "Roba 1 carta"
+    },
+    "dreamersChronicle": {
+      "takeHorror": "Recibe 1 horror para descubrir 1 pista adicional en tu Lugar"
+    },
+    "dreamsOfPeace": {
+      "healDamageAndHorror": "Cura 1 daño y 1 horror"
+    },
+    "earthlySerenity1": {
+      "doNotSpendAChargeToHeal": "No gastar una carga para curar",
+      "spendAChargeToHeal": "Gastar una carga para curar"
+    },
+    "earthlySerenity4": {
+      "doNotSpendAChargeToHeal": "No gastar una carga para curar",
+      "spendAChargeToHeal": "Gastar una carga para curar"
+    },
+    "elaborateDistraction": {
+      "evadeNonElite": "Evita automáticamente a ese enemigo si no es Élite",
+      "dealDamage": "Inflige 1 daño a ese enemigo",
+      "evade": "Evita automáticamente a ese enemigo si no es Élite"
+    },
+    "eldritchBrand5": {
+      "chooseCard": "Elige la carta para Marca arcana (5)"
+    },
+    "eldritchSophist": {
+      "moveCharge": "Mover carga",
+      "moveSecret": "Mover secreto"
+    },
+    "elleRubashPurifyingPurpose2": {
+      "attachWithoutSwapping": "Unir sin intercambiar"
+    },
+    "emergencyCache": {
+      "takeResource": "Tomar recurso",
+      "addSupply": "Añadir suministro"
+    },
+    "empiricalHypothesis": {
+      "failBy2": "Fracasas en una prueba por 2 o más.",
+      "succeedBy3": "Tienes éxito en una prueba por 3 o más.",
+      "runOutOfCards": "Te quedas sin cartas en la mano.",
+      "dealtDamageOrHorror": "Recibes daño u horror.",
+      "discardTreacheryOrEnemy": "Descartas una traición o un enemigo del juego.",
+      "enterLocationWithShroud3": "Entras en un Lugar con velo 3 o más."
+    },
+    "encephalonSignal": {
+      "damage": "Inflige 2 daño a un investigador o a un enemigo Humanoide en tu Lugar"
+    },
+    "enchantedBladeGuardian3": {
+      "doNotSpendUse": "No gastes un uso",
+      "spend1UseToEmpower": "Gasta 1 uso para potenciar"
+    },
+    "enchantingFife": {
+      "spendCharge": "Gasta 1 carga",
+      "placeDream": "Coloca 1 sueño en una carta onírica que controles",
+      "drawACard": "Roba 1 carta",
+      "doNotDrawACard": "No robes una carta"
+    },
+    "enervation": {
+      "discardHighestCost": "Elige la carta con el coste impreso más alto de tu mano y descártala"
+    },
+    "eonChart4": {
+      "move": "Mover"
+    },
+    "everVigilant1": {
+      "doNotPlayAsset": "No juegues un apoyo"
+    },
+    "explorersSextant": {
+      "exhaustForClue": "Agota el Sextante del explorador para descubrir 1 pista adicional en tu Lugar"
+    },
+    "extraRations1": {
+      "heal1DamageFromYourself": "Cúrate 1 daño"
+    },
+    "eyeOfChaos": {
+      "placeCharge": "Coloca 1 carga sobre Ojo del caos",
+      "discover1CluesAtAConnectingLocation": "Descubre 1 pista en un Lugar conectado",
+      "place1ChargeOnEyeOfChaos": "Coloca 1 carga sobre Ojo del caos"
+    },
+    "eyeOfChaos4": {
+      "placeCharge": "Coloca 1 carga sobre Ojo del caos (4)",
+      "discover1CluesAtAConnectingLocation": "Descubre 1 pista en un Lugar conectado",
+      "place1ChargeOnEyeOfChaos4": "Coloca 1 carga sobre Ojo del caos (4)"
+    },
+    "eyeOfTheDjinnVesselOfGoodAndEvil2": {
+      "gainedAction": "Ganó 1 acción de Ojo del djinn"
+    },
+    "fakeCredentials": {
+      "discardFakeCredentials": "Descarta Credenciales falsas",
+      "theChosenEnemyAttacksYou": "El enemigo elegido te ataca"
+    },
+    "falseSurrender": {
+      "fightAgainstEnemy": "Realiza una acción de combatir contra ese enemigo",
+      "doNotFight": "No realices una acción de combatir"
+    },
+    "fangOfTyrthrha": {
+      "moveToEnemy": "Muévete al Lugar del enemigo"
+    },
+    "fatherMateo": {
+      "drawAndGain": "Roba 1 carta y gana 1 recurso"
+    },
+    "fey": {
+      "return": "Devuelve Espíritu feérico a la mano"
+    },
+    "fickleFortune": {
+      "place": "Coloca 1 perdición en el plan actual. Cada investigador cura 3 daño y 3 horror.",
+      "remove": "Retira 1 perdición del plan actual. Cada investigador recibe 1 daño directo y 1 horror directo. Retira Fortuna caprichosa de la partida."
+    },
+    "finnEdwards": {
+      "skip": "No descubrir una pista"
+    },
+    "flamethrower5": {
+      "standardDamage": "Infligir el daño estándar",
+      "assignAmongEngaged": "Asigna hasta 4 de daño entre los enemigos enfrentados a ti",
+      "assignUpTo4": "Asigna hasta 4 de daño entre los enemigos enfrentados a ti",
+      "doStandardDamage": "Infligir el daño estándar"
+    },
+    "flare": {
+      "searchAlly": "Buscar un Aliado"
+    },
+    "flare1": {
+      "searchForAlly": "Buscar un Aliado"
+    },
+    "fleshWard": {
+      "cancel1Damage": "Cancela 1 daño",
+      "cancel1Horror": "Cancela 1 horror"
+    },
+    "flurryOfBlows": {
+      "repeat": "Repetir este efecto (Lluvia de golpes)"
+    },
+    "flurryOfBlows5": {
+      "repeatEffect": "Repetir este efecto (Lluvia de golpes)"
+    },
+    "forbiddenTome": {
+      "discardForbiddenTome": "Descartar Tomo prohibido",
+      "doNotDiscardForbiddenTome": "No descartar Tomo prohibido"
+    },
+    "fortyFiveThompsonRogue3": {
+      "doNotDamageAnyEnemies": "No dañar a ningún enemigo"
+    },
+    "friendsInLowPlaces": {
+      "doNotSpend": "No gastar 1 recurso para añadir una carta a tu mano",
+      "swiftSkip": "No jugar cartas (Veloces)",
+      "versatileSkip": "No añadir una carta a tu mano gratis (Versátiles)"
+    },
+    "geas2": {
+      "drawPromise": "No ROBARÉ ninguna carta durante cada uno de mis turnos",
+      "playPromise": "No JUGARÉ ninguna carta durante cada uno de mis turnos",
+      "commitPromise": "No ASIGNARÉ ninguna carta durante cada uno de mis turnos",
+      "iShallNot": "No ASIGNARÉ ninguna carta durante cada uno de mis turnos",
+      "iShallNotDrawAnyCardsDuringEachOfMyTurns": "No ROBARÉ ninguna carta durante cada uno de mis turnos",
+      "iShallNotPlayAnyCardsDuringEachOfMyTurns": "No JUGARÉ ninguna carta durante cada uno de mis turnos",
+      "broken": "¡Has roto el geas!"
+    },
+    "geneBeauregard3": {
+      "move1ClueFrom": "Mueve 1 pista de un Lugar conectado a tu Lugar",
+      "move1ClueFrom2": "Mueve 1 pista de tu Lugar a un Lugar conectado",
+      "moveAnEnemy": "Mueve a un enemigo de un Lugar conectado a tu Lugar",
+      "moveAnEnemy2": "Mueve a un enemigo de tu Lugar a un Lugar conectado"
+    },
+    "georgeBarnaby": {
+      "donePlacingCards": "Terminar de colocar cartas debajo de George Barnaby"
+    },
+    "ghastlyPossession": {
+      "placeDoom": "Coloca 1 perdición sobre ese apoyo. Posesión abominable obtiene {'{'}wild{'}'}{'{'}wild{'}'}",
+      "ifSuccess": "Si esta prueba tiene éxito, retira 1 perdición de ese apoyo o repone la mitad de sus usos (redondeando hacia abajo)",
+      "removeDoom": "Retira 1 perdición de ese apoyo",
+      "replenish": "Repón la mitad de sus usos (redondeando hacia abajo)"
+    },
+    "ghastlyPossession1": {
+      "placeDoomGainIcons": "Coloca 1 perdición sobre ese apoyo. Posesión abominable obtiene {'{'}wild{'}'}{'{'}wild{'}'}",
+      "removeDoomOrReplenish": "Si esta prueba tiene éxito, retira 1 perdición de ese apoyo o repone la mitad de sus usos (redondeando hacia abajo)",
+      "removeDoomFromAsset": "Retira 1 perdición de ese apoyo",
+      "replenishUses": "Repón la mitad de sus usos (redondeando hacia abajo)"
+    },
+    "ghastlyRevelation": {
+      "giveClues": "Da cualquier número de tus pistas a otro investigador",
+      "placeClues": "Coloca cualquier número de tus pistas en cualquier Lugar"
+    },
+    "glassing": {
+      "discard": "Descarta Glassing para descubrir 1 pista adicional",
+      "doNotDiscard": "No descartar"
+    },
+    "gloriaGoldberg": {
+      "discard": "Descartarla",
+      "putOnTop": "Ponerla encima del mazo de Encuentro",
+      "placeBeneath": "Colocarla debajo de Gloria Goldberg (máx. 3 cartas debajo de ella)",
+      "chooseDrawer": "Elige al investigador que robará la carta de encuentro"
+    },
+    "grannyOrne": {
+      "failBy1Less": "Fracasas por 1 menos",
+      "failBy1More": "Fracasas por 1 más"
+    },
+    "grannyOrne3": {
+      "getPlus1SkillValue": "Obtén +1 de valor de habilidad",
+      "getMinus1SkillValue": "Obtén -1 de valor de habilidad"
+    },
+    "graysAnatomyTheDoctorsBible5": {
+      "damagePlus": "La próxima vez que esa carta fuera a recibir daño esta ronda, inflige +1 de daño/horror (hasta un máximo de +3",
+      "healPlus": "La próxima vez que esa carta fuera a ser curada esta ronda, cura +1 de daño/horror (hasta un máximo de +3"
+    },
+    "grimMemoir": {
+      "doNotDrawCard": "No robar carta",
+      "draw1Card": "Roba 1 carta"
+    },
+    "grimResolve": {
+      "doneSwapping": "Intercambio terminado",
+      "chooseHandToSwap": "Elige la carta de la mano con la que intercambiar",
+      "chooseUnderneathToSwap": "Elige la carta de debajo con la que intercambiar",
+      "chooseHandCard": "Elige la carta de la mano con la que intercambiar",
+      "chooseUnderCard": "Elige la carta de debajo con la que intercambiar"
+    },
+    "grizzled": {
+      "attachToEnemy": "Unir al enemigo (Némesis)",
+      "doNotAttachToEnemy": "No unir al enemigo",
+      "addToVictory": "Añade tanto la traición como Avezado a la zona de victoria (Curtido en los Mitos)",
+      "doNotAddToVictory": "No añadir a la zona de victoria",
+      "attach": "Unir al enemigo (Némesis)",
+      "doNotAttach": "No unir al enemigo",
+      "addVictory": "Añade tanto la traición como Avezado a la zona de victoria (Curtido en los Mitos)",
+      "skipVictory": "No añadir a la zona de victoria"
+    },
+    "guerrillaTactics": {
+      "fight": "Combatir ({'{'}combat{'}'})",
+      "evade": "Evitar ({'{'}agility{'}'})"
+    },
+    "guidedByTheUnseen3": {
+      "doNotCommitAnyCards": "No asignes ninguna carta"
+    },
+    "hallowedChalice": {
+      "exhaustForBoost": "Agota Cáliz sagrado y coloca 1 perdición sobre él para curar 2 daño o 2 horror de ese investigador.",
+      "heal1Damage": "Cura 1 daño",
+      "healFromThatInvestigator": "Cura 1 daño o 1 horror de ese investigador. Si curas el último daño u horror de ese investigador, retira 1 perdición de Cáliz sagrado.",
+      "heal1Horror": "Cura 1 horror",
+      "heal2Damage": "Cura 2 daño",
+      "heal2Horror": "Cura 2 horror"
+    },
+    "hallowedMirror3": {
+      "changeEach": "Cambia cada «2» por un «3»",
+      "shuffleItInto": "Barájalo en tu mazo en lugar de descartarlo"
+    },
+    "handCrankFlashlight": {
+      "discardForShroud": "Descarta para dar a tu Lugar -1 de velo hasta el final de la ronda"
+    },
+    "handHook": {
+      "discardForDamage": "Descarta 1 carta de tu mano para infligir +1 de daño"
+    },
+    "henryWan": {
+      "drawAnother": "Sacar otra",
+      "gain1Resources": "Gana 1 recurso",
+      "stop": "Detener"
+    },
+    "hiredMuscle1": {
+      "discardHiredMuscle": "Descarta Matón a sueldo",
+      "pay1ResourceToHiredMuscle": "Paga 1 recurso a Matón a sueldo"
+    },
+    "holySpear5": {
+      "releaseBless": "Libera una ficha de {'{'}bless{'}'}",
+      "doNotReleaseBless": "No liberes una ficha de {'{'}bless{'}'}",
+      "doNotReleaseABlessToken": "No liberes una ficha de {'{'}bless{'}'}",
+      "releaseABlessToken": "Libera una ficha de {'{'}bless{'}'}"
+    },
+    "honedInstinct": {
+      "another": "Realiza otra acción y retira esto de la partida (La fuerza de la costumbre)",
+      "skip": "No realizar otra acción"
+    },
+    "hope": {
+      "putIntoPlayFromDiscard": "Poner en juego desde el descarte"
+    },
+    "huntersArmor": {
+      "doNoExhaust": "No agotar",
+      "exhaustHuntersArmorToDraw1Card": "Agota Coraza de cazador para robar 1 carta"
+    },
+    "hyperphysicalShotcasterTheoreticalDevice": {
+      "matterweaver": "Tejedor de materia",
+      "moveNothingAfter": "No mover nada (después)",
+      "moveNothingBefore": "No mover nada (antes)",
+      "railshooter": "Lanzador de riel",
+      "realitycollapser": "Colapsador de realidad",
+      "telescanner": "Teleescáner",
+      "translocator": "Translocador"
+    },
+    "hypnoticGaze": {
+      "health": "Infligir daño a la salud",
+      "sanity": "Infligir daño a la cordura"
+    },
+    "icePick3": {
+      "discardIcePick3": "Descarta Picahielos (3) para descubrir 1 pista adicional en tu Lugar",
+      "discardIcePick3ToDo1Damage": "Descarta Picahielos (3) para infligir +1 de daño"
+    },
+    "icebreakerLanding": {
+      "removeFrost": "Retira 1 ficha de {'{'}frost{'}'} de la bolsa de caos",
+      "recordSmallRadio": "Anota Radio pequeña en la sección «Suministros recuperados» del Registro de campaña"
+    },
+    "idolOfXanatosWatcherBeyondTime": {
+      "cancel1Damage": "Cancela 1 daño",
+      "cancel1Horror": "Cancela 1 horror"
+    },
+    "imDoneRunnin": {
+      "skip": "No dañar al enemigo",
+      "damage": "Dañar al enemigo"
+    },
+    "impromptuBarrier": {
+      "evadeAnother": "Evita a otro enemigo",
+      "skip": "No evites a otro enemigo"
+    },
+    "inquisitive": {
+      "passByTwoMore": "Tienes éxito por 2 más",
+      "passByOneMore": "Tienes éxito por 1 más",
+      "doNotModify": "No modificar",
+      "passByOneLess": "Tienes éxito por 1 menos",
+      "passByTwoLess": "Tienes éxito por 2 menos"
+    },
+    "isamaraOrdonezTheTorchSinger": {
+      "ready": "Preparar"
+    },
+    "jewelOfAureolus3": {
+      "draw1Card": "Roba 1 carta",
+      "take2Resources": "Toma 2 recursos"
+    },
+    "joeDiamond": {
+      "chooseHunchCards": "Deja aparte 11 eventos de _Percepción_ para formar tu mazo de corazonadas. Caso sin resolver ya está incluido.",
+      "chooseHunch": "Deja aparte 11 eventos de _Percepción_ para formar tu mazo de corazonadas. Caso sin resolver ya está incluido.",
+      "doNotMove": "No muevas una percepción"
+    },
+    "katana": {
+      "exhaustKatanaToDeal2DamageForThisAttack": "Agota Katana para infligir +2 de daño en este ataque"
+    },
+    "kateWinthrop": {
+      "doNotMove": "No devolver pistas"
+    },
+    "kenslersLog": {
+      "get2IntellectForThisInvestigation": "Obtén +2 {'{'}intellect{'}'} en esta investigación",
+      "investigateWithABaseIntellectSkillOf5": "Investiga con una habilidad base de {'{'}intellect{'}'} de 5"
+    },
+    "knightOfSwords3": {
+      "discardKnightOfSwordsToGet3Instead": "Descarta Caballo de espadas para obtener +3 en su lugar"
+    },
+    "knightsLongsword": {
+      "doNotExhaust": "No agotar Knight's Longsword"
+    },
+    "knowledgeIsPower": {
+      "discardToDraw": "Descarta para robar 1 carta",
+      "discard": "Descarta para robar 1 carta"
+    },
+    "kohakuNarukami": {
+      "addBless": "Añade 1 ficha de {'{'}bless{'}'}",
+      "addCurse": "Añade 1 ficha de {'{'}curse{'}'}",
+      "removeAction": "<span>Retira 2 fichas de {'{'}bless{'}'} y 2 fichas de {'{'}curse{'}'} de la bolsa de caos para realizar una acción adicional este turno</span>"
+    },
+    "kukri": {
+      "spendActionForDamage": "Gasta 1 acción para infligir +1 de daño",
+      "skipAdditionalKukriDamage": "Omitir el daño adicional de Kukri",
+      "spend1ActionToDeal1Damage": "Gasta 1 acción para infligir +1 de daño"
+    },
+    "lashOfUlthar2": {
+      "exhaustToEvade": "Agota Lash of Ulthar para evitar automáticamente a ese enemigo"
+    },
+    "leadingLadyEnchantress": {
+      "removeDoom": "Retira 1 perdición de una carta de jugador en tu Lugar"
+    },
+    "libraryPass5": {
+      "pay1Resources": "Paga 1 recurso",
+      "putOnBottomOfDeck": "Poner debajo del mazo"
+    },
+    "lieInWait": {
+      "skip": "No descartar Lie in Wait",
+      "discard": "Descarta Lie in Wait para añadir +1 de daño"
+    },
+    "livingInk": {
+      "doNotCharge": "No cargar con Tinta viviente e ignorar su habilidad durante el resto de la ronda (Representación sutil)",
+      "remove1Charge": "Retira 1 carga"
+    },
+    "localMap": {
+      "exhaustAndMove": "Agota Local Map y muévete al Lugar investigado"
+    },
+    "logicalReasoning": {
+      "discardTerror": "Descarta un Terror"
+    },
+    "ltWilsonStewart": {
+      "healDamage": "Cura 1 daño del Tte. Wilson Stewart",
+      "healHorror": "Cura 1 horror del Tte. Wilson Stewart",
+      "plus1SkillValue": "Obtienes +1 de valor de habilidad en tu próxima prueba de habilidad",
+      "drawCard": "Roba 1 carta",
+      "gainResource": "Gana 1 recurso"
+    },
+    "luckyCharm": {
+      "move1Damage": "Mueve 1 daño",
+      "move1Horror": "Mueve 1 horror"
+    },
+    "lukeRobinson": {
+      "currentLocation": "Jugar en el Lugar actual",
+      "connectingLocation": "Jugar en un Lugar conectado"
+    },
+    "lunarCharts": {
+      "doNotMoveDream": "No muevas un sueño"
+    },
+    "lunarSight3": {
+      "spendChargeForShroudAndClue": "Gasta 1 carga para reducir en 2 el velo de tu Lugar y descubrir 1 pista adicional",
+      "takeHorrorAndDiscard": "Recibe 1 horror y descarta Lunar Sight"
+    },
+    "machete": {
+      "doNotExhaustMachete": "No agotar Machete",
+      "exhaustMachete": "Agotar Machete"
+    },
+    "maimedHand": {
+      "putMaimedHandIntoPlayInYourThreatArea": "Pon Mano lisiada en juego en tu zona de amenaza",
+      "take1DamageAndShuffleItIntoYourDeck": "Recibe 1 daño y baraja la carta en tu mazo"
+    },
+    "mandyThompson": {
+      "additionalCards": "Busca 3 cartas adicionales",
+      "additionalTargets": "Resuelve 1 objetivo adicional de la búsqueda"
+    },
+    "manifestationsOfEvil": {
+      "addFrost": "Añade 1 ficha de {'{'}frost{'}'} a la bolsa de caos",
+      "shuffleTekelili": "En orden de jugadores, cada investigador baraja las 2 cartas superiores del mazo de Tekeli-li en su mazo"
+    },
+    "manipulateDestiny": {
+      "damage": "Inflige 2 daño a un enemigo en tu Lugar",
+      "heal": "Cura 2 daño de un investigador o de un apoyo Aliado en tu Lugar"
+    },
+    "manipulateDestiny2": {
+      "dealDamageToEnemy": "Inflige 2 daño a un enemigo en tu Lugar",
+      "healDamageFromInvestigatorOrAlly": "Cura 2 daño de un investigador o de un apoyo Aliado en tu Lugar"
+    },
+    "mapTheArea": {
+      "willpower": "Añade tu {'{'}willpower{'}'}",
+      "agility": "Añade tu {'{'}agility{'}'}"
+    },
+    "marieLambeau": {
+      "addDoom": "Añade 1 perdición"
+    },
+    "mauserC96": {
+      "readyMauserC96": "Prepara Mauser C96",
+      "take1Resource": "Toma 1 recurso"
+    },
+    "mauserC962": {
+      "readyMauserC962": "Prepara Mauser C96",
+      "take1Resource": "Toma 1 recurso"
+    },
+    "medicalTexts2": {
+      "exhaust": "Agotar Textos médicos",
+      "dealDamage": "Inflige 1 daño a ese investigador",
+      "deal1DamageToThatInvestigator": "Inflige 1 daño a ese investigador",
+      "exhaustMedicalTexts": "Agotar Textos médicos"
+    },
+    "medicoDellaPeste": {
+      "heal1Damage": "Cura 1 daño",
+      "heal1Horror": "Cura 1 horror"
+    },
+    "memoriesOfAnotherLife": {
+      "remove": "Retira Recuerdos de otra vida de la partida",
+      "skip": "No retirar Recuerdos de otra vida"
+    },
+    "memoriesOfAnotherLife5": {
+      "removeFromGame": "Retira Recuerdos de otra vida de la partida",
+      "doNotRemove": "No retirar Recuerdos de otra vida"
+    },
+    "miasmaticTorment": {
+      "damage": "El apoyo unido recibe 1 daño",
+      "horror": "El apoyo unido recibe 1 horror"
+    },
+    "michaelMcGlen": {
+      "doNotAdd": "No añadir munición"
+    },
+    "miguelsKnapsack": {
+      "playThatEventAtAConnectingLocation": "Juega ese evento en un Lugar conectado"
+    },
+    "minhThiPhan": {
+      "doNotReturnSkill": "No elegir una habilidad para devolver a tu mano",
+      "skip": "No elegir una habilidad para devolver a tu mano"
+    },
+    "mk1Grenades4": {
+      "applyToConcealed": "Aplicar daño a la carta encubierta",
+      "applyDamageToConcealed": "Aplicar daño a la carta encubierta",
+      "doNotApplyDamageToConcealed": "No aplicar daño a la carta encubierta"
+    },
+    "mrRook": {
+      "top": "Las {count} superiores"
+    },
+    "mysteriesRemain": {
+      "placeClue": "Coloca 1 pista *(de la reserva de fichas)* en tu Lugar"
+    },
+    "nathanielCho": {
+      "elderSign": "{'{'}elderSign{'}'}: devuelve un evento de tu descarte a tu mano."
+    },
+    "nauticalCharts": {
+      "discard1CardFrom": "Descarta 1 carta de tu mano para descubrir 1 pista adicional"
+    },
+    "nauticalProwess": {
+      "gainsWildIcons": "Nautical Prowess obtiene {'{'}wild{'}'}{'{'}wild{'}'}",
+      "wild": "Nautical Prowess obtiene {'{'}wild{'}'}{'{'}wild{'}'}"
+    },
+    "nephthysHuntressOfBast4": {
+      "releaseBlessTokens": "Libera 3 fichas de {'{'}bless{'}'}",
+      "returnBlessForDamage": "Devuelve 3 fichas de {'{'}bless{'}'} a la reserva para infligir 2 daño a un enemigo en tu Lugar",
+      "release3BlessTokens": "Libera 3 fichas de {'{'}bless{'}'}",
+      "returnBlessForDamage2": "Devuelve 3 fichas de {'{'}bless{'}'} a la reserva para infligir 2 daño a un enemigo en tu Lugar"
+    },
+    "noseToTheGrindstone": {
+      "replenishSupply": "Repón 1 suministro en ese apoyo"
+    },
+    "occultLexicon3": {
+      "changeEach": "Cambia cada «2» por un «3»",
+      "shuffleItInto": "Barájalo en tu mazo en lugar de descartarlo"
+    },
+    "occultReliquary": {
+      "choose": "Elige el tipo de ranura inicial de Relicario ocultista"
+    },
+    "oldBookOfLore3": {
+      "doNotSpendSecrets": "No gastar secretos para jugar cartas",
+      "doNotSpendAnySecretsToPlayAnyCards": "No gastar secretos para jugar cartas"
+    },
+    "oldCompass": {
+      "exhaustToRepeat": "Agota Old Compass para repetir esta prueba"
+    },
+    "onTheTrail": {
+      "moveTowards": "Muévete dos veces hacia el enemigo",
+      "discoverBetween": "Descubre 1 pista en cualquier Lugar vacío entre tú y el enemigo elegido"
+    },
+    "onTheTrail1": {
+      "moveTwiceTowardsEnemy": "Muévete dos veces hacia el enemigo",
+      "discoverClueBetween": "Descubre 1 pista en cualquier Lugar vacío entre tú y el enemigo elegido"
+    },
+    "onTheirHeels5": {
+      "discoverAClueAtYourLocation": "Descubre una pista en tu Lugar"
+    },
+    "oneTwoPunch": {
+      "again": "Combate de nuevo a ese enemigo",
+      "skip": "No combatas de nuevo a ese enemigo"
+    },
+    "onyxPentacle": {
+      "exhaustToTarget": "Agota Pentáculo de ónice y coloca 1 perdición sobre él para elegir como objetivo a cualquier enemigo en tu Lugar o en un Lugar conectado, y obtener +1 de valor de habilidad en este intento de evasión.",
+      "succeedBy2": "Si tienes éxito por 2 o más, retira 1 perdición de Pentáculo de ónice."
+    },
+    "onyxPentacle4": {
+      "exhaustToTarget": "Agota Pentáculo de ónice (4) y coloca 1 perdición sobre él para elegir como objetivo a cualquier enemigo en tu Lugar o en un Lugar conectado, y obtener +3 de valor de habilidad en este intento de evasión.",
+      "succeedBy2": "Si tienes éxito por 2 o más, prepara Pentáculo de ónice y retira toda la perdición de él."
+    },
+    "outOfSight": {
+      "disengageAndMove": "Deja de estar enfrentado a cada enemigo y muévete a un Lugar conectado.",
+      "disengage": "Deja de estar enfrentado a cada enemigo y muévete a un Lugar revelado a hasta 2 conexiones de distancia."
+    },
+    "outOfSight3": {
+      "disengageAndMove2": "Deja de estar enfrentado a cada enemigo y muévete a un Lugar revelado a hasta 2 conexiones de distancia."
+    },
+    "outerFieldsDesolateHills": {
+      "doneDiscarding": "Descarte terminado"
+    },
+    "parlorHemlockHouse": {
+      "testForAdditionalDamage": "Prueba de {'{'}intellect{'}'} (4) para infligir 1 daño adicional"
+    },
+    "patriceHathaway": {
+      "shuffleDiscardKeepOne": "Baraja en tu mazo todas las cartas de tu descarte menos 1",
+      "chooseOneCardToLeave": "Elige 1 carta que dejar en el descarte",
+      "shuffle": "Baraja en tu mazo todas las cartas de tu descarte menos 1",
+      "leaveInDiscard": "Elige 1 carta que dejar en el descarte"
+    },
+    "patricesViolin": {
+      "drawCard": "Robar carta",
+      "gainResource": "Ganar recurso"
+    },
+    "pendantOfTheQueen": {
+      "discoverAClueAtThisLocation": "Descubre una pista en este Lugar",
+      "evadeAnEnemyAtThisLocation": "Evita a un enemigo en este Lugar",
+      "moveToThisLocation": "Muévete a este Lugar"
+    },
+    "petesGuitar": {
+      "heal1Horror": "Cura 1 horror"
+    },
+    "pocketknife": {
+      "exhaustPocketknifeGain1Resource": "Agotar Pocketknife: gana 1 recurso"
+    },
+    "polishedCane": {
+      "doNotEvade": "No evitar",
+      "exhaust": "Agota Polished Cane para evitar automáticamente a este enemigo"
+    },
+    "powerWord": {
+      "go": "Ve",
+      "cower": "Acobárdate",
+      "betray": "Traiciona",
+      "mercy": "Apiádate",
+      "confess": "Confiesa",
+      "distract": "Distrae",
+      "tonguetwisterSkip": "No usar la segunda orden (Trabalenguas)"
+    },
+    "predatorOrPrey": {
+      "enemiesMove": "Cada enemigo no enfrentado que no sea Élite se mueve una vez hacia el investigador más cercano.",
+      "investigatorsMove": "Cada investigador deja de estar enfrentado a cada enemigo enfrentado a él y se mueve una vez alejándose del enemigo más cercano."
+    },
+    "prescient": {
+      "even": "Par",
+      "odd": "Impar",
+      "symbol": "Símbolo",
+      "doNotReturn": "No devolver la carta de hechizo"
+    },
+    "priestOfTwoFaiths1": {
+      "discardName": "Descarta {name}",
+      "add1CurseTokenToTheChaosBag": "Añade 1 ficha de {'{'}curse{'}'} a la bolsa de caos",
+      "discardPriestOfTwoFaiths": "Descarta Sacerdote de dos cultos"
+    },
+    "prismaticSpectaclesLensToTheOtherworld2": {
+      "doNotExaust": "No agotar",
+      "exhaustForClue": "Agota Anteojos prismáticos para descubrir 1 pista adicional en tu Lugar"
+    },
+    "professorWilliamWebbFinderOfHiddenConnections": {
+      "discoverAClueAtAConnectingLocation": "Descubre una pista en un Lugar conectado",
+      "returnItemToYourHand": "Devuelve el Objeto a tu mano"
+    },
+    "professorWilliamWebbFinderOfHiddenConnections2": {
+      "discoverAClueAtAConnectingLocation": "Descubre una pista en un Lugar conectado",
+      "discoverClueAtYourLocation": "Descubre una pista en tu Lugar"
+    },
+    "protectingTheAnirniq": {
+      "return": "Devuelve ese apoyo a la mano de su propietario",
+      "draw": "Su propietario roba 3 cartas"
+    },
+    "protectingTheAnirniq2": {
+      "returnAssetToOwner": "Devuelve ese apoyo a la mano de su propietario",
+      "ownerDraws3": "Su propietario roba 3 cartas"
+    },
+    "protectiveIncantation1": {
+      "discardProtectiveIncantation": "Descarta Ensalmo protector",
+      "spend1Resource": "Gasta 1 recurso"
+    },
+    "prudenceDouglas": {
+      "doneDiscarding": "Descarte terminado"
+    },
+    "psychoanalysis": {
+      "draw": "Roba 1 carta revelada y baraja el resto en tu mazo",
+      "heal": "Cura 2 horror y devuelve las cartas reveladas encima en cualquier orden"
+    },
+    "purifyingCorruption4": {
+      "removeCorruption": "Retira 1 corrupción de esta carta",
+      "heal1DamageAnd1Horror": "Cura 1 daño y 1 horror",
+      "remove1CorruptionFromThisCard": "Retira 1 corrupción de esta carta"
+    },
+    "quickWitted": {
+      "shuffle": "Baraja en tu mazo cada otra copia de Perspicaz de tu descarte",
+      "skip": "No barajar ninguna"
+    },
+    "quickWitted1": {
+      "shuffleOthers": "Baraja en tu mazo cada otra copia de Perspicaz de tu descarte",
+      "doNotShuffleAny": "No barajar ninguna"
+    },
+    "randallCho": {
+      "heal3Damage": "Cura 3 daño",
+      "searchDeck": "Busca en tu mazo y en tu descarte un apoyo Arma, juégalo (pagando su coste) y baraja tu mazo"
+    },
+    "ravenousMyconidNurturingStrain4": {
+      "heal": "Cura esa cantidad de daño/horror de Micónido voraz",
+      "moveThatMuch": "Mueve esa cantidad de daño/horror de investigadores o apoyos Aliado en tu Lugar a Micónido voraz",
+      "healFromMyconid": "Cura esa cantidad de daño/horror de Micónido voraz",
+      "moveDamageToMyconid": "Mueve esa cantidad de daño/horror de investigadores o apoyos Aliado en tu Lugar a Micónido voraz"
+    },
+    "realityFracture3": {
+      "spendChargeForFightAndDamage": "Gasta 1 carga para reducir en 2 el valor de combate del enemigo atacado e infligir +1 de daño",
+      "takeDamageAndDiscard": "Recibe 1 daño y descarta Reality Fracture"
+    },
+    "rexMurphy": {
+      "fail": "Fallas automáticamente al robar 3"
+    },
+    "rexMurphyParallel": {
+      "conversion": "Número de veces que usar la conversión de Rex"
+    },
+    "rightUnderTheirNoses": {
+      "discover": "Descubrir en un Lugar conectado",
+      "skip": "No descubrir en un Lugar conectado"
+    },
+    "ritaYoung": {
+      "damage": "Dañar al enemigo"
+    },
+    "riteOfEquilibrium": {
+      "add": "Añade X fichas de {'{'}curse{'}'} a la bolsa de caos para añadir X fichas de {'{'}bless{'}'} a la bolsa de caos.",
+      "remove": "Retira X fichas de {'{'}curse{'}'} y X fichas de {'{'}bless{'}'} de la bolsa de caos para curar X de horror en total entre las cartas de tu Lugar."
+    },
+    "riteOfEquilibrium5": {
+      "addCurseToAddBless": "Añade X fichas de {'{'}curse{'}'} a la bolsa de caos para añadir X fichas de {'{'}bless{'}'} a la bolsa de caos.",
+      "removeBlessAndCurseToHeal": "Retira X fichas de {'{'}curse{'}'} y X fichas de {'{'}bless{'}'} de la bolsa de caos para curar X de horror en total entre las cartas de tu Lugar."
+    },
+    "robertCastaigneStillHasYourBack4": {
+      "discardTheRevealedAssetToDraw1Card": "Descarta el apoyo revelado para robar 1 carta",
+      "playCardPayingCost": "Jugar la carta pagando su coste"
+    },
+    "rodOfCarnamagosScepterOfTheMadSeer2": {
+      "doneAttachingRots": "Terminar de unir Putrefacciones"
+    },
+    "runicAxe": {
+      "doNotSpendCharges": "No gastar cargas",
+      "doNotUseAdditionalImbueFromScriptweaver": "No usar la imbuición adicional de Tejedora de escritura",
+      "draw1Card": "Roba 1 carta",
+      "heal1Damage": "Cura 1 daño",
+      "heal1Horror": "Cura 1 horror",
+      "inscription": {
+        "Accuracy": "Precisión",
+        "Power": "Poder",
+        "Glory": "Gloria",
+        "Elders": "Ancianos",
+        "Hunt": "Caza",
+        "Fury": "Furia"
+      },
+      "doNotUseAdditionalImbue": "No usar la imbuición adicional de Tejedora de escritura"
+    },
+    "salvage": {
+      "remove": "Retira ese apoyo de la partida y gana recursos iguales a su coste.",
+      "play": "Juega ese apoyo (pagando su coste)."
+    },
+    "scavenging2": {
+      "addToHand": "Añadir a la mano",
+      "play": "Jugar"
+    },
+    "scrollOfSecretsMystic3": {
+      "lookAtBottom": "Mirar la carta inferior",
+      "lookAtTop": "Mirar la carta superior"
+    },
+    "scrollOfSecretsSeeker3": {
+      "add1CardToHand": "¿Añadir 1 carta a la mano?",
+      "discard1Card": "¿Descartar 1 carta?",
+      "doNotAddToHand": "No añadir a la mano"
+    },
+    "seaChangeHarpoon": {
+      "returnToHand": "Devuelve Arpón marino a tu mano para devolver todas tus cartas de habilidad asignadas a tu mano en lugar de descartarlas"
+    },
+    "searchForTheTruthAdvanced": {
+      "placeClueAndReturnCard": "Coloca esa pista en tu Lugar y devuelve cualquier carta de tu descarte a tu mano",
+      "doNothingFinish": "No hacer nada (termina esta carta)"
+    },
+    "secondSight": {
+      "spendChargeForClue": "Gasta 1 carga para descubrir 1 pista adicional"
+    },
+    "secondSight5": {
+      "doNotSpendCharge": "No gastar carga",
+      "spendChargeForClue": "Gasta 1 carga para descubrir 1 pista adicional"
+    },
+    "sefinaRousseau": {
+      "doneChoosingEvents": "Terminar de elegir eventos"
+    },
+    "sergeantMonroe": {
+      "dealDamage": "Infligir el daño recibido ({count})",
+      "dealHorror": "Infligir el horror recibido ({count})"
+    },
+    "sharpshooter3": {
+      "doBoth": "Hacer ambas",
+      "attackUsesAlt": "Este ataque usa {'{'}agility{'}'} en lugar de {'{'}combat{'}'}. Todos los modificadores a tu {'{'}combat{'}'} en este ataque modifican la suya en su lugar.",
+      "useEnemyEvadeForAttack": "Usa el valor de evasión del enemigo atacado en este ataque, en lugar de su valor de combate."
+    },
+    "shrineOfTheMoirai3": {
+      "doneChoosingCards": "Terminar de elegir cartas"
+    },
+    "shroudOfShadows": {
+      "placeCharge": "Coloca 1 carga sobre Mortaja de sombras",
+      "place1ChargeOnShroudOfShadows": "Coloca 1 carga sobre Mortaja de sombras"
+    },
+    "shroudOfShadows4": {
+      "placeCharge": "Coloca 1 carga sobre Mortaja de sombras (4)",
+      "place1ChargeOnShroudOfShadows4": "Coloca 1 carga sobre Mortaja de sombras (4)"
+    },
+    "signOfXelotaphSymbolOfProtection": {
+      "discardSignOfXelotaph": "Descarta Signo de Xelotaph",
+      "spend1Charge": "Gasta 1 carga"
+    },
+    "silasMarsh": {
+      "doNotCommit": "No asignar habilidades"
+    },
+    "silassNet": {
+      "returnNetWithSkills": "Devuelve Red de Silas a tu mano para devolver todas tus cartas de habilidad asignadas a tu mano en lugar de descartarlas",
+      "automaticallyEvadeAnotherEnemy": "Evita automáticamente a otro enemigo",
+      "doNotEvadeAnotherEnemy": "No evites a otro enemigo",
+      "returnNet": "Devuelve Red de Silas a tu mano para devolver todas tus cartas de habilidad asignadas a tu mano en lugar de descartarlas"
+    },
+    "sinEater3": {
+      "addCharge": "Añadir carga",
+      "readyAsset": "Preparar apoyo"
+    },
+    "sixthSense": {
+      "doNotChooseOtherLocation": "No elijas otro Lugar",
+      "useNewLocationsShroud": "Usar el velo del nuevo Lugar",
+      "useOriginalLocationsShroud": "Usar el velo del Lugar original"
+    },
+    "sixthSense4": {
+      "doNotChooseOtherLocation": "No elijas otro Lugar",
+      "useNewLocationsShroud": "Usar el velo del nuevo Lugar",
+      "useOriginalLocationsShroud": "Usar el velo del Lugar original"
+    },
+    "sledgehammer3": {
+      "exhaustForDamage": "Agotar Almádena"
+    },
+    "smuggledGoods": {
+      "deck": "Buscar en el mazo",
+      "discard": "Buscar en el descarte"
+    },
+    "songOfTheMagahBird": {
+      "resistTheCall": "Resistir la llamada",
+      "driveAwayTheBirds": "Ahuyentar a los pájaros"
+    },
+    "spiritSpeaker": {
+      "moveChargesToResources": "Mueve todas las cargas a tu reserva de recursos",
+      "moveAllChargesToYourResourcePool": "Mueve todas las cargas a tu reserva de recursos",
+      "returnToHand": "Devolver a la mano"
+    },
+    "stalkPrey": {
+      "moveToward": "Muévete una vez hacia su Lugar"
+    },
+    "steadyHanded1": {
+      "succeedBy1Less": "Tienes éxito por 1 menos",
+      "succeedBy1More": "Tienes éxito por 1 más"
+    },
+    "stellaClark": {
+      "resolve": "Resolver como signo arcano",
+      "fail": "Fracasas automáticamente en esta prueba de habilidad para curar 1 daño y 1 horror"
+    },
+    "stickToThePlan3": {
+      "chooseCards": "Deja aparte hasta 3 eventos de _Táctica_ o _Suministro_ de tu mazo.",
+      "chooseNoMoreEvents": "No elegir más eventos"
+    },
+    "stormRuler": {
+      "exhaust": "Agota Soberana de tormentas para infligir {count} daño a un enemigo en tu Lugar"
+    },
+    "stouthearted": {
+      "done": "Movimiento de daño/horror terminado",
+      "doneMovingDamageHorror": "Movimiento de daño/horror terminado"
+    },
+    "stringOfCurses": {
+      "evadeAndPlaceDoom": "Evita automáticamente a ese enemigo y coloca 1 perdición sobre él. No puede recibir daño durante el resto de la ronda. Descubre 1 pista en tu Lugar.",
+      "defeatForResources": "Si ese enemigo tiene 1 o más perdición sobre él, derrótalo. Gana 1 recurso por cada perdición que hubiera sobre él."
+    },
+    "strokeOfLuck": {
+      "exile": "Exilia Golpe de suerte para tener éxito automáticamente",
+      "skip": "No exiliar"
+    },
+    "subject5U21": {
+      "doNotReturnDevoured": "No devolver una carta devorada",
+      "doNotRegurgitateAnyMoreCards": "No regurgitar más cartas"
+    },
+    "summonedServitor": {
+      "moveToLocation": "Muévete al Lugar con Servidor invocado (Alas de noche)"
+    },
+    "surgicalKit3": {
+      "draw1CardAndHeal1Horror": "Roba 1 carta y cura 1 horror",
+      "thatEffectHeals1AdditionalDamage": "Ese efecto cura 1 daño adicional"
+    },
+    "survivalInstinct": {
+      "disengage": "Deja de estar enfrentado a cada otro enemigo",
+      "evadeOther": "Evita a cada otro enemigo"
+    },
+    "swordCaneDesignedByTheCouncilOfPolls2": {
+      "doNotDealDamage": "No infligir daño"
+    },
+    "talismanOfProtection": {
+      "doneCanceling": "Cancelación terminada"
+    },
+    "taskForce": {
+      "resolveAbilityNoCost": "...resuelve una habilidad de {'{'}action{'}'} de un apoyo que controle sin pagar su coste de {'{'}action{'}'}.",
+      "moveToConnecting": "...se mueve a un Lugar conectado.",
+      "discoverClueAtTheirLocation": "...descubre 1 pista en su Lugar"
+    },
+    "terribleSecret": {
+      "keepRemainingCards": "Conservar las cartas restantes"
+    },
+    "tetsuoMori": {
+      "searchDeck": "Buscar en el mazo",
+      "searchDiscard": "Buscar en el descarte"
+    },
+    "theBeyondBleakNetherworld": {
+      "attachTheTop": "Une la carta superior del mazo de espíritus a The Beyond, como espíritu",
+      "attachSpirit": "Une la carta superior del mazo de espíritus a The Beyond, como espíritu",
+      "discardThisSpirit": "Descarta este espíritu",
+      "discardSpirit": "Descarta este espíritu",
+      "take1DirectDamage": "Recibe 1 daño directo",
+      "takeDirectDamage": "Recibe 1 daño directo",
+      "take1DirectHorror": "Recibe 1 horror directo",
+      "takeDirectHorror": "Recibe 1 horror directo",
+      "elderSignHealHorror": "Signo arcano: cura 1 horror",
+      "elderSignAttachSpirit": "Signo arcano: une la carta superior del mazo de espíritus a The Beyond, como espíritu",
+      "elderSignDoNothing": "Signo arcano: no curar horror ni unir un espíritu",
+      "autoFailTakeDirectDamage": "Fracaso automático: descarta este espíritu y recibe 1 daño directo",
+      "autoFailTakeDirectHorror": "Fracaso automático: descarta este espíritu y recibe 1 horror directo",
+      "skullDiscardSpiritHealHorror": "Calavera: descarta este espíritu y cura 1 horror",
+      "skullDiscardSpirit": "Calavera: descarta este espíritu",
+      "symbolDiscardSpirit": "Ficha de símbolo: descarta este espíritu",
+      "symbolTakeDirectDamage": "Ficha de símbolo: recibe 1 daño directo",
+      "otherDiscardSpirit": "Otra ficha: descarta este espíritu"
+    },
+    "theCouncilsCoffer2": {
+      "searchDeck": "Buscar en el mazo",
+      "searchDiscard": "Buscar en el descarte"
+    },
+    "theKeyOfSolomonSecretsOfTheUnknown4": {
+      "doneHealing": "Curación terminada",
+      "healDamage": "Curar daño",
+      "healHorror": "Curar horror"
+    },
+    "theRavenQuill": {
+      "search": "Busca en tu mazo, tu descarte y tu mano una copia de un apoyo con nombre y juégala (pagando su coste). Después, une La pluma de cuervo a ella.",
+      "doNotSearch": "No buscar",
+      "deckbuilding": "Marca una casilla en la hoja de mejora de La pluma de cuervo, o reduce en 1 el coste de experiencia para mejorar el apoyo unido antes del próximo escenario. (NOTA: debes gestionar esta actualización manualmente al mejorar tu mazo mediante ArkhamDB)",
+      "moveSecret": "Mover secreto",
+      "moveCharge": "Mover carga",
+      "doNotReady": "No preparar el apoyo"
+    },
+    "theRedClockBrokenButReliable2": {
+      "place1ChargeHere": "Coloca 1 carga aquí",
+      "takeAllChargesHereAsResources": "Toma todas las cargas de aquí como recursos"
+    },
+    "theRedClockBrokenButReliable5": {
+      "leaveCharges": "Dejar las cargas",
+      "takeAllChargesHereAsResources": "Toma todas las cargas de aquí como recursos"
+    },
+    "theSilverMoth": {
+      "putTheSilverMothIntoPlayInYourThreatArea": "Pon La polilla de plata en juego en tu zona de amenaza",
+      "take1HorrorAndShuffleItIntoYourDeck": "Recibe 1 horror y baraja la carta en tu mazo"
+    },
+    "thievesKit": {
+      "useAgility": "Usar {'{'}agility{'}'}",
+      "useIntellect": "Usar {'{'}intellect{'}'}"
+    },
+    "thievesKit3": {
+      "useAgility": "Usar {'{'}agility{'}'}",
+      "useIntellect": "Usar {'{'}intellect{'}'}"
+    },
+    "throughTheCracks": {
+      "disengage": "Deja de estar enfrentado a cada enemigo enfrentado a ti.",
+      "move": "Muévete a un Lugar conectado revelado.",
+      "disengageAndMove": "Deja de estar enfrentado a cada enemigo enfrentado a ti y muévete a un Lugar conectado revelado."
+    },
+    "throughTheCracks2": {
+      "disengage": "Deja de estar enfrentado a cada enemigo enfrentado a ti.",
+      "move": "Muévete a un Lugar conectado revelado.",
+      "disengageAndMove": "Deja de estar enfrentado a cada enemigo enfrentado a ti y muévete a un Lugar conectado revelado."
+    },
+    "throwTheBookAtThem": {
+      "automaticallyEvade": "Evita automáticamente al enemigo atacado",
+      "resolveAbilityOnTome": "Cuando termine el ataque, puedes resolver una habilidad de {'{'}action{'}'} o {'{'}fast{'}'} del apoyo elegido (ignorando su coste de {'{'}action{'}'}, si lo tiene)"
+    },
+    "tinker": {
+      "hand": "Mano",
+      "accessory": "Accesorio"
+    },
+    "tokenOfFaith3": {
+      "attemptThatSkillTestAgain": "Intenta esa prueba de habilidad de nuevo",
+      "doNotAttemptAgain": "No intentarlo de nuevo"
+    },
+    "tommyMuldoon": {
+      "moveFromTommyToAsset": "Mueve hasta 2 de daño y/u horror de Tommy Muldoon a un apoyo que controles",
+      "moveFromAssetToTommy": "Mueve hasta 2 de daño y/u horror de un apoyo que controles a Tommy Muldoon",
+      "moveToAsset": "Mueve hasta 2 de daño y/u horror de Tommy Muldoon a un apoyo que controles",
+      "moveToTommy": "Mueve hasta 2 de daño y/u horror de un apoyo que controles a Tommy Muldoon",
+      "doNotMove": "No mover daño ni horror",
+      "done": "Movimiento de daño/horror terminado"
+    },
+    "toolBelt": {
+      "attachAToolAssetInYourPlayAreaToToolBelt": "Une un apoyo Herramienta de tu área de juego a Cinturón de herramientas",
+      "detachAnAttachedAsset": "Separa un apoyo unido.",
+      "switchATool": "Cambia un apoyo Herramienta de tu área de juego por un apoyo unido"
+    },
+    "treasureHunter1": {
+      "discardTreasureHunter": "Descarta Buscador de tesoros",
+      "pay1ResourceToTreasureHunter": "Paga 1 recurso a Buscador de tesoros"
+    },
+    "trialByFire": {
+      "all": "Establece en 5 el valor base de cada una de tus habilidades",
+      "one": "Establece en 7 el valor base de una de tus habilidades"
+    },
+    "trishScarborough": {
+      "discover": "Descubre 1 pista adicional en ese Lugar",
+      "evade": "Evita automáticamente a ese enemigo",
+      "doNotChooseLocation": "No elijas un Lugar distinto"
+    },
+    "trustyBullwhipAdvanced": {
+      "dealDamageAndEvade": "Inflige +1 de daño en este ataque y evita automáticamente al enemigo"
+    },
+    "twentyOneOrBust": {
+      "stopWith": "Plantarse con {total}",
+      "continue": "Continuar"
+    },
+    "underworldMarket2": {
+      "chooseMarketDeck": "Deja aparte 10 cartas _Ilícitas_ de tu mazo para formar tu mazo del mercado.",
+      "placeTheRestOnTheBottomInAnyOrder": "Coloca el resto debajo, en cualquier orden",
+      "spend1ResourceToDraw1OfThem": "Gasta 1 recurso para robar 1 de ellas"
+    },
+    "unrelenting1": {
+      "doneSealingTokens": "Terminar de sellar fichas"
+    },
+    "untimelyTransaction1": {
+      "noOnePays": "Nadie paga",
+      "playCard": "Jugar carta"
+    },
+    "virgilGray": {
+      "heal1HorrorFromVirgilGray": "Cura 1 horror de Virgil Gray"
+    },
+    "virgilGrayTrulyInspired": {
+      "heal1HorrorFromVirgilGray": "Cura 1 horror de Virgil Gray"
+    },
+    "vowOfDrzytelech": {
+      "putIntoPlay": "Pon Voto de Drzytelech en juego en tu zona de amenaza",
+      "take1HorrorAndShuffleItIntoYourDeck": "Recibe 1 horror y baraja la carta en tu mazo"
+    },
+    "wendyAdamsParallel": {
+      "sealOne": "Sella 1 ficha de {'{'}bless{'}'} o {'{'}curse{'}'} de la bolsa de caos",
+      "sealAny": "Sella cualquier ficha de {'{'}bless{'}'} o {'{'}curse{'}'} revelada de la bolsa de caos durante esta prueba",
+      "doneSealingTokens": "Terminar de sellar fichas",
+      "doNotChooseAnyMoreTokens": "No elegir más fichas"
+    },
+    "woodenSledge": {
+      "donePlacingCards": "Terminar de colocar cartas debajo de Trineo de madera"
+    },
+    "wordOfWeal": {
+      "shuffle": "Baraja Palabra de desagrado en tu mazo"
+    },
+    "wordOfWoe": {
+      "shuffle": "Baraja Palabra de agrado en tu mazo"
+    },
+    "wrongPlaceRightTime": {
+      "done": "Movimiento de daño/horror terminado"
+    },
+    "zeal": {
+      "putIntoPlayFromDiscard": "Poner en juego desde el descarte"
+    }
+  },
+  "title": {
+    "joeDiamond": {
+      "chooseHunchCards": "Mazo de corazonadas",
+      "chooseHunch": "Mazo de corazonadas"
+    },
+    "stickToThePlan3": {
+      "chooseCards": "Ceñirse al plan"
+    },
+    "underworldMarket2": {
+      "chooseMarketDeck": "Mazo del mercado"
+    }
+  },
+  "tooltips": {
+    "agencyBackup5": {
+      "fastExhaustAgency": "{'{'}fast{'}'} Agota Apoyo de la Agencia e inflígele 1 daño: inflige 1 daño a un enemigo en tu Lugar.",
+      "fastExhaustAgency2": "{'{'}fast{'}'} Agota Apoyo de la Agencia e inflígele 1 horror: descubre 1 pista en tu Lugar."
+    },
+    "arcaneStudies": {
+      "fastSpend1Resource": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +1 {'{'}intellect{'}'} en esta prueba de habilidad.",
+      "fastSpend1Resource2": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +1 {'{'}willpower{'}'} en esta prueba de habilidad."
+    },
+    "arcaneStudies2": {
+      "fastSpend1Resource": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +1 {'{'}intellect{'}'} en esta prueba de habilidad.",
+      "fastSpend1Resource2": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +1 {'{'}willpower{'}'} en esta prueba de habilidad."
+    },
+    "beguile": {
+      "moveAttachedEnemy": "Mueve al enemigo unido a un Lugar conectado revelado",
+      "basicInvestigate": "Realiza una acción básica de investigar en su Lugar",
+      "basicEvade": "Realiza una acción básica de evitar en su Lugar"
+    },
+    "bloodPact": {
+      "fastAdd1Doom": "{'{'}fast{'}'} Añade 1 perdición a Pacto de sangre: obtienes +2 {'{'}combat{'}'} en esta prueba de habilidad. (Límite de una vez por prueba.)",
+      "fastAdd1Doom2": "{'{'}fast{'}'} Añade 1 perdición a Pacto de sangre: obtienes +2 {'{'}willpower{'}'} en esta prueba de habilidad. (Límite de una vez por prueba.)"
+    },
+    "bloodPact3": {
+      "fastAdd1Doom": "{'{'}fast{'}'} Añade 1 perdición a Pacto de sangre: obtienes +3 {'{'}combat{'}'} en esta prueba de habilidad. (Límite de una vez por prueba.)",
+      "fastAdd1Doom2": "{'{'}fast{'}'} Añade 1 perdición a Pacto de sangre: obtienes +3 {'{'}willpower{'}'} en esta prueba de habilidad. (Límite de una vez por prueba.)"
+    },
+    "combatTraining1": {
+      "spendForCombat": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +1 {'{'}combat{'}'} en esta prueba de habilidad.",
+      "spendForAgility": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +1 {'{'}agility{'}'} en esta prueba de habilidad.",
+      "fastSpend1Resource": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +1 {'{'}agility{'}'} en esta prueba de habilidad.",
+      "fastSpend1Resource2": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +1 {'{'}combat{'}'} en esta prueba de habilidad."
+    },
+    "cosmicFlame": {
+      "spendChargeForDamage": "Gasta 1 carga para infligir +1 de daño"
+    },
+    "cosmicFlame5": {
+      "spendChargeForDamage": "Gasta 1 carga para infligir 1 daño a un enemigo en tu Lugar"
+    },
+    "cosmicRevelation1": {
+      "even": "Par",
+      "odd": "Impar",
+      "playRevealed": "juega 1 carta revelada"
+    },
+    "cryptographicCipher": {
+      "exhaust": "Agota Código criptográfico y gasta 1 secreto: investiga. Tu Lugar obtiene +1 de velo en esta investigación.",
+      "exhaust2": "Agota Código criptográfico y gasta 1 secreto: investiga. Tu Lugar obtiene -2 de velo en esta investigación."
+    },
+    "decoy": {
+      "twoEnemies": "{'{'}reaction{'}'} Cuando juegues Señuelo, aumenta su coste en 2: cambia «un enemigo que no sea Élite» por «hasta 2 enemigos que no sean Élite».",
+      "twoConnections": "{'{'}reaction{'}'} Cuando juegues Señuelo, aumenta su coste en 2: cambia «en tu Lugar» por «en un Lugar a hasta 2 conexiones de distancia»."
+    },
+    "digDeep": {
+      "fastSpend1Resource": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +1 {'{'}agility{'}'} en esta prueba de habilidad.",
+      "fastSpend1Resource2": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +1 {'{'}willpower{'}'} en esta prueba de habilidad."
+    },
+    "digDeep2": {
+      "fastSpend1Resource": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +1 {'{'}agility{'}'} en esta prueba de habilidad.",
+      "fastSpend1Resource2": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +1 {'{'}willpower{'}'} en esta prueba de habilidad."
+    },
+    "elinaHarpersCarRunning": {
+      "ifYouAre": "Si eres el conductor de este vehículo: roba la carta superior del mazo de Encuentro. Después, mueve este vehículo a un Lugar _Carretera_ conectado. (Máx. una vez por ronda.)",
+      "ifYouAre2": "Si eres el conductor de este vehículo: detienes el coche. Dale la vuelta a este vehículo."
+    },
+    "empiricalHypothesis": {
+      "dynamicTrigger": "Cuando {trigger}, puedes agotar Hipótesis empírica para añadirle 1 prueba.",
+      "fastSpend1EvidenceDraw1Card": "{'{'}fast{'}'} Gasta 1 prueba: roba 1 carta.",
+      "fastSpend2Evidence": "{'{'}fast{'}'} Gasta 2 pruebas: reduce en 3 el coste de la próxima carta que juegues.",
+      "fastSpend3Evidence": "{'{'}fast{'}'} Gasta 3 pruebas: descubre 1 pista en tu Lugar.",
+      "alternativeHypothesis": "Puedes resolver su efecto obligatorio, eligiendo un criterio que no hayas elegido esta ronda. Después, prepárala."
+    },
+    "endurance": {
+      "fastSpend1Resource": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +1 {'{'}agility{'}'} en esta prueba de habilidad. (+2 {'{'}agility{'}'} en su lugar si es un ataque o un intento de evasión).",
+      "fastSpend1Resource2": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +1 {'{'}combat{'}'} en esta prueba de habilidad. (+2 {'{'}combat{'}'} en su lugar si es un ataque o un intento de evasión)."
+    },
+    "endurance3": {
+      "fastSpend1Resource": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +1 {'{'}agility{'}'} en esta prueba de habilidad. (+2 {'{'}agility{'}'} en su lugar si es un ataque o un intento de evasión).",
+      "fastSpend1Resource2": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +1 {'{'}combat{'}'} en esta prueba de habilidad. (+2 {'{'}combat{'}'} en su lugar si es un ataque o un intento de evasión)."
+    },
+    "grislyMask": {
+      "disengage": "{'{'}fast{'}'} Agota Grisly “Mask”: deja de estar enfrentado a cada enemigo. Hasta el comienzo de tu próximo turno, no puedes moverte ni dañar a enemigos ni enfrentarte a ellos.",
+      "horrorForDamage": "{'{'}fast{'}'} Recibe 1 horror directo y agota Grisly “Mask”: inflige 2 daño a un enemigo en tu Lugar."
+    },
+    "hardKnocks": {
+      "fastSpend1Resource": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +1 {'{'}agility{'}'} en esta prueba de habilidad.",
+      "fastSpend1Resource2": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +1 {'{'}combat{'}'} en esta prueba de habilidad."
+    },
+    "hardKnocks2": {
+      "fastSpend1Resource": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +1 {'{'}agility{'}'} en esta prueba de habilidad.",
+      "fastSpend1Resource2": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +1 {'{'}combat{'}'} en esta prueba de habilidad."
+    },
+    "hatchet1": {
+      "takeControlOfHatchet": "Toma control de Destral"
+    },
+    "higherEducation": {
+      "fastSpend1Resource": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +1 {'{'}intellect{'}'} en esta prueba de habilidad.",
+      "fastSpend1Resource2": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +1 {'{'}willpower{'}'} en esta prueba de habilidad."
+    },
+    "higherEducation3": {
+      "fastSpend1Resource": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +2 {'{'}intellect{'}'} en esta prueba de habilidad.",
+      "fastSpend1Resource2": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +2 {'{'}willpower{'}'} en esta prueba de habilidad."
+    },
+    "holySpear5": {
+      "fightWithReleaseBless": "{'{'}action{'}'}: _Combatir_. Obtienes +2 {'{'}willpower{'}'} e infliges +1 de daño en este ataque. Cuando inicies esta habilidad, puedes liberar una ficha de {'{'}bless{'}'} sellada en Lanza sagrada.",
+      "fightWithSealBless": "{'{'}action{'}'} Busca en la bolsa de caos 2 fichas de {'{'}bless{'}'} y séllalas en Lanza sagrada: _Combatir_. Obtienes +4 {'{'}combat{'}'} e infliges +2 de daño en este ataque.",
+      "actionSearchThe": "{'{'}action{'}'} Busca en la bolsa de caos 2 fichas de {'{'}bless{'}'} y séllalas en Lanza sagrada: _Combatir_. Obtienes +4 {'{'}combat{'}'} e infliges +2 de daño en este ataque.",
+      "actionYouGet2": "{'{'}action{'}'}: _Combatir_. Obtienes +2 {'{'}willpower{'}'} e infliges +1 de daño en este ataque. Cuando inicies esta habilidad, puedes liberar una ficha de {'{'}bless{'}'} sellada en Lanza sagrada."
+    },
+    "horrorInClay": {
+      "blankOrMove": "{'{'}fast{'}'} Agota Horror de arcilla: o bien trata el cuadro de texto impreso de este apoyo como si estuviera en blanco hasta el final de la ronda (excepto los <b>Rasgos</b>), o bien mueve una vez en cualquier dirección a un enemigo _Engendro estelar_."
+    },
+    "hyperawareness": {
+      "fastSpend1Resource": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +1 {'{'}agility{'}'} en esta prueba de habilidad.",
+      "fastSpend1Resource2": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +1 {'{'}intellect{'}'} en esta prueba de habilidad."
+    },
+    "hyperawareness2": {
+      "fastSpend1Resource": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +1 {'{'}agility{'}'} en esta prueba de habilidad.",
+      "fastSpend1Resource2": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +1 {'{'}intellect{'}'} en esta prueba de habilidad."
+    },
+    "joeyTheRatVigil3": {
+      "spendForItem": "Gasta 1 recurso: elige un apoyo _Objeto_ de tu mano y juégalo (pagando su coste).",
+      "discardForResources": "Descarta del juego un apoyo _Objeto_: gana 2 recursos.",
+      "discardAnAsset": "Descarta del juego un apoyo _Objeto_: gana 2 recursos.",
+      "spend": "Gasta 1 recurso: elige un apoyo _Objeto_ de tu mano y juégalo (pagando su coste)."
+    },
+    "keenEye": {
+      "fastSpend2Resources": "{'{'}fast{'}'} Gasta 2 recursos: obtienes +1 {'{'}combat{'}'} hasta el final de la fase",
+      "fastSpend2Resources2": "{'{'}fast{'}'} Gasta 2 recursos: obtienes +1 {'{'}intellect{'}'} hasta el final de la fase"
+    },
+    "keenEye3": {
+      "fastSpend2Resources": "{'{'}fast{'}'} Gasta 2 recursos: obtienes +1 {'{'}combat{'}'} hasta el final de la fase.",
+      "fastSpend2Resources2": "{'{'}fast{'}'} Gasta 2 recursos: obtienes +1 {'{'}intellect{'}'} hasta el final de la fase."
+    },
+    "levelheaded": {
+      "fastSpend1Resource": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +1 {'{'}agility{'}'} en esta prueba de habilidad. (+2 {'{'}agility{'}'} en su lugar si esta prueba es sobre una carta de escenario).",
+      "fastSpend1Resource2": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +1 {'{'}willpower{'}'} en esta prueba de habilidad. (+2 {'{'}willpower{'}'} en su lugar si esta prueba es sobre una carta de escenario)."
+    },
+    "levelheaded3": {
+      "fastSpend1Resource": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +1 {'{'}agility{'}'} en esta prueba de habilidad. (+2 {'{'}agility{'}'} en su lugar si esta prueba es sobre una carta de escenario).",
+      "fastSpend1Resource2": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +1 {'{'}willpower{'}'} en esta prueba de habilidad. (+2 {'{'}willpower{'}'} en su lugar si esta prueba es sobre una carta de escenario)."
+    },
+    "livreDeibon": {
+      "fastExhaustLivre": "{'{'}fast{'}'} Agota Livre d'Eibon: asigna la carta superior de tu mazo a una prueba de habilidad elegible realizada por un investigador en tu Lugar.",
+      "fastExhaustLivre2": "{'{'}fast{'}'} Agota Livre d'Eibon: intercambia la carta superior de tu mazo con una carta de tu mano."
+    },
+    "longbow3": {
+      "youNockAnotherArrow": "Colocas otra flecha en el arco"
+    },
+    "madameLabranche": {
+      "fastIfYou": "{'{'}fast{'}'} Si no tienes cartas en tu mano, agota Madame Labranche: roba 1 carta.",
+      "fastIfYou2": "{'{'}fast{'}'} Si no tienes recursos, agota Madame Labranche: gana 1 recurso."
+    },
+    "moxie1": {
+      "spendForWillpower": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +1 {'{'}willpower{'}'} en esta prueba de habilidad.",
+      "spendForAgility": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +1 {'{'}agility{'}'} en esta prueba de habilidad.",
+      "fastSpend1Resource": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +1 {'{'}agility{'}'} en esta prueba de habilidad.",
+      "fastSpend1Resource2": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +1 {'{'}willpower{'}'} en esta prueba de habilidad."
+    },
+    "obsidianClaw": {
+      "move": "{'{'}fast{'}'} Durante tu turno, agota esta carta y elige un Lugar a hasta 2 conexiones de distancia: muévete al Lugar elegido.",
+      "flip": "{'{'}fast{'}'} Dale la vuelta a esta carta. (Máx. una vez por ronda.)"
+    },
+    "oldCompass": {
+      "exhaustToRepeat": "Agotar Old Compass"
+    },
+    "oldHuntingRifle3": {
+      "clearJam": "Desatascas el arma.",
+      "youClearTheJam": "Desatascas el arma."
+    },
+    "ornateBow3": {
+      "nockArrow": "Colocas otra flecha en el arco",
+      "youNockAnotherArrow": "Colocas otra flecha en el arco"
+    },
+    "physicalTraining": {
+      "fastSpend1Resource": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +1 {'{'}combat{'}'} en esta prueba de habilidad.",
+      "fastSpend1Resource2": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +1 {'{'}willpower{'}'} en esta prueba de habilidad."
+    },
+    "physicalTraining2": {
+      "fastSpend1Resource": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +1 {'{'}combat{'}'} en esta prueba de habilidad.",
+      "fastSpend1Resource2": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +1 {'{'}willpower{'}'} en esta prueba de habilidad."
+    },
+    "pitchfork": {
+      "takeControlOfPitchfork": "Toma control de Horca"
+    },
+    "plucky1": {
+      "fastSpend1Resource": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +1 {'{'}intellect{'}'} en esta prueba de habilidad.",
+      "fastSpend1Resource2": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +1 {'{'}willpower{'}'} en esta prueba de habilidad."
+    },
+    "quickdrawHolster4": {
+      "fastChooseA": "{'{'}fast{'}'}: elige un apoyo _Arma de fuego_ que ocupe solo 1 ranura de mano en tu área de juego. Únelo a Pistolera de desenfundado rápido o cámbialo por el apoyo unido. El apoyo unido no ocupa ranuras de mano. (Límite de 1 apoyo unido.)",
+      "fastExhaustQuickdraw": "{'{'}fast{'}'} Agota Pistolera de desenfundado rápido: realiza una acción de combatir con el apoyo unido sin pagar su coste de {'{'}action{'}'}."
+    },
+    "ravenousMyconidNurturingStrain4": {
+      "searchForUncannyGrowth": "Busca en tus cartas enlazadas Crecimiento prodigioso y añádela a tu mano.",
+      "healOrMoveDamageHorror": "O bien cura esa cantidad de daño/horror de Micónido voraz, o bien mueve esa cantidad de daño/horror de investigadores o apoyos _Aliado_ en tu Lugar a Micónido voraz",
+      "eitherHealThat": "O bien cura esa cantidad de daño/horror de Micónido voraz, o bien mueve esa cantidad de daño/horror de investigadores o apoyos _Aliado_ en tu Lugar a Micónido voraz",
+      "search": "Busca en tus cartas enlazadas Crecimiento prodigioso y añádela a tu mano."
+    },
+    "ravenousMyconidUnidentified": {
+      "searchForUncannyGrowth": "Busca en tus cartas enlazadas Crecimiento prodigioso y añádela a tu mano.",
+      "classifyNewSpecies": "Mueve cada crecimiento a tu reserva de recursos, como recursos. Anota en tu Registro de campaña que «has clasificado una nueva especie»",
+      "moveEachGrowth": "Mueve cada crecimiento a tu reserva de recursos, como recursos. Anota en tu Registro de campaña que \\",
+      "search": "Busca en tus cartas enlazadas Crecimiento prodigioso y añádela a tu mano."
+    },
+    "scientificTheory1": {
+      "spendForIntellect": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +1 {'{'}intellect{'}'} en esta prueba de habilidad.",
+      "spendForCombat": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +1 {'{'}combat{'}'} en esta prueba de habilidad.",
+      "fastSpend1Resource": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +1 {'{'}combat{'}'} en esta prueba de habilidad.",
+      "fastSpend1Resource2": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +1 {'{'}intellect{'}'} en esta prueba de habilidad."
+    },
+    "scrapper": {
+      "fastSpend1Resource": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +1 {'{'}agility{'}'} en esta prueba de habilidad.",
+      "fastSpend1Resource2": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +1 {'{'}combat{'}'} en esta prueba de habilidad."
+    },
+    "scrapper3": {
+      "fastSpend1Resource": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +1 {'{'}agility{'}'} en esta prueba de habilidad.",
+      "fastSpend1Resource2": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +1 {'{'}combat{'}'} en esta prueba de habilidad."
+    },
+    "secondSight": {
+      "spendChargeForClue": "Gasta 1 carga para descubrir 1 pista adicional"
+    },
+    "secondSight5": {
+      "spendChargeForClue": "Gasta 1 carga para descubrir 1 pista adicional",
+      "doNotSpendCharge": "No gastar carga"
+    },
+    "shardOfYchlecht": {
+      "ignoreAttack": "{'{'}reaction{'}'} Puedes ignorar el primer ataque que te haga cada ronda un enemigo _Engendro estelar_ o _Profundo_.",
+      "exhaustEnemy": "{'{'}reaction{'}'} Cuando un enemigo _Engendro estelar_ o _Profundo_ entre en tu Lugar, agota esta carta: agota a ese enemigo."
+    },
+    "sharpRhetoric": {
+      "fastSpend1Resource": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +1 {'{'}intellect{'}'} en esta prueba de habilidad. (+2 {'{'}intellect{'}'} en su lugar si es una investigación o una negociación).",
+      "fastSpend1Resource2": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +1 {'{'}willpower{'}'} en esta prueba de habilidad. (+2 {'{'}willpower{'}'} en su lugar si es una investigación o una negociación)."
+    },
+    "shortcut": {
+      "ability": "{'{'}fast{'}'} Agota Atajo: _Moverse_ (a un Lugar conectado). Cualquier investigador en este Lugar puede desencadenar esta habilidad."
+    },
+    "silverTongue": {
+      "fastSpend1Resource": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +1 {'{'}agility{'}'} en esta prueba de habilidad. (+2 {'{'}agility{'}'} en su lugar si es una evasión o una negociación).",
+      "fastSpend1Resource2": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +1 {'{'}intellect{'}'} en esta prueba de habilidad. (+2 {'{'}intellect{'}'} en su lugar si es una evasión o una negociación)."
+    },
+    "silverTongue3": {
+      "fastSpend1Resource": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +1 {'{'}agility{'}'} en esta prueba de habilidad. (+2 {'{'}agility{'}'} en su lugar si es una evasión o una negociación).",
+      "fastSpend1Resource2": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +1 {'{'}intellect{'}'} en esta prueba de habilidad. (+2 {'{'}intellect{'}'} en su lugar si es una evasión o una negociación)."
+    },
+    "smallRadio": {
+      "partner": "{name}"
+    },
+    "spectralRazor2": {
+      "engageFirst": "Enfréntate primero a un enemigo",
+      "doNotEngage": "No te enfrentes a un enemigo"
+    },
+    "spiritualIntuition": {
+      "fastSpend1Resource": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +1 {'{'}combat{'}'} en esta prueba de habilidad. (+2 {'{'}combat{'}'} en su lugar si esta prueba es sobre una carta _Hechizo_ o _Ritual_).",
+      "fastSpend1Resource2": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +1 {'{'}willpower{'}'} en esta prueba de habilidad. (+2 {'{'}willpower{'}'} en su lugar si esta prueba es sobre una carta _Hechizo_ o _Ritual_)."
+    },
+    "spiritualIntuition3": {
+      "fastSpend1Resource": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +1 {'{'}combat{'}'} en esta prueba de habilidad. (+2 {'{'}combat{'}'} en su lugar si esta prueba es sobre una carta _Hechizo_ o _Ritual_).",
+      "fastSpend1Resource2": "{'{'}fast{'}'} Gasta 1 recurso: obtienes +1 {'{'}willpower{'}'} en esta prueba de habilidad. (+2 {'{'}willpower{'}'} en su lugar si esta prueba es sobre una carta _Hechizo_ o _Ritual_)."
+    },
+    "stouthearted": {
+      "doneMovingDamageHorror": "Movimiento de daño/horror terminado"
+    },
+    "streetwise": {
+      "fastSpend2Resources": "{'{'}fast{'}'} Gasta 2 recursos: obtienes +2 {'{'}agility{'}'} en esta prueba de habilidad.",
+      "fastSpend2Resources2": "{'{'}fast{'}'} Gasta 2 recursos: obtienes +2 {'{'}intellect{'}'} en esta prueba de habilidad."
+    },
+    "streetwise3": {
+      "fastSpend2Resources": "{'{'}fast{'}'} Gasta 2 recursos: obtienes +3 {'{'}agility{'}'} en esta prueba de habilidad.",
+      "fastSpend2Resources2": "{'{'}fast{'}'} Gasta 2 recursos: obtienes +3 {'{'}intellect{'}'} en esta prueba de habilidad."
+    },
+    "theKeyOfSolomonSecretsOfTheUnknown4": {
+      "ifThereAre": "Si hay más fichas de {'{'}bless{'}'} que de {'{'}curse{'}'} en la bolsa de caos, retira 1 ficha de {'{'}bless{'}'} de la bolsa de caos y agota La llave de Salomon: cura hasta 2 de daño y/u horror de un investigador o de un apoyo _Aliado_ en tu Lugar.",
+      "ifThereAre2": " Si hay más fichas de {'{'}curse{'}'} que de {'{'}bless{'}'} en la bolsa de caos, retira 1 ficha de {'{'}curse{'}'} de la bolsa de caos y agota La llave de Salomon: gana 2 recursos."
+    },
+    "theNecronomiconPetrusDeDaciaTranslation5": {
+      "fastSpend1Secret": "{'{'}fast{'}'} Gasta 1 secreto: obtienes +2 de valor de habilidad en esta prueba de habilidad.",
+      "fastSpend2SecretsDraw2Cards": "{'{'}fast{'}'} Gasta 2 secretos: roba 2 cartas.",
+      "fastSpend3Secrets": "{'{'}fast{'}'} Gasta 3 secretos: descubre 1 pista en cualquier Lugar.",
+      "fastSpend4Secrets": "{'{'}fast{'}'} Gasta 4 secretos: inflige 3 daño a un enemigo enfrentado a ti."
+    },
+    "theRedClockBrokenButReliable2": {
+      "placeChargeHere": "Coloca 1 carga aquí",
+      "takeChargesAsResources": "Toma todas las cargas de aquí como recursos"
+    },
+    "theRedClockBrokenButReliable5": {
+      "takeChargesAsResources": "Toma todas las cargas de aquí como recursos",
+      "leaveCharges": "Dejar las cargas"
+    },
+    "thermos": {
+      "heal": "Cura 1 daño de un investigador en tu Lugar (2 de daño en su lugar si tiene 2 o más de trauma físico).",
+      "heal2": "Cura 1 horror de un investigador en tu Lugar (2 de horror en su lugar si tiene 2 o más de trauma mental)."
+    },
+    "thirdTimesACharm": {
+      "cancel": "Cancélala, devuélvela a la bolsa de caos y revela una nueva ficha de caos"
+    },
+    "thirdTimesACharm2": {
+      "cancelAndReveal": "Cancélala, devuélvela a la bolsa de caos y revela una nueva ficha de caos"
+    },
+    "thomasDawsonsCarRunning": {
+      "ifYouAre": "Si eres el conductor de este vehículo: roba la carta superior del mazo de Encuentro. Después, mueve este vehículo a un Lugar _Carretera_ conectado. (Máx. una vez por ronda.)",
+      "ifYouAre2": "Si eres el conductor de este vehículo: detienes el coche. Dale la vuelta a este vehículo."
+    },
+    "tidalTablet": {
+      "moveOnFlood": "{'{'}reaction{'}'} Cuando el nivel de inundación de tu Lugar aumente: muévete a un Lugar conectado.",
+      "shiftFloodLevel": "{'{'}fast{'}'} Agota Tablilla de marea: aumenta el nivel de inundación de tu Lugar. Después, elige otro Lugar inundado y disminuye su nivel de inundación."
+    },
+    "timewornBrand5": {
+      "actionExhaustTimeworn": "{'{'}action{'}'} Agota Hierro desgastado: _Combatir_. Suma tu {'{'}willpower{'}'} a tu valor de habilidad en este ataque. Este ataque inflige +3 de daño. Si este ataque derrota a un enemigo _Élite_, roba 3 cartas. (Máx. una vez por partida.)",
+      "actionIfTimeworn": "{'{'}action{'}'} Si Hierro desgastado está preparada: _Combatir_. Obtienes +2 {'{'}combat{'}'} e infliges +1 de daño en este ataque."
+    },
+    "tinker": {
+      "hand": "Mano",
+      "accessory": "Accesorio"
+    },
+    "transmogrify": {
+      "discoverClue": "Descubre 1 pista en su Lugar (Transmogrificar)",
+      "discover": "Descubre 1 pista en su Lugar (Transmogrificar)"
+    },
+    "trueMagickReworkingReality5": {
+      "useTrueMagick": "Usar Magia auténtica"
+    },
+    "winchesterModel522": {
+      "actionDiscardWinchester": "{'{'}action{'}'}: descarta Winchester Model 52: _Combatir ({'{'}combat{'}'})_. Obtienes +3 {'{'}combat{'}'} en este ataque. Si tienes éxito, evitas automáticamente al enemigo objetivo.",
+      "actionSpend1Ammo": "{'{'}action{'}'}: gasta 1 munición: _Combatir ({'{'}combat{'}'})_. Obtienes +3 {'{'}combat{'}'} e infliges +1 de daño en este ataque."
+    },
+    "yaotl1": {
+      "fastDiscardThe": "{'{'}fast{'}'}: descarta la carta superior de tu mazo. (Límite de una vez por fase.)",
+      "fastExhaustYaotl": "{'{'}fast{'}'} Agota Yaotl: durante esta prueba de habilidad, obtienes una bonificación a cada habilidad igual al número de iconos de habilidad coincidentes de la carta superior de tu descarte (sin contar los iconos {'{'}wild{'}'})."
+    }
+  }
+}
