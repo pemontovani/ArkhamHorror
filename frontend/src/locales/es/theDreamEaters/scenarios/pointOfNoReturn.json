@@ -1,0 +1,85 @@
+{
+  "heading": "Escenario III–B",
+  "setup": {
+    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de Encuentros: *Punto sin retorno*, *Criaturas del Mundo subterráneo*, *Susurros de Hipnos*, *Antiguos males*, *Gules* y *Miedo impactante*. Estos conjuntos vienen indicados por los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/point-of-no-return.png' /><img src='{setImgPath}/creatures-of-the-underworld.png' /><img src='{setImgPath}/whispers-of-hypnos.png' /><img src='{setImgPath}/ancient-evils.png' /><img src='{setImgPath}/ghouls.png' /><img src='{setImgPath}/striking-fear.png' /></section>",
+    "setEncounterSetsAside": "Pon aparte, fuera del juego, los siguientes conjuntos de Encuentros: *Descenso a la brea*, *Terror del valle*, *Agentes de Atlach-Nacha* y *Ángeles descarnados*. Estos conjuntos vienen indicados por los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/descent-into-the-pitch.png' /><img src='{setImgPath}/terror-of-the-vale.png' /><img src='{setImgPath}/agents-of-atlach-nacha.png' /><img src='{setImgPath}/nightgaunts.png' /></section>",
+    "putLocations": "Pon en juego los siguientes Lugares: Las salas de Zin, La ciudad de los gugs, La torre de Koth y La llanura de los gules.",
+    "beginAtVaultsOfZin": "Cada investigador comienza la partida en Las salas de Zin.",
+    "setOtherLocationsAside": "Pon aparte todos los demás Lugares, fuera del juego.",
+    "setEnchantedWoodsAside": "Busca en la colección el Bosque Encantado *(Trampilla de piedra)* (carta 53 de Los devoradores de sueños) y ponlo aparte, fuera del juego.",
+    "setCardsAside": "Pon aparte, fuera del juego, el Enemigo Centinela gug, el Apoyo de historia Richard Upton Pickman y la Debilidad Falso despertar.",
+    "checkAct": "Comprueba el Registro de campaña. En función de las siguientes circunstancias, debe usarse una versión distinta del Acto 1 en este escenario. Retira de la partida la otra versión del Acto 1.",
+    "useActV1": "*Si Randolph no sobrevivió al descenso*, usa el Acto 1a: «Entrando en el Mundo subterráneo (v. I)».",
+    "useActV2": "*Si Randolph sobrevivió al descenso*, usa el Acto 1a: «Entrando en el Mundo subterráneo (v. II)».",
+    "checkSteps": "Os invade una oleada de dolor y náuseas. Comprueba el número de marcas anotadas junto a «Peldaños del puente» en el Registro de campaña.",
+    "noSteps": "*Si no hay ninguna marca anotada*, no ocurre nada.",
+    "oneToFourSteps": "*Si hay de 1 a 4 marcas*, coloca 1 de daño sobre la carta de referencia de escenario. Representa la distorsión dentro de las Tierras del Sueño.",
+    "fiveOrMoreSteps": "*Si hay 5 o más marcas*, coloca 2 de daño sobre la carta de referencia de escenario. Representa la distorsión dentro de las Tierras del Sueño.",
+    "buildEncounterDeck": "Baraja el resto de cartas de Encuentro para formar el mazo de Encuentros."
+  },
+  "rules": {
+    "locations": {
+      "title": "Lugares en Punto sin retorno",
+      "body": "<p class='basic'>Ninguno de los Lugares de este escenario tiene un lado sin descubrir, por lo que entran en juego con el lado descubierto boca arriba. En lugar de un lado sin descubrir, estos Lugares tienen cartas de Historia en el reverso. Siempre que un Lugar entre en juego en este escenario (incluso durante la preparación), coloca sobre ese Lugar una cantidad de Pistas igual a su valor de Pistas, de la forma normal.</p><p class='basic'>Hay dos formas de dar la vuelta a los Lugares. A la mayoría se les da la vuelta mediante la palabra clave Velado, que se describe a continuación. En cambio, a algunos Lugares solo se les da la vuelta mediante una capacidad impresa en ellos.</p><p class='basic'><strong>Cuando se ha dado la vuelta a un Lugar y se ha leído su texto de historia, no se le puede volver a dar la vuelta durante el resto de la partida a no ser que se indique algo distinto.</strong></p>"
+    },
+    "veiled": {
+      "title": "Velado",
+      "body": "<p class='basic'>Muchos de los Lugares de este escenario tienen la palabra clave Velado. Esta palabra clave indica que un Lugar contiene información desconocida o alguna ayuda que los investigadores deben buscar antes de que pueda resultarles útil.</p><p class='basic'>Como capacidad {'{'}fast{'}'}, un investigador que esté en un Lugar Velado que no tenga Pistas puede dar la vuelta a ese Lugar y resolver el texto del otro lado.</p>"
+    }
+  },
+  "specialRules": [
+    {
+      "title": "Lugares en Punto sin retorno",
+      "body": "<p class='basic'>Ninguno de los Lugares de este escenario tiene un lado sin descubrir, por lo que entran en juego con el lado descubierto boca arriba. En lugar de un lado sin descubrir, estos Lugares tienen cartas de Historia en el reverso. Siempre que un Lugar entre en juego en este escenario (incluso durante la preparación), coloca sobre ese Lugar una cantidad de Pistas igual a su valor de Pistas, de la forma normal.</p><p class='basic'>Hay dos formas de dar la vuelta a los Lugares. A la mayoría se les da la vuelta mediante la palabra clave Velado, que se describe a continuación. En cambio, a algunos Lugares solo se les da la vuelta mediante una capacidad impresa en ellos.</p><p class='basic'><strong>Cuando se ha dado la vuelta a un Lugar y se ha leído su texto de historia, no se le puede volver a dar la vuelta durante el resto de la partida a no ser que se indique algo distinto.</strong></p>"
+    },
+    {
+      "title": "Velado",
+      "body": "<p class='basic'>Muchos de los Lugares de este escenario tienen la palabra clave Velado. Esta palabra clave indica que un Lugar contiene información desconocida o alguna ayuda que los investigadores deben buscar antes de que pueda resultarles útil.</p><p class='basic'>Como capacidad {fast}, un investigador que esté en un Lugar Velado que no tenga Pistas puede dar la vuelta a ese Lugar y resolver el texto del otro lado.</p>"
+    }
+  ],
+  "tokens": {
+    "easyStandard": {
+      "skull": "-X. X es la cantidad de daño sobre esta carta.",
+      "cultist": "Revela otra ficha. Si fracasas, después de que termine esta prueba de habilidad, roba la primera carta del mazo de Encuentros.",
+      "tablet": "+1. El gato negro te ayuda a orientarte entre el fuego letal. Si se revela esta ficha durante una investigación y tienes éxito, roba 1 carta.",
+      "elderThing": "-3. Si fracasas por 2 o más, elige un Enemigo preparado que esté en tu Lugar o en un Lugar conectado. Ese Enemigo se mueve a tu Lugar, se enfrenta a ti y realiza un ataque inmediatamente."
+    },
+    "hardExpert": {
+      "skull": "-X. X es 1 más que la cantidad de daño sobre esta carta.",
+      "cultist": "Revela otra ficha. Si fracasas, después de que termine esta prueba de habilidad, roba la primera carta del mazo de Encuentros.",
+      "tablet": "0. El gato negro te ayuda a orientarte entre el fuego letal. Si se revela esta ficha durante una investigación y tienes éxito, roba 1 carta.",
+      "elderThing": "-4. Si fracasas por 2 o más, elige un Enemigo preparado que esté en tu Lugar o en un Lugar conectado. Ese Enemigo se mueve a tu Lugar, se enfrenta a ti y realiza un ataque inmediatamente."
+    }
+  },
+  "intro": {
+    "title": "Escenario III–B: Punto sin retorno",
+    "body": "<p class='basic'>Comprueba el Registro de campaña.</p><ul><li>*Si Randolph no sobrevivió al descenso*, pasa a la _Introducción 1_.</li><li>*Si Randolph sobrevivió al descenso*, pasa a la _Introducción 2_.</li></ul>"
+  },
+  "intro1": {
+    "title": "Escenario III–B: Punto sin retorno",
+    "body": "<p><b>Introducción 1:</b> Por fin habéis llegado a las Tierras del Sueño, pero no son como esperabais. Esta caverna ciclópea no se parece en nada a las tierras maravillosas y las fabulosas ciudades descritas en los escritos de Virgil Gray. Quizá el escritor nunca se aventuró tan bajo tierra, nunca encontró los horrores que acechan bajo la superficie de las Tierras del Sueño. Sospecháis que no habría omitido relatos de naturaleza tan escalofriante. Al adentraros en el reino oscuro y yermo, os invade una desesperación hueca, un vacío que os roe el corazón y refleja el paisaje desolado que os rodea. Vinisteis para ayudar a vuestros amigos, y ahora vuestro único guía en este reino ya no está. ¿Y si todo ha sido un terrible error?</p><p>Os sacudís estos pensamientos sombríos y os centráis en el camino que tenéis por delante. Es demasiado tarde para darle vueltas a lo que podríais haber hecho de otro modo. Este es ahora vuestro camino. Aunque no podáis ayudar a vuestros amigos, aunque sea demasiado tarde para ayudar a Randolph, ahora tenéis otra misión. Está claro que esta región de las Tierras del Sueño tiene algo que ver con las criaturas que invaden vuestra realidad. Las respuestas deben de estar aquí. Además, tampoco es que os quede otra elección.</p><p>Camináis hasta el borde de un escarpado acantilado que domina el reino cavernoso de abajo. Es de una inmensidad abrumadora. A lo lejos, junto a los acantilados, veis nada menos que una ciudad amurallada. Entre sus muchas torres se alza una aguja negra tan alta que debe de perforar la superficie de las Tierras del Sueño. Al sur se extiende una llanura que domina el valle, y veis siluetas que se mueven bajo la luz gris y fosforescente. Confiáis en que los seres que habitan este reino sean de los que atienden a razones. Tenéis vuestras dudas... pero al menos ahora tenéis un plan. Que sea bueno o no está por ver.</p><p class='basic right'>Pasa a la _Preparación_.</p>"
+  },
+  "intro2": {
+    "title": "Escenario III–B: Punto sin retorno",
+    "body": "<p><b>Introducción 2:</b> Por fin habéis llegado a las Tierras del Sueño, pero no son como esperabais. Este Mundo subterráneo ciclópeo no se parece en nada a las tierras maravillosas y las fabulosas ciudades descritas en los escritos de Virgil Gray. Quizá el escritor nunca se aventuró tan bajo tierra, nunca encontró los horrores que acechan bajo la superficie de las Tierras del Sueño. Sospecháis que no habría omitido relatos de naturaleza tan escalofriante. Al adentraros en el reino oscuro y yermo, compartís vuestra preocupación con Randolph. «Es cierto que estamos más lejos de vuestros compañeros de lo que pretendíamos», afirma. «Sin embargo, si me permitís ofreceros otro punto de vista, quizá sea una bendición disfrazada. Está claro que el Mundo subterráneo tiene algo que ver con las criaturas que invaden nuestra realidad. Sugiero que sigamos investigando ahora que tenemos ocasión. Podremos regresar a la superficie de las Tierras del Sueño cuando hayamos descubierto la verdad».</p><p>Le preguntáis a Randolph si tiene alguna pista, y se acerca al borde de un escarpado acantilado que domina el reino cavernoso de abajo. «Ya he estado aquí antes», dice en voz baja mientras se orienta. «Esas murallas a lo lejos pertenecen a la ciudad de los gugs. Al sur se extiende una llanura que domina el valle. En esa llanura viven los gules. Quizá allí podamos averiguar más». Expresáis vuestras dudas, preguntándoos si tales criaturas son siquiera capaces de conversar pacíficamente. «Son más inteligentes de lo que pensáis, y podrían resultar muy útiles si les convencemos de que nos ayuden. De hecho, cuento a uno entre mis amigos, un artista llamado Richard Pickman. Si tenemos la fortuna de encontrarlo, puede que sea nuestra mejor baza». Seguís teniendo dudas... pero al menos ahora tenéis un plan. Que sea bueno o no está por ver.</p><p class='basic right'>Pasa a la _Preparación_.</p>"
+  },
+  "resolutions": {
+    "noResolution": {
+      "title": "Sin resolución",
+      "body": "<p class='basic'>_Si no se ha llegado a ninguna resolución (todos los investigadores fueron derrotados):_ pasa a la _Resolución 2_.</p>"
+    },
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<p>_Resolución 1:_ El líquido negro y viscoso sube a vuestro alrededor, consumiéndoos, y teméis haber cometido un grave error. La presión del denso líquido envuelve vuestros cuerpos y os aplasta por todos lados. Pero entonces emergéis al otro lado. Caéis durante un breve instante de silencio antes de que os atrape una telaraña brillante y fibrosa. Presas del pánico, gateáis hasta una plataforma cercana de roca sólida. Vuestro refugio es una de muchas, todas suspendidas en el aire y unidas por gruesas telarañas. Más allá se extiende un vasto espacio cósmico, una oscuridad infinita que llega hasta donde alcanza la vista.</p><ul><li>Por cada daño que haya sobre la carta de referencia de escenario, anota 1 marca junto a «Peldaños del puente» en el Registro de campaña.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.</li><li>*Si estás jugando La red de los sueños como una campaña de cuatro partes*, pasa al _Escenario 4–B: Tejedora del cosmos_.</li><li>*Si estás jugando La búsqueda onírica y La red de los sueños como una campaña interconectada de ocho partes...*<ul><li>*...y aún no has jugado el Escenario 3–A: El lado oscuro de la luna*, pasa a ese escenario.</li><li>*...y ya has jugado el Escenario 3–A: El lado oscuro de la luna*, pasa al _Interludio III: Los Primigenios_.</li></ul></li></ul>"
+    },
+    "resolution2": {
+      "title": "Resolución 2",
+      "body": "<p>_Resolución 2:_ Os preparáis mientras otra oleada de realidad distorsionada se estrella contra vosotros. Esta sensación, sea lo que sea, se intensifica a medida que pasa el tiempo. Alguien o algo la provoca, pero ¿cómo? Mientras os preguntáis por su significado, reparáis en algo curioso: no sois los únicos afectados. Ni mucho menos: todo el Mundo subterráneo parece cambiar con cada oleada de energía retorcida que recorre el reino. Las paredes se desplazan, el suelo se ladea y la tenue luz fosforescente centellea con un resplandor cósmico y sobrenatural. La tierra retumba cuando otra ola de fuerza sacude los cimientos del mundo de los sueños. La superficie rocosa sobre la que os encontráis cede. Manoteáis en el aire, intentando agarraros a algo, a cualquier cosa que sirva para auparos. Vuestras manos se cierran sobre un tablón de madera pintada. No hay tiempo de preguntarse qué hace ahí: lo primero es sobrevivir.</p><p>Cuando os aupáis, descubrís que estáis acurrucados en el banco de un parque, rodeados por una densa niebla y por los lúgubres tejados abuhardillados de Arkham. Ante vosotros no hay suelo. Solo un pozo abierto e interminable que se hunde en profundidades insondables. ¿El Mundo subterráneo, quizá? Pero ¿cómo es posible? El gato de Virgil os observa con indiferencia desde una rama que cuelga sobre el banco. «No se detendrá», os dice el gato negro. «No hasta que no quede nada de vuestro mundo». Os preguntáis qué podríais hacer ante semejante horror. El gato contempla el pozo. «Os está esperando».</p><p>Otro temblor. A lo lejos, veis con horror cómo la tierra se traga un edificio entero. Creéis distinguir a un transeúnte a lo lejos, pero no es humano. Si esto continúa, vuestros compañeros no tendrán un mundo al que despertar. Os armáis de valor, miráis el pozo vacío y tragáis saliva. «Hala, para abajo», dice el gato.</p><p>Caéis. El rugido del viento es ensordecedor mientras os azota la cabeza. Pensáis que es imposible sobrevivir a una caída así. Pero, en lugar de estrellaros contra un suelo de roca, os atrapa una telaraña brillante y fibrosa. Presas del pánico, gateáis hasta una plataforma cercana de roca sólida. Vuestro refugio es una de muchas, todas suspendidas en el aire y unidas por gruesas telarañas. Más allá se extiende un vasto espacio cósmico, una oscuridad infinita que llega hasta donde alcanza la vista.</p><ul><li>El investigador Jefe ha obtenido la Debilidad Falso despertar (carta 275 de Los devoradores de sueños), que no cuenta para el tamaño del mazo. Añade esta carta al mazo del investigador Jefe.</li><li>Por cada daño que haya sobre la carta de referencia de escenario, anota 1 marca junto a «Peldaños del puente» en el Registro de campaña.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.</li><li>*Si estás jugando La red de los sueños como una campaña de cuatro partes*, pasa al _Escenario 4–B: Tejedora del cosmos_.</li><li>*Si estás jugando La búsqueda onírica y La red de los sueños como una campaña interconectada de ocho partes...*<ul><li>*...y aún no has jugado el Escenario 3–A: El lado oscuro de la luna*, pasa a ese escenario.</li><li>*...y ya has jugado el Escenario 3–A: El lado oscuro de la luna*, pasa al _Interludio III: Los Primigenios_.</li></ul></li></ul>"
+    }
+  },
+  "besetByMonsters": {
+    "label": {
+      "discardRandom": "Descartar 1 carta al azar"
+    }
+  }
+}

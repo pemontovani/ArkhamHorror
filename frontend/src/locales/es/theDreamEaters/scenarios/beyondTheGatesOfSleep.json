@@ -1,0 +1,151 @@
+{
+  "heading": "Escenario I-A",
+  "setup": {
+    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de Encuentros: *Más allá de las Puertas del Sueño*, *Agentes de Nyarlathotep*, *Zoogs*, *Maldición del soñador*, *Tierras del Sueño* y *Frío helador*. Estos conjuntos vienen indicados por los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/beyond-the-gates-of-sleep.png' /><img src='{setImgPath}/agents-of-nyarlathotep.png' /><img src='{setImgPath}/zoogs.png' /><img src='{setImgPath}/dreamers-curse.png' /><img src='{setImgPath}/dreamlands.png' /><img src='{setImgPath}/chilling-cold.png' /></section>",
+    "putLocations": "Pon en juego los Setenta peldaños *(De sueño ligero)* y La caverna de fuego. Cada investigador comienza en los Setenta peldaños *(De sueño ligero)*.",
+    "setCardsAside": "Pon aparte las siguientes cartas, fuera del juego: Randolph Carter *(Soñador experto)*, el Enemigo Gug trabajador, las dos cartas de Enemigo de doble cara *(Nasht y Kaman-Thah)* y todos los Lugares restantes.",
+    "doubleSidedNote": "<div class='columns' style='overflow: none;padding-bottom: 40px;'><div style='flex-basis: 20%;'>*Nota: Nasht y Kaman-Thah son de doble cara y tienen cartas de Historia en el otro lado. Para una mejor experiencia, no mires el otro lado hasta que un efecto te indique que lo hagas.*</div><div style='flex:1; margin-top: 30px;' class='fan'><img src='{setImgPath}/../cards/06057.avif' /><img src='{setImgPath}/../cards/06058.avif' /></div></div>",
+    "setEncounterCardsAside": "Este escenario no comienza con un mazo de Encuentros en juego. Pon aparte todas las cartas de Encuentro restantes, formando un solo montón. Se barajarán en un momento posterior para formar el mazo de Encuentros (consulta «Peldaños de sueño» a continuación)."
+  },
+  "rules": {
+    "stepsOfSlumber": {
+      "title": "Peldaños de sueño",
+      "body": "<p class='basic'>Al comienzo de este escenario no hay mazo de Encuentros. Esto significa que los investigadores no pueden usar capacidades que interactúen con el mazo de Encuentros de ningún modo. (*Por ejemplo, los efectos que buscan en el mazo de Encuentros, roban cartas del mazo de Encuentros o miran cartas del mazo de Encuentros fracasan.*)</p><p class='basic'>Además, el Acto 1a tiene el texto: «No robéis cartas del mazo de Encuentros durante la fase de Mitos».</p><p class='basic'>En un momento determinado del escenario se indicará a los investigadores que formen el mazo de Encuentros, y este texto dejará de estar activo. A partir de ese momento, los investigadores pueden interactuar con el mazo de Encuentros con normalidad.</p>"
+    }
+  },
+  "specialRules": [
+    {
+      "title": "@:theDreamEaters.beyondTheGatesOfSleep.rules.stepsOfSlumber.title",
+      "body": "@:theDreamEaters.beyondTheGatesOfSleep.rules.stepsOfSlumber.body"
+    }
+  ],
+  "thePath": {
+    "label": {
+      "stepBack": "Apartarte y observar cómo se desarrolla esta escena surrealista.",
+      "interrupt": "Interrumpir al gato con cicatrices y encargarte tú de esto."
+    }
+  },
+  "tokens": {
+    "easyStandard": {
+      "skull": "-X. X es la mitad del número de cartas de tu mano (redondeando hacia arriba).",
+      "cultist": "-X. X es el número de Lugares Bosque Encantado descubiertos.",
+      "tablet": "-2. Si fracasas y se trata de un intento de ataque o de evitar contra un Enemigo con Multitud, añádele 1 carta de multitud."
+    },
+    "hardExpert": {
+      "skull": "-X. X es el número de cartas de tu mano.",
+      "cultist": "-X. X es el número de Lugares _Bosque_ descubiertos.",
+      "tablet": "-2. Si se trata de un intento de ataque o de evitar contra un Enemigo con Multitud, añádele 1 carta de multitud."
+    }
+  },
+  "label": {
+    "doNotReplace": "No sustituir",
+    "doNotTakeAny": "No coger ninguna",
+    "replaceWeaknessQuestion": "¿Sustituir una Debilidad básica por otra al azar y sufrir 1 trauma a tu elección?",
+    "chooseUpToTacticSupply": "Elige hasta {count} cartas Táctica y/o Suministros y comienza este escenario con ellas como cartas adicionales en tu mano inicial.",
+    "chooseThisDream": "Elegir este sueño",
+    "chooseAnotherDream": "Elegir otro sueño",
+    "options": {
+      "guardian": "Sueño de Guardián ({'{'}guardian{'}'})",
+      "seeker": "Sueño de Buscador ({'{'}seeker{'}'})",
+      "rogue": "Sueño de Rebelde ({'{'}rogue{'}'})",
+      "mystic": "Sueño de Místico ({'{'}mystic{'}'})",
+      "survivor": "Sueño de Superviviente ({'{'}survivor{'}'})",
+      "criminal": "Sueño de _Criminal_",
+      "drifter": "Sueño de _Vagabundo_",
+      "hunter": "Sueño de _Cazador_",
+      "medicOrAssistant": "Sueño de _Médico_ o _Asistente_",
+      "miskatonicOrScholar": "Sueño de _Miskatonic_ o _Erudito_",
+      "veteran": "Sueño de _Veterano_",
+      "wayfarer": "Sueño de _Viajero_",
+      "neutral1": "Sueño neutral 1",
+      "neutral2": "Sueño neutral 2"
+    }
+  },
+  "enchantedWoodsTheMoonTree": {
+    "label": {
+      "loseAllActions": "Perder todas las acciones restantes"
+    }
+  },
+  "journeyThroughTheGates": {
+    "label": {
+      "testWillpower": "Hacer una prueba de {'{'}willpower{'}'} (3) para recordar que todo esto es un sueño",
+      "doNotTest": "No hacer la prueba"
+    }
+  },
+  "dreamSelection": {
+    "title": "Escenario I–A: Más allá de las Puertas del Sueño",
+    "body": "Siguiendo el orden de los jugadores, cada investigador elige y lee en voz alta una de las entradas de sueño siguientes que se aplique a ese investigador. Cualquier investigador puede elegir los sueños «neutrales». Cada investigador debe elegir un sueño distinto, si es posible. Después, pasa a la _Preparación_."
+  },
+  "dreams": {
+    "guardian": {
+      "body": "<p>Sueño de Guardián ({'{'}guardian{'}'}): rodeas una colina sombría, envuelta en oscuridad y sumida en una niebla que parece engullir todo sonido. No sabes qué reposa en el interior de la colina, pero parece más antiguo que este mundo, y se diría que te observa. No te atreves a volverte hacia el túmulo, pero sabes que no puedes abandonarlo, así que lo patrullas sin descanso. En los setos que te rodean vislumbras sombras retorcidas que van de un lado a otro, pero cada vez que las alumbras con la antorcha, se desvanecen. Echas a correr, pero te paraliza un fuerte golpe a tu espalda. Al volverte, la niebla se abre y por fin ves el pie de la colina, donde te llama una pesada puerta de pizarra gastada por la intemperie.</p>",
+      "effect": "Busca en tu mazo una carta de {'{'}guardian{'}'} y juégala (pagando su coste)."
+    },
+    "seeker": {
+      "body": "<p>Sueño de Buscador ({'{'}seeker{'}'}): corres por los pasillos de una universidad que apenas reconoces, con varios libros de texto entre los brazos mientras pasas a toda prisa junto a otros estudiantes y profesores. No sabes cómo es posible que hayas olvidado la fecha del examen, pero si no llegas pronto, sabes que suspenderás la asignatura. Ni siquiera recuerdas de qué trata el curso ni su temario, aunque sabes que es final de semestre. No es propio de ti faltar a clase ni olvidarte de estudiar. Oyes las risitas de otros estudiantes a tu paso. Al llegar al final del pasillo, la puerta del aula se alza amenazadora ante ti.</p>",
+      "effect": "Busca en tu mazo una carta de {'{'}seeker{'}'} y juégala (pagando su coste)."
+    },
+    "rogue": {
+      "body": "<p>Sueño de Rebelde ({'{'}rogue{'}'}): disimulas una sonrisa al mirar tus cartas. La jota de diamantes y la reina de picas para la escalera máxima. Tu montón de fichas crece con cada mano, y esta no va a ser distinta. Las apuestas van y vienen hasta que solo quedáis tú y el hombre del traje blanco que tienes enfrente. «¿Seguro que quieres hacer esto?», te provoca, entrelazando los dedos. Empujas todas tus fichas al centro y muestras tu escalera al rey. «Qué lástima». Chasquea la lengua y enseña una pareja de doses. «Parece que lo has perdido todo». Protestas señalando tu mano, claramente superior, pero al mirarla de nuevo ha cambiado. Las figuras de las cartas son ahora formas monstruosas sin ojos, con muchas bocas y brazos tentaculares. «9♥-10♣-D♦-C♠-N{'{'}autoFail{'}'}», dicen las cartas. Boquiabierto, ves cómo te arrastran lejos de la mesa y te echan a la calle.</p>",
+      "effect": "Busca en tu mazo una carta de {'{'}rogue{'}'} y juégala (pagando su coste)."
+    },
+    "mystic": {
+      "body": "<p>Sueño de Místico ({'{'}mystic{'}'}): recorres un camino encantado, lleno de color y vitalidad. Flotan en el aire briznas de luz que suben y bajan a medida que te acercas. Con cada paso que das, la flora que bordea el camino se marchita sin obedecer ninguna ley natural. Antes las flores brotaban a tu paso; ahora se encogen. Las enredaderas se secan y mueren. Las luces se burlan de tu ignorancia, pero no aflojas el paso. Al contemplar los hermosos árboles, sus hojas empiezan a caer. La hierba antes verde está seca, parda y agrietada. Pero aunque muera el bosque entero, habrá valido la pena llegar al otro lado. Cuando lo consigues, el sendero termina de golpe ante una puerta de madera ornamentada, tallada en el tronco de una gran secuoya.</p>",
+      "effect": "Busca en tu mazo una carta de {'{'}mystic{'}'} y juégala (pagando su coste)."
+    },
+    "survivor": {
+      "body": "<p>Sueño de Superviviente ({'{'}survivor{'}'}): huyes por un oscuro y angosto pasillo de madera cubierta de enredaderas. Algo inexplicable te persigue entre las sombras. El terror te impide volverte para mirar a tu perseguidor, pero aun así sabes que, si te atrapa, será el fin de tu vida. Te atravesará el corazón, te desangrará y devorará tus entrañas. Es ese pensamiento el que te impulsa a seguir, más rápido de lo que jamás hayas corrido. No puedes dejar que te alcance. No puedes permitir que se alimente. De pronto ves la salida: una robusta puerta de madera rodeada por un muro de enredaderas.</p>",
+      "effect": "Busca en tu mazo una carta de {'{'}survivor{'}'} y juégala (pagando su coste)."
+    },
+    "criminal": {
+      "body": "<p>Sueño de _Criminal_: el aullido de las sirenas resuena por las calles a tu espalda. Te están alcanzando. Siempre te han pisado los talones, y tú siempre ibas un paso por delante... hasta ahora. Corres por un callejón y un resplandor rojo intenso te persigue. Van a atraparte. Te encerrarán en una jaula y tirarán la llave. Tu libertad, tu forma de vida, todo lo que eres, todo lo que amas: te lo arrebatarán. ¿Y por qué? ¿Solo porque no quisiste seguir sus reglas? ¿Cuándo han acertado ellos en todo? Doblas una esquina justo cuando la pasma está a punto de echarte el guante y ves la entrada a un edificio de ladrillo.</p>",
+      "effect": "Busca en tu mazo una carta _Criminal_ o _Ilícito_ y juégala (pagando su coste)."
+    },
+    "drifter": {
+      "body": "<p>Sueño de _Vagabundo_: deambulas por un campo de flores mientras una cálida brisa primaveral impulsa tus pasos. Una vía de tren divide el campo y, cuando llegas a sus líneas paralelas, el rugido traqueteante del vapor y el hierro avanza pesadamente hacia ti. Al pasar el tren, te agarras a una escalerilla que cuelga de uno de sus muchos vagones oxidados y castigados por la intemperie. A diferencia de lo que sugiere su exterior, el interior del tren está lleno de un lujo y una opulencia inesperados: alfombras persas cuelgan como adorno, escaleras de mármol ascienden en espiral hasta alturas de vértigo y una lámpara de cristal salpica la estancia de destellos de colores. Bajo la lámpara hay un portal ornamentado cuyas celosías doradas representan a un zorro en un bosque.</p>",
+      "effect": "Puedes sustituir una Debilidad básica de tu mazo por otra Debilidad básica distinta al azar. Si lo haces, sufres 1 trauma a tu elección."
+    },
+    "hunter": {
+      "body": "<p>Sueño de _Cazador_: acechas a tu presa por una casa decrépita cuyos pasillos huelen a moho y polvo. La criatura que cazas es una abominación de un mundo antinatural. Su mera presencia amenaza la existencia de la humanidad. Ves su insólita silueta cruzar una de las puertas del piso de arriba. Ya no puede escapar: es tuya. Pero al entrar en su guarida solo encuentras un espejo sucio y rajado, y tu propio rostro cansado y preocupado reflejado en el cristal. ¿Adónde puede haber ido la aberración? Tienes la certeza de que se refugió aquí, y sin embargo... te vuelves hacia la entrada y te sorprende ver una puerta donde antes no había ninguna.</p>",
+      "effect": "Busca en tu mazo una carta _Arma_ y juégala (pagando su coste)."
+    },
+    "medicOrAssistant": {
+      "body": "<p>Sueño de _Médico_ o _Asistente_: estás ante un ataúd cerrado. A tu lado, una fila de dolientes vestidos de negro aguarda a que pronuncies tus últimas palabras. Entre lágrimas, posas una mano en el ataúd. La madera dura y fría parece muerta bajo tu palma. Confiaron en ti. Contaban contigo. Y cuando más lo necesitaban, les fallaste. Todo esto, el frío ataúd, los amigos y familiares de luto... todo es por tu culpa. Pero al abrir el ataúd no hay ningún cuerpo dentro: solo un largo pasadizo de piedra que desciende a las profundidades. De pronto, uno de los dolientes te empuja, caes por el borde del ataúd al pozo y aterrizas dolorosamente de costado. Al ponerte en pie, descubres tu única salida: un arco de piedra que conduce a un lugar completamente distinto...</p>",
+      "effect": "Elige a otro investigador. Comienza este escenario con 2 recursos adicionales y 1 carta adicional en su mano inicial."
+    },
+    "miskatonicOrScholar": {
+      "body": "<p>Sueño de _Miskatonic_ o _Erudito_: estás en una vieja biblioteca olvidada, rodeado por el conocimiento de los antiguos. Cientos de miles de tomos pueblan las estanterías que te rodean y suben hacia un vacío que hay sobre tu cabeza. Las sombrías salas huelen a páginas mohosas y cera derretida. Coges uno de los gruesos tomos de un estante cercano y empiezas la lectura. Aunque no pareces lograr leer ninguna palabra, estás completamente absorbido por el relato que tejen sus páginas. El entorno que te rodea se convierte en algo trivial mientras el tiempo pasa. Nada importa salvo las formas de la tinta carmesí; todo lo demás carece de importancia ante verdades tan descarnadas. A tu alrededor, la biblioteca se quema hasta los cimientos. Cuando las llamas te alcanzan, una puerta de salida de la biblioteca te llama. De algún modo, permanece intacta entre las llamas.</p>",
+      "effect": "Busca en tu mazo una carta _Tomo_ y juégala (pagando su coste)."
+    },
+    "veteran": {
+      "body": "<p>Sueño de _Veterano_: estás en una trinchera embarrada y llena de hollín. A tu alrededor, el atronador fragor de la guerra no cesa. Los muertos llenan las trincheras: amigos y camaradas de armas que perdieron la vida por nada, en una tierra lejos de su hogar. Te asomas por el borde de la trinchera para mirar la tierra de nadie, un baldío páramo de terreno roto y calcinado en el que la muerte es segura. Y allí la ves: una solitaria puerta de madera que se levanta entre los escombros y la tierra. Sabes que es tu única salida. Agarras con fuerza el fusil, sales de la trinchera y corres directo hacia una lluvia de letales balas, mientras las explosiones hacen temblar el suelo a tu alrededor.</p>",
+      "effect": "Busca en tu mazo hasta 2 cartas _Táctica_ y/o _Suministros_ y comienza este escenario con ellas como cartas adicionales en tu mano inicial."
+    },
+    "wayfarer": {
+      "body": "<p>Sueño de _Viajero_: avanzas trabajosamente por un pantano salobre con el agua hasta el pecho. Unas espadañas imposiblemente grandes se alzan sobre ti, y nubes de extraños insectos iridiscentes pueblan el fétido aire. Con cada paso, tus pies se hunden más y más en el suave lodo, que amenaza con llegar a hundirte. Notas algo frío y viscoso que se desliza por tu pierna, y tratas de lanzarte hacia terreno seco, pero cuanto más te debates, más te hundes. En un abrir y cerrar de ojos, te ves consumido entero por la ciénaga, pero no dejas de caer. Al final, aterrizas sobre un suelo de piedra junto con un pequeño alud de barro. Te encuentras en una sala sellada, iluminada por el resplandor azul pálido de unos extraños jeroglíficos. Los símbolos enmarcan una intrincada puerta dorada: la puerta de la cripta que estabas buscando.</p>",
+      "effect": "Busca en tu mazo una carta _Viajero_ o _Reliquia_ y juégala (pagando su coste)."
+    },
+    "neutral1": {
+      "body": "<p>Sueño neutral: das mil vueltas en la cama, pero no te duermes ni por un instante. Tu mente está llena de incomodidad y pensamientos oscuros: pensamientos de fracaso, de ineptitud y de pérdida. Tienes la frente perlada de sudor. Da igual cómo te pongas, la cama siempre está demasiado caliente o demasiado fría. Al final, harto de no conseguir nada, te levantas y vas al lavabo a echarte agua en la cara. Es entonces cuando te das cuenta de que la distribución de tu habitación ya no es la de antes, y de que la puerta del cuarto de baño se ha convertido en un gran portal de ónice y mármol.</p>",
+      "effect": "Comienzas este escenario con 2 recursos adicionales."
+    },
+    "neutral2": {
+      "body": "<p>Sueño neutral: estás en el porche trasero de lo que parece la casa de tu infancia, pero algo no encaja. No reconoces a tu familia... las plantas del jardín están colocadas de otra manera... y el cielo es un mosaico de cadáveres putrefactos del que llueven miembros cercenados sobre el paisaje. Tu falsa familia contempla con calma esta precipitación de cadáveres y comenta el tiempo como si fuera algo de lo más corriente. Continúa incluso cuando el golpeteo intermitente de manos y pies sobre el tejado se convierte en un torrente de torsos mutilados que hace combarse el techo. Sales corriendo, esquivando la lluvia mortal, y te diriges por instinto al límite de la propiedad de tus padres. Mientras oyes a tu espalda el estruendo de la casa al derrumbarse, apartas los miembros caídos que se amontonan sobre un viejo lugar que te resulta familiar y, con alivio, encuentras la madera gastada de la puerta de un sótano.</p>",
+      "effect": "Comienzas este escenario con 1 carta adicional en tu mano inicial."
+    }
+  },
+  "resolutions": {
+    "noResolution": {
+      "title": "Sin resolución",
+      "body": "<p class='basic'>_Si no se ha llegado a ninguna resolución porque todos los investigadores fueron derrotados:_</p><p>Un viejo gato con cicatrices os da unos golpecitos para haceros recuperar la consciencia. «Eh, ¿estáis bien, humanos?».</p><p>Recordáis que estáis soñando, y de repente no os resulta tan raro que el gato hable. Agotados, lográis poneros en pie mientras os sacudís la tierra seca de la ropa. «Tenéis suerte de no haber sufrido daños antes de que llegáramos», os dice una voz humana. Pertenece a un hombre rubio que lleva una chaqueta de viaje marrón y está apoyado en un árbol cercano. «Este bosque es implacable con los timoratos». El gato con cicatrices se acerca al hombre, y este se inclina para acariciarle el lomo.</p><p>Le preguntáis al hombre dónde estáis y cómo llegó a este lugar, pero os interrumpe. «Os lo explicaré en su momento. Por ahora, debemos seguir el camino hasta la ciudad de Ulthar. Es un lugar relativamente seguro. Allí podréis recuperaros de vuestras tribulaciones». Se vuelve hacia el gato y pronuncia una palabra en un extraño lenguaje; sospecháis que es una especie de contraseña, pero el gato se limita a caminar hacia un seto en el que veis varios gatos más apiñados. «Hazlo tú mismo», contesta.</p><p>«No hagáis caso a los gatos», os dice el hombre en voz baja cuando estos se marchan. «Son aliados útiles, pero también criaturas independientes que no os necesitan ni a vosotros ni a mí. Cuando lleguemos a Ulthar, tal vez tengáis la oportunidad de conocer a otros como ellos. Pero lo primero es lo primero». Juntos, dejáis atrás el Bosque Encantado.</p><ul><li>Anota en el Registro de campaña que *Randolph Carter salvó a los investigadores*.</li><li>Un investigador cualquiera puede elegir añadir a su mazo a Randolph Carter *(Soñador experto)* (carta 59 de Los devoradores de sueños). Esta carta no cuenta para el tamaño de mazo de ese investigador.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.<ul><li>_Experiencia_: {xp}</li></ul></li><li>Si estás jugando La búsqueda onírica como una campaña de cuatro partes, pasa al _Interludio I: El gato negro_.</li><li>Si estás jugando La búsqueda onírica y La red de los sueños como una campaña de ocho partes interconectadas...<ul><li>...y aún no has jugado el _Escenario 1–B: Pesadilla consciente_, pasa a ese escenario.</li><li>...y ya has jugado el _Escenario 1–B: Pesadilla consciente_, pasa al _Interludio I: El gato negro_.</li></ul></li></ul>"
+    },
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<p>Las criaturas parlotean entre ellas y, tras un momento, una docena de ellas se retiran en dirección al gran árbol que hay al otro lado del transitado sendero. Vuelven poco después llevando distintos urogallos, perdices y faisanes en la boca. Estáis casi seguros de que os estáis volviendo locos. Y aun así, el espectáculo continúa. Las criaturas dejan caer tímidamente su «tributo» de aves delante de los gatos y se marchan en silencio. «Os pido disculpas en nombre de los zoogs», dice el hombre mientras se acerca. «Son criaturas curiosas, y normalmente no están tan... agitadas. Menos mal que hemos aparecido cuando lo hemos hecho». El líder de los gatos salta sobre un tocón y añade: «Sí, sí. Esos viles zoogs han hecho su parte, ahora hagamos la nuestra y abandonemos este condenado lugar. ¿Qué decís?».</p><p>No podéis contener vuestra emoción. Zoogs, gatos que hablan... todo lo que habéis leído es cierto. Empezáis a preguntarle al hombre más cosas sobre este mundo, pero os interrumpe. «Os lo explicaré en su momento. Por ahora, debemos seguir el camino hasta la ciudad de Ulthar. Es un lugar relativamente seguro. Allí podréis recuperaros de vuestras tribulaciones». Se vuelve hacia el viejo gato con cicatrices y pronuncia una palabra en un extraño lenguaje; sospecháis que es una especie de contraseña, y el gato responde con un breve asentimiento. El resto de los gatos, con el tributo en la boca, se colocan en formación circular protectora en torno a vosotros, y juntos salís del Bosque Encantado.</p><ul><li>Anota en el Registro de campaña que *los gatos obtuvieron su tributo de los zoogs*.</li><li>Un investigador cualquiera puede elegir añadir a su mazo a Randolph Carter *(Soñador experto)* (carta 59 de Los devoradores de sueños). Esta carta no cuenta para el tamaño de mazo de ese investigador.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.<ul><li>_Experiencia_: {xp}</li></ul></li><li>Si estás jugando La búsqueda onírica como una campaña de cuatro partes, pasa al _Interludio I: El gato negro_.</li><li>Si estás jugando La búsqueda onírica y La red de los sueños como una campaña de ocho partes interconectadas...<ul><li>...y aún no has jugado el _Escenario 1–B: Pesadilla consciente_, pasa a ese escenario.</li><li>...y ya has jugado el _Escenario 1–B: Pesadilla consciente_, pasa al _Interludio I: El gato negro_.</li></ul></li></ul>"
+    },
+    "resolution2": {
+      "title": "Resolución 2",
+      "body": "<p>Alzáis una mano ante los recién llegados, convencidos de que podéis calmar esta situación por vuestra cuenta. De haber sabido desde el principio que estas criaturas parecidas a roedores eran inteligentes, quizá habríais intentado comunicaros con ellas mucho antes. Les informáis de que solo sois viajeros en esta tierra lejana y que lo único que deseáis es atravesarla en paz. Las criaturas parlotean entre ellas un momento: «¡Son amables!». «¡Al final no van con el gato negro!». «¡Convocad al Consejo de Sabios!». Al poco aparecen varios más, todos con un ralo pelaje gris y un cuerpo flaco y frágil. El más anciano echa un vistazo a vuestra espalda y declara que os ayudarán si conseguís que los gatos se marchen.</p><p>De algún modo, contenéis la incredulidad y pedís amablemente a los gatos que vuelvan en otro momento. «De acuerdo», responde el gato con cicatrices, «pero no será la última vez que nos veáis». Los gatos se retiran a la linde del bosque, aunque su compañero humano se queda con vosotros. Cuando los gatos ya no pueden oíros, uno de los ancianos os ofrece una calabaza con lo que parece savia fermentada, que aceptáis de buen grado.</p><p>«Es el vino del árbol lunar», explica en voz baja el hombre que está detrás, dando un paso adelante. «Los zoogs no hacen regalos así a la ligera. Son criaturas curiosas, pero no carentes de sabiduría. Ahora que podéis hablar libremente con sus ancianos, probad a hacerles una pregunta. Saben de los asuntos de esta tierra más de lo que imagináis».</p><p>Describís al escritor Virgil Gray y preguntáis a los zoogs si han visto pasar por este bosque a un hombre así. Añadís que habrá recorrido este camino muchas veces. Un silencio cae sobre los zoogs, y algunos se internan de inmediato en la espesura. «Conocemos a ese humano», responde uno de los ancianos con un aleteo apenas más fuerte que un susurro. «Viene a menudo por aquí. Es amable pero necio. Tomad el camino a Ulthar. Quizá lo encontréis». Luego añade con un gruñido grave: «...pero guardaos del gato que lo sigue. Todos los gatos mienten, pero el gato negro más que ninguno». Dais las gracias al anciano zoog por su sabiduría y partís, guiados por el hombre rubio y su escolta felina. Los gatos os miran con recelo tras vuestra conversación con los zoogs. El hombre rompe la tensión. «Si vais a Ulthar a buscar a ese amigo vuestro, permitidme que os guíe hasta allí. Es un lugar relativamente seguro. Allí podréis recuperaros del viaje».</p><p>Zoogs. Gatos que hablan. No puede ser todo producto de vuestra imaginación. De algún modo, percibís una capa de verdad bajo todo este absurdo. Para bien o para mal, el consejo zoog ha confirmado la realidad de vuestra situación: las Tierras del Sueño son reales, y Virgil Gray está aquí.</p><ul><li>Anota en el Registro de campaña que *los investigadores parlamentaron con los zoogs*.</li><li>Un investigador cualquiera puede elegir añadir a su mazo a Randolph Carter *(Soñador experto)* (carta 59 de Los devoradores de sueños). Esta carta no cuenta para el tamaño de mazo de ese investigador.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.<ul><li>_Experiencia_: {xp}</li></ul></li><li>Si estás jugando La búsqueda onírica como una campaña de cuatro partes, pasa al _Interludio I: El gato negro_.</li><li>Si estás jugando La búsqueda onírica y La red de los sueños como una campaña de ocho partes interconectadas...<ul><li>...y aún no has jugado el _Escenario 1–B: Pesadilla consciente_, pasa a ese escenario.</li><li>...y ya has jugado el _Escenario 1–B: Pesadilla consciente_, pasa al _Interludio I: El gato negro_.</li></ul></li></ul>"
+    }
+  }
+}

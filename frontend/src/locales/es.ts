@@ -11,6 +11,7 @@ import theDunwichLegacy from '@/locales/es/theDunwichLegacy'
 import thePathToCarcosa from '@/locales/es/thePathToCarcosa'
 import theForgottenAge from '@/locales/es/theForgottenAge'
 import theCircleUndone from '@/locales/es/theCircleUndone'
+import theDreamEaters from '@/locales/es/theDreamEaters'
 import theFeastOfHemlockVale from '@/locales/en/theFeastOfHemlockVale'
 
 // Anything missing here falls back to English key by key (fallbackLocale in
@@ -32,5 +33,6 @@ export default
   , theForgottenAge
   , returnToTheForgottenAge: theForgottenAge
   , theCircleUndone
+  , theDreamEaters
   , theFeastOfHemlockVale
   }

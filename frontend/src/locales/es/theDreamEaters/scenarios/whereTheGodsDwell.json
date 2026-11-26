@@ -1,0 +1,114 @@
+{
+  "heading": "Escenario IV-A",
+  "setup": {
+    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de Encuentros: *Donde moran los dioses*, *Agentes de Nyarlathotep*, *Maldición del soñador*, *Susurros de Hipnos* y *Secta oscura*. Estos conjuntos vienen indicados por los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/where-gods-dwell.png' /><img src='{setImgPath}/agents-of-nyarlathotep.png' /><img src='{setImgPath}/dreamers-curse.png' /><img src='{setImgPath}/whispers-of-hypnos.png' /><img src='{setImgPath}/dark-cult.png' /></section>",
+    "putLocations": "Pon en juego los siguientes Lugares: Meseta de Leng, Desierto frío, Monasterio de Leng, Puertas de ónice y El castillo de ónice (consulta la distribución de Lugares sugerida).",
+    "beginAtPlateauOfLeng": "Cada investigador comienza la partida en la Meseta de Leng.",
+    "setForsakenTowersAside": "Pon aparte, fuera del juego, los 6 Lugares Torre olvidada.",
+    "setCardsAside": "Pon aparte las siguientes cartas, fuera del juego: Sumo Sacerdote Que No Debe Ser Descrito, las 5 copias de Nyarlathotep, las 4 copias de Caos susurrante, las dos copias de Innumerables formas y La niebla reptante.",
+    "buildEncounterDeck": "Baraja el resto de cartas de Encuentro para formar el mazo de Encuentros."
+  },
+  "theEyeOfChaos": {
+    "label": {
+      "choose": "Elige:",
+      "nyarlathotepAttackOnce": "Nyarlathotep te ataca inmediatamente y se baraja en el mazo de Encuentros.",
+      "nyarlathotepAttackThrice": "Nyarlathotep te ataca tres veces inmediatamente y vuelve a la mano de ese investigador.",
+      "shuffled": "Nyarlathotep te ataca inmediatamente y se baraja en el mazo de Encuentros.",
+      "returned": "Nyarlathotep te ataca tres veces inmediatamente y vuelve a la mano de ese investigador."
+    }
+  },
+  "tokens": {
+    "easyStandard": {
+      "skull": "-X. X es el número del Acto en curso.",
+      "cultist": "Revela otra ficha. Si fracasas, coloca 1 de Perdición en el Plan en curso.",
+      "tablet": "-4. Si fracasas, elige y revela una copia de Nyarlathotep de tu mano. Te ataca y se baraja en el mazo de Encuentros.",
+      "elderThing": "0. El gato negro te recuerda que todo es un sueño."
+    },
+    "hardExpert": {
+      "skull": "-X. X es el número del Acto en curso más el número del Plan en curso.",
+      "cultist": "Revela otra ficha. Si fracasas, coloca 1 de Perdición en el Plan en curso. Este efecto puede hacer avanzar el Plan en curso.",
+      "tablet": "-6. Si fracasas, elige y revela una copia de Nyarlathotep de tu mano. Te ataca y se baraja en el mazo de Encuentros.",
+      "elderThing": "-1. El gato negro te recuerda que todo es un sueño."
+    }
+  },
+  "intro": {
+    "title": "Escenario IV–A: Donde moran los dioses",
+    "body": "<p class='basic'>Comprueba el Registro de campaña.</p><ul><li>*Si llevaron a los investigadores al desierto frío*, pasa a la _Introducción 1_.</li><li>*Si los investigadores viajaron al desierto frío*, pasa a la _Introducción 2_.</li></ul>"
+  },
+  "intro1": {
+    "title": "Escenario IV–A: Donde moran los dioses",
+    "body": "<p>_Introducción 1:_ Vuestras monturas tardan muchas horas en llegar a su destino. No os atrevéis a intentar soltaros, pues la caída os mataría sin duda. Además, puede que sea vuestra única oportunidad de encontrar Kadath. Las criaturas pasan bajo arcos de sombras entretejidas, sobre mares cerúleos que centellean a la luz de la luna y a través de vastas franjas de densa niebla. Al final, llegáis a un continente muy al norte, donde ni siquiera vuestro intrépido capitán se aventuró jamás. Criaturas colosales moran en el profundo y oscuro océano: un peligro terrible para cualquier barco que ose surcar esos mares espantosos.</p><p>Vuestras monturas sobrevuelan un desolado paisaje de hielo y nieve antes de posarse. A lo lejos, a través de una cortina de nieve, distinguís a duras penas la silueta de un edificio abovedado. Una de las criaturas aladas señala hacia las ominosas ruinas, ordenándoos en silencio que avancéis. Las demás permanecen calladas a vuestra espalda con una paciencia perfecta, vigilando que no escapéis, aunque no tenéis la menor intención de huir. Encontraréis y escalaréis las cumbres de la desconocida Kadath, o moriréis en el intento.</p><p class='basic right'>Pasa a la _Preparación_.</p>"
+  },
+  "intro2": {
+    "title": "Escenario IV–A: Donde moran los dioses",
+    "body": "<p>_Introducción 2:_ El barco blanco navega sin esfuerzo por el éter. Por el camino, pasa bajo arcos de sombras entretejidas, sobre mares cerúleos que centellean a la luz de la luna y a través de vastas franjas de densa niebla. Al final, llegáis a un continente muy al norte, donde ni siquiera vuestro intrépido capitán se aventuró jamás. Criaturas colosales moran en el profundo y oscuro océano: un peligro terrible para cualquier barco que ose surcar esos mares espantosos.</p><p>El capitán amarra el barco volador sobre un desolado paisaje de hielo y nieve. Varios rayos de luna brotan del casco blanco del barco y forman una pasarela hasta la tundra de abajo. A lo lejos, entre una bruma de copos de nieve, distinguís a duras penas la silueta de un edificio abovedado.</p><p>«Bienvenidos a la maldita meseta de Leng», dice el anciano capitán con un deje de pesar en la voz. «Aquí no encontraréis alegría ni paz. Solo muerte. Por favor, debo suplicaros una vez más que abandonéis esta misión y regreséis a tierras más amables. ¿Estáis seguros de que queréis desembarcar aquí?».</p><p>Asentís. El capitán responde con un suspiro. «Ya veo. El barco blanco no volverá a navegar hasta este lugar dejado de la mano de los dioses, pues me hace temblar hasta lo más hondo. A partir de aquí estáis solos. Adiós y buena suerte, compañeros de viaje».</p><p>Cruzáis sobre los brillantes e intensos rayos de luna hasta la inhóspita extensión de abajo. Encontraréis y escalaréis las cumbres de la desconocida Kadath, o moriréis en el intento.</p><p class='basic right'>Pasa a la _Preparación_.</p>"
+  },
+  "grandDesign1": {
+    "title": "Interludio del escenario: Plan maestro",
+    "body": "<p>_Plan maestro 1:_ Escaláis las montañas del norte cada vez a más altura. Una pálida luz brilla desde lo alto de un gran pico negro que atraviesa el vibrante firmamento, y sabéis que os acercáis al final de vuestra misión. Pasáis incontables horas subiendo por las laderas cubiertas de nieve hasta que por fin llegáis a los peldaños prohibidos que conducen al gran salón del castillo. El castillo se extiende a horcajadas sobre un precipicio que domina todo el continente y el océano de más allá. Es una visión majestuosa. En lo alto se yerguen innumerables torres tenebrosas, envueltas en un vórtice de nieve y granizo. Abrís un sendero en la nieve endurecida ante el castillo, que pronto da paso a un ónice liso y pulido. El viento cortante se acalla hasta no ser más que un silbido. Os baña una oscuridad prodigiosa que llena el vasto espacio. Pronto no se oye más que el eco de vuestras pisadas sobre el suelo de ónice y la quietud solitaria del gran salón. Aunque no habéis cruzado ningún umbral, comprendéis dónde os encontráis ahora: en los salones de los Primigenios. Esperabais que os recibieran guardias, sirvientes de los dioses o quizá incluso esos poderosos seres, pero lo único que sale a vuestro encuentro es una soledad y un presentimiento tan helados como el penetrante viento del exterior. Seguís avanzando hasta que por fin llegáis al extremo de la sala. Allí, flanqueada por lisas columnas de ónice, encontráis... nada.</p><p>Aquí no hay dioses. Este lugar lleva mucho tiempo abandonado.</p><p>Virgil está boquiabierto. «Yo... no lo entiendo».</p><ul><li>Descubre El castillo de ónice y coloca a cada investigador en El gran salón, en su lado descubierto.</li><li>Retira de la partida todos los Lugares que no sean El gran salón.</li><li>Comprueba el Registro de campaña.<ul><li>*Si Randolph Carter sobrevivió al viaje*, pasa a _Plan maestro 2_.</li><li>*Si Randolph Carter no sobrevivió al viaje*, pasa a _Plan maestro 3_.</li></ul></li></ul>"
+  },
+  "grandDesign2": {
+    "title": "Interludio del escenario: Plan maestro",
+    "body": "<p>_Plan maestro 2:_ Os volvéis hacia Randolph en busca de respuestas. Ha sido vuestro guía durante toda esta locura. Seguro que sabrá lo que está pasando. «Por fin», dice mientras contempla el salón con los ojos como platos. «Hemos llegado a los salones de los Primigenios, cuya visión está prohibida a los mortales. Sabíamos que estaba prohibido, y sin embargo aquí estamos, con nuestra misión cumplida». Se vuelve hacia Virgil. «¿Ha merecido la pena? ¿Has encontrado la prueba que buscabas?».</p><p>Virgil da un paso atrás. «¿De qué estás hablando, Randolph? ¿No fue idea tuya? Fuiste tú quien nos embarcó en esta misión».</p><p>Randolph sonríe y le pone una mano en el hombro a Virgil. «Sí, fui yo. Pero yo no soy Randolph Carter». Echa hacia atrás el otro brazo y, antes de que podáis reaccionar, atraviesa el pecho de Virgil Gray con una afiladísima hoja de ónice. El cadáver de Virgil se desliza hasta el suelo pulido, con los ojos congelados para siempre en una trágica sorpresa. El ser que nunca fue Randolph Carter se vuelve hacia vosotros, y su sombra cambia entre innumerables formas mientras se extiende por el suelo. «¡Contemplad!», gruñen sus muchas voces. «¡Vuestra justa recompensa!».</p><ul><li>Si el mazo de algún investigador contiene a Randolph Carter *(Soñador experto)* (carta 59 de Los devoradores de sueños), retíralo de ese mazo durante el resto de la campaña.</li><li>Comprueba el Registro de campaña.<ul><li>*Si el gato negro está a vuestro lado*, pasa a _Plan maestro 4_.</li><li>En caso contrario, pasa a _Plan maestro 5_.</li></ul></li></ul>"
+  },
+  "grandDesign3": {
+    "title": "Interludio del escenario: Plan maestro",
+    "body": "<p>_Plan maestro 3:_ En ese momento, una voz rompe el silencio a vuestra espalda, acrecentando vuestra confusión. «Virgil Gray. Has venido a ver a los Primigenios, cuya visión está prohibida a los mortales». La voz pertenece a una figura alta y delgada, ataviada con las ornamentadas vestiduras prismáticas de un antiguo faraón y tocada con un pskent dorado que brilla tenuemente en la oscuridad. «¿Qué esperabas encontrar?».</p><p>«¿Eres uno de los dioses que moran en este castillo?», pregunta Virgil, acercándose al ser. «¿Por qué está este lugar tan oscuro y solitario?».</p><p>La regia figura permite que una expresión de disgusto asome fugazmente a su semblante. «Los dioses que buscas huyeron de su castillo en la desconocida Kadath para morar en otra tierra, una tierra tan maravillosa que han olvidado cómo ser dioses. ¿Me ayudarás a enmendar este agravio?», pregunta la figura. Antes de que Virgil pueda responder, echa el brazo hacia atrás y le atraviesa el pecho con una afiladísima hoja de ónice. Su cadáver se desliza hasta el suelo pulido, con los ojos congelados para siempre en una trágica sorpresa. La figura se vuelve hacia vosotros, y su sombra cambia entre innumerables formas mientras se extiende por el suelo. «No», gruñen sus muchas voces. «No es suficiente».</p><ul><li>Comprueba el Registro de campaña.<ul><li>*Si el gato negro está a vuestro lado*, pasa a _Plan maestro 4_.</li><li>En caso contrario, pasa a _Plan maestro 5_.</li></ul></li></ul>"
+  },
+  "grandDesign4": {
+    "title": "Interludio del escenario: Plan maestro",
+    "body": "<p>_Plan maestro 4:_ Durante todo ese tiempo, el gato negro permanece encaramado a vuestro hombro, observando con ojos fríos y entrecerrados. Es como si ya hubiera leído este guion muchas veces, pero solo ahora viera a los actores interpretar sus papeles. «Lo siento, Virgil», dice. Solo que no es verdad.</p><p class='basic right'>Pasa a _Plan maestro 5_.</p>"
+  },
+  "grandDesign5": {
+    "title": "Interludio del escenario: Plan maestro",
+    "body": "<p>_Plan maestro 5:_ El caos reptante se divide en cien mil sombras y se desvanece en el aire frío y húmedo.</p><ul><li>Elige al azar, sin mirarlas, 1 más 1 {perPlayer} copias del Enemigo Nyarlathotep puesto aparte y barájalas en el mazo de Encuentros. Retira de la partida todas las demás copias de Nyarlathotep.</li><li>Baraja en el mazo de Encuentros La niebla reptante puesta aparte y todas las copias de Innumerables formas y Caos susurrante puestas aparte, junto con la pila de descarte de Encuentros.</li><li>Baraja los Lugares Torre olvidada puestos aparte y elige 4 al azar para ponerlos en juego. Estos Lugares deben rodear El gran salón, uno en cada uno de los cuatro puntos cardinales: norte, este, sur y oeste.</li><li>Hasta el final del escenario, se hace referencia a cada Torre olvidada por su posición respecto a El gran salón, de la siguiente forma:<ul><li>El Lugar que está por encima de El gran salón es la «torre norte».</li><li>El Lugar que está a la derecha de El gran salón es la «torre este».</li><li>El Lugar que está por debajo de El gran salón es la «torre sur».</li><li>El Lugar que está a la izquierda de El gran salón es la «torre oeste».</li></ul></li></ul>"
+  },
+  "resolutions": {
+    "noResolution": {
+      "title": "Sin resolución",
+      "body": "<p>_Si no se ha llegado a ninguna resolución porque todos los investigadores fueron derrotados:_ Despertáis sobresaltados, absortos y aturdidos por la magnitud del sueño que ha acaparado vuestra atención durante tanto tiempo. Y, sin embargo, cuando intentáis recordarlo, apenas os viene nada a la memoria. Todo es una bruma, como recuerdos lejanos de hace décadas. Solo queda un vestigio del sueño. Un castillo negro. Un barco que navega por el espacio. Una escalera. Un gato negro. Lo único que recordáis es una voz en vuestra cabeza. Una verdad fundamental del universo que no podéis arrancar de vuestra memoria. Os habla incluso ahora, mientras tembláis bajo las sábanas del hospital: «¡Vuestros sueños son míos!».</p><ul><li>Anota en el Registro de campaña que *la invasión de Nyarlathotep ha comenzado*.</li><li>*Si estás jugando La búsqueda onírica como una campaña de cuatro partes*, los investigadores pierden la campaña.</li><li>*Si estás jugando La búsqueda onírica y La red de los sueños como una campaña interconectada de ocho partes...*<ul><li>*...y aún no has jugado el Escenario 4–B: Tejedora del cosmos*, pasa a ese escenario.</li><li>*...y ya has jugado el Escenario 4–B: Tejedora del cosmos*, pasa al _Epílogo_.</li></ul></li></ul>"
+    },
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<p>_Resolución 1:_ La presencia que atormentaba vuestra mente se retira a las sombras, y de nuevo os invade una abrumadora sensación de soledad. Las vastas salas del castillo de ónice no son prueba de nada salvo de desesperación y pesar. Sean cuales sean los dioses que habitaron este lugar, se marcharon hace mucho. Venir aquí fue, en efecto, una insensatez. Sacáis el cadáver de Virgil a las cumbres nevadas de Kadath y lo enterráis fuera del castillo. Seguís sin comprender qué quería de él, o de vosotros, el ser conocido como Nyarlathotep, pero al menos ahora podéis dejar atrás las Tierras del Sueño... si es que eso es lo que de verdad deseáis.</p><ul><li>Anota en el Registro de campaña que *los soñadores escaparon de las garras de Nyarlathotep*.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.</li><li>Cada investigador sufre 2 traumas mentales por la batalla entre la verdad y la ficción librada en sus propios sueños.</li><li>Los investigadores deben decidir (elegir una opción):<ul><li>*Despertar.* Pasa a la _Resolución 3_.</li><li>*Quedaros en la superficie de las Tierras del Sueño.* Pasa a la _Resolución 4_.</li><li>*Adentraros en el Mundo subterráneo para encontrar a vuestros compañeros.* Elige esta opción únicamente si en el Registro de campaña aparece que *los soñadores conocen otro camino*. Pasa a la _Resolución 5_.</li></ul></li></ul>"
+    },
+    "resolution2": {
+      "title": "Resolución 2",
+      "body": "<p>_Resolución 2:_ No queda nada de la presencia que atormentaba vuestra mente. De nuevo os invade una abrumadora sensación de soledad. Las vastas salas del castillo de ónice no son prueba de nada salvo de desesperación y pesar. Pero al menos ya no las ronda el ser que os atrajo hasta aquí. Ahora comprendéis cuál fue su propósito desde el principio: hurgar en vuestra mente, discernir vuestra forma y despertar junto a vosotros. Convertirse a la vez en amo de los sueños y de la realidad. El gato negro, fuera lo que fuese en verdad, debió de verlo en sus visiones. Sacáis el cadáver de Virgil a las cumbres nevadas de Kadath y lo enterráis fuera del castillo. Con la misión cumplida, ya no tenéis motivo para permanecer en este lugar. Por fin podéis dejar atrás las Tierras del Sueño... si es que eso es lo que de verdad deseáis.</p><ul><li>Anota en el Registro de campaña que *los soñadores desterraron a Nyarlathotep*.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria. Cada investigador obtiene 5 puntos de experiencia adicionales por haber frustrado de una vez por todas los planes de Nyarlathotep.</li><li>Cada investigador sufre 2 traumas mentales por la batalla entre la verdad y la ficción librada en sus propios sueños.</li><li>Los investigadores deben decidir (elegir una opción):<ul><li>*Despertar.* Pasa a la _Resolución 3_.</li><li>*Quedaros en la superficie de las Tierras del Sueño.* Pasa a la _Resolución 4_.</li><li>*Adentraros en el Mundo subterráneo para encontrar a vuestros compañeros.* Elige esta opción únicamente si en el Registro de campaña aparece que *los soñadores conocen otro camino*. Pasa a la _Resolución 5_.</li></ul></li></ul>"
+    },
+    "resolution3": {
+      "title": "Resolución 3",
+      "body": "<p>_Resolución 3:_ Despertáis sobresaltados, absortos y aturdidos por la magnitud del sueño que ha acaparado vuestra atención durante tanto tiempo. Y, sin embargo, cuando intentáis recordarlo, apenas os viene nada a la memoria. Todo es una bruma, como recuerdos lejanos de hace décadas. Solo queda un vestigio del sueño. Un castillo negro. Un barco que navega por el espacio. Una escalera. Un gato negro. Recordáis haber culminado una misión trascendental, pero por más que lo intentáis, no lográis recordar cuál era.</p><ul><li>Anota en el Registro de campaña que *los soñadores se despertaron*.</li><li>*Si estás jugando La búsqueda onírica como una campaña de cuatro partes*, ¡los investigadores ganan la campaña!</li><li>*Si estás jugando La búsqueda onírica y La red de los sueños como una campaña interconectada de ocho partes...*<ul><li>*...y aún no has jugado el Escenario 4–B: Tejedora del cosmos*, pasa a ese escenario.</li><li>*...y ya has jugado el Escenario 4–B: Tejedora del cosmos*, pasa al _Epílogo_.</li></ul></li></ul>"
+    },
+    "resolution4": {
+      "title": "Resolución 4",
+      "body": "<p>_Resolución 4:_ Pensáis en los muchos viajes que habéis hecho por las Tierras del Sueño y en las cosas fabulosas que habéis visto: los bosques místicos, los hermosos palacios, los océanos cerúleos. ¿Habíais vivido alguna vez maravillas así en el mundo de la vigilia? ¿De verdad podríais volver a una vida tan prosaica después de lo que habéis vivido aquí? Quizá sea mejor quedarse. Podéis huir de esta temida tierra de Leng y regresar a parajes más seguros. Podéis vivir en el reino atemporal de Celephaïs, donde abundan los placeres y nunca envejeceréis. O quizá vivir entre los gatos en la agradable ciudad de Ulthar, donde comenzó vuestra misión. O explorar los confines de las Tierras del Sueño y ver todas las maravillas que ofrecen. Estáis decididos. No podéis volver al mundo de la vigilia, porque no queréis marcharos nunca.</p><ul><li>Anota en el Registro de campaña que *los soñadores se quedaron en las Tierras del Sueño para siempre*.</li><li>*Si estás jugando La búsqueda onírica como una campaña de cuatro partes*, los investigadores ganan la campaña... y nunca se vuelve a saber nada de ellos en el mundo de la vigilia.</li><li>*Si estás jugando La búsqueda onírica y La red de los sueños como una campaña interconectada de ocho partes...*<ul><li>*...y aún no has jugado el Escenario 4–B: Tejedora del cosmos*, pasa a ese escenario.</li><li>*...y ya has jugado el Escenario 4–B: Tejedora del cosmos*, pasa al _Epílogo_.</li></ul></li></ul>"
+    },
+    "resolution5": {
+      "title": "Resolución 5",
+      "body": "<p>_Resolución 5:_ Recordáis lo que os contó el gato negro sobre el viaje de vuestros compañeros. Aunque no tenéis ningún deseo de abandonar la superficie de las Tierras del Sueño, quizá haya una forma de ayudar a vuestros amigos. Descendéis de nuevo por las cumbres más septentrionales de Leng y regresáis a las ruinas abovedadas donde os enfrentasteis al sumo sacerdote de Nyarlathotep. Allí, en el centro de la sala, se abre el pozo que conduce a las insondables profundidades del Mundo subterráneo. Vuestros compañeros están ahí abajo, en alguna parte... ¿no?</p><ul><li>Anota en el Registro de campaña que *los soñadores viajaron bajo el monasterio*.</li><li>*Si aún no has jugado el Escenario 4–B: Tejedora del cosmos*, pasa a ese escenario.</li><li>*Si ya has jugado el Escenario 4–B: Tejedora del cosmos*, pasa al _Epílogo_.</li></ul>"
+    }
+  },
+  "xp": {
+    "resolution2": "Frustrasteis de una vez por todas los planes de Nyarlathotep."
+  },
+  "remembered": {
+    "maneuveredThePriestCloser": "El sumo sacerdote ha sido acercado.",
+    "stunnedThePriest": "El sacerdote ha sido aturdido."
+  },
+  "label": {
+    "abandonedByTheGods": {
+      "choose": "Elegir {count}"
+    },
+    "wakeUp": "Despertar",
+    "remainOnSurface": "Quedaros en la superficie de las Tierras del Sueño",
+    "ventureIntoUnderworld": "Adentraros en el Mundo subterráneo para encontrar a vuestros compañeros"
+  },
+  "theShapeOfChaos": {
+    "label": {
+      "choose": "Elige:",
+      "shuffled": "Nyarlathotep te ataca inmediatamente y se baraja en el mazo de Encuentros.",
+      "returned": "Nyarlathotep te ataca tres veces inmediatamente y vuelve a la mano de ese investigador."
+    }
+  }
+}

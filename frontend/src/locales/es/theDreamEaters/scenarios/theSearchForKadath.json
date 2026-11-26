@@ -1,0 +1,195 @@
+{
+  "heading": "Escenario II-A",
+  "intro": {
+    "title": "Escenario II–A: La búsqueda de Kadath"
+  },
+  "setup": {
+    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de Encuentros: *La búsqueda de Kadath*, *Agentes de Nyarlathotep*, *Corsarios*, *Tierras del Sueño*, *Susurros de Hipnos* y *Zoogs*. Estos conjuntos vienen indicados por los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/the-search-for-kadath.png' /><img src='{setImgPath}/agents-of-nyarlathotep.png' /><img src='{setImgPath}/corsairs.png' /><img src='{setImgPath}/dreamlands.png' /><img src='{setImgPath}/whispers-of-hypnos.png' /><img src='{setImgPath}/zoogs.png' /></section>",
+    "putLocations": "Pon en juego Ulthar, el Río Skai y Dylath-Leen.",
+    "beginInUlthar": "Cada investigador comienza la partida en Ulthar.",
+    "setOtherLocationsAside": "Pon aparte todos los demás Lugares, fuera del juego.",
+    "setEnemiesAside": "Pon aparte los siguientes Enemigos, fuera del juego: Gatos de Ulthar, Mantícora acechante, La niebla reptante, Horda de la noche, Seres de Ib, las dos copias del Ángel descarnado tenebroso, las dos copias del Corsario de Leng y las 3 copias del Sacerdote del millar de máscaras.",
+    "spawnVooniths": "Busca entre las cartas de Encuentro reunidas 1 copia de la Manada de vooniths y haz que aparezca en el Río Skai. Si hay 3 o 4 investigadores en la partida, busca también entre las cartas de Encuentro reunidas otra copia de la Manada de vooniths y haz que aparezca en Dylath-Leen.",
+    "takeControlOfVirgil": "El investigador Jefe toma el control del Apoyo de historia Virgil Gray *(Escritor de relatos extraños)* y lo pone en juego.",
+    "buildEncounterDeck": "Baraja el resto de cartas de Encuentro para formar el mazo de Encuentros."
+  },
+  "regionSetup": {
+    "oriab": {
+      "title": "Preparación de Oriab",
+      "loseClues": "Cada investigador pierde todas sus Pistas.",
+      "removeLocations": "Retira de la partida todos los Lugares en juego (o colócalos en la zona de victoria si tienen Victoria X y no tienen Pistas). Todos los Enemigos y cartas vinculadas que haya en esos Lugares se descartan. Los investigadores no son derrotados durante este proceso.",
+      "putLocations": "Pon en juego todos los Lugares _Oriab_ puestos aparte (Baharna, Monte Ngranek y Ruinas sin nombre).",
+      "placeInvestigators": "Coloca a cada investigador en Baharna.",
+      "spawnNightriders": "Busca en el mazo de Encuentros 1 copia de los Jinetes nocturnos y haz que aparezca en el Monte Ngranek. Si hay 3 o 4 investigadores en la partida, busca también en el mazo de Encuentros otra copia de los Jinetes nocturnos y haz que aparezca en las Ruinas sin nombre. Baraja el mazo de Encuentros.",
+      "advanceAct": "Haz avanzar el Acto al Acto 2a: «La isla de Oriab»."
+    },
+    "mnar": {
+      "title": "Preparación de Mnar",
+      "loseClues": "Cada investigador pierde todas sus Pistas.",
+      "removeLocations": "Retira de la partida todos los Lugares en juego (o colócalos en la zona de victoria si tienen Victoria X y no tienen Pistas). Todos los Enemigos y cartas vinculadas que haya en esos Lugares se descartan. Los investigadores no son derrotados durante este proceso.",
+      "putLocations": "Pon en juego todos los Lugares _Mnar_ puestos aparte (Kadatheron, Sarnath y Ruinas de Ib).",
+      "placeInvestigators": "Coloca a cada investigador en Kadatheron.",
+      "spawnBeingsOfIb": "Haz aparecer el Enemigo Seres de Ib puesto aparte en las Ruinas de Ib.",
+      "advanceAct": "Haz avanzar el Acto al Acto 2a: «La perdición que vino antes»."
+    },
+    "forbiddenLands": {
+      "title": "Preparación de las Tierras prohibidas",
+      "loseClues": "Cada investigador pierde todas sus Pistas.",
+      "removeLocations": "Retira de la partida todos los Lugares en juego (o colócalos en la zona de victoria si tienen Victoria X y no tienen Pistas). Todos los Enemigos y cartas vinculadas que haya en esos Lugares se descartan. Los investigadores no son derrotados durante este proceso.",
+      "putLocations": "Pon en juego todos los Lugares _Prohibidos_ puestos aparte (Ilek-Vad, Tierras prohibidas y Zulan-Thek).",
+      "placeInvestigators": "Coloca a cada investigador en Ilek-Vad.",
+      "spawnManticore": "Haz aparecer el Enemigo Mantícora acechante puesto aparte en las Tierras prohibidas.",
+      "spawnHorde": "Haz aparecer el Enemigo Horda de la noche puesto aparte en Zulan-Thek.",
+      "advanceAct": "Haz avanzar el Acto al Acto 2a: «Explorar la noche»."
+    },
+    "timelessRealm": {
+      "title": "Preparación del Reino atemporal",
+      "loseClues": "Cada investigador pierde todas sus Pistas.",
+      "removeLocations": "Retira de la partida todos los Lugares en juego (o colócalos en la zona de victoria si tienen Victoria X y no tienen Pistas). Todos los Enemigos y cartas vinculadas que haya en esos Lugares se descartan. Los investigadores no son derrotados durante este proceso.",
+      "putLocations": "Pon en juego Celephaïs, Serannian y Hazuth-Kleg.",
+      "placeInvestigators": "Coloca a cada investigador en Celephaïs.",
+      "shuffleCrawlingMist": "Añade La niebla reptante puesta aparte al mazo de Encuentros y barájalo.",
+      "spawnPriests": "Busca en el mazo de Encuentros 1 copia del Sacerdote del millar de máscaras y haz que aparezca en Hazuth-Kleg. Si hay 3 o 4 investigadores en la partida, busca también en el mazo de Encuentros otra copia del Sacerdote del millar de máscaras y haz que aparezca en Celephaïs. Baraja el mazo de Encuentros.",
+      "advanceAct": "Haz avanzar el Acto al Acto 2a: «El decreto del rey»."
+    }
+  },
+  "rules": {
+    "locations": {
+      "title": "Lugares en La búsqueda de Kadath",
+      "body": "<p class='basic'>Ninguno de los Lugares de este escenario tiene un lado sin descubrir, por lo que entran en juego con el lado descubierto boca arriba. En lugar de un lado sin descubrir, estos Lugares tienen cartas de Historia en el reverso. Siempre que un Lugar entre en juego en este escenario (incluso durante la preparación), coloca sobre ese Lugar una cantidad de Pistas igual a su valor de Pistas, de la forma normal.</p><p class='basic'>Hay dos formas de dar la vuelta a los Lugares. A la mayoría se les da la vuelta mediante la palabra clave Velado, que se describe a continuación. En cambio, a algunos Lugares solo se les da la vuelta mediante una capacidad impresa en ellos.</p><p class='basic'><strong>Cuando se ha dado la vuelta a un Lugar y se ha leído su texto de historia, no se le puede volver a dar la vuelta durante el resto de la partida a no ser que se indique algo distinto.</strong></p>"
+    },
+    "veiled": {
+      "title": "Velado",
+      "body": "<p class='basic'>Muchos de los Lugares de este escenario tienen la palabra clave Velado. Esta palabra clave indica que un Lugar contiene información desconocida o alguna ayuda que los investigadores deben buscar antes de que pueda resultarles útil.</p><p class='basic'>Como capacidad {'{'}fast{'}'}, un investigador que esté en un Lugar Velado que no tenga Pistas puede dar la vuelta a ese Lugar y resolver el texto del otro lado.</p>"
+    },
+    "swarmingAndVictory": {
+      "title": "Enemigos con Multitud y Victoria",
+      "body": "<p class='basic'>Cuando un Enemigo con Multitud tenga Victoria X, este texto solo está activo para la carta anfitriona. Las cartas de multitud no pueden entrar en la zona de victoria y nunca valen puntos de victoria.</p>"
+    }
+  },
+  "flavorText": {
+    "intro1": {
+      "title": "Introducción 1",
+      "body": "<p>_Introducción 1:_ Pasáis la noche en la taberna de Einar. Vuestro descanso es cualquier cosa menos apacible. Aunque se pudiera dormir dentro de un sueño, vosotros desde luego no lo hacéis. Vuestra mente es un hervidero de ansiedad por la misión que os espera. Reflexionáis sobre la advertencia del gato negro acerca del peligro en el mundo de la vigilia, y os preguntáis por las demás personas que siguieron a Virgil Gray por los peldaños de sueño y a través del Bosque Encantado. ¿También están aquí ahora? Quizá, si encontráis ese castillo y volvéis con una prueba de las Tierras del Sueño, podáis salvar a todo el mundo: a vosotros, a vuestros amigos y a los demás soñadores.</p><p class='basic'>Comprueba el Registro de campaña.</p><ul><li>*Si el gato negro está a vuestro lado*, pasa a la _Introducción 2_.</li><li>*Si lo anterior no es cierto y Luke Robinson está en este grupo*, pasa a la _Introducción 3_.</li><li>*Si nada de lo anterior es cierto*, pasa a la _Introducción 4_.</li></ul>"
+    },
+    "intro2": {
+      "title": "Introducción 2",
+      "body": "<p>_Introducción 2:_ Cuando llega el día y la luz asoma por las cortinas de vuestra habitación, veis una silueta con forma de gato sentada frente a la ventana. Cuando vuestra vista se acostumbra, quedáis absortos en sus penetrantes ojos amarillos, tan brillantes como la luz del alba. Reconocéis la silueta del gato parlante de Virgil. Le preguntáis al gato negro cuánto tiempo lleva ahí sentado.</p><p>«Lo suficiente para saber que no estáis ni despiertos ni dormidos», responde de forma paradójica.</p><p>La naturaleza de este mundo aún os confunde. ¿Se puede dormir siquiera en las Tierras del Sueño? Y si es así, ¿adónde iría la mente? La curiosidad os lleva a preguntárselo al gato.</p><p>«Quienes están aquí en sus cuerpos físicos pueden, pero lo vuestro es algo completamente distinto. Ahora olvidaos de eso. Al grano». El gato negro salta sobre vuestra cama. «Les di a vuestros amigos la advertencia que queríais que les transmitiera. Parece que ellos también se preparan para entrar en las Tierras del Sueño. Mientras tanto, me quedaré con vosotros. Al fin y al cabo, alguien tiene que cuidaros a vosotros y a mi mascota humana».</p><p class='basic'>Comprueba el Registro de campaña.</p><ul><li>*Si Luke Robinson está en este grupo*, pasa a la _Introducción 3_.</li><li>En caso contrario, pasa a la _Introducción 4_.</li></ul>"
+    },
+    "intro3": {
+      "title": "Introducción 3",
+      "body": "<p>_Introducción 3:_ Por la mañana, encontráis a Virgil y a Randolph charlando en la plaza, a las puertas de la taberna de Einar. Aún no estáis muy seguros de qué pensar de ellos, pero tenéis bastante claro adónde ir a continuación. Después de todo, no es vuestra primera incursión en la mítica tierra de los sueños. Os dirigís a Randolph y le sugerís hablar con el sumo sacerdote Atal en el cercano Templo de los Dioses Arquetípicos. Es un nombre que oísteis la última vez que visitasteis la ciudad de Ulthar en sueños, aunque hasta ahora no teníais ningún motivo para buscar el consejo del sacerdote. Randolph os mira sobresaltado, pero su expresión se transforma enseguida en una sonrisa burlona.</p><p>«Qué curioso», dice, «estaba a punto de sugerir lo mismo. La sabiduría de Atal es inconmensurable. Quizá sepa dónde encontrar el lugar que buscamos».</p><p>Virgil, deseoso de embarcarse en esta aventura, da una palmada. «Bueno, ¿a qué esperamos? ¡Por aquí, amigos!».</p><p>Asentís y os dirigís al templo, una torre circular de piedra marfileña que corona la colina más alta de la ciudad. Un pequeño ejército de gatos patrulla sus muros. El gato que encabeza la formación no es otro que el viejo gato de la cicatriz que os encontrasteis antes en el bosque. Se adelanta para impediros el paso y mira a vuestro grupo con gran acritud.</p><p>«Hola de nuevo», dice el viejo gato en tono mordaz. «Supongo que queréis que me aparte».</p><p class='basic'>Comprueba el Registro de campaña.</p><ul><li>*Si los investigadores parlamentaron con los zoogs, o si Randolph Carter salvó a los investigadores*, pasa a la _Introducción 5_.</li><li>*Si los gatos obtuvieron su tributo de los zoogs*, pasa a la _Introducción 6_.</li></ul>"
+    },
+    "intro4": {
+      "title": "Introducción 4",
+      "body": "<p>_Introducción 4:_ A la mañana siguiente, encontráis a Virgil y a Randolph charlando en la plaza, a las puertas de la taberna de Einar. Aunque aún no estáis muy seguros de qué pensar de ellos, sabéis que ambos conocen bien esta extraña tierra. Les preguntáis por vuestro siguiente paso. «Deberíamos hablar con el sumo sacerdote Atal en el Templo de los Dioses Arquetípicos», sugiere Randolph. «Su sabiduría es inconmensurable y quizá sepa dónde encontrar el lugar que buscamos». Os preguntáis en voz alta a qué distancia está el templo.</p><p>«No está lejos en absoluto», responde Randolph. «Se alza en lo alto de la colina más elevada de Ulthar. Venid, yo os guiaré». Con Randolph en cabeza, os encamináis al Templo de los Dioses Arquetípicos, una torre circular de piedra marfileña protegida por un pequeño ejército de gatos. El gato que encabeza la formación no es otro que el viejo gato de la cicatriz que os encontrasteis antes en el bosque. Se adelanta para impediros el paso y mira a vuestro grupo con gran acritud.</p><p>«Hola de nuevo», dice el viejo gato en tono mordaz. «Supongo que queréis que me aparte».</p><p class='basic'>Comprueba el Registro de campaña.</p><ul><li>*Si los investigadores parlamentaron con los zoogs, o si Randolph Carter salvó a los investigadores*, pasa a la _Introducción 5_.</li><li>*Si los gatos obtuvieron su tributo de los zoogs*, pasa a la _Introducción 6_.</li></ul>"
+    },
+    "intro5": {
+      "title": "Introducción 5",
+      "body": "<p>_Introducción 5:_ «Pues qué pena», dice el gato, con la cola tiesa y recta. Más gatos os flanquean por los lados, y varios bufan ruidosamente. Se les eriza el pelaje y sus ojos arden de ira. «Es nuestro deber proteger este lugar de forasteros impetuosos como vosotros. Aquí no se os quiere».</p><p>«Sé razonable», le implora Randolph. «Solo intentamos hablar con Atal. No pretendemos hacer daño».</p><p>«Una cosa es lo que se pretende y otra lo que se hace». El gato de la cicatriz se pasea de un lado a otro. «Ahora largaos de aquí y no volváis».</p><p class='basic'>Los investigadores deben decidir (elegir una opción):</p><ul><li>*Marcharos con las manos vacías.* Pasa a la _Introducción 7_.</li><li>*Entrar en el templo por la fuerza.* Pasa a la _Introducción 8_.</li></ul>"
+    },
+    "intro6": {
+      "title": "Introducción 6",
+      "body": "<p>_Introducción 6:_ Le decís al gato que solo estáis aquí para hablar con Atal y que no pretendéis hacer daño. «Ah, sin problema, humanos», dice el gato con un enorme bostezo, de esos que solo un gato puede dar sin perder su porte regio. «No parecéis de los que buscan líos. Además, yo no pienso ir a ninguna parte». Veis un pequeño bulto delante del gato: un faisán ensangrentado y a medio comer. Resistís el impulso de arrugar la nariz y os consideráis afortunados de caerle en gracia. «Adelante, pasad», dice, y se relame mientras se dispone a terminar su comida.</p><p class='basic right'>Pasa a la _Introducción 9_.</p>"
+    },
+    "intro7": {
+      "title": "Introducción 7",
+      "body": "<p>_Introducción 7:_ Resignados, dejáis atrás el templo de la colina. «Supongo que tendremos que arreglárnoslas sin la sabiduría de Atal», dice Randolph con un suspiro. «En cualquier caso, es probable que nuestro destino esté lejos de aquí, quizá incluso en otro continente. Tendremos que conseguir un pasaje por mar. Sugiero que viajemos hacia el sur, a la ciudad portuaria de Dylath-Leen. Allí decidiremos nuestro siguiente paso». Asentís y echáis un último vistazo al templo de piedra, preguntándoos qué conocimientos habréis dejado atrás.</p><p class='basic right'>Pasa a la _Preparación_.</p>"
+    },
+    "intro8": {
+      "title": "Introducción 8",
+      "body": "<p>_Introducción 8:_ Informáis al gato de que vais a entrar en el templo de una forma u otra, y de que un simple gato no os lo va a impedir. «¿Qué os apostáis?», gruñe, agazapándose para saltar. Al advertir el alboroto, varios gatos que guardan el templo os rodean. No queréis hacerles daño, pero tampoco vais a permitir que os impidan alcanzar vuestro objetivo. Os hacéis un gesto y echáis a correr hacia las puertas del templo. Una tormenta de bufidos y maullidos airados se desata a vuestro alrededor mientras los gatos organizan una defensa a la desesperada. Chocáis contra un muro de pequeñas garras y dientes, pero lo atravesáis, desafiantes. Cerráis de golpe la puerta de piedra a vuestra espalda y oís al viejo gato gritar desde el otro lado: «¡Muy bien, humanos! ¡Id a ver a vuestro sacerdote! ¡Pero no penséis que se os perdonará esta transgresión!».</p><ul><li>Anota en el Registro de campaña que *los investigadores entraron en el templo por la fuerza*.</li></ul><p class='basic right'>Pasa a la _Introducción 9_.</p>"
+    },
+    "intro9": {
+      "title": "Introducción 9",
+      "body": "<p>_Introducción 9:_ En lo alto del templo, sentado sobre un estrado de marfil, os espera el sumo sacerdote Atal. Es un hombre frágil y enjuto, con una larga y rala barba negra, las mejillas hundidas y los ojos pálidos y lechosos de quien sufre ceguera. «Que no os engañe su aspecto», susurra Randolph cuando os sentáis ante el estrado. «Atal tiene más de trescientos años, pero su memoria es excelente».</p><p>Le preguntáis al sacerdote por vuestra misión y vuestro destino: el castillo que Randolph describió de sus sueños. «Habláis del lugar de descanso de los Primigenios, muy por encima de la desconocida Kadath. Ni siquiera yo conozco su verdadera ubicación. Y está bien que así sea, pues los frutos de intentar ascender a un lugar semejante serían muy amargos. Mi compañero Barzai escaló una vez un pico apenas una fracción igual de sagrado, y nunca más se supo de él. Puede que los dioses de Kadath parezcan impotentes, pero los protegen los Otros Dioses del Exterior, de quienes es mejor no hablar. Lo más sensato sería dejar en paz a todos los dioses y abandonar esta insensatez».</p><p>El uso que hace Atal de la palabra «dioses» os pica la curiosidad. Os preguntáis en voz alta qué clase de dios puede existir en un lugar como este.</p><p>El sacerdote niega con la cabeza. «No son nuestros dioses, sino los dioses de la Tierra, pues este lugar no es sino un reflejo del vuestro».</p><p>Intentáis ahondar con vuestras preguntas en la sabiduría de Atal, pero su consejo no varía. «Ya he dicho más de lo que debería», insiste. «Por vuestro bien, os lo ruego, no sigáis adelante con esta locura».</p><ul><li>Anota 1 marca en la sección «Pruebas de Kadath» del Registro de campaña.</li></ul><p class='basic'>Comprueba el Registro de campaña.</p><ul><li>*Si los investigadores parlamentaron con los zoogs*, pasa a la _Introducción 10_.</li><li>*Si los gatos obtuvieron su tributo de los zoogs, o si Randolph Carter salvó a los investigadores*, pasa a la _Introducción 11_.</li></ul>"
+    },
+    "intro10": {
+      "title": "Introducción 10",
+      "body": "<p>_Introducción 10:_ Tenéis un destello de inspiración al recordar el vino del árbol lunar que os dieron los zoogs en el Bosque Encantado. Le ofrecéis un poco a Atal, que acepta de buen grado. Fingís beber vosotros mientras le servís al sacerdote un trago tras otro. Al final, Atal suelta la lengua y habla de cosas prohibidas que jamás mencionaría de no ser por el vino. Os habla de una imagen tallada en la cara de la montaña Ngranek, en la isla de Oriab: la efigie de los dioses, o eso afirma. Os habla de las columnas de Kadatheron, en las que está grabada la historia de las Tierras del Sueño de la Tierra. Os habla de quienes murieron a manos de las hordas de la propia Noche y están enterrados en las criptas de Zulan-Thek, la ciudad de los muertos. Os habla de una estrella maligna sobre una ciudad olvidada que no aparece en ningún mapa. «Si no tenéis más remedio que buscar Kadath en el desierto frío», dice adormilado, «hay una ciudad en la costa, al sur: Dylath-Leen. Allí podréis conseguir pasaje».</p><ul><li>Anota 1 marca en la sección «Pruebas de Kadath» del Registro de campaña.</li><li>Cada investigador obtiene 2 puntos de experiencia.</li></ul><p class='basic right'>Pasa a la _Preparación_.</p>"
+    },
+    "intro11": {
+      "title": "Introducción 11",
+      "body": "<p>_Introducción 11:_ Atal se niega a daros más consejos, así que decidís dejar atrás el templo de la colina. «Hemos descubierto muchas cosas, pero seguimos sin saber dónde está Kadath», dice Randolph con un suspiro. «Es probable que nuestro destino esté lejos de aquí, quizá incluso en otro continente. Tendremos que conseguir un pasaje por mar si queremos recorrer tales distancias. Sugiero que empecemos viajando hacia el sur, a la ciudad portuaria de Dylath-Leen. Allí decidiremos nuestro siguiente paso».</p><p class='basic right'>Pasa a la _Preparación_.</p>"
+    },
+    "investigatorDefeat": {
+      "title": "Derrota de investigador",
+      "body": "<p class='basic'>Antes de resolver ninguna otra resolución, si fue derrotado al menos un investigador: los investigadores derrotados leen primero _Derrota de investigador_.</p><p>_Derrota de investigador:_ Te despiertas y descubres que estás atado con gruesas cuerdas de cáñamo y tumbado sobre una madera dura y húmeda. El suelo se mece sin cesar de un lado a otro, y oyes las olas del océano chocar contra las paredes. Estás prisionero en algún tipo de galera. Pero ¿por qué?</p><ul><li>Cada investigador derrotado anota en el Registro de campaña que *(nombre de tu investigador) fue capturado/a*.</li><li>Si el mazo de un investigador derrotado contiene a Randolph Carter y al menos un investigador se retiró, entrega la propiedad de Randolph Carter a un investigador que se retirara.</li><li>Pasa a la resolución a la que llegaran los investigadores. Si no se ha llegado a ninguna resolución...<ul><li>...y al menos un investigador se retiró, pasa a la _Resolución 1_.</li><li>...y todos los investigadores fueron derrotados, pasa a la _Resolución 2_.</li></ul></li></ul>"
+    }
+  },
+  "resolutions": {
+    "noResolution": {
+      "title": "Sin resolución",
+      "body": "<p class='basic'>_Si no se ha llegado a ninguna resolución:_</p><ul><li>Si al menos un investigador se retiró, pasa a la _Resolución 1_.</li><li>Si todos los investigadores fueron derrotados, pasa a la _Resolución 2_.</li></ul>"
+    },
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<p>_Resolución 1 (cada investigador derrotado debe resolver primero Derrota de investigador):_ Habéis viajado a lo largo y ancho, desde las pintorescas aldeas empedradas del reino de Skai hasta tierras maravillosas que no habríais imaginado ni en cien años. Habéis aprendido mucho sobre las Tierras del Sueño y los dioses que moran en lo alto de la desconocida Kadath. Aunque estáis más cerca de vuestro objetivo, seguís sin conocer su ubicación exacta. Mientras tanto, vuestra misión se vuelve más mortífera cada día que pasa. Allá donde vais, inmundas criaturas de pesadilla os persiguen por tierra y por mar. Bestias aladas sin rostro, corsarios cornudos que empuñan alfanjes afilados como cuchillas y gobiernan grandes galeras negras: los agentes de vuestra perdición adoptan muchas formas. Decidís regresar a vuestro barco, a salvo de los muchos peligros de las Tierras del Sueño... o eso creíais.</p><p>Por desgracia, vuestro barco no es ningún refugio. Cuando regresáis, no hay ni rastro de la tripulación ni del capitán. No se ven señales de lucha, pero Virgil, que volvió antes al barco para preparar la siguiente partida, también ha desaparecido.</p><p>«Me temo lo peor», se lamenta Randolph. «Si esos diabólicos corsarios los han capturado, están en un grave aprieto. Son agentes de los Otros Dioses del Exterior, cuya alma y mensajero es el caos reptante Nyarlathotep». La mera mención del nombre os hace estremecer, aunque no sabéis por qué. Preguntáis adónde pueden haberlos llevado. Como si hablara de cualquier otro puerto de escala, responde: «Las bestias que gobiernan sus galeras negras zarpan de la Luna. Si queremos rescatar a Virgil y a nuestros demás compañeros, es ahí adonde debemos ir».</p><ul><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.</li><li>Anota 1 marca en la sección «Pruebas de Kadath» del Registro de campaña por cada Señal de los dioses que desvelaran los investigadores durante este escenario.</li><li>Anota en el Registro de campaña que *Virgil fue capturado*.</li><li>Anota en el Registro de campaña que *Randolph evitó la captura*.</li><li>Si estás jugando La búsqueda onírica como una campaña de cuatro partes, pasa al _Escenario 3–A: El lado oscuro de la luna_.</li><li>Si estás jugando La búsqueda onírica y La red de los sueños como una campaña interconectada de ocho partes...<ul><li>...y aún no has jugado el _Escenario 2–B: Mil formas de horror_, pasa a ese escenario.</li><li>...y ya has jugado el _Escenario 2–B: Mil formas de horror_, pasa al _Interludio II: Los onironautas_.</li></ul></li></ul>"
+    },
+    "resolution2": {
+      "title": "Resolución 2",
+      "body": "<p>_Resolución 2:_ Al examinar vuestro entorno, advertís que vuestros demás compañeros, Virgil y Randolph incluidos, también han sido capturados. Ahora mismo están inconscientes, pero quizá cuando despierten podáis idear un plan para liberaros. Al fin y al cabo, a pesar de este contratiempo, habéis aprendido mucho sobre las Tierras del Sueño y los dioses que moran en lo alto de la desconocida Kadath. Aunque seguís sin conocer su ubicación exacta, si lográis escapar de esta galera infame, quizá aún haya esperanza para vuestra misión. Os tragáis el nudo de la desesperación y confiáis en que este no sea el fin de vuestro viaje...</p><ul><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.</li><li>Anota 1 marca en la sección «Pruebas de Kadath» del Registro de campaña por cada Señal de los dioses que desvelaran los investigadores durante este escenario.</li><li>Anota en el Registro de campaña que *Virgil fue capturado*.</li><li>Anota en el Registro de campaña que *Randolph fue capturado*.</li><li>Si estás jugando La búsqueda onírica como una campaña de cuatro partes, pasa al _Escenario 3–A: El lado oscuro de la luna_.</li><li>Si estás jugando La búsqueda onírica y La red de los sueños como una campaña interconectada de ocho partes...<ul><li>...y aún no has jugado el _Escenario 2–B: Mil formas de horror_, pasa a ese escenario.</li><li>...y ya has jugado el _Escenario 2–B: Mil formas de horror_, pasa al _Interludio II: Los onironautas_.</li></ul></li></ul>"
+    }
+  },
+  "specialRules": [
+    {
+      "title": "Lugares en La búsqueda de Kadath",
+      "body": "<p class='basic'>Ninguno de los Lugares de este escenario tiene un lado sin descubrir, por lo que entran en juego con el lado descubierto boca arriba. En lugar de un lado sin descubrir, estos Lugares tienen cartas de Historia en el reverso. Siempre que un Lugar entre en juego en este escenario (incluso durante la preparación), coloca sobre ese Lugar una cantidad de Pistas igual a su valor de Pistas, de la forma normal.</p><p class='basic'>Hay dos formas de dar la vuelta a los Lugares. A la mayoría se les da la vuelta mediante la palabra clave Velado, que se describe a continuación. En cambio, a algunos Lugares solo se les da la vuelta mediante una capacidad impresa en ellos.</p><p class='basic'><strong>Cuando se ha dado la vuelta a un Lugar y se ha leído su texto de historia, no se le puede volver a dar la vuelta durante el resto de la partida a no ser que se indique algo distinto.</strong></p>"
+    },
+    {
+      "title": "Velado",
+      "body": "<p class='basic'>Muchos de los Lugares de este escenario tienen la palabra clave Velado. Esta palabra clave indica que un Lugar contiene información desconocida o alguna ayuda que los investigadores deben buscar antes de que pueda resultarles útil.</p><p class='basic'>Como capacidad {fast}, un investigador que esté en un Lugar Velado que no tenga Pistas puede dar la vuelta a ese Lugar y resolver el texto del otro lado.</p>"
+    },
+    {
+      "title": "Enemigos con Multitud y Victoria",
+      "body": "<p class='basic'>Cuando un Enemigo con Multitud tenga Victoria X, este texto solo está activo para la carta anfitriona. Las cartas de multitud no pueden entrar en la zona de victoria y nunca valen puntos de victoria.</p>"
+    }
+  ],
+  "kingdomOfTheSkai": "Encontráis a un capitán dispuesto a llevaros a las regiones remotas de las Tierras del Sueño, donde quizá halléis señales de los dioses que os indiquen el camino a Kadath.",
+  "tooltips": {
+    "portResign": "_Retirarse_. Aventurarse en lo desconocido se ha vuelto demasiado peligroso, así que vuelves a un lugar seguro con la información que has reunido."
+  },
+  "waresOfBaharna": {
+    "label": {
+      "chooseInvestigator": "Elige qué investigador decide sobre devolver la carta descartada"
+    }
+  },
+  "tokens": {
+    "easyStandard": {
+      "skull": "-X. X es el número de Señales de los dioses que han desvelado los investigadores.",
+      "cultist": "Revela otra ficha. Si se revela esta ficha durante una investigación y esta prueba de habilidad fracasa, aumenta en 1 el Velo de ese Lugar durante el resto de la ronda.",
+      "tablet": "-2. Si fracasas, sufre 1 punto de daño y 1 de horror, o coloca 1 de Perdición en el Plan en curso.",
+      "elderThing": "+2. El gato negro te indica la dirección correcta. Si se revela esta ficha durante una investigación y tienes éxito, descubre 1 Pista adicional."
+    },
+    "hardExpert": {
+      "skull": "-X. X es 1 más que el número de Señales de los dioses que han desvelado los investigadores.",
+      "cultist": "Revela otra ficha. Si se revela esta ficha durante una investigación y esta prueba de habilidad fracasa, aumenta en 2 el Velo de ese Lugar durante el resto de la ronda.",
+      "tablet": "-3. Si fracasas, sufre 1 punto de daño y 1 de horror, o coloca 1 de Perdición en el Plan en curso.",
+      "elderThing": "+1. El gato negro te indica la dirección correcta. Si se revela esta ficha durante una investigación y tienes éxito, descubre 1 Pista adicional."
+    }
+  },
+  "label": {
+    "leaveEmptyHanded": "Marcharos con las manos vacías",
+    "forceIntoTemple": "Entrar en el templo por la fuerza.",
+    "placeNightgaunt": "Colocar el Ángel descarnado tenebroso en el Lugar de ciudad",
+    "visitOriab": "Visitar la isla de Oriab, al sur. Resuelve la _Preparación de Oriab_ en la Guía de campaña.",
+    "visitMnar": "Visitar la antigua tierra de Mnar, al oeste. Resuelve la _Preparación de Mnar_ en la Guía de campaña.",
+    "visitForbiddenLands": "Visitar las Tierras prohibidas, al norte. Resuelve la _Preparación de las Tierras prohibidas_ en la Guía de campaña.",
+    "visitTimelessRealm": "Visitar el reino atemporal, al este. Resuelve la _Preparación del Reino atemporal_ en la Guía de campaña.",
+    "virgilGray": {
+      "heal1HorrorFromVirgilGray": "Curar 1 punto de horror a Virgil Gray"
+    }
+  },
+  "dreamlandsEclipse": {
+    "label": {
+      "shroudPlus2": "Tu Lugar recibe +2 a Velo durante esta investigación"
+    }
+  },
+  "theDoomThatCameBefore": {
+    "label": {
+      "visitOriab": "Visitar la isla de Oriab, al sur. Resuelve la Preparación de Oriab en la Guía de campaña.",
+      "visitForbiddenLands": "Visitar las Tierras prohibidas, al norte. Resuelve la Preparación de las Tierras prohibidas en la Guía de campaña.",
+      "visitTimelessRealm": "Visitar el reino atemporal, al este. Resuelve la Preparación del Reino atemporal en la Guía de campaña."
+    }
+  }
+}
