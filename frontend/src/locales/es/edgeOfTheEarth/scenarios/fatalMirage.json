@@ -1,0 +1,109 @@
+{
+  "heading": "Escenario ???",
+  "specialRules": [
+    {
+      "title": "Espejismo",
+      "body": "<p class='basic'>La palabra clave Espejismo representa Lugares que son manifestaciones de tus recuerdos y de los de tus compañeros. Estos Lugares no tienen lado sin descubrir, por lo que entran en juego con el lado descubierto boca arriba. En lugar de un lado sin descubrir, tienen cartas de Historia en el reverso. Estas cartas de Historia permiten a los investigadores adentrarse más en el extraño espejismo y desbloquear nuevos recuerdos en forma de Lugares o cartas de Encuentro. El número que indica la palabra clave Espejismo representa cuántas Pistas hacen falta para darle la vuelta, y los títulos de cartas entre paréntesis indican qué recuerdos pueden aparecer como resultado.</p><ul><li>Como capacidad {'{'}action{'}'}, los investigadores que estén en un Lugar con Espejismo pueden gastar, en grupo, el número de Pistas indicado para darle la vuelta y resolver la carta de Historia de su otro lado.</li><li>Cuando un Lugar con la palabra clave Espejismo entre en juego (incluso durante la preparación), por cada carta que indique su palabra clave Espejismo y que ya esté en juego o en la zona de victoria, reduce el valor de Pistas del Lugar en su valor de Espejismo.<ul><li>*Nota: es poco probable que esto ocurra la primera vez que juegues Espejismo letal, pero mucho más probable en las siguientes partidas.*</li><li>*Por ejemplo: Prisión de recuerdos tiene un valor de Pistas de 3 {'{'}perPlayer{'}'} y el siguiente texto: «Espejismo 1 {'{'}perPlayer{'}'} (Campamento base, Cubierta del Theodosia, Salas de la universidad)». Cuando Prisión de recuerdos entra en juego, los investigadores comprueban cuáles de las tres cartas que indica su palabra clave Espejismo están ya en juego o en la zona de victoria. Tanto Salas de la universidad como Cubierta del Theodosia están ya en juego, pero Campamento base sigue puesto aparte. Por tanto, el valor de Pistas de Prisión de recuerdos se reduce en 2 {'{'}perPlayer{'}'}, de modo que al entrar en juego solo se coloca sobre ella 1 {'{'}perPlayer{'}'} Pistas.*</li></ul></li><li>Un Lugar está «libre de espejismos» si todas las cartas que indica su palabra clave Espejismo están ya en juego o en la zona de victoria. A un Lugar libre de espejismos no se le puede volver a dar la vuelta.</li></ul>"
+    }
+  ],
+  "tooltips": {
+    "mirage": "Espejismo"
+  },
+  "label": {
+    "chooseAgenda": "Los investigadores pueden elegir qué Plan usar (cuanto mayor sea el número del Plan, menos tiempo tendrán).",
+    "keepPlaying": "Seguir jugando",
+    "moveToPrisonOfMemories": "Moverse a la Prisión de recuerdos",
+    "shuffleTekeliliIntoYourDeck": "Baraja en tu mazo la primera carta del mazo de Tekeli-li sin mirarla.",
+    "averyClaypoolAntarcticGuideResolute": {
+      "revealANewChaosToken": "Revelar una nueva ficha de Caos",
+      "spend1Supply": "Gastar 1 suministro"
+    }
+  },
+  "intro1": {
+    "title": "Escenario ???: Espejismo letal",
+    "body": "<p class='basic valid'>Si es la primera vez que jugáis Espejismo letal en esta campaña, pasa a la _Introducción 1_. En caso contrario, pasa a la _Introducción 2_.</p><p>_Introducción 1_: Al cruzar la puerta, te encuentras en una maraña de túneles helados, envueltos en miasma y chorreantes de icor tornasolado. Tu reflejo te devuelve la mirada desde un sinfín de ángulos peculiares. Tu voz resuena por esta infinita galería de espejos. Al volverte, descubres que la entrada ha desaparecido a tu espalda. Entonces, por el rabillo del ojo, divisas una figura conocida que atraviesa las mismas brumas... pero no, eso es imposible. ¿O no?</p><p class='basic'>Busca y lee a continuación el pasaje que corresponda al personaje que murió en el accidente de avión. Después, pasa a la _Preparación_.</p>"
+  },
+  "intro2": {
+    "title": "Escenario ???: Espejismo letal",
+    "body": "<p class='basic invalid'>Si es la primera vez que jugáis Espejismo letal en esta campaña, pasa a la _Introducción 1_. En caso contrario, pasa a la _Introducción 2_.</p><p>Una vez más, te encuentras en una maraña de túneles helados, impregnados de bruma y miasma. La entrada se desvanece a tu espalda. Tu reflejo, que titila con un levísimo toque incorpóreo, te observa desde muchos ángulos a la vez.</p><p class='normal'>Pasa a la _Preparación_.</p>"
+  },
+  "resolutions": {
+    "xp": {
+      "memoriesBanished": "Recuerdos desterrados"
+    },
+    "isThereADifference": "¿Acaso hay alguna diferencia?",
+    "noSay": "Pero no tienes voz ni voto en el asunto.",
+    "victory": "En la sección «Espejismo letal» del Registro de campaña, en «Recuerdos desterrados», anota cada carta de Historia que haya en la zona de victoria. Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta anotada de este modo. (*No obtengas puntos de experiencia por las cartas que ya estuvieran anotadas en esta sección*).",
+    "memoriesDiscovered": " En la sección «Espejismo letal» del Registro de campaña, en «Recuerdos descubiertos», anota cada Lugar en juego que no sea _Sobrenatural_.",
+    "crossOutMemoriesDiscovered": "Tacha cada Lugar anotado en «Recuerdos descubiertos» cuya carta de Historia correspondiente esté también anotada en «Recuerdos desterrados».",
+    "nonStoryVictory": "Si en la zona de victoria hay alguna otra carta que no sea de Historia y tenga Victoria X, cada investigador obtiene esa cantidad de experiencia.",
+    "partnerDamage": "En la sección «Equipo de la expedición» del Registro de campaña, anota la cantidad de daño y horror que haya sobre cada Apoyo Compañero en juego.",
+    "proceed": "Pasa al siguiente escenario de la campaña, en orden numérico, de la siguiente forma:",
+    "proceedToTheForbiddenPeaks": "Si el último escenario que jugasteis antes de este fue Hielo y muerte, pasa al _Escenario II: Hacia los picos prohibidos_.",
+    "proceedToCityOfTheElderThings": "Si el último escenario que jugasteis antes de este fue Hacia los picos prohibidos, pasa al _Escenario III: Ciudad de los Antiguos_.",
+    "proceedToTheHeartOfMadness": "Si el último escenario que jugasteis antes de este fue Ciudad de los Antiguos, pasa al _Escenario IV: El corazón de la locura_.",
+    "noResolutionTitle": "Sin resolución",
+    "title": "Resolución 1",
+    "noResolution": "<p>_Si no se ha llegado a ninguna resolución (todos los investigadores fueron derrotados)_: Te pones en pie a duras penas, a trompicones. ¿Un sueño? Te aprietas las sienes; te duele la mente. Es como si te hubieran metido un martillo neumático dentro del cráneo. Si así va a ser dormir en este lugar infernal, no quieres saber nada de ello.</p>",
+    "resolution1": "<p>_Resolución 1_: Atraviesas la puerta dando tumbos y caes sobre tu esterilla, manoteando entre la maraña de cálidas mantas. Ninguna puerta se cierra a tu espalda. ¿Has imaginado todo eso? ¿O ha sido real?</p>"
+  },
+  "dyerWasKilledInThePlaneCrash": "<p>_Si William Dyer murió en el accidente de avión:_</p><p>El profesor Dyer está muerto. Es imposible que sea él. Y sin embargo...</p><p>Lo ves caminar de un lado a otro en uno de los reflejos, hablando entre dientes. «Hay que detenerlo. No pueden hacer esto». Hace una pausa, como si conversara con alguien a quien no se oye. «No me importa. ¡Debe acabar de inmediato!». Pobre Dyer. Recuerdas que intentó advertirte. Y sin embargo, aquí estás.</p><p>Tan rápido como apareció, el espejismo se desvanece. ¿Qué demonios es este lugar? ¿Y cómo es posible que estos hechos, que no presenciaste, se desarrollen ante tus ojos?</p>",
+  "ellsworthWasKilledInThePlaneCrash": "<p>_Si Roald Ellsworth murió en el accidente de avión:_</p><p>Ellsworth está muerto. Es imposible que sea él. Y sin embargo...</p><p>Lo divisas dentro de una cabina telefónica, discutiendo acaloradamente con alguien al otro lado de la línea. «Sé que es peligroso. Pero tengo que ir», argumenta. «Créeme, esto es demasiado importante para dejarlo pasar».</p><p>Tan rápido como apareció, el espejismo se desvanece. ¿Qué demonios es este lugar? ¿Y cómo es posible que estos hechos, que no presenciaste, se desarrollen ante tus ojos?</p>",
+  "ashevakWasKilledInThePlaneCrash": "<p>_Si Eliyah Ashevak murió en el accidente de avión:_</p><p>Eliyah está muerto. Es imposible que sea él. Y sin embargo...</p><p>Eliyah se arrastra por la nieve, dejando un rastro de sangre tras de sí. «¿Me estás guiando a un lugar seguro?», pregunta en voz baja a una gran perra gris. Reconoces la silueta familiar de Anyu, quizá varios años más joven, pero no menos enorme.</p><p>Tan rápido como apareció, el espejismo se desvanece. ¿Qué demonios es este lugar? ¿Y cómo es posible que estos hechos, que no presenciaste, se desarrollen ante tus ojos?</p>",
+  "danforthWasKilledInThePlaneCrash": "<p>_Si Danforth murió en el accidente de avión:_</p><p>Danforth está muerto. Es imposible que sea él. Y sin embargo...</p><p>El estudiante está sentado a una mesa de la Biblioteca Orne, murmurando para sí mientras lee: «Lo vi. Sé que lo vi. Lo vi». Empieza a quedarse dormido, pero se despierta enseguida con un estremecimiento. Las profundas ojeras te dicen que lleva muchos días sin dormir. «Lo vi... era real...».</p><p>Tan rápido como apareció, el espejismo se desvanece. ¿Qué demonios es este lugar? ¿Y cómo es posible que estos hechos, que no presenciaste, se desarrollen ante tus ojos?</p>",
+  "cookieWasKilledInThePlaneCrash": "<p>_Si James «Cookie» Fredericks murió en el accidente de avión:_</p><p>Cookie está muerto. Es imposible que sea él. Y sin embargo...</p><p>Está parapetado contra uno de los espejos cristalinos, y le tiemblan las manos mientras recarga el fusil. La tierra y el hollín le cubren la cara y le manchan el uniforme. Parece más joven, pero no menos demacrado. «Sargento Fredericks», otra voz lo saca de su trance. «Los alemanes rompieron la línea anoche. Nos están rodeando. ¡Tenemos que salir de aquí!».</p><p>Tan rápido como apareció, el espejismo se desvanece. ¿Qué demonios es este lugar? ¿Y cómo es posible que estos hechos, que no presenciaste, se desarrollen ante tus ojos?</p>",
+  "claypoolWasKilledInThePlaneCrash": "<p>_Si Avery Claypool murió en el accidente de avión:_</p><p>Claypool está muerto. Es imposible que sea él. Y sin embargo...</p><p>Lo ves estudiar un mapa de la Antártida, cuyas regiones interiores solo están documentadas en parte. «Tendría que estar aquí», dice, señalando un punto dentro de un círculo trazado a toda prisa con lápiz. «Dentro de estas cordilleras. Pero...», titubea y mira por encima del hombro a alguien que no alcanzas a ver. «No puede ser, ¿verdad?».</p><p>Tan rápido como apareció, el espejismo se desvanece. ¿Qué demonios es este lugar? ¿Y cómo es posible que estos hechos, que no presenciaste, se desarrollen ante tus ojos?</p>",
+  "takadaWasKilledInThePlaneCrash": "<p>_Si Takada Hiroko murió en el accidente de avión:_</p><p>Takada está muerta. Es imposible que sea ella. Y sin embargo...</p><p>A pesar de su juventud, la reconoces. Saluda con la mano mientras un aeroplano despega de una pista lluviosa. Alguien le aprieta el hombro para darle ánimos. «Volverá pronto», le dice una voz. Pero Takada no parece convencida.</p><p>Tan rápido como apareció, el espejismo se desvanece. ¿Qué demonios es este lugar? ¿Y cómo es posible que estos hechos, que no presenciaste, se desarrollen ante tus ojos?</p>",
+  "sinhaWasKilledInThePlaneCrash": "<p>_Si la Dra. Mala Sinha murió en el accidente de avión:_</p><p>La Dra. Sinha está muerta. Es imposible que sea ella. Y sin embargo...</p><p>La médica examina lo que no puedes sino suponer que es un cadáver, un cuerpo flácido y sin vida. «Hora de la muerte: 14:23. Anótalo», dice con voz firme y serena. Pero en el reflejo brumoso adviertes que le tiembla muy levemente el labio a medida que la tarea le pasa factura.</p><p>Tan rápido como apareció, el espejismo se desvanece. ¿Qué demonios es este lugar? ¿Y cómo es posible que estos hechos, que no presenciaste, se desarrollen ante tus ojos?</p>",
+  "kenslerWasKilledInThePlaneCrash": "<p>_Si la Dra. Amy Kensler murió en el accidente de avión:_</p><p>La Dra. Kensler está muerta. Es imposible que sea ella. Y sin embargo...</p><p>La profesora escribe en un pequeño diario encuadernado en cuero, en un despacho tenuemente iluminado con velas. Te preguntas qué clase de diagrama anatómico estará dibujando, pero antes de que puedas echarle un vistazo, arranca la página, la arruga y la tira a la papelera con un suspiro.</p><p>Tan rápido como apareció, el espejismo se desvanece. ¿Qué demonios es este lugar? ¿Y cómo es posible que estos hechos, que no presenciaste, se desarrollen ante tus ojos?</p>",
+  "tokens": {
+    "easyStandard": {
+      "skull": "–X. X es el número de cartas de Historia que haya en la zona de victoria.",
+      "cultist": "–2. Si fracasas, coloca 1 de tus Pistas en tu Lugar.",
+      "tablet": "–3. Si fracasas, debes moverte a la Prisión de recuerdos o barajar en tu mazo la primera carta del mazo de Tekeli-li sin mirarla.",
+      "elderthing": "–4. Si fracasas, coloca 1 de Perdición sobre un Enemigo _Eidolón_ en juego."
+    },
+    "hardExpert": {
+      "skull": "–X. X es el número del Plan en curso más el número de cartas de Historia que haya en la zona de victoria.",
+      "cultist": "–2. Si no tienes éxito por al menos 2, coloca 1 de tus Pistas en tu Lugar.",
+      "tablet": "–4. Si fracasas, debes moverte a la Prisión de recuerdos o barajar en tu mazo la primera carta del mazo de Tekeli-li sin mirarla. (Si fracasas por 2 o más, haz ambas cosas.)",
+      "elderthing": "–5. Si fracasas, coloca 1 de Perdición sobre un Enemigo _Eidolón_ en juego."
+    }
+  },
+  "setup": {
+    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de Encuentros: *Espejismo letal*, *Agentes de lo desconocido*, *Abandonados*, *Miasma*, *Horrores sin nombre*, *Silencio y misterio*, *Tekeli-li* y *Frío helador*. Estos conjuntos vienen indicados por los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/fatal-mirage.png' /><img src='{setImgPath}/agents-of-the-unknown.png' /><img src='{setImgPath}/left-behind.png' /><img src='{setImgPath}/miasma.png' /><img src='{setImgPath}/nameless-horrors.png' /><img src='{setImgPath}/silence-and-mystery.png' /><img src='{setImgPath}/tekeli-li.png' /><img src='{setImgPath}/chilling-cold.png' /></section>",
+    "firstTime": {
+      "buildAgendaDeck": "Forma el mazo de Plan usando solo el Plan 1. Retira de la partida los demás Planes.",
+      "buildActDeck": "Forma el mazo de Acto usando solo el Acto 1. Retira de la partida los demás Actos.",
+      "placeLocations": "Pon en juego el Lugar Prisión de recuerdos, con el lado descubierto boca arriba.",
+      "startAt": "Cada investigador comienza la partida en la Prisión de recuerdos.",
+      "setOtherLocationsAside": "Pon aparte, fuera del juego, todos los demás Lugares.",
+      "setOutOfPlay": "Pon aparte, fuera del juego, las siguientes cartas: los nueve Enemigos «Recuerdo de...» y los nueve Apoyos de historia _Resuelto_."
+    },
+    "repeat": {
+      "buildAgendaDeck": "Forma el mazo de Plan usando solo el Plan 2 si es la segunda vez que jugáis _Espejismo letal_, o el Plan 3 si es la tercera. Retira de la partida los demás Planes.",
+      "buildActDeck": "Forma el mazo de Acto usando solo el Acto 2 si es la segunda vez que jugáis _Espejismo letal_, o el Acto 3 si es la tercera. Retira de la partida los demás Actos.",
+      "memoriesBanished": "Busca cada carta de Historia que figure en «Recuerdos desterrados» en el Registro de campaña. Pon cada una de estas cartas en la zona de victoria.",
+      "setRemainingMemoriesAside": "Pon aparte, fuera del juego, los demás Enemigos «Recuerdo de...».",
+      "memoriesDiscovered": "Busca cada Lugar que figure en «Recuerdos descubiertos» en el Registro de campaña. Pon en juego cada uno de esos Lugares, con el lado descubierto boca arriba, junto con la Prisión de recuerdos (*recuerda ajustar el valor de Pistas de cada Lugar según la palabra clave Espejismo*).",
+      "startAt": "Cada investigador comienza la partida en la Prisión de recuerdos.",
+      "setOtherLocationsAside": "Pon aparte, fuera del juego, todos los demás Lugares.",
+      "setResoluteAside": "Pon aparte cada uno de los nueve Apoyos de historia _Resuelto_ que no se hayan obtenido ya en una partida anterior de _Espejismo letal_."
+    },
+    "checkDifficulty": "Comprueba el nivel de dificultad.",
+    "hard": "Si estás jugando en dificultad Difícil, añade 1 de Perdición al Plan.",
+    "expert": "Si estás jugando en dificultad Experto, añade 2 de Perdición al Plan.",
+    "tekelili": "Baraja juntas todas las cartas de Debilidad ¡Tekeli-li! que no formen ya parte del mazo de un investigador para formar el mazo de Tekeli-li. Coloca este mazo cerca del mazo de Plan."
+  },
+  "deckOfTheTheodosia": {
+    "label": {
+      "addShroud": "Darle +2 a Velo durante esta investigación",
+      "spendAdditionalAction": "Gastar 1 acción adicional"
+    }
+  },
+  "drKenslersOffice": {
+    "label": {
+      "removeSecret": "Retirar 1 secreto de un Apoyo bajo tu control"
+    }
+  }
+}

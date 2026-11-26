@@ -1,0 +1,158 @@
+{
+  "heading": "Escenario III",
+  "specialRules": [
+    {
+      "title": "Llaves",
+      "body": "<p class='basic'>La preparación de este escenario indica a los jugadores que coloquen como llaves una ficha de Caos al azar en cada uno de los 16 Lugares Paisaje urbano. Estas llaves nunca se colocan en la bolsa de caos ni actúan como fichas de Caos tradicionales. En su lugar, representan llaves que los investigadores pueden recuperar y usar a lo largo del escenario.</p><p class='basic'>Las llaves se pueden conseguir de dos formas:</p><ul><li>Si un Lugar que tenga una llave no tiene Pistas, un investigador puede tomar el control de su llave como una capacidad {'{'}fast{'}'}.</li><li>Algunos efectos de cartas pueden permitir a los investigadores tomar el control de llaves de otras maneras.</li></ul><p class='basic'>Cuando un investigador toma el control de una llave, la coloca sobre su carta de Investigador. Si un investigador que controla una o más llaves es eliminado, coloca cada una de esas llaves en su Lugar. Como capacidad {'{'}action{'}'}, un investigador puede entregar cualquier cantidad de sus llaves a otro investigador que esté en su mismo Lugar.</p>"
+    }
+  ],
+  "label": {
+    "placeKey": "Colocar la llave {key}",
+    "moveKey": "Mover la llave {key}",
+    "v1": "Pasar a la _Preparación (v. I)_",
+    "v2": "Pasar a la _Preparación (v. II)_",
+    "v3": "Pasar a la _Preparación (v. III)_"
+  },
+  "tooltips": {
+    "cityLandscape": {
+      "look": "Durante tu turno, gasta 1 Pista: Mira el lado descubierto de un Paisaje urbano de tu columna o fila. (Límite de una vez por ronda.)",
+      "move": "Durante tu turno, gasta 3 Pistas: Muévete a cualquier Lugar de tu columna o fila. (Límite de una vez por ronda.)"
+    }
+  },
+  "intro": {
+    "title": "Escenario III: Ciudad de los Antiguos",
+    "body": "<p>_Introducción_: Ni siquiera con los conocimientos que te ha proporcionado el informe de Dyer tienes preparación alguna para la terrible inmensidad de la ciudad blasfema que hay en el corazón de la Antártida, ni para su indescifrable naturaleza alienígena. Torres, templos, puentes y pirámides colosales salpican el vasto paisaje. A la ineludible luz del alba, el laberinto sin nombre de estructuras ciclópeas y bloques angulosos se extiende durante millas en todas direcciones, inconfundiblemente real y sin embargo imposible de creer. Es una auténtica maravilla del mundo.</p>"
+  },
+  "sinha": {
+    "alive": "<p>_Si la Dra. Mala Sinha está viva:_</p><p>«Recordad: tapados en todo momento. Allá adonde vamos, el viento puede congelaros la piel casi al instante. Y bebed mucha agua», os recuerda la Dra. Sinha. «Aquí el aire es más seco de lo que creéis». El resto del grupo asiente en señal de comprensión. Nadie ha llegado tan lejos para acabar con una hipotermia... aunque es casi tan probable como morir por cualquier otra cosa en este condenado lugar.</p><p class='basic'>Los investigadores no sufren ningún efecto negativo.</p>",
+    "otherwise": "<p>_En caso contrario:_</p><p>Os han advertido muchas veces de los peligros del medio antártico, pero sin la Dra. Sinha estáis en desventaja para afrontar la dureza del clima. Lo que le faltaba en trato con los pacientes lo compensaba con pericia. Deseando haber podido salvarla, aprietas los dientes y sigues adelante, vigilando en tus compañeros cualquier signo de hipotermia.</p><p class='basic'>Cada investigador añade una Debilidad Congelado a su mazo. No cuenta para el tamaño de mazo de ese investigador.</p>"
+  },
+  "descend": "Mientras descendéis de las cumbres que rodean la ciudad y franqueáis furtivamente sus murallas, las laderas dan paso a unas estribaciones graduales y más suaves, salpicadas de estructuras de piedra negra y primigenia. Torres o puestos avanzados, quizá, que unen las murallas exteriores naturales de la ciudad con las afueras. «Deberíamos registrar una de esas atalayas», propone alguien del equipo, señalando la estructura más cercana. Asientes. Al fin y al cabo, el informe de Dyer señalaba la riqueza de información tallada en las paredes de varias estructuras de la ciudad; quizá deis con un mapa o un diagrama que os ayude en la exploración.",
+  "scoutedTheCityOutskirts": {
+    "yes": "<p>_Si los investigadores exploraron las afueras de la ciudad:_</p><p>En lugar de dirigirte a la atalaya, llamas a los demás para que te sigan. Recordando la ruta que Ellsworth y tú explorasteis anoche, guías al grupo hacia la estructura semienterrada que divisaste. Se tarda un poco más en llegar que a la atalaya, pero ofrece un atajo cómodo hacia el interior de la ciudad.</p><p class='basic'>Durante la preparación, después de que descubras el Lugar inicial, el investigador Jefe descubre en ese Lugar una cantidad de Pistas igual a la mitad de su valor de Pistas (redondeando hacia arriba).</p>",
+    "no": "<p>_En caso contrario:_</p><p class='basic'>Los investigadores no sufren ningún efecto negativo.</p>"
+  },
+  "dyer": {
+    "alive": "<p>_Si el profesor William Dyer está vivo:_</p><p>«Tened cuidado», advierte el profesor. No dudas en hacer caso de su sabiduría, ganada a base de duras experiencias. «Los glifos aquí grabados cuentan muchas cosas sobre la historia de este lugar. Es antiguo. Mucho más antiguo que cualquier cosa que haya construido nuestra especie».</p><p>«¿Adónde quiere ir a parar?», interviene alguien.</p><p>«¿Conocéis el viejo dicho de que las paredes oyen y las puertas ven?», responde Dyer. «No tenemos ni idea de lo que puede ocultarse entre estos muros. De lo que mora bajo el hielo y la piedra. Permaneced alerta... y no dejéis que ninguna voz que no sea nuestra resuene en vuestro cráneo. ¿Lo entendéis?».</p><p>Asientes, tragándote una oleada de náuseas. No puedes evitar tomarte el dicho de Dyer al pie de la letra.</p><p class='basic'>Los investigadores no sufren ningún efecto negativo.</p>",
+    "otherwise": "<p>_En caso contrario:_</p><p>Cuando entráis en la torre, el frío disminuye, pero el desasosiego que sentiste al observar la ciudad desde lejos no hace más que crecer. Sin la sabiduría de Dyer para guiaros por este lugar, sientes una indefensión absoluta. Cada gota de agua, cada guijarro que se desplaza, cada respiración contenida te atenaza la garganta y te acelera el corazón. No tardas en oír susurros en las paredes: voces que no son tuyas ni de nadie de tu grupo. Cuanto más intentas negarlo, más fuertes se vuelven. Un coro en tu mente. ¿Una advertencia?</p><p class='basic'>Cada investigador añade una Debilidad Poseído a su mazo. No cuenta para el tamaño de mazo de ese investigador.</p>"
+  },
+  "cookie": {
+    "alive": "<p>_Si James «Cookie» Fredericks está vivo y Dinamita figura en «Suministros recuperados»:_</p><p>Por desgracia, cuando intentáis salir de la estructura, encontráis el paso bloqueado por hielo y escombros. Justo cuando estás pensando cómo abrir un hueco excavando, Cookie se acerca con unos cuantos cartuchos de dinamita atados en un mazo. «Ay, por los clavos de Cristo. Quitaos de en medio», refunfuña, coloca los cartuchos y prende la mecha sin más aviso. Los demás y tú corréis a doblar la esquina, tapándoos los oídos y maldiciendo entre dientes. Segundos después, una tremenda explosión sacude el edificio hasta los cimientos. Cuando se asienta el polvo, Cookie le ha abierto al grupo una cómoda salida. «A veces, Cookie, te juro...», comenta alguien.</p><p class='basic'>Los investigadores no sufren ningún efecto negativo.</p>",
+    "otherwise": "<p>_En caso contrario:_</p><p>Por desgracia, cuando intentáis salir de la estructura, encontráis el paso bloqueado por hielo y escombros. Tardáis mucho más de lo esperado en encontrar otra salida y, cuando por fin escapáis, ya lleváis un buen rato expuestos a la intemperie.</p><p class='basic'>Añade 1 ficha {'{'}frost{'}'} a la bolsa de caos.</p>"
+  },
+  "entrance": "<p>La entrada abierta de la estructura de obsidiana os recibe como las fauces de un depredador feroz. A medida que tu vista se adapta a la oscuridad, la curiosidad cede ante un pavor hondo y profundo. La sala principal, de aristas y ángulos afilados, es el escenario de una auténtica masacre. Cadáveres destrozados de Antiguos cubren el suelo: montones de carne gris y correosa y órganos pegajosos y deformes, bañados en un espeso fluido verde oscuro. El espantoso hedor a muerte te hace tambalear. Estos muertos no son antiguos. La matanza tiene que ser reciente.</p><p>«¿Qué ha podido hacer esto?». Alguien del grupo rompe el inmenso silencio. Te llaman la atención los murales de las paredes, que representan a la que has llegado a conocer como la raza de los Antiguos, enzarzada en combate con un enemigo ancestral y terrorífico... no, con uno no. Con muchos. El grupo no se atreve a permanecer mucho tiempo en este matadero. Tapándoos la nariz contra el atroz hedor, os marcháis.</p>",
+  "trail": "<p>El rastro de sangre verde y enfermiza sale al exterior y gotea por un sendero liso, esculpido en la ladera como por una sustancia ácida. En dirección contraria, la cresta de la montaña continúa bordeando el perímetro de la ciudad. A lo lejos apenas distingues una zona oscurecida y semienterrada de la ciudad, cuya disposición de edificios te resulta completamente desconocida, incluso después de haber repasado a fondo las notas de Dyer. Por último, en el corazón de la ciudad se esparcen una gran pirámide y numerosos templos prominentes, que alcanzan alturas asombrosas pese a la erosión de incontables eras.</p>",
+  "group1": "<h3>Grupo 1</h3>",
+  "group2": "<h3>Grupo 2</h3>",
+  "group3": "<h3>Grupo 3</h3>",
+  "votes": "El equipo de la expedición vota en qué dirección quiere ir. Compara las tres columnas siguientes para ver en cuál quedan más miembros del equipo con vida.",
+  "vote": {
+    "kensler": "Dra. Amy Kensler",
+    "sinha": "Dra. Mala Sinha",
+    "hiroko": "Takada Hiroko",
+    "claypool": "Avery Claypool",
+    "cookie": "James «Cookie» Fredericks",
+    "danforth": "Danforth",
+    "eliyah": "Eliyah Ashevak",
+    "ellsworth": "Roald Ellsworth",
+    "dyer": "William Dyer",
+    "group1": "Si la columna izquierda (Grupo uno) tiene más miembros del equipo con vida, el grupo vota adentrarse en el corazón de la ciudad, donde se encuentran sus mayores estructuras. Cada Compañero de este grupo elegido para acompañar a un investigador entra en juego con un uso adicional. Pasa a la _Preparación (v. I)_.",
+    "group2": "Si la columna central (Grupo dos) tiene más miembros del equipo con vida, el grupo vota avanzar por la cresta de la montaña, hacia la región que Dyer y Danforth nunca exploraron. Cada Compañero de este grupo elegido para acompañar a un investigador entra en juego con un uso adicional. Pasa a la _Preparación (v. II)_.",
+    "group3": "Si la columna derecha (Grupo tres) tiene más miembros del equipo con vida, el grupo vota seguir el rastro que dejaron las criaturas que masacraron a los Antiguos, sean las que sean. Cada Compañero de este grupo elegido para acompañar a un investigador entra en juego con un uso adicional. Pasa a la _Preparación (v. III)_.",
+    "tied": "Si dos o más columnas empatan a la cabeza, el investigador Jefe emite el voto de desempate y puede decidir entre las opciones empatadas. (*Resuelve el punto anterior correspondiente como si el grupo elegido fuera el que tiene más miembros del equipo con vida.*)"
+  },
+  "interlude": {
+    "instructions": "Busca entre los miembros supervivientes de la expedición (incluidos los que estén bajo el control de un investigador) aquellos que no tengan una marca junto a su nombre en la sección «Equipo de la expedición» del Registro de campaña, y elige uno de ellos al azar. Si no hay ningún miembro así, sáltate el resto de este interludio.",
+    "part1": "<p>No adviertes el efecto que los susurros están teniendo en tu grupo hasta que es demasiado tarde. Una de las personas que te acompañan no se limita a estudiar la pared: está apoyada en ella, con la oreja pegada y los ojos vidriosos en un estupor de arrobamiento. Cuando llega a la puerta, o no repara, o decide ignorar a propósito el hilo de miasma repugnante que rezuma por sus rendijas; la espesa bruma gris que amenaza con engullirla por completo. Gritas una advertencia justo cuando la puerta se abre, y tienes la prudencia de apartar la vista en el preciso instante en que el miasma se extiende. Nunca sabrás de verdad qué es lo que ve. Solo alcanzas a vislumbrar la desdicha indecible e insondable que mora al otro lado.</p>",
+    "danforth": "<p>_Si la víctima es Danforth:_</p><p> El estudiante abre los ojos de par en par, dejando entrar cada palmo de la visión de pesadilla. Cada susurro insidioso. Cada jirón de locura. El piolet que lleva en la mano cae al suelo. «Es... hermoso», proclama al fin. «El abismo negro... el borde tallado... la escalera lunar...». Sus palabras se vuelven cada vez más febriles. «¡Lo original... lo eterno... lo inmortal!». Una sonrisa terrible se extiende por sus labios.</p><p class='basic'>El investigador que controle a Danforth descubre una Pista en el Lugar más cercano que tenga una o más Pistas. (Si ningún investigador controla a Danforth, la descubre el investigador Jefe.)</p>",
+    "part2": "<p>La persona permanece petrificada en el umbral, no sabrías decir si por puro terror u obligada por alguna fuerza desconocida. Los demás y tú os vais abriendo paso hacia la puerta, apartando la mirada para no correr la misma suerte. Cerráis la puerta de piedra con un pesado golpe, atrapando al otro lado el resto del miasma que se agitaba. En cuanto el horror queda oculto, sus ojos se ponen en blanco y se desploma en el suelo.</p><p>Su corazón sigue latiendo... pero sus ojos no vuelven a abrirse.</p><p class='basic'>En la sección «Equipo de la expedición» del Registro de campaña, tacha el nombre del personaje elegido. Si estaba en juego, es derrotado y retirado de la partida.</p>"
+  },
+  "resolutions": {
+    "noResolution": {
+      "title": "Sin resolución",
+      "body": "<div class='resolution'><p>_Si no se ha llegado a ninguna resolución (todos los investigadores fueron derrotados)_: Con heridas y sin fuerzas, os refugiáis en la relativa seguridad de una de las descomunales estructuras de la ciudad. Vuestra única esperanza es guareceros dentro de la ciudad alienígena y confiar en que vuestra presencia pase inadvertida a los moradores que aún merodean por sus calles y sus antiguas salas.</p><ul><li>Pasa a la Resolución 2.</li></ul></div>"
+    },
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<div class='resolution'><p>_Resolución 1_: Una quietud callada y sobrenatural os da la bienvenida cuando el grupo se adentra en el pasadizo secreto. Esperabas que os recibieran el estruendo y la furia, pero este inquietante silencio es casi peor. Nadie pronuncia una palabra mientras os deslizáis cada vez más hondo por el conducto secreto, reparando en la peculiar lisura de las paredes, en las extrañas marcas del suelo y en el plic, plic, plic apagado del agua a lo lejos.</p><p>Durante horas seguís adentrándoos en la oscuridad profunda, cuestionando tu buen juicio a cada paso. ¿Qué clase de gente camina por voluntad propia hacia las fauces de semejante horror? Para empezar, arriesgaste tu reputación al unirte a esta expedición. Luego arriesgaste la vida al no dar media vuelta en cuanto las cosas se pusieron feas. Ahora arriesgas la propia cordura desenterrando secretos que ningún ser humano debía encontrar.</p><p>¿Es esto valentía? ¿O el último error de un hatajo de necios, demasiado tercos para ver que al final de este camino les espera la muerte? No importa. Habéis llegado demasiado lejos para volver atrás. De un modo u otro, obtendrás las respuestas que buscas. La única duda es si vivirás para contar al mundo lo que has encontrado.</p><ul><li>Anota en el Registro de campaña que *el equipo encontró el túnel oculto*.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria. Cada investigador obtiene además 1 punto de experiencia adicional por cada pareja de fichas de Caos gastadas durante este escenario.<ul><li>_Experiencia_: {xp}</li></ul></li><li>En la sección «Equipo de la expedición» del Registro de campaña, anota la cantidad de daño y horror que haya sobre cada Apoyo Compañero en juego.</li><li>Pasa al _Interludio III: Noche final_.</li></ul></div>"
+    },
+    "resolution2": {
+      "title": "Resolución 2",
+      "body": "<div class='resolution'><p>_Resolución 2_: Pasan las horas. No os atrevéis a salir, pero exploráis cada recoveco de vuestro refugio con la esperanza de encontrar algo que haga que esta empresa haya merecido la pena. Lo que encontráis, en cambio, es aún más difícil de creer. En el subnivel helado de la estructura, una cámara sagrada alberga un estanque agitado de miasma caleidoscópico. De su superficie se evapora una bruma gris en remolinos, y en ella se materializan y desvanecen siluetas familiares y extrañas alucinaciones.</p><p>Como si percibiera que os acercáis, el estanque deja de girar y se alza por sí solo, casi a modo de saludo. Luego se condensa en un grumo reluciente de color tornasolado y repta por el suelo, deteniéndose cuando os detenéis y continuando cuando lo seguís. Os llama para que os acerquéis y os guía. Os miráis con recelo. ¿Intenta mostraros algo? ¿Llevaros a alguna parte? Y en ese caso... ¿es de veras prudente seguirlo?</p><p>Al final llegáis a un acuerdo. De nada sirve entretenerse aquí, y el tiempo empeora a cada minuto. Decidís seguirlo con cautela, con la esperanza de que quizá os conduzca a las respuestas. Durante horas seguís adentrándoos en la oscuridad profunda, cuestionando tu buen juicio a cada paso. La antigua estructura da paso a túneles helados, de paredes lisas y resbaladizas por el icor oscuro y suelos cubiertos de extrañas marcas de origen incognoscible. Por fin, el grumo de miasma vuelve a filtrarse en las paredes y desaparece, dejándoos a solas con vuestras dudas, vuestros miedos y el conducto imposiblemente largo que atraviesa el corazón helado de la Antártida hasta las profundidades de más allá...</p><ul><li>Anota en el Registro de campaña que el equipo fue guiado hasta el túnel oculto.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria. Cada investigador obtiene además 1 punto de experiencia adicional por cada pareja de fichas de Caos gastadas durante este escenario.<ul><li>_Experiencia_: {xp}</li></ul></li><li>En la sección «Equipo de la expedición» del Registro de campaña, anota la cantidad de daño y horror que haya sobre cada Apoyo Compañero en juego.</li><li>Pasa al _Interludio III: Noche final_.</li></ul></div>"
+    },
+    "xp": {
+      "bonus": "Por cada pareja de fichas de Caos gastadas durante este escenario"
+    }
+  },
+  "remembered": {
+    "theTeamStudiedTheHistoryOfTheElderThings": "El equipo estudió la historia de los Antiguos.",
+    "theTeamDiscernedTheOriginOfTheShoggoths": "El equipo discernió el origen de los shoggoths."
+  },
+  "tokens": {
+    "easyStandard": {
+      "skull": "–X. X es el número de llaves que controlas.",
+      "cultist": "–2. Si fracasas, coloca en tu Lugar una llave que controles.",
+      "tablet": "–3. Si se ha revelado una ficha {'{'}frost{'}'} durante esta prueba, en lugar de eso fracasas automáticamente.",
+      "elderThing": "–4. Si fracasas, el Enemigo más cercano se mueve una vez hacia ti. Si está enfrentado a ti, ataca."
+    },
+    "hardExpert": {
+      "skull": "–X. X es 2 más el número de llaves que controlas.",
+      "cultist": "–2. Coloca en tu Lugar una llave que controles.",
+      "tablet": "–4. Si se ha revelado una ficha {'{'}frost{'}'} durante esta prueba, sufre 1 punto de daño y, en lugar de lo anterior, fracasas automáticamente.",
+      "elderThing": "–5. Si fracasas, el Enemigo más cercano se mueve una vez hacia ti. Si está enfrentado a ti, ataca."
+    }
+  },
+  "setup": {
+    "v1": {
+      "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de Encuentros: *Ciudad de los Antiguos*, *Antiguos*, *Miasma*, *Horrores sin nombre*, *Pingüinos*, *Shoggoths*, *Tekeli-li* y *Puertas cerradas*. Estos conjuntos vienen indicados por los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/city-of-the-elder-things.png' /><img src='{setImgPath}/elder-things.png' /><img src='{setImgPath}/miasma.png' /><img src='{setImgPath}/nameless-horrors.png' /><img src='{setImgPath}/penguins.png' /><img src='{setImgPath}/shoggoths.png' /><img src='{setImgPath}/tekeli-li.png' /><img src='{setImgPath}/locked-doors.png' /></section>",
+      "setAside": "Pon aparte el conjunto de Encuentros *Shoggoths*.",
+      "createActDeck": "Crea el mazo de Acto usando solo Ciudad inmensa (v. I) y Persiguiendo lo desconocido (v. I). Retira de la partida todas las demás cartas de Acto.",
+      "placeLocations": "Baraja los dieciséis Lugares Paisaje urbano y ponlos en juego, junto con el Túnel oculto, según el mapa.",
+      "startAt": "El investigador Jefe elige uno de los ocho Lugares exteriores. Cada investigador comienza la partida en el Lugar elegido.",
+      "adjacency": "En este escenario, los Lugares están conectados con todos los Lugares adyacentes.",
+      "keys": "Reúne de la colección (*no de la bolsa de caos*) dos copias de cada una de las siguientes fichas: {'{'}skull{'}'}, {'{'}cultist{'}'}, {'{'}tablet{'}'}, {'{'}elderThing{'}'}, 0, –1, –2 y –3. Coloca al azar una de estas dieciséis fichas en cada Lugar Paisaje urbano. Son las «llaves».",
+      "addElderThingToken": "Añade 1 ficha {'{'}elderThing{'}'} a la bolsa de caos.",
+      "removals": "Retira de la partida las tres copias del Enemigo Antiguo benigno. Pon aparte, fuera del juego, el Enemigo Terror de las estrellas."
+    },
+    "v2": {
+      "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de Encuentros: *Ciudad de los Antiguos*, *Criaturas en el hielo*, *Antiguos*, *Horrores sin nombre*, *Pingüinos*, *Silencio y misterio*, *Tekeli-li* y *Frío helador*. Estos conjuntos vienen indicados por los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/city-of-the-elder-things.png' /><img src='{setImgPath}/creatures-in-the-ice.png' /><img src='{setImgPath}/elder-things.png' /><img src='{setImgPath}/nameless-horrors.png' /><img src='{setImgPath}/penguins.png' /><img src='{setImgPath}/silence-and-mystery.png' /><img src='{setImgPath}/tekeli-li.png' /><img src='{setImgPath}/chilling-cold.png' /></section>",
+      "setAside": "Pon aparte el conjunto de Encuentros *Criaturas en el hielo*.",
+      "createActDeck": "Crea el mazo de Acto usando solo Ciudad inmensa (v. II) y Persiguiendo lo desconocido (v. II). Retira de la partida todas las demás cartas de Acto.",
+      "placeLocations": "Baraja los dieciséis Lugares Paisaje urbano y ponlos en juego, junto con el Túnel oculto, según el mapa.",
+      "startAt": "Cada investigador comienza la partida en el Lugar de abajo a la derecha.",
+      "adjacency": "En este escenario, los Lugares están conectados con todos los Lugares adyacentes.",
+      "keys": "Reúne de la colección (*no de la bolsa de caos*) dos copias de cada una de las siguientes fichas: {'{'}skull{'}'}, {'{'}cultist{'}'}, {'{'}tablet{'}'}, {'{'}elderThing{'}'}, 0, –1, –2 y –3. Coloca al azar una de estas dieciséis fichas en cada Lugar Paisaje urbano. Son las «llaves».",
+      "addElderThingToken": "Añade 1 ficha {'{'}elderThing{'}'} a la bolsa de caos.",
+      "removals": "Retira de la partida el Enemigo Terror de las estrellas y las tres copias del Enemigo Antiguo benigno."
+    },
+    "v3": {
+      "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de Encuentros: *Ciudad de los Antiguos*, *Criaturas en el hielo*, *Miasma*, *Pingüinos*, *Shoggoths*, *Tekeli-li*, *Frío helador* y *Puertas cerradas*. Estos conjuntos vienen indicados por los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/city-of-the-elder-things.png' /><img src='{setImgPath}/creatures-in-the-ice.png' /><img src='{setImgPath}/miasma.png' /><img src='{setImgPath}/penguins.png' /><img src='{setImgPath}/shoggoths.png' /><img src='{setImgPath}/tekeli-li.png' /><img src='{setImgPath}/chilling-cold.png' /><img src='{setImgPath}/locked-doors.png' /></section>",
+      "setAside": "Pon aparte el conjunto de Encuentros *Shoggoths*.",
+      "createActDeck": "Crea el mazo de Acto usando solo Ciudad inmensa (v. III) y Persiguiendo lo desconocido (v. III). Retira de la partida todas las demás cartas de Acto.",
+      "placeLocations": "Baraja los dieciséis Lugares Paisaje urbano y ponlos en juego, junto con el Túnel oculto, según el mapa.",
+      "startAt": "Cada investigador comienza la partida en el Lugar de arriba a la izquierda.",
+      "adjacency": "En este escenario, los Lugares están conectados con todos los Lugares adyacentes.",
+      "keys": "Reúne de la colección (*no de la bolsa de caos*) dos copias de cada una de las siguientes fichas: {'{'}skull{'}'}, {'{'}cultist{'}'}, {'{'}tablet{'}'}, {'{'}elderThing{'}'}, 0, –1, –2 y –3. Coloca al azar una de estas dieciséis fichas en cada Lugar Paisaje urbano. Son las «llaves».",
+      "removals": "Retira de la partida el Enemigo Terror de las estrellas y las tres copias del Enemigo Antiguo revivido."
+    },
+    "removeUnearnedWeaknesses": "Retira de la partida las copias de las Debilidades Congelado y Poseído que no se hayan obtenido durante la introducción.",
+    "checkDifficulty": "Comprueba el nivel de dificultad.",
+    "hard": "Si estás jugando en dificultad Difícil, añade 1 de Perdición al Plan 1a.",
+    "expert": "Si estás jugando en dificultad Experto, añade 2 de Perdición al Plan 1a.",
+    "tekelili": "Baraja juntas todas las cartas de Debilidad ¡Tekeli-li! que no formen ya parte del mazo de un investigador para formar el mazo de Tekeli-li. Coloca este mazo cerca del mazo de Plan."
+  },
+  "hiddenTunnelEntranceToTheDepths": {
+    "label": {
+      "spendSkullKey": "Gastar la llave de calavera",
+      "doNotSpendSkullKey": "No gastar la llave de calavera"
+    }
+  },
+  "pursuitOfTheUnknown": {
+    "label": {
+      "doNotTakeHealing": "No curar",
+      "healAll": "Curar 1 de daño, 1 de horror y 1 trauma",
+      "healPhysicalTrauma": "Curar 1 trauma físico",
+      "healMentalTrauma": "Curar 1 trauma mental"
+    }
+  }
+}

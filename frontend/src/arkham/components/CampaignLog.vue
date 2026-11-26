@@ -60,7 +60,7 @@ export interface Props {
 const props = defineProps<Props>()
 const emit = defineEmits<{ refresh: [] }>()
 const store = useDbCardStore()
-const { t, te, tm } = useI18n()
+const { t, te, tm, locale } = useI18n()
 
 type LogTab = 'log' | 'investigators' | 'rules' | 'achievements' | 'about' | `additional:${number}`
 const activeTab = ref<LogTab>('log')
@@ -488,7 +488,7 @@ const about = computed(() => {
   const narrative = narrativeEntry(narrativeOf(props.game))
   return {
     title: homebrewBoxEntry.value?.name
-      ?? (narrative ? narrativeTitle(narrative, props.game.campaign?.id) : null)
+      ?? (narrative ? narrativeTitle(narrative, props.game.campaign?.id, scope, locale.value) : null)
       ?? t(`${scope}.name`),
     designer: homebrewBoxEntry.value?.designer ?? narrative?.designer,
     beta: !!narrative?.beta,

@@ -1,0 +1,93 @@
+{
+  "heading": "Escenario II",
+  "tokens": {
+    "easyStandard": {
+      "skull": "-X. X es el nivel de tu Lugar.",
+      "cultist": "-1. Si fracasas, muévete al Lugar situado directamente debajo de ti.",
+      "tablet": "-3. Si fracasas, pierde el control de un Apoyo _Expedición_ y colócalo en tu Lugar.",
+      "elderThing": "-4. Si fracasas, el Enemigo _Antiguo_ más cercano se mueve una vez hacia ti. Si está enfrentado a ti, ataca."
+    },
+    "hardExpert": {
+      "skull": "-X. X es 2 más el nivel de tu Lugar.",
+      "cultist": "-1. Muévete al Lugar situado directamente debajo de ti.",
+      "tablet": "-4. Si fracasas, pierde el control de un Apoyo _Expedición_ y colócalo en tu Lugar.",
+      "elderThing": "-5. Si fracasas, el Enemigo _Antiguo_ más cercano se mueve una vez hacia ti. Si está enfrentado a ti, ataca."
+    }
+  },
+  "setup": {
+    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de Encuentros: *Hacia los picos prohibidos*, *Tiempo letal*, *Antiguos*, *Peligros de la Antártida*, *Horrores sin nombre* y *Tekeli-li*. Estos conjuntos vienen indicados por los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/to-the-forbidden-peaks.png' /><img src='{setImgPath}/deadly-weather.png' /><img src='{setImgPath}/elder-things.png' /><img src='{setImgPath}/hazards-of-antarctica.png' /><img src='{setImgPath}/nameless-horrors.png' /><img src='{setImgPath}/tekeli-li.png' /></section>",
+    "placeLocations": "Baraja los siete Lugares de ladera y pon en juego cinco de ellos en una línea diagonal. Pon aparte, fuera del juego, los dos Lugares restantes. Pon en juego el Lugar La cumbre en lo alto de la línea diagonal. La posición de cada Lugar tiene su propio nivel, de 0 a 5, empezando por el Lugar inferior en el nivel 0 y ascendiendo hasta La cumbre en el nivel 5.",
+    "revealLevel0": "Descubre el Lugar de nivel 0. Cada investigador comienza la partida en ese Lugar.",
+    "addElderThingToken": "Añade 1 ficha {'{'}elderThing{'}'} a la bolsa de caos.",
+    "suppliesRecovered": "Consulta la sección «Suministros recuperados» del Registro de campaña y pon en juego en el Lugar de nivel 0 cada Apoyo de historia _Expedición_ que figure en ella. Retira de la partida los demás Apoyos de historia _Expedición_.",
+    "setTerrorOfTheStarsAside": "Pon aparte, fuera del juego, el Enemigo Terror de las estrellas.",
+    "checkDifficulty": "Comprueba el nivel de dificultad.",
+    "hard": "Si estás jugando en dificultad Difícil, añade 1 de Perdición al Plan 1a.",
+    "expert": "Si estás jugando en dificultad Experto, añade 2 de Perdición al Plan 1a.",
+    "tekelili": "Baraja juntas todas las cartas de Debilidad ¡Tekeli-li! que no formen ya parte del mazo de un investigador para formar el mazo de Tekeli-li. Coloca este mazo cerca del mazo de Plan."
+  },
+  "intro1": {
+    "title": "Escenario II: Hacia los picos prohibidos",
+    "body": "<p>_Introducción 1_: El viento aúlla mientras tu grupo se prepara para el largo viaje que os espera. Apenas se habla. Aunque pudierais oír vuestras voces amortiguadas a través de las orejeras y las bufandas, ¿qué os diríais? El silencio de vuestro terror compartido es lo bastante elocuente.</p><p>Vuestro destino está a muchas millas. Las cumbres dentadas se ciernen en el lejano horizonte, como una burla. Repasas mentalmente la situación...</p>"
+  },
+  "intro2": {
+    "title": "Escenario II: Hacia los picos prohibidos",
+    "body": "<p>_Introducción 2_: Camináis entre hielo y nieve durante muchas horas agotadoras. Por suerte, no os topáis con más criaturas como las de los dos últimos días, lo que te lleva a preguntarte si todo fue algún cruel espejismo. Pero al acercaros a la base de las dentadas montañas coronadas de nieve, encuentras un tipo de criatura completamente distinto.</p><p>Yace congelada y semienterrada en la nieve, como un macabro mojón que os guiara. Su cuerpo tiene forma de barril, con una piel gruesa y un par de alas coriáceas desgarradas. De su parte superior sobresale de la nieve un apéndice en forma de estrella de mar, adornado con cinco ojos muertos y un haz de cilios tornasolados. Cinco grupos de tentáculos yacen congelados en el hielo. La visión de esa cosa te hiela más de lo que jamás podría el clima antártico.</p><p>No cabe duda: es uno de los «Antiguos» que el profesor Dyer y Danforth encontraron la última vez que se aventuraron en el corazón de la Antártida. Pero ¿qué lo mató? ¿No habrá sido solo el frío?</p><p class='basic right'>Pasa a la _Preparación_.</p>"
+  },
+  "interlude": {
+    "title": "Interludio del escenario: Se desata la tragedia",
+    "instructions1": "<p class='basic'>Busca entre los miembros supervivientes de la expedición (incluidos los que estén bajo el control de un investigador) aquellos que no tengan una marca junto a su nombre en la sección «Equipo de la expedición» del Registro de campaña, y elige uno de ellos al azar. Si no hay ningún miembro así, sáltate el resto de este interludio.</p>",
+    "paragraph1": "<p>Todo ocurre en un abrir y cerrar de ojos. Solo te da tiempo a gritar el nombre de la persona antes de que la atrapen. Las múltiples y cambiantes formas de la cosa se enroscan alrededor de su cuerpo. Forcejea por escapar, pero no hay esperanza.</p>",
+    "cookie": "<p>_Si la víctima es James «Cookie» Fredericks_:</p><p>El curtido veterano escupe una maldición y logra zafar el brazo derecho de las garras de la cosa. Le basta para efectuar un único disparo con su Colt. El estampido retumba por la montaña y desgarra la masa grotesca e informe del ser.</p><p class='basic'>Inflige 2 puntos de daño al Terror de las estrellas.</p>",
+    "paragraph2": "<p>Entonces, sin un instante de vacilación, hunde sus zarcillos en el cuerpo de su víctima y lo desgarra en dos como un trozo de carne cruda. Un chorro de sangre tiñe la nieve de carmesí. Deja caer sin ceremonias al suelo lo que queda de tu compañero y vuelve su atención hacia ti.</p>",
+    "instructions2": "<p class='basic'>En la sección «Equipo de la expedición» del Registro de campaña, tacha el nombre del personaje elegido. Si estaba en juego, es derrotado y retirado de la partida.</p></div>"
+  },
+  "resolutions": {
+    "noResolution": {
+      "title": "Sin resolución",
+      "body": "<div class='resolution'><p><b>Si no se ha llegado a ninguna resolución (todos los investigadores fueron derrotados):</b> El resto de la travesía por las cumbres es un torbellino de nieve y miedo. Subís cada vez más alto, forzándoos hasta extremos que nunca creísteis posibles. Aun así, la cima sigue siempre fuera de vuestro alcance. Cuando cae la noche y el tiempo se vuelve todavía más mortífero, la desesperación os obliga a buscar la supervivencia en otra parte.</p></div>"
+    },
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<div class='resolution'><p><b>Resolución 1:</b> La vista desde la cima es sobrecogedora, pero no estás de humor para disfrutar del espectáculo. Ante ti, al otro lado de estas malditas cumbres, se extiende la ciudad descrita en el informe de Dyer. Su inquietante aspecto es inconfundible. Decenas de edificios cónicos y piramidales de pizarra oscura y arenisca se agolpan como un panal por toda la región, en un laberinto de formas geométricas perfectas. Aunque erosionada por las eras, la ciudad sigue en pie, oculta por las cumbres dentadas y la densa nieve.</p><p>Durante un rato, os quedáis en silencio contemplando el prodigioso panorama. Si no fuera por las muchas pruebas afrontadas por el camino, sería un momento de triunfo. Pero tras los sacrificios que ha costado llegar hasta aquí, la victoria suena hueca.</p><p>Un viento gélido sopla entre las cumbres. El aire es demasiado tenue para entretenerse. Tras un momento de descanso, emprendéis el largo descenso hacia la ciudad alienígena. Tendréis que acampar antes de llegar abajo. Con un poco de suerte, estaréis a cubierto de las espantosas criaturas que la habitan...</p><ul><li>Anota en el Registro de campaña que *el equipo escaló hasta la cima*.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.<ul><li>_Experiencia_: {xp}</li></ul></li><li>Por cada Apoyo _Expedición_ que haya en la zona de victoria, un investigador puede elegir añadir ese Apoyo a su mazo. No cuenta para el tamaño de su mazo. Por cada Apoyo _Expedición_ añadido de este modo al mazo de un investigador, ese investigador obtiene 1 punto de experiencia adicional.</li><li>Por cada Apoyo _Expedición_ que no esté en la zona de victoria, tacha su título en la sección «Suministros recuperados» del Registro de campaña.</li><li> En la sección «Equipo de la expedición» del Registro de campaña, anota la cantidad de daño y horror que haya sobre cada Apoyo Compañero en juego.</li><li>Pasa al _Interludio II: Noche infinita_.</li></ul></div>"
+    },
+    "resolution2": {
+      "title": "Resolución 2",
+      "body": "<div class='resolution'><p><b>Resolución 2:</b> Justo cuando empiezas a perder la esperanza, encuentras una cueva oscura encajada en la ladera. El viento aúlla ante la entrada y trae consigo un repentino diluvio de nieve. No sabes qué sería peor: una muerte lenta atrapados en una caverna helada, o una igual de lenta sin lograr alcanzar la cima. Pero cuando uno de tus compañeros enciende su linterna, comprendes que quizá haya una tercera opción.</p><p>Las paredes de este angosto túnel están cubiertas de extraños jeroglíficos como nunca habías visto. Supones que son escritos antiguos en una lengua alienígena. Quizá incluso la de los Antiguos que en otro tiempo llamaron hogar a esta región. Y lo más importante: la caverna continúa y se adentra cada vez más en la montaña, mucho más allá del alcance de tu luz.</p><p>Lo sometéis a votación y decidís seguir adelante, esperando contra toda esperanza que el túnel os lleve a otra salida. Para tu sorpresa, el trayecto discurre sin tropiezos, aunque la oscuridad permanente, los aterradores ecos de insólitos gemidos y las voces amortiguadas de algo que está muy abajo van desgastando tu cordura. Avanzáis durante horas hasta que, por fin, misericordiosamente, ves luz a lo lejos.</p><p>Emergéis de nuevo a la ladera de la montaña, esta vez ante un panorama sobrecogedor. Ante vosotros se extiende la ciudad descrita en el informe de Dyer. Su inquietante aspecto es inconfundible. Decenas de edificios cónicos y piramidales de pizarra oscura y arenisca se agolpan como un panal por toda la región, en un laberinto de formas geométricas perfectas. Aunque erosionada por las eras, la ciudad sigue en pie, oculta por las cumbres dentadas y la densa nieve.</p><p>Durante un rato, os quedáis en silencio contemplando el prodigioso panorama. De algún modo, habéis logrado atravesar la montaña. Si no fuera por las muchas pruebas afrontadas por el camino, sería un momento de triunfo. Pero tras los sacrificios que ha costado llegar hasta aquí, la victoria suena hueca. Tras un momento de descanso, emprendéis el largo descenso hacia la ciudad alienígena. Tendréis que acampar antes de llegar abajo. Con un poco de suerte, estaréis a cubierto de las espantosas criaturas que la habitan...</p><ul><li>Anota en el Registro de campaña que *el equipo encontró otro modo de atravesar las montañas*.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.<ul><li>_Experiencia_: {xp}</li></ul></li><li>Tacha el título de cada carta anotada en la sección «Suministros recuperados» del Registro de campaña.</li><li>En la sección «Equipo de la expedición» del Registro de campaña, anota la cantidad de daño y horror que haya sobre cada Apoyo Compañero en juego.</li><li>Pasa al _Interludio II: Noche infinita_.</li></ul></div>"
+    }
+  },
+  "eliyah": {
+    "alive": "<p>_Si Eliyah Ashevak está vivo y el Trineo de madera figura en «Suministros recuperados»:_</p><p>«No es lo bastante grande ni resistente para llevarnos a todos», explica Eliyah mientras sube la última caja de suministros al viejo trineo, «pero al menos debería poder cargar con las provisiones y el equipo». Se asegura de que las cuerdas estén tensas y los arneses de todos los perros bien abrochados antes de rascar detrás de las orejas a Anyu, a la cabeza de la jauría. «No me hace ninguna gracia tener que arrastrar este trasto montaña arriba, pero... ya cruzaremos ese puente cuando lleguemos. Muy bien, chica. ¿Lista?». Anyu ladra una vez. «Sí, ya sé que lo estás».</p><p class='basic'>Los investigadores no sufren ningún efecto negativo.</p>",
+    "otherwise": "<p>_En caso contrario:_</p><p>Sueltas un quejido al echarte a la espalda una mochila enorme y pesadísima llena de equipo. Desde luego no te apetece nada cruzar la nieve con veinte kilos de más, pero no hay forma de evitarlo. No tienes ni idea de cuánto tiempo estaréis allá adonde vais, y necesitarás todo lo que hay en esa mochila si quieres sobrevivir.</p><p class='basic'>Añade 1 ficha {'{'}frost{'}'} a la bolsa de caos.</p>"
+  },
+  "claypool": {
+    "alive": "<p>_Si Avery Claypool está vivo:_</p><p>«Puede que ahora el tiempo parezca despejado», explica Claypool, «pero podría cambiar en un santiamén. Iremos sobre hielo la mayor parte del camino, así que estad atentos a las grietas. Hace falta un hielo de unos 60 centímetros de grosor para poder cruzar, así que quedaos detrás de mí en todo momento, y usaré esta barrena para asegurarme de que es seguro». Alza un instrumento de perforación con la punta en espiral y encabeza la marcha.</p><p class='basic'>Los investigadores no sufren ningún efecto negativo.</p>",
+    "otherwise": "<p>_En caso contrario:_</p><p> Partís cuando el cielo parece despejado, pero basta una hora para que el tiempo empeore de golpe. La densa nevada ya es bastante mala, pero es el hielo lo que de verdad os frena. Sin Claypool para guiaros con seguridad, tenéis que avanzar despacio y con cautela para llegar siquiera con vida a las montañas.</p><p class='basic'>Añade 1 ficha {'{'}frost{'}'} a la bolsa de caos, o bien cada investigador sufre 1 trauma físico.</p>"
+  },
+  "takada": {
+    "alive": "<p>_Si Takada Hiroko está viva:_</p><p>Al emprender la marcha, oyes a Takada canturrear algo entre dientes, justo lo bastante bajo para que no distingas qué es. Otra persona del grupo, sin embargo, parece reconocerlo. «Otra vez esa canción», dice. «Te oí cantarla en el Theodosia durante la travesía».</p><p>Takada suspira. «Es una canción que me enseñó mi padre. Me ayuda a pasar el rato», explica.</p><p>Le preguntas si querría enseñártela, y te dedica la primera sonrisa que le ves desde que comenzó la caminata. «Sí. Sí, me gustaría». Pasáis el resto del trayecto cantando y estrechando lazos, matando el tiempo.</p><p class='basic'>Los investigadores no sufren ningún efecto negativo.</p>",
+    "otherwise": "<p>_En caso contrario:_</p><p>El grupo padece el frío en un silencio insoportable. Cada pisada es tan solitaria como desgarradora.</p><p class='basic'>Añade 1 ficha {'{'}frost{'}'} a la bolsa de caos, o bien cada investigador sufre 1 trauma mental.</p>"
+  },
+  "theMountainPass": {
+    "scouted": "<p>_Si los investigadores otearon el paso de montaña:_</p><p>Buscas el paso seguro que Ellsworth y tú explorasteis anoche, y guías al resto del equipo. Escarpados precipicios os flanquean al acercaros a las estribaciones y os resguardan del viento helado. El atajo os permite avanzar rápido al comenzar el ascenso hacia las cumbres...</p><p class='basic'>Durante la preparación, cuando descubras el Lugar inicial, reduce su valor de Pistas a la mitad (redondeando hacia arriba).</p>",
+    "otherwise": "<p>_En caso contrario:_</p><p>La tundra helada que lleva a las estribaciones de las montañas dentadas es un terreno difícil de atravesar. Incluso con raquetas de nieve y ropa de abrigo contra el frío, el avance es lento y penoso. El viento os planta cara a cada paso, con ráfagas capaces de derribaros. Pero seguís adelante sin amilanaros.</p><p class='basic'>Los investigadores no sufren ningún efecto negativo.</p>"
+  },
+  "hypothermia": {
+    "label": {
+      "addFrost": "Añadir 1 ficha {'{'}frost{'}'} a la bolsa de caos",
+      "takeHorror": "Sufrir {count} de horror"
+    }
+  },
+  "label": {
+    "addFrostToken": "Añadir 1 ficha {'{'}frost{'}'} a la bolsa de caos",
+    "eachInvestigatorSuffersPhysicalTrauma": "Cada investigador sufre {count} trauma físico.",
+    "eachInvestigatorSuffersMentalTrauma": "Cada investigador sufre {count} trauma mental."
+  },
+  "rooflessRampart": {
+    "label": {
+      "removeDoom": "Retirar 1 de Perdición del Plan",
+      "discardEnemy": "Descartar 1 Enemigo que no sea Élite",
+      "discardTreachery": "Descartar 1 Traición"
+    }
+  }
+}

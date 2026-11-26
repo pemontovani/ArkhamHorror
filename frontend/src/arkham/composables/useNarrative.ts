@@ -1,7 +1,7 @@
 import { computed, watch, type Ref } from 'vue'
 import { useI18n } from 'vue-i18n'
 import type { Game } from '@/arkham/types/Game'
-import { narrativeMessages } from '@/locales/narratives'
+import { narrativeMessages, type NarrativeMessages } from '@/locales/narratives'
 import narrativesJSON from '@/arkham/data/narratives.json'
 import campaignJSON from '@/arkham/data/campaigns.json'
 import { escapeIconPlaceholders } from '@/locales/messages'
@@ -51,36 +51,49 @@ export function narrativeHost(url: string | undefined): string | null {
   }
 }
 
-/* The variant's name for one campaign, as its own document titles itself. */
-export function narrativeTitle(
-  entry: NarrativeEntry,
-  campaignId: string | null | undefined,
-): string | null {
-  const id = baseCampaignId(campaignId)
-  if (!id) return null
-  return entry.campaigns[id]?.name ?? null
-}
-
-/* A variant's own one-line description of itself, out of its locale file.
+/* One field of a variant's `about` block, out of its locale file.
 
 Read straight from the variant's messages rather than through `t`, because the
 chooser runs before any game exists and so before `useNarrative` has merged
 anything. Keyed by locale with an English fallback, so it translates with the
 rest of the variant. */
+function aboutField(
+  variant: string,
+  campaignScope: string | null,
+  locale: string,
+  field: 'title' | 'blurb',
+): string | null {
+  if (!campaignScope) return null
+  const at = (l: string) => {
+    const scoped = narrativeMessages(l)[variant]?.[campaignScope] as
+      | { about?: Record<string, unknown> }
+      | undefined
+    const value = scoped?.about?.[field]
+    return typeof value === 'string' ? value : null
+  }
+  return at(locale) ?? at('en')
+}
+
+/* The variant's name for one campaign: the translated title if its locale file
+has one, else the name its own document titles itself with. */
+export function narrativeTitle(
+  entry: NarrativeEntry,
+  campaignId: string | null | undefined,
+  campaignScope: string | null,
+  locale: string,
+): string | null {
+  const id = baseCampaignId(campaignId)
+  if (!id) return null
+  return aboutField(entry.key, campaignScope, locale, 'title') ?? entry.campaigns[id]?.name ?? null
+}
+
+/* A variant's own one-line description of itself. */
 export function narrativeBlurb(
   variant: string,
   campaignScope: string | null,
   locale: string,
 ): string | null {
-  if (!campaignScope) return null
-  const at = (l: string) => {
-    const scoped = narrativeMessages(l)[variant]?.[campaignScope] as
-      | { about?: { blurb?: unknown } }
-      | undefined
-    const blurb = scoped?.about?.blurb
-    return typeof blurb === 'string' ? blurb : null
-  }
-  return at(locale) ?? at('en')
+  return aboutField(variant, campaignScope, locale, 'blurb')
 }
 
 /* The narrative variants offered for a campaign, by its id. */
@@ -125,6 +138,36 @@ function normalize(value: unknown): unknown {
   return value
 }
 
+/* Every variant's messages as one locale reads them: the English telling, with
+ * whatever that locale has translated laid over it key by key.
+ *
+ * An untranslated variant is then still read as written, in English. Without
+ * this the Campaign Guide's translated text would stand in for it, and the beats
+ * only the variant has would have no text at all. */
+function variantMessages(locale: string): Record<string, NarrativeMessages> {
+  const english = narrativeMessages('en')
+  const local = narrativeMessages(locale)
+  const out: Record<string, NarrativeMessages> = {}
+
+  for (const variant of new Set([...Object.keys(english), ...Object.keys(local)])) {
+    const scopes = new Set([
+      ...Object.keys(english[variant] ?? {}),
+      ...Object.keys(local[variant] ?? {}),
+    ])
+    out[variant] = Object.fromEntries(
+      [...scopes].map((scope) => [
+        scope,
+        deepMerge(english[variant]?.[scope] ?? {}, local[variant]?.[scope] ?? {}) as Record<
+          string,
+          unknown
+        >,
+      ]),
+    )
+  }
+
+  return out
+}
+
 /* Apply a variant's messages to the campaign scopes it rewrites, or restore the
  * Campaign Guide's for every scope any variant could have touched.
  *
@@ -136,7 +179,7 @@ export function useNarrative(game: Ref<Game | null | undefined>) {
 
   const apply = (key: string | null) => {
     const locale = i18n.locale.value
-    const all = narrativeMessages(locale)
+    const all = variantMessages(locale)
     const messages = { ...(i18n.getLocaleMessage(locale) as Record<string, unknown>) }
     let changed = false
 
@@ -145,7 +188,11 @@ export function useNarrative(game: Ref<Game | null | undefined>) {
         const cacheKey = `${locale}:${scope}`
         if (!pristine.has(cacheKey)) pristine.set(cacheKey, messages[scope])
         const base = pristine.get(cacheKey)
-        messages[scope] = variantKey === key ? deepMerge(base, normalize(overrides)) : base
+        const next = variantKey === key ? deepMerge(base, normalize(overrides)) : base
+        // A locale without this campaign has nothing to restore, and an empty
+        // entry would be one more thing to fall back from.
+        if (next === undefined) delete messages[scope]
+        else messages[scope] = next
         changed = true
       }
     }

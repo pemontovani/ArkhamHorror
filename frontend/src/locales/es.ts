@@ -13,6 +13,7 @@ import theForgottenAge from '@/locales/es/theForgottenAge'
 import theCircleUndone from '@/locales/es/theCircleUndone'
 import theDreamEaters from '@/locales/es/theDreamEaters'
 import theInnsmouthConspiracy from '@/locales/es/theInnsmouthConspiracy'
+import edgeOfTheEarth from '@/locales/es/edgeOfTheEarth'
 import theFeastOfHemlockVale from '@/locales/en/theFeastOfHemlockVale'
 
 // Anything missing here falls back to English key by key (fallbackLocale in
@@ -36,5 +37,6 @@ export default
   , theCircleUndone
   , theDreamEaters
   , theInnsmouthConspiracy
+  , edgeOfTheEarth
   , theFeastOfHemlockVale
   }

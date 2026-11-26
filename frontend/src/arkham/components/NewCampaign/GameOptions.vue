@@ -13,7 +13,7 @@ import { useSettings } from '@/stores/settings'
 import { useUserStore } from '@/stores/user'
 import { storeToRefs } from 'pinia'
 import api from '@/api'
-import { narrativeBlurb, narrativeHost, narrativesFor, type NarrativeEntry } from '@/arkham/composables/useNarrative'
+import { narrativeBlurb, narrativeHost, narrativesFor, narrativeTitle, type NarrativeEntry } from '@/arkham/composables/useNarrative'
 import { filterDisplayable, type DisplayRuleOptions } from '@/arkham/displayRules'
 import { campaignIdToI18n } from '@/arkham/types/Scenario'
 import { localizedScenarioName } from '@/arkham/scenarioNames'
@@ -430,7 +430,7 @@ const narrativeCampaignScope = computed(() =>
 )
 
 function narrativeName(n: NarrativeEntry) {
-  return (props.selectedCampaign ? n.campaigns[props.selectedCampaign]?.name : null) ?? n.key
+  return narrativeTitle(n, props.selectedCampaign, narrativeCampaignScope.value, locale.value) ?? n.key
 }
 
 function narrativeDescription(n: NarrativeEntry) {
