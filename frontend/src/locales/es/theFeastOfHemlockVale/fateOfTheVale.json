@@ -1,0 +1,233 @@
+{
+  "intro": {
+    "title": "Escenario: El destino del Valle",
+    "body": "<p>La cabeza te da vueltas cuando te pones en pie en una caverna iridiscente. Sus paredes lisas y pulidas parpadean con una fría luz azul que refleja imágenes de pesadilla. Estalagmitas retorcidas se enroscan y desenroscan en espirales que se alzan hacia el techo como los tallos de alguna flora antediluviana. Los gritos llenan el aire: el suelo de la caverna está cubierto de festejantes que se agarran las extremidades o la cabeza. En su piel se abren grietas de luz resplandeciente cada vez más intensas. Una fosforescencia gélida deforma todo cuanto hay en la cámara luminosa. Sientes como si respiraras un humo denso en medio del aire espeso y cálido.</p><p>Formas efímeras giran alrededor de un fulgor empíreo en el centro de la cámara. Recortada contra el núcleo de pura luz blanca está la madre Rachel, con el cabello suelto flotando como si se hallara en aguas profundas. La cabeza te martillea mientras miras fijamente el resplandor y bajas la vista al suelo de la caverna. Los festejantes heridos han dejado de moverse y se han vuelto grises y polvorientos. Unos pocos son transparentes como el cristal y refractan la clara luz del abismo en formaciones prismáticas. Otros siguen en pie, petrificados, tendiendo los brazos hacia el fulgor, con el rostro congelado en una sonrisa macabra.</p><p>La risa de la madre Rachel resuena por la cámara mientras la matrona contempla el abismo con los brazos en alto. El humo se arremolina a su alrededor a medida que su cuerpo se disuelve en gas. Sin saber muy bien qué está ocurriendo, corres hacia la madre Rachel y el abismo por una colina de formas humanas petrificadas. Huesos y cadáveres resecos crujen bajo tus pies mientras trepas hasta la cima. La madre Rachel te mira, exultante, antes de que su cuerpo se sublime en un fuego pálido.</p><p>Una euforia que conoces demasiado bien inunda tus sentidos mientras la luz alienígena palpita y curva la cámara a su alrededor. Notas una mano invisible en el hombro; la apartas de un manotazo. Hay algo distinto. Levantas una mano y ves que en la palma se está formando una pequeña grieta de luz, como una araña. La fisura se alarga y te trepa por la muñeca y después por el brazo. El dolor que la acompaña te sume en un desmayo profundo.</p><p>Despiertas y te ves a ti m ismo mir an dode piealbor ded el ose spej os deca da simamiran dohaci aabajo Te ve st e a ti en el cue rpo de unga tonegroyunaR eiNanada Ndoh aciaA dentRo una reptante cA óti ca os cUri dAd mE Hor roriza qUiéNyPorQUÉe sTásaQuí?</p><p class='basic right'>Continúa en _Preparación_.</p>"
+  },
+  "remembered": {
+    "bertieIsFleeing": "Bertie está huyendo",
+    "theInvestigatorsFoundGas": "Los investigadores encontraron combustible",
+    "theInvestigatorsFoundTheosTruck": "Los investigadores encontraron la camioneta de Theo",
+    "theRoadIsClear": "La carretera está despejada",
+    "theSamplesWereFound": "Los investigadores encontraron las muestras",
+    "theSurveyNotesWereRecovered": "Los investigadores recuperaron las notas del estudio"
+  },
+  "interlude": {
+    "title": "Interludio del escenario: El destino del Valle",
+    "label": {
+      "letsEndThis": "Acabemos con esto.",
+      "saveTheVale": "¡Salvemos el Valle!",
+      "burnItAll": "Quemémoslo todo.",
+      "escape": "Escapemos con vida."
+    },
+    "fateOfTheVale1": "<p>_El destino del Valle 1:_ La Dra. Marquez observa los delicados diseños de filigrana que se forman y se desvanecen en la cámara cristalina.</p><p>—Nos está devorando. Si no hacemos algo, destruirá esta isla y todo lo que hay en ella. Pero tengo una idea. —Levanta una esquirla iridiscente y sonríe con descaro—. ¿Confías en mí?</p><ul><li>Si el Apoyo de historia Dra. Marquez no está en juego, busca a la Dra. Marquez en el mazo de cada investigador y en todas las zonas fuera del juego y ponla en juego bajo el control de un investigador. No ocupa un hueco de aliado durante el resto de este escenario.</li><li>Dale la vuelta a la carta de Historia El abismo para mostrar su lado de Lugar.</li><li>Dale la vuelta a cada Enemigo Emisario cósmico para mostrar su lado _Destrozado_ (*rompiendo su formación*). Coloca el Enemigo Emisario cósmico (*El abismo*) en el Lugar El abismo. Coloca cada uno de los demás Enemigos Emisario cósmico en el Nido de espejos con el que estuviera lindando físicamente.</li><li>Pon en juego el Acto 3a: El destino del Valle (v.I). Retira de la partida todos los demás Actos.</li><li>Reanudad la partida.</li></ul>",
+    "fateOfTheVale2": "<p>_El destino del Valle 2:_ Con la ayuda de la Dra. Marquez, sales trepando del socavón y descubres el Valle de la Cicuta envuelto en una niebla rojo sangre. Tras rastrear la aldea en busca de supervivientes, encuentras a varias amistades.</p><p>—Tenemos que salvar a toda la gente que podamos —dice la Dra. Marquez.</p><p>Cuando empiezas la búsqueda, la entidad resplandeciente emerge del socavón, refractada como un cristal hecho añicos.</p>",
+    "removeEachMirrorNestAndCave": "Retira de la partida cada Lugar Nido de espejos y _Cueva_.",
+    "putEachSetAsideHemlockValeLocationIntoPlay": "Pon en juego cada Lugar *Valle de la Cicuta* puesto aparte con su lado (*Noche*).",
+    "moveEachInvestigatorToTheCrossroads": "Mueve a cada investigador a El cruce de caminos.",
+    "checkYourCampaignLog": "Consulta el registro de campaña.",
+    "ifThePetersFamilyWasReunited": "*Si la familia Peters se reunió*, busca a Helen Peters y a Theo Peters en todas las zonas dentro y fuera del juego y pon a cada cual en juego bajo el control de cualquier investigador (o investigadores), con el lado de Apoyo boca arriba.",
+    "ifTheHemlocksMadeATruce": "*Si los Cicuta acordaron una tregua*, busca a River Hawthorne y a William Hemlock en todas las zonas dentro y fuera del juego y pon a cada cual en juego bajo el control de cualquier investigador (o investigadores), con el lado de Apoyo boca arriba.",
+    "putAct3aFateOfTheValeV1IntoPlay": "Pon en juego el Acto 3a: El destino del Valle (v.I). Retira de la partida todos los demás Actos.",
+    "placeCards": "Busca en el conjunto de Encuentros *Día de la fiesta* 2 copias de Festejante enajenada, barájalas junto con cada carta de _Habitante_ puesta aparte y colócalas, con el lado de Enemigo boca arriba, en cada Lugar excepto El cruce de caminos, repartidas lo más equitativamente posible.",
+    "flipCosmicEmissaryEnemies": "Dale la vuelta a cada Enemigo Emisario cósmico para mostrar su lado _Destrozado_. Coloca el Emisario cósmico (*El abismo*) en El cruce de caminos. Baraja los demás Enemigos Emisario cósmico y coloca uno de ellos en la Pensión, otro en El salón comunitario y otro en La Casa Atwood.",
+    "resumePlaying": "Reanudad la partida.",
+    "fateOfTheVale3": "<p>_El destino del Valle 3:_ Con la ayuda de la Dra. Marquez, sales trepando del socavón y descubres el Valle de la Cicuta envuelto en una niebla rojo sangre. Si esta presencia alienígena se alimenta de la gente, la flora y la fauna de la isla, quizá aún puedas privarla de su banquete. La aldea está llena de fuegos artificiales. Tal vez baste con eso para prender fuego a la isla…</p><ul><li>Pon en juego el Acto 3a: El destino del Valle (v.III). Retira de la partida todos los demás Actos.</li><li>Salta a _El destino del Valle 5_.</li></ul>",
+    "fateOfTheVale4": "<p>_El destino del Valle 4:_ Con la ayuda de la Dra. Marquez, sales trepando del socavón y descubres el Valle de la Cicuta envuelto en una niebla rojo sangre. La profesora se aprieta las sienes con las manos mientras evalúa la situación.</p><p>—Tenemos que encontrar mis notas. Y a Bertie, si sigue con vida. No… no me gusta, pero tenemos que escapar. Puede que el faro de la Punta Sur esté lo bastante lejos. Quizá allí estemos a salvo.</p><ul><li>Pon en juego el Acto 3a: El destino del Valle (v.IV). Retira de la partida todos los demás Actos.</li><li>Continúa en _El destino del Valle 5_.</li></ul>",
+    "fateOfTheVale5": "<p>_El destino del Valle 5:_ Una luz plateada brilla a través de la niebla y proyecta extrañas sombras. Algunas son las siluetas de aldeanos enajenados.</p><ul><li>Retira de la partida cada Lugar Nido de espejos y _Cueva_.</li><li>Pon en juego cada Lugar _Valle de la Cicuta_ puesto aparte con su lado (*Noche*).<ul><li>Mueve a cada investigador a El cruce de caminos.</li></ul></li><li>Consulta el registro de campaña.<ul><li>*Si Bertie falleció*, retira de la partida el Apoyo de historia Bertie Musgrave puesto aparte. De lo contrario, ponlo en juego en la Pensión, con el lado de Apoyo boca arriba.</li><li>Busca en el conjunto de Encuentros *Día de la fiesta* 2 copias de Festejante enajenada, barájalas junto con cada carta de _Habitante_ puesta aparte y colócalas, con el lado de Enemigo boca arriba, en cada Lugar vacío excepto El cruce de caminos, repartidas lo más equitativamente posible (si no quedan Lugares vacíos, detente inmediatamente).</li><li>Retira de la partida las cartas de _Habitante_ restantes.</li></ul></li><li>Dale la vuelta a cada Enemigo Emisario cósmico para mostrar su lado _Destrozado_ (*rompiendo su formación*). Coloca el Emisario cósmico (*El abismo*) en El cruce de caminos. Baraja los demás Enemigos Emisario cósmico y coloca uno de ellos en la Pensión, otro en El salón comunitario y otro en La Casa Atwood.</li><li>Reanudad la partida.</li></ul>"
+  },
+  "tokens": {
+    "easyStandard": {
+      "skull": "-X. X es el número del Acto en curso más 1.",
+      "cultist": "-4. Si fracasas, descarta al azar 1 carta de tu mano.",
+      "tablet": "-5. En vez de eso, puedes colocar 1 ficha de Perdición en tu carta de Investigador para tratar el modificador de esta ficha como 0.",
+      "elderThing": "-2. Si esta prueba es un combate o un intento de evitar contra el Emisario cósmico, revela otra ficha."
+    },
+    "hardExpert": {
+      "skull": "-X. X es la cantidad de Enemigos _Color_ en juego.",
+      "cultist": "-6. Descarta al azar 1 carta de tu mano.",
+      "tablet": "-8. En vez de eso, puedes colocar 1 ficha de Perdición en tu carta de Investigador para tratar el modificador de esta ficha como -3.",
+      "elderThing": "-5. Si esta prueba es un combate o un intento de evitar contra el Emisario cósmico, en vez de eso fracasas automáticamente."
+    }
+  },
+  "tooltips": {
+    "fateOfTheValeV3": {
+      "placeKindling": "{'{'}action{'}'} Gasta X {'{'}perPlayer{'}'} pistas: Coloca X recursos en tu Lugar como yesca (puedes gastar 5 recursos o descartar un Apoyo _Objeto_ que controles para colocar 1 yesca adicional).",
+      "drawFire": "{'{'}action{'}'} Si tu Lugar tiene una cantidad de yesca igual o superior a su valor de Velo, retira de él toda la yesca: Roba 1 Traición ¡Fuego! puesta aparte (límite de grupo de una vez por Lugar).",
+      "placeKindlingMiners": "{'{'}action{'}'} Gasta X pistas: Coloca X recursos en tu Lugar como yesca (puedes gastar 5 recursos o descartar un Apoyo _Objeto_ que controles para colocar 1 yesca adicional).",
+      "drawFireMiners": "{'{'}fast{'}'} Si tu Lugar tiene 1 {'{'}perPlayer{'}'} de yesca, retira de él toda la yesca: Roba 1 Traición ¡Fuego! puesta aparte (límite de grupo de una vez por Lugar)."
+    }
+  },
+  "label": {
+    "spendCluesToAutomaticallySucceed": "Gastar pistas para tener éxito automáticamente",
+    "tablet": {
+      "easyStandard": "Colocar 1 ficha de Perdición en tu carta de Investigador para tratar el modificador de esta ficha como 0",
+      "hardExpert": "Colocar 1 ficha de Perdición en tu carta de Investigador para tratar el modificador de esta ficha como -3"
+    },
+    "euphoria": {
+      "placeAssetOnAbyss": "Colocar en la parte superior de El abismo un Apoyo que no sea de historia y que controles"
+    },
+    "fragmentation": {
+      "placeAssetOnAbyss": "Colocar en la parte superior de El abismo tu Apoyo con mayor coste impreso",
+      "nearestEmissaryAttacks": "El Emisario cósmico más cercano te ataca"
+    },
+    "sublimation": {
+      "placeHandOnAbyss": "Colocar las cartas de tu mano en la parte superior de El abismo",
+      "nearestEmissaryAttacks": "El Emisario cósmico más cercano te ataca"
+    },
+    "theSilence": {
+      "shuffleTopCardIntoAbyss": "Añadir a El abismo la primera carta de tu mazo y barajarlo"
+    },
+    "theMiasma": {
+      "shuffleTopCardIntoAbyss": "Añadir a El abismo la primera carta de tu mazo y barajarlo"
+    },
+    "fateOfTheValeV1": {
+      "letMarquezCarryOutPlan": "Dejar que la Dra. Marquez lleve a cabo su plan",
+      "doItOurselves": "Hacerlo nosotros"
+    },
+    "fateOfTheValeV3": {
+      "spendResourcesForKindling": "Gastar 5 recursos para colocar 1 yesca adicional"
+    },
+    "shatteredMemories": {
+      "doNotTakeControl": "No tomar el control de un habitante"
+    },
+    "oldMemory": {
+      "chooseInvestigator": "Elige un investigador para que robe esa carta",
+      "cancelRevelation": "Cancelar el efecto de Revelación de esa carta y retirarla de la partida"
+    }
+  },
+  "setup": {
+    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de Encuentros: *El último día*, *El destino del Valle*, *Día de la fiesta*, *Agentes del color*, *¡Fuego!*, *Horrores en la roca*, *Refracciones*, *Habitantes*, *Transfiguración* y *El Valle*. Estos conjuntos se identifican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/the-final-day.png' /><img src='{setImgPath}/fate-of-the-vale.png' /><img src='{setImgPath}/day-of-the-feast.png' /><img src='{setImgPath}/agents-of-the-colour.png' /><img src='{setImgPath}/fire.png' /><img src='{setImgPath}/horrors-in-the-rock.png' /><img src='{setImgPath}/refractions.png' /><img src='{setImgPath}/residents.png' /><img src='{setImgPath}/transfiguration.png' /><img src='{setImgPath}/the-vale.png' /></section>",
+    "nightThree": "Pon en juego la carta de Indicador de tiempo _Noche tres_. No estás a solas.",
+    "shatteredSelf": "Sustituye la carta de Investigador de cada jugador por una carta de Investigador Yo fragmentado (*consulta* _Yo fragmentado_). Retira de la partida todas las demás cartas Yo fragmentado.",
+    "mirrorNests": "Reúne todos los Lugares del conjunto de Encuentros *El destino del Valle* junto con cada copia del Enemigo Emisario cósmico de doble cara.",
+    "shuffleMirrorNests": "Baraja los 4 Lugares Nido de espejos de modo que no sepas cuál es cuál y ponlos en juego, sin revelar, junto con los Enemigos Emisario cósmico según el diagrama de colocación. Cada Enemigo Emisario cósmico comienza la partida con su lado _Color_ boca arriba.",
+    "connections": "Ten en cuenta que cada Lugar Nido de espejos está conectado a los Lugares que estén inmediatamente después de él en el sentido de las agujas del reloj y en el sentido contrario.",
+    "startingLocation": "Cada investigador comienza la partida en un Lugar Nido de espejos distinto de su elección.",
+    "setAside": "Pon aparte, fuera del juego, las siguientes cartas: la carta de Historia El abismo, cada Lugar de los conjuntos de Encuentros El Valle y Horrores en la roca, los conjuntos de Encuentros Día de la fiesta, Habitantes y ¡Fuego!, cada copia del Acto 3a: El destino del Valle (v.I-IV) y los dos Enemigos Parásito de cristal.",
+    "removeScenarioReference": "Retira de la partida la carta de referencia de escenario del conjunto de Encuentros *El Valle*.",
+    "createTheAbyss": "Después de robar las manos iniciales, crea El abismo (*consulta* _El abismo_).",
+    "seedAbyssDeck": "Baraja todas las cartas de Encuentro restantes junto con las 5 primeras cartas del mazo de cada investigador.",
+    "shuffleTrueSelves": "Divide el mazo barajado por la mitad y pon una mitad aparte. Añade todas las cartas de Investigador «verdaderas» a una mitad, barájala y coloca esta mitad sobre la otra. Esto es El abismo.",
+    "placeTheAbyss": "Coloca la carta El abismo de doble cara sobre El abismo, con el lado de carta de Historia boca arriba."
+  },
+  "theAbyss": {
+    "title": "El abismo",
+    "body": "<h3>El abismo</h3><p class='basic'>La carta El abismo de doble cara siempre tapa la parte superior de El abismo y nunca se baraja con él. Si se colocan 1 o más cartas en la parte superior de El abismo, se colocan justo debajo de la carta El abismo, sobre todas las demás cartas de El abismo. Si se añaden 1 o más cartas a El abismo y se baraja, retira la carta El abismo, añade las cartas, baraja El abismo y vuelve a colocar encima la carta El abismo.</p><p class='basic'>Siempre que un investigador fuese a robar 1 o más cartas del mazo de Encuentros (por ejemplo, durante la fase de Mitos o por el efecto de una carta), en vez de eso revela cartas de la parte inferior de El abismo hasta que revele una carta con dorso de carta de Encuentro, y roba esa carta. Todas las demás cartas reveladas se barajan y vuelven a colocarse en la parte superior de El abismo (bajo la carta El abismo).</p><ul><li>Siempre que se robe una carta de El abismo, consulta la carta de Historia El abismo de doble cara para determinar cómo resolverla.</li><li>_Los efectos de cartas de Jugador y de Debilidades que miren o descarten cartas del mazo de Encuentros, que busquen cartas en él o que le añadan cartas no pueden interactuar con El abismo, y todos fracasan._</li><li>_Cuando en este escenario fuese a ser descartada una carta de Encuentro, siempre se coloca en la parte superior de El abismo._</li></ul>"
+  },
+  "cosmicEmissary": {
+    "title": "El Emisario cósmico",
+    "body": "<h3>El Emisario cósmico</h3><p class='basic'>El Emisario cósmico está compuesto de múltiples Enemigos Emisario cósmico.</p><ul><li>Cada Enemigo Emisario cósmico entra en juego «en formación», como se muestra en el diagrama de colocación.</li><li>Cada Enemigo Emisario cósmico debe permanecer siempre en formación a menos que se indique otra cosa. Si el Emisario cósmico rompe la formación en algún momento, cada Enemigo se moverá de forma independiente de los demás.</li><li>Cada Enemigo Emisario cósmico puede combatirse y evitarse por separado (a menos que tengan un valor de salud, no se puede infligir daño a estos Enemigos).</li><li>Mientras estén en formación, se considera que cada Enemigo Emisario cósmico está en el Nido de espejos con el que su carta linda físicamente.</li></ul>",
+    "prompt": {
+      "title": "El Emisario cósmico te devuelve la mirada",
+      "body": "Has mirado al Enemigo Emisario cósmico durante más de 15 segundos. Pierdes la razón.",
+      "continue": "Continuar",
+      "agendaAlt": "Carta de Plan en curso"
+    }
+  },
+  "shatteredSelf": {
+    "title": "Yo fragmentado",
+    "body": "<h3>Yo fragmentado</h3><p class='basic'>Durante la preparación de este escenario, cada investigador debe sustituir su carta de Investigador por una carta de Investigador Yo fragmentado incluida en el conjunto de Encuentros *El destino del Valle*.</p><ul><li>El mazo de cada investigador no cambia. Durante una parte de este escenario, los investigadores deben usar la carta de Investigador Yo fragmentado y no pueden usar ninguna de las capacidades de su investigador. Cada investigador debería seguir usando su carta pequeña de Investigador para poder saber quién es quién. Cualquier efecto de tu carta de Investigador que te indique que empieces la partida con un Apoyo concreto se resuelve antes de cambiar tu carta de Investigador por una carta de Investigador Yo fragmentado.</li><li>Cualquier trauma que fuese a colocarse normalmente en tu investigador se transfiere a tu carta de Investigador Yo fragmentado.</li><li>Cualquier carta que estuviera vinculada a tu carta de Investigador o colocada debajo de ella se vincula a tu carta Yo fragmentado o se coloca debajo de esta.</li><li>Cualquier efecto de carta que haga referencia a tu carta de Investigador «verdadera» se refiere a tu carta de Investigador original y no a tu carta Yo fragmentado.</li><li>Tu carta Yo fragmentado tiene el mismo nombre que tu carta de Investigador «verdadera». (*Por ejemplo: si juegas con Kōhaku Narukami, trata la carta Yo fragmentado como si su título fuese «Kōhaku Narukami».*)</li><li>Si tu Yo fragmentado es derrotado durante este escenario, _pierdes la razón_.</li></ul>"
+  },
+  "resolutions": {
+    "xp": {
+      "cosmicEmissary": "Por derrotar al Emisario cósmico y al Color del espacio exterior.",
+      "savedTheVale": "Por salvar a la gente de la isla de la Cicuta de un destino terrible.",
+      "eradicatedTheColour": "Por erradicar al Color del espacio exterior..., ¿verdad?",
+      "survivedTheFeast": "Por sobrevivir a la fiesta."
+    },
+    "noResolution": {
+      "title": "Sin resolución",
+      "body": "<div class='resolution'><p>_Si no se ha llegado a ninguna resolución (todos los investigadores han desistido o han sido derrotados)_: Un fulgor indescriptible engulle cuanto te rodea. Una euforia ya familiar se apodera de ti mientras la propia realidad se hace añicos a tu alrededor, y alcanzas a vislumbrar otros rostros: humanos, alienígenas, animales. El éxtasis se convierte en un dolor atroz a medida que tu cuerpo se sublima en un gas rojo. Mientras gritas, los otros mil rostros gritan contigo en tu mente: comprendes que cada uno de ellos eres tú en otros tiempos, en otras realidades. Los demás rostros se refractan, se parten en dos y vuelven a fracturarse como un espejo roto, mientras cada versión de ti se rehace en algo nuevo. Y entonces, calidez. Plenitud. Ya no existes. Solo hay color y luz. Por fin has encontrado tu sitio.</p><ul><li>Anota en el registro de campaña que *los investigadores se convirtieron en la verdadera fiesta del Valle de la Cicuta*.</li><li>Los investigadores son devorados (cada investigador muere).</li><li>Los investigadores pierden la campaña.</li></ul></div>"
+    },
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<div class='resolution'><p>_Resolución 1_: —No me olvides.</p><p>La Dra. Marquez trepa hasta el borde del vacío resplandeciente y te mira con serena determinación antes de arrojarse a la corona de luz. La figura humana de humo que hay dentro del anillo brillante vacila y después se funde en un arcoíris sin dimensiones que sale disparado hacia arriba desde la fluorescencia moribunda. Una pequeña onda expansiva te derriba.</p><p>A oscuras, la enorme cámara subterránea parece una tumba. Trepas hasta la cima del montículo y miras a través del socavón un cielo lleno de estrellas. La luz plateada se aleja en débiles espirales. Con el corazón encogido, abrazas la cartera de la Dra. Marquez: por lo que sabes, es todo cuanto queda de la profesora.</p><p>—¿Hay alguien ahí abajo? —pregunta una voz temblorosa.</p><p>Levantas la vista y ves la silueta de alguien del Valle, con una capa blanca y dorada hecha jirones. Tiene el aspecto de quien acaba de despertar de un mal sueño. Dudas, pero luego respondes a su llamada. Al cabo de un minuto cae una gruesa cuerda y te izan hasta dejarte en pie entre las ruinas astilladas del Valle de la Cicuta. Los supervivientes se reúnen a tu alrededor.</p><p>—Por favor, si tu corazón te lo permite, perdónanos —dice alguien. Otra persona se despoja de la máscara y de la capa harapienta.</p><p>Más allá del gentío crees ver una máscara de conejo conocida que asoma entre las sombras, pero cuando vuelves la cabeza para mirar, ya se ha desvanecido.</p><ul><li>Actualiza el registro de campaña.<ul><li>Tacha el nombre de cada habitante que no estuviera bajo el control de un investigador al final de la partida.</li><li>Anota en el registro de campaña que *la Dra. Marquez se sacrificó por el Valle*.</li></ul></li><li>Si Dra. Rosa Marquez forma parte del mazo de un investigador, quítala del mazo de ese investigador.</li><li>Cada investigador sufre 1 trauma físico y 1 trauma mental mientras llora la pérdida de la Dra. Marquez y se recupera de los efectos degenerativos del Color.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria. Cada investigador obtiene 5 puntos de experiencia adicionales por haber derrotado al Emisario cósmico y al Color del espacio exterior.<ul><li>_Experiencia_: {xp}</li></ul></li><li>¡Los investigadores ganan la campaña!</li><li>Continúa en el _Epílogo_.</li></ul></div>"
+    },
+    "resolution2": {
+      "title": "Resolución 2",
+      "body": "<div class='resolution'><p>_Resolución 2_: Al comprender las intenciones de la profesora, le devuelves la cartera apretándola contra sus brazos y trepas por la pila de cuerpos petrificados hasta plantarte ante el abismo cegador. Aferras la esquirla prismática y vuelves la vista atrás por última vez. La profesora te mira desde abajo con absoluta incredulidad. Grita tu nombre mientras te giras hacia las brillantes fauces en espiral. Con la esquirla prismática apretada contra el pecho, te arrojas al vacío infinito.</p><p>Te recibe una sensación de intensa euforia. Entre los pliegues de la luz en espiral hay rostros: humanos, animales, alienígenas. Sonríes, y mil bocas sonríen contigo: cada una es un reflejo de ti en otro tiempo, en otro lugar, en otra realidad. Sientes una cálida afinidad con esas otras versiones de ti mientras te hundes cada vez más en el vacío. El éxtasis da paso a la calma y después al entumecimiento. Los demás rostros se refractan, se parten en dos y vuelven a refractarse mientras tu propio ser se desgarra.</p><p>Un grito sin palabras se abre paso en tu mente astillada, acompañado de un dolor atroz. Sientes que te disuelves junto con el abismo. Y después, el olvido.</p><ul><li>Anota en el registro de campaña que *los investigadores se sacrificaron por el Valle*.</li><li>Los investigadores son devorados (cada investigador muere).</li><li>Los investigadores ganan la campaña, pero son aniquilados.</li><li>Continúa en el _Epílogo_.</li></ul></div>"
+    },
+    "resolution3": {
+      "title": "Resolución 3",
+      "body": "<div class='resolution'><p>_Resolución 3_: Estás a punto de desplomarte de agotamiento en cuanto entras en el faro en ruinas. Tu variopinto grupo de supervivientes se compone de muchos lugareños aturdidos, marineros de Akwan y turistas desorientados. Mientras les vendas las heridas, te miran con impotencia. Fuera, el sol tiñe el cielo de colores intensos.</p><p>Sales a la limpia luz de la mañana y respiras con facilidad por primera vez en días. Toda la isla de la Cicuta está sepultada bajo una ceniza blanca como la nieve que le da el aspecto de un invierno temprano. Lo único que queda del fecundo bosque occidental es la gran oquedad nudosa de un árbol antiquísimo, cuyas ramas enmarañadas arañan el cielo.</p><p>—Tenemos mucho que contar a la junta de la Universidad Miskatonic. —La Dra. Marquez se te acerca y deja escapar un suspiro de cansancio—. Pero dudo que entiendan lo que ha ocurrido aquí en realidad.</p><p>Asientes, con la mente en otra parte. Al otro lado de la bahía, un breve y sutil jirón de nube refleja la luz del sol. Cuando parpadeas, ya ha desaparecido.</p><ul><li>Actualiza el registro de campaña.<ul><li>Tacha el nombre de cada habitante que estuviera en la zona de victoria al final de la partida.</li><li>Anota que *el Valle se salvó*.</li></ul></li><li>Cada investigador sufre 2 traumas físicos y 2 traumas mentales mientras lidia con la enorme pérdida de vidas y con el terror que aún habita bajo la isla de la Cicuta.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria. Cada investigador obtiene 3 puntos de experiencia adicionales por haber salvado a la gente de la isla de la Cicuta de un destino terrible.<ul><li>_Experiencia_: {xp}</li></ul></li><li>¡Los investigadores ganan la campaña!</li><li>Continúa en el _Epílogo_.</li></ul></div>"
+    },
+    "resolution4": {
+      "title": "Resolución 4",
+      "body": "<div class='resolution'><p>_Resolución 4_: El faro está envuelto en un turbio humo gris. Intentas dormir toda la noche junto con los demás supervivientes, pero os acosan las pesadillas. Un árbol en llamas. Una estrella que cae. La silueta fantasmal de la madre Rachel, que te señala con gesto acusador empuñando un largo cuchillo ceremonial.</p><p>Por la mañana, sales a un paisaje gris y sin rasgos. Nada se ha librado del incendio. La isla está cubierta de una fina ceniza gris, interrumpida tan solo por unos pocos árboles torcidos.</p><p>—Tenemos mucho que contar a la junta de la Universidad Miskatonic. —La Dra. Marquez se te acerca y deja escapar un suspiro de cansancio—. Pero dudo que entiendan lo que ha ocurrido aquí en realidad.</p><p>Asientes, con la mente en otra parte. Al otro lado de la bahía, un breve y sutil jirón de nube refleja la luz del sol. Cuando parpadeas, ya ha desaparecido.</p><ul><li>Actualiza el registro de campaña.<ul><li>Tacha el nombre de cada habitante que no estuviera bajo el control de un investigador al final de la partida.</li><li>Anota en el registro de campaña que *el Valle ardió*.</li></ul></li><li>Cada investigador sufre 2 traumas físicos y 2 traumas mentales mientras lidia con la enorme pérdida de vidas y con el terror que aún habita bajo la isla de la Cicuta.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria. Cada investigador obtiene 3 puntos de experiencia adicionales por erradicar al Color del espacio exterior..., ¿verdad?<ul><li>_Experiencia_: {xp}</li></ul></li><li>¿Los investigadores ganan la campaña?</li><li>Continúa en el _Epílogo_.</li></ul></div>"
+    },
+    "resolution5": {
+      "title": "Resolución 5",
+      "body": "<div class='resolution'><p>_Resolución 5_: La Dra. Marquez te despierta zarandeándote.</p><p>—Hablabas en sueños. Pero no parecía tu voz. No era ningún idioma que yo haya oído jamás.</p><p>Tu mente se inunda de recuerdos extraños. Tú, en un bar clandestino lleno de humo, hablando con una voz ajena. Bordeando las sombras de una esquina como un gato atigrado. Bebiendo la luz del sol como una flor de lila. Llorando con la cara entre las manos en una capilla.</p><p>En lugar de contarlo, sigues a la profesora al exterior, bajo el hiriente sol de media mañana. La propia luz te recuerda al abismo en espiral que hay en las profundidades del Valle y te revuelve el estómago. Toda la isla de la Cicuta está sepultada bajo una ceniza blanca como la nieve que le da el aspecto de un invierno temprano.</p><p>—Tenemos mucho que contar a la junta de la Universidad Miskatonic. —La Dra. Marquez se te acerca y deja escapar un suspiro de cansancio—. Pero dudo que entiendan lo que ha ocurrido aquí en realidad.</p><p>Asientes mientras todo te da vueltas. Incluso cuando cierras los ojos, sigues viendo aquel fulgor imposible.</p><p>—¿Te encuentras bien?</p><p>La Dra. Marquez repite tu nombre. Cuanto más lo oyes, más absurdo te suena. Se lo repites entre risitas. El mundo que te rodea brilla con una espantosa incandescencia.</p><p>Por más que lo intentas, no puedes dejar de reír.</p><ul><li>Actualiza el registro de campaña.<ul><li>Tacha el nombre de cada habitante que no estuviera bajo el control de un investigador al final de la partida.</li><li>Anota que *los investigadores sobrevivieron a duras penas a la fiesta del Valle de la Cicuta*.</li></ul></li><li>Cada investigador sufre 3 traumas físicos y 3 traumas mentales, pues los brillantes y enloquecedores efectos del Color del espacio exterior no dejan de atormentar su mente.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria. Cada investigador obtiene 2 puntos de experiencia adicionales por haber sobrevivido a la fiesta.<ul><li>_Experiencia_: {xp}</li></ul></li><li>Los investigadores ganan la campaña..., pero nadie más lo consiguió.</li><li>Continúa en el _Epílogo_.</li></ul></div>"
+    }
+  },
+  "codex": {
+    "leahAtwood": {
+      "title": "{'{'}codex{'}'} Códice 2: Leah Atwood",
+      "act2": "<h3>@:theFeastOfHemlockVale.fateOfTheVale.codex.leahAtwood.title </h3><p>_Si es el Acto 2:_</p><p>—Pero ¿qué demonios? —Leah ahoga un grito de asombro y levanta una mano hacia la luz, como si la apoyara en un cristal—. Es increíble.</p><p class='basic right'>Busca un Apoyo _Objeto_ en todas las zonas fuera del juego y róbalo. Un investigador puede volver a activar este Códice durante un Acto distinto.</p>",
+      "act3": "<p>_De lo contrario:_</p><p>—Este era nuestro hogar —solloza Leah—. Rachel, ¿en qué estabas pensando? Todo es culpa mía. Me quedé de brazos cruzados y dejé que pasara.</p><p class='basic right'>Cada investigador puede robar 2 cartas o curar 1 punto de horror.</p>",
+      "label": {
+        "drawTwo": "Robar 2 cartas",
+        "healHorror": "Curar 1 punto de horror",
+        "doNotExtend": "No ampliar la búsqueda",
+        "drawItem": "Robar un Apoyo Objeto o ampliar la búsqueda a un mazo"
+      }
+    },
+    "simeonAtwood": {
+      "title": "{'{'}codex{'}'} Códice 3: Simeon Atwood",
+      "act2": "<h3>@:theFeastOfHemlockVale.fateOfTheVale.codex.simeonAtwood.title </h3><p>_Si es el Acto 2:_</p><p>Simeon contempla la luz deslumbrante con los ojos como platos.</p><p>—Esto es más bonito que cualquier castillo de fuegos artificiales —dice, fascinado.</p><p class='basic right'>Evitas automáticamente a cada Enemigo Emisario cósmico en juego. Un investigador puede volver a activar este Códice durante un Acto distinto.</p>",
+      "act3": "<p>_Si es el Acto 3a: El destino del Valle (v.III):_</p><p>Simeon se sube de un salto a una bala de heno humeante, riéndose a carcajadas.</p><p>—¡Esto es genial! ¡Chúpate esa, tía Rachel! —grita mientras lanza un petardo.</p><p class='basic right'>Elige un Lugar y coloca en él 3 recursos como yesca.</p>",
+      "otherwise": "<p>_De lo contrario:_</p><p>—¿Has visto a Digby? —Simeon mira a su alrededor, al parecer sin rumbo.</p><p class='basic right'>Cada investigador puede robar 1 carta u obtener 2 recursos.</p>",
+      "label": {
+        "drawOne": "Robar 1 carta",
+        "gainResources": "Obtener 2 recursos"
+      }
+    },
+    "williamHemlock": {
+      "title": "{'{'}codex{'}'} Códice 4: William Cicuta",
+      "act2": "<h3>@:theFeastOfHemlockVale.fateOfTheVale.codex.williamHemlock.title </h3><p>_Si es el Acto 2:_</p><p>—Jamás imaginé que pudiera existir algo tan trascendente y terrible. —El heredero de los Cicuta contempla, hipnotizado, la luz que gira en remolinos.</p><p class='basic right'>Cada investigador obtiene 1 pista (de la reserva de fichas). Un investigador puede volver a activar este Códice durante un Acto distinto.</p>",
+      "act3": "<p>_Si es el Acto 3a: El destino del Valle (v.II):_</p><p>—¡Poned a todo el mundo a salvo! —grita William, blandiendo la pata de una mesa.</p><p class='basic right'>Roba una carta de Habitante de debajo de cualquier Lugar y ponla en juego en ese Lugar, agotada y con el lado de Enemigo boca arriba.</p>",
+      "otherwise": "<p>_De lo contrario:_</p><p>William anota otro verso recargado en su libreta.</p><p>—El legado de mi familia se asemeja tanto a la copa de Sócrates. En ella yace la muerte, mas también la libertad y la liberación... Oh. Y... «liberación» rima con «celebración»...</p><p class='basic right'>Cada investigador puede robar hasta 2 cartas.</p>",
+      "label": {
+        "drawNone": "No robar cartas",
+        "drawOne": "Robar 1 carta",
+        "drawTwo": "Robar 2 cartas"
+      }
+    },
+    "riverHawthorne": {
+      "title": "{'{'}codex{'}'} Códice 5: River Hawthorne",
+      "act2": "<h3>@:theFeastOfHemlockVale.fateOfTheVale.codex.riverHawthorne.title </h3><p>_Si es el Acto 2:_</p><p>—Ay, cielos… —River contempla el horror centelleante del centro de la cámara. Por una vez, no encuentra palabras.</p><p class='basic right'>Puedes jugar una carta de Objeto de tu mano, ignorando todos los costes. Un investigador puede volver a activar este Códice durante un Acto distinto.</p>",
+      "act3": "<p>_Si es el Acto 3a: El destino del Valle (v.II):_</p><p>—Date prisa. Vas más lento que una velada con mi familia política. —River empuja hacia ti a alguien de la aldea—. ¡Toma, hazte cargo!</p><p class='basic right'>Roba una carta de Habitante de debajo de cualquier Lugar y ponla en juego en ese Lugar, agotada y con el lado de Enemigo boca arriba.</p>",
+      "otherwise": "<p>_De lo contrario:_</p><p>—Pues todo esto ha sido un fiasco. —River te mira con desánimo—. Aunque supongo que este miserable pedrusco siempre fue una causa perdida. —Su expresión se vuelve traviesa—. Al menos la fortuna de los Cicuta está donde tiene que estar.</p><p class='basic right'>Obtienes 4 recursos.</p>"
+    },
+    "gideonMizrah": {
+      "title": "{'{'}codex{'}'} Códice 6: Gideon Mizrah",
+      "additionalActions": "Gideon Mizrah",
+      "act2": "<h3>@:theFeastOfHemlockVale.fateOfTheVale.codex.gideonMizrah.title </h3><p>_Si es el Acto 2:_</p><p>El abismo multicolor se refleja en los ojos del viejo marinero.</p><p>—No es la primera ve' que veo esto —dice con gravedad, y no añade nada más.</p><p class='basic right'>Cada investigador puede realizar una acción adicional durante su siguiente turno. Un investigador puede volver a activar este Códice durante un Acto distinto.</p>",
+      "act3": "<p>_Si es el Acto 3a: El destino del Valle (v.I):_</p><p>Gideon levanta una esquirla cristalina.</p><p>—Vino de la roca. La que el capitán tiró al pozo. Pero no nos libramos d'ella. Nunca jamá'.</p><p class='basic right'>Evitas automáticamente al Enemigo Emisario cósmico que esté en tu Lugar.</p>",
+      "otherwise": "<p>_De lo contrario:_</p><p>—Si no salgo d'esta, busca a mi sobrina y dale esto. Es to' lo que me queda —dice Gideon, y te entrega un diario con manchas de salitre.</p><p class='basic right'>Retira 1 ficha de Perdición del Plan en curso.</p>"
+    },
+    "judithPark": {
+      "title": "{'{'}codex{'}'} Códice 7: Judith Park",
+      "act2": "<h3>@:theFeastOfHemlockVale.fateOfTheVale.codex.judithPark.title </h3><p>_Si es el Acto 2:_</p><p>Judith dispara al vacío resplandeciente; después baja el rifle y se queda mirando las espirales de luz y color.</p><p>—¿Qué demonios es esa cosa?</p><p class='basic right'>Elige un Enemigo en cualquier Lugar y lo evitas automáticamente. Un investigador puede volver a activar este Códice durante un Acto distinto.</p>",
+      "act3": "<p>_De lo contrario:_</p><p>—Si salimos de esta con vida, me debes una copa. Hay un bar clandestino en Boston donde sirven el mejor matarratas. —Te clava la mirada—. Y no, no pienso aceptar un no por respuesta.</p><p class='basic right'>Busca una carta de Arma en tu mazo, tu mano y tu pila de descarte y juégala, ignorando todos los costes.</p>"
+    },
+    "theoPeters": {
+      "title": "{'{'}codex{'}'} Códice 8: Theo Peters",
+      "act2": "<h3>@:theFeastOfHemlockVale.fateOfTheVale.codex.theoPeters.title </h3><p>_Si es el Acto 2:_</p><p>—Qué bonito es. —Theo alza la vista hacia la luz titilante y extiende una mano, como si quisiera tocarla—. Bonito como cinco atardeceres juntos, por lo menos. Ojalá Lizzie pudiera verlo. —Hace una pausa—. En realidad, me alegro de que no pueda.</p><p class='basic right'>Puedes buscar un Lugar en El abismo, ponerlo en juego y moverte inmediatamente a él. Un investigador puede volver a activar este Códice durante un Acto distinto.</p>",
+      "otherwise": "<p>_De lo contrario:_</p><p>—Mi hermana tenía razón —dice Theo con gravedad—. Tenía razón en todo. Solo espero poder volver a verla.</p><p class='basic right'>Todos los Enemigos dejan de estar enfrentados a ti. Muévete a cualquier Lugar.</p>"
+    },
+    "drRosaMarquez": {
+      "title": "{'{'}codex{'}'} Códice Θ: Dra. Rosa Marquez",
+      "act1": "<h3>@:theFeastOfHemlockVale.fateOfTheVale.codex.drRosaMarquez.title </h3><p>_Si es el Acto 1:_</p><p>—¿Marika? —La mujer de cabello oscuro te mira, aturdida. No recuerdas tu nombre, pero Marika no te suena bien..., ¿o sí?—. Olvidé algo, Marika. Pero me acordé de ti.</p><p class='basic right'>Revela las 6 últimas cartas de El abismo. Puedes robar cualquier cantidad de ellas. Coloca las demás de nuevo en la parte superior de El abismo en cualquier orden. Un investigador puede volver a activar este Códice durante un Acto distinto.</p>",
+      "act3": "<p>_Si es el Acto 3a: El destino del Valle (v.I):_</p><p>—Ya entiendo lo que es —dice la Dra. Marquez—. Es un ser vivo. Alguna especie primigenia, o algo que no es de este mundo. Lo trajeron aquí (quizá fue el capitán Cicuta) y excavó hasta las profundidades de la tierra, desde donde impregnó el agua, el suelo, las cosechas. Todo. Es intrínsecamente venenoso para cuanto lo rodea. Una especie de miasma viviente. Una enfermedad adormecedora apenas consciente. Emergió de la Cresta Perla hace veinte años, pero no estaba preparado para... para marcharse. —La profesora saca una esquirla fosforescente—. Creo que vino de esto. Una de las esquirlas originales que lo trajeron a la isla. El ser consume a su huésped como un parásito y deja atrás una cáscara cristalizada. Lo congela en el tiempo. Y entonces el parásito sale del «cascarón» en forma de gas y se une a... Eso. —Suspira—. El comité de becas no se va a creer nada de esto.</p><p class='basic right'>Cada investigador obtiene 1 pista (de la reserva de fichas).</p>",
+      "otherwise": "<p>_De lo contrario:_</p><p>—Nunca deberíamos haber venido. Todo esto es culpa mía —dice la Dra. Marquez, abatida.</p><p class='basic right'>Cada investigador obtiene 1 pista (de la reserva de fichas). Un investigador puede volver a activar este Códice durante un Acto distinto.</p>",
+      "label": {
+        "doneDrawing": "Terminar de robar"
+      }
+    },
+    "bertieMusgrave": {
+      "title": "{'{'}codex{'}'} Códice Ω: Bertie Musgrave",
+      "body": "<h3>@:theFeastOfHemlockVale.fateOfTheVale.codex.bertieMusgrave.title </h3><p>—Ha sido más bien como una trampa, ¿verdad? —El joven observa con gravedad la devastación que se extiende por la aldea—. La dicha contagiosa era el modo que tenía este depredador invisible de mantener dóciles a sus víctimas. —Suelta una risa hueca—. Soy un científico. Supongo que debería estar tomando notas y recogiendo muestras. Pero lo único que quiero es irme a un sitio cálido y seguro.</p><p class='basic right'>Toma el control de Bertie Musgrave. Si es el Acto 3a: El destino del Valle (v.IV), recuerda que «Bertie está huyendo».</p>"
+    }
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "specialRules": [
+    {
+      "title": "Barreras",
+      "body": "<p class='basic'>Algunas capacidades de cartas permiten a los investigadores levantar barreras alrededor de la granja. Las barreras bloquean el movimiento de los Enemigos.</p><ul><li>Para levantar una barrera, coloca 1 ficha de Recurso (de la reserva de fichas) entre tu Lugar y un Lugar conectado, como barrera. Si un efecto de carta te indica que coloques una barrera «en» tu Lugar, elige un Lugar adyacente y coloca la barrera entre tu Lugar y el Lugar elegido. Se considera que esta barrera está «en» ambos Lugares a efectos de las cartas.</li><li>No hay límite al número de barreras entre Lugares.</li><li>Cuando un Enemigo fuese a moverse mediante una palabra clave (es decir, Cazador o Errante) y haya una o más barreras entre su Lugar y el Lugar al que se está moviendo, retira una de esas barreras y, en vez de eso, cancela los efectos del movimiento.</li><li>Los Enemigos que ignoren las barreras no resuelven ninguno de los efectos anteriores (incluida la retirada de la barrera).</li></ul>"
+    },
+    {
+      "title": "Señuelos",
+      "body": "<p class='basic'>Algunas capacidades de cartas colocan señuelos alrededor de la granja para entretener a los Enemigos.</p><ul><li>Para colocar un señuelo, pon 1 ficha de Horror (de la reserva de fichas) en tu Lugar, como señuelo. Límite de 1 señuelo por Lugar.</li><li>Cuando un Enemigo entre en un Lugar que tenga un señuelo, retira el señuelo, inflige 1 punto de daño a ese Enemigo, haz que deje de estar enfrentado a todos los investigadores y agótalo. Ese Enemigo no puede prepararse durante el resto de la ronda.</li><li>Los Enemigos que ignoren los señuelos no resuelven ninguno de los efectos anteriores (incluida la retirada del señuelo).</li></ul>"
+    },
+    {
+      "title": "Trampas",
+      "body": "<p class='basic'>Algunas capacidades de cartas tienden trampas alrededor de la granja para que caigan en ellas los Enemigos.</p><ul><li>Para tender una trampa, coloca 1 ficha de Daño (de la reserva de fichas) en tu Lugar, como trampa. Límite de 1 trampa por Lugar.</li><li>Cuando un Enemigo entre en un Lugar que tenga una trampa, retira la trampa e inflige 2 puntos de daño a ese Enemigo.</li><li>Los Enemigos que ignoren las trampas no resuelven ninguno de los efectos anteriores (incluida la retirada de la trampa).</li></ul>"
+    },
+    {
+      "title": "El mazo de Enemigos",
+      "body": "<p class='basic'>Durante la preparación de este escenario se forma un segundo mazo con un dorso de Encuentro distinto: el mazo de Enemigos. Es un mazo aparte compuesto únicamente por Enemigos y representa a la horda implacable de bestias enajenadas que vienen a por los cautivos. Durante la fase de Mitos, el efecto Obligado del plan hace que cada investigador robe la primera carta del mazo de Enemigos. El mazo de Enemigos tiene su propia pila de descarte y es inmune a los efectos de cartas de jugador. En este escenario, los Enemigos que no sean Debilidad se descartan a la pila de descarte de Enemigos. Si el mazo de Enemigos se agota, baraja la pila de descarte de Enemigos para formar de nuevo el mazo de Enemigos.</p>"
+    }
+  ],
+  "tokens": {
+    "easyStandard": {
+      "skull": "-X. X es la mitad de la cantidad de Perdición en juego (redondeando hacia arriba).",
+      "cultist": "-2. Coloca 1 barrera en tu Lugar.",
+      "tablet": "-1. Revela otra ficha. Si fracasas, el Enemigo más cercano se prepara, se mueve y ataca como si fuera la fase de Enemigos.",
+      "elderThing": "-4. Si fracasas, retira 1 barrera, señuelo o trampa de tu Lugar."
+    },
+    "hardExpert": {
+      "skull": "-X. X es la cantidad de Perdición en juego.",
+      "cultist": "-3. Si tienes éxito, coloca 1 barrera en tu Lugar.",
+      "tablet": "-4. El Enemigo más cercano se prepara, se mueve y ataca como si fuera la fase de Enemigos.",
+      "elderThing": "-5. Retira una barrera, señuelo o trampa de tu Lugar."
+    }
+  },
+  "intro": {
+    "title": "Escenario: La noche más larga",
+    "intro1": "<p>_Introducción 1:_ Cuando te acercas a la granja Atwood, las nubes se retiran y dejan ver un atardecer rojo sangre que envuelve el paisaje en sombras difusas. Sigues a la Dra. Marquez, dejando atrás un gallinero y un granero descuidados, hasta el porche trasero de la casa de labranza abandonada. Mientras la profesora mete una palanqueta bajo una ventana tapiada, reparas en el revólver que lleva en el bolsillo trasero.</p><p>—Un pequeño seguro —dice.</p><p>Lleva un rato arrancar los tablones de las ventanas. Cuando entras tras la profesora, un hedor a podredumbre y enfermedad te hiere los sentidos. Una vez que tus ojos se adaptan a la penumbra, ves una escena desgarradora. Camastros mugrientos se alinean contra las paredes, y el suelo está surcado de inmundicias. Una docena de personas enfermas yacen en los camastros o permanecen sentadas, desplomadas contra las paredes. Tienen la piel nudosa y dura, plagada de afiladas púas y excrecencias fibrosas. A varias les cuelgan flácidos colgajos de carne que pronto comprendes que son miembros vestigiales. Otras alzan hacia ti unos ojos vidriosos, mientras que otras, de piel gris y polvorienta, yacen inertes mirando al techo.</p><p>—No deberíais estar aquí —dice una voz. Un hombre medio calvo con una capa del Valle hecha jirones se acerca a ti con paso vacilante. La Dra. Marquez entorna los ojos en la penumbra.</p><p>—¿Tad? ¿El del almacén general?</p><p>Antes de que pueda responder, oyes voces en el porche delantero. La Dra. Marquez y tú os lanzáis detrás de un montón de muebles rotos justo cuando la puerta hace un chasquido y se abre. La madre Rachel entra junto con media docena de figuras encapadas y varios lugareños enfermos más. La matrona se dirige a la sala, radiante.</p><p>—Mis Hijos de las Estrellas. Por fin ha llegado vuestra hora. Prepararéis el camino. —Se inclina y toma la mano de una mujer en silla de ruedas—. Todos vosotros habéis sido sanados. Y ahora os uniréis a vuestros otros yoes en la eternidad.</p><p class='basic'>Los investigadores deben decidir (elige una opción):</p><ul><li>*Enfrentaros a la madre Rachel.* Pasa a _Introducción 2_.</li><li>*Permanecer ocultos.* Salta a _Introducción 3_.</li></ul>",
+    "label": {
+      "confront": "Enfrentarse a la madre Rachel.",
+      "keepHidden": "Permanecer ocultos."
+    },
+    "intro2": "<p>_Introducción 2_: Sales de tu escondite con la Dra. Marquez.</p><p>—Esto es una barbaridad. ¡Estas personas deberían estar en un hospital! —le espeta la profesora a la matrona.</p><ul><li>Añade 1 ficha de {'{'}tablet{'}'} a la bolsa de caos durante el resto de la campaña.</li></ul><p class='basic right'>Salta a _Introducción 4_.</p>",
+    "intro3": "<p>_Introducción 3_: Esperas en silencio mientras una brisa fétida agita el aire cargado. Tad avanza con parsimonia para dirigirse a la madre Rachel.</p><p>—Los testigos están aquí —dice señalando vuestro escondite.</p><p>En cuestión de instantes, a la profesora y a ti os sacan a rastras sin miramientos a la vista de todos.</p><ul><li>Añade 1 ficha de {'{'}skull{'}'} a la bolsa de caos durante el resto de la campaña.</li></ul><p class='basic right'>Pasa a _Introducción 4_.</p>",
+    "intro4": "<p>_Introducción 4_: La madre Rachel sonríe con benevolencia.</p><p>—Hijos míos. Hay cosas que no estamos destinados a ver hasta que nos llega el momento de verlas. Pero supongo, entonces, que vuestro lugar es presenciar nuestra ascensión. —Abre los brazos en una postura exultante—. Cada uno de nosotros acepta su lugar en la creación. Hemos sido rehechos más allá de las preocupaciones de la medicina convencional. Entiendo que a alguien de fuera pueda parecerle necio, incluso cruel, pero cada uno de nosotros está aquí por voluntad propia. Incluso vosotros.</p><p>La sala asiente en señal de conformidad.</p><p>—¡Os están engañando! ¿No lo veis? —dice la Dra. Marquez, furiosa—. ¡Estas personas se están muriendo!</p><p>Recorres la sala con la mirada, con la esperanza de hallar algún apoyo.</p>",
+    "checkDance": "<p class='basic unindented'>Consulta en el registro de campaña qué habitantes compartieron un baile.</p>",
+    "danceTwo": "Si 2 o más habitantes compartieron un baile, pasa a _Introducción 5_.",
+    "danceOne": "Si exactamente 1 habitante compartió un baile, salta a _Introducción 6_.",
+    "danceNone": "De lo contrario, salta a _Introducción 7_.",
+    "intro5": "<p>_Introducción 5:_ Varias figuras encapuchadas se echan atrás las capuchas y se colocan a tu espalda: son las amistades con las que bailaste hace apenas unas horas. La madre Rachel os contempla de uno en uno.</p><p>—Que así sea, entonces. Nosotros somos el trigo; vosotros, la paja.</p><ul><li>Añade 1 ficha de {'{'}cultist{'}'} a la bolsa de caos durante el resto de la campaña.</li></ul><p class='basic right'>Salta a _Introducción 8_.</p>",
+    "intro6": "<p>_Introducción 6:_ Una única figura sale de detrás de la madre Rachel y se pone a tu lado. Es la amistad con la que bailaste hace apenas unas horas. La madre Rachel la contempla con amargura.</p><p>—Que así sea, entonces. Nosotros somos el trigo, y vosotros la paja.</p><ul><li>Añade 1 ficha de {'{'}cultist{'}'} y 1 ficha de {'{'}elderThing{'}'} a la bolsa de caos durante el resto de la campaña.</li></ul><p class='basic right'>Salta a _Introducción 8_.</p>",
+    "intro7": "<p>_Introducción 7:_ La súplica de la Dra. Marquez queda suspendida en el aire, sin respuesta. Los cautivos y las figuras encapuchadas guardan silencio mientras la madre Rachel te contempla con una sonrisa ajada.</p><p>—Ay, hijos míos. La gente del Valle es familia. Cada cual conoce su lugar. Puede que aún lleguéis a conocer el vuestro.</p><ul><li>Anota en el registro de campaña que <i>los investigadores afrontaron solos la noche más larga</i>.</li><li>Añade 1 ficha de {'{'}elderThing{'}'} a la bolsa de caos durante el resto de la campaña.</li></ul><p class='basic right'>Pasa a _Introducción 8_.</p>",
+    "intro8": "<p>_Introducción 8_: La madre Rachel tiene los ojos vidriosos de lágrimas mientras se dirige a la sala.</p><p>—Vuestro sacrificio no es en vano. Esta noche, cada uno de vosotros cumplirá su lugar en la creación y mañana se unirá a nosotros en la gran ascensión.</p><p>La matrona esboza una sonrisa ajada al dirigirse a ti:</p><p>—No eres tú quien debe hacer este sacrificio. Por favor, regresa al Valle.</p><p>La Dra. Marquez responde fulminándola con la mirada. A la madre Rachel se le llenan los ojos de lágrimas mientras se marcha con su séquito.</p><p>—¿Qué ha querido decir con «cumplir su lugar en la creación»? —le pregunta la Dra. Marquez a Tad mientras este se frota excrecencias escamosas de los antebrazos. El hombre medio calvo sonríe.</p><p>—Mañana, la luna de sangre anuncia nuestra ascensión. Pero esta noche, en la noche más corta del año, todas las criaturas del bosque y de los campos nos ayudarán a completar nuestro viaje.</p><p>—Lo siento, pero eso no responde a mi pregunta —replica la profesora.</p><p>Tad sonríe.</p><p>—Seremos devorados. Nuestro lugar es hacer este sacrificio.</p><p>Cuando dirige la vista al horizonte, un coro de aullidos lastimeros resuena por los campos.</p><p>La profesora mira a Tad, horrorizada.</p><p>—Y un cuerno —dice.</p><p>La sigues al exterior. Sobre las colinas lejanas se recortan siluetas oscuras. La profesora se queda un momento absorta y luego toma aire de golpe.</p><p>—Dudo que alguno esté en sus cabales. Pero quizá, si aguantamos lo suficiente, podamos conseguirles los cuidados y la atención que necesitan.</p><p>Miras más allá de la casa, hacia los campos ondulados. No tenéis tiempo de evacuar a los cautivos antes de que se ponga el sol. Es más, no tenéis ninguna garantía de que vayan a seguiros. Pero hay que intentarlo.</p><p>Entre la profesora y tú rebuscáis piezas sueltas por la granja que se viene abajo. Encontráis trozos de madera, alambre de espino y viejos aparejos de trampero para fortificar vuestra posición. Si lográis resistir toda la noche, quizá se salven algunos de los cautivos. Un aullido espantoso rompe el aire en calma cuando se pone el sol. La noche más corta del año puede acabar siendo la más larga.</p><p class='basic right'>Pasa a la _Preparación_.</p>"
+  },
+  "setup": {
+    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de Encuentros: *El segundo día*, *La noche más larga*, *Plaga*, *Transfiguración*, *¡Fuego!*, *Frío helador*, *Las máscaras de medianoche* y *Miedo impactante*. Estos conjuntos se identifican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/the-second-day.png' /><img src='{setImgPath}/the-longest-night.png' /><img src='{setImgPath}/blight.png' /><img src='{setImgPath}/transfiguration.png' /><img src='{setImgPath}/fire.png' /><img src='{setImgPath}/chilling-cold.png' /><img src='{setImgPath}/midnight-masks.png' /><img src='{setImgPath}/striking-fear.png' /></section>",
+    "midnightMasks": "Al reunir el conjunto de Encuentros *Las máscaras de medianoche*, coge solo las cartas de Traición. No cojas los Lugares, Actos, Planes ni Enemigos de este conjunto.",
+    "nightTwo": "Pon en juego la carta de Indicador de tiempo _Noche dos_. No te desanimes.",
+    "removeOuterFields": "Retira de la partida al azar 1 Lugar _Campo exterior_.",
+    "locations": "Pon en juego todos los Lugares restantes como se muestra en el diagrama de colocación de Lugares de la página 48 (consulta Adyacencia de Lugares en la página 3).",
+    "placeLocations": "Pon en juego todos los Lugares restantes como se muestra en el diagrama de colocación de Lugares.",
+    "theCaptives": "Pon en juego el Apoyo de historia Los cautivos en La granja.",
+    "startingLocation": "Cada investigador comienza la partida en un Lugar de su elección.",
+    "enemyDeck": "Para formar el mazo de Enemigos, reúne las 15 cartas de Enemigo de dorso rojo del conjunto de Encuentros *La noche más larga* (consulta El mazo de Enemigos).",
+    "gatherEnemies": "Reúne las 15 cartas de Enemigo de dorso rojo del conjunto de Encuentros *La noche más larga*.",
+    "ursineHybrid": "Pon en juego el Enemigo Híbrido úrsido en el Lugar Campo exterior occidental.",
+    "shuffleEnemyDeck": "Baraja las cartas de Enemigo restantes para formar el mazo de Enemigos. Colócalo junto al mazo de Plan.",
+    "bearWounded": "Consulta el registro de campaña. Si consta que <i>el oso fue herido</i>, inflige 2 {'{'}perPlayer{'}'} puntos de daño al Enemigo Híbrido úrsido y agótalo.",
+    "defenses": "¡Preparad las defensas! Sea cual sea su posición inicial, los investigadores eligen, como grupo, colocar en total 1 señuelo, 1 trampa y 1 barrera, repartidos como quieran entre cualquier número de Lugares. (Consulta Barreras, señuelos y trampas a la derecha).",
+    "placeDefenses": "Colocad en total 1 señuelo, 1 trampa y 1 barrera, repartidos como queráis entre cualquier número de Lugares.",
+    "tokenReferenceCard": "Pon la carta de referencia de fichas «Barreras, señuelos y trampas» junto a la carta de referencia de escenario.",
+    "clues": "Consulta el registro de campaña.",
+    "facedAlone": "Si <i>los investigadores afrontaron solos la noche más larga</i>, cada investigador obtiene 3 pistas (de la reserva de fichas).",
+    "facedWithHelp": "De lo contrario, cada investigador obtiene 2 pistas (de la reserva de fichas).",
+    "residents": "Consulta el registro de campaña y reúne todos los Apoyos de historia del conjunto de Encuentros *Habitantes*. Este conjunto se identifica con este icono:<section class='encounter-sets'><img src='{setImgPath}/residents.png' /></section>",
+    "drMarquez": "Pon en juego a la Dra. Rosa Marquez bajo el control de un investigador. No ocupa un hueco de aliado durante este escenario.",
+    "dancedResidents": "Pon en juego bajo el control de un investigador a cada habitante que compartiera un baile, repartidos lo más equitativamente posible.",
+    "helenPeters": "Si <i>Helen compartió un baile</i>, busca en el mazo de cada investigador el Apoyo de historia Helen Peters y ponlo en juego bajo el control de un investigador. No ocupa un hueco de aliado en este escenario.",
+    "removeResidents": "Retira de la partida el resto del conjunto de Encuentros *Habitantes*.",
+    "setAside": "Pon aparte, fuera del juego, las 5 Traiciones ¡Fuego! y el Apoyo de historia Ajax."
+  },
+  "barriers": {
+    "title": "Barreras",
+    "body": "<h3>Barreras</h3><p class='basic'>Algunas capacidades de cartas permiten a los investigadores levantar barreras alrededor de la granja. Las barreras bloquean el movimiento de los Enemigos.</p><ul><li>Para levantar una barrera, coloca 1 ficha de Recurso (de la reserva de fichas) entre tu Lugar y un Lugar conectado, como barrera. Si un efecto de carta te indica que coloques una barrera \"en\" tu Lugar, elige un Lugar adyacente y coloca la barrera entre tu Lugar y el Lugar elegido. Se considera que esta barrera está \"en\" ambos Lugares a efectos de las cartas.</li><li>No hay límite al número de barreras entre Lugares.</li><li>Cuando un Enemigo fuese a moverse mediante una palabra clave (es decir, Cazador o Errante) y haya una o más barreras entre su Lugar y el Lugar al que se está moviendo, retira una de esas barreras y, en vez de eso, cancela los efectos del movimiento.</li><li>Los Enemigos que ignoren las barreras no resuelven ninguno de los efectos anteriores (incluida la retirada de la barrera).</li></ul>"
+  },
+  "decoys": {
+    "title": "Señuelos",
+    "body": "<h3>Señuelos</h3><p class='basic'>Algunas capacidades de cartas colocan señuelos alrededor de la granja para entretener a los Enemigos.</p><ul><li>Para colocar un señuelo, pon 1 ficha de Horror (de la reserva de fichas) en tu Lugar, como señuelo. Límite de 1 señuelo por Lugar.</li><li>Cuando un Enemigo entre en un Lugar que tenga un señuelo, retira el señuelo, inflige 1 punto de daño a ese Enemigo, haz que deje de estar enfrentado a todos los investigadores y agótalo. Ese Enemigo no puede prepararse durante el resto de la ronda.</li><li>Los Enemigos que ignoren los señuelos no resuelven ninguno de los efectos anteriores (incluida la retirada del señuelo).</li></ul>"
+  },
+  "traps": {
+    "title": "Trampas",
+    "body": "<h3>Trampas</h3><p class='basic'>Algunas capacidades de cartas tienden trampas alrededor de la granja para que caigan en ellas los Enemigos.</p><ul><li>Para tender una trampa, coloca 1 ficha de Daño (de la reserva de fichas) en tu Lugar, como trampa. Límite de 1 trampa por Lugar.</li><li>Cuando un Enemigo entre en un Lugar que tenga una trampa, retira la trampa e inflige 2 puntos de daño a ese Enemigo.</li><li>Los Enemigos que ignoren las trampas no resuelven ninguno de los efectos anteriores (incluida la retirada de la trampa).</li></ul>"
+  },
+  "label": {
+    "placeBarrier": "Colocar una barrera",
+    "placeDecoy": "Colocar un señuelo",
+    "placeTrap": "Colocar una trampa",
+    "moveBarrier": "Mover una barrera",
+    "moveDecoy": "Mover un señuelo",
+    "moveTrap": "Mover una trampa",
+    "removeBarrier": "Retirar una barrera",
+    "removeDecoy": "Retirar un señuelo",
+    "removeTrap": "Retirar una trampa",
+    "endlessNight": {
+      "damageCaptives": "Inflige 2 puntos de daño al Apoyo de historia Los cautivos"
+    }
+  },
+  "codex": {
+    "leahAtwood": {
+      "title": "{'{'}codex{'}'} Códice 2: Leah Atwood",
+      "body": "<h3>@:theFeastOfHemlockVale.theLongestNight.codex.leahAtwood.title </h3><p>Una figura lupina de dientes afilados y relucientes carga contra ti, riendo como una hiena. Leah se interpone y descarga la pala sobre la cabeza de la criatura.</p><p>—¡Ni se te ocurra! —le grita.</p><p class='basic right'>En las notas de Leah Atwood, anota que <i>Leah te apoyó</i>. Inflige 3 puntos de daño al Enemigo más cercano.</p>"
+    },
+    "simeonAtwood": {
+      "title": "{'{'}codex{'}'} Códice 3: Simeon Atwood",
+      "body": "<h3>@:theFeastOfHemlockVale.theLongestNight.codex.simeonAtwood.title </h3><p>—¡Hay que atraerlos y hacerlos tropezar! —se carcajea Simeon mientras pasa un lazo de alambre de embalar por una valla caída. Justo al otro lado, llena un foso poco profundo de huesos a medio roer y vísceras—. Ahora a esperar —susurra. Su evidente deleite al colocar trampas mortales es, como poco, preocupante.</p><p class='basic right'>En las notas de Simeon Atwood, anota que <i>Simeon te apoyó</i>. Coloca 1 señuelo en cualquier Lugar.</p>"
+    },
+    "williamHemlock": {
+      "title": "{'{'}codex{'}'} Códice 4: William Cicuta",
+      "body": "<h3>@:theFeastOfHemlockVale.theLongestNight.codex.williamHemlock.title </h3><p>—He encontrado esto guardado en el sótano. —William deja en el suelo una mochila llena de herramientas y chatarra—. Espero que sirva. Debo decir que no soy precisamente mañoso.</p><p>Le das las gracias antes de rebuscar suministros en la bolsa.</p><p class='basic right'>En las notas de William Cicuta, anota que <i>William te apoyó</i>. Cada investigador obtiene 1 pista (de la reserva de fichas).</p>"
+    },
+    "riverHawthorne": {
+      "title": "{'{'}codex{'}'} Códice 5: River Hawthorne",
+      "body": "<h3>@:theFeastOfHemlockVale.theLongestNight.codex.riverHawthorne.title </h3><p>Le explicas tu plan a River tras divisar un par de ojos azules y relucientes al otro lado del patio.</p><p>—No te preocupes, tesoro. Tener todas las miradas encima es lo mío. Por suerte para ti, antes se me daban muy bien los esprints.</p><p>River cruza el claro a la carrera soltando improperios mientras se lleva a la criatura.</p><p class='basic right'>En las notas de River Hawthorne, anota que <i>River te apoyó</i>. Elige un Enemigo que no sea Élite. Mueve a ese Enemigo a cualquier Lugar.</p>"
+    },
+    "gideonMizrah": {
+      "title": "{'{'}codex{'}'} Códice 6: Gideon Mizrah",
+      "body": "<h3>@:theFeastOfHemlockVale.theLongestNight.codex.gideonMizrah.title </h3><p>—Estate ojo avizor por si ves una puerta o un cerrojo recios —te indica Gideon—. Si andas con cuidao, a lo mejor puedo atrapar a uno. Me recuerda a aquella vez que casi muero en las selvas de Nueva Guinea. Algo me venía siguiendo desde...</p><p>Enseguida pierdes el hilo de la historia del anciano.</p><p class='basic right'>En las notas de Gideon Mizrah, anota que <i>Gideon te apoyó</i>. La próxima vez que un investigador fuese a robar una carta del mazo de Enemigos, en vez de eso descarta esa carta.</p>"
+    },
+    "judithPark": {
+      "title": "{'{'}codex{'}'} Códice 7: Judith Park",
+      "body": "<h3>@:theFeastOfHemlockVale.theLongestNight.codex.judithPark.title </h3><p>—Ya era hora de que nos trajeran la cacería a casa. Me estaba hartando de recorrer toda la isla a pie por un poco de acción. —Señala con el fusil un foso forrado de chatarra afilada—. Yo digo que esperemos a que lleguen y les hagamos llover un infierno.</p><p class='basic right'>En las notas de Judith Park, anota que <i>Judith te apoyó</i>. Coloca 1 trampa en cualquier Lugar.</p>"
+    },
+    "theoPeters": {
+      "title": "{'{'}codex{'}'} Códice 8: Theo Peters",
+      "body": "<h3>@:theFeastOfHemlockVale.theLongestNight.codex.theoPeters.title </h3><p>La camioneta azul de Theo se lanza a toda velocidad por la carretera hacia ti, perseguida de cerca por una manada de criaturas famélicas y gruñonas.</p><p>—¡Sube! —grita Theo mientras frena.</p><p>Saltas a la caja de la camioneta mientras pisa a fondo el acelerador.</p><p class='basic right'>En las notas de Theo Peters, anota que <i>Theo te apoyó</i>. Puedes mover 1 barrera, señuelo o trampa de tu Lugar a cualquier Lugar. Deja de estar enfrentado a todos los Enemigos que lo estén contigo y muévete a ese Lugar.</p>"
+    },
+    "drRosaMarquez": {
+      "title": "{'{'}codex{'}'} Códice Θ: Dra. Rosa Marquez",
+      "body": "<h3>@:theFeastOfHemlockVale.theLongestNight.codex.drRosaMarquez.title </h3><p>—Esto es Cantigny otra vez —dice la Dra. Marquez mientras arrastra varios cajones pesados para formar una barrera. Te cuenta más sobre su primera y última batalla en la Gran Guerra, y sobre la muerte de su pareja—. No podemos morir. No así —dice—. Solo tenemos que aguantar hasta el amanecer.</p><p class='basic right'>Coloca 2 barreras en tu Lugar.</p>"
+    },
+    "ajax": {
+      "title": "{'{'}codex{'}'} Códice Ω: Ajax",
+      "body": "<h3>@:theFeastOfHemlockVale.theLongestNight.codex.ajax.title </h3><p>Un bramido procedente del granero te pone los nervios de punta. Te acercas con cautela, esperando ver otra monstruosidad más, pero en su lugar encuentras un caballo palomino en un cubículo mugriento. En un letrero a su lado está grabado el nombre «Ajax». El noble animal deja escapar un relincho impaciente mientras sacude la cabeza.</p><p class='basic right'>Toma el control del Apoyo de historia Ajax. No ocupa un hueco de aliado durante el resto de este escenario.</p>"
+    }
+  },
+  "enemyDeckRules": {
+    "title": "El mazo de Enemigos",
+    "body": "<h3>El mazo de Enemigos</h3><p class='basic'>Durante la preparación de este escenario se forma un segundo mazo con un dorso de Encuentro distinto: el mazo de Enemigos. Es un mazo aparte compuesto únicamente por Enemigos y representa a la horda implacable de bestias enajenadas que vienen a por los cautivos. Durante la fase de Mitos, el efecto Obligado del plan hace que cada investigador robe la primera carta del mazo de Enemigos. El mazo de Enemigos tiene su propia pila de descarte y es inmune a los efectos de cartas de jugador. En este escenario, los Enemigos que no sean Debilidad se descartan a la pila de descarte de Enemigos. Si el mazo de Enemigos se agota, baraja la pila de descarte de Enemigos para formar de nuevo el mazo de Enemigos.</p>"
+  },
+  "resolutions": {
+    "investigatorDefeat": {
+      "title": "Derrota de investigadores",
+      "body": "<p>_Derrota de investigadores_: Lo último que recuerdas antes de que las figuras de pesadilla se abalancen sobre ti es una sensación de calma intensa. La luz plateada de la luna baña la granja en un crudo blanco y negro mientras las criaturas desgarran tu carne. Por un momento ves tu lugar en este mundo, tal como pretendía la madre Rachel. No eres más que energía que se convierte en otra forma de energía.</p><p>Nada más parece tan perfecto.</p><ul><li>Cada investigador derrotado es devorado (muere).</li><li>Si no queda ningún investigador con vida para continuar la campaña, los investigadores pierden la campaña.</li><li>Si se ha llegado a otra resolución, los demás investigadores pasan a esa resolución.</li><li>Si no se ha llegado a ninguna resolución (todos los investigadores supervivientes han desistido): Salta a la _Resolución 3_.</li></ul>"
+    },
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<p>_Resolución 1_: —Por favor, escuchad —implora la Dra. Marquez a los cautivos—. Cada uno de vosotros merece vivir una vida plena. ¡Podemos ayudar! Podéis recibir cuidados en el continente.</p><p>Tad escupe en respuesta.</p><p>—Nos habéis arrebatado un gran privilegio. Se nos había elegido.</p><p>Apenas le ha respondido la Dra. Marquez cuando un tablón astillado surge a su espalda y la golpea en el hombro. Uno de los cautivos lo sostiene en alto, mientras varios más se arremolinan alrededor. Tad mira torvamente a la profesora y gruñe:</p><p>—Marchaos ya.</p><p>La Dra. Marquez se levanta con cuidado y sale de la casa. La sigues.</p><p>—Idiotas. Les hemos salvado la vida —se mofa.</p><p>Cuando os marcháis, una niña con máscara de conejo se asoma bajo unos escombros. Reconoces en ella a Rebecca, la hija de la madre Rachel.</p>",
+      "xp5": "Si la cantidad de daño que hay sobre el Apoyo de historia Los cautivos es 0, cada investigador obtiene 5 puntos de experiencia adicionales.",
+      "xp4": "Si la cantidad de daño que hay sobre el Apoyo de historia Los cautivos es 1 o 2, cada investigador obtiene 4 puntos de experiencia adicionales.",
+      "xp3": "Si la cantidad de daño que hay sobre el Apoyo de historia Los cautivos es 3 o 4, cada investigador obtiene 3 puntos de experiencia adicionales.",
+      "captivesSaved": "Anota en el registro de campaña que <i>los cautivos se salvaron</i>.",
+      "skipToResolution4": "Salta a la _Resolución 4_."
+    },
+    "resolution2": {
+      "title": "Resolución 2",
+      "body": "<p>_Resolución 2_: Tad está de pie en el centro de la casa, con la capa blanca y dorada del Valle teñida de carmesí. A su alrededor, los cadáveres a medio devorar de los cautivos muertos están dispuestos en una especie de círculo. Cuando te acercas, el hombre ríe con amargura.</p><p>—¿Por qué se me ha perdonado la vida, y a tantos otros se los han llevado? —Se lleva las dos manos a la cara y ríe histéricamente—. ¿Por qué brilla tanto todo? —suelta entre risitas mientras se araña los ojos.</p><p>Apartas la mirada y te reúnes fuera con la Dra. Marquez, encorvada sobre un montón de escombros. Una niña con máscara de conejo sale gateando de debajo de los restos. Reconoces en ella a Rebecca, la hija de la madre Rachel.</p>",
+      "xp3": "Si la cantidad de daño que hay sobre el Apoyo de historia Los cautivos es 5 o 6, cada investigador obtiene 3 puntos de experiencia adicionales.",
+      "xp2": "Si la cantidad de daño que hay sobre el Apoyo de historia Los cautivos es 7 u 8, cada investigador obtiene 2 puntos de experiencia adicionales.",
+      "xp1": "Si la cantidad de daño que hay sobre el Apoyo de historia Los cautivos es 9, cada investigador obtiene 1 punto de experiencia adicional.",
+      "captivesLost": "Anota en el registro de campaña que <i>muchos cautivos murieron</i>.",
+      "skipToResolution4": "Salta a la _Resolución 4_."
+    },
+    "resolution3": {
+      "title": "Resolución 3",
+      "body": "<p>_Resolución 3_: —¡No podemos quedarnos! —grita la Dra. Marquez.</p><p>Sin poder hacer frente a la avalancha, sales a la carrera de la refriega y te metes en los maizales. Sombras de pesadilla pasan a tu lado a la carga, bramando y aullando. Piensas en los cautivos de la casa, mirando de frente a su muerte. En el extremo más lejano del campo encuentras a la Dra. Marquez abrazando a una niña con máscara de conejo. Reconoces en ella a Rebecca, la hija de la madre Rachel.</p><ul><li>La culpa por no haber ayudado a quienes lo necesitaban te perseguirá para siempre. Cada investigador debe buscar en la colección una Debilidad básica de Locura al azar y añadirla a su mazo.</li><li>Anota en el registro de campaña que <i>todos los cautivos murieron</i>.</li><li>Pasa a la _Resolución 4_.</li></ul>"
+    },
+    "resolution4": {
+      "title": "Resolución 4",
+      "body": "<p>_Resolución 4_: El sol de la mañana cae a plomo, de un brillo cegador, mientras atraviesas los campos de vuelta al Valle. De los tallos marchitos gotean motas de un líquido oscuro y viscoso a medida que te abres paso. La Dra. Marquez se detiene y pasa una mano bajo las hojas quebradizas.</p><p>—Los campos están pintados de sangre. Pero ¿por qué? —Se limpia la sangre con un pañuelo y recorre con la mirada el campo que gotea—. ¿Qué clase de monstruo haría esto? Condenar a muerte a sus seguidores, a su propia hija. Es casi bíblico.</p><p>Rebecca se aparta la máscara y niega con la cabeza.</p><p>—Mamá dice que es nuestra costumbre. Y no quiere que me muera. Me dijo que me escondiera. Dijo que estábamos jugando a un juego: «Hazte muy pequeñita y escóndete cerca de los barriles de queroseno. Allí los animales no te olerán».</p><p>—Pero ¿para qué traerte aquí siquiera? —pregunta la profesora.</p><p>—Alguna gente no quería venir al granero. Pero cuando mamá les dijo que yo también estaría, dijeron que vale.</p><p>El grupo guarda silencio mientras pasáis de un campo a otro y el Valle vuelve a estar a la vista, velado de oro bajo el radiante amanecer. De pronto, la Dra. Marquez se detiene y te lleva aparte.</p><p>—Quizá podamos usar esto a nuestro favor. Rebecca es la prueba viviente de la hipocresía de la madre Rachel, por horrible que suene. Esta noche toda la Isla de la Cicuta estará en la Fiesta. Si le pedimos a Rebecca que cuente lo que le dijo la madre Rachel, puede que convenzamos al menos a algunos de que se marchen. Y si no funciona, podemos salir pitando al continente y recurrir a la ley.</p><p>La profesora se vuelve hacia Rebecca.</p><p>—¿Jugamos a un juego? ¿Como anoche? Tu madre me ha dicho que quiere que te escondas hasta la Fiesta.</p><p>La niña asiente. La Dra. Marquez suelta una risita maníaca, extrañamente impropia de su habitual actitud contenida. Tampoco tú puedes evitar reprimir una sonrisa, a pesar de los horrores que acabas de presenciar.</p><ul><li>Si el Apoyo de historia Ajax estaba bajo el control de un investigador al final de este escenario, elige un investigador para que lo añada a su mazo durante el resto de la campaña. No cuenta para el tamaño de su mazo.</li><li>Elige un investigador para que añada a su mazo el Apoyo de historia Dra. Rosa Marquez durante el resto de la campaña. No cuenta para el tamaño de su mazo.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria ({xp}). Cada investigador puede gastar ahora la experiencia anotada en \"Experiencia sin gastar\" del registro de campaña.</li><li>Actualiza el registro de campaña: anota que <i>la Dra. Marquez tiene un plan</i>. En la sección \"Zonas exploradas\", marca <i>Campos del sur</i>.</li><li>Pasa al _Preludio: Alba del último día_.</li></ul>"
+    },
+    "xp": {
+      "bonus": "Experiencia adicional"
+    }
+  }
+}

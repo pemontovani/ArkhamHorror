@@ -191,6 +191,7 @@ onUnmounted(() => clearInterval(interval.value))
 .game {
   width: 100vw;
   height: calc(100vh - var(--nav-height));
+  height: calc(100dvh - var(--nav-height));
   display: flex;
 }
 

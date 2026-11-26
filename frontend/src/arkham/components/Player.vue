@@ -1036,29 +1036,21 @@ const handAreaMarginBottom = ref(handCardExposedHeight_MIN);
 const handAreaPointerEvents = ref('none');
 const stickyHand = ref(localStorage.getItem('arkhamStickyHand') !== 'false');
 
-onMounted(() => {
-  if (isMobile) {
-    document.addEventListener('click', toggleHandAreaMarginBottom)
-    // Keep the hand open while interacting with the board. Assigning several
-    // damage or horror should not require reopening the hand after each click.
-    const isMinimized_SkillTest = inject('isMinimized_SkillTest', ref(false))
-    watch([() => props.game.skillTest, isMinimized_SkillTest], ([newSkillTest,isMinimized]) => {
-      if (newSkillTest && !isMinimized) {
-        handAreaMarginBottom.value = handCardExposedHeight_MAX;
-        handAreaPointerEvents.value = 'auto';
-      } else {
-        handAreaMarginBottom.value = handCardExposedHeight_MIN;
-        handAreaPointerEvents.value = 'none';
-      }
-    });
+// Keep the hand open while interacting with the board. Assigning several
+// damage or horror should not require reopening the hand after each click.
+// Tracked at every width, so the hand is already right after a rotation.
+watch(() => props.game.skillTest, (skillTest) => {
+  if (skillTest) {
+    handAreaMarginBottom.value = handCardExposedHeight_MAX;
+    handAreaPointerEvents.value = 'auto';
+  } else {
+    handAreaMarginBottom.value = handCardExposedHeight_MIN;
+    handAreaPointerEvents.value = 'none';
   }
 });
 
-onBeforeUnmount(() => {
-  if (isMobile) {
-    document.removeEventListener('click', toggleHandAreaMarginBottom)
-  }
-});
+onMounted(() => document.addEventListener('click', toggleHandAreaMarginBottom));
+onBeforeUnmount(() => document.removeEventListener('click', toggleHandAreaMarginBottom));
 
 function toggleStickyHand() {
   stickyHand.value = !stickyHand.value
@@ -1066,6 +1058,7 @@ function toggleStickyHand() {
 }
 
 function toggleHandAreaMarginBottom(event: Event) {
+  if (!isMobile.value) return
   const target = event.target as HTMLElement
   if (target.closest('.hand-area-IsMobile')) {
     handAreaMarginBottom.value = handCardExposedHeight_MAX;

@@ -1,0 +1,167 @@
+{
+  "specialRules": [
+    {
+      "title": "La línea férrea y la adyacencia en el acto 2",
+      "body": "<p class='basic'>Cada Lugar Ferrocarril tiene impresos 1 o más iconos de raíl. Estos iconos representan la vía por la que se mueve la Vagoneta.</p><ul><li>Cuando un icono de raíl de un Lugar queda frente a un icono de raíl de un Lugar adyacente, los iconos de raíl están alineados.</li><li>Los Lugares adyacentes con iconos de raíl alineados están conectados entre sí y forman una línea férrea. Los Lugares adyacentes sin iconos de raíl alineados no están conectados entre sí.</li></ul>"
+    },
+    {
+      "title": "Deslizar e intercambiar Lugares",
+      "body": "<p class='basic'>Deslizar e intercambiar Lugares permite a los investigadores crear una ruta hacia la Salida férrea alineando la línea férrea.</p><p class='basic'>Para deslizar un Lugar, elige un Lugar que tenga un hueco vacío adyacente. Mueve ese Lugar (y todas las cartas que haya en él) a ese hueco vacío.</p><p class='basic'>Para intercambiar 2 Lugares, mueve simultáneamente cada uno de esos Lugares (y todas las cartas que haya en ellos) al hueco que ocupaba el otro.</p><ul><li>Los Lugares que tengan Apoyos de historia no se pueden deslizar ni intercambiar.</li></ul>"
+    },
+    {
+      "title": "La Vagoneta",
+      "body": "<p class='basic'>La carta pequeña de cada investigador se coloca solapada sobre la Vagoneta.</p><ul><li>Un investigador que esté en la Vagoneta está también en su Lugar. Los investigadores no pueden moverse con independencia de la Vagoneta. Cuando la Vagoneta se mueve, cada investigador se mueve con ella.</li><li>El Apoyo de historia Vagoneta tiene en su lado derecho un icono de raíl que indica la dirección hacia la que mira. El icono de raíl de la Vagoneta debe mirar siempre en la misma dirección que uno de los iconos de raíl de su Lugar.</li><li>Al mover la Vagoneta, esta solo puede moverse por una línea férrea hasta un Lugar conectado.</li><li>Cuando la Vagoneta entra en un Lugar, los investigadores pueden girarla 90 grados en cualquier sentido para que mire en la misma dirección que un icono de raíl de ese Lugar.</li><li>La Vagoneta solo puede moverse en la dirección hacia la que mira su icono de raíl. Si el Lugar al que se mueve no forma una línea férrea completa (no están alineados), la Vagoneta se sale de la línea férrea.</li></ul>"
+    }
+  ],
+  "act1": {
+    "tokens": {
+      "easyStandard": {
+        "skull": "-X. X es el número de la columna de tu Lugar.",
+        "cultist": "-1. Coloca 1 recurso en esta carta como chatarra.",
+        "tablet": "-2. Si fracasas, retira 1 de chatarra de esta carta.",
+        "elderThing": "-3. Si fracasas, recibe 1 punto de daño."
+      },
+      "hardExpert": {
+        "skull": "-X. X es el doble del número de la columna de tu Lugar.",
+        "cultist": "-3. Si tienes éxito, coloca 1 recurso en esta carta como chatarra.",
+        "tablet": "-4. Retira 1 de chatarra de esta carta.",
+        "elderThing": "-5. Recibe 1 punto de daño."
+      }
+    }
+  },
+  "act2": {
+    "tokens": {
+      "easyStandard": {
+        "skull": "-X. X es el número de la columna de tu Lugar.",
+        "cultist": "-2. Coloca 1 recurso en esta carta como aguja.",
+        "tablet": "-3. Si fracasas, mueve la Vagoneta una vez.",
+        "elderThing": "-4. Si fracasas, retira 1 aguja de esta carta."
+      },
+      "hardExpert": {
+        "skull": "-X. X es el doble del número de la columna de tu Lugar.",
+        "cultist": "-3. Si tienes éxito, coloca 1 recurso en esta carta como aguja.",
+        "tablet": "-4. Mueve la Vagoneta una vez.",
+        "elderThing": "-5. Retira 1 aguja de esta carta."
+      }
+    }
+  },
+  "label": {
+    "mineCart": {
+      "facing": "Elige hacia qué dirección mira la Vagoneta",
+      "faceNorth": "Mirar al norte",
+      "faceSouth": "Mirar al sur",
+      "faceEast": "Mirar al este",
+      "faceWest": "Mirar al oeste",
+      "cancelMove": "Cancelar el movimiento",
+      "moveAgain": "Moverse una vez adicional"
+    },
+    "wildRide": {
+      "moveAgain": "Moverla 2 veces adicionales",
+      "damage": "Inflige 1 punto de daño directo y 1 punto de horror directo a cada investigador y a cada Apoyo _Aliado_ y carta _Habitante_ que controlen"
+    }
+  },
+  "tooltips": {
+    "theUndergroundMaze": {
+      "slide": "{'{'}action{'}'} Gasta 1 recurso {'{'}perPlayer{'}'}: Desliza un Lugar revelado a un hueco vacío adyacente. (Límite de grupo de una vez por ronda).",
+      "prismaticShard": "{'{'}action{'}'} Si el Apoyo de historia Esquirla prismática está en tu Lugar: Toma su control."
+    }
+  },
+  "intro": {
+    "title": "Escenario: Escrito en la roca",
+    "body": "<p>El camino a las minas de la Punta Norte discurre por una angosta quebrada en el corazón de la Cresta Perla. Con poco a lo que agarrarte, preguntaste por el Valle para saber más sobre la mina, pero todo lo que lograste reunir fueron varias versiones contradictorias. Últimamente ha desaparecido gente en las minas, aunque supuestamente la explotación está clausurada. Los líquenes y musgos son al parecer nutritivos, pero ¿algunos son letales? Tampoco nadie ha explicado por qué cerró la mina en un principio.</p><p>El camino termina en la boca de una caverna descomunal. Siguiendo una vieja vía férrea hacia el interior, encuentras montones de equipo abandonado invadido por unos hongos de un amarillo chillón. Los hongos no tienen ni mucho menos aspecto de ser comestibles, y desprenden un hedor pútrido. Al final, el túnel se abre a una enorme gruta llena de setas luminiscentes e imponentes formaciones de cristal. El suelo se mueve con un leve temblor, seguido de un grito que resuena desde las profundidades de la mina. Armándote de valor, te adentras más en la caverna. Como mínimo, la Dra. Marquez querrá muestras de la extraña maleza que crece sobre el equipo oxidado.</p><p class='basic right'>Pasa a la _Preparación_.</p>"
+  },
+  "setup": {
+    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de Encuentros: *Escrito en la roca*, *Horrores en la roca*, *Refracciones*, *Frío helador* y *Gules*. Estos conjuntos se identifican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/written-in-rock.png' /><img src='{setImgPath}/horrors-in-the-rock.png' /><img src='{setImgPath}/refractions.png' /><img src='{setImgPath}/chilling-cold.png' /><img src='{setImgPath}/ghouls.png' /></section>",
+    "currentDaySet": "Además, consulta en el registro de campaña el día actual y reúne el conjunto de Encuentros correspondiente: *El primer día*, *El segundo día* o *El último día*. Estos conjuntos se identifican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/the-first-day.png' /><img src='{setImgPath}/the-second-day.png' /><img src='{setImgPath}/the-final-day.png' /></section>",
+    "currentDayMarker": "Consulta en el registro de campaña el día y la hora actuales. Pon en juego la carta de Indicador de tiempo por su cara correspondiente, (_Día {'{'}day{'}'}_) o (_Noche {'{'}night{'}'}_).",
+    "caves": "Reúne los 6 Lugares _Cueva_ y retira 2 de ellos de la partida al azar. Coloca el resto como se muestra en el diagrama de colocación de Lugares de la página 11 (consulta _Adyacencia de Lugares_ en la página 3).",
+    "otherLocations": "Reúne todos los Lugares del conjunto de Encuentros *Escrito en la roca*. Pon en juego el Lugar Puesto de control como se muestra. Pon aparte, fuera del juego, los 15 Lugares _Ferrocarril_ restantes.",
+    "scrap": "Coloca 1 recurso en cada Lugar como chatarra. (*Pista: la chatarra recogida durante el acto 1 ayudará a los investigadores durante el acto 2*).",
+    "startAt": "Los investigadores comienzan la partida en el Lugar situado más a la izquierda.",
+    "residents": "Si es (_Día {'{'}day{'}'}_), reúne todos los Apoyos de historia del conjunto de Encuentros *Habitantes*. Este conjunto se identifica con este icono:<section class='encounter-sets'><img src='{setImgPath}/residents.png' /></section>",
+    "riverHawthorne": "Si es el _Día 1_, coloca a River Hawthorne en el Lugar de la columna 3.",
+    "simeonAtwood": "Si es el _Día 1_ o el _Día 2_, pon aparte, fuera del juego, a Simeon Atwood.",
+    "leahAtwood": "Si es el _Día 3_, pon aparte, fuera del juego, a Leah Atwood.",
+    "remainingResidents": "Retira de la partida el resto del conjunto de Encuentros *Habitantes*.",
+    "subterraneanBeast": "Si es (_Día {'{'}day{'}'}_), retira de la partida el Enemigo Bestia subterránea.",
+    "scenarioReference": "Pon en juego la carta de referencia de escenario por su cara del acto 1.",
+    "setOutOfPlay": "Pon aparte, fuera del juego, las dos copias del Enemigo Parásito de cristal y todas las demás cartas del conjunto de Encuentros *Escrito en la roca*."
+  },
+  "codex": {
+    "leahAtwood": {
+      "title": "{'{'}codex{'}'} Códice 2: Leah Atwood",
+      "body": "<h3>@:theFeastOfHemlockVale.writtenInRock.codex.leahAtwood.title </h3><p>_Si Leah Atwood no está bajo el control de un investigador:_</p><p>Encuentras a Leah mirando fijamente una poza de líquido lechoso y reluciente. Se enjuga las lágrimas cuando te acercas, y se resiste cuando le pides que se marche.</p><p>—Aquí es donde quiero estar —dice.</p><p>Le describes el derrumbe de la entrada y el peligro inminente.</p><p>—Nada de eso importa —dice con rostro pétreo, pero al final cede. Mientras la conduces a la vagoneta, te vuelves y ves una figura redondeada y humanoide recortada contra la poza incandescente. Se escabulle rápidamente tras una roca.</p><p class='basic right'>Elige un investigador para que tome el control de Leah Atwood. Un investigador puede activar este códice de nuevo.</p><hr><p>_De lo contrario:_</p><p>Leah rompe su silencio para agarrar la palanca rota de la vagoneta.</p><p>—¡A la izquierda no! ¡A la derecha!</p><p>La vagoneta se tambalea sobre los raíles y luego se endereza. Compartes una mirada de alivio con la cocinera del Valle mientras la vagoneta se lanza hacia delante.</p><p class='basic right'>Coloca 1 recurso en la carta de referencia de escenario como aguja.</p>"
+    },
+    "simeonAtwood": {
+      "title": "{'{'}codex{'}'} Códice 3: Simeon Atwood",
+      "body": "<h3>@:theFeastOfHemlockVale.writtenInRock.codex.simeonAtwood.title </h3><p>_Si Simeon Atwood no está bajo el control de un investigador:_</p><p>Mientras la vagoneta traquetea sobre un puente desvencijado, reparas en una pequeña figura que cuelga del borde de un precipicio. Actuando por instinto, te asomas por el borde de la vagoneta y agarras a la figura por el antebrazo al pasar a toda velocidad. Cuando lo metes en la vagoneta, lo reconoces: es Simeon, liante en jefe del Valle. Se sacude el polvo, con las mejillas blancas como el papel.</p><p>—Estaba buscando mi alijo. Todo forma parte del p... —Resuella y desiste—. Gracias por salvarme. No sé qué habría hecho sin ti.</p><p class='basic right'>Elige un investigador para que tome el control de Simeon Atwood. Un investigador puede activar este códice de nuevo.</p><hr><p>_De lo contrario:_</p><p>—No, no, así no se hace. —Simeon tira de la palanca de la vagoneta—. ¿Cómo es que sigues con vida? Me sorprende que me hayas encontrado siquiera. —Golpea un cambio de agujas en el lateral del túnel y sonríe con aire pícaro—. Así es como se hace.</p><p class='basic right'>Coloca 2 recursos en la carta de referencia de escenario como agujas.</p>"
+    },
+    "riverHawthorne": {
+      "title": "{'{'}codex{'}'} Códice 5: River Hawthorne",
+      "body": "<h3>@:theFeastOfHemlockVale.writtenInRock.codex.riverHawthorne.title </h3><p>—Qué casualidad verte por aquí. —River se pone en pie cuando te acercas. Lleva una cesta trenzada llena hasta los topes de setas fosforescentes y líquenes rojo sangre—. Tengo un paladar de lo más exigente, que lo sepas. La mismísima Eugénie Brazier dijo que nunca había honrado su mesa una clientela más difícil que yo. Estas son exquisitas. —Aspira con deleite el aroma de la cesta y señala el lúgubre túnel—. Las cosas que hacemos por amor.</p><p>Te ofreces a ayudar a recolectar; al fin y al cabo, la Dra. Marquez querrá muestras de las excrecencias inusuales.</p><p class='basic right'>Toma el control de River Hawthorne. Si los investigadores terminan el escenario teniendo bajo su control tanto a River Hawthorne como al menos 2 {'{'}perPlayer{'}'} pistas, recuerda que «ayudaste a River».</p>"
+    },
+    "drRosaMarquez": {
+      "title": "{'{'}codex{'}'} Códice Θ: Dra. Rosa Marquez",
+      "body": "<h3>@:theFeastOfHemlockVale.writtenInRock.codex.drRosaMarquez.title </h3><p>_Si es el acto 1:_</p><p>—Me pregunto dónde estará Simeon. Leah parecía muy preocupada anoche —dice distraídamente la Dra. Marquez mientras sostiene en alto una muestra de un cristal blanco y azul—. Estas formaciones no son naturales. No soy especialista en geología, pero la formación está... deformada. Algunas carecen de la simetría más elemental.</p><p class='basic right'>Coloca 1 recurso en la carta de referencia de escenario como chatarra. Un investigador puede activar este códice de nuevo durante un acto distinto.</p><hr><p>_Si es el acto 2:_</p><p>—¡Ya no tengo edad para esto! —brama la Dra. Marquez mientras se sujeta el sombrero. Las vigas podridas pasan zumbando sobre vuestras cabezas mientras la vagoneta se lanza hacia delante. La profesora golpea con el bastón un cambio de agujas cercano mientras cruzáis como una exhalación la oscuridad. En alguna parte, a más profundidad en la mina, algo se mueve.</p><p class='basic right'>Intercambia 2 Lugares adyacentes.</p>"
+    }
+  },
+  "resolutions": {
+    "xp": {
+      "bonus": {
+        "simeon": "Experiencia adicional",
+        "leah": "Experiencia adicional",
+        "river": "Ayudaste a River"
+      }
+    },
+    "noResolution": {
+      "title": "Sin resolución",
+      "body": "<p>_Si no se ha llegado a ninguna resolución (todos los investigadores han sido derrotados)_: Lo último que recuerdas antes de perder el conocimiento es la vagoneta precipitándose a un cañón de luz. Te estalla la cabeza cuando despiertas entre hongos azules relucientes y extravagantes formaciones de cristal. Hay un camino que sube por la roca, pero llevará horas desandar el trecho siquiera hasta el principio de los túneles ferroviarios. Con un suspiro de agotamiento, vadeas el río subterráneo.</p><p class='basic'>Consulta el registro de campaña.</p>",
+      "skipToResolution6": "Si es la _Noche 1_ o la _Noche 2_, tacha el nombre de Simeon Atwood y salta a la _Resolución 6_.",
+      "skipToResolution3": "Si es el _Día 1_ o el _Día 2_, salta a la _Resolución 3_.",
+      "skipToResolution4": "Si es el _Día 3_, salta a la _Resolución 4_."
+    },
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<p>_Resolución 1_: Simeon baja de la vagoneta con cara de aturdimiento.</p><p>—¡Menudo viaje! —grita, inquietantemente impertérrito—. ¡Pase lo que pase, vas de cabeza al Salón de la Fama de la Orden Secreta Minera de las Travesuras! Estás en buena compañía, con George Washington Carver y mi mamá.</p><p>Está a punto de tropezar cuando la vía empieza a subir hacia el cielo radiante. Le ayudas a ponerse en pie y lo guías fuera, al aire limpio y fresco.</p><ul><li>Actualiza el registro de campaña.<ul><li>En las notas de Simeon Atwood, anota que *Simeon sobrevivió*.</li><li>Aumenta en 2 el nivel de relación de Simeon Atwood. Cada investigador obtiene 2 puntos de experiencia adicionales.</li></ul></li><li>Salta a la _Resolución 6_.</li></ul>"
+    },
+    "resolution2": {
+      "title": "Resolución 2",
+      "body": "<p>_Resolución 2_: Leah se aferra al costado de la vagoneta cuando bajáis. Se muerde el labio mientras contiene las lágrimas, con la mirada perdida. Cuando la conduces de vuelta por el túnel, el sonido de un llanto suave resuena en las paredes de piedra. Al salir al exterior, al aire limpio y fresco, te armas de valor y le preguntas a Leah qué ha visto.</p><p>—Ya no está. Simeon ya no está —responde.</p><ul><li>Actualiza el registro de campaña.<ul><li>En las notas de Leah Atwood, anota que *Leah vio algo en la mina*.</li><li>Aumenta el nivel de relación de Leah Atwood. Cada investigador obtiene 2 puntos de experiencia adicionales.</li></ul></li><li>Salta a la _Resolución 6_.</li></ul>"
+    },
+    "resolution3": {
+      "title": "Resolución 3",
+      "body": "<p>_Resolución 3_: Jurarías oír la voz de Simeon Atwood llamando por los túneles vacíos cuando bajas de la vagoneta. Incapaz de sacudirte el sonido, vuelves sobre tus pasos por los túneles con la esperanza de encontrar al joven. Al final llegas a un abismo resplandeciente lleno de cristales. Una oscura figura humanoide está encorvada sobre el cadáver de un animalillo. Se escabulle en la oscuridad cuando llamas. Gritas el nombre de Simeon hasta quedarte sin voz y luego desandas el camino hasta la salida con un horrible nudo en la garganta.</p><ul><li>Actualiza el registro de campaña.<ul><li>En las notas de Simeon Atwood, anota que *Simeon desapareció*.</li><li>Tacha el nombre de Simeon Atwood.</li></ul></li><li>Salta a la _Resolución 6_.</li></ul>"
+    },
+    "resolution4": {
+      "title": "Resolución 4",
+      "body": "<p>_Resolución 4_: Jurarías oír la voz de Leah Atwood llamando por los túneles vacíos cuando bajas de la vagoneta. Incapaz de sacudirte el sonido, vuelves sobre tus pasos por los túneles con la esperanza de encontrar a la cocinera del Valle. Al final llegas a un abismo resplandeciente lleno de cristales. En el fondo, una oscura figura humanoide está encorvada sobre el cuerpo de Leah. Se escabulle en la oscuridad cuando llamas. Echas una última mirada al cuerpo sin vida de Leah y luego desandas el camino hasta la salida con un horrible nudo en la garganta.</p><ul><li>Actualiza el registro de campaña.<ul><li>En las notas de Leah Atwood, anota que *Leah y Simeon se reunieron*.</li><li>Tacha el nombre de Leah Atwood.</li></ul></li><li>Salta a la _Resolución 6_.</li></ul>"
+    },
+    "resolution5": {
+      "title": "Resolución 5",
+      "body": "<p>_Resolución 5_: Oyes un familiar repiqueteo entrecortado cuando bajas de la vagoneta, seguido de un olor a podredumbre. Más aullidos y gritos resuenan por la retorcida caverna y te empujan a correr hacia la salida. Una vez fuera, al aire limpio de la noche, vuelves la vista atrás y te preguntas qué otros terrores estarán escritos en la roca bajo la isla.</p><ul><li>Anota en el registro de campaña que *los investigadores sobrevivieron a los horrores de la roca*.</li><li>Pasa a la _Resolución 6_.</li></ul>"
+    },
+    "resolution6": {
+      "title": "Resolución 6",
+      "body": "<p>_Resolución 6_: «Estudio de Miskatonic, junio de 1926. Miembros: Marquez, Musgrave <i>et alii</i>. Hemos tenido suerte de escapar con vida de las minas de la Punta Norte. Inestabilidad extrema y temblores sísmicos. Entre los hallazgos figuran formaciones cristalinas asimétricas, roedores de tamaño insólito y una población de insectos inusitadamente agresiva».</p><ul><li>Si el Apoyo de historia Esquirla prismática estaba bajo el control de un investigador cuando terminó el escenario, elige un investigador para que lo añada a su mazo. No cuenta para el tamaño de su mazo.</li><li>Actualiza el registro de campaña.<ul><li>Si «ayudaste a River», aumenta el nivel de relación de River Hawthorne. Cada investigador obtiene 1 punto de experiencia adicional.</li><li>Si un investigador controla a River Hawthorne y no se cumple lo anterior: reduce el nivel de relación de River Hawthorne.</li></ul></li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria. _Cada investigador puede gastar ahora la experiencia anotada en «Experiencia sin gastar» del registro de campaña._</li><li>En la sección «Zonas exploradas» del registro de campaña, marca *Minas de la Punta Norte*.</li><li>Consulta el registro de campaña.<ul><li>Si es el Día 1, ve al _Preludio: La primera tarde_ (*página 31*).</li><li>Si es la Noche 1, ve al _Preludio: Alba del segundo día_ (*página 39*).</li><li>Si es el Día 2, ve al _Preludio: La segunda tarde_ (*página 43*).</li><li>Si es la Noche 2, ve al _Preludio: Alba del último día_ (*página 51*).</li><li>Si es el Día 3, ve al _Preludio: La última tarde_ (*página 55*).</li></ul></li></ul>"
+    },
+    "standalone": {
+      "title": "Modo independiente",
+      "body": "<p>_Solo en modo independiente._ Los raíles ceden bajo tus pies. No había salida de esta mina, y la roca se cierra a tu alrededor.</p><p>Había {doom} de Perdición en el plan cuando cayó el último de vosotros.</p>"
+    }
+  },
+  "theCaveIn": "Interludio del escenario: El derrumbe",
+  "theCaveIn1": "<p>_El derrumbe 1_: Cuando el estruendo remite, vuelves la vista hacia el túnel hundido. No hay forma de volver atrás. Sin otro recurso, sigues la vieja vía férrea hacia la oscuridad. Al cabo de un rato llegas a un cobertizo muy iluminado junto a una vieja vagoneta que hay en los raíles cercanos.</p><p class='basic'>Consulta el registro de campaña.</p>",
+  "proceedToTheCaveIn2": "Si es (_Día {'{'}day{'}'}_), pasa a _El derrumbe 2_.",
+  "skipToTheCaveIn3": "De lo contrario, salta a _El derrumbe 3_.",
+  "theCaveIn2": "<p>_El derrumbe 2_: El cobertizo es un antiguo puesto de control ferroviario convertido en sede de un club. Mapas y planos dibujados a mano cubren las paredes y el techo; la letra parece de alguien muy joven. Si alguien ha estado aquí hace poco, puede que ahora mismo esté en la mina con la salida cortada, igual que tú.</p><p class='basic right'>Salta a _El derrumbe 4_.</p>",
+  "theCaveIn3": "<p>_El derrumbe 3_: Un agudo trino resuena por la caverna, seguido de un nauseabundo chasquido. Por un túnel contiguo avanzan unas fauces estigias anidadas entre apéndices que se retuercen. Casi se te para el corazón cuando la monstruosidad lanza otro estridente repiqueteo y carga contra ti.</p><p class='basic right'>Pasa a _El derrumbe 4_.</p>",
+  "theCaveIn4": "<p>_El derrumbe 4_: Con la entrada hundida, la única forma de salir de la mina es atravesarla. Empujas la vagoneta con todas tus fuerzas y saltas dentro, con la esperanza de que los raíles oxidados aguanten.</p><ul><li>Reúne los 15 Lugares _Ferrocarril_ que estaban puestos aparte.<ul><li>Coloca la Salida férrea y los 7 Lugares de túnel ferroviario representados como se muestra en el diagrama de colocación de Lugares.</li><li>Baraja los Lugares _Ferrocarril_ restantes y coloca 1 en cada hueco marcado con una «?» en el diagrama de colocación de Lugares.</li></ul></li><li>Coloca 1 recurso en la carta de referencia de escenario como aguja.</li><li>Coloca en el Puesto de control el Apoyo Vagoneta que estaba puesto aparte y elige hacia qué dirección mira (*consulta* _Deslizar e intercambiar Lugares_ *y* _La Vagoneta_ *en la página 11*).<ul><li>Coloca la carta pequeña de cada investigador en la Vagoneta.</li><li>Si Simeon Atwood o Leah Atwood están puestos aparte, colócalos en el Lugar situado más arriba de la columna 2.</li><li>Coloca en el Lugar situado más abajo de la columna 4 el Apoyo Esquirla prismática que estaba puesto aparte.</li></ul></li><li>Si es (_Noche {'{'}night{'}'}_), coloca en el Puesto de control, agotado, el Enemigo Bestia subterránea que estaba puesto aparte.</li><li>Baraja en el mazo de Encuentros las cartas restantes de *Escrito en la roca* puestas aparte y la pila de descarte de Encuentros.</li><li>Reanuda la partida.</li></ul>",
+  "slidingAndSwappingLocations": {
+    "title": "Deslizar e intercambiar Lugares",
+    "body": "<h3>Deslizar e intercambiar Lugares</h3><p class='basic'>Deslizar e intercambiar Lugares permite a los investigadores crear una ruta hacia la Salida férrea alineando la línea férrea.</p><p class='basic'>Para deslizar un Lugar, elige un Lugar que tenga un hueco vacío adyacente. Mueve ese Lugar (y todas las cartas que haya en él) a ese hueco vacío.</p><p class='basic'>Para intercambiar 2 Lugares, mueve simultáneamente cada uno de esos Lugares (y todas las cartas que haya en ellos) al hueco que ocupaba el otro.</p><ul><li>_Los Lugares que tengan Apoyos de historia no se pueden deslizar ni intercambiar._</li></ul>"
+  },
+  "theMineCart": {
+    "title": "La Vagoneta",
+    "body": "<h3>La Vagoneta</h3><p class='basic'>La carta pequeña de cada investigador se coloca solapada sobre la Vagoneta.</p><ul><li>Un investigador que esté en la Vagoneta está también en su Lugar. Los investigadores no pueden moverse con independencia de la Vagoneta. Cuando la Vagoneta se mueve, cada investigador se mueve con ella.</li><li>El Apoyo de historia Vagoneta tiene en su lado derecho un icono de raíl que indica la dirección hacia la que mira. El icono de raíl de la Vagoneta debe mirar siempre en la misma dirección que uno de los iconos de raíl de su Lugar.</li><li>Al mover la Vagoneta, esta solo puede moverse por una línea férrea hasta un Lugar conectado.</li><li>Cuando la Vagoneta entra en un Lugar, los investigadores pueden girarla 90 grados en cualquier sentido para que mire en la misma dirección que un icono de raíl de ese Lugar.</li><li>La Vagoneta solo puede moverse en la dirección hacia la que mira su icono de raíl. Si el Lugar al que se mueve no forma una línea férrea completa (*no están alineados*), la Vagoneta se sale de la línea férrea.</li></ul>"
+  }
+}

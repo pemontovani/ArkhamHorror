@@ -1,0 +1,128 @@
+{
+  "specialRules": [
+    {
+      "title": "Lugares que se hunden",
+      "body": "<p class='basic'>Durante este escenario, se colocan fichas de Daño sobre los Lugares, como socavones, para representar el hundimiento de la ciénaga. Cuando un Lugar tenga tres o más socavones, se dará la vuelta por el efecto Obligado del plan.</p><ul><li>Cuando se te indique dar la vuelta a un Lugar, descarta todas las fichas de Daño que haya sobre ese Lugar (no sobre los investigadores ni los Enemigos). Después, dale la vuelta, manteniendo en ese Lugar a todos los investigadores, Enemigos, Traiciones vinculadas y pistas. Descarta de ese Lugar todas las cartas de jugador vinculadas.</li></ul>"
+    }
+  ],
+  "intro": {
+    "title": "Escenario: La cosa de las profundidades",
+    "body": "<p class='basic unindented'>Consulta el registro de campaña.</p>",
+    "nightSkip": "Si es la _Noche 1_ o la _Noche 2_, salta a _Introducción 8_. De lo contrario:",
+    "day1": "Si es el _Día 1_, pasa a _Introducción 1_.",
+    "day2": "Si es el _Día 2_, salta a _Introducción 4_.",
+    "day3": "Si es el _Día 3_, salta a _Introducción 7_.",
+    "intro1": "<p>_Introducción 1_: La carretera a la ciénaga de Eastwick se desvía bruscamente del mismo camino por el que llegaste desde Akwan. El paisaje es increíblemente exuberante, casi tropical, con troncos de árbol veteados como un arcoíris que montan guardia al borde de charcas negras como espejos. La Dra. Marquez y Judith intercambian pullas amistosas en la caja de la camioneta y de vez en cuando espantan mosquitos a manotazos. Cuando la conversación se agria, intentas aliviar la tensión pidiéndole a Judith que cuente una historia de caza.</p>",
+    "checkJudith": "<p class='basic unindented'>Consulta el registro de campaña.</p>",
+    "judithHigh": "Si el nivel de relación de Judith Park es 1 o más, pasa a _Introducción 2_.",
+    "judithLow": "De lo contrario, salta a _Introducción 3_.",
+    "intro2": "<p>_Introducción 2_: Judith no titubea ni un segundo.</p><p>—¿Ves esta cicatriz? Me la hicieron en una pelea en un bar clandestino. Un niñato rico me rajó con una botella rota. Una trifulca amistosa, ya sabes. Su familia era de esta zona, y muy rica, insisto, y tenían tanto miedo de que estallara un escándalo que me ofrecieron un trabajo. Y no es que yo le hubiera delatado.</p><p>—No sé qué esperaba oír de alguien que trabaja de guardaespaldas, pero eso no —dice la Dra. Marquez, posiblemente molesta.</p><p>Una brisa acre, con un olor dulzón a muerte, llega de la ciénaga y pone fin a la conversación. La camioneta se detiene. Judith pone los ojos en blanco, se enfunda unas viejas botas altas de vadeo y se adentra en la ciénaga con el fusil colgado al hombro.</p><p>—Créeme o no. Yo solo estoy aquí por el dinero.</p><ul><li>Aumenta el nivel de relación de Judith Park. Cada investigador obtiene 1 punto de experiencia adicional.</li></ul><p class='basic right'>Pasa a la _Preparación_.</p>",
+    "intro3": "<p>_Introducción 3_: La actitud acerada de la joven se relaja.</p><p>—En la ciénaga de Eastwick vive algo grande. Un superdepredador del tamaño de una orca, con dientes afilados como cuchillas y demasiados ojos. Huele a algas podridas.</p><p>Le dices que parece que tiene experiencia personal con la criatura, y asiente.</p><p>—Se la debo. O me la debe. ¿Ves esto? —Señala la fea cicatriz de la mejilla—. Esa cosa estuvo a punto de sacarme un ojo. Pienso ajustar cuentas.</p><p>La Dra. Marquez se queda perpleja.</p><p>—Supongo que crees que alguien del mundo académico se traga cualquier cuento, pero si esperas que me crea...</p><p>Una brisa acre, con un olor dulzón a muerte, llega de la ciénaga y deja a Judith sin poder replicar. La camioneta se detiene. Judith se sube un pañuelo hasta cubrirse nariz y boca, se enfunda unas viejas botas altas de vadeo y se adentra en la ciénaga con el fusil colgado al hombro.</p><p>—A lo mejor, si te topas con ella, opinas otra cosa.</p><ul><li>En las notas de Judith Park, anota que <i>Judith compartió un resentimiento</i>.</li></ul><p class='basic right'>Pasa a la _Preparación_.</p>",
+    "intro4": "<p>_Introducción 4_: —La verdad es que nunca entendí qué le veía todo el mundo al *Viaje al centro de la Tierra*. ¿Una tierra hueca? Suena a locura —parlotea Theo mientras la lluvia martillea la cabina de la camioneta. El paisaje es increíblemente exuberante, casi tropical, con troncos de árbol veteados como un arcoíris que montan guardia al borde de charcas negras como espejos. De pronto la camioneta se mete en un tramo de barro profundo y se detiene con un chapoteo—. Creo que necesito ayuda —dice Theo.</p><p class='basic'>Los investigadores deben decidir (elige una opción):</p><ul><li>*«¡Podemos empujar!»* Pasa a _Introducción 5_.</li><li>*«Aceleraremos el motor».* Salta a _Introducción 6_.</li></ul>",
+    "label": {
+      "push": "«¡Podemos empujar!»",
+      "rev": "«Aceleraremos el motor»."
+    },
+    "intro5": "<p>_Introducción 5_: Tras cierto forcejeo, consigues sacar la camioneta del bache y guías a Theo por un laberinto de otros baches hasta una orilla rocosa. Varios sacos de provisiones se caen de la caja de la camioneta. Theo le quita importancia con un gesto.</p><p>—Ya los recogeré a la vuelta. Tengo unos asuntos de familia que atender en Akwan.</p><p>Theo te deja en la linde de la ciénaga, envuelta en niebla bajo una lluvia helada.</p><ul><li>Cada investigador comienza el siguiente escenario con 2 recursos menos.</li></ul><p class='basic right'>Pasa a la _Preparación_.</p>",
+    "intro6": "<p>_Introducción 6_: Theo apoya el hombro en la parte trasera de la camioneta mientras pisas el acelerador. El vehículo da un tirón hacia delante solo para enterrar la rueda delantera en otro bache. Theo sube de un salto a tu lado y deja escapar un suspiro de exasperación.</p><p>—Me parece que a partir de aquí tendréis que seguir a pie. No está tan lejos.</p><ul><li>Cada investigador comienza el siguiente escenario con 1 acción menos.</li></ul><p class='basic right'>Pasa a la _Preparación_.</p>",
+    "intro7": "<p>_Introducción 7_: La carretera a la ciénaga de Eastwick está llena de bruscos baches que reflejan el brillante lustre prismático del cielo. Theo detiene la camioneta cuando el camino se vuelve traicionero.</p><p>—Siento hacerte esto, pero esta vieja amiga no puede con tanto barro —dice Theo.</p><p>Bajas de la caja de la camioneta, te despides de Theo y recorres a pie el camino embarrado junto a una densa espesura de árboles de colores chillones surcados por grietas de luz.</p><p class='basic right'>Pasa a la _Preparación_.</p>",
+    "intro8": "<p>_Introducción 8_: La luz de la luna brilla como la del día e ilumina el desolado paisaje que rodea la camioneta como algo salido de un cuento de los Grimm. Una brisa acre, con un olor dulzón a muerte, llega de la ciénaga cuando te detienes en la orilla y alzas la vista a la luna, velada por las nubes que se agolpan. Un único árbol delgado se recorta contra la luna, alzándose como una mano que quisiera aferrar algo. Descargas tus provisiones de la camioneta y vuelves la vista. El árbol delgado ha desaparecido, dejando a su paso una onda oscura.</p><p class='basic right'>Pasa a la _Preparación_.</p>",
+    "xp": {
+      "bonus": "Experiencia adicional"
+    }
+  },
+  "setup": {
+    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de Encuentros: *La cosa de las profundidades*, *Plaga*, *El bosque* y *Mutaciones*. Estos conjuntos se identifican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/the-thing-in-the-depths.png' /><img src='{setImgPath}/blight.png' /><img src='{setImgPath}/the-forest.png' /><img src='{setImgPath}/mutations.png' /></section>",
+    "currentDaySet": "Además, consulta en el registro de campaña el día actual y reúne el conjunto de Encuentros correspondiente: *El primer día*, *El segundo día* o *El último día*. Estos conjuntos se identifican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/the-first-day.png' /><img src='{setImgPath}/the-second-day.png' /><img src='{setImgPath}/the-final-day.png' /></section>",
+    "currentDayMarker": "Consulta en el registro de campaña el día y la hora actuales. Pon en juego la carta de Indicador de tiempo por su cara correspondiente, (_Día {'{'}day{'}'}_) o (_Noche {'{'}night{'}'}_).",
+    "doomDay2": "Si es el _Día 2_ o la _Noche 2_, coloca 1 ficha de Perdición sobre el plan.",
+    "doomDay3": "Si es el _Día 3_, coloca 2 fichas de Perdición sobre el plan.",
+    "locations": "Reúne los 10 Lugares de dos caras y barájalos. Retira de la partida uno de ellos al azar. Pon en juego los 9 Lugares restantes en una cuadrícula de 3×3 con su lado _Ciénaga_ boca arriba.",
+    "shuffleLocations": "Consulta Adyacencia de Lugares más abajo.",
+    "startingLocation": "Cada investigador comienza la partida en el «Lugar inicial».",
+    "residents": "Si es (_Día {'{'}day{'}'}_), reúne todos los Apoyos de historia del conjunto de Encuentros *Habitantes*. Este conjunto se identifica con este icono:<section class='encounter-sets'><img src='{setImgPath}/residents.png' /></section>",
+    "residentsDay1": "Si es el _Día 1_, coloca a Judith Park en el Lugar Orilla norte. Pon en juego a la Dra. Rosa Marquez bajo el control de un investigador. No ocupa un hueco de aliado durante este escenario.",
+    "residentsDay2Or3": "Si es el _Día 2_ o el _Día 3_, coloca a River Hawthorne en el Lugar Orilla norte.",
+    "removeResidents": "Retira de la partida todas las demás cartas del conjunto de Encuentros *Habitantes*.",
+    "setAsideEnemies": "Pon aparte, fuera del juego, las siguientes cartas: el Enemigo La cosa de las profundidades, el Enemigo Híbrido chelydra y las cinco copias del Enemigo Tentáculo aferrador."
+  },
+  "sinkingLocations": {
+    "title": "Lugares que se hunden",
+    "body": "<h3>Lugares que se hunden</h3><p class='basic'>Durante este escenario, se colocan fichas de Daño sobre los Lugares, como socavones, para representar el hundimiento de la ciénaga. Cuando un Lugar tenga tres o más socavones, se dará la vuelta por el efecto Obligado del plan.</p><ul><li>Cuando se te indique dar la vuelta a un Lugar, descarta todas las fichas de Daño que haya sobre ese Lugar (no sobre los investigadores ni los Enemigos). Después, dale la vuelta, manteniendo en ese Lugar a todos los investigadores, Enemigos, Traiciones vinculadas y pistas. Descarta de ese Lugar todas las cartas de jugador vinculadas.</li></ul>"
+  },
+  "ui": {
+    "northShore": "Orilla norte",
+    "startingLocation": "Lugar inicial",
+    "cranberryBog": "Ciénaga de los arándanos"
+  },
+  "label": {
+    "groundDisturbance": {
+      "placeSinkhole": "Coloca 1 ficha de Daño en el Lugar _Ciénaga_ más cercano, como socavón"
+    },
+    "removeSinkhole": "Retirar 1 socavón del Lugar _Ciénaga_ más cercano",
+    "doNotRemoveSinkhole": "No retirar ningún socavón"
+  },
+  "codex": {
+    "riverHawthorne": {
+      "title": "{'{'}codex{'}'} Códice 5: River Hawthorne",
+      "uncontrolled": "<h3>@:theFeastOfHemlockVale.theThingInTheDepths.codex.riverHawthorne.title </h3><p>_Si no controlas a River Hawthorne:_</p><p>—Odio esta ciénaga. Doy por hecho que a todas las personas desaparecidas del Valle las mandaron aquí, de lo peligrosa que es. Y, aun así, la madre Rachel me ha dicho que venga. Ojalá estuviera de vuelta en Nueva York —dice River, con pinta de estar fuera de lugar con sus enormes botas de vadeo. Te planta una cesta en los brazos—. Llévame adonde haya arándanos, y date prisa.</p><p class='basic right'>Recuerda que «River \"pidió\" ayuda». Toma el control de River Hawthorne. Puedes activar este códice de nuevo en el Lugar Ciénaga de los arándanos (consulta el diagrama de colocación de Lugares de la página 28).</p>",
+      "controlled": "<h3>@:theFeastOfHemlockVale.theThingInTheDepths.codex.riverHawthorne.title </h3><p>_Si controlas a River Hawthorne y estás en el Lugar Ciénaga de los arándanos (consulta el diagrama de colocación de Lugares de la página 28):_</p><p>—Gracias. Probablemente habría podido hacerlo sin ayuda, pero agradezco el detalle —dice River mientras recoge un ramillete de flores de arándano—. ¿Quién quiere flores de arándano? La madre Rachel. Imagino que manda aquí a la gente que no le gusta con la esperanza de que «desaparezca». Me he esforzado muchísimo por ganarme el favor de esa vieja arpía. Cuando les haya arrebatado esta isla a los Atwood, ella será la primera en largarse.</p><p class='basic right'>Aumenta el nivel de relación de River Hawthorne. Cada investigador obtiene 1 punto de experiencia adicional. Retira a River Hawthorne de la partida.</p>"
+    },
+    "judithPark": {
+      "title": "{'{'}codex{'}'} Códice 7: Judith Park",
+      "grudge": "<h3>@:theFeastOfHemlockVale.theThingInTheDepths.codex.judithPark.title </h3><p>_Si Judith compartió un resentimiento:_</p><p>—¡Al suelo! —grita Judith.</p><p>Te agachas mientras la menuda y fornida mujer alza el fusil, apunta y dispara justo donde estaba tu cabeza. Sigue un chillido y después un sonoro chapoteo. Judith te ayuda a ponerte en pie con una sonrisita.</p><p>—Más te vale ayudarme a matar a esa cosa de las profundidades. Hoy.</p><p class='basic right'>Elige un Enemigo que no sea Élite en juego. Derrota a ese Enemigo. Toma el control de Judith Park.</p>",
+      "noGrudge": "<h3>@:theFeastOfHemlockVale.theThingInTheDepths.codex.judithPark.title </h3><p>_De lo contrario:_</p><p>Judith se agarra a una rama para mantener el equilibrio.</p><p>—Toda esta ciénaga se está hundiendo. No siempre ha estado tan mal. Da la impresión de que algo se ha movido ahí abajo, en lo profundo. Algo grande. Supongo que deberíamos ir juntos. Ya sabes. Para que pueda protegerte —dice con una sonrisa fugaz.</p><p class='basic right'>Toma el control de Judith Park.</p>"
+    },
+    "drRosaMarquez": {
+      "title": "{'{'}codex{'}'} Códice Θ: Dra. Rosa Marquez",
+      "body": "<h3>@:theFeastOfHemlockVale.theThingInTheDepths.codex.drRosaMarquez.title </h3><p>—Echa un vistazo a esto. —La Dra. Marquez te llama junto a un tronco veteado—. Es imposible. Cinco especies distintas en una. No se me ocurre ningún método de injerto capaz de producir algo así.</p><p>Da unos golpecitos al tronco con el bastón, se agacha y levanta un grueso manojo de raíces multicolores que parecen cabello de ángel.</p><p>—Pero son resistentes. Sus raíces recuerdan a la red de micelio de una colonia de setas, aunque son mucho más gruesas. No te apartes de los árboles y no te hundirás.</p><p class='basic right'>Elige cualquier Lugar en juego. Si es un Lugar _Ciénaga_, retira de él todos los socavones. Si es un Lugar _Hundido_, dale la vuelta, conservando todas las fichas y cartas vinculadas.</p>"
+    },
+    "xp": {
+      "bonus": "Experiencia adicional"
+    }
+  },
+  "tokens": {
+    "easyStandard": {
+      "skull": "-X. X es la mitad de la cantidad de Lugares Hundido en juego (redondeando hacia arriba).",
+      "cultist": "-1. Puedes retirar 1 socavón del Lugar Ciénaga más cercano.",
+      "tablet": "-3. Si fracasas, coloca 1 ficha de Daño en el Lugar Ciénaga más cercano, como socavón.",
+      "elderThing": "-4. Si fracasas, busca en el mazo de Encuentros y en la pila de descarte un Enemigo Tentáculo aferrador y róbalo, ignorando su palabra clave Oleada."
+    },
+    "hardExpert": {
+      "skull": "-X. X es la cantidad de Lugares Hundido en juego (redondeando hacia arriba).",
+      "cultist": "-3. Si tienes éxito, puedes retirar 1 socavón del Lugar Ciénaga más cercano.",
+      "tablet": "-5. Coloca 1 ficha de Daño en el Lugar Ciénaga más cercano, como socavón.",
+      "elderThing": "-5. Busca en el mazo de Encuentros y en la pila de descarte un Enemigo Tentáculo aferrador y róbalo, ignorando su palabra clave Oleada."
+    }
+  },
+  "resolutions": {
+    "noResolution": {
+      "title": "Sin resolución",
+      "body": "<p>_Si no se ha llegado a ninguna resolución (todos los investigadores han sido derrotados)_: Despiertas en un claro cercano a la orilla de la ciénaga, con Theo sentado a tu lado. Antes de que puedas decir nada, el joven te manda callar y señala un hueco entre los árboles. Recortado contra una franja de luz hay un venado magnífico. Sus largas astas retorcidas están cubiertas de musgo y excrecencias fúngicas, y resplandece con una pálida incandescencia. Theo sonríe.</p><p>—¿No es precioso? A ver, seguro que nos mataría si nos viera. Pero, bueno... —Agita la mano—. Me alegro de haberte encontrado. Había algo moviéndose allá en la orilla, pero no me he molestado en mirar. Me alegro de que estés bien.</p><ul><li>Cada investigador obtiene 1 punto de experiencia adicional por conseguir información sobre el singular ecosistema de la Isla de la Cicuta.</li><li>Salta a la _Resolución 5_.</li></ul>"
+    },
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<p>_Resolución 1_: En el mismo instante en que las tijeras cortan el tallo, sabes que algo va mal. El reptil gime cuando arrancas de su lomo la flor gris y reluciente, y luego abre las fauces, dejando ver hileras de dientes serrados mientras te lanza una dentellada. Del tallo hueco brota a chorros un fluido blanco como el arsénico que te rocía con una secreción hedionda que te quema la piel. Casi se te cae la flor al retroceder a trompicones, comprendiendo tu error. Los vapores del fluido te marean y dan al bosque una fluorescencia exagerada. La pobre criatura reptiliana se revuelve de dolor y se hunde, dejando en la superficie remolinos de sangre lechosa. Un dolor agudo te obliga a soltar la flor alcaloide, y al examinarte la mano descubres un corte profundo en la palma. La forma de la herida indica que el tallo había empezado a penetrar en la carne. Metes la muestra en un tarro para especímenes y te diriges a la orilla sur.</p><ul><li>Anota en el registro de campaña que <i>el híbrido chelydra murió</i>.</li><li>Cada investigador obtiene 1 punto de experiencia adicional por estudiar parte de la singular flora y fauna de la ciénaga de Eastwick.</li><li>Salta a la _Resolución 5_.</li></ul>"
+    },
+    "resolution2": {
+      "title": "Resolución 2",
+      "body": "<p>_Resolución 2_: Un arma se amartilla a tu espalda.</p><p>—Atrás —dice Judith, saliendo de la maleza. Apunta al híbrido reptiliano—. No te acerques a esa cosa.</p><p>La Dra. Marquez se interpone entre Judith y la criatura.</p><p>—Con el debido respeto, esa «cosa» es completamente inofensiva.</p><p>Como para subrayar sus palabras, la criatura mastica una rama florida.</p><p>—En esta isla no hay nada inofensivo —replica Judith—. Todo, hasta las tortuguitas encantadoras, los ciervos monos y los malditos conejos, es mortífero. No sé cómo la gente de la aldea no tiene más miedo. Te garantizo que esta tortuga... o lo que sea, no se limita a mascar flores.</p><p>—Si disparas a lo que he venido a estudiar, no cobrarás —dice la Dra. Marquez con frialdad.</p><p>La profesora saca un cuaderno y empieza a dibujar a la criatura. El grupo enmudece mientras un par de ranas cruzan nadando la charca frente al animal. En un instante, el híbrido chelydra abre la boca, dejando ver 4 hileras distintas de dientes que le recubren el fondo de la garganta, y atrapa ambas ranas de un bocado.</p><p>La Dra. Marquez baja el cuaderno de bocetos.</p><p>—¿Pero qué demonios...?</p><ul><li>Anota en el registro de campaña que <i>el híbrido chelydra vivió</i>.</li><li>Cada investigador obtiene 3 puntos de experiencia adicionales por presenciar parte de la singular flora y fauna de la ciénaga de Eastwick.</li><li>Salta a la _Resolución 5_.</li></ul>"
+    },
+    "resolution3": {
+      "title": "Resolución 3",
+      "body": "<p>_Resolución 3_: Encuentras al reptil florecido en una charca negra como un espejo. Antes de que puedas moverte siquiera, un tentáculo espinoso alza al híbrido por los aires sobre unas fauces de osario. La criatura deja escapar un último y lastimoso gemido mientras cae en la boca llena de colmillos. Se te revuelve el estómago al oír cómo su caparazón cruje entre las poderosas mandíbulas de la abominación. Sigue un grave rumor de satisfacción mientras la Cosa se hunde bajo la ciénaga.</p><ul><li>Anota en el registro de campaña que <i>el híbrido chelydra fue devorado</i>.</li><li>Cada investigador sufre 1 trauma mental.</li><li>Cada investigador obtiene 1 punto de experiencia adicional por conseguir información sobre el singular ecosistema de la Isla de la Cicuta.</li><li>Salta a la _Resolución 5_.</li></ul>"
+    },
+    "resolution4": {
+      "title": "Resolución 4",
+      "body": "<p>_Resolución 4_: La Cosa ruge de dolor mientras agita sus muchas extremidades. Ondas de choque recorren el suelo blando y húmedo y reducen a astillas arboledas enteras. Te aferras como puedes mientras dos secos estallidos rasgan el aire. La monstruosa criatura gorgotea mientras sus vejigas natatorias, al desinflarse, forcejean por mantenerla a flote. Su último rugido se interrumpe cuando la Cosa se hunde bajo la fétida marisma.</p><ul><li>Anota en el registro de campaña que <i>la cosa de las profundidades fue derrotada</i>.</li><li>Pasa a la _Resolución 5_.</li></ul>"
+    },
+    "resolution5": {
+      "title": "Resolución 5",
+      "body": "<p>_Resolución 5_: «Estudio de Miskatonic, junio de 1926. Miembros: Marquez, Musgrave <i>et alii</i>. Zona estudiada: ciénaga de Eastwick. Numerosa flora de tamaño anormal, variedad parasitaria capaz de controlar a su huésped. Ecosistema de una abundancia agobiante. Fauna acuática agresiva. Más jungla que bosque. No es una ciénaga cualquiera. Habrá que volver con más financiación».</p><ul><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria ({xp}). _Cada investigador puede gastar ahora la experiencia anotada en «Experiencia sin gastar» del registro de campaña._</li><li>En la sección «Zonas exploradas» del registro de campaña, marca *Ciénaga de Eastwick*.</li></ul>"
+    },
+    "xp": {
+      "bonus": "Experiencia adicional",
+      "bonusJudith": "Experiencia adicional"
+    }
+  }
+}

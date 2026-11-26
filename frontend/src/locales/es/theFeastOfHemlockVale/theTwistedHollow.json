@@ -1,0 +1,154 @@
+{
+  "specialRules": [
+    {
+      "title": "Nivel de oscuridad",
+      "body": "<p class='basic'>A lo largo de este escenario, la cantidad de recursos que hay en «Nivel de oscuridad», en la carta de referencia de escenario, indica en qué momento de la noche os encontráis. A medida que pasa el tiempo, se añaden recursos al nivel de oscuridad actual, y la partida continúa hasta que los investigadores alcancen un determinado nivel de oscuridad o sean derrotados. Cuanto más oscuro está el bosque, más mortíferas son sus trampas. El nivel de oscuridad actual no tiene por sí mismo ningún efecto en el juego; sin embargo, algunos efectos de cartas de Encuentro pueden cambiar o hacerse más fuertes según el nivel de oscuridad actual.</p>"
+    },
+    {
+      "title": "Adyacencia de Lugares en La hondonada retorcida",
+      "body": "<p class='basic'>Durante este escenario, los Lugares se disponen en un patrón predeterminado, y nuevos Lugares del mazo de Bosque van surgiendo adyacentes a los ya existentes, con el lado no revelado boca arriba. Durante este escenario, los Lugares adyacentes están conectados entre sí.</p><ul><li>Si en algún momento un Lugar no comparte ningún borde con otro Lugar, deslízalo en vertical o en horizontal hasta que quede adyacente al Lugar más cercano.</li></ul>"
+    },
+    {
+      "title": "Persecución",
+      "body": "<p class='basic'>Algunas cartas de este escenario hacen referencia a una zona llamada «zona de persecución». La zona de persecución es una zona fuera del juego, situada junto a los mazos de Acto y de Plan, en la que los Enemigos pueden entrar y de la que pueden salir por efectos de cartas. En general, los Enemigos en juego se irán moviendo a la zona de persecución a medida que avance la noche. Aunque la zona de persecución está fuera del juego, cuando un Enemigo se mueve hacia ella o desde ella, conserva todas sus fichas y cartas vinculadas.</p><p class='basic'>Se considera que los Enemigos de la zona de persecución están «en persecución». Los Enemigos en persecución se consideran fuera del juego y no pueden verse afectados por cartas de jugador ni por acciones de los investigadores. Sin embargo, los Enemigos en persecución pueden volver a entrar en juego mediante diversas capacidades de cartas.</p><p class='basic'>(Mientras los Enemigos estén en persecución, ignora todos los efectos Obligados de esos Enemigos. La Perdición que haya sobre Enemigos en persecución está fuera del juego y no cuenta para el umbral de perdición).</p>"
+    }
+  ],
+  "tokens": {
+    "easyStandard": {
+      "skull": "-X. X es el nivel de oscuridad actual.",
+      "cultist": "-1. Cura 1 punto de daño de tu investigador.",
+      "tablet": "-3. Si fracasas, busca el Enemigo en persecución que tenga el mayor valor de evitar. Haz que aparezca en tu Lugar.",
+      "elderThing": "-4. Si fracasas, recibe 1 punto de horror."
+    },
+    "hardExpert": {
+      "skull": "-X. X es el doble del nivel de oscuridad actual.",
+      "cultist": "-3. Si tienes éxito, cura 1 punto de daño de tu investigador.",
+      "tablet": "-4. Busca el Enemigo en persecución que tenga el mayor valor de evitar. Haz que aparezca en tu Lugar.",
+      "elderThing": "-5. Recibe 1 punto de horror."
+    }
+  },
+  "intro": {
+    "label": {
+      "tellTheTruth": "Decir la verdad.",
+      "lie": "Mentirle."
+    },
+    "title": "Escenario: La hondonada retorcida",
+    "intro1": "<p>_Introducción 1_: —Tendría que haber sabido que no podía dejar que ese mentecato se fuera por su cuenta. Juro por su preciosa tumbita que, como encuentre a ese chico cogiendo violetas y recitando poesía, haré que lo expulsen.</p><p>La Dra. Marquez casi escupe las palabras mientras te conduce a uno de los cobertizos de suministros del Valle. Registrar la aldea no ha dado ningún resultado: solo un montón de libros y la cartera de cuero de Bertie en su habitación de la pensión. Al parecer, nadie lo ha visto desde esta mañana.</p><p>La profesora abre el desvencijado cobertizo y descuelga de un gancho de hierro un viejo farol de granero.</p><p>—Busca aceite —dice con aspereza.</p><p>Mencionas la advertencia de la gente del lugar contra salir de noche, y la profesora golpea con el bastón una aceitera vacía.</p><p>—Razón de más para encontrar a Bertie.</p><p>Una larga sombra se cierne sobre ambos, y al volverte ves la silueta de la madre Rachel recortada contra la puesta de sol.</p><p>—Os habéis marchado todos muy deprisa después de la cena. ¿Puedo ayudaros a encontrar algo?</p><p class='basic'>Los investigadores deben decidir (elige una opción):</p><ul><li>*Decir la verdad*. Pasa a _Introducción 2_.</li><li>*Mentirle*. Salta a _Introducción 3_.</li></ul>",
+    "intro2": "<p>_Introducción 2_: Mientras le explicas la apurada situación, la mujer asiente con gravedad.</p><p>—Como os dije cuando llegasteis al Valle, nosotros no nos aventuramos a salir de noche. Sin embargo, es probable que vuestro amigo no sobreviva a la noche si se queda solo. —Repara en el viejo farol de la Dra. Marquez—. Llevaos mi farol, por favor. No salgáis de la luz y el camino os resultará mucho más seguro.</p><p>Os lleva hasta la linde del bosque mientras se pone el sol. El aire del bosque es de una densidad antinatural y te cuesta respirar, pero aun así sigues a la matrona. Al final, la madre Rachel os conduce a un amplio campo abierto y señala las sombras tenebrosas.</p><p>—A partir de aquí, vuestra vida está en vuestras manos. La gente del Valle rezará para que volváis con bien.</p><p>Unas luces difusas danzan sobre las milenramas y los ásteres del prado. La madre Rachel señala el lóbrego abismo.</p><p>—Si todo lo demás falla, regresad junto a las luciérnagas.</p><ul><li>Anota en el registro de campaña que *la madre Rachel mostró el camino*.</li><li>Añade 1 ficha de {'{'}cultist{'}'} a la bolsa de caos durante el resto de la campaña.</li></ul><p class='basic right'>Pasa a la _Preparación_.</p>",
+    "intro3": "<p>_Introducción 3_: La madre Rachel asiente a tu inconsistente historia.</p><p>—Ya veo. Entended que el Valle está para ayudar. Os deseo lo mejor en vuestro estudio.</p><p>Tras algo más de conversación cortés, la matrona os deja a la Dra. Marquez y a ti registrando el cobertizo. Por fin encontráis un tarro de cristal desportillado con apenas un quinto de aceite.</p><p>—Nos alcanzará si racionamos hasta la última gota —dice la profesora.</p><p>Sigues la tenue luz del farol hacia las fauces de árboles retorcidos, hasta un arroyo tranquilo y después cada vez más arriba y más adentro en la oscuridad.</p><p>Al final llegáis a un puente derrumbado y a un empedrado invadido por la maleza entre las ruinas de una antigua aldea. Los árboles susurran en lo alto.</p><p>—Ahí hay algo.</p><p>La Dra. Marquez levanta el farol. Dos ojillos redondos y brillantes reflejan la luz, pero se desvanecen enseguida en las tinieblas.</p><p>—Ten cuidado y no te alejes. A saber qué hay ahí fuera.</p><ul><li>Anota en el registro de campaña que *los investigadores se extraviaron*.</li><li>Añade 1 ficha de {'{'}elderThing{'}'} a la bolsa de caos durante el resto de la campaña.</li></ul><p class='basic right'>Pasa a la _Preparación_.</p>"
+  },
+  "tooltips": {
+    "glimmeringWoods": {
+      "resign": "\"¡Seguro que Bertie está bien!\""
+    }
+  },
+  "setup": {
+    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de Encuentros: *El primer día*, *La hondonada retorcida*, *El bosque* y *Micónidos*. Estos conjuntos se identifican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/the-first-day.png' /><img src='{setImgPath}/the-twisted-hollow.png' /><img src='{setImgPath}/the-forest.png' /><img src='{setImgPath}/myconids.png' /></section>",
+    "night": "Pon en juego la carta de Indicador de tiempo _Noche uno_. Abre tu propio camino.",
+    "valeLantern": {
+      "checkCampaignLog": "Consulta el registro de campaña.",
+      "showedTheWay": "*Si la madre Rachel mostró el camino*: Busca el Apoyo de historia Farol del Valle que _tiene_ el rasgo _Ayuda_ y ponlo en juego bajo el control de un investigador, con el lado _Encendido_ boca arriba. Retira de la partida el otro Farol del Valle. Si solo hay 1 investigador, el Farol del Valle no ocupa un hueco de mano durante este escenario.",
+      "lostThePath": "*Si los investigadores se extraviaron*: Busca el Apoyo de historia Farol del Valle que _no tiene_ el rasgo _Ayuda_ y ponlo en juego bajo el control de un investigador, con el lado _Encendido_ boca arriba. Retira de la partida el otro Farol del Valle. Si solo hay 1 investigador, el Farol del Valle no ocupa un hueco de mano durante este escenario."
+    },
+    "removeLocations": "Pon aparte, fuera del juego, los Lugares La hondonada retorcida y Prado destelleante (ambos son el lado revelado de un Lugar Bosque oriental). Después, según el número de investigadores en la partida, retira al azar de entre los Lugares Bosque oriental reunidos los siguientes:",
+    "oneOrTwoInvestigators": "Si hay 1 o 2 investigadores, retira 2 Lugares de la partida.",
+    "threeOrFourInvestigators": "Si hay 3 o 4 investigadores, retira 1 Lugar de la partida.",
+    "glimmeringWoods": {
+      "checkCampaignLog": "Consulta el registro de campaña.",
+      "showedTheWay": "*Si la madre Rachel mostró el camino*: Pon en juego el Lugar Prado destelleante. Cada investigador comienza la partida en el Prado destelleante.",
+      "lostThePath": "*Si los investigadores se extraviaron*: Pon en juego un Lugar Bosque oriental al azar que no esté puesto aparte, ignorando cualquier efecto Obligado. Cada investigador comienza la partida en ese Lugar."
+    },
+    "woodsDeck": "Si no está ya en juego, baraja el Lugar Prado destelleante puesto aparte junto con todos los Lugares Bosque oriental restantes para formar el «mazo de Bosque». Roba las 4 primeras cartas del mazo de Bosque y ponlas en juego arriba, abajo, a la derecha y a la izquierda del Lugar inicial.",
+    "residents": "Consulta el registro de campaña y reúne todos los Apoyos de historia del conjunto de Encuentros *Habitantes*. Este conjunto se identifica con este icono:<section class='encounter-sets'><img src='{setImgPath}/residents.png' /></section>",
+    "theoPeters": "Si Theo Peters tiene un nivel de relación de 2 o más, ponlo aparte, fuera del juego.",
+    "judithPark": "Si Judith Park tiene un nivel de relación de 2 o más, ponla aparte, fuera del juego.",
+    "drRosaMarquez": "Pon a la Dra. Rosa Marquez bajo el control de un investigador. Durante el resto de este escenario, no ocupa un hueco de aliado.",
+    "bertieMusgrave": "Pon aparte, fuera del juego, a Bertie Musgrave.",
+    "rest": "Retira de la partida el resto del conjunto de Encuentros Habitantes.",
+    "backToTheVale": "Pon aparte el plan especial: ¡De vuelta al Valle!",
+    "darknessLevel": "Coloca 1 recurso en la carta de referencia de escenario, en «Nivel de oscuridad». Durante el resto del escenario, la cantidad de recursos que haya en «Nivel de oscuridad» indica el paso del tiempo."
+  },
+  "codex": {
+    "judithPark": {
+      "title": "{'{'}codex{'}'} Códice 7: Judith Park",
+      "body": "<h3>@:theFeastOfHemlockVale.theTwistedHollow.codex.judithPark.title </h3><p>—¡Trágate esto, hijo de puta!</p><p>Una voz familiar llega desde la oscuridad. Varios disparos impactan en el cuerpo blando y en plena muda del oso. El animal mira a su derecha justo cuando otro disparo le abre el cráneo. Chillando de dolor, carga entre la maleza hacia el sonido. Resuenan más disparos. Tras lo que parece una eternidad, Judith Park sale del bosque agarrándose un brazo ensangrentado. Corres a vendarle la herida, pero te aparta con un gesto.</p><p>—Estoy bien. Me alegro de que tú lo estés. —Judith sonríe con chulería—. La madre Rachel dijo que quizá necesitarías ayuda. Además, me ha pagado un billete de veinte por venir.</p><p class='basic right'>Inflige 2 puntos de daño a Judith Park.</p><p class='basic right'>En las notas de Judith Park, anota que *Judith te salvó el pellejo*.</p><p class='basic right'>Pasa a _{'{'}codex{'}'} Códice Σ: El oso 3_.</p>"
+    },
+    "theoPeters": {
+      "title": "{'{'}codex{'}'} Códice 8: Theo Peters",
+      "body": "<h3>@:theFeastOfHemlockVale.theTwistedHollow.codex.theoPeters.title </h3><p>Una andanada de petardos sale volando de la oscuridad.</p><p>—¡Cuidado! —grita una voz familiar.</p><p>El oso retrocede sobre las patas traseras mientras le siguen cayendo petardos. Theo surge de las tinieblas, te agarra de la mano y sale a escape de allí. El oso ruge en algún punto de la oscuridad.</p><p>—La madre Rachel dijo que estabas buscando a Billy en el bosque oriental —dice Theo sin aliento—. Y, bueno, no podía dejar que lo hicieras sin ayuda. Así que he tomado prestados unos fuegos artificiales de Simeon.</p><p>Sientes demasiado alivio como para decirle que es «Bertie» y no «Billy».</p><p class='basic right'>Inflige 2 puntos de horror a Theo Peters.</p><p class='basic right'>En las notas de Theo Peters, anota que *Theo distrajo al oso*.</p><p class='basic right'>Pasa a _{'{'}codex{'}'} Códice Σ: El oso 3_.</p>"
+    },
+    "drRosaMarquez": {
+      "label": {
+        "doNotRevealLocation": "No revelar ningún Lugar."
+      },
+      "title": "{'{'}codex{'}'} Códice Θ: Dra. Rosa Marquez",
+      "body": "<h3>@:theFeastOfHemlockVale.theTwistedHollow.codex.drRosaMarquez.title </h3><p>La Dra. Marquez se apoya en el bastón mientras estudia un abeto balsámico de ramas en espiral. Unas luces destellantes entre los árboles ofrecen una débil iluminación; al alzar la vista, ves unos bultos azules relucientes.</p><p>—Nunca había visto nada tan bonito —dice la profesora, incapaz de contener su asombro. Un momento después, te mira con severidad—. Ni se te ocurra decirle a Bertie que he dicho eso, o le contaré a Armitage que moriste durante el estudio.</p><p class='basic'>Elige cualquier Lugar en juego. Puedes revelar ese Lugar, ignorando su efecto Obligado.</p>"
+    },
+    "bertieMusgrave": {
+      "label": {
+        "gainClues": "Cada investigador obtiene 1 pista (de la reserva de fichas).",
+        "readyValeLantern": "Preparar el Apoyo Farol del Valle."
+      },
+      "title": "{'{'}codex{'}'} Códice Ω: Bertie Musgrave",
+      "body": "<h3>@:theFeastOfHemlockVale.theTwistedHollow.codex.bertieMusgrave.title </h3><p>—Menudo aprieto —masculla Bertie entre dientes. El joven manipula con torpeza su libreta y empieza a dibujar. Cuando le dices que no es momento ni lugar para un estudio de la naturaleza, asiente—. Ah, no, mil perdones. Es un mapa. Ojo, no muy bueno... —Le tiembla la mano mientras traza una última línea—. Yo he pasado antes por aquí. Es por ahí —dice señalando entre los árboles.</p><p class='basic'>Elige una opción: cada investigador obtiene 1 pista (de la reserva de fichas), o bien prepara el Apoyo Farol del Valle.</p>"
+    },
+    "sigma": {
+      "label": {
+        "physical": "Sufrir 1 trauma físico y recibir 1 punto de daño directo.",
+        "mental": "Sufrir 1 trauma mental y recibir 1 punto de horror directo."
+      },
+      "title": "{'{'}codex{'}'} Códice Σ: El oso",
+      "body": "<p>_Elegid al investigador más valiente para que lea lo siguiente_.</p>",
+      "theBear1": "<h3>@:theFeastOfHemlockVale.theTwistedHollow.codex.sigma.title </h3><p>_El oso 1_: Encuentras enganchado en una rama un jirón de *tweed* que es inconfundiblemente de Bertie. A tu espalda suena una tos ronca y silbante, acompañada de un olor a podredumbre. Te das la vuelta. Un oso descomunal brilla en la oscuridad como un fuego fatuo. Una colonia de hongos relucientes en el lomo de la criatura ilumina las tinieblas con una incandescencia inquietante. La bestia ruge y carga.</p><p class='basic'>Comprueba las cartas puestas aparte.</p><ul><li>Si Judith Park o Theo Peters están puestos aparte, elige a uno de ellos para ponerlo en juego bajo tu control y resuelve inmediatamente su entrada del códice.</li><li>De lo contrario, pasa a _El oso 2_.</li></ul>",
+      "theBear2": "<h3>@:theFeastOfHemlockVale.theTwistedHollow.codex.sigma.title </h3><p>_El oso 2_: Antes de que puedas reaccionar, el oso te lanza un zarpazo con sus garras afiladas como cuchillas. Su aliento rancio y silbante te inunda los sentidos mientras te aplasta el pecho con una zarpa gigantesca. La vista empieza a nublársete a medida que el peso de la bestia amenaza con partirte las costillas.</p><p class='basic'>Debes hacer lo siguiente (*elige una opción*) y luego seguir leyendo:</p><ul><li>Sufrir 1 trauma físico y recibir 1 punto de daño directo.</li><li>Sufrir 1 trauma mental y recibir 1 punto de horror directo.</li></ul><p>De pronto, suena un disparo que abre el cráneo expuesto del oso. Gime de dolor cuando otros dos disparos impactan en su cuerpo blando y en plena muda. La bestia deja escapar un lastimoso gruñido y se funde con las sombras. Oyes la voz de la madre Rachel desde algún punto cercano:</p><p>—¡Corre!</p><p class='basic right'>En las notas de la Madre Rachel, anota que *la madre Rachel intervino*.</p><p class='basic right'>Pasa a _El oso 3_.</p>",
+      "theBear3": "<h3>@:theFeastOfHemlockVale.theTwistedHollow.codex.sigma.title </h3><p>_El oso 3_: Huyes de allí hasta un bosquecillo de árboles moribundos y levantas el farol, esperando ver reflejados en la oscuridad los macabros ojos azules del oso. En el bosque reina un silencio de muerte mientras te esfuerzas por orientarte.</p><ul><li>Mueve a la zona de persecución todos los Enemigos no enfrentados.</li><li>Haz aparecer el Enemigo Híbrido úrsido en tu Lugar, agotado, e inflígele 1 punto de daño.</li><li>Si el Farol del Valle no está bajo el control de un investigador, elige un investigador para que tome su control.</li><li>Pon aparte todos los Lugares _Oscuro_ vacíos para volver a formar el mazo de Bosque. Para ello, haz lo siguiente:<ul><li>Baraja juntos el Lugar La hondonada retorcida puesto aparte y 3 Lugares Bosque oriental al azar para formar los 4 Lugares inferiores del mazo de Bosque, con el lado Bosque oriental boca arriba.</li><li>Después, coloca encima en orden aleatorio todos los demás Lugares Bosque oriental. Todas las cartas del mazo de Bosque deben mostrar únicamente el lado Bosque oriental, de modo que los investigadores no sepan cuál es cuál.</li></ul></li><li>Pon en juego Lugares de la parte superior del mazo de Bosque arriba, abajo, a la izquierda y a la derecha del Lugar de los investigadores.</li></ul>"
+    }
+  },
+  "label": {
+    "deepiningDark": {
+      "pursuitEnemy": "Robar el Enemigo en persecución con el mayor valor de evitar"
+    },
+    "deepShadows": {
+      "lantern": "El investigador que controle el Farol del Valle le da la vuelta a su lado _Apagado_ y lo coloca en un Lugar conectado."
+    },
+    "lurkingFear": {
+      "pursuit": "Busca el Enemigo en persecución con el mayor valor de combate y haz que aparezca enfrentado a ti."
+    },
+    "stolenLight": {
+      "lantern": "Da la vuelta al Farol del Valle para mostrar su lado _Apagado_. Coloca el Farol del Valle en el Lugar vacío más alejado de todos los investigadores."
+    }
+  },
+  "resolutions": {
+    "xp": {
+      "bonus": {
+        "insight": "Información sobre el singular ecosistema de la Isla de la Cicuta.",
+        "bertie": "Desistió teniendo a Bertie Musgrave bajo su control."
+      }
+    },
+    "noResolution": {
+      "title": "Sin resolución",
+      "body": "<p>_Si no se ha llegado a ninguna resolución (todos los investigadores han desistido o han sido derrotados)_: Ramas largas y larguiruchas se extienden como manos prensiles desde el espeso dosel de las copas. Sientes un mareo mientras extraños susurros resuenan desde las profundidades de la oscuridad que te rodea. Haciendo acopio de todas tus fuerzas, avanzas a trompicones hasta la orilla de un lago negro. La luna creciente se refleja a la perfección en la superficie del agua, distorsionada por volutas aceitosas e iridiscentes de un color extraño. Al otro lado del lago, una figura se recorta en la niebla. La llamas, y avanza despacio hacia ti por encima del agua. Cuando se acerca, lo único que distingues de su cara es una amplia sonrisa de rictus.</p><p>—¡Por lo que más quieras, despierta!</p><p>La Dra. Marquez te zarandea y te saca de la pesadilla. Su preocupación se torna enseguida en fastidio cuando abres los ojos.</p><p>—Me alegro de que hayas despertado. No tenía ninguna gana de enfrentarme al papeleo si también te perdíamos.</p><p>Estás en un campo florido en la linde del bosque. Cuando preguntas por Bertie, se recoge un mechón suelto detrás de la oreja y alza la vista al amanecer que despunta.</p><p>—Ya no está. Lo he perdido.</p><ul><li>Anota en el registro de campaña que *Bertie se perdió en el bosque*.</li><li>Salta a la _Resolución 3_.</li></ul>"
+    },
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<p>_Resolución 1_: Ramas largas y larguiruchas se extienden como manos prensiles mientras sales del bosque a un prado que resplandece con flores silvestres de un azul titilante. La visión de la brillante alfombra azul y blanca casi te corta la respiración después de la agobiante oscuridad. Quizá no sea más que tu mente fatigada, pero el brezo y las flores parecen palpitar.</p><p>—Mirad —señala Bertie con mano temblorosa. Una docena de tallos luminosos se alzan sobre el prado como lámparas flotantes que centellean a la luz de la luna—. Me siento casi como si camináramos por el cosmos. Como si cada uno de nosotros fuera un pequeño dios. —Arranca de su tallo un capullo reluciente—. Y cada uno de estos, una estrella aún más pequeña.</p><p>La Dra. Marquez le quita la flor de un manotazo.</p><p>—Esas paparruchas poéticas son las que han hecho que te pierdas en el bosque. ¡Nos hemos jugado la vida por ti! Tendrás suerte si omito este incidente en el informe del estudio.</p><p>Bertie agacha la cabeza avergonzado mientras la profesora recita una letanía de quejas y faltas. Pero aun así no puedes dejar de advertir la preocupación en la voz de la Dra. Marquez mientras vapulea a su ayudante. Cuando regresáis al Valle, el cielo se agita con la llegada del alba.</p><ul><li>Anota en el registro de campaña que *Bertie fue rescatado*.</li><li>Salta a la _Resolución 3_.</li></ul>"
+    },
+    "resolution2": {
+      "title": "Resolución 2",
+      "body": "<p>_Resolución 2_: El dosel de los árboles se os echa encima, lleno de miríadas de ojos y del nauseabundo batir de alas de insectos. Salís a un pequeño claro iluminado por la luna y oís una familiar tos perruna: el oso emerge gruñendo de la oscuridad a vuestra espalda. Bertie te mira con los ojos muy abiertos y lúcidos.</p><p>—Esto es culpa mía. Siento muchísimo haberos causado tantas molestias. Habla bien de mí allá en el Valle, ¿quieres?</p><p>Antes de que puedas intervenir, Bertie te arrebata el farol de las manos y grita a la oscuridad:</p><p>—¡Ven aquí, feo de narices!</p><p>El oso ruge en respuesta. Esporas azules y relucientes se esparcen en la oscuridad a su alrededor y envuelven a la criatura en una pálida luz azulada. Bertie suelta un valiente grito en respuesta y se lanza de cabeza contra ella. Al comprender el sacrificio del joven, aprovechas la distracción para escabullirte y ponerte a salvo.</p><ul><li>Anota en el registro de campaña que *Bertie se perdió en el bosque*.</li><li>Pasa a la _Resolución 3_.</li></ul>"
+    },
+    "resolution3": {
+      "title": "Resolución 3",
+      "body": "<p>_Resolución 3_: «Estudio de Miskatonic, junio de 1926. Miembros: Marquez, Musgrave <i>et alii</i>. Incursión no planificada en el bosque oriental, de noche. La flora y la fauna locales han desarrollado patrones de conducta muy especializados tras la caída del sol, probablemente dictados por ritmos circadianos extremos y una depredación agresiva. Un entorno altamente tóxico. Identificada una simbiosis hasta ahora desconocida con una nueva cepa de hongo parasitario. Es necesario seguir observando».</p><ul><li>Cada investigador obtiene 1 punto de experiencia adicional por conseguir información sobre el singular ecosistema de la Isla de la Cicuta.<ul><li>Cada investigador obtiene 1 punto de experiencia adicional más si algún investigador desistió teniendo a Bertie Musgrave bajo su control.</li></ul></li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria. _Cada investigador puede gastar ahora la experiencia anotada en «Experiencia sin gastar» del registro de campaña._</li><li>Actualiza el registro de campaña.<ul><li>Si el Híbrido úrsido está en la zona de victoria, anota que *el oso fue herido*.</li><li>En la sección «Zonas exploradas» del registro de campaña, marca *Bosque oriental*.</li></ul></li><li>Pasa al _Preludio: Alba del segundo día_.</li></ul>"
+    },
+    "standalone": {
+      "title": "Modo independiente",
+      "body": "<p>_Solo en modo independiente._ Nunca hubo forma de salir de este bosque. La oscuridad se cierra sobre ti, y lo que sea que camina entre los árboles tiene todo el tiempo del mundo.</p><p>El nivel de oscuridad era {darkness}. Entre todos, reunisteis {clues} pista(s).</p>"
+    }
+  },
+  "poisonedMarsh": {
+    "label": {
+      "assets": "Inflige 1 punto de daño a cada uno de tus Apoyos"
+    }
+  }
+}

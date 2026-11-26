@@ -1,0 +1,166 @@
+{
+  "specialRules": [
+    {
+      "title": "Lugares-Enemigo",
+      "body": "<p class='basic'>Este escenario presenta un nuevo tipo de carta: el Lugar-Enemigo. Un Lugar-Enemigo es a la vez un Enemigo y un Lugar, y se considera que ese Enemigo está en ese Lugar. Los investigadores pueden combatir, evitar e investigar Lugares-Enemigo.</p><ul><li>Los Lugares-Enemigo no se pueden mover mediante efectos de cartas.</li><li>Cuando se te indique dar la vuelta a un Lugar para mostrar su lado de Lugar-Enemigo o viceversa, mantén en ese Lugar a todos los investigadores, Enemigos, cartas vinculadas y fichas.</li><li>Los Lugares que tengan un sello se consideran «sellados» y una prueba de depredación no puede darles la vuelta para mostrar su lado de Lugar-Enemigo.<ul><li>Un Lugar no sellado es un Lugar que no tiene sellos.</li></ul></li><li>Cuando un Lugar-Enemigo sea derrotado, añádelo a la zona de victoria y deja en su sitio un hueco vacío. A continuación, desliza simultáneamente un piso hacia abajo cada Lugar que estuviera por encima de él en su columna para llenar ese hueco vacío. Coloca en el Lugar recién movido a todos los investigadores, Apoyos de historia y Enemigos que estuvieran en el Lugar-Enemigo derrotado.<ul><li>Si no hay ningún Lugar por encima del hueco vacío en su columna, elige un Lugar adyacente al hueco vacío y coloca en el Lugar elegido a todos los investigadores, Apoyos de historia y Enemigos.</li><li>Si se retira toda la columna central, desliza toda la columna izquierda un paso hacia la derecha, de modo que las dos columnas restantes queden adyacentes. (Siguen siendo las columnas izquierda y derecha, respectivamente; no hay columna central).</li></ul></li></ul>"
+    }
+  ],
+  "label": {
+    "parlor": {
+      "testForAdditionalDamage": "Realizar una prueba de {'{'}intellect{'}'} (4) para infligir 1 punto de daño adicional"
+    }
+  },
+  "cost": {
+    "removeSeal": "Retirar un sello de tu Lugar"
+  },
+  "tokens": {
+    "easyStandard": {
+      "skull": "-X. X es el número de tu piso actual (hasta un mínimo de 1).",
+      "cultist": "-1. Si tu Lugar es un Enemigo, agótalo.",
+      "tablet": "-3. Si fracasas, cura 1 punto de daño al Lugar-Enemigo más cercano.",
+      "elderThing": "-4. Si fracasas y está en juego el plan 2a o 3a, después de que se resuelva esta prueba, retira esta ficha de la bolsa de caos y añádela a la bolsa de depredación."
+    },
+    "hardExpert": {
+      "skull": "-X. X es el doble del número de tu piso actual (hasta un mínimo de 2).",
+      "cultist": "-2. Si tienes éxito y tu Lugar es un Enemigo, agótalo.",
+      "tablet": "-4. Si fracasas, cura 1 punto de daño al Lugar-Enemigo más cercano.",
+      "elderThing": "-5. Si está en juego el plan 2a o 3a, después de que se resuelva esta prueba, retira esta ficha de la bolsa de caos y añádela a la bolsa de depredación."
+    }
+  },
+  "intro": {
+    "title": "Escenario: La Casa Cicuta",
+    "body": "<p class='basic unindented'>Consulta el registro de campaña.</p>",
+    "nightSkip": "Si es la _Noche 1_ o la _Noche 2_, salta a _Introducción 4_. De lo contrario:",
+    "day1": "Si es el _Día 1_, pasa a _Introducción 1_.",
+    "day2": "Si es el _Día 2_, salta a _Introducción 2_.",
+    "day3": "Si es el _Día 3_, salta a _Introducción 3_.",
+    "intro1": {
+      "title": "Introducción 1",
+      "body": "<p>_Introducción 1_: —Venga ya, no está encantada.</p><p>Theo sonríe con despreocupación mientras detiene la camioneta frente a la imponente mansión revestida de tejas de madera.</p><p>—El viejo Gideon cuenta muchas cosas de este sitio. Pero el viejo Gideon también cree en reinos submarinos llenos de gente pez —ríe—. Seguro que algo hay. Se rumorea que dentro hay alguna clase de infestación. Ratas, probablemente. Puede que incluso animales salvajes que se han refugiado del bosque. Es una casa vieja, ¿sabes? Hay un montón de recovecos en las paredes donde pueden esconderse. El hermano William le pidió a la señorita Park que los encontrara y los reparara, que echara a lo que sea que se esconde en las paredes, pero todavía no se ha puesto a ello. Aún llevo todos esos suministros en la camioneta, si te apetece echar una mano.</p><p>Descargas de la parte trasera de la camioneta de Theo varios tablones, una caja de herramientas y un cubo con una mezcla química de olor nauseabundo. Mientras se aleja, contemplas la mansión que se cae a pedazos. Hay algo torcido e inquietante en la disposición de sus ventanas y en la inclinación de sus tejados abuhardillados. Su antigua grandeza no ha acabado de asentarse bien en el paisaje, quizá por alguna grieta en los cimientos... o, si los rumores son ciertos, por lo que sea que vive entre sus paredes.</p><p class='basic right'>Pasa a la _Preparación_.</p>"
+    },
+    "intro2": {
+      "title": "Introducción 2",
+      "body": "<p>_Introducción 2_: Las ruedas traseras de la camioneta de Theo salpican barro mientras avanza renqueando hacia el cabo, donde la mansión revestida de tejas de madera se alza sobre una colina ruinosa.</p><p>—Ahí la tienes —dice Theo, señalando la silueta de la mansión, apenas visible a través de la tromba de agua que azota el parabrisas—. El viejo Gideon cuenta muchas cosas de este sitio. Pero el viejo Gideon también cree en reinos submarinos llenos de gente pez —ríe—. Seguro que algo hay. Se rumorea que dentro hay alguna clase de infestación. Ratas, probablemente. Puede que incluso animales salvajes que se han refugiado del bosque. Es una casa vieja, ¿sabes? Hay un montón de recovecos en las paredes donde pueden esconderse. Y con toda esta lluvia tiene que ser aún peor.</p><p>Después de haber visto de primera mano la clase de terrores que habitan en la Isla de la Cicuta, sabes bien que no conviene dar por hecho que los demás moradores de la casa son simples ratas o mapaches. Le preguntas a Theo qué quiere el señor Cicuta que se haga con el lugar, lo que provoca una breve risita.</p><p>—Le pidió a la señorita Park que reparara la casa y echara a lo que sea que se esconde en las paredes. Creo que ahora mismo están los dos allí, por si quieres echar una mano o charlar con ellos. No me puedo creer que todavía piense que ese sitio tiene arreglo, pero, oye, ¿quién soy yo para juzgar?</p><p>Theo te deja delante de la mansión ruinosa para que no tengas que andar chapoteando bajo la lluvia por el barro. Te estremeces al alzar la vista a su armazón torcido. Hay algo profundamente inquietante en la disposición de sus ventanas y en la inclinación de sus tejados abuhardillados. La grandeza que esta casa pudo tener en una vida anterior desapareció hace mucho. No es más que la carcasa de lo que fue, y sospechas que la causa sigue morando entre sus paredes.</p><p class='basic right'>Pasa a la _Preparación_.</p>"
+    },
+    "intro3": {
+      "title": "Introducción 3",
+      "body": "<p>_Introducción 3_: —¿Teniendo en cuenta lo que el hermano William no paraba de parlotear anoche en el baile? Pues sí, a lo mejor está encantada. Yo qué sé. —Theo suspira mientras la camioneta se detiene frente a la imponente mansión revestida de tejas de madera. Sobre sus tejados abuhardillados se ciernen nubes oscuras; su armazón está torcido y deforme. La armadura del desván está quemada casi hasta el esqueleto, y los extensos daños del fuego han dejado el muro exterior expuesto a la intemperie—. El viejo Gideon cuenta muchas cosas de este sitio. Pero el viejo Gideon también cree en reinos submarinos llenos de gente pez. Aun así... —Theo suspira y niega con la cabeza—. Quizá sí que haya algo de verdad. Yo pensaba que, si había una infestación, serían seguramente ratas, ¿sabes? Puede que incluso animales salvajes que se han refugiado del bosque. Pero el hermano William volvió ayer a la aldea con cara de auténtico terror. ¿Quién sabe?</p><p>Le preguntas a Theo qué hacía aquí el señor Cicuta; quizá puedas ayudar a averiguar qué pasa con el lugar.</p><p>—Que yo sepa, le pidió a la señorita Park que reparara la casa y echara a lo que sea que se esconde en las paredes. Eso fue hace un par de días. La señorita Park sigue aquí, pero después de lo de ayer no creo que el hermano William se atreva a acercarse a este sitio hasta que esté limpio.</p><p>Le señalas a Theo los daños del fuego, y responde con un silbido.</p><p>—Sí, eso es nuevo. Anoche, durante la tormenta, oí unos truenos bastante cercanos. No me extrañaría que fuera cosa de un rayo. Suerte que la lluvia debió de apagar el fuego.</p><p>Te preguntas si en verdad ha sido la fortuna la que ha mantenido en pie la vieja mansión, o algo completamente distinto. Como en respuesta a tus cavilaciones, algo se desliza fuera de la vista desde el suelo expuesto del desván. Le preguntas a Theo si lo ha visto, pero se limita a encogerse de hombros.</p><p>—¿Visto qué? No pensarás subir ahí arriba, ¿no? Ten cuidado. Este sitio ya estaba decrépito antes de la tormenta. —Apaga el motor y baja de la camioneta para reunirse contigo bajo la marquesina del porche delantero de la mansión—. Te acompaño, ¿vale? No subiré hasta arriba del todo, pero, por si pasa algo, estaré aquí.</p><p>Asientes. Después de haber visto de primera mano la clase de terrores que habitan en la Isla de la Cicuta, sabes bien que no conviene dar por hecho que los demás moradores de la casa son simples ratas o mapaches. Puede venir bien tener a mano a Theo y su camioneta para una salida rápida. Respiras hondo y echas otra mirada al armazón torcido de la mansión. Hay algo profundamente inquietante en la disposición de sus ventanas y en la inclinación de sus tejados. La grandeza que esta casa pudo tener en una vida anterior desapareció hace mucho. No es más que la carcasa de lo que fue, y sospechas que la causa sigue morando entre sus paredes.</p><p>Nada más entrar en la casa, subes por la escalera interior hasta el desván y dejas a Theo abajo. Marcado por los daños del fuego y parcialmente expuesto al viento, el decrépito dormitorio no muestra rastro de la criatura que viste desde abajo. Con cada paso que das, el viejo edificio cruje de forma precaria. No puedes evitar preguntarte si no será en realidad el rugido de un estómago vacío...</p><p class='basic right'>Pasa a la _Preparación_.</p>"
+    },
+    "intro4": {
+      "title": "Introducción 4",
+      "body": "<p>_Introducción 4_: La camioneta de Theo frena hasta detenerse frente a la imponente mansión revestida de tejas de madera. Por lo que te han contado, la antigua Casa Cicuta está infestada de una cosa u otra; de qué exactamente es objeto de cierto debate. Antes de prestarte la camioneta para esta noche, Theo habló de ratas en las paredes, o quizá de animales salvajes que se han refugiado del bosque, por no mencionar la tormenta que se gesta en el horizonte. Pero no lo tienes tan claro. Al fin y al cabo, ya has visto de primera mano la clase de terrores que habitan en la Isla de la Cicuta: sabes bien que no conviene dar por hecho que el problema son simples ratas o mapaches.</p><p>Al acercarte a la mansión ruinosa, encuentras un acopio de suministros arrimado cerca de la entrada: varios tablones, una caja de herramientas y un cubo con una mezcla química de olor nauseabundo. Según Theo, el señor Cicuta le había pedido a Judith que intentara arreglar el sitio y echara a lo que sea que infesta sus paredes. Parece que todavía no ha avanzado gran cosa. Alzas la vista al armazón torcido de la casa, recortado contra un fondo de oscuros nubarrones. Hay algo profundamente inquietante en la disposición de sus ventanas y en la inclinación de sus tejados abuhardillados. La grandeza que esta casa pudo tener en una vida anterior desapareció hace mucho. No es más que la carcasa de lo que fue, y sospechas que la causa sigue morando entre sus paredes.</p><p class='basic right'>Pasa a la _Preparación_.</p>"
+    }
+  },
+  "setup": {
+    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de Encuentros: *La Casa Cicuta*, *Agentes del color*, *Plaga*, *¡Fuego!*, *Transfiguración*, *Puertas cerradas* y *Ratas*. Estos conjuntos se identifican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/hemlock-house.png' /><img src='{setImgPath}/agents-of-the-colour.png' /><img src='{setImgPath}/blight.png' /><img src='{setImgPath}/fire.png' /><img src='{setImgPath}/transfiguration.png' /><img src='{setImgPath}/locked-doors.png' /><img src='{setImgPath}/rats.png' /></section>",
+    "currentDaySet": "Además, consulta en el registro de campaña el día actual y reúne el conjunto de Encuentros correspondiente: *El primer día*, *El segundo día* o *El último día*. Estos conjuntos se identifican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/the-first-day.png' /><img src='{setImgPath}/the-second-day.png' /><img src='{setImgPath}/the-final-day.png' /></section>",
+    "currentDayMarker": "Consulta en el registro de campaña el día y la hora actuales. Pon en juego la carta de Indicador de tiempo por su cara correspondiente, (_Día {'{'}day{'}'}_) o (_Noche {'{'}night{'}'}_).",
+    "againstTheHouse": "Pon aparte, fuera del juego, el Acto 2a: _Contra la casa_.",
+    "houseStirsV1": "Si es el _Día/Noche 1_ o el _Día 3_, retira de la partida el Plan 2a: _La casa se agita (v.II)_.",
+    "houseStirsV2": "De lo contrario, retira de la partida el Plan 2a: _La casa se agita (v.I)_.",
+    "locations": "Reúne los 13 Lugares. Pon aparte, fuera del juego, el Lugar _Sótano informe_ y una copia al azar del Lugar _Dormitorio_. Pon en juego todos los demás Lugares, con el lado _Letargo_ boca arriba, según el diagrama de colocación de Lugares de la página 15.",
+    "firstFloor": "Coloca en fila la _Salita_, el _Vestíbulo_ y el _Comedor_ exactamente como se muestra. Este es el 1.er piso.",
+    "shuffleFloors": "Baraja todos los Lugares restantes y pon en juego seis de ellos en dos filas por encima del 1.er piso.",
+    "topBedroom": "Pon en juego el Lugar _Dormitorio_ que estaba puesto aparte en la columna central del 4.º piso.",
+    "removeRemaining": "Retira de la partida todos los Lugares restantes.",
+    "startAtFoyer": "Si es el _Día/Noche 1_ o el _Día/Noche 2_, cada investigador comienza la partida en el Vestíbulo.",
+    "startAtBedroom": "Si es el _Día 3_, cada investigador comienza la partida en el Dormitorio del 4.º piso.",
+    "residents": "Si es (_Día {'{'}day{'}'}_), reúne todos los Apoyos de historia del conjunto de Encuentros *Habitantes*. Este conjunto se identifica con este icono:<section class='encounter-sets'><img src='{setImgPath}/residents.png' /></section>",
+    "gideonAndSylvie": "Si es el _Día 1_, pon en juego a _Gideon Mizrah_ en el Lugar Salita. Pon en juego el Apoyo de historia _Pequeña Sylvie_ en un Lugar Dormitorio del piso más bajo.",
+    "william": "Si es el _Día 1_ o el _Día 2_, pon en juego a _William Cicuta_ en el Lugar Dormitorio del 4.º piso.",
+    "judith": "Si es el _Día 2_ o el _Día 3_, pon en juego a _Judith Park_ en el Lugar Salita.",
+    "theo": "Si es el _Día 3_, pon en juego a _Theo Peters_ en el Lugar Vestíbulo.",
+    "removeResidents": "Retira de la partida el resto del conjunto de Encuentros *Habitantes*.",
+    "predatoryHouse": "Pon aparte, fuera del juego, la carta de Historia de dos caras _La casa depredadora_. Esta carta de Historia tiene en la otra cara una carta de referencia de escenario distinta y entrará en juego durante el escenario.",
+    "setOutOfPlay": "Pon aparte, fuera del juego, las cinco Traiciones _¡Fuego!_ y todas las copias de las Traiciones _Salen de las paredes_ y _Atraído_.",
+    "shuffleEncounter": "Baraja las cartas de Encuentro restantes para formar el mazo de Encuentros."
+  },
+  "enemyLocations": {
+    "title": "Lugares-Enemigo",
+    "body": "<h3>Lugares-Enemigo</h3><div class='columns' style='padding-right: 30px;'><p class='basic' style='padding-left: 0; margin-left: 0;'>Este escenario presenta un nuevo tipo de carta: el Lugar-Enemigo. Un Lugar-Enemigo es a la vez un Enemigo y un Lugar, y se considera que ese Enemigo está en ese Lugar. Los investigadores pueden combatir, evitar e investigar Lugares-Enemigo.</p><div style='flex:1; margin-top: -40px;' class='fan-thin'><img style='object-fit: contain;' src='{setImgPath}/../cards/10532.avif' /><img style='object-fit: contain;' src='{setImgPath}/../cards/10533b.avif' /></div></div>",
+    "noMove": "Los Lugares-Enemigo no se pueden mover mediante efectos de cartas.",
+    "keepEntities": "Cuando se te indique dar la vuelta a un Lugar para mostrar su lado de Lugar-Enemigo o viceversa, mantén en ese Lugar a todos los investigadores, Enemigos, cartas vinculadas y fichas.",
+    "sealed": "Los Lugares que tengan un sello se consideran «sellados» y una prueba de depredación no puede darles la vuelta para mostrar su lado de Lugar-Enemigo.",
+    "unsealed": "Un Lugar no sellado es un Lugar que no tiene sellos.",
+    "defeat": "Cuando un Lugar-Enemigo sea derrotado, añádelo a la zona de victoria y deja en su sitio un hueco vacío. A continuación, desliza simultáneamente un piso hacia abajo cada Lugar que estuviera por encima de él en su columna para llenar ese hueco vacío. Coloca en el Lugar recién movido a todos los investigadores, Apoyos de historia y Enemigos que estuvieran en el Lugar-Enemigo derrotado.",
+    "noAbove": "Si no hay ningún Lugar por encima del hueco vacío en su columna, elige un Lugar adyacente al hueco vacío y coloca en el Lugar elegido a todos los investigadores, Apoyos de historia y Enemigos.",
+    "middleEmpty": "Si se retira toda la columna central, desliza toda la columna izquierda un paso hacia la derecha, de modo que las dos columnas restantes queden adyacentes. (Siguen siendo las columnas izquierda y derecha, respectivamente; no hay columna central)."
+  },
+  "predationTest": {
+    "title": "Prueba de depredación",
+    "cultist": "Pon aparte esta ficha.",
+    "tablet": "Cada Lugar-Enemigo ataca a cada investigador que esté en ese Lugar. Si este efecto no ha causado ningún ataque, el investigador Jefe roba la primera carta del mazo de Encuentros. Devuelve a la bolsa de depredación esta ficha y todas las fichas puestas aparte.",
+    "elderthing": "Pon aparte esta ficha. Busca el Lugar _Letargo_ no sellado más cercano al investigador Jefe. Dale la vuelta a ese Lugar para mostrar su lado de Lugar-Enemigo.",
+    "unknown": "Se ha sacado una ficha desconocida de la bolsa de depredación."
+  },
+  "message": {
+    "predationCanceled": "Prueba de depredación cancelada (Gideon Mizrah)",
+    "predationTokenDrawn": "Se ha sacado {token} durante la prueba de depredación"
+  },
+  "resolutions": {
+    "noResolution": {
+      "title": "Sin resolución",
+      "body": "<p>_Sin resolución_: Un horrible clamor resuena por la casa mientras las paredes se estrechan, amenazando con derrumbarse, con devorarte como a una presa. Presa del terror, sales por la puerta principal y huyes.</p><p class='basic right'>Salta a la _Resolución 2_.</p>"
+    },
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<p>_Resolución 1_: Por fin, los horrores de la Casa Cicuta quedan atrás. Solo puedes esperar que la «infestación» de la casa haya desaparecido.</p><p class='basic right'>Pasa a la _Resolución 2_.</p>"
+    },
+    "resolution2": {
+      "title": "Resolución 2",
+      "body": "<p>_Resolución 2_: «Estudio de Miskatonic, junio de 1926. Miembros: Marquez, Musgrave <i>et alii</i>. Completado el estudio de la Casa Cicuta. El organismo desafía toda comprensión. Una colonia de especies octópodas y gasterópodas infestaba toda la casa. La criatura o criaturas parecen haber evolucionado en la propia casa. Es necesario seguir observando».</p><ul><li>Retira 1 ficha de {'{'}elderThing{'}'} de la bolsa de depredación. Devuelve a la bolsa de caos, durante el resto de la campaña, las fichas de {'{'}elderThing{'}'} que queden en la bolsa de depredación.</li><li>Si los investigadores «encontraron a la _Pequeña Sylvie_», un investigador puede añadir a su mazo el Apoyo de historia _Pequeña Sylvie_. No cuenta para el tamaño del mazo de ese investigador.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria. Se conceden puntos de experiencia adicionales según la cantidad de sellos en juego y la cantidad de Lugares-Enemigo que haya en la zona de victoria cuando termine el escenario.</li><li>En la sección «Zonas exploradas» del registro de campaña, marca _Puerto de la Cicuta_.</li></ul>"
+    },
+    "xp": {
+      "bonus": "Experiencia adicional",
+      "sealsBonus": "por sellar la casa",
+      "enemyLocationsBonus": "por domar a los depredadores"
+    }
+  },
+  "codex": {
+    "label": {
+      "judithRight": "Judith tiene razón. Aquí no hay nada que salvar.",
+      "williamRight": "Es el hogar de William. Deberíamos respetar sus deseos."
+    },
+    "william": {
+      "title": "{'{'}codex{'}'} Códice 4: William Cicuta",
+      "day1FoundSylvie": "<p>_Si es el Día 1 y un investigador controla el Apoyo de historia Pequeña Sylvie:_</p><p>—¡Espera! Esa muñeca... ¡ahí está!</p><p>William alarga la mano hacia la muñeca, con los ojos llenos de lágrimas. Mira fijamente sus ojos inertes, con una sonrisa dulce y nostálgica.</p><p>—A mi madre siempre le encantó esta. La gente decía que se parecía a ella.</p><p>Le preguntas a William qué piensa hacer ahora que la ha recuperado.</p><p>—Bueno, es solo una muñeca, pero... también es un símbolo —explica—. Un símbolo de mi herencia. De donde vengo. Si logro que mi madre recuerde... quizá podamos reconstruir. Empezar de nuevo nuestro legado. —Te estrecha la mano con energía—. Gracias por encontrarla. Te lo agradezco de verdad.</p><p class='basic right'>Toma el control de William Cicuta. Recuerda que «encontraste a la Pequeña Sylvie». Aumenta el nivel de relación de William Cicuta. Cada investigador obtiene 1 punto de experiencia adicional.</p>",
+      "day1Otherwise": "<p>_De lo contrario, si es el Día 1:_</p><p>Le preguntas a William si hay algo de su antiguo hogar que no deberías perder de vista.</p><p>—Esta casa está llena de viejas baratijas y objetos de valor de la familia. Hay uno en particular que me encantaría encontrar, una vieja muñeca.</p><p>Te esperabas quizá alguna joya valiosa o una reliquia familiar, no una muñeca. William parece captarlo enseguida.</p><p>—Siempre me gustó jugar con muñecas. Pero a mi madre le gustaban todavía más. —Suspira con melancolía—. Recuerdo que tenía una muñeca especial, una que siempre guardaba cerca. Me pregunto... si se la enseño, ¿recordará? ¿Volverá a ser la de antes...?</p><p class='basic right'>Cada investigador obtiene 1 pista (de la reserva de fichas). Durante el resto del escenario, el Apoyo de historia Pequeña Sylvie obtiene «{'{'}action{'}'}: Toma el control de la Pequeña Sylvie». El investigador que controle a la Pequeña Sylvie puede activar este códice de nuevo.</p>",
+      "day2Argument": "<p>_Si es el Día 2 y William Cicuta y Judith Park están en el mismo Lugar:_</p><p>—Por fin —dice William cuando entras en la habitación donde Judith está plantada, de brazos cruzados—. ¿Dónde te habías metido? Te contraté porque necesitaba tu ayuda, no para que anduvieras pisando fuerte y rumiando por el hogar de mi infancia.</p><p>Se encaran, y la tensión se palpa en el aire...</p><p class='basic right'>Pasa al _Códice Σ: La discusión_.</p>",
+      "day2Otherwise": "<p>_De lo contrario, si es el Día 2:_</p><p>William camina de un lado a otro, haciendo una mueca con cada crujido de la vieja casa. Le preguntas si va todo bien, lo que arranca un hondo suspiro al melancólico heredero.</p><p>—Ah, sí, todo va de maravilla. Judith se ha largado y me ha dejado aquí a solas, no encuentro por ningún lado la muñeca de mi madre y el hogar de mi infancia se desmorona ante mis propios ojos —dice con amargura—. Ayúdame a encontrar a Judith, ¿quieres? Se supone que esa fiera tiene que protegerme y ayudarme a limpiar este sitio.</p><p>Te sigue de cerca, con los ojos saltando de sombra en sombra mientras la casa gruñe enfurecida.</p><p class='basic right'>Toma el control de William Cicuta. Puedes activar este códice de nuevo si William Cicuta y Judith Park están en el mismo Lugar.</p>"
+    },
+    "gideon": {
+      "title": "{'{'}codex{'}'} Códice 6: Gideon Mizrah",
+      "helping": "<p>_Si «estás ayudando a Gideon»:_</p><p>Sacas de un libro un viejo mapa amarillento y se lo enseñas a Gideon.</p><p>—¡Sí! —exclama, quitándotelo de las manos para examinarlo—. Justo lo que andaba buscando. ¡Te estoy mu' agradecío!</p><p class='basic right'>Aumenta el nivel de relación de Gideon Mizrah. Cada investigador obtiene 1 punto de experiencia adicional.</p>",
+      "otherwise": "<p>_De lo contrario:_</p><p>Gideon apenas levanta la vista de un libro con olor a cerrado cuando te acercas.</p><p>—No creo que hayas oído nunca la historia del *Delilah*, ¿a que no?</p><p>Le dices que no, pero que te parece que estás a punto de oírla. Suelta una risa.</p><p>—El *Delilah* era un pesquero que cartografió esta isla hace años.</p><p>Coge otro libro mientras se extiende no solo sobre el *Delilah*, sino también sobre otras tres historias que no vienen a cuento. Al cabo, sacas en claro que el anciano busca un mapa en algún rincón de la salita.</p><p class='basic right'>Puedes cancelar la siguiente depredación que fuera a producirse. Recuerda que «estás ayudando a Gideon». Un investigador puede activar este códice de nuevo.</p>"
+    },
+    "judith": {
+      "title": "{'{'}codex{'}'} Códice 7: Judith Park",
+      "day2Argument": "<p>_Si es el Día 2 y William Cicuta y Judith Park están en el mismo Lugar:_</p><p>—Aquí estás. —Judith va pavoneándose hasta donde William sueña despierto. Él sale de golpe de su ensoñación cuando ella se acerca apuntándole al pecho con el dedo—. Dijiste que este sitio tenía un problema de ratas, no... no _esto_ —dice con un gesto vago.</p><p>Se encaran, y la tensión se palpa en el aire...</p><p class='basic right'>Pasa al _Códice Σ: La discusión_.</p>",
+      "day2Otherwise": "<p>_De lo contrario, si es el Día 2:_</p><p>Judith pone los ojos en blanco cuando le preguntas qué hace aquí.</p><p>—William estuvo aquí ayer, pero le dio repelús, así que me pidió que viniera hoy a hacerle de niñera. Luego se fue corriendo arriba a «meditar sobre su legado» y «cavilar sobre sus antepasados» o la chorrada que sea. —Niega con la cabeza—. Mira, entre tú y yo, este sitio es una ruina. Vamos a buscar a William, hablo con él y que esto se pudra. ¿Te apuntas?</p><p class='basic right'>Toma el control de Judith Park. Puedes activar este códice de nuevo si William Cicuta y Judith Park están en el mismo Lugar.</p>",
+      "day3": "<p>_Si es el Día 3:_</p><p>—Ratas. ¡«Ratas», dijo! —se mofa Judith—. Ratas, mis narices... —Se pierde en refunfuños y luego te mira con expresión severa—. Este sitio es una cloaca. Hay algo en las paredes que te juro que me está siguiendo. —Si había algún miedo en su interior, parece haberse asentado en forma de ira—. No me extraña que él no quisiera volver hoy conmigo. Aquí no hay ningún «legado». Solo un montón de muebles feos y la criatura, sea la que sea, que se ha instalado aquí.</p><p>Le preguntas qué cree que habría que hacer.</p><p>—Es demasiado peligroso para dejarlo tal como está.</p><p>Puede que tenga razón: sin duda a William le disgustaría, pero, tal como está, esta casa es un peligro para él y para el resto de la Isla de la Cicuta.</p><p class='basic right'>Toma el control de Judith Park. Recuerda que «Judith está haciendo reformas».</p>"
+    },
+    "theo": {
+      "title": "{'{'}codex{'}'} Códice 8: Theo Peters",
+      "body": "<p>—¡No, no, no, no, no!</p><p>Oyes el grito de Theo mucho antes de ver al joven correr por el pasillo. Choca contigo y casi te tira al suelo.</p><p>—¡Hala! Creía que eras... —Mira por encima del hombro. En el pasillo reina un silencio de muerte—. Tienes pinta de que te vendría bien un poco de protección. Bueno, tú tranqui. Yo puedo, eh... protegerte —dice con fingida chulería mientras te ayuda a ponerte en pie.</p><p class='basic right'>Toma el control de Theo Peters.</p>"
+    },
+    "marquez": {
+      "title": "{'{'}codex{'}'} Códice Θ: Dra. Rosa Marquez",
+      "body": "<p>—Odio todo esto. —La Dra. Marquez inspecciona una estantería—. Antes estaba en la biblioteca y ha cobrado vida. Hay algo que casi... reanima la madera muerta. Diría que es imposible, pero ya nada parece imposible —ríe sin ganas.</p><p class='basic right'>Roba 3 cartas. Elige un Lugar-Enemigo en juego e inflígele 1 punto de daño.</p>"
+    },
+    "argument1": {
+      "title": "{'{'}codex{'}'} Códice Σ: La discusión",
+      "body": "<p>_La discusión 1_: —Mira, William, este sitio es un vertedero. Hay trastos por todas partes. Está mugriento, está destartalado, y lo que sea que vive en las paredes, te aseguro que no son ratas —explica Judith.</p><p>William frunce el ceño.</p><p>—Este «vertedero» es el hogar de mi infancia. El legado imperecedero de mi familia.</p><p>—Si este fuera el legado de mi familia, me cambiaría el apellido. Alguien tiene que echar esto abajo —replica Judith.</p><p>—¡_No_ voy a echar abajo esta casa! —grita William—. ¡Eso es completamente inadmisible!</p><p>La pareja sigue discutiendo, cada vez con más acaloramiento, hasta que comprendes que esta disputa no se va a resolver sola. Intervienes y expones lo que piensas...</p><p class='basic right'>El investigador que resuelva este códice debe decidir (elige una opción).</p>"
+    },
+    "argument2": {
+      "title": "{'{'}codex{'}'} La discusión 2",
+      "body": "<p>_La discusión 2_: William clava de golpe en ti la mirada, con ojos suplicantes. Quizá por fin haya comprendido la verdad. Quizá le dé igual.</p><p>—Está bien, entonces —casi susurra—. Haz lo que quieras. El legado de los Cicuta está hecho jirones, y a nadie parece importarle. ¿Por qué iba a importarte a ti?</p><p>Se marcha cabizbajo.</p><p class='basic right'>Retira a William Cicuta de la partida. Cada investigador puede robar 1 carta. Aumenta el nivel de relación de Judith Park. Cada investigador obtiene 1 punto de experiencia adicional.</p>"
+    },
+    "argument3": {
+      "title": "{'{'}codex{'}'} La discusión 3",
+      "body": "<p>_La discusión 3_: Judith te fulmina con la mirada.</p><p>—¿En serio? ¿Tú también? —Se frota los ojos y maldice entre dientes—. Muy bien. Por mí como si celebráis aquí el festival entero. Pero no vengáis a pedirme ayuda cuando esto se venga abajo. O algo peor.</p><p>Recoge sus cosas y se dirige a la puerta.</p><p class='basic right'>Retira a Judith Park de la partida. Cada investigador puede robar 1 carta. Aumenta el nivel de relación de William Cicuta. Cada investigador obtiene 1 punto de experiencia adicional.</p>"
+    },
+    "xp": {
+      "bonus": "Experiencia adicional"
+    }
+  }
+}

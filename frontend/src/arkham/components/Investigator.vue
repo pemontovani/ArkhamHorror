@@ -1141,6 +1141,13 @@ i.action {
       font-size: small;
     }
   }
+  /* Not on a phone held sideways, where height is too scarce to spend. */
+  @media (pointer: coarse) and (min-height: 500px) {
+    button,
+    :deep(button) {
+      min-height: 32px;
+    }
+  }
 }
 
 .button-group--skip-all-pending > :not(.skip-triggers-group) {

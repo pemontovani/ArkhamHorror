@@ -417,11 +417,13 @@ const isBuildSpiritDeckQuestion = (q: Question): q is Question & { tag: Question
   flex-direction: column;
   align-items: center;
   height: 100vh;
+  height: 100dvh;
   background: #26283B;
 }
 
 .question-label.spirit-deck-question.spirit-deck-question {
   height: 100vh;
+  height: 100dvh;
   justify-content: flex-start;
   overflow-y: auto;
 }

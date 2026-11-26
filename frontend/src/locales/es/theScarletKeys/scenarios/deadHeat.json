@@ -1,0 +1,124 @@
+{
+  "xp": {
+    "rescuedCivilians": "Civiles rescatados"
+  },
+  "heading": "Archivo 11-B",
+  "rules": {
+    "civilians": {
+      "title": "Civiles",
+      "body": "<p class='basic'>En este escenario, los recursos que hay sobre los Lugares representan a los civiles inocentes de Marrakech, que corren grave peligro.</p><ul><li>A efectos de los movimientos y ataques de los Enemigos, los Enemigos tratan a los civiles como si fueran investigadores. (Los Enemigos no se enfrentan a los civiles, pero pueden atacar a los civiles de su Lugar como si estuvieran enfrentados a ellos). Si un civil es atacado, muere automáticamente.</li><li>Los civiles permanecen en un Lugar cuando este es revelado.</li><li>Cuando un civil muera, colócalo sobre la carta de referencia de escenario para llevar la cuenta de cuántos civiles han muerto.</li></ul>"
+    },
+    "choosingARandomLocation": {
+      "title": "Elegir un Lugar al azar",
+      "body": "<p class='basic'>Durante este escenario, a menudo se te indicará que elijas un Lugar al azar. Para ello, mezcla los 5 Lugares que no estén en juego en ese momento (las versiones de cada Lugar en juego que no se estén usando) y roba 1 al azar.</p>"
+    },
+    "replacingLocations": {
+      "title": "Sustituir Lugares",
+      "body": "<p class='basic'>A lo largo de este escenario puede que se te indique que intercambies Lugares puestos aparte por otros ya presentes. Cuando un Lugar se intercambia por uno que ya está en juego, ocupa su sitio. Se considera que todas las fichas, cartas vinculadas, investigadores, Enemigos y demás cartas que estaban en el Lugar anterior están ahora en el nuevo (las cartas vinculadas siguen vinculadas, por ejemplo). Durante ese intercambio no se considera que ningún elemento de juego se haya movido.</p>"
+    }
+  },
+  "specialRules": [
+    {
+      "title": "@:theScarletKeys.deadHeat.rules.civilians.title",
+      "body": "@:theScarletKeys.deadHeat.rules.civilians.body"
+    },
+    {
+      "title": "@:theScarletKeys.deadHeat.rules.choosingARandomLocation.title",
+      "body": "@:theScarletKeys.deadHeat.rules.choosingARandomLocation.body"
+    },
+    {
+      "title": "@:theScarletKeys.deadHeat.rules.replacingLocations.title",
+      "body": "@:theScarletKeys.deadHeat.rules.replacingLocations.body"
+    }
+  ],
+  "tokens": {
+    "easyStandard": {
+      "skull": "-1 por cada 1 {'{'}perPlayer{'}'} civiles muertos.",
+      "cultist": "-4. Si fracasas, elige un Enemigo que no sea _Élite_ que esté en tu Lugar. Ese Enemigo se prepara y te ataca.",
+      "tablet": "-1. Puedes recibir 1 punto de daño. Si no lo haces, un civil que esté en tu Lugar muere.",
+      "elderThing": "-3. Si fracasas, elige y descarta 1 carta de tu mano."
+    },
+    "hardExpert": {
+      "skull": "-2 por cada 1 {'{'}perPlayer{'}'} civiles muertos.",
+      "cultist": "-6. Elige un Enemigo que no sea _Élite_ que esté en tu Lugar. Ese Enemigo se prepara y te ataca.",
+      "tablet": "-2. Recibe 1 punto de daño. Un civil que esté en tu Lugar muere.",
+      "elderThing": "-4. Si fracasas, descarta 1 carta de tu mano al azar."
+    }
+  },
+  "label": {
+    "gnashingTeeth": {
+      "heal": "Cura 2 puntos de daño a cada Enemigo Élite en juego.",
+      "slain": "1 civil que esté en tu Lugar muere."
+    },
+    "tablet": {
+      "doNotTakeDamage": "No recibir daño (un civil que esté en tu Lugar, si lo hay, morirá)"
+    },
+    "cornered": {
+      "slain": "1 civil que esté en tu Lugar muere."
+    }
+  },
+  "tooltips": {
+    "marrakeshRailwayStation": {
+      "resign": "Huyes de la ciudad. (Nota: Si no hay investigadores en juego, todos los civiles que queden en juego morirán)."
+    },
+    "marrakeshRailwayStationAbandoned": {
+      "resign": "Huyes para ponerte a salvo. (Nota: Si no hay investigadores en juego, todos los civiles que queden en juego morirán)."
+    }
+  },
+  "intro": {
+    "title": "Archivo 11–B: Calor muerto",
+    "lessThan15": "Si han pasado menos de 15 de tiempo, pasa a Introducción 2.",
+    "between15And24": "Si han pasado de 15 a 24 de tiempo, salta a Introducción 3.",
+    "moreThan24": "Si han pasado 25 de tiempo o más, salta a Introducción 4.",
+    "intro1": "<p class='file'>_Introducción 1_: Un chirrido de ruedas te despierta de golpe cuando el tren se detiene con una sacudida. Aunque apenas ha amanecido, el calor del sol asciende en ondas temblorosas desde el asfalto abrasador y envuelve Marrakech en un resplandor de otro mundo. Te estalla la cabeza. La ciudad titila como un espejismo en medio del desierto marroquí.</p><p class='basic'>Comprueba en el registro de campaña cuánto tiempo ha pasado.</p>",
+    "intro2": "<p class='file'>_Introducción 2_: Te reúnes con tu contacto en la azotea de un pequeño café cercano a la estación de ferrocarril. La complexión juvenil del hombre contrasta con una cuidada barba gris que cubre unas profundas arrugas de expresión.</p><p>—Debes de venir de la Fundación —dice, tendiéndote la mano—. Soy Latif. Siéntate, por favor. Tendrás hambre.</p><p>La mesa está repleta de cuencos y platos rebosantes de huevos, aceitunas y un sabroso queso, servidos con pan plano y atay caliente. Mientras comes, Latif extiende sobre la mesa un montón de periódicos.</p><p>—No quiero estropearos el apetito, pero en la ciudad hay en marcha algún propósito perverso.</p><p>Señala tres titulares distintos:</p><p class='typewriter center'>MISTERIOSO SAQUEO DE UNA TUMBA<br />UNA PLAGA REPENTINA ARRASA UN OLIVAR<br />DECENAS DE DESAPARECIDOS EN LA MEDINA</p><p>Una brisa cálida y acre os envuelve y agita el periódico.</p><p>—Doy por hecho que has leído el expediente —susurra Latif en tono conspirador—. Han visto aquí a la que se hace llamar Amaranth, y creo que es la responsable.</p><p>Mirando por encima del hombro, el hombre de mediana edad saca una nítida foto de una hermosa mujer de veintitantos años con vestido y guantes negros a juego y una llamativa flor prendida tras la oreja.</p><p>—Anoche mismo envié a mi contacto a reunir toda la información que pudiera sobre su paradero. No ha vuelto. Me temo lo peor —dice Latif, cabizbajo—. ¡Pero para eso habéis venido, supongo! La comisaria siempre manda a gente de lo más... —Te mira como si buscara las palabras—. Singular.</p><p>Le aseguras a Latif que quizá seas una nueva incorporación a la Fundación, pero que tienes capacidad de sobra para afrontar la situación.</p><p>—De verdad que así lo espero —dice Latif, dando un largo sorbo a su vaso de té a la menta caliente—. Aquí está pasando algo extraño. Mi hermano me contó que vio a nuestro difunto abuelo caminando por la calle envuelto en su mortaja. Le dije que debía de haberlo soñado, pero he oído historias parecidas. Ya no es seguro salir a la calle de noche. Creo que hay en juego alguna terrible hechicería. Alguna influencia antinatural. ¡Si al menos la Fundación no tachara sus propias misivas!</p><p>Pasas el resto de la mañana repasando el fajo de periódicos y escritos que Latif ha reunido. El primer «saqueo de tumba» de la reciente cadena de sucesos fue el de la de Razin Farhi, un filósofo y matemático del siglo XVI.</p><p>—Se rumorea que fue uno de los miembros fundadores de la Camarilla Roja —te cuenta Latif.</p><p>La mente te va a toda velocidad mientras intentas encajar las piezas: ¿andará Amaranth tras otra Llave?</p><p>—Sea lo que sea lo que está pasando, no podemos permitirnos esperar de brazos cruzados —dice Latif.</p><p class='basic right'>Pasa a la _Preparación_.</p>",
+    "intro3": "<p class='file'>_Introducción 3_: No hay taxis que parar a la salida de la estación, así que vas a pie a reunirte con tu contacto en la azotea de un café casi desierto. El hombre que te saluda tiene una complexión juvenil que contrasta con una cuidada barba que cubre unas profundas arrugas de expresión. Sin embargo, no sonríe.</p><p>—Llegáis tarde —dice con gravedad—. Envié un telegrama a la Fundación pidiendo ayuda. Estamos con el agua al cuello, como suele decirse.</p><p>Te disculpas y le dices que has hecho todo lo posible, y él se frota la frente con preocupación.</p><p>—Perdona. Es bueno que estéis aquí, pero me temo que las cosas ya se han puesto en marcha. Cosas que ya no tenemos ni tiempo ni poder para detener. —Te invita con un gesto a sentarte—. Soy Latif. Por favor. Más vale que oigáis esto sentados.</p><p>Sobre la mesa hay dispuesto un surtido de tentadoras exquisiteces locales, pero, a juzgar por las escasas sobras, Latif se ha comido casi todo por los nervios. Te enseña varios periódicos, uno tras otro, con titulares sobre tumbas profanadas, cosechas que se mueren y numerosas denuncias de desapariciones. Mientras te relata estos aleccionadores sucesos, percibes en el viento un olor a algo putrefacto. Al contemplar la ciudad, ves un entramado de enredaderas negras como la tinta que recorren las fachadas. De lejos parecen venas abultadas en un cuerpo moribundo.</p><p>—¿Me escuchas?</p><p>La voz de Latif te saca de tu ensimismamiento. Te disculpas y le preguntas por las enredaderas. El hombre de mediana edad suspira.</p><p>—Otro misterio más, al parecer. Anoche hubo un gran alboroto a las puertas del Palacio de la Bahía. Gritos y rechinar de dientes. Envié a uno de mis informadores a investigar y no ha vuelto. Poco después aparecieron las extrañas floraciones negras, que crecen en todas las paredes y superficies. Apestan a podrido y echan unas espinas horribles y afiladas. Yo no me atrevería a tocarlas.</p><p>—Antes de que empezara todo este extraño asunto, mi hermano me contó que vio a nuestro difunto abuelo caminando por la calle envuelto en su mortaja. Le habría quitado importancia de no ser por las decenas de historias parecidas. Ahora hay multitudes de personas lentas y silenciosas vagando por las calles. Tienen los ojos vacíos, aunque no así el estómago —dice Latif con amargura, y apura el resto de su vaso de té.</p><p>—Creo que la responsable es la que se hace llamar Amaranth. Quizá la reconozcas por el expediente de la Fundación. ¡Qué útil que emborronen los detalles más importantes de sus propias misivas! —Latif saca una nítida foto de una hermosa mujer de veintitantos años con vestido y guantes negros a juego y una llamativa flor prendida tras la oreja.</p><p>—Otro de mis informadores asegura haber visto a esa «Amaranth» en el Jardín del Palacio de la Bahía. Se está tramando algo raro, y ella está en el centro. Propongo que vayamos al palacio y pongamos fin a los horribles planes que tenga en mente, pero estad preparados para cualquier cosa.</p><p>Percibes en el viento un olor a podredumbre que ya te resulta familiar y bajas la vista hacia el borde de la azotea del café. Un único zarcillo negro ha trepado por el lateral del edificio. En su extremo ha empezado a desarrollarse un cuerpo fructífero negro y bulboso. No sabes si es un efecto del sol de media mañana o si hay en marcha algún otro proceso extraño, pero jurarías haber visto un destello de verde fosforescente recorrer el bulbo y un movimiento perceptible, aunque no sopla el viento.</p><p class='basic right'>Pasa a la _Preparación_.</p>",
+    "intro4": "<p class='file'>_Introducción 4_: Un olor a humo y descomposición te recibe al bajar del tren. Eres una de las poquísimas personas que salen al andén vacío de la estación. Enredaderas negras y resecas trepan por las paredes de los edificios circundantes y culminan en una desenfrenada floración roja. Un silencio inquietante lo cubre todo.</p><p>De camino a la reunión con tu contacto, te cruzas con unas pocas personas dispersas que caminan con paso vacilante y torpe. Varias alargan las manos hacia ti mientras pasas guardando las distancias, y ves que tienen la piel amarillenta y seca, y la mirada hueca y vacía. Una nube de moscas las sigue, zumbando sin cesar. Apenas te sorprende encontrar tapiada la puerta del café donde debías reunirte con un tal «Latif».</p><p>La muerte florece como alquitrán en paredes y escaparates, todos atrancados a toda prisa. Ojos temerosos te espían entre las rendijas de los tablones. Marrakech está en la más absoluta ruina. Tras deambular por la ciudad, descubres que el epicentro de las extrañas enredaderas negras se encuentra en los restos pulverizados del Palacio de la Bahía. En los jardines invadidos por la maleza hallas los vestigios de un extraño ritual, pero ni rastro de quienes lo celebraron.</p><p class='basic right'>Salta a la _Resolución 5_.</p>"
+  },
+  "setup": {
+    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de Encuentros: *Calor muerto*, *Brujería escarlata*, *Propagando la corrupción*, *Gules* y *Miedo impactante*. Estos conjuntos se identifican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/dead-heat.png' /><img src='{setImgPath}/scarlet-sorcery.png' /><img src='{setImgPath}/spreading-corruption.png' /><img src='{setImgPath}/ghouls.png' /><img src='{setImgPath}/striking-fear.png' /></section>",
+    "placeLocations": "Pon en juego los 5 Lugares de _Marrakech_, usando solo sus versiones que no sean _Abandonadas_. Pon aparte la versión _Abandonada_ de cada Lugar.",
+    "beginPlay": "Cada investigador comienza la partida en la Estación de ferrocarril de Marrakech.",
+    "civilians": "Sobre cada Lugar en juego, coloca tantos recursos como el número de investigadores más uno, que representan a los civiles (*consulta «Civiles» más abajo*). A continuación, consulta el registro de campaña:",
+    "tenOrFewerTime": "Si han pasado 10 de _tiempo_ o menos, no se hace ningún cambio.",
+    "elevenToSeventeenTime": "Si han pasado de 11 a 17 de _tiempo_, elige 1 {'{'}perPlayer{'}'} civiles repartidos lo más equitativamente posible entre todos los Lugares en juego. Esos civiles mueren.",
+    "eighteentoTwentyFourTime": "Si han pasado de 18 a 24 de _tiempo_, elige 2 {'{'}perPlayer{'}'} civiles repartidos lo más equitativamente posible entre todos los Lugares en juego. Esos civiles mueren.",
+    "setOutOfPlay": "Pon aparte, fuera del juego, las siguientes cartas: el Enemigo de dos caras Amaranth, el Enemigo Razin Farhi, el Enemigo Khalid, las dos copias del Enemigo Incursor antiguo, la Llave La última flor y la carta de Historia de dos caras «Salvar a los civiles / Consecuencias».",
+    "decks": "Consulta el registro de campaña y forma los mazos de Acto y/o de Plan como corresponda.",
+    "fewerThanFifteenTime": " Si han pasado menos de 15 de _tiempo_, no se hace ningún cambio.",
+    "fifteenToTwentyFourTime": "Si han pasado de 15 a 24 de _tiempo_, retira de la partida el acto 1. La partida comienza en el acto 2a. Coloca sobre el plan 1 tantas fichas de Perdición como el número de jugadores. Haz aparecer a Amaranth (*Corrupción acechante*) en el Jardín del Palacio de la Bahía y vincúlale La última flor. Pon en juego la carta de Historia Salvar a los civiles que estaba puesta aparte. Baraja el Enemigo Khalid en el mazo de Encuentros."
+  },
+  "resolutions": {
+    "xp": {
+      "bonus": "Ayuda a los supervivientes de la ciudad a reconstruirla"
+    },
+    "noResolution": {
+      "title": "Sin resolución",
+      "body": "<p>_Si no se ha llegado a ninguna resolución (todos los investigadores han desistido o han sido derrotados)_: Contemplas con horror cómo las insidiosas enredaderas se adueñan de lo que queda de la ciudad. Los sirvientes de Amaranth devoran a los civiles restantes. Mientras observas cómo se extiende la devastación, desearías haber podido hacer más.</p>",
+      "slay": "Todos los civiles que queden en juego mueren. Si sigue en juego el Acto 1, roba la carta de Historia Salvar a los civiles que estaba puesta aparte y resuelve la cara Consecuencias.",
+      "checkEnemies": "Comprueba qué Enemigos están en juego.",
+      "razin": "Si Razin Farhi está en juego, salta a la _Resolución 1_.",
+      "noRazin": "Si no se cumple lo anterior, salta a la _Resolución 2_."
+    },
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<p>_Resolución 1_: Al comprender el peligro de tu situación, te diriges a las afueras y llamas a todas las puertas que ves. Suplicando por tu vida, ofreces dinero o cualquier cosa que lleves encima, pero te rechazan en todas partes. Al final, una anciana arrugada se apiada de ti y te acoge en su casa. Pasas la noche temblando de miedo e inquietud, y cuando sales por la mañana, la ciudad está en ruinas. Unas horribles enredaderas negras lo envuelven todo. Al parecer, esta devastación era un precio que merecía la pena pagar por el verdadero amor.</p><ul><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.</li><li>Amaranth es la portadora de La última flor. Actualiza el registro de campaña como corresponda.</li><li>Anota en el registro de campaña que *los amantes se han reunido*.</li><li>Marca 1 de _tiempo_ en el registro de campaña. Puedes _embarcar_.</li></ul>"
+    },
+    "resolution2": {
+      "title": "Resolución 2",
+      "body": "<p>_Resolución 2_: Al comprender el peligro de tu situación, te diriges a las afueras y llamas a todas las puertas que ves. Suplicando por tu vida, ofreces dinero o cualquier cosa que lleves encima, pero te rechazan en todas partes. Al final, una anciana arrugada se apiada de ti y te acoge en su casa. Pasas la noche temblando de miedo e inquietud, y cuando sales por la mañana, la ciudad está en ruinas. Unas horribles enredaderas negras lo envuelven todo. Te preguntas qué sería tan importante para Amaranth como para causar semejante devastación.</p><ul><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.</li><li>Amaranth es la portadora de La última flor. Actualiza el registro de campaña como corresponda.</li><li>Anota en el registro de campaña que *no es la última vez que ves a Amaranth*.</li><li>Marca 1 de _tiempo_ en el registro de campaña. Puedes _embarcar_.</li></ul>"
+    },
+    "resolution3": {
+      "title": "Resolución 3",
+      "body": "<p>_Resolución 3_: Mirando desde arriba a la mujer que se hacía llamar Amaranth, la llamas por su verdadero nombre.</p><p>—¿Eryn... Cochwyn?</p><p>Se lleva la mano a la mejilla mientras se le encienden las mejillas. Ves cómo se le dilatan las pupilas a medida que empieza a recordar su antigua vida. Cuando su mirada pasa por La última flor que se retuerce en tu mano, deja escapar un grito de horror.</p><p>—He tenido un sueño terrible —dice—. Soñé que era una reina grande y terrible, y que gobernaba un reino de súbditos silenciosos.</p><p>Al comprender lo que ha hecho, el cambio en la actitud de Eryn resulta estremecedor. La mujer que parecía tan despiadada y cruel yace ahora ante ti, llorando.</p><p>Tienes claro que los actos de Eryn no eran suyos. La consuelas y la pones a salvo junto con el resto de los supervivientes, y le dices que guardarás la flor a buen recaudo e impedirás que «Amaranth» vuelva a apoderarse de otro huésped.</p><p>—Nunca más —repite tus palabras—. Nunca más.</p><p>Cuando te marchas, la flor se pliega y se despliega, como si buscara otro huésped.</p><ul><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.</li><li>Elige un investigador para que sea el portador de La última flor y actualiza el registro de campaña como corresponda.</li><li>Anota en el registro de campaña que *Amaranth ha abandonado la Camarilla*.</li><li>Marca 2 de _tiempo_ en el registro de campaña. Puedes _embarcar_.</li></ul>"
+    },
+    "resolution4": {
+      "title": "Resolución 4",
+      "body": "<p>_Resolución 4_: Mientras sostienes La última flor en la mano, Amaranth se convulsiona en el suelo ante ti. Escupiendo un icor negro, la hermosa joven te lanza zarpazos como un animal asustado y luego huye por una calle estrecha. Aunque intentas seguirla, acabas perdiendo su rastro en la confusión de civiles que huyen y maleza que se marchita.</p><ul><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.</li><li>Elige un investigador para que sea el portador de La última flor y actualiza el registro de campaña como corresponda.</li><li>Anota en el registro de campaña que *no es la última vez que ves a Amaranth*.</li><li>Marca 1 de _tiempo_ en el registro de campaña. Puedes _embarcar_.</li></ul>"
+    },
+    "resolution5": {
+      "title": "Resolución 5",
+      "body": "<p>_Resolución 5_: Mientras la ciudad hace balance de sus pérdidas, encuentras a muchos «Latif» en la lista de los innumerables muertos. En lugar de intentar dar con tu contacto, evalúas la situación y repasas el expediente. Apenas dudas de que esto fue obra de la Camarilla. Lo que Amaranth hizo aquí se cobró miles de vidas y causó estragos a una escala que difícilmente habrías podido prever. Sean cuales sean sus motivos, al parecer tiene la capacidad de desatar calamidades de proporciones apocalípticas.</p><p>Mientras la gente de Marrakech lleva a cabo la lúgubre aritmética de contar a los supervivientes, dedicas el tiempo de que dispones a ayudar a los civiles a reconstruir. Con el paso de muchos días, las horribles enredaderas se resecan y el viento se las lleva en forma de ceniza, y los muertos son lavados y amortajados para su entierro. A pesar de la devastación, hay esperanza de que la ciudad vuelva a ser lo que fue, o incluso algo mejor. Con el corazón encogido, te preparas para partir.</p><ul><li>Anota en el registro de campaña que *no es la última vez que ves a Amaranth*.</li><li>Cada investigador sufre 1 trauma mental al contemplar las ruinas de Marrakech.</li><li>Cada investigador obtiene 3 puntos de experiencia adicionales por ayudar a los supervivientes de la ciudad a reconstruirla.</li><li>Amaranth es la portadora de La última flor. Actualiza el registro de campaña como corresponda.</li><li>Marca 1 de _tiempo_ en el registro de campaña. Puedes _embarcar_.</li></ul>"
+    }
+  }
+}

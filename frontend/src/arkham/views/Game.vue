@@ -3940,6 +3940,7 @@ onUnmounted(() => {
 .game-main {
   width: 100vw;
   height: calc(100vh - 80px - var(--epic-bar-height, 0px));
+  height: calc(100dvh - 80px - var(--epic-bar-height, 0px));
   display: flex;
   flex: 1;
 }
@@ -4780,6 +4781,62 @@ header {
 .game-bar-item:hover {
   background: rgba(0, 0, 0, 0.21);
   color: var(--title);
+}
+
+/* Touch: the bar and the menus under it are tapped with a thumb. */
+@media (pointer: coarse) {
+  .game-bar {
+    :deep(button) {
+      min-height: 40px;
+      font-size: 13px;
+    }
+
+    /* Taller rows can outgrow a phone held sideways, and nothing above the
+       menu scrolls. */
+    :deep(.menu-items) {
+      max-height: calc(100dvh - 90px);
+      overflow-y: auto;
+    }
+
+    /* Scroll instead of squashing the undo group, whose clipping lets it shrink. */
+    :deep(.menu-items > *) {
+      flex-shrink: 0;
+    }
+  }
+}
+
+/* The labelled buttons do not fit a phone at a legible size, so the bar goes to
+   icons. font-size: 0 keeps each label for screen readers. */
+@media (pointer: coarse) and (max-width: 1000px) {
+  .game-bar {
+    /* Menus span the bar rather than hang off the right edge of the screen. */
+    position: relative;
+
+    :deep(.menu-items) {
+      left: 0;
+      right: 0;
+    }
+
+    > div > button,
+    > div > :deep(div > button) {
+      justify-content: center;
+      gap: 0;
+      min-width: 40px;
+      padding-inline: 6px;
+      font-size: 0;
+    }
+
+    > div > button svg,
+    > div > :deep(div > button svg) {
+      width: 20px;
+      height: 20px;
+    }
+
+    /* The menu chevron. */
+    > div > :deep(div > button svg:last-child) {
+      width: 12px;
+    }
+  }
 }
 
 .shortcuts-modal {

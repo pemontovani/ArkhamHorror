@@ -1,0 +1,125 @@
+{
+  "tooltips": {
+    "pearlEstateRuins": {
+      "resign": "Dejas atrás el páramo"
+    }
+  },
+  "intro": {
+    "title": "Escenario: El páramo silencioso",
+    "body": "<p class='basic unindented'>Consulta el registro de campaña.</p>",
+    "nightSkip": "Si es la _Noche 1_ o la _Noche 2_, salta a _Introducción 4_. De lo contrario:",
+    "day1": "Si es el _Día 1_, pasa a _Introducción 1_.",
+    "day2": "Si es el _Día 2_, salta a _Introducción 2_.",
+    "day3": "Si es el _Día 3_, salta a _Introducción 3_.",
+    "intro1": {
+      "title": "Introducción 1",
+      "body": "<p>_Introducción 1_: Bajas de la camioneta de Theo en compañía de Leah Atwood y alzas la vista al punto más alto de la Isla de la Cicuta. La estrecha y sinuosa carretera deja paso a la ceniza blanda, como arena, que cubre el páramo. Las rocas negras de la cima de la colina parecen dientes mellados. Un silencio pavoroso lo impregna todo mientras subes la colina con la cocinera del Valle.</p><p>—Hay un motivo por el que ya no vive gente aquí. Ten cuidado allá arriba. No sé qué vive en las cuevas, y no tengo intención de averiguarlo —dice.</p><p>Como en respuesta, un fuerte viento levanta nubes de ceniza blanca.</p><p class='basic right'>Salta a _Introducción 5_.</p>"
+    },
+    "intro2": {
+      "title": "Introducción 2",
+      "body": "<p>_Introducción 2_: Bajas de la camioneta de Theo bajo una lluvia torrencial, en compañía de la Dra. Marquez. La estrecha y sinuosa carretera deja paso a la ceniza blanda, como arena, que cubre el páramo. Las rocas negras de la cima de la colina parecen dientes mellados. Un silencio pavoroso lo impregna todo mientras subes la colina con la profesora, que lleva un poncho amarillo y azul chillón.</p><p>—Si hay que creer a la gente del lugar, tenemos que ir por aquí —dice señalando ladera arriba, hacia un huerto destellante.</p><p>Tras ascender la empinada cuesta, la profesora deja escapar un grito ahogado.</p><p>Hileras de árboles cristalinos centellean bajo la luz. El chasquido de un rayo que llega de las nubes del sur refracta una franja de precioso fulgor prismático a través de las manzanas colgantes y los nudosos troncos de vidrio. Aunque es bellísimo, no puedes evitar una punzada de ansiedad: los árboles son una maravilla, pero llevan mucho tiempo muertos, detenidos en el tiempo. La Dra. Marquez empieza a desbastar un arbolillo joven con martillo y cincel.</p><p>—Dispersaos y explorad las ruinas. Leah me advirtió que no me acercara a las hormigas, signifique lo que signifique. No les deis patadas a los hormigueros, supongo —dice, ya absorta en su trabajo.</p><p class='basic right'>Salta a _Introducción 5_.</p>"
+    },
+    "intro3": {
+      "title": "Introducción 3",
+      "body": "<p>_Introducción 3_: Bajas de la camioneta de Theo y alzas la vista al punto más alto de la Isla de la Cicuta. La estrecha y sinuosa carretera deja paso a la ceniza blanda, como arena, que cubre el páramo. Las rocas negras de la cima de la colina parecen dientes mellados. Un silencio pavoroso lo impregna todo mientras subes la colina y divisas una figura con túnica de pie sobre una roca saliente, contemplando desde lo alto la Isla de la Cicuta. Al acercarte reconoces en la figura a la madre Rachel. Hace un gesto con la cabeza, como para dar a entender que ha advertido tu presencia, y abre los brazos en una postura exultante. En lo alto, el cielo titila con una franja de colores extraños.</p><p class='basic right'>Salta a _Introducción 5_.</p>"
+    },
+    "intro4": {
+      "title": "Introducción 4",
+      "body": "<p>_Introducción 4_: Bajas de la camioneta de Theo y alzas la vista al punto más alto de la Isla de la Cicuta. La estrecha y sinuosa carretera deja paso a la ceniza blanda, como arena, que cubre el páramo, plateada y brillante a la luz de la luna. Las rocas negras de la cima de la colina parecen dientes mellados. El silencio te produce una extraña calma mientras subes la colina, y ves en lo alto brillantes franjas de color entre la luz de las estrellas.</p><p class='basic right'>Pasa a la _Preparación_.</p>"
+    },
+    "intro5": {
+      "title": "Introducción 5",
+      "body": "<p>_Introducción 5_: Llegas a la antigua Finca Perla y te detienes antes de meterte en la sima oscura que se abre ante la casa ruinosa. Un tejado destrozado en el extremo norte de la finca habla de algún impacto violento: a juzgar por las tablas esparcidas, algo salió disparado del interior con la fuerza de una bala de cañón. Mientras inspeccionas las ruinas, te preguntas qué horrible catástrofe se abatiría sobre la familia Perla. Una escurridiza sombra negra revolotea en el límite de tu campo visual. Cuando te vuelves a mirar, ha desaparecido.</p><p class='basic right'>Pasa a la _Preparación_.</p>"
+    }
+  },
+  "setup": {
+    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de Encuentros: *El páramo silencioso*, *Agentes del color*, *Plaga*, *Horrores en la roca*, *Refracciones*, *Transfiguración* y *Miedo impactante*. Estos conjuntos se identifican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/the-silent-heath.png' /><img src='{setImgPath}/agents-of-the-colour.png' /><img src='{setImgPath}/blight.png' /><img src='{setImgPath}/horrors-in-the-rock.png' /><img src='{setImgPath}/refractions.png' /><img src='{setImgPath}/transfiguration.png' /><img src='{setImgPath}/striking-fear.png' /></section>",
+    "currentDaySet": "Además, consulta en el registro de campaña el día actual y reúne el conjunto de Encuentros correspondiente: *El primer día*, *El segundo día* o *El último día*. Estos conjuntos se identifican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/the-first-day.png' /><img src='{setImgPath}/the-second-day.png' /><img src='{setImgPath}/the-final-day.png' /></section>",
+    "currentDayMarker": "Consulta en el registro de campaña el día y la hora actuales. Pon en juego la carta de Indicador de tiempo por su cara correspondiente, (_Día {'{'}day{'}'}_) o (_Noche {'{'}night{'}'}_).",
+    "desolationV1": "Si es el _Día 1_ o la _Noche 1_, retira de la partida el Plan 2a: _Desolación (v.II)_.",
+    "desolationV2": "De lo contrario, retira de la partida el Plan 2a: _Desolación (v.I)_.",
+    "locations": "Pon en juego los siguientes Lugares: Arboleda de cristal, Ruinas de la Finca Perla y Pendiente de ceniza. Utiliza como referencia el diagrama de esta página.",
+    "startAt": "Cada investigador comienza la partida en las Ruinas de la Finca Perla.",
+    "setAside": "Pon aparte, fuera del juego, cada una de las siguientes cartas: el Enemigo Reina de progenie, las dos copias del Enemigo Parásito de cristal y los Lugares de una sola cara Cámara de sal, Túnel de larvas y Zona de cría de cristal.",
+    "crystalRemains": "Baraja boca abajo las 3 cartas de Apoyo de historia Restos cristalinos (*de modo que no sepas cuál es cuál*) y ponlas aparte, fuera del juego.",
+    "horrorsInTheRock": "Elige al azar 3 Lugares del conjunto de Encuentros *Horrores en la roca* y ponlos aparte sin mirar sus lados revelados. Retira de la partida los Lugares restantes de *Horrores en la roca*.",
+    "residents": "Si es (_Día {'{'}day{'}'}_), reúne todos los Apoyos de historia del conjunto de Encuentros *Habitantes*. Este conjunto se identifica con este icono:<section class='encounter-sets'><img src='{setImgPath}/residents.png' /></section>",
+    "leahAtwood": "Si es el _Día 1_, coloca a Leah Atwood en el Lugar Ruinas de la Finca Perla.",
+    "drRosaMarquez": "Si es el _Día 2_, coloca a la Dra. Rosa Marquez en el Lugar Arboleda de cristal.",
+    "motherRachel": "Si es el _Día 3_, coloca a la Madre Rachel en el Lugar Pendiente de ceniza.",
+    "removeResidents": "Retira de la partida el resto del conjunto de Encuentros *Habitantes*."
+  },
+  "tokens": {
+    "easyStandard": {
+      "skull": "-X. X es la mitad de la cantidad de Enemigos _Insecto_ en juego y en la zona de victoria (redondeando hacia arriba).",
+      "cultist": "-1. Puedes barajar en el mazo de Encuentros un Enemigo que no sea _Élite_ de la zona de victoria.",
+      "tablet": "-3. Si fracasas, elige un Enemigo _Insecto_ que esté en tu Lugar. Se enfrenta a ti y realiza un ataque inmediato.",
+      "elderThing": "-2. Si estás en un Lugar _Guarida_, revela otra ficha."
+    },
+    "hardExpert": {
+      "skull": "-X. X es la cantidad de Enemigos _Insecto_ en juego y en la zona de victoria.",
+      "cultist": "-3. Si tienes éxito, puedes barajar en el mazo de Encuentros un Enemigo que no sea _Élite_ de la zona de victoria.",
+      "tablet": "-5. Prepara el Enemigo _Insecto_ más cercano. Se mueve y ataca como si fuera la fase de Enemigos.",
+      "elderThing": "-4. Si estás en un Lugar _Guarida_, fracasas automáticamente."
+    }
+  },
+  "codex": {
+    "motherRachel": {
+      "title": "{'{'}codex{'}'} Códice 1: Madre Rachel",
+      "body": "<h3>@:theFeastOfHemlockVale.theSilentHeath.codex.motherRachel.title </h3><p>—No elegimos nuestro camino. Para los sencillos, para los sabios o para los necios que se creen sabios, es lo mismo. Las decisiones se toman por nosotros. Lo mejor que podemos hacer es aceptar nuestro lugar —dice la matrona, arrodillada. Mira más allá de ti, hacia la casa en ruinas—. Pronto conocerás tu lugar. Igual que la gente del Valle.</p><p class='basic right'>Aumenta el nivel de relación de la Madre Rachel. Cada investigador obtiene 1 punto de experiencia adicional.</p>"
+    },
+    "leahAtwood": {
+      "title": "{'{'}codex{'}'} Códice 2: Leah Atwood",
+      "body": "<h3>@:theFeastOfHemlockVale.theSilentHeath.codex.leahAtwood.title </h3><p>—Antes este era casi el único sitio de la isla donde se podía hacer crecer algo. De hecho, no había manera de que las cosas dejaran de crecer. La familia Perla tenía todo un emporio: huertos y viñedos, por no hablar de la minería y la caza de ballenas. Y entonces, hace veinte años, casi día por día, pasó algo. ¿Te puedes creer que mi hermana habla de ello como si hubiera sido una especie de milagro? —dice con desdén.</p><p class='basic right'>En las notas de Leah Atwood, anota que <i>Leah registró las ruinas Perla</i>. Cada investigador obtiene 1 pista (de la reserva de fichas).</p>"
+    },
+    "drRosaMarquez": {
+      "title": "{'{'}codex{'}'} Códice Θ: Dra. Rosa Marquez",
+      "act1": "<h3>@:theFeastOfHemlockVale.theSilentHeath.codex.drRosaMarquez.title </h3><p>_Si es el acto 1:_</p><p>La Dra. Marquez sostiene a contraluz una pieza redonda de vidrio. Es el corte transversal de un árbol petrificado, surcado por vetas tenues como gasa. La profesora se guarda la muestra en el bolsillo.</p><p>—El manzanar no estaba petrificado: lo que cambió fue la propia estructura de la madera. Este corte transversal son una docena de árboles distintos, cada uno con su historia y sus anillos. Todos cristalizados.</p><p class='basic right'>Roba 3 cartas. Un investigador puede activar este códice de nuevo durante un acto distinto.</p>",
+      "act2": "<h3>@:theFeastOfHemlockVale.theSilentHeath.codex.drRosaMarquez.title </h3><p>_Si es el acto 2:_</p><p>La profesora sopesa una mandíbula reseca del tamaño de su antebrazo.</p><p>—Estas criaturas tienen rasgos de termita, de avispa y de otros cuantos insectos. No es mi campo (el Dr. Christopher se volvería loco si viera esto), pero he logrado desenterrar algunos hallazgos interesantes en los túneles. Mira esto.</p><p class='basic right'>Elige un Lugar en juego. Revela todas las cartas que haya debajo del Lugar elegido. Descarta todas las Traiciones reveladas y devuelve el resto en cualquier orden.</p>"
+    },
+    "larvalTunnel": {
+      "title": "{'{'}codex{'}'} Códice Ψ: Túnel de larvas",
+      "body": "<h3>@:theFeastOfHemlockVale.theSilentHeath.codex.larvalTunnel.title </h3><p>Un hedor bilioso sale flotando de un túnel en el que hormiguean insectos blancos y esponjosos. Larvas monstruosas de ojos de un blanco lechoso miran ciegas desde la oscuridad. La colonia de insectos mantiene a sus crías en este túnel para que maduren. A juzgar por los restos sanguinolentos y resecos del suelo, los soldados de progenie más viejos las alimentan con un suministro constante de fauna local y de quienquiera que sea tan necio como para aventurarse en sus cuevas.</p><p class='basic right'>Coge 1 de las cartas de Restos cristalinos puestas aparte junto con las 2 primeras cartas del mazo de Encuentros. Barájalas juntas y coloca las 3 cartas boca abajo, en un montón, debajo del Túnel de larvas.</p>"
+    },
+    "saltChamber": {
+      "title": "{'{'}codex{'}'} Códice Ω: Cámara de sal",
+      "body": "<h3>@:theFeastOfHemlockVale.theSilentHeath.codex.saltChamber.title </h3><p>Una estrecha grieta en la pared de un túnel conduce a una espaciosa gruta. Las formaciones de sal dibujan delicados diseños, como telas de araña, que cuelgan del techo y se alzan del suelo. El aire tiene un sabor acre, amargo y alcalino, mezclado con un repugnante olor a almizcle. El suelo está sembrado de varios cadáveres resecos, algunos humanos, cubiertos de costras de sal. Quizá las criaturas locales utilicen la sal de esta cámara como conservante natural. Una especie de despensa.</p><p class='basic right'>Coge 1 de las cartas de Restos cristalinos puestas aparte junto con las 2 primeras cartas del mazo de Encuentros. Barájalas juntas y coloca las 3 cartas boca abajo, en un montón, debajo de la Cámara de sal.</p>"
+    },
+    "crystalNursery": {
+      "title": "{'{'}codex{'}'} Códice Φ: Zona de cría de cristal",
+      "body": "<h3>@:theFeastOfHemlockVale.theSilentHeath.codex.crystalNursery.title </h3><p>Entras en una gruta enorme, del tamaño de un anfiteatro, llena de cristales de un blanco lechoso. Incontables insectos cuelgan de las paredes y descansan en el suelo bajo una luz pálida y acuosa que se filtra desde un agujero del techo. Comprendes que la abertura de arriba es la enorme sima que hay ante la Finca Perla. Un zumbido grave, casi inaudible, impregna la estancia. Sientes que has entrado en un espacio sagrado.</p><p class='basic right'>Coge 1 de las cartas de Restos cristalinos puestas aparte junto con las 2 primeras cartas del mazo de Encuentros. Barájalas juntas y coloca las 3 cartas boca abajo, en un montón, debajo de la Zona de cría de cristal.</p>"
+    },
+    "broodQueen": {
+      "title": "{'{'}codex{'}'} Códice Σ: Reina de progenie",
+      "body": "<h3>@:theFeastOfHemlockVale.theSilentHeath.codex.broodQueen.title </h3><p>La forma enorme y corpulenta de un insecto sale dando bandazos de un túnel oscuro. Las antenas de la reina de progenie se agitan en la oscuridad y emiten vibraciones desasosegantes. En cuestión de instantes, la cueva se llena de su prole, y cada ejemplar brilla con una débil luz azulada.</p><p class='basic right'>Haz aparecer a la Reina de progenie en el Lugar más cercano al mayor número de investigadores (en un Lugar _Cueva_, si es posible). Retira de la zona de victoria todos los Enemigos _Insecto_ y hazlos aparecer en el Lugar de la Reina de progenie.</p>"
+    },
+    "xp": {
+      "bonus": "Experiencia adicional"
+    }
+  },
+  "resolutions": {
+    "noResolution": {
+      "title": "Sin resolución",
+      "body": "<p>_Si no se ha llegado a ninguna resolución (todos los investigadores han desistido o han sido derrotados)_: Mientras bajas por la ladera, sin una gota de fuerzas, oyes el sonido de un centenar de alas batiendo. Insectos pálidos y translúcidos cubren las rocas negras de lo alto de la colina y zumban sin cesar. ¿Qué se están diciendo en su propio idioma alienígena? ¿Sabrán algo del mundo que hay más allá del páramo? Te estremeces al preguntarte cuántos más acechan en las cavernas de abajo.</p><p class='basic'>Consulta el registro de campaña.</p>",
+      "proceedToResolution1": "Si hay exactamente 3 Restos cristalinos en la zona de victoria, pasa a la _Resolución 1_.",
+      "skipToResolution2": "Si hay exactamente 1 o 2 Restos cristalinos en la zona de victoria, salta a la _Resolución 2_.",
+      "skipToResolution4": "De lo contrario, salta a la _Resolución 4_."
+    },
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<p>_Resolución 1_: Depositas los tres cadáveres resecos en la caja de la camioneta. La acumulación de minerales los hace a la vez pesados e increíblemente quebradizos. El vientre del hijo está hinchado de cristales hasta el tamaño de un balón, y la piel de la madre está acartonada por la sal. No sabes qué deformó los cuerpos de la familia Perla, pero desde luego no fue rápido; debían de estar horriblemente desfigurados cuando murieron. Documentas los restos y unas cuantas muestras de las excrecencias de cristal. La familia Perla merecía algo mejor que esto. Con una pala de la parte trasera de la camioneta de Theo, te pones a cavar una tumba como es debido para los tres cadáveres.</p><ul><li>Anota en el registro de campaña que *los investigadores dieron sepultura a la familia Perla*.</li><li>Salta a la _Resolución 3_.</li></ul>"
+    },
+    "resolution2": {
+      "title": "Resolución 2",
+      "body": "<p>_Resolución 2_: Depositas los restos que has podido recuperar en la caja de la camioneta azul celeste de Theo. La acumulación de minerales los hace a la vez pesados e increíblemente quebradizos. No sabes qué deformó los cuerpos de la familia Perla, pero desde luego no fue rápido; debían de estar horriblemente desfigurados cuando murieron. Documentas los restos y unas cuantas muestras de las excrecencias de cristal, y luego entierras los restos en una tumba poco profunda al pie de la Cresta Perla.</p><ul><li>Anota en el registro de campaña que *los restos se recuperaron parcialmente*.</li><li>Pasa a la _Resolución 3_.</li></ul>"
+    },
+    "resolution3": {
+      "title": "Resolución 3",
+      "body": "<p>_Resolución 3_: Cuando has dejado atrás la Cresta Perla, estudias el diario de Susan Perla. El relato narra el auge y la caída de las inversiones de Susan Perla en agricultura y minería en la Isla de la Cicuta durante la década previa a 1906. Las anotaciones de negocios se intercalan con oraciones, ilustraciones de pájaros y algún que otro detalle sobre las extrañas «Madrigueras» que hay bajo la Cresta Perla. Otras entradas mencionan una enfermedad que se extiende entre los trabajadores del huerto y la familia Perla, además de repetidos reveses en sus explotaciones mineras. La última entrada, escrita con letra larga y errática, te llama la atención:</p><p class='italic'>Todavía no estoy segura de si lo que viví fue un sueño o una visión. A medianoche me despertó la inquietante sensación de que me observaban y, cuando abrí los ojos, vi en un rincón de mi alcoba una pálida esfera de luz acuosa que danzaba como algo salido de un cuento de hadas. En cuanto posé los ojos en ella, aquello salió volando por la ventana, y lo seguí hasta el huerto. Lo que vi solo puedo describirlo como un milagro: un centenar de luces feéricas más danzaban en el huerto. Mientras contemplaba las luces, se hicieron más brillantes, y me sentí casi como si volara. Una dicha embriagadora se adueñó de mi mente y me sentí distinta, de algún modo. Como si hubiera otro yo, otros cinco yoes, latiendo dentro de mi pecho. Y al mirar los árboles, me vi también en ellos. En todo esto. Fuerte y gruesa, con la piel nudosa y ramas por brazos. Vi mi ser, mi lugar, en toda la creación. Y todos mis temores (por Ezra, por la mina, por nuestra salud) se derritieron. No conocía más que gozo. ¡Qué gozo!</p><p class='italic'>Yo soy los ojos. Todos los ojos que ven. Yo soy el fulgor.</p><p class='italic right'>Susan Perla. 22 de junio de 1906</p><ul><li>Anota en el registro de campaña que *se recuperó el diario de madame Perla*.</li><li>Pasa a la _Resolución 4_.</li></ul>"
+    },
+    "resolution4": {
+      "title": "Resolución 4",
+      "body": "<p>_Resolución 4_: «Estudio de Miskatonic, junio de 1926. Miembros: Marquez, Musgrave <i>et alii</i>. Estudiada la Cresta Perla. Las colinas del norte quedaron devastadas en un suceso desconocido. Una contaminación persistente ha provocado la mineralización y cristalización de la vida orgánica. Las cavernas locales están invadidas por una enorme colonia de insectos. Los insectos mostraban conductas y fisiología propias de véspidos y termitas. Es necesario seguir estudiando».</p><ul><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria. _Cada investigador puede gastar ahora la experiencia anotada en «Experiencia sin gastar» del registro de campaña._</li><li>En la sección «Zonas exploradas» del registro de campaña, marca *Cresta Perla*.</li><li>Consulta el registro de campaña.<ul><li>Si es el Día 1, ve al _Preludio: La primera tarde_ (*página 31*).</li><li>Si es la Noche 1, ve al _Preludio: Alba del segundo día_ (*página 39*).</li><li>Si es el Día 2, ve al _Preludio: La segunda tarde_ (*página 43*).</li><li>Si es la Noche 2, ve al _Preludio: Alba del último día_ (*página 51*).</li><li>Si es el Día 3, ve al _Preludio: La última tarde_ (*página 55*).</li></ul></li></ul>"
+    }
+  }
+}

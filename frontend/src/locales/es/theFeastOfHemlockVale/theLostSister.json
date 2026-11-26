@@ -1,0 +1,146 @@
+{
+  "specialRules": [
+    {
+      "title": "Lugares oscuros",
+      "body": "<p class='basic'>Los efectos de Día y Noche funcionan de forma distinta durante el escenario La hermana perdida. Durante este escenario, las cartas que estén en un Lugar Oscuro (incluido el propio Lugar) solo usan los efectos de (Noche {'{'}night{'}'}). Las cartas que estén en todos los demás Lugares (incluido el propio Lugar) solo usan los efectos de (Día {'{'}day{'}'}). Esta regla se aplica tanto si este escenario se juega de (Día {'{'}day{'}'}) como de (Noche {'{'}night{'}'}).</p><ul><li>Al atardecer, la luz de la luna brilla tanto como el sol. A diferencia de otros escenarios de esta campaña, la carta de Indicador de tiempo no tiene ningún efecto de juego durante el escenario La hermana perdida.</li></ul>"
+    },
+    {
+      "title": "Enemigos de dos caras",
+      "body": "<p class='basic'>El conjunto de Encuentros La hermana perdida incluye 3 Enemigos de dos caras. Estos Enemigos tienen una cara de (Día {'{'}day{'}'}) y una cara de (Noche {'{'}night{'}'}) y se consideran un mismo Enemigo. Si estos Enemigos están en un Lugar Oscuro, dales la vuelta para mostrar su cara de (Noche {'{'}night{'}'}). A la inversa, si estos Enemigos están en un Lugar que no tenga el rasgo Oscuro, dales la vuelta para mostrar su cara de (Día {'{'}day{'}'}). Darles la vuelta de una cara a otra es un efecto inmediato que no puede interrumpirse. Cuando un Enemigo de dos caras se da la vuelta, conserva todas sus fichas y cartas vinculadas. (Ten en cuenta que algunos Enemigos tienen efectos Obligados que se activan después de darles la vuelta a una cara u otra).</p>"
+    }
+  ],
+  "remembered": {
+    "foundATornDogLeash": "Se encontró una correa de perro rota.",
+    "foundASetOfFootprints": "Se encontraron unas huellas.",
+    "theoIsArguingWithHelen": "Theo está discutiendo con Helen.",
+    "gideonIsSearchingForAnHeirloom": "Gideon está buscando una reliquia familiar."
+  },
+  "intro": {
+    "title": "Escenario: La hermana perdida",
+    "intro1": "<p>_Introducción 1_: Estás en la pequeña cocina de la casa de la familia Peters en Akwan, en la costa norte de la Isla de la Cicuta. El agua fría del Atlántico lame los pilotes sobre los que se alza la casa cuando Helen Peters deja en la mesa su taza humeante.</p><p>—Las cavernas de la costa norte son una trampa mortal —dice con firmeza—. Creo que no sabes dónde te metes.</p><p>Le dices que eres muy consciente del peligro. Según los rumores locales, últimamente ha desaparecido gente. La desaparición más reciente es la de la hermana de Helen, así que has visitado la casa de los Peters para ofrecer tu ayuda.</p><p>Helen te mira de arriba abajo, como midiéndote, y al fin asiente.</p><p>—Muy bien. O tienes agallas o no tienes seso. O las dos cosas, como mi hermano pequeño. —Se frota la frente con frustración—. La última vez que vi a Lizzie, Elizabeth, estaba dando un paseo por la costa con nuestro perro Bruce. Le dije que no se acercara a esas cuevas, pero nunca hace caso. Es fácil perderse en ellas, y dentro hay cosas que poblarían tus pesadillas. —Deja una linterna sobre la mesa—. Pero por ahí vamos a empezar.</p>",
+    "body": "<p class='basic unindented'>Consulta el registro de campaña.</p>",
+    "nightSkip": "Si es la _Noche 1_ o la _Noche 2_, salta a _Introducción 5_. De lo contrario:",
+    "day1": "Si es el _Día 1_, pasa a _Introducción 2_.",
+    "day2": "Si es el _Día 2_, salta a _Introducción 3_.",
+    "day3": "Si es el _Día 3_, salta a _Introducción 4_.",
+    "intro2": "<p>_Introducción 2_: Sigues a Helen al exterior, a las crujientes pasarelas de madera de la aldea de Akwan. Enclavada en una pequeña bahía rocosa de la costa norte de la isla, Akwan ha sido durante generaciones el hogar de familias abenakis y de antiguos balleneros. El continuo oleaje y el romper del mar contra la costa pedregosa dan a la escena una inquietud sobrecogedora. Helen coge un arpón de la choza de un ballenero y te lleva a la playa.</p><p>Una vieja camioneta que ya conoces frena hasta detenerse cerca. Theo baja y te saluda con una amplia sonrisa.</p><p>—¡Ya estoy de vuelta! He tenido que volver corriendo al Valle a por una cosa —dice agitando la mano. La sonrisa se le borra al ver a Helen.</p><p>—Me sorprende que hayas venido —dice Helen con frialdad.</p><p>Theo parece alicaído.</p><p>—Pues claro que he venido, hermanita. ¿Cómo no iba a venir?</p><p>Su hermana no dice nada mientras pasa a grandes zancadas junto a ambos hacia la desolada orilla. Una ola rizada rompe contra la pasarela y quiebra el aparente dramatismo del momento. Le preguntas a Theo por la razón de la fría respuesta de su hermana, y por un momento se queda con la mirada ausente.</p><p>—¿Sabes? A veces la gente simplemente se distancia. Como dos ramas. Siempre estarán unidas, pero...</p><p>Helen interrumpe la larga metáfora llamándote a la boca de una cueva junto al mar.</p><p class='basic right'>Pasa a la _Preparación_.</p>",
+    "intro3": "<p>_Introducción 3_: Mientras Helen y tú hacéis los preparativos para salir, el sonido de la lluvia rompe el silencio. Theo cruza la puerta principal apartándose el pelo mojado de la cara. Clava los ojos en Helen.</p><p>—Así que sigue sin volver —dice con seriedad.</p><p>Theo gotea agua de lluvia sobre el suelo desgastado mientras Helen le fulmina con la mirada.</p><p>—Me sorprende que hayas venido, hermanito. Más vale tarde que nunca, supongo. Coge la cuerda.</p><p>Se echa un arpón al hombro y sale bajo la lluvia torrencial. Theo revuelve en busca de una cuerda y una segunda linterna mientras le preguntas qué ocurre.</p><p>—Nuestra hermana ha desaparecido. Le dije a Helen que volvería, y ya han pasado dos días. Eso es, eh... Eso es lo que ocurre.</p><p class='basic right'>Pasa a la _Preparación_.</p>",
+    "intro4": "<p>_Introducción 4_: Sigues a Helen al exterior, a las crujientes pasarelas de madera de la aldea de Akwan. Enclavada en una pequeña bahía rocosa de la costa norte de la isla, Akwan ha sido durante generaciones el hogar de familias abenakis y de antiguos balleneros.</p><p>—La Isla de la Cicuta ya no es segura. Creía que esto podía ser nuestro hogar, pero supongo que no es más que otra parada en el camino —dice Helen con melancolía.</p><p>La aldea está casi desierta, salvo por un viejo marino con un abrigo azul. Casi se le cae la caña de pescar cuando os acercáis.</p><p>—¡Gideon! ¿Otra vez pescando? —dice Helen con una sonrisa irónica.</p><p>El viejo marino saca del agua su captura.</p><p>—Na' más que un bacalao feo. Y este abadejo, más feo toavía.</p><p>Los peces ensartados en el cordel tienen demasiadas aletas y unas excrecencias espinosas parecidas a percebes.</p><p>—¿Y tú qué, Helen? —pregunta Gideon.</p><p>Helen le cuenta lo de su hermana desaparecida. El viejo marino parece preocupado.</p><p>—La pequeña Lizzie es un verdadero tesoro. Os ayudaré, si me queréis.</p><p class='basic right'>Pasa a la _Preparación_.</p>",
+    "intro5": "<p>_Introducción 5_: Sigues a Helen al exterior, a las crujientes pasarelas de madera de la aldea de Akwan. El cielo nocturno está lúgubre y encapotado, pero un resplandor inquietante persiste sobre el horizonte meridional: una luminiscencia lejana y cambiante de azules y verdes más allá de las copas de los árboles. La luz dibuja figuras familiares: una zarpa de león, una flor de primavera, un barco vikingo y, por último, una vaga silueta humanoide. Bajas la vista y ves que Helen desaparece en una cueva negra como la tinta.</p><p class='basic right'>Pasa a la _Preparación_.</p>"
+  },
+  "setup": {
+    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de Encuentros: *La hermana perdida*, *Plaga*, *Horrores en la roca*, *Mutaciones* y *Micónidos*. Estos conjuntos se identifican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/the-lost-sister.png' /><img src='{setImgPath}/blight.png' /><img src='{setImgPath}/horrors-in-the-rock.png' /><img src='{setImgPath}/mutations.png' /><img src='{setImgPath}/myconids.png' /></section>",
+    "currentDaySet": "Además, consulta en el registro de campaña el día actual y reúne el conjunto de Encuentros correspondiente: *El primer día*, *El segundo día* o *El último día*. Estos conjuntos se identifican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/the-first-day.png' /><img src='{setImgPath}/the-second-day.png' /><img src='{setImgPath}/the-final-day.png' /></section>",
+    "currentDayMarker": "Consulta en el registro de campaña el día y la hora actuales. Pon en juego la carta de Indicador de tiempo por su cara correspondiente, (_Día {'{'}day{'}'}_) o (_Noche {'{'}night{'}'}_).",
+    "putAkwan": "Pon en juego el Lugar Akwan. Cada investigador comienza la partida en Akwan.",
+    "cavernsDeck": "Forma el «mazo de Cavernas» de la siguiente forma:",
+    "gatherCavernsLocations": "Reúne todos los Lugares de los conjuntos de Encuentros *La hermana perdida* y *Horrores en la roca*.",
+    "setAsideFungalCave": "Pon aparte, fuera del juego, el Lugar Cueva fúngica.",
+    "removeTwoCaves": "Retira de la partida 2 Lugares _Cueva_ al azar del conjunto de Encuentros *Horrores en la roca*.",
+    "shuffleCavernsDeck": "Baraja juntos todos los Lugares restantes para formar el mazo de Cavernas. Coloca este mazo cerca de la carta de referencia de escenario.",
+    "putTopThree": "Pon en juego las tres primeras cartas del mazo de Cavernas, sin revelar, debajo, a la izquierda y a la derecha de Akwan (consulta Adyacencia de Lugares en la página 3).",
+    "dayResidents": "Si es (_Día {'{'}day{'}'}_), reúne todos los Apoyos de historia del conjunto de Encuentros *Habitantes*. Este conjunto se identifica con este icono:<section class='encounter-sets'><img src='{setImgPath}/residents.png' /></section>",
+    "helenPeters": "Pon en juego a Helen Peters bajo el control de un investigador. No ocupa un hueco de aliado durante este escenario.",
+    "theoPeters": "Si es el _Día 1_ o el _Día 2_, pon en juego a Theo Peters bajo el control de un investigador.",
+    "gideonMizrah": "Si es el _Día 2_ o el _Día 3_, pon en juego a Gideon Mizrah bajo el control de un investigador.",
+    "williamHemlock": "Si es el _Día 3_, pon en juego a William Cicuta en Akwan.",
+    "removeResidents": "Retira de la partida todas las demás cartas del conjunto de Encuentros *Habitantes*.",
+    "nightResidents": "Si es (_Noche {'{'}night{'}'}_), reúne todos los Apoyos de historia del conjunto de Encuentros *Habitantes*. Este conjunto se identifica con este icono:<section class='encounter-sets'><img src='{setImgPath}/residents.png' /></section>",
+    "helenPetersNight": "Pon en juego a Helen Peters bajo el control de un investigador. No ocupa un hueco de aliado durante este escenario.",
+    "removeResidentsNight": "Retira de la partida todas las demás cartas del conjunto de Encuentros *Habitantes*.",
+    "setAsideEnemies": "Pon aparte, fuera del juego, cada uno de los siguientes Enemigos: Híbrido límulo, las dos copias del Parásito de cristal y las dos copias del Híbrido crustáceo."
+  },
+  "darkLocations": {
+    "title": "Lugares oscuros",
+    "body": "<h3>Lugares oscuros</h3><p class='basic'>Los efectos de Día y Noche funcionan de forma distinta durante el escenario *La hermana perdida*. Durante este escenario, las cartas que estén en un Lugar _Oscuro_ (*incluido el propio Lugar*) solo usan los efectos de (_Noche {'{'}night{'}'}_). Las cartas que estén en todos los demás Lugares (*incluido el propio Lugar*) solo usan los efectos de (_Día {'{'}day{'}'}_). Esta regla se aplica tanto si este escenario se juega de (_Día {'{'}day{'}'}_) como de (_Noche {'{'}night{'}'}_).</p><ul><li>Al atardecer, la luz de la luna brilla tanto como el sol. A diferencia de otros escenarios de esta campaña, la carta de Indicador de tiempo no tiene ningún efecto de juego durante el escenario *La hermana perdida*.</li></ul>"
+  },
+  "doubleSidedEnemies": {
+    "title": "Enemigos de dos caras",
+    "body": "<h3>Enemigos de dos caras</h3><p class='basic'>El conjunto de Encuentros *La hermana perdida* incluye 3 Enemigos de dos caras. Estos Enemigos tienen una cara de (_Día {'{'}day{'}'}_) y una cara de (_Noche {'{'}night{'}'}_) y se consideran un mismo Enemigo. Si estos Enemigos están en un Lugar _Oscuro_, dales la vuelta para mostrar su cara de (_Noche {'{'}night{'}'}_). A la inversa, si estos Enemigos están en un Lugar que no tenga el rasgo _Oscuro_, dales la vuelta para mostrar su cara de (_Día {'{'}day{'}'}_).</p><p>Darles la vuelta de una cara a otra es un efecto inmediato que no puede interrumpirse. Cuando un Enemigo de dos caras se da la vuelta, conserva todas sus fichas y cartas vinculadas. (*Ten en cuenta que algunos Enemigos tienen efectos _Obligados_ que se activan después de darles la vuelta a una cara u otra*).</p>"
+  },
+  "tooltips": {
+    "akwan": {
+      "resign": "Abandonas la búsqueda."
+    },
+    "hiddenCove": {
+      "remember": "Recuerda que los investigadores «encontraron una correa de perro rota»."
+    },
+    "undergroundPools": {
+      "remember": "Recuerda que los investigadores «encontraron unas huellas»."
+    }
+  },
+  "codex": {
+    "label": {
+      "bottom": "Colocar en el fondo del mazo de Cavernas"
+    },
+    "williamHemlock": {
+      "title": "{'{'}codex{'}'} Códice 4: William Cicuta",
+      "body": "<h3>@:theFeastOfHemlockVale.theLostSister.codex.williamHemlock.title </h3><p>William está de pie en la costa rocosa, contemplando el oleaje y el lejano litoral de Maine más allá.</p><p>—Esta isla envenenada es todo lo que queda del apellido Cicuta. El legado de mi familia acabará conmigo —dice con amargura.</p><p>Helen avanza a grandes zancadas, con el rostro lívido.</p><p>—Esta isla no pertenece a nadie; tu legado está muerto. Fue salvaje mucho antes de que tu familia se la arrebatara a la naturaleza, y ahora lo salvaje la recuperará.</p><p>A William le tiembla el labio mientras alza la vista al resplandor. Una franja irisada de colores deforma el cielo.</p><p>—Todo lo bueno es libre y salvaje —cita con reverencia—. Quizá sea hora de que lo acepte.</p><p class='basic right'>Aumenta el nivel de relación de William Cicuta. Cada investigador obtiene 1 punto de experiencia adicional.</p>"
+    },
+    "gideonMizrah": {
+      "title": "{'{'}codex{'}'} Códice 6: Gideon Mizrah",
+      "body": "<h3>@:theFeastOfHemlockVale.theLostSister.codex.gideonMizrah.title </h3><p>Gideon se inclina y estudia una formación de arena negra y rocas.</p><p>—No siempre fue to' tan raro por aquí. La Isla de la Cicuta se ha puesto mu' extraña con los años. Pero ahora que lo pienso, supongo que...</p><p>El anciano deja la frase en el aire, perdido en sus pensamientos. Al cabo de un rato, se levanta con dificultad.</p><p>—Perdí por aquí una antigua reliquia familiar. Bueno, no es tanto que la perdiera como que la enterré y se me olvidó dónde, ya me entiendes.</p><p>Parlotea sobre otras tres historias que no vienen a cuento antes de volver al tema.</p><p>—No fui tan zoquete como pa' enterrarla en la arena. Pero había una roca grande y negra que se daba un aire a una ballena. Ahí la enterré. Si me ayudáis a encontrarla, os estaré mu' agradecío.</p><p class='basic right'>Recuerda que «Gideon está buscando una reliquia familiar». (Pista: si los investigadores controlan al menos 2 pistas al final de este escenario, puedes ayudar a Gideon a encontrar lo que busca).</p>"
+    },
+    "theoPeters": {
+      "title": "{'{'}codex{'}'} Códice 8: Theo Peters",
+      "arguing": "<h3>@:theFeastOfHemlockVale.theLostSister.codex.theoPeters.title </h3><p>_Si «Theo está discutiendo con Helen» y Theo Peters y Helen Peters están en el mismo Lugar:_</p><p>La tensión se dispara mientras Theo y Helen se lanzan pullas.</p><p class='basic right'>Elige un investigador que esté en el Lugar de Theo Peters para que realice una prueba de {'{'}willpower{'}'} (4). Si la prueba tiene éxito, sigue leyendo. De lo contrario, un investigador puede activar este códice de nuevo.</p>",
+      "otherwise": "<p>_De lo contrario:_</p><p>Cuando Theo y tú seguís a Helen por otro túnel viscoso más, salís a una amplia estancia del tamaño de un anfiteatro. Corales ramificados y crustáceos enormes se aferran a la roca húmeda y oscura que os rodea, y por un momento el grupo contiene la respiración al unísono, asimilando la increíble escena.</p><p>—Sigamos —dice Helen con aspereza.</p><p>No tarda en dejaros atrás a Theo y a ti, y aprovechas el momento para preguntar al joven por la actitud gélida de su hermana.</p><p>—Le echa la culpa al Valle de... de, bueno, de todo. Hace un año apenas llegábamos a fin de mes en Akwan. Intentó que me dedicara a la pesca, como mi padre, y... —Parece atragantarse con las palabras—. Tampoco es que yo sirviera nunca de ayuda. Pero cuando visité el Valle, sentí que tenía un lugar. Un sitio al que pertenecía. La madre Rachel dice...</p><p>—Cállate —Helen irrumpe en la conversación—. Ya es bastante malo que Lizzie te oyera poner por las nubes a esa chiflada cuando estabas en casa. Si quieres ser su perrito faldero, adelante. Si quieres darnos la espalda, adelante. Pero no sueltes esas gilipolleces delante de mí.</p><p>A Theo se le encienden las mejillas mientras su hermana hurga en lo que es claramente una vieja herida.</p><p class='basic right'>Recuerda que «Theo está discutiendo con Helen». Un investigador puede activar este códice de nuevo si Theo Peters y Helen Peters están en el mismo Lugar.</p>",
+      "passed": "<p>—¡Di lo que quieras, pero la gente del Valle es más familia mía de lo que tú serás jamás! —grita Theo.</p><p>Intervienes e intentas calmar a la pareja. Helen mira a los ojos a su hermano, claramente herida, y responde:</p><p>—Por favor, no digas eso. No lo digas nunca. Lizzie y tú sois el único hogar que tengo. Ni este sitio. Ni la Isla de la Cicuta. Desde luego, no Vermont. Solo quiero que seamos una familia.</p><p>Su coraza se resquebraja y empieza a llorar. Al cabo de un momento, Theo mira a su hermana, con el labio tembloroso, y la rodea con los brazos en un abrazo sin palabras.</p><p class='basic right'>En las notas de Theo Peters, anota que <i>Theo se reconcilió con Helen</i>. Aumenta el nivel de relación de Theo Peters. Cada investigador obtiene 1 punto de experiencia adicional.</p>"
+    },
+    "lobstrosity": {
+      "title": "{'{'}codex{'}'} Códice Σ: La langostruosidad",
+      "reconciled": "<h3>@:theFeastOfHemlockVale.theLostSister.codex.lobstrosity.title </h3><p>_Si Theo se reconcilió con Helen:_</p><p>Un olor rancio y fétido a pescado podrido y moho inunda la caverna. Theo ve a sus hermanas huir de la cueva, claramente dividido, antes de volverse hacia ti con gesto decidido. Permanece a tu lado mientras la monstruosa criatura lanza un rugido borboteante.</p><p>—Estoy bastante seguro de que esa cosa se comió al perro de Lizzie —dice, y saca un cuchillo—. ¡Esto va por Bruce!</p><p class='basic right'>Mueve 1 punto de daño de Theo Peters al Enemigo Híbrido límulo.</p>",
+      "otherwise": "<p>_De lo contrario:_</p><p>Theo ve a sus hermanas huir de la cueva, claramente dividido. La cueva cubierta de musgo huele a moho y descomposición. El joven retrocede mientras la monstruosa criatura lanza un rugido borboteante.</p><p>—Me he dejado una cosa en la camioneta. ¡Enseguida vuelvo! —dice mientras huye del lugar.</p><p class='basic right'>Retira a Theo Peters de la partida.</p>"
+    },
+    "drRosaMarquez": {
+      "title": "{'{'}codex{'}'} Códice Θ: Dra. Rosa Marquez",
+      "body": "<h3>@:theFeastOfHemlockVale.theLostSister.codex.drRosaMarquez.title </h3><p>La Dra. Marquez se arrodilla para examinar la extremidad cercenada de un crustáceo, invadida de hongos de un amarillo chillón.</p><p>—Aquí hay algo que va muy mal. Lo que sea que está causando estas mutaciones ejerce también su influencia sobre la fauna marina local. Este caparazón no solo está cubierto de hongos. —Lo parte y libera unas esporas amarillas y polvorientas—. Es como si las leyes más elementales de la naturaleza hubieran enloquecido.</p><p class='basic right'>Mira la primera carta del mazo de Cavernas. Puedes poner ese Lugar en juego adyacente al Lugar Cueva más cercano, o bien colocarlo en el fondo del mazo de Cavernas.</p>"
+    },
+    "xp": {
+      "bonus": "Experiencia adicional"
+    }
+  },
+  "resolutions": {
+    "noResolution": {
+      "title": "Sin resolución",
+      "body": "<p>_Si no se ha llegado a ninguna resolución (todos los investigadores han desistido o han sido derrotados)_: Tus esfuerzos han tocado techo. Los hongos antinaturales y la fauna agresiva son demasiado para ti. No te queda más remedio que abandonar la búsqueda.</p><ul><li>Cada investigador obtiene 1 punto de experiencia adicional por haber visto cara a cara los horrores de las cuevas costeras.</li><li>Salta a la _Resolución 4_.</li></ul>"
+    },
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<p>_Resolución 1_: Regresas a Akwan con Helen y Lizzie. La hermana menor te da las gracias mientras vuelve la mirada hacia las cuevas. Helen le coge la correa de perro deshilachada.</p><p>—Bruce era un buen perro —dice.</p><p>El viento del océano le cruza el pelo castaño oscuro sobre la cara redonda a la menor de los Peters mientras Helen le pasa un brazo por los hombros. Preguntas qué piensan hacer ahora.</p><p>—No podemos quedarnos aquí —dice Helen, más a Elizabeth que a ti. Antes de que su hermana pueda protestar, Helen continúa—: ¿Recuerdas la historia que nos contaba Nokemes? Aquella en la que Gluskab convertía a un hombre en árbol. En esta isla todo está mal. Se ha transformado en algo mortífero. Quizá sea hora de que visitemos al tío George en Portland.</p><p class='basic'>Consulta el registro de campaña.</p>",
+      "proceedToResolution2": "Si en las _notas de Theo Peters_ consta que _Theo se reconcilió con Helen_, pasa a la _Resolución 2_.",
+      "skipToResolution3": "De lo contrario, salta a la _Resolución 3_."
+    },
+    "resolution2": {
+      "title": "Resolución 2",
+      "body": "<p>_Resolución 2_: Al volver de su camioneta, Theo le pregunta a su hermana por qué se alejó. Lizzie se enjuga las lágrimas y levanta la correa rota.</p><p>—Bruce quería dar un último paseo. Como antes.</p><p>Theo parece alicaído mientras sus dos hermanas contemplan el mar, más allá del oleaje y las nubes plateadas. Theo duda, buscando qué decir, mientras sus hermanas permanecen frente al romper de las olas.</p><p>—Ven aquí, Theo —le llama Helen.</p><p>La familia permanece junta, mirando al mar en silencio.</p><ul><li>Cada investigador obtiene 2 puntos de experiencia adicionales por ayudar a Helen a salvar a su hermana.</li><li>Anota en el registro de campaña que <i>la familia Peters se reunió</i>.</li><li>Salta a la _Resolución 4_.</li></ul>"
+    },
+    "resolution3": {
+      "title": "Resolución 3",
+      "body": "<p>_Resolución 3_: —Pronto empezaré a hacer preparativos y, con suerte, en unos días más estaremos fuera de la isla —te dice Helen—. Te sugiero que también te marches pronto.</p><p>Le dices que el estudio dista mucho de haber terminado y que aún te queda trabajo. Helen resopla.</p><p>—Tú verás, es tu funeral —dice. Tras un breve silencio, vuelve a mirarte—. Perdona. No sé por qué he dicho eso. Gracias por tu ayuda. Nadie del Valle habría echado una mano. —Mira hacia Akwan, siguiendo la orilla de arena negra—. Gideon solía pescar aquí a menudo, pero ya no. El Valle nos lo quitó. Ahora se han llevado a Theo. —Vuelve a mirarte—. Tengo otro favor que pedirte. Por favor. Cuida de Theo. Tiene buena intención, aunque sea un poco duro de mollera. Asegúrate de que está bien. Piense lo que piense, sigue siendo familia.</p><ul><li>Cada investigador obtiene 2 puntos de experiencia adicionales por ayudar a Helen a salvar a su hermana.</li><li>Anota en el registro de campaña que <i>Elizabeth Peters fue salvada</i>.</li><li>Pasa a la _Resolución 4_.</li></ul>"
+    },
+    "resolution4": {
+      "title": "Resolución 4",
+      "body": "<p>_Resolución 4_: «Estudio de Miskatonic, junio de 1926. Miembros: Marquez, Musgrave <i>et alii</i>. La costa norte y las cuevas costeras son extremadamente peligrosas. Identificadas decenas de especies de hongos bioluminiscentes hasta ahora sin documentar. Un ecosistema sumamente hostil y de extrema sensibilidad a la luz. Se recomiendan más análisis y observación. Las expediciones futuras deben venir preparadas con el equipo adecuado y extremar la precaución. Evítense las cuevas de Akwan, en la medida de lo posible».</p><ul><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria. _Cada investigador puede gastar ahora la experiencia anotada en «Experiencia sin gastar» del registro de campaña._</li><li>En la sección «Zonas exploradas» del registro de campaña, marca <i>Costa de Akwan</i>.</li></ul>"
+    },
+    "xp": {
+      "noResolutionBonus": "Experiencia adicional por haber visto cara a cara los horrores de las cuevas costeras",
+      "helenBonus": "Experiencia adicional por ayudar a Helen a salvar a su hermana",
+      "gideonBonus": "Experiencia adicional por ayudar a Gideon a encontrar su tesoro"
+    }
+  },
+  "tokens": {
+    "easyStandard": {
+      "skull": "-X. X es la mitad de la cantidad de Lugares _Cueva_ revelados en juego (redondeando hacia arriba).",
+      "cultist": "-1. Si tienes éxito, cúrate 1 punto de horror.",
+      "tablet": "-2. Si estás en un Lugar _Cueva_, trata en su lugar el modificador de esta ficha como -4.",
+      "elderThing": "-2. Si hay un Enemigo _Abominación_ en tu Lugar, revela otra ficha."
+    },
+    "hardExpert": {
+      "skull": "-X. X es la cantidad de Lugares _Cueva_ revelados en juego.",
+      "cultist": "-1. Si tienes éxito por 2 o más, cúrate 1 punto de horror.",
+      "tablet": "-4. Si estás en un Lugar _Cueva_, trata en su lugar el modificador de esta ficha como -6.",
+      "elderThing": "-3. Si hay un Enemigo _Abominación_ en tu Lugar, en vez de eso esta prueba fracasa automáticamente."
+    }
+  }
+}

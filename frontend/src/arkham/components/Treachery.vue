@@ -104,7 +104,7 @@ const abilities = computed(() => {
 
 const tokenOverrides = { Damage: { type: 'damage' } }
 const cardAction = computed(() => choices.value.findIndex(canInteract))
-const canUseMobileAbilityMenu = computed(() => isMobile && props.isInHand && abilities.value.length > 0)
+const canUseMobileAbilityMenu = computed(() => isMobile.value && props.isInHand && abilities.value.length > 0)
 const canHighlight = computed(() => cardAction.value !== -1 || canUseMobileAbilityMenu.value)
 
 function handleCardClick() {

@@ -16,9 +16,9 @@ import {
   nextTick,
   ref,
   ComputedRef,
-  reactive,
-  provide
+  reactive
 } from 'vue';
+import { useMediaQuery } from '@vueuse/core';
 import { type Game } from '@/arkham/types/Game';
 import { type Scenario, type GroupLayout, usesHardExpertReference } from '@/arkham/types/Scenario';
 import { type Story as StoryAttrs } from '@/arkham/types/Story';
@@ -201,6 +201,7 @@ const rainOptions = {
   fallSpeed: 0.6,
 }
 const { splitView } = storeToRefs(settingsStore)
+const isTouch = useMediaQuery('(pointer: coarse)')
 const { toggleSplitView, setGameId } = settingsStore
 const needsInit = ref(true)
 const showChaosBag = ref(false)
@@ -2347,14 +2348,6 @@ const tarotCardAbility = (card: TarotCard) => {
 
 const victoryDisplay = computed(() => props.scenario.victoryDisplay)
 
-const isMinimized_SkillTest = ref(false)
-provide('isMinimized_SkillTest', isMinimized_SkillTest)
-function minimize_SkillTest(isMinimized:boolean){
-  if (isMobile) {
-    isMinimized_SkillTest.value = isMinimized
-  }
-}
-
 const blessTokens = computed(() => props.scenario.chaosBag.chaosTokens.filter((t) => t.face === 'BlessToken'
 ).length)
 const curseTokens = computed(() => props.scenario.chaosBag.chaosTokens.filter((t) => t.face === 'CurseToken').length)
@@ -3126,19 +3119,20 @@ async function addChaosToken(face: any){
       >
         <!-- ponytail: in-board mirror of the player-zone zoom-control; duplicated markup
              beats prop-drilling ~10 handlers into a shared child. Keep the two in sync.
-             Used for fullscreen (floating, top right) and for split view, where the
-             player zone is too narrow for it and it docks to the bottom of the board
-             instead. The player-zone copy hides itself in split view. -->
+             Used for fullscreen (floating, top right), and docked to the bottom of
+             the board for split view and touch screens, where the player zone is too
+             narrow for it. The player-zone copy hides itself in both of those. -->
         <div
-          v-if="locationsFullscreen || splitView"
-          class="zoom-control"
+          v-if="locationsFullscreen || splitView || isTouch"
+          class="zoom-control no-card-overlay"
           :class="locationsFullscreen ? 'zoom-control--fullscreen' : 'zoom-control--docked'"
           @dblclick.stop
+          @contextmenu.prevent
         >
           <DebugTokenPanel v-if="debug.active" :game-id="game.id" />
-          <button class="zoom-btn" @pointerdown.stop="startHold(decreaseZoom)" @pointerup="stopHold" @pointerleave="stopHold">−</button>
+          <button class="zoom-btn" @pointerdown.stop="startHold(decreaseZoom)" @pointerup="stopHold" @pointerleave="stopHold" @pointercancel="stopHold">−</button>
           <input v-model.number="locationsZoom" type="range" min="0.25" max="6" step="0.05" class="zoom-slider" />
-          <button class="zoom-btn" @pointerdown.stop="startHold(increaseZoom)" @pointerup="stopHold" @pointerleave="stopHold">+</button>
+          <button class="zoom-btn" @pointerdown.stop="startHold(increaseZoom)" @pointerup="stopHold" @pointerleave="stopHold" @pointercancel="stopHold">+</button>
           <button
             class="zoom-btn"
             :class="{ 'zoom-btn--active': locationsUnlocked }"
@@ -3330,11 +3324,11 @@ async function addChaosToken(face: any){
           :tarotCards="props.scenario.tarotCards"
           @choose="choose"
         >
-          <div v-if="!splitView" class="zoom-control">
+          <div v-if="!splitView && !isTouch" class="zoom-control">
             <DebugTokenPanel v-if="debug.active" :game-id="game.id" />
-            <button class="zoom-btn" @pointerdown.stop="startHold(decreaseZoom)" @pointerup="stopHold" @pointerleave="stopHold">−</button>
+            <button class="zoom-btn" @pointerdown.stop="startHold(decreaseZoom)" @pointerup="stopHold" @pointerleave="stopHold" @pointercancel="stopHold">−</button>
             <input v-model.number="locationsZoom" type="range" min="0.25" max="6" step="0.05" class="zoom-slider" />
-            <button class="zoom-btn" @pointerdown.stop="startHold(increaseZoom)" @pointerup="stopHold" @pointerleave="stopHold">+</button>
+            <button class="zoom-btn" @pointerdown.stop="startHold(increaseZoom)" @pointerup="stopHold" @pointerleave="stopHold" @pointercancel="stopHold">+</button>
             <button
               class="zoom-btn"
               :class="{ 'zoom-btn--active': locationsUnlocked }"
@@ -3725,16 +3719,16 @@ async function addChaosToken(face: any){
   background: var(--background);
 }
 
-/* Split view: docked to the bottom of the locations board. Positioned against
-   .location-cards-container, which is the relative ancestor whether or not the
-   rain overlay is wrapping it. Deliberately does NOT force display, so the
-   coarse-pointer rule on .zoom-control still hides it on touch exactly as the
-   player-zone copy does today. */
+/* Split view and touch screens: docked to the bottom of the locations board.
+   Positioned against .location-cards-container, which is the relative ancestor
+   whether or not the rain overlay is wrapping it. */
 .zoom-control--docked {
   position: absolute;
   left: 50%;
   bottom: 8px;
   transform: translateX(-50%);
+  /* Otherwise shrink-to-fit stops at the half of the board right of `left`. */
+  width: max-content;
   z-index: var(--z-index-10, 10);
   padding: 4px 6px;
   border-radius: 6px;
@@ -4612,10 +4606,6 @@ async function addChaosToken(face: any){
   padding: 2px 8px;
   flex-shrink: 0;
   align-self: center;
-
-  @media (pointer: coarse) {
-    display: none;
-  }
 }
 
 @media not screen {
@@ -4747,6 +4737,32 @@ async function addChaosToken(face: any){
   cursor: pointer;
   border: none;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Touch: thumb-sized buttons, and no slider, which is too fine a control and
+   too wide for a phone. */
+@media (pointer: coarse) {
+  .zoom-btn {
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    user-select: none;
+    touch-action: manipulation;
+  }
+
+  .zoom-btn__icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .zoom-slider {
+    display: none;
+  }
+
+  /* Room to scroll the bottom row of the map out from under the docked bar. */
+  .location-cards-container .location-cards-scroller {
+    padding-bottom: 64px;
+  }
 }
 
 .barrier {
