@@ -1,0 +1,390 @@
+{
+  "difficulty": {
+    "Easy": "Quiero explorar",
+    "Standard": "Quiero un viaje duro",
+    "Hard": "Quiero caer en el olvido",
+    "Expert": "Quiero la venganza de Yig"
+  },
+  "vengeance": {
+    "investigatorsDefeated": "Uno o más investigadores fueron derrotados",
+    "ruinsDestroyed": "Las ruinas de Eztli fueron destruidas",
+    "pillarsOfKnYan": "Columna de K'n-yan"
+  },
+  "specialRules": [
+    {
+      "title": "Sellar",
+      "body": "<p class='basic'>Como coste adicional para que una carta con la palabra clave Sellar entre en juego, su controlador debe buscar en la bolsa de caos la ficha de caos indicada y colocarla encima de la carta, sellándola así. Si puede elegirse qué ficha sellar, elige el controlador de la carta. Si la ficha indicada no está en la bolsa de caos, la carta no puede entrar en juego.</p><p class='basic'>Una ficha de caos sellada no se considera dentro de la bolsa de caos y, por tanto, no puede revelarse de la bolsa como parte de una prueba de habilidad o una habilidad. Cuando una ficha de caos se «libera», vuelve a la bolsa de caos y deja de considerarse sellada. Si una carta con una o más fichas de caos selladas sale del juego por cualquier motivo, todas las fichas selladas en ella se liberan inmediatamente.</p><p class='basic'>Algunas cartas (con o sin la palabra clave Sellar) también pueden tener habilidades que sellen una o más fichas de caos como parte de su efecto. Esto se hace siguiendo el mismo proceso anterior: se busca en la bolsa de caos la ficha indicada, se retira de la bolsa y se coloca sobre la carta. Si la ficha indicada no está en la bolsa de caos, el efecto falla.</p>"
+    },
+    {
+      "title": "Alerta",
+      "body": "<p class='basic'>Cada vez que un investigador fracase en una prueba de habilidad al intentar evitar a un enemigo con la palabra clave Alerta, después de aplicar todos los resultados de esa prueba, ese enemigo ataca al investigador que intentaba evitarlo. Un enemigo no se agota después de realizar un ataque de alerta. Este ataque ocurre tanto si el enemigo está enfrentado a ese investigador como si no.</p>"
+    },
+    {
+      "title": "Suministros",
+      "body": "<p class='basic'>En determinados momentos de la campaña La era olvidada, los investigadores tienen la oportunidad de elegir suministros para llevar en sus expediciones a la selva. Estos suministros se anotan en el Registro de campaña, en la sección «Suministros» de cada investigador. Los suministros se compran con puntos de suministro, que se conceden a los investigadores cada vez que tienen la oportunidad de comprar suministros. Los puntos de suministro sobrantes no se anotan y se pierden.</p><p class='basic'>Los suministros de un investigador determinarán las opciones posibles durante la partida y a lo largo de la historia de esta campaña. Ningún suministro tiene efecto por sí solo. Algunos efectos de cartas, opciones de la historia y resoluciones pueden cambiar o estar disponibles según los suministros que lleven los investigadores.</p>"
+    },
+    {
+      "title": "Venganza X",
+      "body": "<p class='basic'>Algunas cartas de encuentro valen puntos de venganza. El texto Venganza X indica que una carta vale X puntos de venganza. Como con Victoria X, cuando los investigadores superan una carta de encuentro con Venganza X, se guarda en la zona de victoria hasta el final del escenario. Sin embargo, a diferencia de los puntos de victoria, la venganza representa la atención y la hostilidad del Padre de las Serpientes, y por lo general conviene evitar acumular puntos de venganza siempre que sea posible.</p><p class='basic'>Los puntos de venganza en la zona de victoria no afectan a la partida salvo que otra carta de encuentro haga referencia expresa a ellos.</p><ul><li>Cuando un enemigo con Venganza X sea derrotado, coloca la carta en la zona de victoria en lugar de en la pila de descarte.</li><li>Al final de un escenario, toma cada Lugar con Venganza X que esté en juego, revelado y sin pistas, y colócalo en la zona de victoria.</li><li>Cuando una carta de traición con Venganza X termine de resolverse, colócala en la zona de victoria en lugar de en la pila de descarte.</li><li>Las cartas que valen puntos de venganza no valen además puntos de victoria, salvo que la carta tenga tanto Victoria X como Venganza X.</li></ul>"
+    },
+    {
+      "title": "Explorar",
+      "body": "<p class='basic'>Algunas habilidades de esta campaña se identifican con el designador de acción Explorar. Estas habilidades suelen usarse para encontrar nuevos Lugares que poner en juego y se inician usando la acción de «activar».</p><p class='basic'>Las habilidades de Explorar te indican que robes la carta superior del «mazo de Exploración», un mazo aparte que se construye durante la preparación de algunos escenarios. Este mazo consta de varios Lugares y cartas de traición de una sola cara.</p><ul><li>Cada habilidad de Explorar indica un tipo concreto de Lugar que intentas robar. Si se roba un Lugar de ese tipo, se pone en juego y te mueves a él. Esto se considera una exploración «con éxito».</li><li>Si se roba cualquier otro Lugar, colócalo junto al mazo de Exploración y roba la siguiente carta del mazo. Repite este proceso hasta robar un Lugar del tipo indicado o una traición. Cuando termine esta acción, baraja de nuevo en el mazo de Exploración todos los Lugares que haya junto a él.</li><li>Si se roba una carta de traición, se resuelve con normalidad. Si se descarta, colócala en la pila de descarte de Encuentro como harías normalmente. El mazo de Exploración no tiene pila de descarte. Esto se considera una exploración «sin éxito».</li><li>Cuando un Lugar de una sola cara se ponga en juego desde el mazo de Exploración, coloca sobre él tantas pistas como su valor de pistas.</li></ul><p>*Ejemplo: el Plan 1a, «Expedición en tierra salvaje», tiene la siguiente habilidad: «{'{'}action{'}'}: Explorar. Roba la carta superior del mazo de Exploración. Si es un Lugar conectado, ponlo en juego y muévete a él». Ursula Downs está en el Campamento de expedición y quiere encontrar un nuevo Lugar al que viajar. Gasta su primera acción en explorar y roba la carta superior del mazo de Exploración. La carta que roba es Senda enrevesada. Como Senda enrevesada es un Lugar que no está conectado con el Campamento de expedición, se coloca junto al mazo de Exploración y Ursula roba la siguiente carta. Esta vez roba la traición Escaso de suministros, que resuelve con normalidad y coloca en la pila de descarte de Encuentro. Su exploración no tiene éxito y debe barajar de nuevo en el mazo de Exploración la Senda enrevesada que robó antes. Ursula decide explorar una vez más y gasta una segunda acción. Esta vez roba Sendero de espinas, que está conectado con el Campamento de expedición. Su exploración tiene éxito. Sendero de espinas se pone en juego con tantas pistas como su valor de pistas, y Ursula se mueve inmediatamente del Campamento de expedición al Sendero de espinas.*</p>"
+    }
+  ],
+  "interludes": {
+    "1": "Noches inquietas",
+    "2": "Fin de la expedición",
+    "3": "La atracción de la jungla",
+    "4": "Los que son prisioneros",
+    "5": "La oscuridad"
+  },
+  "key": {
+    "theInvestigatorsWereForcedToWaitForAdditionalSupplies": "Los investigadores se vieron obligados a esperar suministros adicionales",
+    "ichtacaObservedYourProgressWithKeenInterest": "Ichtaca observó los progresos de los investigadores con profundo interés",
+    "alejandroFollowedTheInvestigatorsIntoTheRuins": "Alejandro siguió a los investigadores a las ruinas",
+    "ichtacaIsWaryOfTheInvestigators": "Ichtaca recela de los investigadores",
+    "theInvestigatorsHaveEarnedIchtacasTrust": "Los investigadores se han ganado la confianza de Ichtaca",
+    "alejandroChoseToRemainAtCamp": "Alejandro eligió permanecer en el campamento",
+    "theInvestigatorsClearedAPathToTheEztliRuins": "Los investigadores despejaron un camino a las ruinas de Eztli",
+    "yigsFury": "Furia de Yig",
+    "theInvestigatorsRecoveredTheRelicOfAges": "Los investigadores recuperaron la Reliquia de las eras",
+    "alejandroRecoveredTheRelicOfAges": "Alejandro recuperó la Reliquia de las eras",
+    "theHarbingerIsStillAlive": "El Heraldo sigue vivo",
+    "theInvestigatorsGaveCustodyOfTheRelicToAlejandro": "Los investigadores le dieron la custodia de la reliquia a Alejandro",
+    "theInvestigatorsHaveEarnedAlejandrosTrust": "Los investigadores se han ganado la confianza de Alejandro",
+    "theInvestigatorsGaveCustodyOfTheRelicToHarlanEarnstone": "Los investigadores le dieron la custodia de la reliquia a Harlan Earnstone",
+    "alejandroIsContinuingHisResearchOnHisOwn": "Alejandro continúa su investigación por su cuenta",
+    "youAreForgingYourOwnWay": "Los investigadores se están forjando su propio camino",
+    "theInvestigatorsFoundTheMissingRelic": "Los investigadores encontraron la reliquia desaparecida",
+    "theRelicIsMissing": "La reliquia ha desaparecido",
+    "theInvestigatorsRescuedAlejandro": "Los investigadores rescataron a Alejandro",
+    "alejandroIsMissing": "Alejandro ha desaparecido",
+    "theInvestigatorsForgedABondWithIchtaca": "Los investigadores forjaron un vínculo con Ichtaca",
+    "theInvestigatorsRecruitedTheHelpOfAnotherExpedition": "Los investigadores consiguieron la ayuda de otra expedición",
+    "ichtacaIsInTheDark": "Ichtaca está al margen",
+    "pathsAreKnownToYou": "Los investigadores conocen caminos",
+    "ichtacaHasConfidenceInYou": "Ichtaca tiene confianza en los investigadores",
+    "theInvestigatorsMappedOutTheWayForward": "Los investigadores cartografiaron el camino",
+    "ichtacasFaithIsRestored": "Ichtaca ha recuperado la fe",
+    "theJungleWatches": "La jungla observa",
+    "theInvestigatorsCooperatedWithTheYithians": "Los investigadores cooperaron con los yithianos",
+    "theInvestigatorsResistedCaptivity": "Los investigadores se resistieron a su cautiverio",
+    "theInvestigatorsHadTheirMemoriesExpunged": "Han eliminado los recuerdos de los investigadores",
+    "theProcessWasPerfected": "El proceso se perfeccionó",
+    "theProcessWasSuccessful": "El proceso tuvo éxito",
+    "theProcessBackfired": "El proceso salió mal",
+    "theProcessBackfiredSpectacularly": "El proceso salió espectacularmente mal",
+    "alejandroRemembersEverything": "Alejandro lo recuerda todo",
+    "alejandroIsSetAgainstYou": "Alejandro está en contra de los investigadores",
+    "ichtacaIsSetAgainstYou": "Ichtaca está en contra de los investigadores",
+    "theInvestigatorsFellIntoTheDepths": "Los investigadores cayeron a las profundidades",
+    "theNexusIsNear": "El Nexo está cerca",
+    "theBraziersAreLit": "Los braseros están encendidos",
+    "theBraziersRemainUnlit": "Los braseros permanecen apagados",
+    "theInvestigatorsMendedTheTearInTheFabricOfTime": "Los investigadores repararon la grieta en el tejido del tiempo",
+    "theInvestigatorsSavedTheCivilizationOfTheSerpents": "Los investigadores salvaron la civilización de las serpientes",
+    "theInvestigatorsSavedTheCivilizationOfTheYithians": "Los investigadores salvaron la civilización de los yithianos",
+    "theFabricOfTimeIsUnwoven": "Se ha deshecho el tejido del tiempo",
+    "theInvestigatorsTurnedBackTime": "Los investigadores dieron marcha atrás al tiempo",
+    "theInvestigatorsSealedTheRelicOfAgesForever": "Los investigadores sellaron la Reliquia de las eras para siempre"
+  },
+  "title": {
+    "supplyPointsToGain": "Obtener puntos de suministro"
+  },
+  "label": {
+    "checkYourSupplies": "Comprueba tus suministros",
+    "supplyPointsToGain": "Cada investigador puede convertir hasta 10 puntos de su experiencia en puntos de suministro, a razón de 1 punto de suministro por cada 2 de experiencia convertidos.",
+    "supplyPointsToGainWithExtra": "Cada investigador puede convertir hasta 10 puntos de su experiencia en puntos de suministro, a razón de 1 punto de suministro por cada 2 de experiencia convertidos (puntos de experiencia adicionales: {count}).",
+    "bestLaidPlans": {
+      "shuffle": "Baraja la carta superior del mazo de Encuentro en el mazo de Exploración"
+    },
+    "snakeBite": {
+      "damageAlly": "Inflige 5 de daño a un apoyo _*Aliado*_ que controles",
+      "damageSelf": "Recibe 1 daño directo. Si no estás envenenado, pon en juego en tu zona de amenaza una debilidad Envenenado dejada aparte."
+    },
+    "lowOnSupplies": {
+      "resources": "Cada investigador pierde 2 recursos.",
+      "damage": "Cada investigador recibe 1 daño.",
+      "discardAsset": "Cada investigador elige y descarta un apoyo que controle."
+    },
+    "ancestralFear": {
+      "placeDoom": "Coloca 1 perdición en tu Lugar y descarta Miedo ancestral (en lugar de colocarlo en la zona de victoria).",
+      "addToVictory": "Coloca Miedo ancestral en la zona de victoria."
+    },
+    "serpentsCall": {
+      "poisoned": "Pon en juego en tu zona de amenaza una debilidad Envenenado dejada aparte",
+      "drawEncounterCards": "Roba las 2 cartas superiores del mazo de Encuentro"
+    },
+    "explorationDeck": {
+      "placeOnTop": "Colocar una carta encima del mazo de Exploración",
+      "placeOnBottom": "Colocar una carta debajo del mazo de Exploración"
+    },
+    "mouthOfKnYanTheCavernsMaw": {
+      "resign": "Acampemos y resolvamos este enigma mañana"
+    }
+  },
+  "standalone": {
+    "paths": "Los investigadores pueden elegir cuántos caminos conocen (elige un número entre 0 y 5). Cuantos más caminos conozcan, más rápido y fácil será el escenario."
+  },
+  "prologue": {
+    "earthIsNotOurs": {
+      "title": "La Tierra no es nuestra",
+      "body": "<p>«El mito primigenio y el delirio moderno coincidían en suponer que la humanidad es solo una —quizá la menor— de las razas altamente evolucionadas y dominantes de la larga y en gran parte desconocida trayectoria de este planeta».</p><p class='right'>– H. P. Lovecraft, «La sombra fuera del tiempo»</p>"
+    },
+    "title": "Prólogo",
+    "body": "<p class='anke'>Martes, 2 de junio de 1925</p><p>Parece que este verano no habrá descanso para nosotros.</p><p>Hoy me he reunido con Harlan Earnstone, un teórico de la historia de la Universidad Miskatonic y viejo amigo mío. Había dicho que tenía una oferta de trabajo para mí pero, sinceramente, no sabía qué esperar.</p><p>Harlan me presentó a un colega suyo: Alejandro Vela, un distinguido historiador del otro lado de la frontera sur. El señor Vela se graduó en una prestigiosa universidad de Ciudad de México y lleva muchos años investigando el Imperio azteca. Asegura haber hallado pruebas de la existencia de una ciudad-estado azteca desconocida llamada Eztli. La universidad no aceptó sus extraños e inauditos hallazgos, y se ha convertido en un paria entre sus colegas.</p><p>Alejandro vino a Arkham en busca de financiación para una expedición a las selvas del sur de México, donde cree que las ruinas del altépetl eztli yacen sin descubrir. Su descripción de los orígenes de esta ciudad-estado desafía la visión moderna de la historia mesoamericana. A pesar de ello —o, conociendo a mi viejo amigo, precisamente por ello—, Harlan está fascinado por los descubrimientos de Alejandro. La Universidad Miskatonic ha accedido a financiar la expedición (aunque con escasos medios), y Harlan quiere que yo también vaya.</p><p>Tal como lo veo, es muy posible que estemos buscando algo que ni siquiera existe. Pero si hay la más mínima posibilidad de que este pueblo eztli existiera, la relevancia histórica sería enorme. Debatimos el asunto durante un buen rato, pero al final aceptamos la oferta de Alejandro. Los preparativos están en marcha y deberíamos partir a finales de mes. Con suerte, llenaremos este diario de toda clase de descubrimientos interesantes. Si no, quizá sirva de buena cuña para el escritorio cojo de Harlan.</p>",
+    "expeditionLeader": "Si se eligió a Ursula Downs, Leo Anderson o Monterey Jack como investigador para esta campaña: elige a uno de ellos como líder de la expedición. Ese investigador comienza los escenarios I y II como investigador Jefe.",
+    "label": {
+      "expeditionLeader": "Elige un líder de la expedición"
+    },
+    "pickSupplies": "<p class='basic'>Como Alejandro es un marginado del mundo académico, la financiación de su expedición es limitada. Cada investigador debe elegir los suministros que llevará a la expedición. En el Registro de campaña, en la sección «Suministros» de cada investigador, anota los suministros que ese investigador eligió llevar. (<em>Nota: las Provisiones y las Medicinas pueden elegirse más de una vez anotando su nombre varias veces y gastando cada vez los puntos de suministro correspondientes.</em>)</p><ul><li><p class='basic'>Cada investigador puede gastar puntos de suministro para comprar uno o más de los suministros que se indican a continuación. El número de puntos de suministro disponibles para cada investigador depende del número de investigadores en la campaña:</p><p class='basic'><strong>1 investigador:</strong> 10 puntos de suministro</p><p class='basic'><strong>2 investigadores:</strong> 7 puntos de suministro cada uno</p><p class='basic'><strong>3 investigadores:</strong> 5 puntos de suministro cada uno</p><p class='basic'><strong>4 investigadores:</strong> 4 puntos de suministro cada uno</p></li><li><p class='basic'>La descripción de cada suministro que aparece a continuación da una idea de cómo podría usarse durante la campaña. Elige con cabeza.</p></li></ul>"
+  },
+  "interlude1": {
+    "title": "Interludio I: Noches inquietas",
+    "blanket": "<p class='basic'>Comprueba tus suministros. Cada investigador con una manta lee _Sueño reparador_. Los demás leen _Vueltas y más vueltas_.</p>",
+    "restfulSleep": "<p>_Sueño reparador_: Por suerte, pude dormir de un tirón todas las noches. Sin embargo, mientras mi cuerpo descansaba, las pesadillas atormentaban mi mente. Una caverna como unas fauces abiertas, bañada en una tenue luz roja… las paredes reptando con las escamas relucientes de un centenar de víboras… habría sido mejor no dormir en absoluto.</p><p class='basic right'>No sufres ningún efecto negativo.</p>",
+    "tossingAndTurning": "<p>_Vueltas y más vueltas_: Aquellas noches en la jungla apenas dormí. Cada noche una extraña niebla recorría el campamento y sumía la zona en un frío intenso y peculiar. El saco de dormir me protegía un poco de los elementos, pero no estábamos preparados para aquel tiempo antinatural. Moscas y mosquitos zumbaban en mis oídos cada vez que empezaba a adormilarme. Cuando por fin dormía, pronto me despertaba sobresaltado al sentir un insecto o un lagarto arrastrándose por mi cara. Apuesto a que dormiré muy poco en este viaje…</p><p class='basic right'>Sufres 1 trauma físico o mental (a tu elección).</p>",
+    "lookout": "El investigador Jefe debe elegir a un investigador como vigía del grupo. Después, ese investigador comprueba sus suministros. Si tiene prismáticos, lee _Siluetas en los árboles_. En caso contrario, lee _Ojos en la oscuridad_.",
+    "shapesInTheTrees": "<p>_Siluetas en los árboles_: La mayoría de las noches transcurrieron sin incidentes, pero aquella me sobresaltó el crujir de las ramas en el límite sur del claro de nuestro campamento. A pesar de la oscuridad, con los prismáticos pude ver siluetas moviéndose en los árboles. Parecían humanas, pero… ¿por qué? ¿Por qué solo nos observan desde lejos? ¿Cuál es su propósito?</p><p class='basic right'>Obtienes 2 de experiencia adicional al comprender mejor las motivaciones de los eztli.</p>",
+    "eyesInTheDark": "<p>_Ojos en la oscuridad_: Cada noche me vigilaban. No era solo una sensación: veía los ojos asomando en la negrura que rodeaba el campamento. Sabían que estábamos allí. Los ojos amarillos me observaban mientras yo permanecía alerta, con las armas desenfundadas, listo para defender el campamento si hacía falta. Nuestras miradas se cruzaron, y la oscuridad se apoderó de mi corazón.</p><p class='basic right'>Sufres 1 trauma mental.</p>",
+    "provisions": "Comprueba tus suministros. Los investigadores, como grupo, deben tachar de sus suministros una provisión por cada investigador. Por cada provisión que no puedan tachar, elige a un investigador para que lea _Escasos de raciones_",
+    "lowOnRations": "<p>_Escasos de raciones_: Creíamos haber llevado comida y agua suficientes para todos, pero el viaje había hecho mella en nuestros suministros. Cuando salió el sol y llegó la hora de comer, descubrimos que ya nos estábamos quedando sin provisiones.</p><p class='basic right'>Empiezas el siguiente escenario con 3 recursos menos.</p>",
+    "medicine": "Comprueba tus suministros. Cada investigador con medicinas puede tacharlas de sus suministros para elegir y retirar una debilidad Envenenado del mazo de cualquier investigador. Cada investigador que aún tenga una debilidad Envenenado en su mazo lee _El veneno se extiende_.",
+    "thePoisonSpreads": "<p>_El veneno se extiende_: Con el paso de los días, el veneno siguió extendiéndose por mi cuerpo. La segunda noche tenía la piel empapada en sudor. Empecé a tener dificultades para respirar, y cada mañana la empezaba vomitando casi toda la cena de la noche anterior.</p><p class='basic right'>Sufres 1 trauma físico.</p>",
+    "label": {
+      "doNotUseMedicine": "No usar medicinas"
+    },
+    "xp": {
+      "insight": "Comprensión de las motivaciones de los eztli"
+    }
+  },
+  "interlude2": {
+    "label": {
+      "pickExpeditionsEnd2": "Su sitio está en un museo.",
+      "pickExpeditionsEnd3": "Es demasiado peligroso para exponerlo."
+    },
+    "title": "Interludio II: Fin de la expedición",
+    "pickExpeditionsEnd1": "Consulta el Registro de campaña. *Si los investigadores recuperaron la Reliquia de las eras*: Lee _Fin de la expedición 1_.",
+    "pickExpeditionsEnd2": "Si Alejandro recuperó la Reliquia de las eras: Pasa a _Fin de la expedición 5_.",
+    "expeditionsEnd1": "<p>_Fin de la expedición 1:_<p><p class='anke'>Viernes, 17 de julio de 1925</p><p>Por fin hemos regresado a Arkham, y nuestra expedición ha sido un «éxito». Alejandro está entusiasmado por comunicar sus hallazgos a la universidad. Cómo consigue mantener ese idealismo ingenuo después del infierno que pasamos en la jungla se me escapa. Toda su atención está puesta en la extraña reliquia que descubrimos en las ruinas. Ojalá supiéramos algo más sobre el origen del artefacto. Me inquieta enormemente. Zumba a todas horas y palpita con una energía de otro mundo que apenas sé describir. Mientras viajábamos de vuelta con el artefacto a cuestas, nuestras noches estuvieron plagadas de extrañas pesadillas: sueños de otros mundos y civilizaciones.</p><p>Alejandro quiere llevar la reliquia al museo Miskatonic para exponerla junto a los demás artefactos eztli que descubrimos. Tengo sentimientos encontrados. En el museo recibirá los cuidados adecuados, y los historiadores podrán estudiarla e incluso quizá averiguar su propósito. Sin embargo, temo que la reliquia sea demasiado peligrosa para el público. Al fin y al cabo, todavía no tenemos ni idea de qué es la maldita cosa. A Alejandro no le haría ninguna gracia, pero quizá sería mejor guardar la reliquia en un lugar seguro, donde Harlan y yo podamos estudiarla en privado. Tendré que decidirlo esta noche; después de mañana no habrá tiempo de cambiar de idea…</p><ul><li>El investigador Jefe debe decidir (elige una):<ul><li><p>Su sitio está en un museo. Alejandro y el personal del museo podrán estudiarla y averiguar más sobre su propósito.</p><p class='basic'>Procede con _Fin de la expedición 2_.</p></li><li><p>Es demasiado peligroso para exponerlo. Deberíamos mantenerla oculta y a salvo hasta que sepamos más sobre ella.</p><p class='basic'>Pasa a _Fin de la expedición 3_.</p></li></ul></li></ul>",
+    "expeditionsEnd2": "<p>_Fin de la expedición 2:_</p><p class='anke'>Domingo, 19 de julio de 1925</p><p>He decidido confiar la custodia de la reliquia a Alejandro. Al fin y al cabo, toda esta expedición se basó en su investigación: debe ser él quien la estudie. Si alguien puede descubrir los secretos de la reliquia, es él.</p><p>La reliquia será la pieza central de una nueva exposición en el museo. Alejandro ya ha escrito largo y tendido sobre nuestros descubrimientos, pero su trabajo no ha hecho más que empezar. Quedan muchos misterios sobre nuestra expedición. ¿Cómo ha permanecido el pueblo eztli sin ser descubierto tanto tiempo? ¿Por qué parecía estar custodiando la jungla, y de qué? ¿Quién construyó en realidad las ruinas del templo que exploramos? No me cabe duda de que, con tiempo suficiente, Alejandro hallará las respuestas.</p><p>En cuanto a mí, mi papel en esta empresa ha terminado. Sin embargo, aún no he logrado relajarme. Mis pensamientos están constantemente en la jungla: figuras serpentinas entre las sombras, flechas de obsidiana clavadas en cuerpos esqueléticos, voces deformes que chillan en las profundidades cavernosas. Cuando camino por la calle, me encuentro dirigiéndome hacia el museo sin darme cuenta, como si me poseyera el deseo de volver a ver la reliquia. Tengo una sensación persistente en el fondo de la mente, como si hubiéramos olvidado algo importante. Qué debo hacer para librarme de…</p><p>(La entrada del diario termina abruptamente).</p><ul><li>Anota en tu Registro de campaña que *los investigadores le dieron la custodia de la reliquia a Alejandro*.</li><li>Anota en tu Registro de campaña que *los investigadores se han ganado la confianza de Alejandro*. Si no está ya en el mazo de un investigador, cualquier investigador puede elegir añadir a Alejandro Vela a su mazo. Esta carta no cuenta para el tamaño de mazo de ese investigador.</li><li>Añade 1 ficha de {'{'}tablet{'}'} a la bolsa de caos durante el resto de la campaña.</li><li>Pasa a _Fin de la expedición 4_.</li></ul>",
+    "expeditionsEnd3": "<p>_Fin de la expedición 3:_</p><p class='anke'>Domingo, 19 de julio de 1925</p><p>He decidido mantener oculta la reliquia por ahora. A Alejandro no le agrada mi decisión pero, hasta que sepamos de qué es capaz la esfera, es importante que permanezca en un lugar seguro, donde no ponga en peligro a nadie. Harlan está de acuerdo conmigo y se ha ofrecido a hacerse cargo de la reliquia y guardarla en su despacho privado. Allí podremos estudiar el artefacto en secreto.</p><p>Alejandro se queda en Arkham por el momento, redactando sus notas sobre la expedición y ayudando al museo a montar una exposición con nuestros otros descubrimientos, menos peligrosos. En cuanto a mí, espero hallar respuestas a otros misterios: ¿Cómo ha permanecido el pueblo eztli sin ser descubierto tanto tiempo? ¿Por qué parecía estar custodiando la jungla, y de qué? ¿Quién construyó en realidad las ruinas del templo que exploramos?</p><p>Mis pensamientos están constantemente en la jungla: figuras serpentinas entre las sombras, flechas de obsidiana clavadas en cuerpos esqueléticos, voces deformes que chillan en las profundidades cavernosas. Cada vez que salgo del despacho de Harlan, siento el deseo de volver y contemplar la reliquia una vez más. Tengo una sensación persistente en el fondo de la mente, como si hubiéramos olvidado algo importante. Qué debo hacer para librarme de…</p><p>(La entrada del diario termina abruptamente).</p><ul><li>Anota en tu Registro de campaña que *los investigadores le dieron la custodia de la reliquia a Harlan Earnstone*.</li><li>Anota en tu Registro de campaña que *Alejandro continúa su investigación por su cuenta*. Si Alejandro Vela está en el mazo de un investigador, retíralo de ese mazo.</li><li>Procede con _Fin de la expedición 4_.</li></ul>",
+    "expeditionsEnd4": "<p>_Fin de la expedición 4:_</p><p>Se te cae la pluma cuando unos fuertes golpes en la puerta te sobresaltan, y te pones en pie de un salto. Son casi las dos y media de la madrugada. ¿Quién puede estar llamando a estas horas? Tus pensamientos vuelven a la jungla, y te asalta la visión de criaturas serpiente atacándote en tu propia casa. Estremeciéndote, buscas un arma y te acercas con cuidado a la puerta principal, listo para golpear si hace falta. Respiras hondo y abres la puerta.</p><p>Al otro lado hay una mujer conocida, de piel morena, largo cabello castaño y penetrantes ojos amarillos que te miran con dureza. Aunque su atuendo ha cambiado, la reconoces al instante: es Ichtaca, la guerrera eztli que encontraste en la selva. Lleva un abrigo largo y un sombrero de fieltro, y es evidente que los zapatos la incomodan. Tiene la mandíbula apretada de ira. Estás a punto de levantar el arma para defenderte cuando ella suelta un hondo suspiro y cruza despacio el umbral de tu casa, cerrando la puerta a su espalda. «Sea lo que sea que hayáis hecho, tenéis que deshacerlo», dice con voz sombría. «O todos dejaremos de existir».</p><p class='basic right'>La historia continúa en el _Escenario III: Los hilos del destino_.</p>",
+    "expeditionsEnd5": "<p>_Fin de la expedición 5_: Harlan Earnstone da vueltas por tu salón mientras se seca la frente arrugada con un pañuelo. «Es culpa mía. Nunca debí animarlos a ir a esa espantosa expedición». Aunque vuestros caminos solo se han cruzado unas pocas veces, el señor Earnstone se ha convertido en un valioso contacto tuyo en la Universidad Miskatonic. Cuando la última expedición de la universidad regresó con apenas unos pocos supervivientes y un puñado de extraños artefactos arcaicos, acudió a ti en busca de consejo.</p><p>«Lo sé, lo sé. Al menos debería consolarme que la expedición tuviera éxito, pese a las graves pérdidas. Alejandro tenía razón desde el principio. El pueblo eztli es real. Y sin embargo… me preocupan algunos de estos hallazgos». Harlan saca de su maletín un pequeño diario encuadernado en cuero y te lo entrega. «Antes de su trágica muerte, quien dirigía la expedición anotó muchos de los descubrimientos del grupo en este diario. Uno de los miembros supervivientes logró cogerlo del campamento antes de huir de la jungla. Creo que, si lees estas entradas, entenderás a qué me refiero. Las cosas que vivieron, las criaturas que encontraron…» Harlan se estremece y se ajusta las gafas con manos demasiado temblorosas. «No solo me preocupa Alejandro, sino todos nosotros. Lee este diario y, si puedes, no pierdas de vista a mi colega». Aceptas ayudar, pero su preocupación no se disipa. «Solo espero no estar condenándote a un destino similar al pedirte ayuda».</p><p>Pasas el resto de la noche estudiando el diario de la expedición, con la mente llena de extrañas criaturas serpiente y guerreros aztecas. Mucho después de que Harlan se haya marchado, unos fuertes golpes en la puerta te sobresaltan, y te pones en pie de un salto. Son casi las dos y media de la madrugada. ¿Quién puede estar llamando a estas horas? Abres la puerta principal con cautela. Al otro lado hay una mujer de piel morena, largo cabello castaño y penetrantes ojos amarillos que te miran con dureza. Lleva un abrigo largo y un sombrero de fieltro, y es evidente que los zapatos la incomodan. Tiene la mandíbula apretada de ira. Un súbito destello de lucidez cruza tu mente, y comprendes de inmediato quién debe de ser. Al fin y al cabo, has leído y releído la descripción que el diario hace de Ichtaca, la guerrera eztli. Ella suelta un hondo suspiro y cruza despacio el umbral de tu casa, cerrando la puerta a su espalda. «Sea lo que sea que hayan hecho, tienes que deshacerlo», dice con voz sombría. «O todos dejaremos de existir».</p><p class='basic right'>La historia continúa en el _Escenario III: Los hilos del destino_.</p>"
+  },
+  "interlude3": {
+    "title": "Interludio III: La atracción de la jungla",
+    "body": "<p>Una vez más te aventuras hacia el sur, dejando atrás la seguridad de la civilización. No hay tiempo que perder. El camino hacia el Nexo discurre por terreno conocido, no muy lejos de la ruta de la expedición anterior. Usando el diario encuadernado en cuero como guía, rehaces el viaje de la expedición. Pronto estás en lo profundo de la jungla, rodeado de peligros por todas partes: unos naturales, otros extraños...</p>",
+    "gas": "<p>Comprueba tus suministros. Cualquier investigador debe tachar una gasolina de sus suministros. Si no se tachó ninguna gasolina, lee _Sin combustible_.</p>",
+    "outOfGas": "<p>_Sin combustible_: Por desgracia, a una veintena de kilómetros al norte del límite de la selva, tu coche se quedó sin combustible. Como el tiempo apremia, decidiste recorrer a pie el resto del camino en lugar de volver a repostar. Viajar a pie te retrasó varias horas, pero pronto llegaste de nuevo a la jungla.</p><p class='basic right'>Al robar las manos iniciales en el siguiente escenario, los investigadores no pueden hacer mulligan.</p>",
+    "map": "Comprueba tus suministros. Si algún investigador tiene un mapa, lee _Camino descubierto_.",
+    "aPathDiscovered": "<p>_Camino descubierto_: Gracias a tu mapa, con las anotaciones de la expedición anterior, consigues abrir camino por la selva sin perderte y llegas a tu destino a tu manera.</p><p class='basic right'>En tu Registro de campaña, anota que *los investigadores cartografiaron el camino*.</p>",
+    "provisions": "Comprueba tus suministros. Los investigadores, como grupo, deben tachar de sus suministros una provisión por cada investigador. Por cada provisión que no puedan tachar, elige a un investigador para que lea _Escasos de raciones_.",
+    "lowOnRations": "<p>_Escasos de raciones_: Atravesar la jungla para encontrar el camino al Nexo te llevó más de lo previsto y, con las prisas, no has podido cazar ni recolectar más comida. El hambre te nubla la mente y te abre un doloroso agujero en el estómago.</p><p class='basic right'>Empiezas el siguiente escenario con 3 recursos menos.</p>",
+    "medicine": "Comprueba tus suministros. Cada investigador con medicinas puede tacharlas de sus suministros para elegir y retirar una debilidad Envenenado del mazo de cualquier investigador. Cada investigador que aún tenga una debilidad Envenenado en su mazo lee _El veneno se extiende_.",
+    "thePoisonSpreads": "<p>_El veneno se extiende_: El veneno sigue abriéndose paso por tu cuerpo y causa estragos en tus órganos. Una fiebre terrible te consume y se hace más fuerte cada día que pasa. Apenas puedes retener la comida. Sientes el cuerpo como si le hubieran arrebatado todas las fuerzas.</p><p class='basic right'>Sufres 1 trauma físico.</p>",
+    "canteen": "<p>Mientras avanzas penosamente por la exuberante jungla y pasas junto a unas ruinas de templos cubiertas de vegetación que te resultan familiares, tu aguda vista detecta un patrón en el muro de piedra de la estructura. Al examinarlo de cerca, descubres que las enredaderas y el barro seco ocultaban un elaborado grabado de jeroglíficos.</p><p class='basic right'>Comprueba tus suministros. Si algún investigador tiene una cantimplora, lee _Diseños en la piedra_. En caso contrario, lee _Secretos en la piedra_.</p>",
+    "patternsInTheStone": "<p>_Diseños en la piedra_: Sacas la cantimplora y salpicas de agua los muros de piedra, lo que arrastra la suciedad y hace más fácil apartar las rígidas enredaderas. El patrón de glifos ya se ve con claridad y, aunque su significado sigue siendo un misterio, la repetición de seis glifos en particular sugiere una instrucción concreta…</p><p class='basic right'>Cada investigador que tenga una cantimplora comienza el siguiente escenario con 1 pista (*de la reserva de fichas*).</p>",
+    "secretsInTheStone": "<p>_Secretos en la piedra_: Por más que lo intentas, no consigues limpiar la suciedad y las enredaderas solo con las manos. No te queda más remedio que dejar atrás este misterio.</p><p class='basic right'>No sufres ningún efecto negativo.</p>",
+    "ichtaca": "Comprueba la bolsa de caos y el Registro de campaña. Si todo lo siguiente es cierto, el investigador Jefe lee Fe recuperada.",
+    "cultistCount": "Hay 2 o más fichas de {'{'}cultist{'}'} en la bolsa de caos.",
+    "forgedBond": "*Los investigadores forjaron un vínculo con Ichtaca.*",
+    "hasConfidence": "*Ichtaca tiene confianza en los investigadores.*",
+    "faithRestored": "<p>_Fe recuperada_: La víspera de vuestra segunda noche en la jungla, tus compañeros y tú os sentáis frente a una tenue hoguera, entrando en calor y tratando de relajaros pese a la tarea que os aguarda. Ichtaca se acerca a la hoguera y se sienta frente a ti. Tiene la mirada clavada en el suelo y los hombros hundidos por un gran peso. «Siento que debo disculparme contigo», admite, contemplando las llamas vacilantes. «Habéis demostrado ser sabios y formidables, y yo no he hecho más que daros órdenes y poneros en peligro a cada paso». Se hace un largo y apacible silencio entre vosotros. «Quizá, después de todo, haya esperanza para la humanidad», dice en voz baja al cruzarse su mirada con la tuya. ¿Habla por ti? ¿O también por ella misma?</p><p>Al cabo de un rato, Ichtaca se pone en pie. «Confío en ti para hacer la primera guardia. Estate atento a las serpientes. Seguro que ellas están atentas a nosotros». El campamento permanece en calma el resto de la noche, salvo por el reconfortante crepitar de la hoguera y el coro de insectos cuyo canto llena el aire nocturno.</p><p class='basic right'>En tu Registro de campaña, anota que *Ichtaca ha recuperado la fe*. Añade 1 ficha de {'{'}cultist{'}'} a la bolsa de caos durante el resto de la campaña.</p>",
+    "label": {
+      "doNotUseMedicine": "No usar medicinas"
+    }
+  },
+  "interlude4": {
+    "title": "Interludio IV: Los que son prisioneros",
+    "checkProcess": {
+      "body": "Consulta el Registro de campaña. Si el proceso salió mal, cada investigador revela una ficha de caos al azar de la bolsa de caos. Consulta la lista siguiente para ver qué efectos secundarios provoca el percance. Si el proceso salió espectacularmente mal, cada investigador revela dos fichas de caos al azar en lugar de una, resuelve la que esté más abajo en esta lista e ignora la otra.",
+      "noIllEffects": "Cada investigador que revele una ficha de {'{'}elderSign{'}'} o +1 no sufre ningún efecto negativo.",
+      "outOfBodyExperience": "Cada investigador que revele una ficha de {'{'}skull{'}'} o cualquier número distinto de +1 obtiene la debilidad Experiencia extracorpórea y debe añadirla a su mazo.",
+      "bodyOfAYithian": "Cada investigador que revele una ficha de {'{'}cultist{'}'}, {'{'}tablet{'}'}, {'{'}elderThing{'}'} o {'{'}autoFail{'}'} debe usar la carta de investigador Cuerpo de yithiano como su carta de investigador durante el resto de la campaña. Además obtiene la debilidad Experiencia extracorpórea y debe añadirla a su mazo."
+    },
+    "checkAMindRecovered": {
+      "body": "Comprueba la bolsa de caos y el Registro de campaña. Si todo lo siguiente es cierto, el investigador Jefe lee _Mente recuperada_. Si algo de lo siguiente no es cierto, el investigador Jefe lee _Perdido para siempre_ en su lugar.",
+      "tabletCount": "Hay 2 o más fichas de {'{'}tablet{'}'} en la bolsa de caos.",
+      "rescuedAlejandro": "*Los investigadores rescataron a Alejandro.*",
+      "theCustodianWasUnderControl": "El custodio estaba bajo el control de un investigador cuando terminó el escenario anterior."
+    },
+    "aMindRecovered": "<p>_Mente recuperada_: Centras tu atención en lo que te rodea. Aunque las criaturas que os tendieron la emboscada no están por ninguna parte, Alejandro yace en el suelo cerca de ti y empieza a recobrar el conocimiento. Para tu sorpresa, parece tan confuso como tú. Al principio parece que no recuerda nada de la expedición anterior ni de la reliquia eztli, pero de pronto sus ojos se iluminan al reconocerlo todo. Te agarra con fuerza del hombro y te mira como si fuera la primera vez en años. «¡Sí que me acuerdo! La criatura y yo compartimos una misma mente durante un tiempo. Quería encontrar la reliquia eztli, aunque no sé con qué propósito». Se desploma contra el muro de piedra mientras se recupera del repentino torrente de recuerdos. «Creísteis en mí a cada paso, incluso cuando la criatura tenía el control. Me salvasteis de aquel lugar abismal y me devolvisteis a la humanidad. No sé cómo podré pagároslo». Te estrecha la mano con energía, lleno de una súbita e intensa determinación. «Vosotros y yo arreglaremos todo esto. Y después le contaremos al mundo lo que hemos visto».</p><p class='basic right'>En tu Registro de campaña, anota que Alejandro lo recuerda todo. Añade 1 ficha de {'{'}tablet{'}'} a la bolsa de caos durante el resto de la campaña.</p>",
+    "foreverLost": "<p>_Perdido para siempre_: Centras tu atención en lo que te rodea. Ni Alejandro ni las criaturas que os tendieron la emboscada están por ninguna parte. Te preguntas cuánto tiempo llevaba Alejandro confabulado con ellas, y por qué. Quizá nunca lo sepas. Sin embargo, sospechas que no es la última vez que lo verás.</p><p class='basic right'>En tu Registro de campaña, anota que *Alejandro está en contra de los investigadores*. Si Alejandro Vela forma parte del mazo de un investigador, retíralo de ese mazo durante el resto de la campaña.</p>",
+    "chalk": "<p>Los angostos escalones al otro lado del umbral de piedra parecen no tener fin. Aunque desde lo más profundo de la caverna emana un tenue resplandor rojo, por muchos escalones que bajes, el resplandor no se intensifica. Casi parece alejarse con cada paso, burlándose de tu tenacidad. Al poco rato llegas a una pequeña cornisa donde un portón de piedra te impide adentrarte más en la caverna. El portón tiene grabado un patrón que te resulta familiar, desgastado por el tiempo y el abandono, del que supura una purulencia de un color extraño.</p><p class='basic right'>Comprueba tus suministros. Si algún investigador tiene tiza, lee _El camino está abierto_. En caso contrario, el investigador Jefe lee _El camino está cerrado_.</p>",
+    "theWayIsOpen": "<p>_El camino está abierto_: La situación aviva tu memoria, y consultas el diario de la expedición. El patrón es parecido a uno hallado en las ruinas eztli. Usando la tiza y los dibujos del diario como referencia, restauras el glifo por completo, y los surcos vuelven a brillar con intensidad. El portón de piedra se alza solo, y puedes seguir adelante.</p><p class='basic right'>No sufres ningún efecto negativo.</p>",
+    "theWayIsShut": "<p>_El camino está cerrado_: No sabes cómo proceder. Tras debatir las ventajas de cada opción, decides que la fuerza bruta puede ser la única solución. Necesitas todas tus fuerzas para levantar la piedra, y abres paso a cada uno de vosotros, de uno en uno. No es tarea fácil, y el cuerpo te duele tremendamente por el esfuerzo.</p><p class='basic right'>Al robar las manos iniciales en el siguiente escenario, los investigadores no pueden hacer mulligan.</p>",
+    "provisions": "Comprueba tus suministros. Los investigadores, como grupo, deben tachar de sus suministros una provisión por cada investigador. Por cada provisión que no puedan tachar, elige a un investigador para que lea Escasos de raciones",
+    "lowOnRations": "<p>_Escasos de raciones_: Horas después, estás casi demasiado agotado para continuar. Cada centímetro de tu cuerpo te duele intensamente. En esta caverna desolada no hay nada que comer salvo alguna seta silvestre y, aunque la tentación te roe las entrañas, no sabes distinguir las tóxicas de las sanas…</p><p class='basic right'>Empiezas el siguiente escenario con 3 recursos menos.</p>",
+    "medicine": "Comprueba tus suministros. Cada investigador con medicinas puede tacharlas de sus suministros para elegir y retirar una debilidad Envenenado del mazo de cualquier investigador. Cada investigador que aún tenga una debilidad Envenenado en su mazo lee _El veneno se extiende_.",
+    "doNotUseMedicine": "No usar medicinas",
+    "thePoisonSpreads": "<p>_El veneno se extiende_: El veneno se ha extendido por casi todas las partes de tu cuerpo. Tienes la piel pálida y estás cubierto de un sudor frío y febril. El mero hecho de ponerte en pie exige un esfuerzo tremendo y, pese al agotamiento, no consigues descansar por las noches. Ya no falta mucho para que el veneno acabe con tu vida.</p><p class='basic right'>Sufres 1 trauma físico.</p>",
+    "blanket": "<p>Tras descender cientos y cientos de escalones, decides parar a descansar. Aunque tu reloj indica que ha caído la noche, la falta de un cielo natural empieza a afectar a tu reloj interno. Sin ninguna cornisa llana a la vista, cada miembro del grupo ocupa uno de los muchos escalones angostos para dormir.</p><p class='basic right'>Comprueba tus suministros. Cada investigador con una manta lee _Sueño reparador_. Los demás leen _Vueltas y más vueltas_.</p>",
+    "restfulSleep": "<p>_Sueño reparador_: Aunque anhelas una cama de verdad, al menos la manta te protege del frío glacial que impregna la caverna. Cuando llega la «mañana», tu cuerpo pide más sueño, pero sabes que debes seguir adelante y llegar al Nexo lo antes posible…</p><p class='basic right'>No sufres ningún efecto negativo.</p>",
+    "tossingAndTurning": "<p>_Vueltas y más vueltas_: El sueño no te llega con facilidad. Apenas unas pocas capas te protegen del frío cortante de la caverna subterránea, y pasas horas tiritando antes de que el agotamiento te venza al fin. Te despiertas aproximadamente cada hora, cuando el movimiento de tu cuerpo casi te hace rodar fuera de tu percha de piedra. Cuando llega la «mañana», estás aún más cansado que la noche anterior.</p><p class='basic right'>Sufres 1 trauma físico o mental (*a tu elección*).</p>"
+  },
+  "interlude5": {
+    "xp": {
+      "bonus": "Comprendió mejor las cavernas que yacen bajo la superficie de la Tierra."
+    },
+    "title": "Interludio V: La oscuridad",
+    "fellIntoTheDepths": "Consulta el Registro de campaña. *Si los investigadores cayeron a las profundidades*, procede con _La oscuridad 1_.",
+    "theNexusIsNear": "*Si el Nexo está cerca*, pasa a _La oscuridad 2_.",
+    "theDarkness1": "<p>_La oscuridad 1_: Te despiertas boca abajo sobre la fría y dura piedra de la caverna. Estás magullado y maltrecho pero, de algún modo, vivo. Pasan varios minutos antes de que recuperes las fuerzas suficientes para ponerte en pie. Estás absoluta e irremediablemente perdido en las cavernas, de una vastedad imposible, envuelto en una oscuridad negra como la pez. ¿Has sobrevivido a todo este camino solo para perecer aquí, perdido para toda la humanidad?</p><p class='basic right'>Procede con _La oscuridad 2_.</p>",
+    "theDarkness2": "<p>_La oscuridad 2_: Las lúgubres cavernas rojo sangre y las rencorosas ciudades de Yoth no son nada comparadas con las aterradoras profundidades que yacen bajo ellas. Ahora estás en el nivel más profundo de este reino subterráneo: las cavernas que Ichtaca llamó «N'kai». Nada podría haberte preparado para la impenetrable negrura que te rodea por todas partes, una oscuridad como tinta que ninguna de tus fuentes de luz consigue atravesar. Avanzas a tientas hasta que palpas la pared irregular de la caverna y empiezas a seguirla sin rumbo, esperando desesperadamente encontrar el camino. Una sombría certeza se abre paso en ti: aunque completes tu tarea, sin duda nunca encontrarás el camino de vuelta a la superficie. La abrumadora oscuridad de la caverna te llena de un pavor que nunca antes habías sentido. No te ves las manos mientras tanteas en la negrura, ni sabes si estás en un túnel angosto o en un vasto espacio abierto. El suelo a tu lado podría extenderse kilómetros o convertirse de golpe en una sima sin fondo, y no notarías la diferencia a menos que pusieras allí el pie. Las horas pasan mientras avanzas a trompicones en la oscuridad, despacio, con cuidado, con nervios. Cada paso podría ser el último.</p><p class='basic right'>Lee en orden cada una de las siguientes secciones:</p>",
+    "theMissingRelic": "Consulta el Registro de campaña. *Si los investigadores encontraron la reliquia desaparecida*, el investigador Jefe lee _Resonancia arcana_. *Si la reliquia ha desaparecido*, el investigador Jefe lee _Preocupación creciente_ en su lugar.",
+    "arcaneThrumming": "<p>_Resonancia arcana_: Preocupado por si la caída ha dañado la reliquia eztli, la sacas de la mochila y la examinas. Curiosamente, el dispositivo parece completamente intacto. Vibra con una intensidad creciente y zumba ahora más fuerte que nunca.</p><p class='basic right'>Consulta el Registro de campaña. *Si los investigadores recuperaron la Reliquia de las eras* y *si los investigadores se están forjando su propio camino*, lee _Revelación final_, a continuación. En caso contrario, no sufres ningún efecto negativo.</p>",
+    "growingConcern": "<p>_Preocupación creciente_: Cuando te pones en pie, el suelo retumba y gruñe. Algo muy por debajo de ti se mueve. Se desplaza. Muta.</p><p class='basic right'>Según tu nivel de dificultad, añade la siguiente ficha de caos a la bolsa de caos durante el resto de la campaña:</p><div class='columns'><div>Fácil: –3</div><div>Normal: –4</div><div>Difícil: –5</div><div>Experto: –6</div></div>",
+    "finalDawning": "<p>_Revelación final_: Sin Alejandro ni Ichtaca que te distraigan, te sorprendes estudiando la reliquia con detenimiento. Tus dos «guías» no te han contado más que mentiras. Te ocultaron la verdadera naturaleza de la reliquia y te manipularon para intentar traerla precisamente a este lugar. Tras tu experiencia con la Gran Raza de Yith, crees entender por qué. La tecnología tras el diseño del dispositivo va mucho más allá de lo que cualquier humano podría lograr, pero es perfectamente posible para los yithianos. Incluso reconoces en la construcción de la reliquia algunos elementos de la tecnología de Pnakotus. De algún modo acabó en manos de los eztli, que la defendieron con celo de toda clase de criaturas. Criaturas anteriores a la humanidad. Criaturas que querían usarla para hacer retroceder el tiempo. Y ahora que la reliquia está en tu poder, solo tú puedes impedirlo.</p><p class='basic right'>El investigador que tenga la Reliquia de las eras en su mazo la cambia por la nueva versión de Reliquia de las eras incluida en este Pack de Mitos: Reliquia de las eras (*Recupera el pasado*).</p>",
+    "torches": "<P>Tras horas de lento avance, acabas tropezando con un brasero lleno de cubos de mármol.</p><p class='basic right'>Comprueba tus suministros. Si algún investigador tiene antorchas, lee _Luz de antorcha_. En caso contrario, lee _El abismo_.</p>",
+    "torchlight": "<p>_Luz de antorcha_: Aunque la abrumadora oscuridad de este reino sofoca la luz de tus antorchas, decides intentar encender el brasero con las llamas. Para tu sorpresa, tras sostener un rato la antorcha contra los extraños cubos, el brasero estalla en una furia de llamas azules y plateadas que consume la antorcha y casi te derrite la mano hasta el hueso. Aunque la luz de la brillante llama solo alcanza unos pocos metros a tu alrededor, a lo lejos se encienden más braseros, cuyas llamas guían tu camino. Al menos, eso esperas…</p><p class='basic right'>En tu Registro de campaña, anota que *los braseros están encendidos*.</p>",
+    "theAbyss": "<p>_El abismo_: El extraño material del interior no parece admitir ninguna fuente de fuego con la que intentas encenderlo. Tu esperanza se apaga junto con la luz que te rodea. Abatido, te preparas para soportar la oscuridad que tienes por delante.</p><p class='basic right'>En tu Registro de campaña, anota que *los braseros permanecen apagados*.</p>",
+    "map": "Consulta el Registro de campaña. *Si los braseros están encendidos*, comprueba tus suministros. Si algún investigador tiene un mapa, lee _Interpretando las señales_.",
+    "readingSigns": "<p>_Interpretando las señales_: Mientras recorres las cavernas, algo te llama la atención: hilos de agua fría y mansa que resbalan por las paredes. Con curiosidad, despliegas el mapa de la expedición anterior y te sientas junto a uno de los braseros encendidos para repasar mentalmente tus pasos. Si tus cálculos son correctos, has viajado mucho más al sur de lo que habrías podido imaginar. ¿Es posible que estas cavernas lleguen hasta la costa? ¿Es que no terminan nunca?</p><p class='basic right'>Cada investigador con un mapa obtiene 2 de experiencia adicional al comprender mejor las cavernas que yacen bajo la superficie de la Tierra.</p>",
+    "senseOfTime": "<p>No tienes ni idea de cuánto tiempo pasa en el frío y terrible abismo de N'kai.</p><p class='basic right'>Tacha todas las provisiones y medicinas que les queden a los investigadores en sus suministros.</p>"
+  },
+  "epilogue": {
+    "title": "Epílogo",
+    "body": "<p>_Consulta el Registro de campaña._</p><p>_ Lee lo siguiente solo si *los investigadores dieron marcha atrás al tiempo*._</p><p>Solo hay una forma de impedir que todo esto llegue a ocurrir. Antes de que llegaras y pusieras en marcha todos estos sucesos, las ruinas eztli dormían, y la reliquia estaba relativamente a salvo en su prisión de olvido. De no ser por el deseo de Alejandro de encontrarla, podría haber permanecido sin descubrir durante siglos. Con tu nueva comprensión de las capacidades de la reliquia, puedes volver al pasado y arreglar las cosas. Puedes sellarla para siempre e impedir que vuestros yo del pasado lleguen a encontrarla… aunque te cueste la vida.</p><ul><li>Procede con el _Escenario IX: Vuelta atrás en el tiempo_.</li></ul>"
+  },
+  "resupplyPoint": {
+    "extraXp": "<div class='unspendable'>Experiencia adicional para gastar: {count}</div>",
+    "label": {
+      "visitStMarys": "¿Visitar el Santa María?",
+      "doNotRemovePoisoned": "No retirar la debilidad Envenenado",
+      "doNotRemoveTrauma": "No retirar trauma",
+      "removePhysicalTrauma": "Gasta 5 de experiencia para visitar el Hospital de Santa María y retirar un trauma físico",
+      "removeMentalTrauma": "Gasta 5 de experiencia para visitar el Hospital de Santa María y retirar un trauma mental",
+      "removePoisoned": "Gasta 3 de experiencia para visitar el Hospital de Santa María y retirar una debilidad Envenenado"
+    },
+    "pickSupplies": "<p class='basic'>Ya está claro que tendrás que aventurarte una vez más en la selva antes de resolver el misterio de la Reliquia de las eras. Cada investigador tiene la opción de elegir suministros adicionales que añadir a su lista actual. En el Registro de campaña, en la sección «Suministros» de cada investigador, anota los suministros que ese investigador elija llevar. (<em>Nota: las Provisiones, las Medicinas y la Gasolina pueden elegirse más de una vez anotando su nombre varias veces y gastando cada vez los puntos de suministro correspondientes.</em>)</p><ul><li><p class='basic'>Antes de salir de Arkham, quizá sea buena idea hacer una visita al Hospital de Santa María.</p><ul><li><p class='basic'>Cada investigador que tenga una debilidad Envenenado en su mazo puede gastar 3 puntos de experiencia para retirarla de su mazo.</p></li><li><p class='basic'>Cada investigador puede gastar 5 puntos de experiencia para retirar un punto de trauma físico o mental de su investigador.</p></li></ul></li><li><p class='basic'>Cada investigador puede gastar puntos de suministro para comprar uno o más de los suministros que se indican a continuación. El número de puntos de suministro disponibles para cada investigador depende del número de investigadores en la campaña:</p><p class='basic'><strong>1 investigador</strong>: 8 puntos de suministro</p><p class='basic'><strong>2 investigadores</strong>: 5 puntos de suministro cada uno</p><p class='basic'><strong>3 investigadores</strong>: 4 puntos de suministro cada uno</p><p class='basic'><strong>4 investigadores</strong>: 3 puntos de suministro cada uno</p></li></ul>"
+  },
+  "supplies": {
+    "title": "Suministros",
+    "choose": "Elegir suministros (quedan {pointsRemaining} puntos)",
+    "chosen": "Suministros elegidos",
+    "provisions": {
+      "name": "Provisiones",
+      "cost": "1 punto de suministro cada una",
+      "description": "Comida y agua para una persona. Imprescindible en cualquier viaje.",
+      "tooltip": "(@:theForgottenAge.supplies.provisions.cost) @:theForgottenAge.supplies.provisions.description",
+      "count": "@:theForgottenAge.supplies.provisions.name | @:theForgottenAge.supplies.provisions.name ({count})"
+    },
+    "medicine": {
+      "name": "Medicinas",
+      "cost": "2 puntos de suministro cada una",
+      "description": "Para combatir enfermedades, infecciones o venenos.",
+      "tooltip": "(@:theForgottenAge.supplies.medicine.cost) @:theForgottenAge.supplies.medicine.description",
+      "count": "@:theForgottenAge.supplies.medicine.name | @:theForgottenAge.supplies.medicine.name ({count})"
+    },
+    "rope": {
+      "name": "Cuerda",
+      "cost": "3 puntos de suministro",
+      "description": "Varios rollos largos de cuerda resistente. Esencial para escalar y hacer espeleología.",
+      "tooltip": "(@:theForgottenAge.supplies.rope.cost) @:theForgottenAge.supplies.rope.description",
+      "count": "@:theForgottenAge.supplies.rope.name | @:theForgottenAge.supplies.rope.name ({count})"
+    },
+    "blanket": {
+      "name": "Manta",
+      "cost": "2 puntos de suministro",
+      "description": "Para abrigarse por la noche.",
+      "tooltip": "(@:theForgottenAge.supplies.blanket.cost) @:theForgottenAge.supplies.blanket.description",
+      "count": "@:theForgottenAge.supplies.blanket.name | @:theForgottenAge.supplies.blanket.name ({count})"
+    },
+    "canteen": {
+      "name": "Cantimplora",
+      "cost": "2 puntos de suministro",
+      "description": "Puede rellenarse en arroyos y ríos.",
+      "tooltip": "(@:theForgottenAge.supplies.canteen.cost) @:theForgottenAge.supplies.canteen.description",
+      "count": "@:theForgottenAge.supplies.canteen.name | @:theForgottenAge.supplies.canteen.name ({count})"
+    },
+    "torches": {
+      "name": "Antorchas",
+      "cost": "3 puntos de suministro",
+      "description": "Pueden iluminar zonas oscuras o encender candelabros.",
+      "tooltip": "(@:theForgottenAge.supplies.torches.cost) @:theForgottenAge.supplies.torches.description",
+      "count": "@:theForgottenAge.supplies.torches.name | @:theForgottenAge.supplies.torches.name ({count})"
+    },
+    "compass": {
+      "name": "Brújula",
+      "cost": "2 puntos de suministro",
+      "description": "Puede guiarte cuando estás irremediablemente perdido.",
+      "tooltip": "(@:theForgottenAge.supplies.compass.cost) @:theForgottenAge.supplies.compass.description",
+      "count": "@:theForgottenAge.supplies.compass.name | @:theForgottenAge.supplies.compass.name ({count})"
+    },
+    "map": {
+      "name": "Mapa",
+      "cost": "3 puntos de suministro",
+      "description": "Sin marcas por ahora, pero con el tiempo quizá puedas cartografiar tu entorno.",
+      "tooltip": "(@:theForgottenAge.supplies.map.cost) @:theForgottenAge.supplies.map.description",
+      "count": "@:theForgottenAge.supplies.map.name | @:theForgottenAge.supplies.map.name ({count})"
+    },
+    "binoculars": {
+      "name": "Prismáticos",
+      "cost": "2 puntos de suministro",
+      "description": "Para ayudarte a ver lugares lejanos.",
+      "tooltip": "(@:theForgottenAge.supplies.binoculars.cost) @:theForgottenAge.supplies.binoculars.description",
+      "count": "@:theForgottenAge.supplies.binoculars.name | @:theForgottenAge.supplies.binoculars.name ({count})"
+    },
+    "chalk": {
+      "name": "Tiza",
+      "cost": "2 puntos de suministro",
+      "description": "Para escribir sobre superficies de piedra rugosa.",
+      "tooltip": "(@:theForgottenAge.supplies.chalk.cost) @:theForgottenAge.supplies.chalk.description",
+      "count": "@:theForgottenAge.supplies.chalk.name | @:theForgottenAge.supplies.chalk.name ({count})"
+    },
+    "pendant": {
+      "name": "Colgante",
+      "cost": "1 punto de suministro",
+      "description": "Inútil, pero los buenos recuerdos reconfortan a quien viaja lejos de casa.",
+      "tooltip": "(@:theForgottenAge.supplies.pendant.cost) @:theForgottenAge.supplies.pendant.description",
+      "count": "@:theForgottenAge.supplies.pendant.name | @:theForgottenAge.supplies.pendant.name ({count})"
+    },
+    "gasoline": {
+      "name": "Gasolina",
+      "cost": "1 punto de suministro cada una",
+      "description": "Suficiente para un largo viaje en coche.",
+      "tooltip": "(@:theForgottenAge.supplies.gasoline.cost) @:theForgottenAge.supplies.gasoline.description",
+      "count": "@:theForgottenAge.supplies.gasoline.name | @:theForgottenAge.supplies.gasoline.name ({count})"
+    },
+    "pocketknife": {
+      "name": "Navaja",
+      "cost": "2 puntos de suministro",
+      "description": "Demasiado pequeña para usarla como arma fiable, pero fácil de esconder.",
+      "tooltip": "(@:theForgottenAge.supplies.pocketknife.cost) @:theForgottenAge.supplies.pocketknife.description",
+      "count": "@:theForgottenAge.supplies.pocketknife.name | @:theForgottenAge.supplies.pocketknife.name ({count})"
+    },
+    "pickaxe": {
+      "name": "Pico",
+      "cost": "2 puntos de suministro",
+      "description": "Para romper superficies rocosas.",
+      "tooltip": "(@:theForgottenAge.supplies.pickaxe.cost) @:theForgottenAge.supplies.pickaxe.description",
+      "count": "@:theForgottenAge.supplies.pickaxe.name | @:theForgottenAge.supplies.pickaxe.name ({count})"
+    },
+    "keyOfEztli": {
+      "name": "Llave de Eztli",
+      "count": "@:theForgottenAge.supplies.keyOfEztli.name | @:theForgottenAge.supplies.keyOfEztli.name ({count})"
+    },
+    "mysteriousScepter": {
+      "name": "Cetro misterioso",
+      "count": "@:theForgottenAge.supplies.mysteriousScepter.name | @:theForgottenAge.supplies.mysteriousScepter.name ({count})"
+    },
+    "stickyGoop": {
+      "name": "Pringue pegajoso",
+      "count": "@:theForgottenAge.supplies.stickyGoop.name | @:theForgottenAge.supplies.stickyGoop.name ({count})"
+    },
+    "journal": {
+      "name": "Diario",
+      "description": "Para llevar un registro de los sucesos de la expedición.",
+      "tooltip": "@:theForgottenAge.supplies.journal.description",
+      "count": "@:theForgottenAge.supplies.journal.name | @:theForgottenAge.supplies.journal.name ({count})"
+    },
+    "satchel": {
+      "name": "Zurrón",
+      "description": "Un lugar seguro donde guardar lo que encuentres en la tumba.",
+      "tooltip": "@:theForgottenAge.supplies.satchel.description",
+      "count": "@:theForgottenAge.supplies.satchel.name | @:theForgottenAge.supplies.satchel.name ({count})"
+    }
+  }
+}

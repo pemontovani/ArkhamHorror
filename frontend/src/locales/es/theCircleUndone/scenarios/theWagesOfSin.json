@@ -1,0 +1,130 @@
+{
+  "heading": "Escenario IV",
+  "tokens": {
+    "easyStandard": {
+      "skull": "-X. X es 1 más que el número de copias de Asuntos inacabados en la zona de victoria.",
+      "cultist": "-3. Hasta el final de la ronda, cada enemigo Hereje en juego obtiene +1 a combate y +1 a evasión.",
+      "tablet": "-3. Si fracasas, desencadena la capacidad Obligado de una copia de Asuntos inacabados en tu zona de amenaza como si fuera el final de la ronda.",
+      "elderThing": "-2. Si fracasas y es un ataque o un intento de evasión, resuelve cada capacidad Embrujado de tu Lugar."
+    },
+    "hardExpert": {
+      "skull": "-X. X es el número de copias de Asuntos inacabados en la zona de victoria. Revela otra ficha.",
+      "cultist": "-4. Hasta el final de la ronda, cada enemigo Hereje en juego obtiene +1 a combate y +1 a evasión.",
+      "tablet": "-4. Si fracasas, desencadena la capacidad Obligado de una copia de Asuntos inacabados en tu zona de amenaza como si fuera el final de la ronda.",
+      "elderThing": "-2. Si es un ataque o un intento de evasión, resuelve cada capacidad Embrujado de tu Lugar."
+    }
+  },
+  "messages": {
+    "understandTheTragicLyrics": "«Comprendes la trágica letra de la canción de la bruja»",
+    "banished": "{card} queda «desterrada»"
+  },
+  "tooltips": {
+    "hangmansBrook": {
+      "resign": "«A ver, ¿de quién fue la brillante idea?»."
+    },
+    "hangmansBrookSpectral": {
+      "resign": "@:theCircleUndone.theWagesOfSin.tooltips.hangmansBrook.resign",
+      "haunted": "Recibes 1 de daño. Hasta el final de la ronda, no se puede usar la capacidad de abandonar anterior."
+    },
+    "returnToHangmansBrookSpectral": {
+      "resign": "@:theCircleUndone.theWagesOfSin.tooltips.hangmansBrook.resign",
+      "haunted": "Coloca 1 pista de la reserva en el Arroyo del Ahorcado."
+    },
+    "hauntedFieldsSpectral": {
+      "haunted": "Mueve una vez hacia los Campos encantados al enemigo Espectral más cercano."
+    },
+    "abandonedChapelSpectral": {
+      "haunted": "Hasta el final de la ronda, tienes -1 a cada habilidad."
+    },
+    "theGallowsSpectral_169": {
+      "haunted": "Descarta las 3 cartas superiores del mazo de Encuentro normal. Si este efecto descarta un enemigo Bruja, róbalo."
+    },
+    "theGallowsSpectral_170": {
+      "haunted": "Descarta las 3 cartas superiores del mazo de Encuentro normal. Si este efecto descarta un enemigo Geist, róbalo."
+    },
+    "hereticsGravesSpectral_171": {
+      "haunted": "Reduce a 1 tu {'{'}willpower{'}'} base hasta el final de tu siguiente turno."
+    },
+    "hereticsGraves_172": {
+      "haunted": "Cura 1 de daño a cada enemigo Hereje y a cada enemigo Bruja en juego."
+    },
+    "chapelCryptSpectral_173": {
+      "haunted": "Haz que aparezca boca abajo, enfrentada a ti, la carta superior de tu mazo. Trata esa carta como un enemigo Muerto reanimado con 1 de combate, 1 de salud, 1 de evasión, 1 de daño y el rasgo Monstruo."
+    },
+    "chapelCryptSpectral_174": {
+      "haunted": "Busca la traición de Maleficio situada más arriba en la pila de descarte de Encuentro normal y ponla en juego en tu zona de amenaza."
+    },
+    "chapelCryptSpectral_175": {
+      "haunted": "Descarta una carta al azar de debajo del Ático de la capilla."
+    },
+    "chapelAtticSpectral_176": {
+      "haunted": "Descarta una carta al azar de tu mano (2 cartas en su lugar si tienes 5 o más cartas en la mano)."
+    }
+  },
+  "label": {
+    "ominousPortents": {
+      "spectral": "Robar la carta superior del mazo de Encuentro espectral. Esa carta obtiene Peligro y sus efectos no pueden cancelarse.",
+      "test": "Prueba de {'{'}willpower{'}'} (3). Si fracasas, recibes 2 de horror."
+    },
+    "baneOfTheLiving": {
+      "unfinishedBusiness": "Elegir una carta Asuntos inacabados en juego, darle la vuelta para ponerla por su cara Hereje y colocar sobre ella daño igual a la mitad de su salud.",
+      "geist": "Descartar cartas de la parte superior del mazo de Encuentro espectral hasta que se descarte un enemigo Geist. Haz que ese enemigo aparezca enfrentado a ti."
+    },
+    "witchweed": {
+      "surge": "Dar Oleada a Hierba bruja para colocarla en la pila de descarte de Encuentro normal.",
+      "otherwise": "Colocarla en la pila de descarte de Encuentro espectral."
+    }
+  },
+  "intro": {
+    "title": "Escenario IV: La paga del pecado",
+    "body": "<p>Desde tu encuentro con el fantasma de la casa de la bruja, te has visto obligado a replantearte todo lo que sabes sobre la vida y la muerte. Keziah Mason murió hace más de doscientos años, pero su espíritu perdura en la niebla espectral: la misma niebla que encontraste en la mansión de Josef Meiger. Una pregunta persiste en tu mente mientras reflexionas sobre lo sucedido: ¿perdura el espíritu de Keziah a causa de la niebla, o es su presencia la que causa la niebla? ¿Cuál es la enfermedad y cuál el síntoma?</p><p>Cuanto más ahondas en la historia de brujería y persecución de Arkham, más inquieto te vuelves. Noche tras noche te asaltan sueños terribles: sueños de muerte y podredumbre, de culpa y pecado. En esta ciudad habita un mal, un mal que ha permanecido mucho tiempo oculto en la oscuridad del pasado de Arkham. Para colmo, tus pesquisas han llegado a un callejón sin salida. Crees que, si logras encontrar el aquelarre de brujas que viste en el bosque aquella noche fatídica, quizá puedas averiguar algo más sobre Keziah Mason o sobre este mal innombrado.</p><p>Mientras sigues tu rutina matinal, tu vista se posa en uno de los titulares menores del periódico de hoy: «¿Fantasmas en la Colina del Ahorcado? Vecinos de la Periferia aseguran haber visto siluetas humanas en la espesa niebla que emana del Arroyo del Ahorcado…». No puede ser una coincidencia, ¿verdad?</p><p>Entonces lo comprendes: si son brujas lo que buscas, el único lugar donde puedes estar seguro de encontrarlas es a dos metros bajo tierra, allí donde fueron ejecutadas hace tantos años quienes se declaraban brujas. Puede que buscar espectros en un cementerio no sea la apuesta más segura, pero no estás seguro de que se pueda seguir estando a salvo en esta ciudad.</p>"
+  },
+  "setup": {
+    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de encuentro: *La paga del pecado*, *El aquelarre de Anette*, *Ciudad de pecados*, *Destino inexorable*, *El reino de la muerte*, *Espíritus atrapados* y *Brujería*. Estos conjuntos se indican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/the-wages-of-sin.png' /><img src='{setImgPath}/anettes-coven.png' /><img src='{setImgPath}/city-of-sins.png' /><img src='{setImgPath}/inexorable-fate.png' /><img src='{setImgPath}/realm-of-death.png' /><img src='{setImgPath}/trapped-spirits.png' /><img src='{setImgPath}/witchcraft.png' /></section>",
+    "theWatcherSet": "Deja aparte, fuera del juego, el conjunto de encuentro *El vigilante*. Este conjunto de encuentro se indica con el siguiente icono:<section class='encounter-sets'><img src='{setImgPath}/the-watcher.png' /></section>",
+    "placeLocations": "Elige al azar uno de los dos Lugares El patíbulo, uno de los dos Lugares Tumbas de herejes, uno de los dos Lugares Ático de la capilla y uno de los dos Lugares Cripta de la capilla, y ponlos en juego. Retira de la partida las demás versiones de El patíbulo, Tumbas de herejes, Ático de la capilla y Cripta de la capilla. Después, pon en juego Campos encantados, Capilla abandonada y Arroyo del Ahorcado.",
+    "spectral": "Estos Lugares tienen cara revelada por ambos lados. Un lado tiene el rasgo _Espectral_ y el otro no. Al poner en juego estos Lugares, usa el lado revelado sin el rasgo _Espectral_.",
+    "startAt": "Cada investigador comienza la partida en el Arroyo del Ahorcado.",
+    "setAside": "Deja aparte, fuera del juego, los cuatro Apoyos Red espectral.",
+    "heretics": "Baraja los seis enemigos Hereje y deja aparte cuatro de ellos al azar. Retira de la partida las otras dos copias. Estas cartas son de doble cara y tienen cartas de Historia en el reverso. Para disfrutar de la mejor experiencia, no mires las cartas de Historia de su otra cara.",
+    "encounterDecks": "Este escenario usa dos mazos de Encuentro distintos.",
+    "spectralDeck": "Separa todas las cartas restantes con el rasgo _Espectral_ y barájalas para construir el mazo de Encuentro espectral (consulta «El mazo de Encuentro espectral» más abajo).",
+    "standardDeck": "Baraja todas las cartas restantes que no sean _Espectral_ para construir el mazo de Encuentro normal.",
+    "returnTo": {
+      "gatherSets": "Reúne también todas las cartas de los siguientes conjuntos de encuentro: *Regreso a La paga del pecado*, *Ciudad de los malditos*, *Destino innombrable*, *El reino inestable*, *Espíritus sedientos de sangre* y *Hechicería*. Estos conjuntos se indican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/return-to-the-wages-of-sin.png' /><img src='{setImgPath}/city-of-the-damned.png' /><img src='{setImgPath}/unspeakable-fate.png' /><img src='{setImgPath}/unstable-realm.png' /><img src='{setImgPath}/bloodthirsty-spirits.png' /><img src='{setImgPath}/hexcraft.png' /></section>*Ciudad de los malditos* sustituye a *Ciudad de pecados*, *Destino innombrable* sustituye a *Destino inexorable*, *El reino inestable* sustituye a *El reino de la muerte*, *Espíritus sedientos de sangre* sustituye a *Espíritus atrapados* y *Hechicería* sustituye a *Brujería*. Retira del juego los conjuntos sustituidos.",
+      "setAside": "Deja también aparte, fuera del juego, el Apoyo de Historia Erynn MacAoidh.",
+      "actDeck": "Consulta el Registro de campaña. Si *Erynn quiere reunirse*: al construir el mazo de Acto, usa el nuevo Acto 1a —*En busca de respuestas*— en lugar del Acto 1 original, e incluye las dos versiones del Acto 2. Cuando avances al Acto 2a, pon en juego las dos cartas de Acto; el texto de ambas cartas está activo.",
+      "placeLocations": "Elige al azar uno de los dos Lugares Arroyo del Ahorcado para usarlo durante la preparación de este escenario. Retira del juego la otra versión.",
+      "heretics": "Al elegir al azar 4 enemigos Hereje para dejarlos aparte, baraja los 2 nuevos enemigos Hereje junto con los 6 originales, para un total de 8 posibilidades.",
+      "additionalRule": "Durante este escenario se aplica la siguiente regla adicional: mientras se resuelve la traición Agarre del vigilante, El vigilante espectral no se agota después de atacar."
+    }
+  },
+  "specialRules": [
+    {
+      "title": "@:theCircleUndone.theWagesOfSin.theSpectralEncounterDeck.title",
+      "body": "@:theCircleUndone.theWagesOfSin.theSpectralEncounterDeck.body"
+    }
+  ],
+  "theSpectralEncounterDeck": {
+    "title": "El mazo de Encuentro espectral",
+    "body": "<p class='basic'>Durante la preparación de este escenario se construyen dos mazos de Encuentro: un mazo de Encuentro «normal» y un mazo de Encuentro «espectral». Por lo general, siempre que un investigador vaya a interactuar con el mazo de Encuentro, deberá usar el mazo de Encuentro normal.</p><p class='basic'>Sin embargo, en determinado momento del escenario, los Lugares pueden darse la vuelta y quedar por su lado _Espectral_. Mientras un investigador esté en un Lugar con el rasgo _Espectral_, deberá usar el mazo de Encuentro espectral en lugar del mazo de Encuentro normal a todos los efectos, salvo que se indique lo contrario. Esto incluye robar cartas del mazo de Encuentro, así como buscar en el mazo de Encuentro (o en la pila de descarte de Encuentro), mirar, revelar o interactuar con él de cualquier otro modo. También incluye las capacidades que se desencadenan cuando se agotan las cartas del mazo de Encuentro. Si un efecto se refiere específicamente al mazo de Encuentro normal o al mazo de Encuentro espectral, interactúa con el mazo indicado, esté donde esté el investigador.</p><p class='basic'>Cada uno de los dos mazos de Encuentro tiene su propia pila de descarte. Siempre que vaya a descartarse una carta con el rasgo _Espectral_, se coloca en la pila de descarte del mazo de Encuentro espectral. Todas las demás cartas de Encuentro se descartan en la pila de descarte del mazo de Encuentro normal.</p><p class='basic'>*Nota: Dar la vuelta a un Lugar de un lado a otro durante este escenario no «revela» el nuevo Lugar.*</p>"
+  },
+  "resolutions": {
+    "noResolution": {
+      "title": "Sin resolución",
+      "body": "<p class='basic'>_Si no se alcanzó ninguna resolución porque cada investigador abandonó_: Procede con la _Resolución 1_.</p><p class='basic'>_Si no se alcanzó ninguna resolución porque cada investigador fue derrotado_: Procede con la _Resolución 2_.</p>"
+    },
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<p>_Resolución 1_: Rayos de sol desvaído atraviesan la neblina, y la bruma antinatural retrocede por fin. Al hacerlo, la Colina del Ahorcado recobra su estado original. Ningún otro fantasma rencoroso surge para atormentarte, y las brujas que los invocaron han vuelto a retirarse a las sombras. Esperas haber hecho lo suficiente para impedir que el resto de Arkham sucumba a este horror.</p><ul><li>En tu Registro de campaña, anota que *X herejes fueron liberadas en Arkham*. X es el número de enemigos Hereje en juego. (Si el escenario está en el Acto 1, anota en su lugar que *4 herejes fueron liberadas en Arkham*).<ul><li>Si X es 3 o menos, bajo «Recuerdos descubiertos», anota *Voluta de niebla espectral*.</li></ul></li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.</li></ul>"
+    },
+    "resolution2": {
+      "title": "Resolución 2",
+      "body": "<p>_Resolución 2_: Resignado a tu destino, caes de rodillas. La niebla se abre. El tiempo se ralentiza hasta casi detenerse cuando aparece el vigilante. Su forma espectral se desliza por el suelo y se acerca con la lenta certeza del tictac de un reloj. Cierras los ojos, reacio a mirar a quien va a matarte. Clavas los dedos en la palma de la mano y te preparas.</p><p>El momento pasa.</p><p>Cuando vuelves a abrir los ojos, la criatura se ha ido, y con ella la niebla espectral.</p><p>…¿Te han perdonado la vida?</p><ul><li>En tu Registro de campaña, anota que *los investigadores sobrevivieron al abrazo del vigilante*.</li><li>En tu Registro de campaña, anota que *X herejes fueron liberadas en Arkham*. X es el número de enemigos Hereje en juego. (Si el escenario está en el Acto 1, anota en su lugar que *4 herejes fueron liberadas en Arkham*).<ul><li>Si X es 3 o menos, bajo «Recuerdos descubiertos», anota *Voluta de niebla espectral*.</li></ul></li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.</li></ul>"
+    },
+    "resolution3": {
+      "title": "Resolución 3",
+      "body": "<p>_Resolución 3_: Cuando abandonas la Colina del Ahorcado, la bruma antinatural permanece atrás: un recordatorio de que elegiste la información y el poder por encima de la seguridad de la ciudad. Lo último que ves al cruzar el arroyo es la sangre que chorrea por la corteza de los árboles que flanquean el puente. El espectáculo es repulsivo y, sin embargo… quizá aquí también haya información que recabar. Con la esperanza de haber hecho lo correcto, estudias un momento las extrañas tallas antes de seguir hacia tu próximo destino.</p><ul><li>En tu Registro de campaña, anota que *1 hereje fue liberada en Arkham*.</li><li>En tu Registro de campaña, bajo «Recuerdos descubiertos», anota *Tallas sangrientas en un árbol*.</li><li>En tu Registro de campaña, anota que *Erynn se unió a los investigadores*. Un investigador cualquiera puede elegir añadir a su mazo el Apoyo de Historia Erynn MacAoidh. Esta carta no cuenta para el tamaño del mazo de ese investigador.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.</li></ul>"
+    }
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "heading": "Escenario VIII",
+  "specialRules": [
+    {
+      "title": "@:theCircleUndone.beforeTheBlackThrone.theCosmos.title",
+      "body": "@:theCircleUndone.beforeTheBlackThrone.theCosmos.body"
+    },
+    {
+      "title": "@:theCircleUndone.beforeTheBlackThrone.emptySpace.title",
+      "body": "@:theCircleUndone.beforeTheBlackThrone.emptySpace.body"
+    }
+  ],
+  "tokens": {
+    "easyStandard": {
+      "skull": "-X. X es la mitad de la perdición sobre Azathoth (redondeando hacia arriba), con un mínimo de 2.",
+      "cultist": "Revela otra ficha. Si fracasas, busca en el mazo de Encuentro y en la pila de descarte un enemigo _Sectario_ y róbalo. Baraja el mazo de Encuentro.",
+      "tablet": "-2. Si fracasas, Azathoth te ataca.",
+      "elderThing": "-4. Si tu valor de habilidad modificado en esta prueba es 0, coloca 1 de perdición sobre Azathoth."
+    },
+    "hardExpert": {
+      "skull": "-X. X es la cantidad de perdición sobre Azathoth, con un mínimo de 2.",
+      "cultist": "Revela otra ficha. Si fracasas, busca en el mazo de Encuentro y en la pila de descarte un enemigo _Sectario_ y róbalo. Baraja el mazo de Encuentro.",
+      "tablet": "-3. Si fracasas, Azathoth te ataca.",
+      "elderThing": "-6. Si tu valor de habilidad modificado en esta prueba es 0, coloca 1 de perdición sobre Azathoth."
+    }
+  },
+  "tooltips": {
+    "cosmicIngress": {
+      "ability": "Baraja este Lugar en el Cosmos y mueve al Acceso cósmico a cada investigador y enemigo que estuviera en este Lugar"
+    },
+    "hideousPalace": {
+      "ability": "Baraja este Lugar en el Cosmos y mueve al Palacio espantoso a cada investigador y enemigo que estuviera en este Lugar"
+    },
+    "courtOfTheGreatOldOnes": {
+      "ability": "Baraja este Lugar en el Cosmos y mueve a la Corte de los Primigenios a cada investigador y enemigo que estuviera en este Lugar"
+    },
+    "theBlackThrone": {
+      "haunted": "Debes colocar 1 de perdición sobre Azathoth, o bien Azathoth te ataca"
+    },
+    "windingGulf": {
+      "haunted": "Recibes 1 de daño y 1 de horror"
+    }
+  },
+  "label": {
+    "nightgauntSteed": "¿Retirar 2 recursos de la carta de referencia de escenario para que cada investigador comience la partida con un Apoyo de Historia Ángel descarnado corcel en juego?",
+    "itMustBeDone": "Hay que hacerlo.",
+    "iRefuse": "Me niego.",
+    "moveUp": "Mover arriba",
+    "moveDown": "Mover abajo",
+    "moveLeft": "Mover a la izquierda",
+    "moveRight": "Mover a la derecha",
+    "moveToLeftLocation": "Moverte al Lugar a tu izquierda",
+    "moveYourLocationLeftOnce": "Mover la posición de tu Lugar una vez a la izquierda",
+    "connectToTheRight": "Conectar a la derecha",
+    "connectAbove": "Conectar arriba",
+    "connectBelow": "Conectar abajo",
+    "dancersMist": {
+      "choice": "Perder 2 recursos y conectar a un Lugar adyacente en la dirección que elijas"
+    },
+    "flightIntoOblivion": {
+      "choice": "Recibir 2 de horror y conectar al Lugar revelado situado más arriba en la dirección que elijas"
+    },
+    "chooseWhereToConnect": "Elige dónde conectar",
+    "theBlackThrone": {
+      "doom": "Colocar 1 de perdición sobre Azathoth",
+      "attack": "Azathoth te ataca"
+    },
+    "infinityOfDarkness": {
+      "choice": "Recibir 2 de daño y conectar al Lugar revelado situado más abajo en la dirección que elijas"
+    },
+    "ultimateChaos": {
+      "doom": "Colocar 1 de perdición sobre Azathoth",
+      "attack": "Azathoth te ataca"
+    },
+    "whisperedBargain": {
+      "doom": "Colocar 1 de perdición sobre Azathoth",
+      "attack": "Azathoth te ataca"
+    },
+    "windingGulf": {
+      "move": "Moverte a la Fosa sinuosa",
+      "doNotMove": "Colocar 1 de perdición sobre Azathoth"
+    },
+    "whatMustBeDone": {
+      "R2": "R2",
+      "R3": "R3",
+      "R4": "R4",
+      "R6": "R6"
+    }
+  },
+  "intro": {
+    "title": "Escenario VIII: Ante el trono negro",
+    "body": "<p>Adelante, siempre adelante, tu montura te lleva hacia la pesadilla de tinta del vacío del más allá. No te atreves a girarte y mirar atrás, pues sabes que lo que verías probablemente te rompería el corazón, o quizá la mente. Grandes horrores poliposos se deslizan sombríamente entre la negrura y la soledad del cosmos. Esperabas maravillarte ante un hermoso y rutilante despliegue de estrellas, pero en su lugar te queda un pozo vacío en el estómago mientras la inmensidad sin límite del universo frío y oscuro se alza ante ti. A lo lejos resuenan los acordes de una remota melodía, una melodía que no podrías reproducir en tu universo con ningún instrumento conocido, ni tus oídos podrían interpretar sus notas si no estuviera sonando en tu cabeza en este mismo instante.</p><p>Sientes una ráfaga de aire al franquear la torre de una barrera de ónice de pesadilla y desciendes a una caverna infinita de piedra negra y arquitectura imposible. La música crece mientras te precipitas sin desviarte por un valle imposible, entre bancos de seres informes y entre cosas que acechan y danzan en la negrura del más allá. No puedes evitar escuchar la extraña música y grabar en la memoria cada una de sus notas terribles y disonantes. Ningún pensamiento ni sueño de la humanidad puede alcanzarte aquí, en este lugar que ya era antiquísimo cuando nació la Tierra. Solo puedes confiar en guiar tu montura hacia el lugar al que debes ir… El trono en el que se sienta el propio Azathoth.</p>"
+  },
+  "setup": {
+    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de encuentro: *Ante el trono negro*, *Agentes de Azathoth*, *Destino inexorable*, *Antiguos males* y *Secta oscura*. Estos conjuntos se indican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/before-the-black-throne.png' /><img src='{setImgPath}/agents-of-azathoth.png' /><img src='{setImgPath}/inexorable-fate.png' /><img src='{setImgPath}/ancient-evils.png' /><img src='{setImgPath}/dark-cult.png' /></section>",
+    "setLocationsAside": "Busca los Lugares Palacio espantoso, Corte de los Primigenios y El trono negro. (Están en el lado revelado de 3 de los Lugares «Cosmos»). Deja esos Lugares aparte, fuera del juego.",
+    "placeStart": "Pon en juego el Lugar Acceso cósmico. Cada investigador comienza la partida en el Acceso cósmico.",
+    "cosmos": "Baraja las cartas de Lugar restantes para formar un mazo aparte, con el lado Cosmos boca arriba. Este mazo se llama el Cosmos (consulta «El Cosmos» más abajo).",
+    "placeLocations": "Toma el Palacio espantoso que dejaste aparte y la carta superior del Cosmos, y barájalos de modo que no puedas saber cuál es cuál. Después, ponlos en juego junto con cartas de jugador boca abajo de la parte superior del mazo del investigador Jefe, como se muestra en la «Colocación de Lugares para la preparación / Acto 1». Las cartas de jugador boca abajo representan espacio vacío (*consulta «Espacio vacío»*).",
+    "setAside": "Deja aparte, fuera del juego, el enemigo Flautista de Azathoth.",
+    "placeAzathoth": "Pon en juego a Azathoth junto al mazo de Plan. Durante el resto del escenario, Azathoth está en juego, pero no está en ningún Lugar.",
+    "thePathWindsBeforeYou": "Consulta el Registro de campaña. Por cada marca anotada junto a *el camino se extiende ante los investigadores*, coloca 1 recurso sobre la carta de referencia de escenario.",
+    "returnTo": {
+      "gatherSets": "Reúne también todas las cartas de los siguientes conjuntos de encuentro: *Regreso a Ante el trono negro*, *Destino innombrable* y *Males inminentes*. Estos conjuntos se indican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/return-to-before-the-black-throne.png' /><img src='{setImgPath}/unspeakable-fate.png' /><img src='{setImgPath}/impending-evils.png' /></section>*Destino innombrable* sustituye a *Destino inexorable* y *Males inminentes* sustituye a *Antiguos males*. Retira del juego los conjuntos sustituidos.",
+      "actDeck": "Al construir el mazo de Acto, sustituye la versión original del Acto 3 por la nueva versión de este conjunto de encuentro. Retira del juego la versión original.",
+      "cosmos": "Al construir el Cosmos, incluye los 3 nuevos Lugares Cosmos del conjunto de encuentro *Regreso a Ante el trono negro*.",
+      "nightgauntSteed": "Cuando comience la partida, los investigadores pueden retirar 2 recursos de la carta de referencia de escenario para que cada investigador comience la partida con un Apoyo de Historia Ángel descarnado corcel en juego. Retira del juego todas las Ángeles descarnados corcel restantes."
+    }
+  },
+  "theCosmos": {
+    "title": "El Cosmos",
+    "body": "<p class='basic'>A lo largo de este escenario entrarán en juego nuevos Lugares desde la parte superior del Cosmos, un mazo aparte formado por Lugares de doble cara. Esto se hace principalmente mediante la capacidad de cada Acto: «{'{'}action{'}'} Gasta X pistas: roba las X cartas superiores del Cosmos. Elige una para ponerla en juego usando sus instrucciones de conexión y muévete a ella. Baraja el resto en el Cosmos».</p><p class='basic'>El lado revelado de cada Lugar Cosmos tiene una instrucción «_Cosmos_ –» que indica al investigador dónde conectar ese Lugar. (Por ejemplo, «_Cosmos_ – Conectar arriba» significa que el Lugar recién robado debe colocarse inmediatamente por encima del Lugar del investigador, mientras que «_Cosmos_ – Conectar a la derecha» significa que el Lugar recién robado debe colocarse inmediatamente a la derecha del Lugar del investigador).</p><p class='basic'>Un Lugar nuevo no puede entrar en juego en una posición ya ocupada por un Lugar. Si las instrucciones de conexión de un Lugar no se pueden cumplir, baraja ese Lugar de nuevo en el Cosmos y cancela los efectos del movimiento.</p><p class='basic'>Las instrucciones «_Cosmos_ –» solo se resuelven cuando un Lugar se roba del Cosmos. Al revelar un Lugar Cosmos que ya está en juego, no sigas sus instrucciones «_Cosmos_ –».</p>"
+  },
+  "emptySpace": {
+    "title": "Espacio vacío",
+    "body": "<p class='basic'>Durante este escenario, a veces se te indicará que pongas en juego «espacio vacío». Para ello, toma la carta superior del mazo del investigador activo y ponla en juego boca abajo en la posición indicada. Si no hay investigador activo, deben usarse en su lugar las cartas superiores del mazo del investigador Jefe.</p><p class='basic'>El espacio vacío no es un Lugar, y los enemigos e investigadores no pueden entrar en él salvo que se indique lo contrario. Sin embargo, sí cuenta como un Lugar a efectos de determinar la distancia entre dos Lugares.</p><p class='basic'>Un Lugar puede entrar en juego en una posición ocupada por espacio vacío. Si esto ocurre, la carta de espacio vacío se baraja de nuevo en el mazo de su propietario.</p>"
+  },
+  "resolutions": {
+    "xp": {
+      "resolution2": "Salvó el universo de ser devorado.",
+      "resolution3": "Salvó el universo de ser devorado.",
+      "resolution5": "Averiguó los secretos más recónditos del Libro Negro.",
+      "resolution6": "Salvó el universo de ser devorado."
+    },
+    "investigatorDefeat": {
+      "title": "Derrota de investigadores",
+      "body": "<p>_Antes de resolver cualquier otra resolución, si al menos un investigador fue derrotado_: Los investigadores derrotados leen primero _Derrota de investigadores_.</p><p>_Derrota de investigadores_: Tu montura no te recoge cuando caes. Caes y caes y caes por vacíos sin fin de negrura consciente. Y caes. Y caes. Y caes. Y caes. Suplicas, gritas, imploras y rezas por un final, aunque sea un suelo contra el que estrellarte, pero nunca llega. Seguirás cayendo cuando se acabe el universo.</p><ul><li>Cada investigador derrotado _enloquece_.</li><li>Si se alcanzó otra resolución, los investigadores restantes proceden con esa resolución.</li><li>Si no se alcanzó ninguna resolución (cada investigador fue derrotado): Procede con la _Resolución 1_.</li></ul>"
+    },
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<p>_Resolución 1_: El Caos Primordial despierta. Su hambre es insoportable. Desencaja su mandíbula cósmica. Las fauces se abren de par en par. El universo enmudece. Pasan eones. Todo está quieto. En el centro del cosmos vacío, el Dios Idiota y Ciego vuelve a dormirse arrullado. Sueña. Dentro de su sueño, un estallido de energía cósmica se expande en todas direcciones. Nace un universo. Las nebulosas colapsan y se convierten en estrellas. Se forjan mundos nuevos, y evolucionan seres nuevos que los habitan. Inevitablemente, alguien sabe de Azathoth. Su culto crece. Al final, todos sucumbirán a la locura o se reunirán contigo en el olvido… Pues, en el gran designio del destino, no somos más que motas de polvo a la deriva en el éter, que viven solo por el capricho de un cosmos indiferente.</p><ul><li>En tu Registro de campaña, anota que *Azathoth devoró el universo*.</li><li>Cada investigador _muere_.</li><li>Los investigadores pierden la campaña.</li></ul>"
+    },
+    "resolution2": {
+      "title": "Resolución 2",
+      "body": "<p>_Resolución 2_: Hasta hace poco no comprendiste el propósito de las horribles flautas que has oído sin cesar a lo largo de tu investigación. Son una especie de canción de cuna, destinada a impedir que el dios inconsciente despierte. Durante un breve instante, el canto de los flautistas se interrumpió, y Azathoth empezó a agitarse. Ahora entiendes por qué Anna acudió a ti aquella noche fatídica y te rogó que le dejaras leer tu fortuna. Sabía el papel que tendrías que desempeñar cuando llegaras aquí.</p><p>Te sientas al borde del trono sumido en la noche de la criatura, sacas tu flauta y empiezas a tocar.</p><p>En este lugar donde el tiempo, el hambre, la edad y el cansancio son rasgos mortales que no te conciernen, tu deber es seguir tocando. Sin falta. Sin fin.</p><ul><li>En tu Registro de campaña, anota que *el investigador Jefe se ha unido a los flautistas de Azathoth*.</li><li>En tu Registro de campaña, anota que *Azathoth duerme… por ahora*.</li><li>El investigador Jefe _enloquece_.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria. Cada investigador obtiene 5 de experiencia adicional por haber salvado el universo de ser devorado.</li><li>Cada investigador sufre 2 traumas mentales, al comprender que un día Azathoth despertará inevitablemente.</li><li>¡Los investigadores ganan la campaña!</li></ul>"
+    },
+    "resolution3": {
+      "title": "Resolución 3",
+      "body": "<p>_Resolución 3_: Te niegas a permitir que esta criatura destruya todo lo que has amado. Reúnes lo necesario para tu ritual —un poco de esencia sombría de las capas de las brujas, un fragmento de niebla espectral de los espectros que desterraste y el conocimiento que has obtenido al ahondar en el pasado de Arkham—. Despacio, en silencio, vas tejiendo tu muro, cosiendo oscuridad con sangre, sangre con almas, almas con ónice. Tardas una eternidad en completarlo. Cuando terminas, tu recompensa es el olvido. Una quietud y un silencio tan puros, tan perfectos, que ninguna perturbación puede penetrarlos. La barrera no puede contener a Azathoth —nada puede de verdad—, pero quizá ahora no se agite cuando los necios de la Tierra invoquen su nombre o se nutran de su poder. Cumplida tu tarea, te vuelves hacia la oscuridad e invocas a tu montura. Es hora de volver a casa.</p><ul><li>En tu Registro de campaña, anota que *Azathoth duerme… por ahora*.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria. Cada investigador obtiene 5 de experiencia adicional por haber salvado el universo de ser devorado.</li><li>Cada investigador sufre 2 traumas físicos, pues el viaje de vuelta de pesadilla pasa factura a su cuerpo.</li><li>¡Los investigadores ganan la campaña!</li></ul>"
+    },
+    "resolution4": {
+      "title": "Resolución 4",
+      "body": "<p>_Resolución 4_: Has llegado al trono sumido en la noche de Azathoth, pero no hay forma fácil de alcanzar a la criatura desde aquí; y, aunque la hubiera, no sabes qué podrías hacer para detenerla. No puedes matarla, y el mero intento de dañarla solo supondría el riesgo de despertarla. Desesperado, recurres al Libro Negro de Keziah en busca de respuestas. Cuando abres el tomo, una pluma aparece en tus manos, y una voz del más allá llega a tus oídos. «Fírmalo con tu sangre. Adopta un nuevo nombre secreto, y tu deseo se hará verdad. Tú y tu mundo seréis perdonados». Sabes que es la voz del mal: la voz que oyó Walter Gilman y que sin duda lo llevó a su fin, la voz que sedujo a Keziah Mason y que condujo a este camino desde el principio… pero ¿qué otra opción tienes?</p><p class='basic'>Los investigadores deben decidir (elige una):</p><ul><li>*«Hay que hacerlo».* Procede con la _Resolución 5_. Esto te condenará.</li><li>*«¡Me niego!».* Procede con la _Resolución 1_. Esto condenará al universo.</li></ul>"
+    },
+    "resolution5": {
+      "title": "Resolución 5",
+      "body": "<p>_Resolución 5_: Te pinchas el brazo con la pluma y firmas con sangre.</p><ul><li>En tu Registro de campaña, anota que *Azathoth duerme… por ahora*.</li><li>En tu Registro de campaña, anota que *los investigadores firmaron el Libro Negro de Azathoth*.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria. Cada investigador obtiene 10 de experiencia adicional por haber averiguado los secretos más recónditos del Libro Negro.</li><li>Cada investigador sufre 2 traumas físicos y 2 traumas mentales: las consecuencias de su pacto con el mensajero de Azathoth.</li><li>¿Los investigadores ganan la campaña…?</li></ul>"
+    },
+    "resolution6": {
+      "title": "Resolución 6",
+      "body": "<p>_Resolución 6_: Aquí está. El fin de todas las cosas y el trono sumido en la noche del ser conocido como Azathoth. Sabes que no tiene sentido hacerle daño —si es que algo así puede siquiera sufrirlo—, así que te dispones a buscar otra forma de impedir que despierte. Ahora entiendes que los espíritus que viste en la Colina del Ahorcado intentaban advertirte. Intentaban apartarte del mismo camino por el que Keziah los condujo hace tantos años. El conjuro de Anette sirvió de despertador a esta criatura, así que vas a transformarlo en una canción de cuna.</p><p>Tardas una eternidad en encontrar en estas inmensas salas sin tiempo al espíritu que sabe cómo invertir el conjuro. Y tardas aún más en arrancar las palabras de su garganta hueca. Pero juntos pronunciáis en voz alta el rito que pone fin de una vez por todas a la obra de Keziah. Azathoth vuelve a dormir, aunque sabes que no será para siempre. Cumplida tu tarea, te vuelves hacia la oscuridad e invocas a tu montura. Es hora de volver a casa.</p><ul><li>En tu Registro de campaña, anota que *Azathoth duerme… por ahora*.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria. Cada investigador obtiene 5 de experiencia adicional por haber salvado el universo de ser devorado.</li><li>Cada investigador sufre 1 trauma físico y 1 trauma mental, pues su labor de pesadilla pasa factura a su cuerpo y a su mente.</li><li>¡Los investigadores ganan la campaña!</li></ul>"
+    }
+  }
+}

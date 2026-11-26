@@ -1,0 +1,107 @@
+{
+  "heading": "Escenario VIII",
+  "label": {
+    "standaloneIchtacaSetAgainst": "Ichtaca está en contra de los investigadores. Añade 3 fichas de {'{'}tablet{'}'} a la bolsa de caos.",
+    "standaloneAlejandroSetAgainst": "Alejandro está en contra de los investigadores. Añade 3 fichas de {'{'}cultist{'}'} a la bolsa de caos.",
+    "standaloneBothSetAgainst": "Ichtaca está en contra de los investigadores. Alejandro está en contra de los investigadores. Añade 2 fichas de {'{'}elderThing{'}'} a la bolsa de caos. Elige esta opción para el desafío definitivo.",
+    "yigsMercy": {
+      "refused": "Ichtaca rechaza tu súplica",
+      "reject": "Jamás podría dar la espalda a la humanidad",
+      "accept": "Acepto"
+    },
+    "anotherWay": {
+      "reject": "Jamás podría dar la espalda a la humanidad",
+      "accept": "Acepto"
+    },
+    "unknowablePast": {
+      "reveal": "Revela 4 fichas de caos. Por cada símbolo {'{'}skull{'}'}, {'{'}cultist{'}'}, {'{'}tablet{'}'}, {'{'}elderThing{'}'} o {'{'}autoFail{'}'} revelado, recibe 1 daño y 1 horror.",
+      "discard": "Elige y descarta 1 carta de tu mano y baraja Pasado inescrutable en el mazo de Exploración. No puedes elegir esta opción si Pasado inescrutable se robó del mazo de Exploración."
+    },
+    "checkSupplies": "Comprobar suministros"
+  },
+  "tokens": {
+    "easyStandard": {
+      "skull": "-2 (-4 en su lugar si la Reliquia de las eras está en tu Lugar).",
+      "cultist": "-2. Si no tienes éxito por al menos 1, coloca 1 perdición sobre el enemigo _Sectario_ más cercano.",
+      "tablet": "-2. Si estás envenenado, esta prueba fracasa automáticamente en su lugar.",
+      "elderThing": "-2. Si fracasas, baraja en el mazo de Exploración la traición _Maleficio_ superior de la pila de descartes de Encuentro."
+    },
+    "hardExpert": {
+      "skull": "-3 (-5 en su lugar si la Reliquia de las eras está en tu Lugar).",
+      "cultist": "-3. Si no tienes éxito por al menos 1, coloca 1 perdición sobre cada enemigo _Sectario_.",
+      "tablet": "-3. Si estás envenenado, esta prueba fracasa automáticamente en su lugar. Si no estás envenenado y fracasas, pon en juego en tu zona de amenaza una debilidad Envenenado dejada aparte.",
+      "elderThing": "-3. Baraja en el mazo de Exploración la traición _Maleficio_ superior de la pila de descartes de Encuentro."
+    }
+  },
+  "intro": {
+    "title": "Escenario VIII: Eones destrozados",
+    "theBraziersAreLit": "Consulta el Registro de campaña. *Si los braseros están encendidos*, procede con la _Introducción 1_.",
+    "theBraziersRemainUnlit": "*Si los braseros permanecen apagados*, pasa a la _Introducción 2_.",
+    "intro1": "<p>_Introducción 1_: Las llamas azul plateado que te han guiado por estos pasadizos son el único vestigio de esperanza que te queda. Uno tras otro, los braseros te llevan adelante. Alguien o algo colocó aquí estos dispositivos. La tecnología no es muy distinta de la que viste en las cavernas de K'n-yan o en las ruinas eztli donde se halló la reliquia. Sin embargo, parece que quien se aventuró tan por debajo de la corteza terrestre debió de dar media vuelta y huir, pues el último brasero está volcado y roto, y no ves ninguno más por delante. Por suerte, no tienes que avanzar mucho tiempo a oscuras. En cuestión de minutos llegas ante un enorme umbral de piedra: sin duda, la entrada del Nexo.</p><p class='basic right'>Pasa a la _Introducción 3_.</p>",
+    "intro2": "<p>_Introducción 2_: Como no tienes ninguna luz que te guíe, has pasado cada instante de vigilia con una parte del cuerpo pegada a la pared de la caverna, usando la fría piedra para orientarte sin perder el rumbo. Mientras avanzas, tus dedos encuentran surcos cálidos y lisos en la pared: la misma tecnología latente que había en las ruinas eztli. Está claro que no eres el primero en entrar en este lugar abismal. Sin embargo, quienes vinieron antes debieron de huir sin terminar su labor, pues los canales no se encendieron para guiarte ni destellaron con furia cuando te acercaste. Las horas pasan mientras avanzas poco a poco en la oscuridad, hasta que por fin llegas ante un enorme umbral de piedra: sin duda, la entrada del Nexo.</p><p class='basic right'>Cada investigador comienza este escenario con 2 cartas menos en su mano inicial. Procede con la Introducción 3.</p>",
+    "intro3": {
+      "body": "<p>_Introducción 3_: Recorres con la mano las líneas grabadas en el umbral. Una inscripción. Una advertencia para que des media vuelta, pues abrir este paso es invocar la perdición. Está demasiado oscuro para reconocer el idioma, pero sabes que no es ninguno que la humanidad hable en estos tiempos. No tienes ni idea de cómo puedes entender el grabado. Quizá sea un último resto de memoria de tu estancia en Pnakotus, la ciudad perdida de los yithianos. O quizá estés loco de verdad y veas significado en las hendiduras naturales de la piedra. Al fin y al cabo, hace casi una semana que no ves la luz natural.",
+      "foundTheMissingRelic": "*Si los investigadores encontraron la reliquia desaparecida*, procede con la _Introducción 4_.",
+      "theRelicIsMissing": "*Si la reliquia ha desaparecido*, pasa a la _Introducción 5_."
+    },
+    "intro4": "<p>_Introducción 4_: El umbral de piedra está sellado cuando llegas, pero en cuanto te acercas, el artefacto empieza a vibrar y zumbar con fuerza. Los surcos del portón se encienden con un resplandor trémulo, y de pronto la puerta se abre por sí sola. Aferras el artefacto con fuerza y entras.</p><p class='basic right'>Pasa a la _Preparación_.</p>",
+    "intro5": "<p>_Introducción 5_: El umbral de piedra ya está abierto cuando llegas. Los surcos del portón brillan con un resplandor trémulo. La Hermandad ya debe de estar aquí. Has llegado por los pelos.</p><p class='basic right'>Procede con la _Preparación_.</p>"
+  },
+  "setup": {
+    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de encuentro: *Eones destrozados*, *Hermandad pnakótica*, *Flujo temporal* y *Antiguos males*. Estos conjuntos se indican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/shattered-aeons.png' /><img src='{setImgPath}/pnakotic-brotherhood.png' /><img src='{setImgPath}/temporal-flux.png' /><img src='{setImgPath}/ancient-evils.png' /></section>",
+    "gatherSetsCultist": "Si hay más fichas de {'{'}cultist{'}'} que de {'{'}tablet{'}'} en la bolsa de caos, reúne también el conjunto de encuentro Secta oscura, indicado por este icono:<section class='encounter-sets'><img src='{setImgPath}/dark-cult.png' /></section>",
+    "gatherSetsTablet": "Si hay más fichas de {'{'}tablet{'}'} que de {'{'}cultist{'}'} en la bolsa de caos, reúne también el conjunto de encuentro Agentes de Yig, indicado por este icono:<section class='encounter-sets'><img src='{setImgPath}/agents-of-yig.png' /></section>",
+    "gatherSetsEqual": "Si hay la misma cantidad de fichas de {'{'}cultist{'}'} y de {'{'}tablet{'}'} en la bolsa de caos, reúne también los conjuntos de encuentro Secta oscura y Agentes de Yig, indicados por estos iconos:<section class='encounter-sets'><img src='{setImgPath}/dark-cult.png' /><img src='{setImgPath}/agents-of-yig.png' /></section>",
+    "placeLocations": "Pon en juego el Nexo de N'kai. Cada investigador comienza la partida en el Nexo de N'kai.",
+    "setAsideEnemies": "Deja aparte, fuera del juego, las 2 cartas de enemigo que se muestran aquí: Ichtaca (*Vástago de Yig*) y Alejandro Vela (*¿O no es él?*).",
+    "setAsideEnemiesNote": "<div class='columns' style='overflow: none;padding-bottom: 40px;'><div style='flex-basis: 20%;'>*Nota: Estas cartas son de doble cara y tienen cartas de historia en el otro lado. Para disfrutar mejor de la experiencia, no mires el otro lado a menos que un efecto te lo indique.*</div><div style='flex:1; margin-top: 30px;' class='fan'><img src='{setImgPath}/../cards/04325.avif' /><img src='{setImgPath}/../cards/04326.avif' /></div></div>",
+    "setAside": "Deja aparte las siguientes cartas, fuera del juego: Semilla informe, Reliquia de las eras (*Desatar la corriente temporal*), Una burbuja en el tiempo, Acto 4a—«Paraíso perdido», Acto 4a—«Bloqueo temporal» y los 6 Lugares _Destrozado_ de una sola cara.",
+    "explorationDeck": "Crea el mazo de Exploración. Para ello, baraja juntos los 3 Lugares restantes de una sola cara con 1 copia de cada una de las siguientes cartas de encuentro: Devastado por el tiempo, Entre los mundos y Antiguos males.",
+    "yigsFury": "Consulta el Registro de campaña. Por cada 10 marcas bajo «Furia de Yig», coloca boca abajo en la zona de victoria la carta superior del mazo del investigador Jefe. Durante el resto del escenario, trata cada una de esas cartas como si tuviera _Venganza 1_.",
+    "returnTo": {
+      "gatherSets": "Reúne también todas las cartas de los siguientes conjuntos de encuentro: *Regreso a Eones destrozados*, *Cazadores temporales* y *Secta de Pnakotus*. Estos conjuntos se indican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/return-to-shattered-aeons.png' /><img src='{setImgPath}/temporal-hunters.png' /><img src='{setImgPath}/cult-of-pnakotus.png' /></section>*Cazadores temporales* sustituye a *Flujo temporal* y *Secta de Pnakotus* sustituye a *Secta oscura*. Retira del juego los conjuntos sustituidos.",
+      "explorationDeck": "Al construir el mazo de Exploración, usa solo los 4 Lugares _Sobrenatural_ de una sola cara. No incluyas ninguna de las demás cartas de encuentro indicadas en las instrucciones de preparación originales.",
+      "setAside": "Deja aparte también, fuera del juego, los nuevos Lugares _Destrozado_.",
+      "additionalRule": "Durante este escenario se aplica la siguiente regla adicional: _Obligado_ – Después de que termine una exploración con éxito: baraja la carta superior del mazo de Encuentro en el mazo de Exploración."
+    }
+  },
+  "specialRules": [
+    {
+      "title": "@:theForgottenAge.shatteredAeons.storyCards.title",
+      "body": "@:theForgottenAge.shatteredAeons.storyCards.body"
+    }
+  ],
+  "storyCards": {
+    "title": "Cartas de historia",
+    "body": "Las cartas de historia son un nuevo tipo de carta que aparece en este Pack de Mitos. Sirven como vía para añadir narración y suelen aparecer en el reverso de otra carta de escenario. Cuando se te indique que resuelvas una carta de historia, simplemente lee su texto narrativo y resuelve su texto de juego, si lo tiene."
+  },
+  "resolutions": {
+    "xp": {
+      "resolution1": "Reparó la línea temporal destrozada y salvó a la Tierra de la catástrofe."
+    },
+    "noResolution": {
+      "title": "Sin resolución",
+      "body": "_Si no se alcanzó ninguna resolución (cada investigador abandonó o fue derrotado)_: Lee la _Resolución 4_."
+    },
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<p>_Resolución 1_:</p><p class='anke'>Jueves, 17 de diciembre de 1925</p><p>Me cuesta transmitir por completo lo que pienso sobre los sucesos del verano de 1925. Por supuesto, le conté todo a Harlan —que sospecho que es la única persona dispuesta a avalar mi historia—, pero hasta ahora no me había sentado a ponerlo por escrito. Quizá habría preferido que esos sucesos fueran fruto de mi imaginación.</p><p>La verdad es que no tengo ni idea de cómo logramos salir vivos de las cavernas bajo la jungla. El mero hecho de llegar a aquel lugar abismal fue un calvario infernal. Mi recuerdo del viaje de regreso es confuso y desordenado. Avanzamos a trompicones en la oscuridad durante lo que parecieron siglos. Nos habíamos quedado sin comida, sin suministros, sin esperanza… pero de algún modo encontramos la salida.</p><p>Nuestra recompensa por impedir la calamidad fue el desprecio y la burla. Ningún periódico ni universidad respetable quiso publicar nuestros hallazgos y, desde luego, no teníamos más pruebas de la expedición que nuestras cicatrices y pesadillas. Ojalá pudiera decir que el recuerdo de estos sucesos se ha desvanecido con el paso de los días, pero nunca olvidaré la ciudad alienígena que exploramos en nuestros cuerpos cónicos, las serpientes que nos persiguieron por la rojiza Yoth, la abominación informe que habitaba en las profundidades de la Tierra…</p><p>Quizá por eso temo redactar un testimonio de nuestros hallazgos: porque estos recuerdos cristalizarán y quedarán grabados en mi mente, condenándome para siempre a una vida de terror y consternación. Aun así, el mundo necesita saber lo que vimos. Lo que hicimos.</p><ul><li>En tu Registro de campaña, anota que *los investigadores repararon la grieta en el tejido del tiempo*.</li><li>Cada investigador sufre 2 trauma físico y 2 trauma mental, pues nunca se recupera del todo de la expedición a N'kai.</li><li>Cada Lugar unido a la Reliquia de las eras que tenga Victoria X se añade a la zona de victoria.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria. Cada investigador obtiene 5 de experiencia adicional por haber reparado la línea temporal destrozada y salvado a la Tierra de la catástrofe.</li><li>¡Los investigadores ganan la campaña!</li></ul>"
+    },
+    "resolution2": {
+      "title": "Resolución 2",
+      "body": "<p>_Resolución 2_: Trasladados a otro tiempo, Valusia y los hijos de Yig siguen viviendo. Preservados por la nueva línea temporal que has creado, tú y la gente serpiente estáis a salvo de los sucesos que causaron la destrucción de su patria hace mucho, en otro tiempo. Todas tus transgresiones pasadas contra la estirpe serpiente quedan perdonadas, y se te concede la oportunidad de vivir en el reino paradisíaco de Valusia, rehecho a imagen de Yig. Aunque quizá hayas dado la espalda a la humanidad, te consuela saber que la Tierra se ha salvado de la ruina total. Gracias a tus actos, las serpientes te valoran y respetan, igual que tu nuevo Padre. Tu nueva vida es cómoda y está llena de maravillas que jamás habrías podido imaginar. Y sin embargo, de vez en cuando contemplas la selva más allá de Valusia y te preguntas si podrías haber hecho otra cosa…</p><ul><li>En tu Registro de campaña, anota que *los investigadores salvaron la civilización de las serpientes.*</li><li>La Tierra se salva, y los investigadores ganan la campaña…</li><li>…Pero los investigadores han reconfigurado el mundo y existen en otro tiempo por completo. Estos investigadores no pueden trasladarse a otra campaña. (Debes empezar de cero).</li></ul>"
+    },
+    "resolution3": {
+      "title": "Resolución 3",
+      "body": "<p>_Resolución 3_: Trasladados a otro tiempo, Pnakotus y la Gran Raza de Yith siguen viviendo. Preservados por la nueva línea temporal que has creado, tú y los yithianos estáis a salvo de los extraterrestres que acabaron con su especie hace mucho, en otro tiempo. Te llevan a la ciudad y te conceden libertades que ninguna otra mente cautiva recibió jamás. Aunque al principio añoras tu antigua vida, el sentimiento se desvanece cuanto más tiempo pasas en esta nueva y extraña Tierra. Recorres el mundo en colosales aeronaves y te sumerges en el conocimiento colectivo de los yithianos, acumulado en sus vastos archivos tras siglos de investigación. Tus estudios desvelan secretos que ningún otro ser humano conocerá jamás. Presencias avances tecnológicos que harían llorar a la humanidad. Y te preparas para un futuro maldito que quizá todavía llegue a cumplirse.</p><ul><li>En tu Registro de campaña, anota que *los investigadores salvaron la civilización de los yithianos.*</li><li>La Tierra se salva, y los investigadores ganan la campaña…</li><li>…Pero los investigadores han reconfigurado el mundo y existen en otro tiempo por completo. Estos investigadores no pueden trasladarse a otra campaña. (Debes empezar de cero).</li></ul>"
+    },
+    "resolution4": {
+      "title": "Resolución 4",
+      "body": "<p>_Resolución 4_: La realidad tal como la conoces nunca volverá a ser la misma, pero quizá esto no sea el fin del mundo. Al fin y al cabo, el tiempo es solo una dimensión: una dimensión que la humanidad apenas comprende. Experimentamos el tiempo, pero no podemos verlo. Podemos medirlo, pero no alterarlo. ¿Y qué si la cuarta dimensión se ha dividido en cientos de miles de planos de existencia? Nuestras débiles mentes humanas no pueden comprender las consecuencias, pero el universo sigue existiendo, y sus fronteras en perpetua expansión ya no están limitadas por los confines del tiempo.</p><ul><li>En tu Registro de campaña, anota que *se ha deshecho el tejido del tiempo.*</li><li>Cada investigador _enloquece_.</li><li>Los investigadores pierden la campaña.</li></ul>"
+    },
+    "resolution5": {
+      "title": "Resolución 5",
+      "body": "<p>_Resolución 5_: Todo esto se puso en marcha cuando se profanaron por primera vez las ruinas eztli. La advertencia original de Ichtaca fue el último vestigio de su humanidad hablándote. Quería que tú y los demás exploradores dierais media vuelta, pero la curiosidad y la codicia pudieron más. Hasta aquel día se había mantenido el equilibrio. Alejandro buscaba la reliquia para sus propios fines. Ichtaca oyó la llamada de su amo y obedeció. Sin embargo, la verdadera causa de este caos es la humanidad. Ahora sabes lo que debes hacer. Ahora sabes cómo puedes salvar a todos.</p><ul><li>En tu Registro de campaña, anota que *los investigadores dieron marcha atrás al tiempo.*</li><li>Cada Lugar unido a la Reliquia de las eras que tenga Victoria X se añade a la zona de victoria.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.</li><li>Procede con el _Epílogo_.</li></ul>"
+    }
+  }
+}

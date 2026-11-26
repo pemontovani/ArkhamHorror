@@ -1,0 +1,132 @@
+{
+  "heading": "Escenario III",
+  "ui": {
+    "ichtacasDestination": "Destino de Ichtaca",
+    "ichtacasPrey": "Presa de Ichtaca"
+  },
+  "tokens": {
+    "easyStandard": {
+      "skull": "-X. X es la mayor cantidad de perdición sobre un enemigo _Sectario_.",
+      "cultist": "-2. Si no tienes éxito por al menos 1, recibe 1 daño.",
+      "tablet": "-2. Si no tienes éxito por al menos 1, coloca 1 perdición sobre el enemigo _Sectario_ más cercano.",
+      "elderThing": "-2. Si fracasas, pierde 1 de tus pistas."
+    },
+    "hardExpert": {
+      "skull": "-X. X es la cantidad total de perdición en juego.",
+      "cultist": "-2. Si no tienes éxito por al menos 2, recibe 1 daño directo.",
+      "tablet": "-2. Si no tienes éxito por al menos 2, coloca 1 perdición sobre cada enemigo _Sectario_.",
+      "elderThing": "-3. Si fracasas, pierde 1 de tus pistas."
+    }
+  },
+  "xp": {
+    "bonus": "Comprende mejor las intrigas de la Hermandad.",
+    "forgingYourOwnPath": "Forjando tu propio camino"
+  },
+  "remembered": {
+    "youListenedToIchtacasTale": "Los investigadores han escuchado el relato de Ichtaca.",
+    "youFoughtWithIchtaca": "Habéis combatido con Ichtaca.",
+    "ichtacaLeftWithoutYou": "Ichtaca se fue sin los investigadores.",
+    "ichtacasDestination": "Destino de Ichtaca: {name}.",
+    "ichtacasPrey": "Presa de Ichtaca: {name}."
+  },
+  "label": {
+    "vedaWhitsley": {
+      "exploration": "Mirar la carta superior del mazo de Exploración",
+      "encounter": "Mirar la carta superior del mazo de Encuentro",
+      "damage": "Inflige 1 daño a Veda Whitsley para descartarla",
+      "horror": "Inflige 1 horror a Veda Whitsley para descartarla",
+      "putBack": "Devolverla"
+    }
+  },
+  "intro": {
+    "title": "Escenario III: Los hilos del destino",
+    "beWary": "«Deberíamos desconfiar de ellos».",
+    "listed": "«Quizá debería escucharles después de todo...»",
+    "label": {
+      "beWary": "«Deberíamos desconfiar de ellos».",
+      "listen": "«Quizá debería escucharles después de todo…»",
+      "skipToIntro4": "«No vas a ninguna parte hasta que me digas qué está pasando». - Pasa a la _Introducción 4_.",
+      "proceedToIntro4": "«No vas a ninguna parte hasta que me digas qué está pasando». - Procede con la _Introducción 4_.",
+      "skipToIntro5": "«Como quieras». - Pasa a la _Introducción 5_."
+    },
+    "intro1": "<p>_Introducción 1_: La noche transcurre con Ichtaca descansando en tu salón. No duermes en lo que queda de noche, y tus pensamientos oscilan entre la preocupación y la incredulidad. Su historia es disparatada, pero aun así te sientes obligado a creerla. Sabías que la reliquia de las ruinas eztli tenía un propósito más profundo desde que la viste por primera vez. Cuando sales de tu habitación a la mañana siguiente, tu invitada no deseada está sentada a la mesa del comedor, con los brazos fuertemente cruzados sobre el pecho. Sus ojos penetrantes siguen cada uno de tus movimientos como un ave que acecha a su presa. No hay cortesías. «¿Dónde está la reliquia ahora?», pregunta Ichtaca con impaciencia. «¿Adónde la habéis llevado?». Le explicas que está a salvo, en buenas manos. Ella niega con la cabeza, con los nudillos blancos de frustración. «Te aseguro que no».</p>",
+    "proceedToIntro2": "Consulta el Registro de campaña. *Si los investigadores le dieron la custodia de la reliquia a Alejandro* o *si Alejandro recuperó la Reliquia de las eras*: Procede con la _Introducción 2_.",
+    "skipToIntro3": "*Si los investigadores le dieron la custodia de la reliquia a Harlan Earnstone*: Pasa a la _Introducción 3_.",
+    "intro2": "<p>_Introducción 2_: Dejando a un lado por ahora tus muchas preguntas, llamas a tu contacto en el museo de la Universidad Miskatonic. A pesar de lo temprano que es, la Dra. Horowitz debería estar en su despacho preparándose para el largo día que le espera. La operadora te comunica tras una breve espera. Elli te saluda de forma insólitamente seca, con la voz quebrada e insegura. En cuanto le preguntas por la reliquia, resopla. «¡Tú también no! ¡El señor Walsted está a punto de echar abajo la puerta de mi despacho y dos periodistas llevan toda la mañana acosándome!».</p><p>Le preguntas qué ocurre y suelta un largo suspiro. «La reliquia ha desaparecido», explica. «Ningún guardia de seguridad sabe qué ha pasado. Estaba en su vitrina y un minuto después ya no estaba. Y antes de que preguntes: no, al señor Vela no se le encuentra por ningún lado». De repente grita a otra persona: «¡Un momento, por favor! ¡Estoy al teléfono!». Se disculpa secamente y cuelga un momento después.</p><p>En efecto, Alejandro no contesta al teléfono, y ninguno de sus otros conocidos lo ha visto desde ayer. «¿Me crees ahora?», pregunta Ichtaca, poniéndose en pie y recogiendo sus cosas. «Ya hemos perdido bastante tiempo. Encuentra la reliquia y reúnete conmigo aquí esta noche. No me sigas».</p><ul><li>El investigador Jefe debe decidir (elige una):<ul><li>«No vas a ninguna parte hasta que me digas qué está pasando». Pasa a la _Introducción 4_.</li><li>«Como quieras». Pasa a la _Introducción 5_.</li></ul></li></ul>",
+    "intro3": "<p>_Introducción 3_: Dejando a un lado por ahora tus muchas preguntas, llamas al despacho de Harlan en la universidad. Aunque el sol apenas asoma por el horizonte, siempre has sabido que es madrugador. La operadora te comunica tras una breve espera. La voz de Harlan suena temblorosa y áspera. Te corta en cuanto le preguntas por la reliquia. «¡No!», ladra. «Están escuchando. Saben que la guardo aquí. Ya se han llevado a Alejandro». Intentas calmarlo para preguntarle a qué se refiere, pero corta la conversación. «Tengo que irme. ¡Están aquí!…». La línea se corta.</p><p>En efecto, Alejandro no contesta al teléfono, y ninguno de sus otros conocidos lo ha visto desde ayer. «¿Me crees ahora?», pregunta Ichtaca, poniéndose en pie y recogiendo sus cosas. «Ya hemos perdido bastante tiempo. Encuentra la reliquia y reúnete conmigo aquí esta noche. No me sigas».</p><ul><li>El investigador Jefe debe decidir (elige una):<ul><li>«No vas a ninguna parte hasta que me digas qué está pasando». Procede con la _Introducción 4_.</li><li>«Como quieras». Pasa a la _Introducción 5_.</li></ul></li></ul>",
+    "intro4": "<p>_Introducción 4_: Ichtaca aprieta los dientes y se detiene. Esperas que se niegue y se marche sin responder a tus preguntas pero, sorprendentemente, cede. Según Ichtaca, su pueblo lleva siglos protegiendo la reliquia de intrusos que querrían usarla con fines infames. Habla en clave, con medias adivinanzas e historias inverosímiles, aunque se niega a explicar de dónde viene su pueblo y cómo ha permanecido oculto tanto tiempo. Cuando le insistes sobre la reliquia, lo único que dice es que controla el flujo del tiempo y que nadie debe manipularla.</p><p>«Debe volver al lugar que le corresponde», explica. Su mirada es implacable, firme. «¿Lo entiendes? No puede caer en las manos equivocadas. Si me ayudas a recuperarla, yo te ayudaré a cambio. Solo prométeme que no la usarás».</p><ul><li>Recuerda que «los investigadores han escuchado el relato de Ichtaca».</li><li>Añade 1 ficha de {'{'}cultist{'}'} a la bolsa de caos durante el resto de la campaña.</li><li>Pasa a la _Preparación_.</li></ul>",
+    "intro5": "<p>_Introducción 5_: Ichtaca encuerda su arco profusamente ornamentado con una rapidez aterradora y da un portazo al salir.</p><ul><li>Recuerda que «Ichtaca se fue sin los investigadores».</li><li>Consulta el Registro de campaña. Si los investigadores le dieron la custodia de la reliquia a Harlan Earnstone, procede con la _Introducción 6_. En caso contrario, pasa a la _Preparación_.</li></ul>",
+    "intro6": "<p>_Introducción 6_: Una vez que Ichtaca se ha marchado, sopesas sus palabras con cuidado y recuerdas los sucesos que te han traído hasta aquí. No confiaste la reliquia eztli a Alejandro, y dejaste marchar a Ichtaca sin interrogarla. ¿Será que te estás volviendo paranoico?…</p><ul><li>Los investigadores deben decidir (elige una):<ul><li>*«Deberíamos desconfiar de ellos».* Retira todas las fichas de {'{'}cultist{'}'} y {'{'}tablet{'}'} de la bolsa de caos y sustitúyelas por 1 ficha de {'{'}elderThing{'}'}. En tu Registro de campaña, anota que *los investigadores se están forjando su propio camino*. Durante el resto de la campaña, ningún investigador puede incluir a Alejandro Vela ni a Ichtaca en su mazo. Siempre que un investigador fuera a tener la opción de incluir a cualquiera de ellos, cada investigador obtiene en su lugar 2 de experiencia. Procede con la _Preparación_.</li><li>*«Quizá debería escucharles después de todo…»* Procede con la _Preparación_.</li></ul></li></ul>",
+    "intro7": "<p>_Introducción 7_: Por si no tuvieras ya otras muchas preocupaciones apremiantes, el artículo de esta mañana en el Arkham Advertiser despierta tu interés: «¡Caos en French Hill!». El artículo describe a continuación varios sucesos extraños observados en los alrededores de la propiedad de un tal Marshall Hastings en French Hill, un antiguo barrio de Arkham con mucha historia. Según la fuente del artículo, cuyo nombre no se revela, la mansión se ha convertido en una maraña de maleza y serpientes. El artículo informa de que una expedición reciente regresó con varios artefactos extraños, que iban a exponerse en la mansión Hastings. Te preguntas si tendrá algo que ver con vuestra expedición en busca de los eztli. Aunque no haya relación, la investigación podría ponerte en contacto con otras personas que a su vez puedan ayudarte.</p>"
+  },
+  "standalone": {
+    "label": {
+      "gaveCustodyToAlejandro": "Los investigadores le dieron la custodia de la reliquia a Alejandro.",
+      "gaveCustodyToHarlan": "Los investigadores le dieron la custodia de la reliquia a Harlan Earnstone."
+    }
+  },
+  "setup": {
+    "label": {
+      "chooseActDeck4": "- Este conjunto de encuentro contiene un cuarto mazo de Acto «g/h». Ajusta el contenido del mazo «g/h» como se indica. Los investigadores deben decidir (elige una):",
+      "findSource": "Encontrar a la fuente citada en la noticia del *Advertiser*",
+      "findRoot": "Encontrar el origen del problema"
+    },
+    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de encuentro: *Los hilos del destino*, *Hermandad pnakótica*, *Las máscaras de medianoche*, *Puertas cerradas*, *Ángeles descarnados* y *Secta oscura*. Estos conjuntos se indican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/threads-of-fate.png' /><img src='{setImgPath}/pnakotic-brotherhood.png' /><img src='{setImgPath}/midnight-masks.png' /><img src='{setImgPath}/locked-doors.png' /><img src='{setImgPath}/nightgaunts.png' /><img src='{setImgPath}/dark-cult.png' /></section>Al reunir el conjunto de encuentro *Las máscaras de medianoche*, reúne solo las 5 cartas de traición (2x Pista falsa y 3x Sombra acechante) y los siguientes Lugares: Barrio Norte, Centro (*Primer Banco de Arkham*), Barrio Este, Universidad Miskatonic y Barrio Fluvial. No reúnas el resto de los Lugares ni las cartas de acto, plan y referencia del escenario de ese conjunto.",
+    "beforeDrawingOpeningHands": "Antes de robar las manos iniciales, busca en la colección y en el mazo de cada jugador a Alejandro Vela y la Reliquia de las eras, y déjalas aparte, fuera del juego.",
+    "placeLocations": "Pon en juego Barrio Norte, Centro, Barrio Este, Universidad Miskatonic, Barrio Fluvial, Restaurante de Velma y Tienda de curiosidades. Cada investigador comienza la partida en el Barrio Fluvial.",
+    "setAside": "Deja aparte, fuera del juego, el Lugar Ayuntamiento, el apoyo Ichtaca (*La guardiana olvidada*) y el apoyo Diario de expedición.",
+    "actDecks": "Ajusta el contenido de cada mazo de Acto como se indica a continuación en _Tres actos, tres hilos._",
+    "returnTo": {
+      "gatherSets": "Reúne también todas las cartas de los siguientes conjuntos de encuentro: *Regreso a Los hilos del destino* y *Cult of Pnakotus*. Estos conjuntos se indican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/return-to-threads-of-fate.png' /><img src='{setImgPath}/cult-of-pnakotus.png' /></section>*Cult of Pnakotus* sustituye a *Secta oscura*. Retira del juego el conjunto sustituido.",
+      "setAside": "Deja aparte también, fuera del juego, el apoyo de historia Veda Whitsley.",
+      "actDecks": "Este conjunto de encuentro contiene un cuarto mazo de Acto «g/h». Los investigadores deben decidir (elige una): si deseas encontrar a la fuente citada en la noticia del *Advertiser*, retira del mazo «g/h» Buscando el significado, las dos copias de La finca invadida de vegetación y 1 de las 2 copias de Buscando problemas al azar; si deseas encontrar el origen del problema, retira Buscando a la fuente, las dos copias de Buscando problemas y 1 de las 2 copias de La finca invadida de vegetación al azar."
+    }
+  },
+  "threeActsThreeThreads": {
+    "title": "Tres actos, tres hilos",
+    "body": "<p class='basic'>Este escenario contiene tres mazos de Acto distintos: un mazo «a/b», un mazo «c/d» y un mazo «e/f». Cada uno de estos mazos de Acto se construye por separado, en orden numérico, como de costumbre. Durante este escenario, los tres mazos de Acto estarán en juego, y los jugadores pueden elegir qué actos perseguir y cuáles ignorar. El texto de los tres actos se considera activo en todo momento. Puede que no tengas tiempo de cumplir las tres tareas, ¡así que elige con cabeza qué pistas quieres seguir!</p><p class='basic'>El contenido de cada uno de estos mazos de Acto se modifica según las circunstancias siguientes.</p>",
+    "adjustAB": {
+      "body": "Ajusta el contenido del mazo «a/b» como se indica:",
+      "option1": "Consulta el Registro de campaña. *Si Alejandro recuperó la Reliquia de las eras* o *si los investigadores le dieron la custodia de la reliquia a Alejandro*, retira del mazo «a/b» las siguientes cartas de acto: ¡Harlan está en peligro!, las dos copias de La maldición de Harlan y una de las dos copias de En la exposición, al azar.",
+      "option2": "*Si los investigadores le dieron la custodia de la reliquia a Harlan Earnstone*, retira en su lugar del mazo «a/b» las siguientes cartas de acto: ¡La reliquia ha desaparecido!, las dos copias de En la exposición y una de las dos copias de La maldición de Harlan, al azar."
+    },
+    "adjustCD": {
+      "label": {
+        "goToThePolice": "Acudir a la policía para informar de la desaparición de Alejandro",
+        "lookOnYourOwn": "Buscar a Alejandro por tu cuenta"
+      },
+      "body": "Los investigadores deben elegir una de las siguientes opciones y ajustar el contenido del mazo «c/d» en consecuencia:",
+      "option1": "Si deseas acudir a la policía para informar de la desaparición de Alejandro, retira del mazo «c/d» las siguientes cartas de acto: La búsqueda de Alejandro, las dos copias de Amigos influyentes y una de las dos copias de En la comisaría, al azar.",
+      "option2": "Si deseas buscar a Alejandro por tu cuenta, retira en su lugar del mazo «c/d» las siguientes cartas de acto: Personas desaparecidas, las dos copias de En la comisaría y una de las dos copias de Amigos influyentes, al azar."
+    },
+    "adjustEF": {
+      "body": "Ajusta el contenido del mazo «e/f» como se indica:",
+      "option1": "Si «los investigadores han escuchado el relato de Ichtaca», retira del mazo «e/f» las siguientes cartas de acto: La prueba de la cazadora, las dos copias de La cueva de la oscuridad y una de las dos copias de Reliquias extrañas, al azar.",
+      "option2": "Si «Ichtaca se fue sin los investigadores», retira en su lugar del mazo «e/f» las siguientes cartas de acto: La investigación de la guardiana, las dos copias de Reliquias extrañas y una de las dos copias de La cueva de la oscuridad, al azar."
+    }
+  },
+  "resolutions": {
+    "xp": {
+      "forgingYourOwnPath": "Estás forjando tu propio camino",
+      "bonus": "Actos completados durante este escenario"
+    },
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<p>_Resolución 1_: Vuelves a tu casa y haces balance de la situación. Tu investigación por la ciudad ha sacado a la luz la existencia de una camarilla secreta dentro de Arkham. Por lo que sabes, se hacen llamar la Hermandad, y parecen saber más que tú sobre la reliquia eztli y la expedición anterior de Alejandro. Sus métodos son secretos y furtivos, y sus motivos aún se te escapan. Sin embargo, ha salido a la luz un dato fundamental.</p><p>«Buscan un lugar conocido como el Nexo de N'kai», asegura Ichtaca. Sobre la mesa, ante ti, hay un mapa de Centroamérica con la ruta de la expedición anterior marcada. «He oído hablar de ese lugar, pero no conozco su ubicación exacta». Una vez más, tu misteriosa guía parece saber más de lo que dice.</p><p>Sin más pistas que seguir, no te queda otra opción. Una vez más debes viajar a territorio inexplorado en busca de respuestas… pero ¿volverá alguien esta vez?</p>",
+      "checkCompletedActs": "Comprueba qué actos se completaron durante este escenario.",
+      "act3b": "Si se completó el acto 3b, anota en tu Registro de campaña que *los investigadores encontraron la reliquia desaparecida*. Si la Reliquia de las eras no forma ya parte del mazo de un investigador, cualquier investigador debe elegir incluirla en su mazo. Esta carta no cuenta para el tamaño de mazo de ese investigador. Durante el resto de la campaña, siempre que el propietario de la Reliquia de las eras abandone la campaña por cualquier motivo, elige a otro investigador y añádela a su mazo.",
+      "abActDeckStillInPlay": "Si el mazo de Acto «a/b» sigue en juego, anota en tu Registro de campaña que *la reliquia ha desaparecido*. Si la Reliquia de las eras forma parte del mazo de un investigador, retírala de ese mazo durante el resto de la campaña.",
+      "act3d": "Si se completó el acto 3d, anota en tu Registro de campaña que *los investigadores rescataron a Alejandro*. Si Alejandro Vela no forma ya parte del mazo de un investigador, cualquier investigador puede elegir incluirlo en su mazo. Esta carta no cuenta para el tamaño de mazo de ese investigador.",
+      "cdActDeckStillInPlay": "Si el mazo de Acto «c/d» sigue en juego, anota en tu Registro de campaña que *Alejandro ha desaparecido*. Si Alejandro Vela forma parte del mazo de un investigador, retíralo de ese mazo durante el resto de la campaña.",
+      "act3f": "Si se completó el acto 3f, anota en tu Registro de campaña que *los investigadores forjaron un vínculo con Ichtaca*. Cualquier investigador puede elegir incluir a Ichtaca (*La guardiana olvidada*) en su mazo. Esta carta no cuenta para el tamaño de mazo de ese investigador.",
+      "efActDeckStillInPlay": "Si el mazo de Acto «e/f» sigue en juego, anota en tu Registro de campaña que *Ichtaca está al margen*. No añadas a Ichtaca (*La guardiana olvidada*) al mazo de ningún investigador.",
+      "expeditionJournal": "El investigador Jefe obtiene la carta Diario de expedición y puede incluirla en su mazo. Esta carta no cuenta para el tamaño de mazo de ese investigador.",
+      "xp": "Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria. Cada investigador obtiene 1 de experiencia adicional por cada carta de acto 1 completada durante este escenario, al comprender mejor las intrigas de la Hermandad.",
+      "returnToXp": "Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria. <s>Cada investigador obtiene 1 de experiencia adicional por cada carta de acto 1 completada durante este escenario, al comprender mejor las intrigas de la Hermandad.</s>",
+      "resupply": "Procede al _Punto de reabastecimiento_.",
+      "act3g": "Si se completó el acto 3g, anota en tu Registro de campaña que los investigadores consiguieron la ayuda de otra expedición. Cualquier investigador puede elegir incluir el apoyo de historia Veda Whitsley en su mazo. Esta carta no cuenta para el tamaño de mazo de ese investigador.",
+      "additionalXp": "Cada investigador obtiene 1 de experiencia adicional por cada carta de acto 2 y de acto 3 completada durante este escenario, al comprender mejor las intrigas de la Hermandad. _La experiencia adicional obtenida por completar cartas de acto durante este escenario (incluidas las de acto 1) no puede gastarse en comprar cartas. En su lugar, debe gastarse en retirar el veneno o curar trauma, o convertirse en puntos de suministro, como se explica a continuación_. El resto de la experiencia obtenida puede usarse para comprar cartas y/o para cualquiera de estos otros fines, como de costumbre.",
+      "outline": "Durante el Punto de reabastecimiento al final de este escenario, ya no hay límite a la experiencia que puede gastarse en retirar trauma. Además, cada investigador puede convertir hasta 10 de su experiencia en puntos de suministro, a razón de 1 punto de suministro por cada 2 de experiencia convertidos."
+    }
+  }
+}

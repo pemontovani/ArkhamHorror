@@ -1,0 +1,103 @@
+{
+  "heading": "Escenario V–B",
+  "tokens": {
+    "easyStandard": {
+      "skull": "-1 (-3 en su lugar si estás en un Lugar _Cueva_).",
+      "cultist": "-2. Si fracasas, coloca 1 perdición en tu Lugar.",
+      "tablet": "-2. Si estás envenenado, esta prueba fracasa automáticamente en su lugar.",
+      "elderThing": "-3. Si fracasas, recibe 1 horror."
+    },
+    "hardExpert": {
+      "skull": "-2 (-4 en su lugar si estás en un Lugar _Cueva_).",
+      "cultist": "-3. Si fracasas, coloca 1 perdición en tu Lugar.",
+      "tablet": "-3. Si estás envenenado, esta prueba fracasa automáticamente en su lugar. Si no estás envenenado y fracasas, pon en juego en tu zona de amenaza una debilidad Envenenado dejada aparte.",
+      "elderThing": "-4. Si fracasas, recibe 1 horror."
+    }
+  },
+  "label": {
+    "pitfall": {
+      "jumpTheGap": "Prueba {'{'}agility{'}'} (3) para intentar saltar el hueco. Por cada punto por el que fracases, recibe 1 daño.",
+      "shuffle": "Baraja Trampa de foso en el mazo de Exploración. No puedes elegir esta opción si Trampa de foso se robó del mazo de Exploración."
+    },
+    "descentToYoth": {
+      "placeDoom": "Coloca 1 perdición en el Descenso a Yoth",
+      "draw": "Roba las 2 cartas superiores del mazo de Encuentro"
+    }
+  },
+  "tooltips": {
+    "mouthOfKnYanTheCavernsMaw": {
+      "resign": "«Acampemos y resolvamos este enigma mañana»."
+    },
+    "featheredSerpent": {
+      "evade": "Comprueba tus suministros. Si tienes un cetro misterioso, evitas automáticamente a la serpiente y le ordenas que inflija su daño a otro enemigo en su Lugar."
+    }
+  },
+  "part1": {
+    "intro": {
+      "title": "Escenario V–A: El corazón de los ancianos, parte 1",
+      "intro1": "<p>_Introducción 1_: Han pasado varios días desde que tu grupo se adentró una vez más en la selva, y cada día los peligros a los que te enfrentas son más graves y frecuentes. Conseguir comida y suministros suficientes para el viaje es una lucha constante, y los habitantes de la jungla te hostigan a cada paso. Por suerte, todavía no has visto ni rastro de la gente serpiente que atacó a la expedición anterior, pero estás seguro de que está ahí fuera. Observando. Esperando.</p><p>La mañana del sexto día encuentras la entrada. Es una enorme boca de cueva, parcialmente oculta por árboles, maleza y lianas. A pesar de su enormidad, casi pasaste de largo ante las grandes fauces de la caverna. Rodean la entrada seis columnas de piedra, cubiertas de extraños surcos y grabados que brillan con un tenue tono rojo. ¿Quizá alguno de tus guías entienda lo que significa?</p><ul><li>Los investigadores deben decidir (elige una):<ul><li>*Consultemos con Ichtaca*. Elige esta opción solo si Ichtaca está en el mazo de un investigador. Procede con la _Introducción 2_.</li><li>*Consultemos con Alejandro*. Elige esta opción solo si Alejandro Vela está en el mazo de un investigador. Procede con la _Introducción 3_.</li><li>*Consultemos el diario de la expedición*. Elige esta opción solo si el Diario de expedición está en el mazo de un investigador. Pasa a la _Introducción 4_.</li><li>*Ojalá supiéramos más sobre esto...* Pasa a la _Preparación_.</li></ul></li>",
+      "label": {
+        "ichtaca": "*Consultemos con Ichtaca*",
+        "alejandro": "*Consultemos con Alejandro*",
+        "expeditionJournal": "*Consultemos el diario de la expedición*",
+        "else": "*Ojalá supiéramos más sobre esto...*"
+      },
+      "intro2": "<p>_Introducción 2_: «La entrada está protegida contra los intrusos», dice Ichtaca enigmáticamente, con los ojos cerrados, como si sondeara la caverna con sentidos sobrenaturales. «Estas columnas son la clave. Cada una es una prueba de ingenio y voluntad». Se acerca a una de ellas y la toca con la palma, y su resplandor se intensifica. Ahora adviertes que los surcos en la base de la columna representan un patrón que ya has visto en alguna parte. Si Ichtaca cree que este lugar está protegido, te fías de su criterio: debe de haber alguna forma de romper esas protecciones…</p><p class='basic right'>Comienza este escenario con Ichtaca en juego. Pasa a la _Preparación_.</p>",
+      "intro3": "<p>_Introducción 3_: Alejandro examina con atención cada una de las columnas. «Es algún tipo de cerradura. Mira esto, ¿ves? Los surcos no encajan del todo». Gira una de las columnas, y ves cómo se desplaza el patrón de su costado. «Apuesto a que, si entrásemos en la cueva, no llegaríamos muy lejos sin que estas columnas estén en la posición correcta. Es solo una corazonada, supongo… Pero creo que deberíamos examinar mejor esta zona antes de seguir». A estas alturas conoces a Alejandro lo bastante como para saber que sus corazonadas suelen ser acertadas.</p><p class='basic right'>Comienza este escenario con Alejandro Vela en juego. Pasa a la _Preparación_.</p>",
+      "intro4": "<p>_Introducción 4_: El diario de la expedición anterior no tiene todas las respuestas pero, al hojear sus páginas, te sorprende un diagrama conocido: lo dibujó Lorenzo, un miembro de la expedición que nunca regresó a Arkham. Es una delicada reproducción de un grabado que había en la pared de una de las ruinas eztli. Muchos de los patrones y jeroglíficos de este dibujo aparecen también en estas columnas. No puede ser una simple coincidencia. Sin duda, estas columnas son la clave para encontrar el camino a N'kai…</p><p class='basic right'>Comienza este escenario con el Diario de expedición en juego. Procede con la _Preparación_.</p>"
+    },
+    "setup": {
+      "pathsKnownToYou": "Consulta el Registro de campaña. *Si los investigadores conocen 6 caminos*, sáltate este escenario y procede inmediatamente con la _Resolución 1_.",
+      "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de encuentro: *Columnas del juicio*, *El corazón de los ancianos*, *Selva*, *Serpientes*, *Expedición* y *Veneno*. Estos conjuntos se indican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/pillars-of-judgement.png' /><img src='{setImgPath}/heart-of-the-elders.png' /><img src='{setImgPath}/rainforest.png' /><img src='{setImgPath}/serpents.png' /><img src='{setImgPath}/expedition.png' /><img src='{setImgPath}/poison.png' /></section>",
+      "placeLocations": "Pon en juego la Boca de K'n-yan con el lado (*Las fauces de la caverna*) boca arriba. Cada investigador comienza la partida en la Boca de K'n-yan (*Las fauces de la caverna*).",
+      "insightIntoHowToEnterKnYan": "Consulta el Registro de campaña. Tu viaje al otro lado del límite del tiempo te ha revelado cómo entrar en K'n-yan. *Por cada camino que conozcan los investigadores*, coloca 1 recurso sobre la Boca de K'n-yan, como ficha de columna.",
+      "playedBefore": "Si ya habías jugado este escenario antes durante esta campaña y habías llegado al acto 2, dale la vuelta al acto 1a y colócalo en la Boca de K'n-yan.",
+      "explorationDeck": "Crea el mazo de Exploración. Para ello, baraja juntos los 6 Lugares _Jungla_ de una sola cara con 1 copia de cada una de las siguientes cartas de encuentro: Trampa de foso, ¡Hormigas!, Perdidos en la naturaleza y Escaso de suministros.",
+      "chooseLocations": "Elige al azar uno de los 3 siguientes Lugares _Ruinas_: Ruinas frondosas, Templo del colmillo y Altar de piedra. Baraja el Lugar elegido al azar en el mazo de Exploración. Retira del juego los otros 2.",
+      "mappedOutTheWayForward": "Consulta el Registro de campaña. *Si los investigadores cartografiaron el camino*, en lugar de barajar el Lugar elegido al azar en el mazo de Exploración, ponlo en juego.",
+      "poisoned": "Deja aparte cada debilidad Envenenado que no esté ya en el mazo de un investigador."
+    },
+    "resolutions": {
+      "noResolution": {
+        "label": {
+          "replay": "Volver a jugar el _Escenario V–A: El corazón de los ancianos, parte 1_",
+          "resolution2": "Proceder con la _Resolución 2_"
+        },
+        "title": "Sin resolución",
+        "body": "<p>_Si no se alcanzó ninguna resolución (cada investigador abandonó o fue derrotado)_: Los peligros de la jungla son demasiado grandes para seguir explorando. Si te quedas más tiempo, estas extrañas columnas serán tu tumba. Decides huir por ahora y regresas a un claro conocido, a varios kilómetros, donde puedes recuperarte. Sabes que tarde o temprano tendrás que volver a las columnas y descifrar el patrón que abrirá el camino… pero, por ahora, al menos estás a salvo.</p><ul><li>Si hay más fichas de columna sobre la Boca de K'n-yan que cuando empezó el escenario, tacha en tu Registro de campaña cuántos *caminos conocen los investigadores*. Después, anota que *los investigadores conocen X caminos*. X es el número de fichas de columna sobre la Boca de K'n-yan.</li><li>Los investigadores deben volver a jugar el _Escenario V–A: El corazón de los ancianos, parte 1_. Reinicia la partida a la _Preparación_ de este escenario. No anotes nada más en tu Registro de campaña salvo el trauma sufrido en la partida anterior. No se obtienen puntos de experiencia por la partida anterior. Cada jugador cuyo investigador haya muerto o enloquecido debe elegir un nuevo investigador, como de costumbre.</li></ul>"
+      },
+      "resolution1": {
+        "title": "Resolución 1",
+        "body": "<p>_Resolución 1_: Tragándote el miedo, entras en la caverna…</p><ul><li>En tu Registro de campaña, anota que *la jungla observa*. Al lado, entre paréntesis, anota los nombres de cada carta con Venganza X que haya en la zona de victoria. No anotes marcas bajo «Furia de Yig».</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.</li><li>Los investigadores no pueden gastar experiencia ni modificar sus mazos entre los escenarios V–A y V–B. Procede inmediatamente con el _Escenario V–B: El corazón de los ancianos, parte 2._</li></ul>"
+      },
+      "resolution2": {
+        "title": "Resolución 2",
+        "body": "<p>_Resolución 2_: Todavía no has completado el enigma de las seis columnas que sirven de entrada a K'n-yan, pero no quieres demorarte más en esta jungla hostil. Decides entrar en la caverna de todos modos, esperando que las «protecciones» que representan las columnas no sean más que antiguas supersticiones…</p><ul><li>Has allanado una tierra hostil. Coloca fichas de columna sobre la Boca de K'n-yan hasta que haya exactamente 6. Después, por cada ficha de columna añadida así, anota dos marcas bajo «Furia de Yig» en tu Registro de campaña.</li><li>Al pasar junto a las columnas, un dolor intenso te desgarra el cuerpo y te aflige una terrible maldición. Cada investigador envenenado sufre 1 trauma mental. Cada investigador que no esté envenenado añade a su mazo una debilidad Envenenado dejada aparte.</li><li>Procede con la _Resolución 1_.</li></ul>"
+      }
+    }
+  },
+  "part2": {
+    "setup": {
+      "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de encuentro: *K'n-yan*, *El corazón de los ancianos*, *Agentes de Yig*, *Ponzoña de Yig*, *Ruinas olvidadas*, *Trampas letales* y *Veneno*. Estos conjuntos se indican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/knyan.png' /><img src='{setImgPath}/heart-of-the-elders.png' /><img src='{setImgPath}/agents-of-yig.png' /><img src='{setImgPath}/yigs-venom.png' /><img src='{setImgPath}/forgotten-ruins.png' /><img src='{setImgPath}/deadly-traps.png' /><img src='{setImgPath}/poison.png' /></section>",
+      "placeLocations": "Pon en juego la Boca de K'n-yan con el lado (*Las profundidades del subsuelo*) boca arriba. Cada investigador comienza la partida en la Boca de K'n-yan (*Las profundidades del subsuelo*).",
+      "theJungleWatches": "Busca en la colección cada carta anotada entre paréntesis junto a *«la jungla observa»* en tu Registro de campaña. Añade esas cartas a la zona de victoria.",
+      "setAside": "Deja aparte, fuera del juego, el Lugar Descenso a Yoth.",
+      "explorationDeck": "Crea el mazo de Exploración. Para ello, baraja juntos los 5 Lugares restantes de una sola cara del conjunto de encuentro *K'n-yan* con 1 copia de cada una de las siguientes cartas de encuentro: Trampa de foso, Sin vuelta atrás, Oscuridad profunda y Último error.",
+      "poisoned": "Deja aparte cada debilidad Envenenado que no esté ya en el mazo de un investigador."
+    },
+    "resolutions": {
+      "noResolution": {
+        "title": "Sin resolución",
+        "body": "<p>_Si no se alcanzó ninguna resolución (cada investigador fue derrotado):_ Te despiertas tendido sobre piedra áspera en un lugar mucho más frío y profundo que antes. Te levantas y haces balance de lo que te rodea, y adviertes el resplandor rojo que parece emanar de la caverna a tu izquierda. Lo sigues durante varios minutos hasta que por fin te lleva a un vestíbulo bien iluminado, lleno de columnas de piedra. Al fondo de la estancia hay un umbral recargado y profusamente decorado: un disco de piedra que se ha hecho rodar a un lado para desvelar el reino infernal que hay más allá.</p><ul><li>Consulta el Registro de campaña.<ul><li>*Si los investigadores rescataron a Alejandro*, procede con la _Resolución 1_.</li><li>*Si Alejandro ha desaparecido*, procede con la _Resolución 2_.</li></ul></li></ul>"
+      },
+      "resolution1": {
+        "title": "Resolución 1",
+        "body": "<p>_Resolución 1_: «¡Por fin! ¡Yoth, la caverna de las serpientes! ¡Las malditas, las que huyeron de la destrucción de Valusia!». Alejandro examina el vestíbulo con asombro en los ojos y los brazos alzados en señal de júbilo. No sabes de qué habla, y empiezas a preocuparte. Justo entonces, algo se escabulle detrás de ti, y un sonido como el chasquido de unas pinzas te coge por sorpresa. De la oscuridad a tu espalda emergen varias criaturas alienígenas como nunca habías visto: de tres metros de altura, con cuerpos cónicos rematados en cuatro extraños apéndices de distinta longitud. «Ahí estáis», dice Alejandro con calma. Una de las criaturas responde entrechocando las pinzas según un patrón deliberado. «Quedaos con sus mentes», ordena Alejandro a las criaturas. «Ya no nos sirven». Es tu último recuerdo humano.</p><ul><li>Si el Heraldo de Valusia entró en juego durante este escenario:<ul><li>Si está en la zona de victoria, tacha «*el Heraldo sigue vivo*» en tu Registro de campaña.</li><li>Si sigue en juego o está dejado aparte, anota entre paréntesis junto a «*el Heraldo sigue vivo*» en tu Registro de campaña cuánto daño tiene el Heraldo de Valusia, sustituyendo el número que hubiera antes entre paréntesis.</li></ul></li><li>Por cada punto de venganza en la zona de victoria, anota una marca bajo «Furia de Yig» en tu Registro de campaña.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.</li></ul>"
+      },
+      "resolution2": {
+        "title": "Resolución 2",
+        "body": "<p>_Resolución 2_: Antes de que puedas cruzar al siguiente nivel de la caverna, un sonido como el chasquido de unas pinzas te coge por sorpresa. De la oscuridad a tu espalda emergen varias criaturas alienígenas como nunca habías visto: de tres metros de altura, con cuerpos cónicos rematados en cuatro extraños apéndices de distinta longitud. Te quedas atónito al ver una figura humana a la cabeza del grupo: no es otro que Alejandro Vela. «Quedaos con sus mentes», ordena Alejandro a las criaturas. «Ya no nos sirven». Es tu último recuerdo humano.</p><ul><li>Si el Heraldo de Valusia entró en juego durante este escenario:<ul><li>Si está en la zona de victoria, tacha «*el Heraldo sigue vivo*» en tu Registro de campaña.</li><li>Si sigue en juego o está dejado aparte, anota entre paréntesis junto a «*el Heraldo sigue vivo*» en tu Registro de campaña cuánto daño tiene el Heraldo de Valusia, sustituyendo el número que hubiera antes entre paréntesis.</li></ul></li><li>Por cada punto de venganza en la zona de victoria, anota una marca bajo «Furia de Yig» en tu Registro de campaña.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.</li></ul>"
+      }
+    }
+  }
+}

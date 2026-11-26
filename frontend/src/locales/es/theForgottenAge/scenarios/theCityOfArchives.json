@@ -1,0 +1,98 @@
+{
+  "heading": "Escenario VI",
+  "tokens": {
+    "easyStandard": {
+      "skull": "-1 (-3 en su lugar si tienes 5 o más cartas en la mano).",
+      "cultist": "-2. Si fracasas, coloca 1 de tus pistas en tu Lugar.",
+      "tablet": "-3. Si fracasas, descarta 1 carta al azar de tu mano.",
+      "elderThing": "@:theForgottenAge.theCityOfArchives.tokens.easyStandard.cultist"
+    },
+    "hardExpert": {
+      "skull": "-2 (si tienes 5 o más cartas en la mano, fracasas automáticamente en su lugar).",
+      "cultist": "-2. Coloca 1 de tus pistas en tu Lugar.",
+      "tablet": "-3. Por cada punto por el que fracases, descarta 1 carta al azar de tu mano.",
+      "elderThing": "@:theForgottenAge.theCityOfArchives.tokens.hardExpert.cultist"
+    }
+  },
+  "xp": {
+    "perfected": "Comprende mejor los secretos de la Tierra.",
+    "successful": "Comprende mejor los secretos de la Tierra.",
+    "backfired": "Comprende mejor los secretos de la Tierra."
+  },
+  "label": {
+    "cardsToDiscard": "Cartas que descartar"
+  },
+  "tooltips": {
+    "cyclopeanVaults": {
+      "discard": "Descarta cada carta de tu mano que no sea debilidad.",
+      "remember": "Si no tienes cartas en la mano: recuerda que has «leído acerca de la Tierra»."
+    }
+  },
+  "remembered": {
+    "foundTheProcess": "Has encontrado el proceso.",
+    "dissectedAnOrgan": "Has diseccionado un órgano.",
+    "interviewedASubject": "Has interrogado a un sujeto de pruebas.",
+    "realizedWhatYearItIs": "Has averiguado qué año es.",
+    "activatedTheDevice": "Has activado el dispositivo.",
+    "readAboutEarth": "Has leído acerca de la Tierra.",
+    "sawAFamiliarSpecimen": "Has visto un espécimen familiar."
+  },
+  "intro": {
+    "label": {
+      "cooperate": "*Cooperar y contar a las criaturas todo lo que sabéis*",
+      "resist": "*Negaros y resistiros al cautiverio*"
+    },
+    "title": "Escenario VI: La Ciudad de los Archivos",
+    "intro1": "<p>_Introducción 1:_ Recuerdas muy poco de los días siguientes. Tu conciencia va y viene mientras el agotamiento atenaza tu cuerpo, y tu mente intenta débilmente comprender qué te ha ocurrido exactamente.</p><p>Los habitantes de este lugar son las mismas criaturas con las que viste confraternizar a Alejandro: inmensos conos ondulados de carne húmeda, con cuatro gruesas extremidades que surgen de la parte superior. Su aspecto es horrendo, pero no te hacen el daño que esperabas. Pasas los primeros días inmovilizado mientras te interrogan, y varias de ellas son de algún modo capaces de comunicarse en inglés. Otras reproducen tu lengua con una extraña máquina futurista que se toca como un instrumento musical. Curiosamente, te recuerda al piano de jazz del Nightingale. Solo entonces te das cuenta de que tu cuerpo ha sido alterado. No tienes manos ni dedos con los que tocar las teclas, ni piernas sobre las que caminar, ni pulmones con los que gritar. Ahora eres uno de ellos, una de las criaturas que te han hecho cautivo, y tu cuerpo original no está por ninguna parte.</p><p>A pesar del cautiverio, las criaturas no parecen querer hacerte daño. Se limitan a interrogarte con toda clase de preguntas sobre una amplia variedad de temas: tu sociedad, tu profesión, tu tecnología, tu ecosistema, tu cuerpo humano. Su sed de conocimiento es insaciable, interminable. Sus preguntas van de lo mundano a lo complejo. Te imploran que escribas profusamente en tu propio idioma, y se llevan todo lo que escribes para guardarlo en sus vastos archivos. Te informan de que podrás recorrer libremente la ciudad si cooperas.</p><ul><li>Los investigadores deben decidir (elige una):<ul><li>*Cooperar y contar a las criaturas todo lo que sabéis*. Procede con la _Introducción 2_.</li><li>*Negaros y resistiros al cautiverio*. Pasa a la _Introducción 3_.</li></ul></li></ul>",
+    "intro2": "<p>_Introducción 2:_ Cooperas con las criaturas con la esperanza de ganarte la libertad. Estás harto del cautiverio, y quizá puedas encontrar el camino a casa si recorres la ciudad a tu antojo. Las criaturas parecen complacidas de que respondas a sus preguntas, aunque sus gestos siguen resultándote completamente ajenos. Los días se convierten en semanas, quizá más. Es difícil saberlo. Por fin, una de las criaturas te informa de que eres libre de recorrer los salones de la ciudad, con varias restricciones: no puedes dañar tu nuevo cuerpo, pues pertenece a otro de su raza, y no puedes salir de la ciudad. Te quitan las ataduras, y la criatura observa con gran interés cómo te acostumbras a tu cuerpo cónico.</p><p class='basic right'>En tu Registro de campaña, anota que *los investigadores cooperaron con los yithianos*.</p><p class='basic right'>Pasa a la _Preparación._</p>",
+    "intro3": "<p>_Introducción 3:_ Estas criaturas te secuestraron e incluso te arrebataron tu propio cuerpo. Te niegas a dar a tus captores una sola respuesta. Les escupirías en la cara si pudieras: si supieras escupir con semejante cuerpo y si supieras cuál de los cuatro apéndices distensibles de las criaturas es la cara. Romper las ataduras es una empresa desesperada, pero forcejeas para escapar de todos modos. Tus esfuerzos no pasan desapercibidos, y asignan a una de las criaturas para vigilarte. Parece más preocupada por impedir que dañes tu cuerpo que por impedir que escapes. Tras muchos días de cautiverio, encuentras la forma de aprovecharlo. Forcejeas con tanta fuerza contra las ataduras que se te clavan en la carne fría y coriácea, haciendo brotar un poco de sangre viscosa como el cieno. Tu centinela se acerca rápidamente, entrechocando las pinzas repetidamente. Te desata y, en cuanto lo hace, tus apéndices con pinzas golpean lo que crees que es la garganta de la criatura. Se desploma en el suelo retorciéndose de dolor.</p><p class='basic right'>En tu Registro de campaña, anota que *los investigadores se resistieron a su cautiverio*.</p><p class='basic right'>Procede con la _Preparación._</p>"
+  },
+  "setup": {
+    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de encuentro: *La Ciudad de los Archivos*, *Agentes de Yog-Sothoth*, *Puertas cerradas*, *Frío helador* y *Miedo impactante*. Estos conjuntos se indican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/city-of-archives.png' /><img src='{setImgPath}/agents-of-yog.png' /><img src='{setImgPath}/locked-doors.png' /><img src='{setImgPath}/chilling-cold.png' /><img src='{setImgPath}/striking-fear.png' /></section>",
+    "beforeDrawingOpeningHandsItems": "Antes de robar las manos iniciales, cada investigador busca en su mazo y en su área de juego todos los apoyos _Objeto_ únicos. Deja aparte cada uno de ellos, fuera del juego. No existen en esta época.",
+    "beforeDrawingOpeningHandsAlejandro": "Antes de robar las manos iniciales, si un jugador tiene a Alejandro Vela en su mazo, búscalo en el mazo de ese investigador y déjalo aparte, fuera del juego.",
+    "bodyOfAYithian": "Sustituye la carta de investigador de cada jugador por una carta de investigador Cuerpo de yithiano.",
+    "checkCampaignLog": "Consulta el Registro de campaña.",
+    "cooperated1": "*Si los investigadores cooperaron con los yithianos*, pon en juego la Sala de interrogatorios (*Sala de llegadas*) (es uno de los tres Lugares Sala de interrogatorios). Cada investigador comienza la partida en la Sala de interrogatorios (*Sala de llegadas*). Baraja al azar los otros dos Lugares Sala de interrogatorios y ponlos también en juego.",
+    "resisted1": "*Si los investigadores se resistieron a su cautiverio*, pon en juego la Sala de interrogatorios (*Sala de detención*) (es uno de los tres Lugares Sala de interrogatorios). Cada investigador comienza la partida en la Sala de interrogatorios (*Sala de detención*). Baraja al azar los otros dos Lugares Sala de interrogatorios y ponlos también en juego.",
+    "cooperated2": "*Si los investigadores cooperaron con los yithianos*, busca entre los conjuntos de encuentro reunidos un Observador yithiano y haz que aparezca sin enfrentar en el Lugar del investigador Jefe (ten en cuenta que obtiene indiferente por el texto del acto 1a). Después, cada investigador obtiene 1 pista de la reserva de fichas.",
+    "resisted2": "*Si los investigadores se resistieron a su cautiverio*, busca entre los conjuntos de encuentro reunidos un Observador yithiano y colócalo en la zona de victoria.",
+    "placeLocations": "Pon en juego los tres Lugares Salones de Pnakotus. Deja aparte cada uno de los Lugares restantes, fuera del juego.",
+    "setAside": "Deja aparte, fuera del juego, El custodio.",
+    "returnTo": {
+      "gatherSets": "Reúne también todas las cartas del conjunto de encuentro *Regreso a La Ciudad de los Archivos*. Se indica con el siguiente icono:<section class='encounter-sets'><img src='{setImgPath}/return-to-city-of-archives.png' /></section>",
+      "placeLocations": "Pon también en juego los Salones de Pnakotus (*Corredores sur*).",
+      "setAside": "Deja aparte también, fuera del juego, las Salas ciclópeas y el Vivero alienígena. (Estos Lugares deben ponerse en juego durante el acto 1b, cuando se pongan en juego el resto de los Lugares dejados aparte).",
+      "actDeck": "Retira del juego el Acto 2a, *Acceso restringido*, y sustitúyelo por el nuevo Acto 2a, *Acceso ilimitado*."
+    }
+  },
+  "specialRules": [
+    {
+      "title": "@:theForgottenAge.theCityOfArchives.bodyOfAYithian.title",
+      "body": "@:theForgottenAge.theCityOfArchives.bodyOfAYithian.body"
+    }
+  ],
+  "bodyOfAYithian": {
+    "title": "Cuerpo de yithiano",
+    "body": "<p class='basic'>Durante la preparación de este escenario, cada investigador debe sustituir su carta de investigador por una de las cartas de investigador Cuerpo de yithiano incluidas en este Pack de Mitos.</p><ul><li>El mazo de cada investigador sigue siendo el mismo pero, durante este escenario, deben usar una carta de investigador Cuerpo de yithiano y, por tanto, no pueden usar ninguna de las habilidades de su investigador.<ul><li>Cada investigador debe seguir usando su minicarta de investigador para saber quién es quién.</li></ul></li><li>Todo el trauma que normalmente se colocaría sobre tu investigador se traslada a tu carta Cuerpo de yithiano.</li><li>Todas las cartas unidas a tu carta de investigador o colocadas debajo de ella se unen a tu carta Cuerpo de yithiano o se colocan debajo de ella.</li><li>Durante el escenario, tu carta Cuerpo de yithiano tiene el mismo título que tu anterior carta de investigador. *Por ejemplo: si jugabas con Wendy Adams, trata la carta Cuerpo de yithiano como si su título fuera «Wendy Adams» durante este escenario.*</li><li>La carta Cuerpo de yithiano lleva el icono del conjunto de encuentro de *La Ciudad de los Archivos* y, por tanto, no puede usarse en ningún otro escenario salvo que se indique lo contrario.</li></ul>"
+  },
+  "resolutions": {
+    "xp": {
+      "bonus": "Comprendió mejor los secretos de la Tierra"
+    },
+    "noResolution": {
+      "title": "Sin resolución",
+      "body": "<p>_Si no se alcanzó ninguna resolución (cada investigador fue derrotado):_ «Alejandro, ¿qué estás…?», gritas de repente. Hay una enfermera inclinada sobre ti, examinándote los ojos con una lucecita. La apartas de un empujón y te pones en pie, de pronto confundido y desorientado. A pesar de las protestas de la enfermera, sales tambaleándote débilmente de la habitación. Estás en un hospital, cuyos pasillos blancos huelen ligeramente a desinfectante y otros productos químicos. ¿No estabas hace un momento explorando una especie de caverna subterránea?… No lo recuerdas.</p><p>«¿Disculpe? ¡Vuelva, tiene que descansar!». La enfermera te llama, te agarra del antebrazo y te devuelve a la camilla. Te examina con atención mientras te recuperas de la impresión de haber sido transportado tan lejos en tan poco tiempo. «¿Quién es Alejandro?», pregunta, y te cuesta recordarlo. El nombre no te suena de nada.</p><p>Le preguntas a la enfermera cómo has llegado hasta aquí, extrañado de que no le sorprenda tu súbita aparición. «Pero si ingresó usted mismo en el Santa María anoche. ¿No se acuerda?». No guardas ningún recuerdo de ello, y empiezas a preocuparte. «Se comportaba de forma un poco rara, si me permite la franqueza. Y hablaba de un modo extraño, casi como si el inglés no fuera su lengua materna. Pero ya veo que probablemente solo bebió un poquito de más». Repara en tu expresión inquisitiva y sonríe. «No se preocupe. Hoy en día vemos mucho de eso, ahora que todos los bares y tabernas vuelven a ser legales».</p><p>Te examinas la cara en el espejo. Estás cansado y más viejo de lo que recuerdas. Algo importante yace en el borde mismo de tu memoria, borroso y difuso. Tardas cerca de un minuto en caer en la cuenta de lo que implica la última frase de la enfermera. Te vuelves hacia ella y le preguntas en qué año estáis, aterrado por la respuesta.</p><p>«Pues en 1934, claro. ¡Vaya nochecita debe de haber tenido!», se ríe.</p><ul><li>En tu Registro de campaña, anota que *han eliminado los recuerdos de los investigadores*.</li><li>Cada investigador _enloquece_.</li><li>Los investigadores pierden la campaña.</li></ul>"
+    },
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<p>_Resolución 1:_ Te despiertas sobre la fría superficie de piedra del suelo de la caverna, con la mente mareada por su viaje a través del tiempo y el espacio.</p>",
+      "tasks": "Comprueba el número de tareas del acto 2b completadas durante este escenario.",
+      "tasks6": "Si se completaron las 6 tareas, anota en tu Registro de campaña que *el proceso fue perfeccionado*. Cada investigador obtiene 4 de experiencia adicional al comprender mejor los secretos de la Tierra.",
+      "tasks5": "Si se completaron 5 tareas, anota en tu Registro de campaña que *el proceso tuvo éxito*. Cada investigador obtiene 2 de experiencia adicional al comprender mejor los secretos de la Tierra.",
+      "tasks4": "Si se completaron 4 tareas, anota en tu Registro de campaña que *el proceso salió mal*. Cada investigador obtiene 1 de experiencia adicional al comprender mejor los secretos de la Tierra.",
+      "tasks3": "Si se completaron 3 tareas, anota en tu Registro de campaña que *el proceso salió espectacularmente mal*.",
+      "xp": "Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria."
+    }
+  }
+}

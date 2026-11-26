@@ -1,0 +1,123 @@
+{
+  "heading": "Escenario VII",
+  "specialRules": [
+    {
+      "title": "@:theCircleUndone.inTheClutchesOfChaos.choosingARandomLocation.title",
+      "body": "@:theCircleUndone.inTheClutchesOfChaos.choosingARandomLocation.body"
+    },
+    {
+      "title": "@:theCircleUndone.inTheClutchesOfChaos.breachesAndIncursions.title",
+      "body": "@:theCircleUndone.inTheClutchesOfChaos.breachesAndIncursions.body"
+    }
+  ],
+  "tokens": {
+    "easyStandard": {
+      "skull": "-X. X es la cantidad total de perdición y brechas en tu Lugar.",
+      "cultist": "Revela otra ficha. Si hay menos de 3 brechas en tu Lugar, coloca 1 brecha en tu Lugar.",
+      "tablet": "-2. Por cada punto por el que fracases, retira 1 brecha del Acto actual.",
+      "elderThing": "-3. Si fracasas, coloca 1 brecha en un Lugar al azar."
+    },
+    "hardExpert": {
+      "skull": "-X. X es 1 más que la cantidad total de perdición y brechas en tu Lugar.",
+      "cultist": "Revela otra ficha. Si hay menos de 3 brechas en tu Lugar, coloca 1 brecha en tu Lugar.",
+      "tablet": "-3. Por cada punto por el que fracases, retira 1 brecha del Acto actual.",
+      "elderThing": "-4. Si fracasas, coloca 1 brecha en un Lugar al azar."
+    }
+  },
+  "tooltips": {
+    "southChurch": {
+      "resign": "Te escondes durante toda la noche."
+    }
+  },
+  "label": {
+    "toilAndTrouble": {
+      "power": "Resolver la capacidad Revelación de la traición Poder situada más arriba en la pila de descarte de Encuentro",
+      "incursion": "Resolver una incursión en tu Lugar"
+    },
+    "breachesToRemove": "Brechas que retirar",
+    "merchantDistrict": {
+      "choose": "Pagar por brechas adicionales",
+      "removeSupply": "Retirar 1 suministro",
+      "removeCharge": "Retirar 1 carga",
+      "removeAmmo": "Retirar 1 munición",
+      "removeSecret": "Retirar 1 secreto"
+    }
+  },
+  "standalone": {
+    "label": {
+      "anetteMasonIsPossessedByEvil": "Anette Mason está poseída por el mal",
+      "carlSanfordPossessesTheSecretsOfTheUniverse": "Carl Sanford posee los secretos del universo"
+    }
+  },
+  "intro": {
+    "title": "Escenario VII: En las garras del caos",
+    "intro1": "<p>_Introducción 1_: Después de lo que viste en la Isla ignota, tu fe en la humanidad pende de un hilo. Te sientes como un espíritu descarriado que vaga por las calles sin rumbo. Ojalá pudieras volver a casa sin más y olvidar todo lo que ha pasado en las últimas semanas, pero sabes que no es más que una quimera. Tras horas deambulando sin objetivo, vuelves de golpe a la realidad al darte cuenta de que has llegado a la Plaza de la Independencia. Una suave brisa arrastra un rastro de hojas quebradizas por la hierba del claro y hace que levantes la vista. Allí, en medio de un círculo de hojas de colores otoñales, está sentada Anna Kaslow. Tiene los ojos cerrados, sumida en un profundo trance, y los dedos apretados contra las sienes. Ante ella, sobre la hierba, hay extendida una manta de lana y, encima, un círculo de cartas del tarot superpuestas y boca abajo. Te acercas y tomas asiento frente a la adivina. Solo ahora te das cuenta de lo dolorido y cansado que estás. Te duelen todos los músculos, y te cuesta un esfuerzo considerable no desmayarte de inmediato.</p><p class='basic'>Consulta el Registro de campaña.</p><ul><li>*Si nadie volvió a ver nunca a los investigadores ni tuvo noticias suyas*, procede con la _Introducción 2_.</li><li>En caso contrario, pasa a la _Introducción 3_.</li></ul>",
+    "intro2": "<p>_Introducción 2_: Reconoces a la adivina de tu investigación sobre las desapariciones en la mansión de Josef Meiger. Fue su consejo lo que condujo a la perdición al segundo grupo de víctimas, o eso sospechas. Curiosamente, ella también parece reconocerte. Recorre con los dedos el círculo de cartas que tiene delante. «Sospecho que las últimas semanas han sido bastante arduas para ti. ¿Vienes en busca de consejo?». Tuerces el gesto. La última vez que Anna leyó la buenaventura a alguien, la cosa no acabó bien para esa persona. ¿Por qué ibas a ser diferente?</p><p class='basic right'>Pasa a la _Introducción 4_.</p>",
+    "intro3": "<p>_Introducción 3_: Anna abre los ojos. «Me preguntaba cuándo volveríamos a vernos». Te preguntas en voz alta cómo es posible que no lo supiera, cuando todo lo demás que predijo se ha cumplido. Tu comentario te vale una sonora carcajada de la adivina. «Eso no significa que lo sepa todo, cariño». Recorre con los dedos el círculo de cartas. «Sospecho que las últimas semanas han sido bastante arduas para ti. ¿Vienes en busca de más consejo?». Tuerces el gesto. Todo esto empezó con una lectura de tu fortuna. ¿Por qué ibas a pensar que otra lectura hará que todo desaparezca?</p><p class='basic right'>Procede con la _Introducción 4_.</p>",
+    "intro4": "<p>_Introducción 4_: Antes de que puedas responder, Anna da la vuelta a la carta que tiene más cerca. Representa una furtiva figura encapuchada con cinco espadas clavadas en el suelo a su alrededor. Otros se encogen y huyen ante la figura victoriosa, y una vorágine de nubes negras se agita sobre su cabeza. Sobre la imagen, la carta pone: CINCO DE ESPADAS. «Quizá sientas que te han derrotado, pero no debes entregarte a la desesperación. Puede que la batalla haya terminado, pero tu lucha aún no ha acabado». La congoja se te atraganta. No deseas otra cosa que el fin de esta pesadilla, pero las palabras de Anna suenan ciertas: sabes que no terminará a menos que le pongas fin tú mismo.</p><p>Un fogonazo abrasa el cielo, seguido enseguida del estampido de un trueno. Las nubes que hay sobre ti no son naturales. En la niebla de las alturas se mueven y se agitan formas fantasmales. Si prestas atención, puedes oír a lo lejos, arrastrados por el viento, sus aullidos de dolor y tristeza. «Ha comenzado», dice Anna en voz baja. Te pones en pie, haciendo caso omiso del agotamiento, del dolor y del miedo.</p><p class='basic right'>Procede con la _Preparación_.</p>"
+  },
+  "setup": {
+    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de encuentro: *En las garras del caos*, *Agentes de Azathoth* y *Ángeles descarnados*. Estos conjuntos se indican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/in-the-clutches-of-chaos.png' /><img src='{setImgPath}/agents-of-azathoth.png' /><img src='{setImgPath}/nightgaunts.png' /></section>",
+    "placeLocations": "Elige al azar uno de los dos Lugares Barrio Fluvial, uno de los dos Lugares Distrito comercial, uno de los dos Lugares French Hill, uno de los dos Lugares Periferia, uno de los dos Lugares Barrio Sur y uno de los dos Lugares Iglesia del sur, y ponlos en juego. Retira de la partida las demás versiones de Barrio Fluvial, Distrito comercial, French Hill, Periferia, Barrio Sur e Iglesia del sur. Cada investigador comienza la partida en el Barrio Sur.",
+    "anetteMasonIsPossessedByEvil": {
+      "checkCampaignLog": "Consulta el Registro de campaña. *Si Anette Mason está poseída por el mal*, haz lo siguiente:",
+      "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de encuentro adicionales: *Música de los condenados*, *El aquelarre de Anette*, *Ciudad de pecados* y *Brujería*. Estos conjuntos se indican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/music-of-the-damned.png' /><img src='{setImgPath}/anettes-coven.png' /><img src='{setImgPath}/city-of-sins.png' /><img src='{setImgPath}/witchcraft.png' /></section>",
+      "actDeck": "Al construir el mazo de Acto, usa el Acto 1a —«Conocimiento oscuro (v. I)»— y el Acto 2a —«Más allá de la tumba»—.",
+      "placeLocations": "Pon en juego la Colina del Ahorcado (*Donde todo acaba*) y la Logia del Crepúsculo de Plata (*Envuelta en misterio*)."
+    },
+    "carlSanfordPossessesTheSecretsOfTheUniverse": {
+      "checkCampaignLog": "Consulta el Registro de campaña. *Si Carl Sanford posee los secretos del universo*, haz lo siguiente:",
+      "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de encuentro adicionales: *Secretos del universo*, *Logia del Crepúsculo de Plata*, *Miedo impactante* y *Las máscaras de medianoche*. Estos conjuntos se indican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/secrets-of-the-universe.png' /><img src='{setImgPath}/silver-twilight-lodge.png' /><img src='{setImgPath}/striking-fear.png' /><img src='{setImgPath}/midnight-masks.png' /></section>Al reunir el conjunto de encuentro Las máscaras de medianoche, reúne solo las 5 cartas de traición (2 Pista falsa y 3 Sombra acechante). No reúnas ninguna otra carta de ese conjunto de encuentro",
+      "actDeck": "Al construir el mazo de Acto, usa el Acto 1a —«Conocimiento oscuro (v. II)»— y el Acto 2a —«Nuevo orden mundial»—.",
+      "placeLocations": "Pon en juego la Logia del Crepúsculo de Plata (*Donde todo acaba*) y la Colina del Ahorcado (*Envuelta en misterio*)."
+    },
+    "setAside": "Deja aparte, fuera del juego, el enemigo Flautista de Azathoth.",
+    "breaches": {
+      "instructions": "Elige 2 Lugares distintos al azar. Coloca 1 brecha en cada uno de esos Lugares (*consulta Brechas e incursiones*).",
+      "twoPlayers": "Si hay 2 investigadores en la partida, realiza este paso dos veces.",
+      "threePlayers": "Si hay 3 investigadores en la partida, realiza este paso tres veces.",
+      "fourPlayers": "Si hay 4 investigadores en la partida, realiza este paso tres veces, eligiendo cada vez 3 Lugares distintos al azar en lugar de 2."
+    },
+    "returnTo": {
+      "gatherSets": "Reúne también todas las cartas de los siguientes conjuntos de encuentro: *Regreso a En las garras del caos*, *Ciudad de los malditos* y *Hechicería*. Estos conjuntos se indican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/return-to-in-the-clutches-of-chaos.png' /><img src='{setImgPath}/city-of-the-damned.png' /><img src='{setImgPath}/hexcraft.png' /></section>*Ciudad de los malditos* sustituye a *Ciudad de pecados* y *Hechicería* sustituye a *Brujería*. Retira del juego los conjuntos sustituidos.",
+      "placeLocations": "Elige al azar una de las tres copias de cada uno de los siguientes Lugares: French Hill, Barrio Fluvial, Barrio Sur, Periferia, Iglesia del sur y Distrito comercial. Retira del juego los Lugares elegidos y usa el resto durante la preparación, como de costumbre."
+    }
+  },
+  "choosingARandomLocation": {
+    "title": "Elegir un Lugar al azar",
+    "body": "<p class='basic'>Durante este escenario se te indicará a menudo que elijas un Lugar al azar. Para ello, baraja juntos los 8 Lugares que se retiraron de la partida durante la preparación (las versiones de cada Lugar en juego que no se están usando) y roba 1 al azar.</p><p class='basic'>Si se te indica que elijas varios Lugares distintos al azar, baraja juntos los 8 Lugares que no se están usando y roba al azar tantos Lugares distintos como se indique.</p>"
+  },
+  "breachesAndIncursions": {
+    "title": "Brechas e incursiones",
+    "body": "<p class='basic'>En este escenario la perdición no se acumula al ritmo habitual. En su lugar, se colocan en los Lugares brechas, representadas por fichas de recurso. Cuando se han colocado suficientes fichas de brecha en un mismo Lugar, se produce una _incursión_, que añade perdición a ese Lugar y hace que se abran brechas en los Lugares conectados. Por tanto, el objetivo principal de los investigadores en este escenario debe ser impedir las incursiones retirando brechas de los Lugares. Esto solo puede hacerse usando las capacidades de cada Lugar.</p><h3>Colocar brechas</h3><p class='basic'>Las brechas se colocan en los Lugares principalmente mediante la siguiente capacidad del Plan 1a: «Obligado – Cuando fuera a colocarse perdición sobre este Plan: en su lugar, coloca 1 brecha en tantos Lugares distintos al azar como el número de investigadores más 1». Sin embargo, los efectos de carta también pueden colocar brechas directamente en los Lugares.</p><p>*Por ejemplo: hay dos investigadores en la partida y es la Fase de Mitos. Durante el paso «colocar 1 de perdición sobre el Plan actual» de la Fase de Mitos, en lugar de colocar perdición sobre el Plan 1a, los investigadores deben elegir 3 Lugares distintos al azar. Los Lugares elegidos al azar son Barrio Sur, Barrio Fluvial y French Hill. Por tanto, se coloca 1 brecha en cada uno de esos Lugares.*</p><p>Cuando se colocan brechas en varios Lugares distintos, deben colocarse de una en una. Este proceso puede interrumpirse si causa una _incursión_ (ver más abajo).</p><h3>Resolver incursiones</h3><p class='basic'>Las incursiones se producen principalmente mediante la siguiente capacidad del Plan 1a: «_Obligado_ – Cuando fuera a colocarse una brecha en un Lugar con 3 brechas: en su lugar, resuelve una _incursión_ en ese Lugar». Sin embargo, los efectos de carta también pueden provocar una _incursión_. Para resolver una incursión en un Lugar, realiza los siguientes pasos en orden:</p><ul><li>Primero, retira todas las brechas de ese Lugar.</li><li>Segundo, coloca 1 de perdición en ese Lugar.</li><li>Por último, coloca 1 brecha en cada Lugar conectado. Esto puede provocar una reacción en cadena y causar incursiones adicionales, ¡así que cuidado!</li><li>Una vez resuelta una incursión en un Lugar, no se pueden colocar en ese Lugar brechas procedentes de otras incursiones durante el resto de esa fase.</li></ul><p>*Por ejemplo: va a colocarse una brecha en el Barrio Fluvial, que tiene 3 brechas. En su lugar, se resuelve una incursión en el Barrio Fluvial. Primero se retiran todas las brechas del Barrio Fluvial. Después se coloca 1 de perdición en el Barrio Fluvial. Por último, se coloca 1 brecha en cada uno de los Lugares conectados al Barrio Fluvial. Esto puede causar otra incursión en alguno de esos Lugares.*</p>"
+  },
+  "resolutions": {
+    "label": {
+      "continuedAlone": "«Ya has hecho bastante daño. A partir de aquí nos encargamos nosotros».",
+      "askedForAssistance": "«Necesitaremos tu ayuda para arreglar esto».",
+      "underArrest": "«Quedas bajo arresto».",
+      "spellsOfOld": "«Entonces enséñame a ser más fuerte».",
+      "assumedControl": "«No mereces liderarnos»."
+    },
+    "noResolution": {
+      "title": "Sin resolución",
+      "body": "<p>_Si no se alcanzó ninguna resolución (cada investigador abandonó o fue derrotado)_: Consulta el Registro de campaña.</p><ul><li>*Si Anette Mason está poseída por el mal*, procede con la _Resolución 3_.</li><li>*Si Carl Sanford posee los secretos del universo*, procede con la _Resolución 4_.</li></ul>"
+    },
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<p>_Resolución 1_: El espíritu ríe a carcajadas al oír tus palabras, pero su risa se interrumpe pronto. De entre los árboles surge el resto del aquelarre de Anette —encabezado por la bruja pelirroja Erynn— y la rodea sin decir palabra. Erynn te dirige un solemne gesto de asentimiento, y su convicción se trasluce a través de su severo semblante. Comprendiendo a qué han venido, te apartas y las dejas hacer su trabajo.</p><p>Una de las brujas traza un círculo en la tierra alrededor de Anette, mientras las demás la atan con zarcillos de energía abrasadora. El aparecido chilla y gime atormentado, pero las brujas no se atreven a detenerse. Por fin, cuando sus cánticos llegan al clímax, Erynn atraviesa la santidad del círculo con su cuchillo, empujando con firmeza contra el aire y esforzándose como si intentara perforar la roca maciza. El fantasma de Keziah se marcha en un torbellino de niebla espectral y se disipa en el aire con un último grito. Sin nada que lo sostenga, el cuerpo de Anette se desploma. «Se acabó», dices, poniendo una mano en el hombro de Erynn.</p><p>«No», replica con aspereza, señalando el cielo. Las nubes de tormenta han desaparecido, pero no cuentas ni una sola estrella en el cielo nocturno. Los bordes del horizonte enmarcan el vacío que se abre sobre ti, una brecha tan enorme que ni siquiera habías advertido que estaba ahí. ¿Cuánto tiempo llevaba cerniéndose sobre la ciudad mientras dedicabas tus esfuerzos a rechazar incursiones menores?</p><p>Preguntas qué se puede hacer para cerrar una brecha de ese tamaño. Ella aprieta la mandíbula. «No lo sé. Pero sé quién lo sabe». Se arrodilla junto a Anette, levanta la mano y la abofetea con fuerza. Anette despierta de una sacudida, arrancada de su estado catatónico.</p><p>«¿Es esto lo que querías, hermana?». Erynn la pone en pie a rastras y la obliga a contemplar la catástrofe que ha provocado.</p><p>«Sabes que no», responde Anette con la voz rota. «Solo quería que todas tuviéramos algo parecido a la fuerza que ella poseía. No tenía ningún deseo de usarla como ella lo hizo. Pero el espíritu tomó el control y no pude resistirme». Agacha la cabeza, resignada. «Lo siento, hermanas. Os he fallado a todas. No fui lo bastante fuerte».</p><ul><li>Los investigadores deben decidir (elige una):<ul><li>*«Ya has hecho bastante daño. A partir de aquí nos encargamos nosotros».* En tu Registro de campaña, anota que *los investigadores han continuado solos*.</li><li>*«Necesitaremos tu ayuda para arreglar esto».* En tu Registro de campaña, anota que *los investigadores le han pedido ayuda a Anette*.</li><li>*«Quedas bajo arresto».* Solo puedes elegir esta opción si al menos uno de los investigadores tiene el rasgo _Detective_, _Policía_ o _Agencia_. En tu Registro de campaña, anota que *los investigadores han arrestado a Anette*.</li><li>*«Entonces enséñame a ser más fuerte».* Solo puedes elegir esta opción si al menos uno de los investigadores tiene el rasgo _Hechicero_, _Miskatonic_ o _Erudito_. En tu Registro de campaña, anota que *Anette enseñó a los investigadores los hechizos de antaño*.</li></ul></li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.</li><li>Procede con el _Interludio IV: Giro del destino_.</li></ul>"
+    },
+    "resolution2": {
+      "title": "Resolución 2",
+      "body": "<p>_Resolución 2_: No te extrañaría que el presidente de la Logia del Crepúsculo de Plata mintiera sobre las consecuencias de tus actos; al fin y al cabo, ya te ha engañado más de una vez. Le preguntas qué quiere decir con que todos os vais a extinguir. Tuerce el gesto y te dice que mires fuera.</p><p>Las nubes de tormenta han desaparecido, pero no cuentas ni una sola estrella en el cielo nocturno. Los bordes del horizonte enmarcan el vacío que se abre sobre ti, una brecha tan enorme que ni siquiera habías advertido que estaba ahí. ¿Cuánto tiempo llevaba cerniéndose sobre la ciudad mientras dedicabas tus esfuerzos a rechazar incursiones menores?</p><p>Sanford cojea tras de ti y alza la vista al cielo nocturno. Preguntas qué se puede hacer para cerrar una brecha de ese tamaño pero, antes de que pueda responder, unas volutas de oscuridad emergen de las sombras y se retuercen hasta convertirse en capas negras. En cuestión de segundos te rodean las brujas del aquelarre de Anette. La suma sacerdotisa da un paso al frente y fulmina a Carl Sanford con toda la intensidad del mismísimo infierno.</p><p>«No confíes en la palabra de este siniestro gusano», te advierte. «Todo lo que ha hecho, lo ha hecho para favorecer sus propios intereses. Con gusto tomaría el mundo como rehén si eso le diera una última oportunidad de obtener poder».</p><p>A pesar de sus heridas, Sanford se pone en pie y le contesta a voz en cuello: «¡Qué hipocresía! ¿Olvidas que fuiste tú, con tu descarriada secta, quien empezó todo esto? ¿Invocando a los muertos y pidiéndoles poder?». Resopla con desdén. «Nosotros habríamos elevado a toda la humanidad. Vosotras solo buscabais elevaros a vosotras mismas». Sanford se vuelve para apelar a tu juicio una última vez. «No sea necio», dice en voz baja. «Este desenlace no es lo que desea la Logia. Permítame ayudar y, juntos, quizá podamos devolver las cosas a la normalidad».</p><ul><li>Los investigadores deben decidir (elige una):<ul><li>*«Ya has hecho bastante daño. A partir de aquí nos encargamos nosotros».* En tu Registro de campaña, anota que *los investigadores han continuado solos*.</li><li>*«Necesitaremos tu ayuda para arreglar esto».* En tu Registro de campaña, anota que *los investigadores le han pedido ayuda a Sanford*.</li><li>*«Quedas bajo arresto».* Solo puedes elegir esta opción si al menos uno de los investigadores tiene el rasgo _Detective_, _Policía_ o _Agencia_. En tu Registro de campaña, anota que *los investigadores han arrestado a Sanford*.</li><li>*«No mereces liderarnos».* Solo puedes elegir esta opción si al menos uno de los investigadores tiene el rasgo _Hechicero_, _Crepúsculo de Plata_ o _Sectario_. En tu Registro de campaña, anota que *los investigadores han tomado el control de la Logia del Crepúsculo de Plata*.</li></ul></li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.</li><li>Procede con el _Interludio IV: Giro del destino_.</li></ul>"
+    },
+    "resolution3": {
+      "title": "Resolución 3",
+      "body": "<p>_Resolución 3_: Anette se alza en el centro de su círculo de brujas, con los ojos encendidos de un poder sin límites. En lo alto, cientos de formas fantasmales tienden sus manos: una red de poder une a las brujas con sus hermanas difuntas. Los espectros descienden y cada uno reclama un cuerpo, manipulándolo para sus propios fines. La única muestra de resistencia de las brujas es la sangre que les gotea de los ojos mientras su hechizo, contra su voluntad, llega a la culminación.</p><p>«¡Ha llegado la hora!», declara a través de los labios de Anette la voz incorpórea de Keziah. «¡El Caos Primordial aguarda! ¡Escúchanos, Sultán de los Demonios!». Su voz se alza en la noche, y se abre una brecha mayor que el propio cielo. Los bordes del horizonte enmarcan el vacío que se abre en lo alto. Se extiende hasta el infinito, más allá de los confines del espacio tridimensional. «He hecho lo que me ordenaste», dice a un ser que no está presente, pero que puede oír cada una de sus palabras. «Ahora siega este mundo de los vivos y que sufran por sus errores». Dicho esto, las figuras espectrales desaparecen una a una, arrebatadas por el vacío de las alturas. Anette y sus hermanas se desploman sin ceremonias. Una flauta aguda y disonante trina por todo el tejido del mundo…</p><ul><li>En tu Registro de campaña, anota que *la perdición está cada vez más cerca*.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.</li><li>Procede con el _Interludio IV: Giro del destino_.</li></ul>"
+    },
+    "resolution4": {
+      "title": "Resolución 4",
+      "body": "<p>_Resolución 4_: Carl Sanford se alza en el estrado del Santuario interior de la Logia, ataviado con una túnica plateada y azul. Ante él, sus súbditos se arrodillan sometidos, listos para recibir el poder que se les prometió y reclamar su legítimo lugar en el nuevo mundo que van a crear. El tomo del que lee Sanford brilla con luz bruja. «¡Las ataduras de la mortalidad nos han refrenado demasiado tiempo!», declara cuando la ceremonia llega a su clímax. «¡Romperemos esas ataduras y ascenderemos a un plano superior!».</p><p>Sobre el mismo edificio en el que se encuentran se abre una brecha mayor que el propio cielo. Los bordes del horizonte enmarcan el vacío que se abre en lo alto. Se extiende hasta el infinito, más allá de los confines del espacio tridimensional. Entonces todas las velas del santuario de la Logia se apagan a la vez, y los cánticos cesan, seguidos de murmullos quedos y nerviosos. «¿Qué está pasando?», exige saber Sanford, que intenta desesperadamente leer el tomo que tiene delante. Pero es demasiado tarde. La Logia solo ha logrado acelerar su perdición. La verdadera inmortalidad solo pueden alcanzarla quienes son dignos de ella. Una flauta aguda y disonante trina por todo el tejido del mundo…</p><ul><li>En tu Registro de campaña, anota que *la perdición está cada vez más cerca*.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.</li><li>Procede con el _Interludio IV: Giro del destino_.</li></ul>"
+    }
+  }
+}

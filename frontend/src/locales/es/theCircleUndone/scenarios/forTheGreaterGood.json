@@ -1,0 +1,114 @@
+{
+  "heading": "Escenario V",
+  "tokens": {
+    "easyStandard": {
+      "skull": "-X. X es la mayor cantidad de perdición sobre un enemigo _Sectario_ en juego.",
+      "cultist": "-2. Revela otra ficha.",
+      "tablet": "-3. Si fracasas, coloca 1 de perdición sobre el enemigo _Sectario_ más cercano.",
+      "elderThing": "-3. Si fracasas, mueve 1 de perdición del enemigo _Sectario_ más cercano al Plan actual."
+    },
+    "hardExpert": {
+      "skull": "-X. X es la cantidad total de perdición entre los enemigos _Sectario_ en juego.",
+      "cultist": "-2. Revela otra ficha.",
+      "tablet": "-3. Si fracasas, coloca 1 de perdición sobre cada enemigo _Sectario_ en juego. Si no hay enemigos _Sectario_ en juego, revela otra ficha.",
+      "elderThing": "-3. Si fracasas, mueve al Plan actual toda la perdición del enemigo _Sectario_ que tenga más perdición. Si ningún enemigo _Sectario_ en juego tiene perdición, revela otra ficha."
+    }
+  },
+  "tooltips": {
+    "lodgeGatesWeveBeenExpectingYou": {
+      "resign": "Pensándolo mejor, quizá venir aquí ha sido mala idea"
+    },
+    "lodgeGatesMembersOnly": {
+      "resign": "Pensándolo mejor, quizá venir aquí ha sido mala idea"
+    },
+    "lobbyWeveBeenExpectingYou": {
+      "parley": "{'{'}action{'}'}: _Negociar._ Los guardias te reconocen de la finca de Meiger y te dejan pasar. Revela el Vestíbulo."
+    },
+    "lodgeCellarMembersOnly": {
+      "action": "{'{'}action{'}'}: Los investigadores en las Puertas de la Logia gastan, en grupo, 1 {'{'}perPlayer{'}'} pistas: revela el Sótano de la Logia."
+    }
+  },
+  "label": {
+    "unlight": "Apagar un brasero en tu Lugar",
+    "exhaust": "Agotar a El vigilante espectral",
+    "damage": "Infligir 5 de daño a El vigilante espectral",
+    "puzzleBox": {
+      "unlight": "Apagar un brasero en tu Lugar",
+      "damage": "Infligir 5 de daño a El vigilante espectral",
+      "exhaust": "Agotar a El vigilante espectral"
+    }
+  },
+  "standalone": {
+    "label": {
+      "members": "Los investigadores son miembros de la Logia.",
+      "notMembers": "Los investigadores no son miembros de la Logia."
+    }
+  },
+  "intro": {
+    "title": "Escenario V: Por el bien común",
+    "intro1": "<p>_Introducción 1_: Desde que rozaste la muerte en la Colina del Ahorcado, la situación en Arkham no ha hecho más que empeorar. En los días transcurridos se han denunciado más «avistamientos de fantasmas» e incluso varias desapariciones más. Una fina capa de niebla gris cubre las calles a todas horas, de día y de noche. En cuanto el sol empieza a ponerse cada tarde, las puertas se cierran con llave. Sin saber muy bien por qué, muy pocos se atreven a salir de noche. Algunos comercios incluso han cerrado sus puertas durante el día, alegando «mal tiempo». Las cosas se están yendo de las manos.</p><p class='basic'>Consulta el Registro de campaña.</p>",
+    "membersOfTheLodge": "*Si los investigadores son miembros de la Logia*, procede con la _Introducción 2_.",
+    "enemiesOfTheLodge": "*Si los investigadores son enemigos de la Logia*, pasa a la _Introducción 3_.",
+    "learnedNothingOfTheLodgesSchemes": "*Si los investigadores no descubrieron nada sobre los planes de la Logia*, pasa a la _Introducción 4_.",
+    "neverSeenOrHeardFromAgain": "*Si nadie volvió a ver nunca a los investigadores ni tuvo noticias suyas*, pasa a la _Introducción 5_.",
+    "intro2": "<p>_Introducción 2_: Está claro que la criatura que apareció en la gala benéfica de la Logia no está atada a la mansión de Josef Meiger, lo que significa que los horrores que has vivido podrían ser solo el principio de algo mucho peor. Es hora de informar de tus hallazgos a la Logia del Crepúsculo de Plata. Quizá puedan ayudarte a interpretar lo que has averiguado e indicarte cuál debe ser tu siguiente paso. Con su ayuda, puede que logres salvar Arkham…</p><p class='basic'>Consulta el Registro de campaña. *Si los investigadores están engañando a la Logia*, lee el cuadro siguiente. En caso contrario, omite este cuadro.</p>",
+    "deceivingTheLodge": "<p class='green'>…aunque sospechas que la Logia tiene otros intereses. Es evidente que la Logia sabe más de lo que está pasando de lo que está dispuesta a admitir. Un propósito siniestro acecha bajo la superficie de la Logia, y piensas descubrir cuál es.</p>",
+    "intro2Skip": "<p class='basic right'>Pasa a la _Preparación_.</p>",
+    "intro3": "<p>_Introducción 3_: Está claro que la criatura que apareció en la gala benéfica de la Logia no está atada a la mansión de Josef Meiger, lo que significa que los horrores que has vivido podrían ser solo el principio de algo mucho peor. Todavía no sabes muy bien por qué, pero te consta que la Logia del Crepúsculo de Plata está relacionada de algún modo con la criatura. Quizá sea hora de hacer una visita a la Logia, con su permiso o sin él.</p><p class='basic right'>Pasa a la _Preparación_.</p>",
+    "intro4": "<p>_Introducción 4_: No puedes evitar preguntarte si se te escapó algo importante en casa de Josef Meiger. Las cuatro desapariciones ocurridas en la gala benéfica de la Logia no pueden haber sido una coincidencia. Si esas víctimas se encontraron con una criatura como la que viste en el cementerio, los horrores que has vivido podrían ser solo el principio de algo mucho peor. Todavía no sabes muy bien por qué, pero tienes la certeza de que la Logia del Crepúsculo de Plata está relacionada de algún modo con estos sucesos. Quizá sea hora de hacer una visita a la Logia, con su permiso o sin él.</p><p class='basic right'>Pasa a la _Preparación_.</p>",
+    "intro5": "<p>_Introducción 5_: Se han producido demasiadas desapariciones en la finca de Josef Meiger como para que sea una coincidencia: primero, las cuatro víctimas de la gala benéfica; después, quienes asistieron a la cena benéfica una semana más tarde. Si se encontraron con una criatura como la que viste en el cementerio, los horrores que has vivido podrían ser solo el principio de algo mucho peor. Todavía no sabes muy bien por qué, pero tienes la certeza de que la Logia del Crepúsculo de Plata está relacionada de algún modo con estos sucesos. Quizá sea hora de hacer una visita a la Logia, con su permiso o sin él.</p><p class='basic right'>Procede con la _Preparación_.</p>"
+  },
+  "setup": {
+    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de encuentro: *Por el bien común*, *Ciudad de pecados*, *Logia del Crepúsculo de Plata*, *Antiguos males*, *Secta oscura* y *Puertas cerradas*. Estos conjuntos se indican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/for-the-greater-good.png' /><img src='{setImgPath}/city-of-sins.png' /><img src='{setImgPath}/silver-twilight-lodge.png' /><img src='{setImgPath}/ancient-evils.png' /><img src='{setImgPath}/dark-cult.png' /><img src='{setImgPath}/locked-doors.png' /></section>",
+    "membersOfTheLodge": {
+      "instructions": "Consulta el Registro de campaña. Si los investigadores son miembros de la Logia, haz lo siguiente:",
+      "actDeck": "Al construir el mazo de Acto, usa el Acto 1a —«Calurosa bienvenida»— y retira de la partida el Acto 1a —«Infiltración en la Logia»—.",
+      "weveBeenExpectingYou": "Pon en juego las versiones de Puertas de la Logia, Vestíbulo y Sótano de la Logia con el subtítulo (*Os estábamos esperando*). Retira de la partida las demás versiones de esos Lugares.",
+      "removeFromGame": "Busca en los conjuntos de encuentro reunidos las siguientes cartas y retíralas de la partida: 3 copias de Acólito, 1 copia de Mago de la Orden, 2 copias de Caballero del Círculo Interno y 1 copia de Guardia de la celda."
+    },
+    "otherwise": {
+      "instructions": "En caso contrario, haz en su lugar lo siguiente:",
+      "actDeck": "Al construir el mazo de Acto, usa el Acto 1a —«Infiltración en la Logia»— y retira de la partida el Acto 1a —«Calurosa bienvenida»—.",
+      "membersOnly": "Pon en juego las versiones de Puertas de la Logia, Vestíbulo y Sótano de la Logia con el subtítulo (*Sólo para miembros*). Retira de la partida las demás versiones de esos Lugares.",
+      "removeFromGame": "Busca en los conjuntos de encuentro reunidos las siguientes cartas y retíralas de la partida: 3 copias de Neófito de la Logia, 1 copia de Guardián de secretos, 2 copias de Caballero del Vacío Exterior y 1 copia de Carcelero de la Logia."
+    },
+    "placeLocations": "Pon en juego las Catacumbas de la Logia y el Salón. Cada investigador comienza la partida en las Puertas de la Logia. Deja aparte, fuera del juego, todos los demás Lugares (Biblioteca, Cámara, Santuario interior y los 2 Lugares Puerta del santuario).",
+    "setAside": "Deja aparte, fuera del juego, las siguientes cartas: el Apoyo Caja enigmática, el enemigo Bestia invocada, el Apoyo August Lindquist y el enemigo de doble cara Nathan Wick.",
+    "setAsideKeys": "Deja aparte, fuera del juego, 1 ficha de {'{'}skull{'}'}, 1 ficha de {'{'}cultist{'}'}, 1 ficha de {'{'}tablet{'}'} y 1 ficha de {'{'}elderThing{'}'}. Estas fichas deben tomarse de tu colección, no de tu bolsa de caos. Estas fichas son llaves (consulta «Llaves»).",
+    "returnTo": {
+      "gatherSets": "Reúne también todas las cartas de los siguientes conjuntos de encuentro: *Regreso a Por el bien común*, *Ciudad de los malditos* y *Males inminentes*. Estos conjuntos se indican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/return-to-for-the-greater-good.png' /><img src='{setImgPath}/city-of-the-damned.png' /><img src='{setImgPath}/impending-evils.png' /></section>*Ciudad de los malditos* sustituye a *Ciudad de pecados* y *Males inminentes* sustituye a *Antiguos males*. Retira del juego los conjuntos sustituidos.",
+      "placeLocations": "Elige al azar 1 de los 2 Lugares Salón. Ponlo en juego junto con el resto de Lugares iniciales. Retira del juego la otra versión del Salón.",
+      "setAside": "Deja también aparte, fuera del juego, los nuevos Lugares Pasadizo oculto y Puerta del santuario.",
+      "additionalRule": "Durante este escenario se aplican las siguientes reglas adicionales: el _Objetivo_ del Acto 3a es opcional; una vez que se hayan puesto en juego todas las demás llaves, si otro efecto fuera a poner en juego una llave dejada aparte, usa otra ficha de caos (+/-) sin usar en lugar de no poner ninguna llave en juego; y al final del escenario, añade a la zona de victoria cada ficha de caos (+/-) controlada por un investigador; cada una vale _Victoria 1_."
+    }
+  },
+  "specialRules": [
+    {
+      "title": "@:theCircleUndone.forTheGreaterGood.keys.title",
+      "body": "@:theCircleUndone.forTheGreaterGood.keys.body"
+    }
+  ],
+  "keys": {
+    "title": "Llaves",
+    "body": "<p class='basic'>La preparación de este escenario indica a los jugadores que dejen aparte, como llaves, 1 ficha de {'{'}skull{'}'}, 1 ficha de {'{'}cultist{'}'}, 1 ficha de {'{'}tablet{'}'} y 1 ficha de {'{'}elderThing{'}'}. Estas llaves nunca se introducen en la bolsa de caos ni funcionan como las fichas de caos tradicionales. En su lugar, representan llaves que los investigadores pueden recuperar y usar a lo largo del escenario.</p><p class='basic'>Las llaves pueden entrar en juego mediante varios efectos de carta distintos y suelen colocarse sobre un enemigo, un Lugar o un Apoyo de Historia. Las llaves pueden adquirirse de tres formas:</p><ul><li>Si un Lugar con una llave no tiene pistas, un investigador puede tomar el control de su llave como una capacidad {'{'}fast{'}'}.</li><li>Si un enemigo con una llave abandona el juego, el investigador que haya hecho que ese enemigo abandone el juego debe tomar el control de su llave. (Si el enemigo abandona el juego por otro medio, coloca su llave en su Lugar).</li><li>Algunos efectos de carta pueden permitir a los investigadores tomar el control de llaves de otras formas.</li></ul><p class='basic'>Cuando un investigador toma el control de una llave, la coloca sobre su carta de Investigador. Si un investigador que controla 1 o más llaves es eliminado, coloca cada una de esas llaves en su Lugar. Como capacidad {'{'}action{'}'}, un investigador puede dar cualquier cantidad de sus llaves a otro investigador que esté en su mismo Lugar.</p>"
+  },
+  "resolutions": {
+    "extraKey": "Llave adicional ({key})",
+    "noResolution": {
+      "title": "Sin resolución",
+      "body": "<p>_Si no se alcanzó ninguna resolución (cada investigador abandonó o fue derrotado)_: Logras salir del edificio y huyes a pie. Mientras corres, oyes un estruendo atronador procedente de la mansión. Varias personas más irrumpen por la puerta principal detrás de ti, demasiado preocupadas para fijarse en ti. Una grita a sus compañeros: «¡Salid y reuníos en la Isla ignota! ¡Tenemos que celebrar el rito de atadura con o sin el dispositivo!».</p><p>«¿Y el guardián?», pregunta un hombre en la verja.</p><p>«Es inútil», responde ella. «¡Marchaos!».</p><p>Entonces empiezan los gritos. Un chorro de sangre salpica la ventana del sótano. Quienes han logrado escapar entran en pánico de inmediato y huyen.</p><p>No te detienes ni miras atrás. Corres hasta que el edificio se ha desvanecido tras la densa niebla gris, hasta que dejas de oír los gritos de quienes siguen dentro, hasta que las piernas apenas te responden.</p><p>¿Es este el tipo de «sacrificio» que la Logia del Crepúsculo de Plata cree que hay que hacer? Y, si es así, ¿qué significa eso para el «rito de atadura» que pretenden completar en la Isla ignota?</p><ul><li>En tu Registro de campaña, anota que *el guardián de la trampa ha aparecido*.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.</li><li>Omite el _Interludio III: El Círculo Interno_ y procede directamente con el _Escenario VI: Unión y desilusión_.</li></ul>"
+    },
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<p>_Resolución 1_: Todas las fibras de tu ser se estiran mientras la caja tira de ti hacia su interior. Sin embargo, antes de que pueda cumplir su cometido, una mano anciana cierra la tapa de golpe. Retrocedes tambaleándote y te desplomas al cesar la fuerza que te arrastraba. Cuando por fin recuperas los sentidos, Carl Sanford está de pie junto a ti, imperturbable como siempre. «Veo que ha logrado abrir el dispositivo sin derrotar a su guardián. Qué afortunado», declara. Examina atentamente la caja, extrae del recipiente la llave y la moneda y las reconoce al instante. «Tenía la impresión de que sería un valioso activo para la Logia, pero parece que subestimé sus recursos. Quizá sea hora de que conozca la verdad que se esconde tras nuestra organización. Tengo la sensación de que está destinado a grandes cosas». Inesperadamente, el señor Sanford te devuelve la caja enigmática, junto con los componentes que la han abierto. «Acompáñeme. Tenemos mucho de que hablar».</p><ul><li>En tu Registro de campaña, anota que *los investigadores descubrieron cómo abrir la caja enigmática*. Un investigador cualquiera puede elegir añadir a su mazo el Apoyo de Historia Caja enigmática. Esta carta no cuenta para el tamaño del mazo de ese investigador.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.</li><li>Procede con el _Interludio III: El Círculo Interno_.</li></ul>"
+    },
+    "resolution2": {
+      "title": "Resolución 2",
+      "body": "<p>_Resolución 2_: Todas las fibras de tu ser se estiran mientras la caja tira de ti hacia su interior. Sin embargo, antes de que pueda cumplir su cometido, logras alargar la mano y cerrar la tapa de golpe. Tiemblas sin control mientras recuperas poco a poco los sentidos. Esta caja es más peligrosa de lo que podías imaginar. En manos de la Logia habría sido un arma poderosa, aunque no sabes muy bien qué pretendían hacer con ella. Justo entonces oyes acercarse a varios miembros de la Logia. Apartas rápidamente una de las librerías de la sala y te escondes detrás antes de que entren. «¿Seguro que has oído algo aquí dentro? No veo a nadie», dice uno.</p><p>«Mm…», el otro hace una pausa, presumiblemente inspeccionando la sala en busca de señales de intrusos. «No habrá sido nada».</p><p>«No pasa nada. Estamos todos un poco nerviosos desde que desapareció la caja trampa. Vamos, no queremos llegar tarde a la ceremonia. Esta noche es una noche importante». Sus pasos se van apagando a medida que se alejan. Las palabras de aquel hombre permanecen un momento en tus pensamientos. ¿A qué se refería con que esta noche es importante? Esto podría ser tan importante como la caja enigmática que intentaban abrir. Sigues en silencio a los dos hombres mientras se adentran en los túneles que hay bajo la Logia. Te cuesta mantener su ritmo sin que tus pisadas resuenen en el suelo de piedra del pasadizo. Por fin cruzan una gran puerta en cuya superficie están blasonadas las tres conocidas flechas del Crepúsculo de Plata. Desde el otro lado, un cántico ritual llena el corredor. Te acercas con sigilo y pegas la oreja a la puerta para escuchar.</p><p>«Hermanos y hermanas», anuncia una voz anciana, «gracias por acudir a esta sagrada reunión. Se acerca el momento que tanto hemos esperado». Reconoces la voz del hombre: es Carl Sanford, presidente de la Logia del Crepúsculo de Plata. «Durante muchas décadas, la Orden del Crepúsculo de Plata ha buscado un conocimiento capaz de elevar a la humanidad. Nos hemos defendido de amenazas contra nuestra propia existencia. Lo hemos sacrificado todo por esta sagrada causa. Ahora una de esas amenazas aterroriza nuestra ciudad, y una vez más debemos hacer lo que haya que hacer para protegerla». Los presentes responden con solemne aprobación. «Esta noche completaremos el ritual que iniciamos hace muchas noches en el centro de la Isla ignota. Esta noche ataremos por fin al aparecido y averiguaremos lo que sabe. No debemos permitir que los secretos de AZATHOTH caigan en manos de quienes harían daño a la humanidad».</p><p>La secta responde con un himno monótono, y aprovechas la ocasión para huir de la Logia antes de que te descubran. La conspiración que has destapado te deja con aún más preguntas. Si el aparecido del que habla el señor Sanford es lo que tú crees, atarlo protegerá sin duda Arkham, como asegura. Pero ¿qué conocimiento pretenden arrancarle?… ¿Y qué demonios es «AZATHOTH»?</p><ul><li>En tu Registro de campaña, anota que *los investigadores descubrieron cómo abrir la caja enigmática*. Un investigador cualquiera puede elegir añadir a su mazo el Apoyo de Historia Caja enigmática. Esta carta no cuenta para el tamaño del mazo de ese investigador.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.</li><li>Omite el _Interludio III: El Círculo Interno_ y procede directamente con el _Escenario VI: Unión y desilusión_.</li></ul>"
+    },
+    "resolution3": {
+      "title": "Resolución 3",
+      "body": "<p>_Resolución 3_: La bestia que había salido de la caja era un guardián despiadado que masacraba a todo el que se cruzaba en su camino. De algún modo lograste matar a la criatura, pero las consecuencias fueron funestas. Muchos miembros de la Logia murieron de forma atroz por la furia de la criatura antes de que pudieras abatirla. Peor aún: el dispositivo del que surgió quedó destrozado hasta quedar irreconocible. No sabes si se rompió por la aparición de la bestia o por su muerte pero, en cualquier caso, es un desenlace lamentable. «Esto no ha salido según lo planeado», afirma con toda naturalidad uno de los miembros togados de la Orden mientras examinas la caja enigmática aplastada.</p><p>«Eso es quedarse muy corto», añade otra. Te pone una mano en el hombro y te aparta con suavidad de los restos del dispositivo. «Vamos, ya no hay nada que hacer», dice.</p><p>Su compañero ignora tu presencia y se dirige a ella estoicamente: «Tendremos que ir a la Isla ignota y completar el rito de atadura sin la trampa». Ella asiente y te mira una última vez antes de que los miembros de la Logia que quedan huyan del edificio. ¿Es este el tipo de «sacrificio» que la Logia del Crepúsculo de Plata cree que hay que hacer? Y, si es así, ¿qué significa eso para el «rito de atadura» que pretenden completar en la Isla ignota?</p><ul><li>En tu Registro de campaña, anota que *el guardián de la trampa apareció y fue derrotado*.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.</li><li>Omite el _Interludio III: El Círculo Interno_ y procede directamente con el _Escenario VI: Unión y desilusión_.</li></ul>"
+    }
+  }
+}

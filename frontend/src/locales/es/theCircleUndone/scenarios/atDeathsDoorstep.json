@@ -1,0 +1,115 @@
+{
+  "heading": "Escenario II",
+  "specialRules": [
+    {
+      "title": "Sustituir Lugares",
+      "body": "<p class='basic'>Durante este escenario, puede que se te indique que cambies Lugares que están aparte por otros ya existentes. Cuando un Lugar se cambia por otro que ya está en juego, ocupa su puesto. Todas las fichas, cartas vinculadas, investigadores, enemigos y demás cartas del Lugar anterior se consideran ahora en el Lugar nuevo (por ejemplo, las cartas vinculadas siguen vinculadas). No se considera que ningún elemento de juego se haya movido durante la sustitución.</p>"
+    }
+  ],
+  "tokens": {
+    "easyStandard": {
+      "skull": "-1 (-3 en su lugar si tu Lugar está embrujado).",
+      "tablet": "-2. Si fracasas y es un ataque o un intento de evasión, resuelve cada capacidad Embrujado de tu Lugar.",
+      "elderThing": "-2. Si hay un enemigo _Espectral_ en tu Lugar, recibes 1 de daño."
+    },
+    "hardExpert": {
+      "skull": "-2 (-4 en su lugar si tu Lugar está embrujado).",
+      "tablet": "-3. Si es un ataque o un intento de evasión, resuelve cada capacidad Embrujado de tu Lugar.",
+      "elderThing": "-4. Si hay un enemigo _Espectral_ en tu Lugar, recibes 1 de daño y 1 de horror."
+    }
+  },
+  "label": {
+    "wineCellarSpectral": {
+      "removeDoom": "Retirar 1 de perdición de un enemigo Crepúsculo de Plata en juego",
+      "placeDoom": "Colocar 1 de perdición sobre un enemigo Crepúsculo de Plata en juego"
+    },
+    "trophyRoom": {
+      "spendResources": "Gasta 2 recursos para obtener 1 pista (de la reserva de fichas)."
+    },
+    "senatorNathanielRhodesAdeptPolitician": {
+      "take": "Tomar el control de 1 de sus pistas",
+      "flip": "Dar la vuelta a 1 de perdición sobre él para ponerla por el lado de pista"
+    }
+  },
+  "tooltips": {
+    "wineCellarSpectral": {
+      "haunted": "_Embrujado_ - Debes colocar 1 de perdición sobre un enemigo _Crepúsculo de Plata_ en juego o recibir 1 de horror directo."
+    },
+    "entryHall": {
+      "resign": "«Supongo que, al fin y al cabo, esas desapariciones no tienen nada de particular»."
+    },
+    "entryHallSpectral": {
+      "resign": "Atraviesas a la carrera la puerta principal de la mansión y escapas del reino espectral, abandonando al resto de supervivientes a su suerte."
+    },
+    "trophyRoomSpectral": {
+      "haunted": "Pierdes 2 recursos. Por cada recurso que no puedas perder por este efecto, recibes 1 de horror."
+    },
+    "billiardsRoomSpectral": {
+      "haunted": "Debes descartar un Apoyo que controles o recibir 1 de daño."
+    },
+    "masterBedroomSpectral": {
+      "haunted": "Coloca 1 de tus pistas sobre el Dormitorio principal."
+    },
+    "balconySpectral": {
+      "haunted": "Cada una de tus cartas con salud recibe 1 de daño directo."
+    },
+    "officeSpectral": {
+      "haunted": "Elige y descarta una carta de tu mano."
+    }
+  },
+  "intro": {
+    "title": "Escenario II: A las puertas de la muerte",
+    "introPart1": "<p class='center'><b>Cuatro desaparecidos en paradero desconocido</b></p><p class='basic'>Los residentes de French Hill siguen conmocionados tras la repentina desaparición de varios invitados y miembros del servicio de la casa del Sr. Josef Meiger durante la noche de la gala benéfica anual del Crepúsculo de Plata, el pasado domingo. «Estamos absolutamente desconcertados; no entendemos cómo ha podido suceder», declaró el Sr. Meiger al día siguiente de las desapariciones. «Dicho esto, confiamos en que el sheriff Engle y la policía de Arkham harán las diligencias debidas para encontrar a los desaparecidos».</p><p class='basic'>Sigue sin haber el menor indicio del paradero de la Srta. Gavriella Mizrah, el Sr. Jerome Davids, el Sr. Valentino Rivas y la Sra. Penny White, que se desvanecieron a mitad de la celebración y a quienes no se ha vuelto a ver desde entonces. La policía ofrece una cuantiosa recompensa a cualquiera que aporte información sobre estas desapariciones. Preguntado sobre si la policía considera el caso un homicidio, el sheriff Engle declaró: «Por ahora no hay motivos para sospechar que haya juego sucio. No obstante, dadas las circunstancias, debemos considerar todas las posibilidades». Ningún otro asistente ha hecho declaraciones sobre la gala, que pareció concluir sin contratiempos a pesar de las desapariciones.</p><p class='basic'>Hasta ahora, ninguno de los miembros destacados de la Logia del Crepúsculo de Plata ha expresado preocupación alguna por la próxima cena benéfica de la Logia, que se ha trasladado recientemente al mismo lugar: la finca de Josef Meiger en French Hill. «Estoy seguro de que el acto será un éxito rotundo», declaró el Sr. Meiger al Arkham Advertiser en una entrevista concedida ayer. «Los buenos vecinos de Arkham no tienen motivos para preocuparse».</p><p class='basic right'>–Minnie Klein</p>",
+    "introPart2": "<p>Doblas el periódico, lo apartas a un lado de la mesa y examinas los demás expedientes que has reunido en los últimos días sobre las personas desaparecidas. Han pasado varios días desde lo que viviste en el bosque. Has intentado quitártelo de la cabeza, pero es imposible. Cada noche sueñas con un lugar sin nombre en el vacío del espacio, mientras una tenue melodía disonante de flautas hipnóticas te arrastra hacia delante. Y ahora hay más gente que desaparece de la ciudad sin dejar rastro. Las desapariciones danzan en los márgenes de tus pensamientos. No hay motivos para preocuparse, cavilas, dando vueltas a las palabras de ese hombre. Piensas en la echadora de cartas y en su advertencia, y te preguntas si no estarás imaginando demonios donde no los hay. Sea como sea, solo hay una forma de saberlo con certeza. Tomas la invitación y examinas el papel con relieve plateado y la caligrafía perfecta.</p>",
+    "introPart3": "<p class='center billenia'><i>La Logia del Crepúsculo de Plata</i></p><p class='basic'>solicita el placer de su compañía la noche del veintinueve de noviembre, a las ocho en punto, en la finca del abogado Josef Ekhard Meiger, a beneficio de la Fundación Fairchild</p>",
+    "introPart4": "<p>Mientras te preparas para la noche que te espera, no puedes evitar preguntártelo: ¿estás actuando para remediar tu destino, como te aconsejó la adivina? ¿O te estás metiendo por tu propio pie en las fauces de un destino aciago?</p><p class='basic'>Procede con la _Preparación_.</p>"
+  },
+  "setup": {
+    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de encuentro: *A las puertas de la muerte*, *Logia del Crepúsculo de Plata*, *Depredadores espectrales*, *Espíritus atrapados*, *Destino inexorable* y *Frío helador*. Estos conjuntos se indican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/at-deaths-doorstep.png' /><img src='{setImgPath}/silver-twilight-lodge.png' /><img src='{setImgPath}/spectral-predators.png' /><img src='{setImgPath}/trapped-spirits.png' /><img src='{setImgPath}/inexorable-fate.png' /><img src='{setImgPath}/chilling-cold.png' /></section>",
+    "setSetsAside": "Deja aparte, fuera del juego, los conjuntos de encuentro *El reino de la muerte* y *El vigilante*. Estos conjuntos se indican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/realm-of-death.png' /><img src='{setImgPath}/the-watcher.png' /></section>",
+    "setLocationsAside": "Deja aparte, fuera del juego, los siete Lugares _Espectral_.",
+    "setJosefAside": "Deja aparte, fuera del juego, el enemigo Josef Meiger.",
+    "josefNote": "*Nota: esta carta es de doble cara y tiene una carta de Historia en su otra cara. Para disfrutar de la mejor experiencia, no mires la otra cara a menos que un efecto te lo indique.*",
+    "placeLocations": "Pon en juego los siete Lugares que no son Espectral (Vestíbulo de entrada, Salas victorianas, Sala de trofeos, Sala de billar, Dormitorio principal, Balcón y Despacho). Cada investigador comienza la partida en el Vestíbulo de entrada.",
+    "checkCampaignLog": "Consulta la sección «Personas desaparecidas» del Registro de campaña:",
+    "gavriellaNotCrossedOff": "Coloca 6 pistas en el Vestíbulo de entrada si el perfil de Gavriella Mizrah no está tachado.",
+    "jeromeNotCrossedOff": "Coloca 6 pistas en el Despacho si el perfil de Jerome Davids no está tachado.",
+    "valentinoNotCrossedOff": "Coloca 6 pistas en la Sala de billar si el perfil de Valentino Rivas no está tachado.",
+    "pennyNotCrossedOff": "Coloca 6 pistas en el Balcón si el perfil de Penny White no está tachado.",
+    "piecesOfEvidence": "De la forma más equitativa posible, retira de los Lugares anteriores una cantidad total de pistas igual al número de *pruebas que se dejaron* anotado en tu Registro de campaña.",
+    "theMortalRealm": "<section class='note-green'><h1>El reino mortal</h1><p>_Nota_: La preparación de este escenario solo usa los siete Lugares sin el rasgo _Espectral_. Todos los Lugares _Espectral_ deben dejarse aparte.</p></section>",
+    "returnTo": {
+      "gatherSets": "Reúne también todas las cartas de los siguientes conjuntos de encuentro: *Regreso a A las puertas de la muerte*, *Espíritus sedientos de sangre*, *Destino innombrable*, *Nieblas heladoras* y *El reino inestable*. Estos conjuntos se indican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/return-to-at-deaths-doorstep.png' /><img src='{setImgPath}/bloodthirsty-spirits.png' /><img src='{setImgPath}/unspeakable-fate.png' /><img src='{setImgPath}/chilling-mists.png' /><img src='{setImgPath}/unstable-realm.png' /></section>*Espíritus sedientos de sangre* sustituye a *Espíritus atrapados*, *Destino innombrable* sustituye a *Destino inexorable*, *Nieblas heladoras* sustituye a *Frío helador* y *El reino inestable* sustituye a *El reino de la muerte*. Retira del juego los conjuntos sustituidos.",
+      "setSetsAside": "Deja aparte, fuera del juego, el conjunto de encuentro *El reino inestable* en lugar del conjunto de encuentro *El reino de la muerte*. Del mismo modo, cuando el Acto 1b indique a los jugadores que barajen el conjunto de encuentro *El reino de la muerte* en el mazo de Encuentro, baraja en su lugar el conjunto de encuentro *El reino inestable*.",
+      "placeLocations": "Pon también en juego el enemigo Senador Nathaniel Rhodes en el Vestíbulo de entrada con 1 pista por investigador sobre él, y pon en juego el Lugar Bodega.",
+      "setLocationsAside": "Deja también aparte, fuera del juego, la versión _Espectral_ de la Bodega.",
+      "additionalRule": "Durante este escenario se aplica la siguiente regla adicional: mientras se resuelve la traición Agarre del vigilante, El vigilante espectral no se agota después de atacar."
+    }
+  },
+  "interlude1": {
+    "title": "Interludio I: Rastro de los perdidos",
+    "instructions": "<p class='basic'>Consulta la sección «Personas desaparecidas» de tu Registro de campaña. En orden, lee las secciones siguientes correspondientes a cada uno de los personajes cuyo perfil no esté tachado.</p>",
+    "gavriella": "<p class='basic'>Si el perfil de Gavriella Mizrah no está tachado y no quedan pistas en el Vestíbulo de entrada, lee lo siguiente:</p><p>El vestíbulo de la mansión está bellamente decorado, pero te resulta extraño que la balaustrada de madera de la escalinata se haya reparado hace poco y, por su aspecto, a toda prisa. Cuando nadie mira, sigues el pasamanos escaleras arriba y abajo hasta que descubres lo que buscas: varias astillas de madera, quizá desprendidas por una bala. Vuelves a subir la escalera y te colocas donde habría que estar para hacer un disparo así. Tras un momento de observación, te llama la atención un débil destello junto a uno de los helechos ornamentales de la segunda planta. Allí encuentras la prueba: el casquillo de una pistola del calibre .45. En el vestíbulo de la mansión se disparó, en efecto, un arma; pero, si es así, ¿cómo es posible que nadie oyera los disparos?</p><p class='basic'>En «Personas desaparecidas», junto al perfil de Gavriella Mizrah, anota que *los investigadores están tras la pista de Gavriella*.</p>",
+    "jerome": "<p class='basic'>Si el perfil de Jerome Davids no está tachado y no quedan pistas en el Despacho, lee lo siguiente:</p><p>El despacho personal de Josef Meiger está bastante ordenado para ser el de alguien cuyo secretario personal acaba de desaparecer. Quizá sea simplemente una persona meticulosa… o quizá haya estado borrando las pruebas de alguna fechoría. No encuentras nada reseñable en los archivos de Josef pero, tras husmear un rato, te das cuenta de que hay un sitio que no has mirado: la basura. Revolver en la papelera da sus frutos. Casi en el fondo hay una pequeña libreta de bolsillo de Jerome Davids, probablemente arrojada allí sin cuidado por el personal de limpieza. Vas a la última página. Allí Jerome anotó una lista de nombres, quizá copiada de los registros de Josef. Aún no sabes qué significa, pero tiene que ser importante.</p><p class='basic'>En «Personas desaparecidas», junto al perfil de Jerome Davids, anota que *los investigadores están tras la pista de Jerome*.</p>",
+    "penny": "<p class='basic'>Si el perfil de Penny White no está tachado y no quedan pistas en el Balcón, lee lo siguiente:</p><p>El balcón del dormitorio de Josef Meiger domina las calles lluviosas y las sombrías agujas de French Hill. Según los testigos, a Penny se la vio por última vez entrando en el dormitorio de Josef, presumiblemente para ordenarlo, o quizá para buscar alguna de sus pertenencias. La colilla que hay en el suelo del balcón cuenta otra historia. Penny salió aquí a tomarse un descanso y, a juzgar por lo ajetreado que anda el resto del servicio, seguramente le hacía mucha falta. Si hubiera corrido algún peligro, ¿podría haber bajado del balcón trepando o saltando? Te asomas por el borde. Es posible, pero improbable. Una caída desde aquí podría romper una pierna, o algo peor. Lo más probable es que se hubiera refugiado dentro de la mansión, donde podría haber pedido ayuda… solo que nadie la vio salir del dormitorio. Algo no cuadra. Guardas la colilla en el bolsillo del abrigo, con la esperanza de que sea una auténtica pista y no una búsqueda inútil.</p><p class='basic'>En «Personas desaparecidas», junto al perfil de Penny White, anota que *los investigadores están tras la pista de Penny*.</p>",
+    "valentino": "<p class='basic'>Si el perfil de Valentino Rivas no está tachado y no quedan pistas en la Sala de billar, lee lo siguiente:</p><p>Seguir los pasos de Valentino no es difícil. Como invitado de honor (y alma de la fiesta, por lo que cuentan), siempre estaba rodeado de gente. Eso hace aún más increíble la historia de que «desapareció cuando nadie miraba». En la sala de billar, donde se vio a Valentino por última vez, abordas a Adam Gensler, el hombre con quien jugaba al billar justo antes de desaparecer. «Oiga, ya les he contado a la poli y a los periodistas lo que vi», explica, inquieto, sin parar de repiquetear con la punta del pie. «Tino y yo estábamos jugando al billar, miré a otro lado y, cuando me di cuenta, ya no estaba», insiste enfadado antes de volver a su partida. «A ver, ¿dónde está la maldita bola uno?», masculla. Puede que no sea nada, pero parece que Valentino no fue lo único que desapareció aquella noche.</p><p class='basic'>En «Personas desaparecidas», junto al perfil de Valentino Rivas, anota que *los investigadores están tras la pista de Valentino*.</p>"
+  },
+  "resolutions": {
+    "noResolution": {
+      "title": "Sin resolución",
+      "body": "<p class='basic'>_Si no se alcanzó ninguna resolución (cada investigador abandonó o fue derrotado) y el escenario terminó en el Acto 1_: Ve a la _Resolución 2_.</p><p class='basic'>_Si no se alcanzó ninguna resolución (cada investigador abandonó o fue derrotado) y el escenario terminó en el Acto 2_: Ve a la _Resolución 3_.</p><p class='basic'>_Si no se alcanzó ninguna resolución (cada investigador abandonó o fue derrotado) y el escenario terminó en el Acto 3_: Ve a la _Resolución 1_.</p>"
+    },
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<p>_Resolución 1_: En cuanto sales al patio, te rodean unos hombres de rostro adusto con gabardinas. Varios se meten la mano en el bolsillo del abrigo: una advertencia para que no hagas nada precipitado. Antes de que puedan cumplir ninguna amenaza, una voz gélida rompe el silencio. «Vamos, caballeros, no hay necesidad de eso». Los hombres se retiran y dejan ver a un anciano en quien reconoces a Carl Sanford, presidente de la Logia del Crepúsculo de Plata. A pesar de lo peligroso de la situación, su expresión es casi demasiado despreocupada. La absoluta falta de miedo en su postura y en sus actos sugiere una seguridad respaldada por un poder considerable. Sus guardaespaldas retroceden varios pasos para que puedas hablar en privado con el señor Sanford.</p><ul><li>En tu Registro de campaña, anota que *los investigadores escaparon del reino espectral*.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.</li><li>Procede con el _Interludio II: El precio del progreso_.</li></ul>"
+    },
+    "resolution2": {
+      "title": "Resolución 2",
+      "body": "<p>_Resolución 2_: Sales de la mansión y te envuelve el fresco aire nocturno. La investigación te ha dejado sin fuerzas y con una extraña paranoia. Algo del acto te ha parecido raro, aunque no sabrías decir por qué. Aunque los invitados parecían no enterarse de nada, advertiste que el servicio estaba sudoroso y nervioso, y que los miembros de la Logia también parecían tensos. Más de una vez sorprendiste sus miradas puestas en ti, vigilando cada uno de tus movimientos. Si no supieras que es imposible, pensarías que la Logia del Crepúsculo de Plata estaba haciendo que te siguieran por algún motivo. En cualquier caso, no has averiguado gran cosa sobre las cuatro desapariciones, y dudas que lo logres alguna vez. Puede que, después de todo, no fuera nada.</p><ul><li>En tu Registro de campaña, anota que *los investigadores no descubrieron nada sobre los planes de la Logia*.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.</li><li>Omite el _Interludio II: El precio del progreso_ y procede directamente con el _Escenario III: El nombre secreto_.</li></ul>"
+    },
+    "resolution3": {
+      "title": "Resolución 3",
+      "body": "<p>_Resolución 3_: Huyes hacia el vestíbulo de la mansión, pero el muro de niebla espectral sigue cerrándote el paso. De la bruma emergen varios rostros y brazos fantasmales que se retuercen y gritan atormentados. Te das la vuelta y te topas con el semblante vacío del vigilante encapuchado. Antes incluso de comprender que estás perdido, el cuerpo etéreo de la criatura se arremolina y se abate por el aire como si estuviera hecho de la propia niebla. La criatura vuelve a materializarse ante ti, y su mano carbonizada te agarra por el cuello y te sostiene en vilo con una fuerza tremenda. Pataleas y clavas las uñas en la mano de la criatura, debatiéndote con la ferocidad de un animal acorralado, pero es inútil. Lo último que ves es el resplandor rojo de sus ojos mientras te taladra la mente.</p><ul><li>En tu Registro de campaña, anota que *nadie volvió a ver nunca a los investigadores ni tuvo noticias suyas*.</li><li>Cada investigador que haya abandonado obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.</li><li>Cada investigador que no haya abandonado _muere_. Si no quedan suficientes investigadores en la reserva de investigadores disponibles para continuar la campaña, la campaña termina y los jugadores pierden. Cada jugador cuyo investigador haya muerto debe elegir un nuevo investigador de la reserva de investigadores disponibles.</li><li>Omite el _Interludio II: El precio del progreso_ y procede directamente con el _Escenario III: El nombre secreto_.</li></ul>"
+    }
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "heading": "Escenario VII",
+  "specialRules": [
+    {
+      "title": "@:theForgottenAge.theDepthsOfYoth.depthLevel.title",
+      "body": "@:theForgottenAge.theDepthsOfYoth.depthLevel.body"
+    },
+    {
+      "title": "@:theForgottenAge.theDepthsOfYoth.pursuit.title",
+      "body": "@:theForgottenAge.theDepthsOfYoth.pursuit.body"
+    }
+  ],
+  "tokens": {
+    "easyStandard": {
+      "skull": "-X. X es el nivel de profundidad actual.",
+      "cultist": "Revela otra ficha. Si fracasas, cada enemigo _Serpiente_ en tu Lugar o en un Lugar conectado cura 2 daño.",
+      "tablet": "Revela otra ficha. Si fracasas, coloca 1 pista en tu Lugar (de la reserva de fichas).",
+      "elderThing": "-2. Si hay 3 o más puntos de venganza en la zona de victoria, fracasas automáticamente en esta prueba en su lugar."
+    },
+    "hardExpert": {
+      "skull": "-X. X es el nivel de profundidad actual. Si fracasas, recibe 1 horror.",
+      "cultist": "Revela otra ficha. Si fracasas, cada enemigo _Serpiente_ en tu Lugar o en un Lugar conectado cura 2 daño.",
+      "tablet": "Revela otra ficha. Si fracasas, coloca 1 pista en tu Lugar (de la reserva de fichas).",
+      "elderThing": "-4. Si hay 3 o más puntos de venganza en la zona de victoria, fracasas automáticamente en esta prueba en su lugar."
+    }
+  },
+  "xp": {
+    "depth": "Nivel de profundidad"
+  },
+  "intro": {
+    "title": "Escenario VII: Las profundidades de Yoth",
+    "intro1": {
+      "body": "<p>_Introducción 1_: Varias horas después de despertar, tu laborioso descenso da frutos. El resplandor rojo que emana del fondo de la escalera brilla más a cada paso. El suelo de piedra por fin se nivela, y las paredes asfixiantes del túnel se abren para revelar un laberinto de cavernas inmensas que se extienden hasta donde alcanza la vista. Repartidas por ellas yacen las ruinas de una vasta ciudad como nunca habías visto. Siglos de abandono han desgastado la elaborada arquitectura de piedra, pero presientes que aquí hay una historia más profunda de lo que puedes siquiera imaginar. Cuando te vuelves para interrogar a Ichtaca, adviertes un tenue brillo amarillo en sus ojos, con las pupilas estrechas y contraídas. «Yoth… el último refugio de Valusia…», murmura.</p><p>Justo entonces, un rugido aterrador resuena por la caverna. Las paredes y el suelo tiemblan con una fuerza tremenda, y el resplandor rojo que impregna la zona se intensifica. De todos los túneles a tu alrededor surge un torrente de siseos. Ichtaca camina hasta el borde de un precipicio cercano y contempla las vastas profundidades. «Está aquí. Siento su presencia. El Padre de las Serpientes… Yig».</p>",
+      "forgingYourOwnPath": "Consulta el Registro de campaña. Si los investigadores se están forjando su propio camino, procede con la _Introducción 2_.",
+      "faithIsRestored": "Si Ichtaca ha recuperado la fe, pasa a la _Introducción 3_.",
+      "otherwise": "En caso contrario, pasa a la _Introducción 4_."
+    },
+    "intro2": "<p>_Introducción 2_: Ahora te das cuenta de que Ichtaca tiene sus propios planes. Alejandro también: ambos te han estado utilizando para sus propios fines, ocultándote la verdad. Levantas un arma y le exiges respuestas, cogiéndola por sorpresa. «Yig exige que la reliquia se lleve al Nexo», responde con ansiedad. Sus ojos brillan con intensidad y su piel empieza a cubrirse de escamas. Entrecierras los ojos y avanzas para acorralarla contra el borde del precipicio, de modo que no pueda escapar. «La reliquia no puede quedar en manos de la Hermandad: eso es cierto… Porque es Valusia la que recuperará su gloria. Yig ha llamado, y debo responder». Antes de que puedas reaccionar, se arroja por el borde a las profundidades.</p><p class='basic right'>En tu Registro de campaña, anota que *Ichtaca está en contra de los investigadores.*</p><p class='basic right'>Añade 1 ficha de {'{'}elderThing{'}'} a la bolsa de caos durante el resto de la campaña.</p><p class='basic right'>Pasa a la _Preparación_.</p>",
+    "intro3": "<p>_Introducción 3_: Te acercas a Ichtaca y le apoyas una mano en el hombro. Tu compañera respira hondo y se vuelve hacia ti. Tiene la mirada baja, avergonzada, y sus ojos han recuperado su color normal. «Yo… Lo siento. Te he traído a tu perdición. Él me llamó hace mucho tiempo y me habló de mi herencia, de mi pueblo. Cumplí su voluntad de buen grado». Aprieta los puños y su mirada se cruza con la tuya. «Pero ahora me doy cuenta de que me equivocaba. La humanidad merece su tiempo en la Tierra. Puede que la hayáis heredado de fuerzas mucho más poderosas, pero es el tiempo de la humanidad, no el suyo». No entiendes del todo lo que dice, pero sí lo que implica. Sea lo que sea Ichtaca en realidad, está de tu parte. Un silencio sereno se prolonga entre vosotros, un vínculo tácito que os une. «Debemos llegar al Nexo e impedir que las serpientes recuperen la reliquia», explica al cabo de unos instantes, rompiendo el silencio. Asientes.</p><p>Pasa a la _Preparación_.</p>",
+    "intro4": {
+      "body": "<p>_Introducción 4_: Titubeas, sin saber qué hacer a continuación. ¿Cuáles son los verdaderos motivos de Ichtaca? ¿Por qué te ha traído hasta aquí? Antes de que puedas reaccionar, tensa el arco y apunta una flecha a tu corazón. «Gracias por ayudarme hasta aquí», dice Ichtaca secamente, «pero ha llegado el momento de separar nuestros caminos. Yig ha llamado, y debo responder». Sus ojos amarillos se entrecierran y brillan con intensidad.</p><p class='basic right'>En tu Registro de campaña, anota que *Ichtaca está en contra de los investigadores*. Si Ichtaca forma parte del mazo de un investigador, retírala de ese mazo durante el resto de la campaña.</p>",
+      "theRelicIsMissing": "Consulta el Registro de campaña. *Si la reliquia ha desaparecido*, procede con la _Introducción 5_.",
+      "foundTheMissingRelic": "*Si los investigadores encontraron la reliquia desaparecida*, pasa a la _Introducción 6_."
+    },
+    "intro5": "<p>_Introducción 5_: «Debes abandonar este lugar de inmediato. Esta no es una batalla de la humanidad. Es nuestra. No podemos permitir que ni tú ni la Hermandad frustréis nuestros planes. Ahora no, cuando estamos tan cerca». La mano le titubea un momento, y sus ojos parpadean de nuevo. Notas que algo la desgarra por dentro, que le pesa en la mente. Al fin, vuelve a hablar. «Vete ahora. Antes de que cambie de idea. Y si quieres vivir, no me sigas. No te daré una segunda oportunidad». Ichtaca se marcha con rapidez, sin apartar los ojos de ti hasta que la pierdes de vista. A pesar de su advertencia, sientes que no te queda más remedio que seguirla. Si no lo haces, ¿quién protegerá a la humanidad?</p><p class='basic right'>Pasa a la _Preparación_.</p>",
+    "intro6": "<p>_Introducción 6_: «Ahora tirad las armas». La traición te hiere en el pecho, y te dominan la ira y la desesperación. Por tu mente cruzan ideas de escapar, pero ya has visto su destreza con el arco: con su pulso firme, estarías muerto antes de dar dos pasos. No te queda más remedio que obedecer. Tus armas caen con estrépito al suelo, una tras otra. «Bien. Ahora la reliquia: dámela». Con una mueca, avanzas unos pasos y ofreces la reliquia a Ichtaca.</p><p class='basic right'>Comprueba tus suministros. Si algún investigador tiene una navaja, ese investigador lee la _Introducción 7_. En caso contrario, pasa a la _Introducción 8_.</p>",
+    "intro7": "<p>_Introducción 7_: Cuando Ichtaca alarga la mano para coger la reliquia, sacas la navaja que llevabas escondida y atacas con rapidez, cogiéndola por sorpresa. La hoja le hace un corte profundo en el antebrazo. La sangre te salpica el pecho, y ella se tambalea de dolor, agarrándose el brazo. Su talón tropieza con una roca junto al borde del precipicio y cae por la cornisa; su grito se aleja a medida que se precipita. Apenas tienes tiempo de recuperarte de la impresión cuando otro rugido colosal llena la caverna y el suelo tiembla. Recoges tus pertenencias y continúas el descenso.</p><p class='basic right'>Pasa a la _Preparación_.</p>",
+    "intro8": "<p>_Introducción 8_: Ichtaca coge la reliquia. Ves cómo la piel del dorso de su mano se vuelve dura y escamosa. Retrocedes unos pasos, con los nudillos blancos de ira. «Vete ahora. Antes de que cambie de idea», dice. «Y si quieres vivir, no me sigas. No te daré una segunda oportunidad». Ichtaca se marcha con rapidez, sin apartar los ojos de ti hasta que la pierdes de vista. A pesar de su advertencia, sientes que no te queda más remedio que seguirla. Si no lo haces, ¿quién protegerá a la humanidad?</p><p class='basic right'>En tu Registro de campaña, tacha que los investigadores encontraron la reliquia desaparecida y anota que la reliquia ha desaparecido. Si la Reliquia de las eras forma parte del mazo de un investigador, retírala de ese mazo durante el resto de la campaña.</p><p class='basic right'>Procede con la _Preparación_.</p>"
+  },
+  "setup": {
+    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de encuentro: *Las profundidades de Yoth*, *Agentes de Yig*, *Ponzoña de Yig*, *Expedición*, *Ruinas olvidadas* y *Veneno*. Estos conjuntos se indican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/the-depths-of-yoth.png' /><img src='{setImgPath}/agents-of-yig.png' /><img src='{setImgPath}/yigs-venom.png' /><img src='{setImgPath}/expedition.png' /><img src='{setImgPath}/forgotten-ruins.png' /><img src='{setImgPath}/poison.png' /></section>",
+    "yigsFury": {
+      "description": "Comprueba el número de marcas bajo «Furia de Yig» en tu Registro de campaña.",
+      "tally0": "Si hay 0 marcas, busca entre las cartas de encuentro reunidas a Yig y cada copia de Guardián del foso. Retira esas cartas del juego.",
+      "tally1to5": "Si hay entre 1 y 5 marcas, no se hace ningún cambio.",
+      "tally6to10": "Si hay entre 6 y 10 marcas, retira del juego el plan 1a. La partida comienza en el plan 2a.",
+      "tally11to14": "Si hay entre 11 y 14 marcas, retira del juego los planes 1a y 2a. La partida comienza en el plan 3a.",
+      "tally15to17": "Si hay entre 15 y 17 marcas, retira del juego los planes 1a, 2a y 3a. La partida comienza en el plan 4a.",
+      "tally18to20": "Si hay entre 18 y 20 marcas, retira del juego los planes 1a, 2a, 3a y 4a. La partida comienza en el plan 5a.",
+      "tally21OrMore": "Si hay 21 o más marcas, retira del juego los planes 1a, 2a, 3a, 4a y 5a. La partida comienza en el plan 6a."
+    },
+    "placeLocations": "Deja aparte, fuera del juego, los 10 Lugares de una sola cara. Roba al azar uno de esos Lugares distinto de los Escalones de Yoth y ponlo en juego. Cada investigador comienza la partida en el Lugar elegido al azar.",
+    "theHarbinger": {
+      "description": "Consulta el Registro de campaña. Si el Heraldo sigue vivo, busca en la colección el Heraldo de Valusia y déjalo aparte. Coloca sobre él una cantidad de daño igual a la anotada entre paréntesis en tu Registro de campaña.",
+      "agenda5or6": "Si es el plan 5a o 6a, mueve ese enemigo Heraldo de Valusia dejado aparte a la zona de persecución. (Consulta «Persecución», más abajo)."
+    },
+    "yig": {
+      "description": "Deja aparte, fuera del juego, el enemigo Yig.",
+      "agenda6": "Si es el plan 6a, mueve ese enemigo Yig dejado aparte a la zona de persecución."
+    },
+    "explorationDeck": "Crea el mazo de Exploración. Para ello, baraja juntos los Escalones de Yoth dejados aparte y 4 de los Lugares restantes de una sola cara.",
+    "currentDepth": "Coloca 1 ficha de recurso sobre la carta de referencia del escenario, en «Profundidad actual». Durante el resto del escenario, la cantidad de recursos que haya en «Profundidad actual» indica el nivel de profundidad actual. (Consulta «Nivel de profundidad», más abajo).",
+    "setOutOfPlay": "Deja aparte, fuera del juego, la Reliquia de las eras (*Recuperar el pasado*).",
+    "poisoned": "Deja aparte cada debilidad Envenenado que no esté ya en el mazo de un investigador.",
+    "returnTo": {
+      "gatherSets": "Reúne también todas las cartas de los siguientes conjuntos de encuentro: *Regreso a Las profundidades de Yoth*, *Odio ponzoñoso* y *Expedición condenada*. Estos conjuntos se indican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/return-to-the-depths-of-yoth.png' /><img src='{setImgPath}/venomous-hate.png' /><img src='{setImgPath}/doomed-expedition.png' /></section>*Odio ponzoñoso* sustituye a *Ponzoña de Yig* y *Expedición condenada* sustituye a *Expedición*. Retira del juego los conjuntos sustituidos.",
+      "harbinger": "Después de la preparación, busca en la colección el nuevo Heraldo de Valusia (*El durmiente regresa*) y déjalo aparte, fuera del juego. Si el Heraldo de Valusia fuera a entrar en juego durante este escenario, usa esta versión en lugar de la original.",
+      "explorationDeck": "Después de construir el mazo de Exploración durante la preparación, baraja la traición Peligros de Yoth en el mazo de Exploración.",
+      "additionalRule": "Durante este escenario se aplica la siguiente regla adicional: _Obligado_ – Después de que se cree un nuevo mazo de Exploración durante el acto 1b: busca Peligros de Yoth en el mazo de Encuentro, la pila de descartes y todas las zonas fuera del juego, y barájala en el mazo de Exploración. Si buscaste en el mazo de Encuentro, barájalo."
+    }
+  },
+  "depthLevel": {
+    "title": "Nivel de profundidad",
+    "body": "<p class='basic'>Durante este escenario, la cantidad de recursos que haya en «Profundidad actual» en la carta de referencia del escenario indica el nivel de profundidad actual. A medida que los investigadores se adentran en Yoth completando el acto 1, se añaden recursos al nivel de profundidad actual, y la partida continúa hasta que los investigadores alcancen cierto nivel de profundidad o sean derrotados. Los niveles más profundos de Yoth son más mortíferos, pero cuanto más profundo sea el nivel que logren alcanzar, mejor será la resolución de este escenario.</p><p class='basic'>El nivel de profundidad actual no tiene ningún efecto por sí mismo; sin embargo, algunos efectos de cartas de encuentro pueden cambiar o hacerse más fuertes según el nivel de profundidad actual.</p>"
+  },
+  "pursuit": {
+    "title": "Persecución",
+    "body": "<p class='basic'>Algunas cartas de este escenario hacen referencia a una zona llamada «zona de persecución». La zona de persecución es un área fuera del juego, junto a los mazos de Acto y de Plan, a la que los enemigos pueden entrar y de la que pueden salir mediante efectos de cartas. Por lo general, los enemigos en juego se mueven a la zona de persecución cada vez que los investigadores alcanzan el siguiente nivel de profundidad. _Aunque la zona de persecución está fuera del juego, cuando un enemigo se mueve a ella conserva todas sus fichas y cartas unidas_.</p><p class='basic'>Se considera que los enemigos de la zona de persecución están «persiguiendo». Los enemigos que persiguen se consideran fuera del juego y no pueden verse afectados por cartas de jugador ni por acciones de los investigadores. Sin embargo, pueden volver a entrar en juego mediante diversas habilidades de cartas.</p>"
+  },
+  "remembered": {
+    "collectedAStrangeLiquid": "Habéis recogido un extraño líquido"
+  },
+  "label": {
+    "chooseYigsFury": "Los investigadores pueden elegir cuántas marcas hay bajo «Furia de Yig». Cuanto menor sea el número elegido, más seguro y fácil será el escenario.",
+    "perilsOfYoth": {
+      "fail": "Deja aparte Peligros de Yoth, fuera del juego. (*Esta exploración no tiene éxito*).",
+      "continue": "Deja aparte Peligros de Yoth, fuera del juego: recibe horror o daño igual al nivel de profundidad actual y continúa explorando como si no hubieras robado Peligros de Yoth."
+    },
+    "endlessCaverns": {
+      "scout": "Elige al explorador del grupo"
+    },
+    "horrificDescent": {
+      "description": "Comprueba tus suministros. Si un investigador tiene una cantimplora, ese investigador debe decidir:",
+      "collect": "*Esto podría ser útil*. Recuerda que los investigadores han «recogido un extraño líquido».",
+      "doNotCollect": "*No pienso acercarme a eso*. No sufres ningún efecto negativo."
+    }
+  },
+  "resolutions": {
+    "xp": {
+      "depth": "Nivel de profundidad"
+    },
+    "label": {
+      "stickyGoop": "Comprueba tus suministros. Si algún investigador tiene el pringue pegajoso y los investigadores «han recogido un extraño líquido», el líquido de la fuente disuelve la sustancia viscosa y revela un objeto sólido bajo el cieno. Anota «Llave de Eztli» en los suministros de cualquier investigador."
+    },
+    "noResolution": {
+      "title": "Sin resolución",
+      "body": "_Si no se alcanzó ninguna resolución (cada investigador abandonó o fue derrotado)_: Lee la _Resolución 1_."
+    },
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<p>_Resolución 1_: Tras horas y horas de viaje, apenas has arañado la superficie de este mundo subterráneo sin límites. La humanidad podría pasar siglos cartografiando estos túneles sin llegar a completar la tarea. Por muy rápido que te adentres en las profundidades, las serpientes que te persiguen te pisan los talones. Sois intrusos en su hogar, y ellas conocen estos túneles infernales mejor que tú. Con las heridas frenándote y el pánico colándose en cada una de tus decisiones, tu muerte a manos de estas criaturas es inevitable. La desesperación se abre paso en tu mente. Cuando las serpientes te alcanzan sin remedio, estás cruzando uno de los muchos y largos puentes de piedra de la caverna que salvan una sima ancha y oscura. Criaturas serpiente a ambos lados de la sima te flanquean y te acorralan con las puntas de sus lanzas contra el borde precario del puente. Un trozo de piedra se resquebraja bajo tu talón, se desprende y cae al vacío negro como la tinta. No oyes que golpee el fondo de la sima. Esta vez no hay esperanza de escapar ni de huir: no te queda más remedio que aceptar tu destino. Las puntas de las lanzas te empujan hacia el borde. Cierras los ojos y caes.</p><ul><li>En tu Registro de campaña, anota que *los investigadores cayeron a las profundidades*. Comprueba el nivel de profundidad actual cuando terminó el escenario.<ul><li>Si el nivel de profundidad actual es 1, la caída es mortal, y la oscuridad de N'kai devora los cadáveres destrozados. Cada investigador muere. Los investigadores pierden la campaña.</li><li>Si el nivel de profundidad actual es 2, cada investigador sufre 2 trauma físico, busca en la colección una Debilidad básica de Lesión aleatoria y la añade a su mazo. Si este trauma causa la muerte de todos los investigadores, los investigadores pierden la campaña.</li><li>Si el nivel de profundidad actual es 3, cada investigador sufre 1 trauma físico. Si este trauma causa la muerte de todos los investigadores, los investigadores pierden la campaña.</li><li>Si el nivel de profundidad actual es 4, no sufres ningún efecto negativo.</li></ul></li><li>Si el Heraldo de Valusia entró en juego durante este escenario:<ul><li>Si está en la zona de victoria, tacha «el Heraldo sigue vivo» en tu Registro de campaña.</li><li>Si sigue en juego o está dejado aparte, anota entre paréntesis junto a «el Heraldo sigue vivo» en tu Registro de campaña cuánto daño tiene el Heraldo de Valusia, sustituyendo el número que hubiera antes entre paréntesis.</li></ul></li><li>Por cada punto de venganza en la zona de victoria, anota una marca bajo «Furia de Yig» en tu Registro de campaña.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria. Cada investigador obtiene experiencia adicional igual al nivel de profundidad actual.</li></ul>"
+    },
+    "resolution2": {
+      "title": "Resolución 2",
+      "body": "<p>_Resolución 2_: De algún modo, a pesar de tenerlo todo en contra, has llegado a tu destino. El revelador resplandor rojo que te ha envuelto desde que entraste en Yoth se retira y lo sustituye una oscuridad impenetrable, negra como la tinta. El Nexo debe de estar cerca… Puedes sentirlo.</p><ul><li>En tu Registro de campaña, anota que *el Nexo está cerca*.</li><li>Si el Heraldo de Valusia entró en juego durante este escenario:<ul><li>Si está en la zona de victoria, tacha «el Heraldo sigue vivo» en tu Registro de campaña.</li><li>Si sigue en juego o está dejado aparte, anota entre paréntesis junto a «el Heraldo sigue vivo» en tu Registro de campaña cuánto daño tiene el Heraldo de Valusia, sustituyendo el número que hubiera antes entre paréntesis.</li></ul></li><li>Por cada punto de venganza en la zona de victoria, anota una marca bajo «Furia de Yig» en tu Registro de campaña.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria. Cada investigador obtiene experiencia adicional igual al nivel de profundidad actual.</li></ul>"
+    }
+  }
+}
