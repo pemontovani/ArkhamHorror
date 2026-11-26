@@ -1,0 +1,19 @@
+{
+  "prologue": "<h1>Un renacimiento glorioso</h1><p>Arkham siempre ha sido una ciudad un poco rara. Es como si, cada vez que lees las noticias, hubiera una nueva información sobre algún asesinato truculento o alguna desaparición repentina. Un cadáver apaleado en el Distrito ribereño. Un agente de policía desaparecido en French Hill. Un símbolo trazado con sangre en el callejón de detrás del Restaurante de Velma. Es verdad que la ciudad tiene su ración de chalados y de amantes de las conspiraciones, pero ni siquiera quien observe con la mayor sensatez puede pasar por alto los hechos: a esta ciudad le pasa algo.</p><p>Sin embargo, a la mayoría de la gente de Arkham no le gusta recrearse en lo malo. Tras la inundación de hace seis meses, la ciudad se está reconstruyendo más fuerte que nunca, con dinero nuevo que llega a raudales de inversores de fuera. Dicen que todo va viento en popa, y desde luego lo parece. Pero sabes que la historia siempre esconde algo más.</p><p>Sea lo que sea lo que te aguarda, no tienes que afrontarlo sin ayuda. Hay más gente como tú que se ha topado con horrores semejantes y que no se conformará con explicaciones fáciles ni con distracciones reconfortantes. También esas personas saben que hay algo de cierto en las antiguas maldiciones y leyendas de brujas de esta ciudad. ¿Les harás frente a su lado a los males que acechan más allá de la comprensión de los mortales? ¿O sucumbirás, como tantos otros, a los terrores de los Mitos?</p>",
+  "key": {
+    "investigatorsDefeatedTheirMaskedPursuer": "Los investigadores derrotaron a su perseguidor enmascarado.",
+    "investigatorsSavedMiskatonicUniversity": "Los investigadores salvaron la Universidad Miskatonic.",
+    "miskatonicUniversityBurned": "La Universidad Miskatonic ardió.",
+    "servantOfElokoss": "Heraldo de Elokoss",
+    "investigatorsDiscoveredTheCultsWhereabouts": "Los investigadores descubrieron el paradero de la secta.",
+    "investigatorsFailedInTheirSearch": "Los investigadores fracasaron en su búsqueda.",
+    "investigatorsKilledTheServantOfFlame": "Los investigadores mataron al Sirviente de la llama.",
+    "investigatorsScouredArkhamForAnswers": "Los investigadores peinaron Arkham en busca de respuestas.",
+    "investigatorsStirredUpTrouble": "Los investigadores agitaron el avispero.",
+    "theServantOfFlameEscaped": "El Sirviente de la llama escapó.",
+    "elokossWasReborn": "Elokoss renació.",
+    "investigatorsDefeatedElokossAndTheBrethrenOfAsh": "Los investigadores derrotaron a Elokoss y a los Hermanos de las cenizas.",
+    "investigatorsStoppedElokosssGloriousRebirth": "Los investigadores detuvieron el glorioso renacimiento de Elokoss.",
+    "investigatorsFloodedTheBrethrenOfAshsSummoningRitual": "Los investigadores inundaron el ritual de invocación de los Hermanos de las cenizas."
+  }
+}

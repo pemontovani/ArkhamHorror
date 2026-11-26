@@ -1,4 +1,6 @@
 import base from '@/locales/es/base.json'
+import cardOption from '@/locales/es/cardOption.json'
+import event from '@/locales/es/event.json'
 import log from '@/locales/es/log.json'
 import cards from '@/locales/es/cards.json'
 import label from '@/locales/es/label.json'
@@ -17,13 +19,16 @@ import edgeOfTheEarth from '@/locales/es/edgeOfTheEarth'
 import theScarletKeys from '@/locales/es/theScarletKeys'
 import theFeastOfHemlockVale from '@/locales/es/theFeastOfHemlockVale'
 import theDrownedCity from '@/locales/es/theDrownedCity'
+import brethrenOfAsh from '@/locales/es/brethrenOfAsh'
+import standalone from '@/locales/es/standalone'
 
 // Anything missing here falls back to English key by key (fallbackLocale in
 // main.ts). Mirrors en.ts: `label` has to be nested -- the app asks for
 // t('label.play') -- and `label.cards` is the `label` section of cards.json.
-// cardOption.json and event.json (Epic Multiplayer) have no Spanish yet.
 export default
   { ...base
+  , ...cardOption
+  , ...event
   , ...campaignLog
   , ...gameBoard
   , cards
@@ -43,4 +48,6 @@ export default
   , theScarletKeys
   , theFeastOfHemlockVale
   , theDrownedCity
+  , brethrenOfAsh
+  , standalone
   }

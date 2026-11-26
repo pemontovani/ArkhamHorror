@@ -1,0 +1,85 @@
+{
+  "keywordsAndConcepts": {
+    "title": "Palabras clave y conceptos",
+    "entries": {
+      "0": {
+        "title": "Condenado",
+        "body": "<p>Condenado es una capacidad de palabra clave. Cuando es derrotado un Enemigo con la palabra clave Condenado (ya sea por un investigador o por un efecto del escenario), coloca 1 ficha de Perdición en el Plan en curso. Este efecto puede hacer que el Plan en curso avance.</p><ul><li>Un efecto que «descarte» un Enemigo no se considera que derrote a ese Enemigo y no activa la palabra clave Condenado.</li></ul>"
+      },
+      "1": {
+        "title": "Cazador",
+        "body": "<p>Cazador es una capacidad de palabra clave. Al comienzo de la fase de Enemigos, cada Enemigo preparado y sin enfrentar que tenga la palabra clave Cazador se mueve a un Lugar conectado, siguiendo la ruta más corta hacia el investigador más cercano. Los Enemigos que estén en un Lugar con uno o más investigadores no se mueven.</p><ul><li>Algunos Enemigos pueden perseguir una presa concreta (consulta «Presa»).</li><li>Si hay varios investigadores equidistantes que puedan considerarse «el investigador más cercano», el Enemigo Cazador se mueve hacia el que mejor cumpla su objetivo designado. Si ninguno lo cumple, o si el Enemigo no tiene la palabra clave Presa, decide el investigador jefe.</li><li>Si un Enemigo Cazador tuviera que moverse a un Lugar, pero la capacidad de una carta se lo impide, ese Enemigo no se mueve.</li></ul>"
+      },
+      "2": {
+        "title": "Peligro",
+        "body": "<p>Peligro es una capacidad de palabra clave. Mientras un investigador esté resolviendo una carta de Encuentro con la palabra clave Peligro, no puede consultar con los demás jugadores. Los demás jugadores no pueden jugar cartas, activar capacidades ni asignar cartas a las pruebas de habilidad de ese investigador mientras se resuelve la carta de Encuentro con Peligro.</p>"
+      },
+      "3": {
+        "title": "Presa",
+        "body": "<p>Presa es una capacidad de palabra clave. Si tienen ocasión, algunos Enemigos persiguen a un investigador determinado. Estos Enemigos se identifican con la palabra clave Presa en su cuadro de texto, seguida entre paréntesis de las instrucciones sobre a quién deben enfrentarse.</p><ul><li>Cuando pueda elegir entre varios investigadores equidistantes (o entre investigadores que estén en su Lugar), un Enemigo con la palabra clave Presa toma como objetivo al investigador que mejor cumpla sus instrucciones de presa.</li></ul>"
+      },
+      "4": {
+        "title": "Represalia",
+        "body": "<p>Represalia es una capacidad de palabra clave. Cada vez que un investigador fracase en una prueba de habilidad al atacar a un Enemigo preparado con la palabra clave Represalia, tras aplicar todos los resultados de esa prueba de habilidad, ese Enemigo realiza un ataque contra el investigador atacante. Un Enemigo no se agota tras realizar un ataque de represalia.</p><ul><li>Este ataque tiene lugar tanto si el Enemigo está enfrentado al investigador atacante como si no.</li></ul>"
+      },
+      "5": {
+        "title": "Oleada",
+        "body": "<p>Oleada es una capacidad de palabra clave. Después de que un investigador robe y resuelva una carta de Encuentro con la palabra clave Oleada, debe robar y resolver otra carta.</p><ul><li>Si un investigador roba una carta con la palabra clave Oleada durante la preparación, la palabra clave Oleada se resuelve igualmente.</li></ul>"
+      }
+    }
+  },
+  "tokens": {
+    "hardExpert": {
+      "skull": "-X. X es el número del Acto en curso más 1.",
+      "tablet": "-2. Revela otra ficha. Si fracasas, recibe 1 punto de daño.",
+      "elderThing": "-4. Si fracasas, y si es posible, roba la carta titulada ¡Fuego! que esté situada más arriba en la pila de descarte de Encuentros."
+    },
+    "easyStandard": {
+      "skull": "-X. X es el número del Acto en curso.",
+      "tablet": "-1. Revela otra ficha. Si fracasas, recibe 1 punto de daño.",
+      "elderThing": "-3. Si fracasas por 2 o más, y si es posible, roba la carta titulada ¡Fuego! que esté situada más arriba en la pila de descarte de Encuentros."
+    }
+  },
+  "label": {
+    "searchingForDrArmitage": {
+      "drawFromDiscard": "Buscar solo en la pila de descarte",
+      "drawFromBoth": "Buscar en el mazo de Encuentros y en la pila de descarte"
+    }
+  },
+  "setup": {
+    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de Encuentros:<section class='encounter-sets grid'><div><img src='{setImgPath}/spreading-flames.png' /><span>Las llamas se propagan</span></div><div><img src='{setImgPath}/ashen-pilgrims.png' /><span>Peregrinos cenicientos</span></div><div><img src='{setImgPath}/bystanders.png' /><span>Transeúntes</span></div><div><img src='{setImgPath}/cosmic-evils.png' /><span>Males cósmicos</span></div><div><img src='{setImgPath}/eldritch-lore.png' /><span>Saber arcano</span></div><div><img src='{setImgPath}/fire.png' /><span>¡Fuego!</span></div><div><img src='{setImgPath}/hallucinations.png' /><span>Alucinaciones</span></div><div><img src='{setImgPath}/mad-science.png' /><span>Ciencia demencial</span></div><div><img src='{setImgPath}/miskatonic-university.png' /><span>Universidad Miskatonic</span></div></section>",
+    "placeLocations": "Pon en juego la carta de Lugar Habitación de tu amigo. Pon aparte, fuera del juego, todos los demás Lugares.",
+    "startAt": "Cada investigador comienza la partida en la Habitación de tu amigo.",
+    "setOutOfPlay": "Pon aparte, fuera del juego, las 5 copias de la Traición ¡Fuego!, el Apoyo de historia Dr. Henry Armitage y el Enemigo Sirviente de la llama."
+  },
+  "intro": {
+    "title": "Escenario I: Las llamas se propagan",
+    "body": "<p>En la ciudad de Arkham están pasando cosas extrañas. Una reciente racha de incendios y de macabros «accidentes» tiene en vilo a toda la ciudad. Aunque el Arkham Advertiser ha ofrecido unas cuantas explicaciones endebles, tus colegas y tú no lo veis nada claro. Se han visto figuras ataviadas con túnicas cerca de estos extraños sucesos, y vuestro amigo común está convencido de que son las culpables. Acordáis reuniros en la residencia de vuestro amigo, en la Universidad Miskatonic, para intentar llegar al fondo del asunto. Sin embargo, cuando llegas, la habitación de tu amigo está vacía y en la residencia reina un extraño silencio…</p>"
+  },
+  "resolutions": {
+    "label": {
+      "r2": "¡Quedarse y combatir el fuego! (→ Resolución 2)",
+      "r3": "No hay tiempo. Tenemos que irnos. (→ Resolución 3)"
+    },
+    "noResolution": {
+      "title": "Sin resolución",
+      "body": "<p>_Si no se ha llegado a ninguna resolución (todos los investigadores han desistido o han sido derrotados)_: Despiertas en las lindes del campus, con los ojos irritados por el humo, y contemplas en un silencio atónito cómo arde la Universidad Miskatonic. Sobre el incendio danzan en el cielo las ascuas como estrellas en llamas. Sin fuerzas para ayudar, ves a un grupo de estudiantes esforzarse en vano por detener el fuego. Primero el observatorio, luego las residencias y por último el edificio de Ciencias sucumben a las llamas. En medio del tumulto encuentras al Dr. Henry Armitage bajo un abedul, viendo arder la Biblioteca Orne. Las llamas dejan mondos los huesos del majestuoso edificio, del que solo queda una ruina esquelética. El bibliotecario jefe se encuentra a todas luces en estado de conmoción. Su rostro se vuelve ceniciento cuando le explicas las extrañas circunstancias que rodean la desaparición de tu amigo. ¿Quién era tu ardiente enemigo? ¿Y qué querían las figuras encapuchadas que patrullaban el campus?</p><ul><li>Anota en el registro de campaña que <b>la Universidad Miskatonic ardió</b>.</li><li>Cada investigador sufre 1 trauma mental, pues le corroe la culpa por haber dejado arder la universidad.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria. Cada investigador obtiene 2 puntos de experiencia adicionales por reflexionar sobre los acontecimientos de la noche.<ul><li>_Experiencia_: {xp}</li></ul></li></ul>"
+    },
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<p>_Resolución 1_: Se desata el caos mientras decenas de estudiantes colaboran para combatir el furioso infierno. Un torbellino de preguntas se agolpa en tu mente. ¿Quién era la persona que te perseguía? ¿Qué querían en realidad las figuras encapuchadas que patrullaban el campus? ¿Y dónde está tu amigo?</p><p>El Dr. Armitage te pone una mano en el hombro y te sobresalta.</p><p>—Si queremos encontrar a tu amigo y a su secuestrador, tenemos que irnos ya: te lo explicaré todo por el camino.</p><p>Miras a los estudiantes, que combaten el incendio con valentía, y después al bibliotecario jefe. Podrías quedarte a ayudar, pero te costaría un tiempo precioso.</p><ul><li>Anota en el registro de campaña que *los investigadores derrotaron a su perseguidor enmascarado*.</li><li>Elige un investigador que pase a ser el portador del Apoyo de historia Dr. Henry Armitage (*añade esa carta al mazo de ese investigador, ignorando las restricciones de construcción de mazos. No cuenta para el tamaño de mazo de ese investigador*).</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de _Victoria X_ de cada carta de la zona de victoria. Cada investigador obtiene 3 puntos de experiencia adicionales por reflexionar sobre los acontecimientos de la noche.</li><li>Los investigadores deben decidir (*elige una opción*):<ul><li>*¡Quedarse y combatir el fuego!* Continúa en la _Resolución 2_.</li><li>*«No hay tiempo. Tenemos que irnos»*. Salta a la _Resolución 3_.</li></ul></li></ul>"
+    },
+    "resolution2": {
+      "title": "Resolución 2",
+      "body": "<p>_Resolución 2_: Te escuecen los ojos por el humo acre mientras trabajas codo con codo con los demás para sofocar las voraces llamas. Lográis mantener el fuego a raya hasta que llegan los bomberos de Arkham. Con la situación bajo control, te apresuras a reunirte con el Dr. Armitage.</p><ul><li>Anota en el registro de campaña que *los investigadores salvaron la Universidad Miskatonic*.</li><li>Cada investigador obtiene 1 punto de experiencia adicional y sufre 1 trauma físico por las quemaduras sufridas al combatir el fuego.</li><li>Continúa en el _Escenario II: Humo y espejos_.</li></ul>"
+    },
+    "resolution3": {
+      "title": "Resolución 3",
+      "body": "<p>_Resolución 3_: Huyes del campus con el Dr. Armitage y abandonas la universidad a su suerte. El aullido de las sirenas ahoga cualquier otro sonido mientras sigues al bibliotecario jefe hasta su piso.</p><ul><li>Anota en el registro de campaña que *la Universidad Miskatonic ardió*.</li><li>Cada investigador sufre 1 trauma mental, pues le corroe la culpa por haber dejado arder la universidad.</li><li>Continúa en el _Escenario II: Humo y espejos_.</li></ul>"
+    },
+    "xp": {
+      "resolution2": "por combatir el fuego",
+      "bonus": "por reflexionar sobre los acontecimientos de la noche"
+    }
+  }
+}

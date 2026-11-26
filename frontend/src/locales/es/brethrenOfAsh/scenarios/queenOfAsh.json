@@ -1,0 +1,97 @@
+{
+  "tokens": {
+    "easyStandard": {
+      "skull": "-X. X es la cantidad de Traiciones ¡Fuego! en juego.",
+      "cultist": "-2. Si estás atacando o intentando evitar a un Enemigo _Sectario_, revela otra ficha.",
+      "tablet": "-2 (en vez de eso, -4 si estás en un _Lugar del ritual_).",
+      "elderThing": "-3. Si fracasas, roba la copia de ¡Fuego! que esté situada más arriba en la pila de descarte de Encuentros."
+    },
+    "hardExpert": {
+      "skull": "-X. X es el doble de la cantidad de Traiciones ¡Fuego! en juego.",
+      "cultist": "-3. Si estás atacando o intentando evitar a un Enemigo _Sectario_, revela otra ficha.",
+      "tablet": "-4. Si estás en un _Lugar del ritual_, en vez de eso fracasas automáticamente.",
+      "elderThing": "-5. Si fracasas, roba la copia de ¡Fuego! que esté situada más arriba en la pila de descarte de Encuentros."
+    }
+  },
+  "setup": {
+    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de Encuentros:<section class='encounter-sets grid'><div><img src='{setImgPath}/queen-of-ash.png' /><span>Reina de las cenizas</span></div><div><img src='{setImgPath}/ashen-pilgrims.png' /><span>Peregrinos cenicientos</span></div><div><img src='{setImgPath}/cosmic-evils.png' /><span>Males cósmicos</span></div><div><img src='{setImgPath}/cultists.png' /><span>Sectarios</span></div><div><img src='{setImgPath}/fire.png' /><span>¡Fuego!</span></div><div><img src='{setImgPath}/hallucinations.png' /><span>Alucinaciones</span></div><div><img src='{setImgPath}/reeking-decay.png' /><span>Putrefacción hedionda</span></div><div><img src='{setImgPath}/sewers.png' /><span>Alcantarillas</span></div><div><img src='{setImgPath}/torment.png' /><span>Tormento</span></div></section>",
+    "placeUndergroundCistern": "Pon en juego la Cisterna subterránea.",
+    "sewers": "Baraja todos los Lugares del conjunto de Encuentros _Alcantarillas_ de modo que no sepas cuál es cuál y ponlos todos en juego, sin revelar.",
+    "sluiceControl": "Pon aparte, fuera del juego, el Control de compuertas.",
+    "startAt": "Cada investigador comienza la partida en el Conducto de las alcantarillas.",
+    "checkCampaignLog": "Consulta el registro de campaña.",
+    "scouredArkhamForAnswers": "Si los investigadores peinaron Arkham en busca de respuestas, cada investigador comienza la partida con 1 pista.",
+    "stirredUpTrouble": "*Si los investigadores agitaron el avispero*, busca todos los Enemigos _Sectario_ de los conjuntos de Encuentros _Peregrinos cenicientos_ y _Sectarios_, barájalos juntos y pon en juego 1 {'{'}perPlayer{'}'} Enemigos de ese grupo, cada uno en un Lugar Túneles de alcantarilla distinto.",
+    "killedServantOfFlame": "*Si los investigadores mataron al Sirviente de la llama*, retira de la partida el Enemigo Sirviente de la llama. De lo contrario, ponlo aparte, fuera del juego.",
+    "placeDoom": "Si hay 3 o 4 jugadores en la partida, coloca 1 ficha de Perdición en el Plan. Si los investigadores no descubrieron el paradero de la secta, coloca 1 ficha de Perdición en el Plan.",
+    "setOutOfPlay": "Reúne el conjunto de Encuentros _¡Fuego!_ y pon aparte, fuera del juego, todas las copias de ¡Fuego!, junto con las dos copias del Apoyo de recompensa Coleccionista y los Enemigos Elokoss, Caballero de la reina y Heraldo de la llama."
+  },
+  "intro": {
+    "title": "Escenario III: Reina de las cenizas",
+    "intro1": "<p>_Introducción 1_: El Dr. Armitage da las gracias a la camarera del Restaurante de Velma cuando esta deja entre vosotros dos porciones de tarta de manzana caliente. El bibliotecario jefe empuja una hacia ti con una sonrisa forzada.</p><p>—Arkham está cambiando. El mundo está cambiando (a peor, me temo), pero al menos tenemos tarta.</p><p>Juntos, el Dr. Armitage y tú vais componiendo una imagen inquietante de la situación.</p><p>—Los Hermanos de las cenizas no son conspiradores —dice Armitage—. Son siervos, todos ellos. Siervos de una antigua diosa a la que llaman «Elokoss».</p><p>Antes de continuar, el Dr. Armitage te enseña una grotesca xilografía de un árbol nudoso con las ramas en llamas.</p><p>—Tras asistir a una de las reuniones secretas de la secta, a algunos posibles seguidores les sale un extraño moratón que los marca como pertenencia de Elokoss. Esos seguidores proceden de todas las clases y condiciones: ricos y pobres, fuertes y débiles. Lo más importante es que estos siervos no tienen ni idea de que están bajo su influjo. La misteriosa figura que te persigue es uno de esos siervos. Según la profecía, el «Sirviente de la llama» que nos atacó en la universidad es el heraldo del regreso de la reina. El sirviente reúne sacrificios para allanar el camino al glorioso renacimiento de su reina. Un renacimiento que, según predicen, tendrá lugar esta misma noche.</p>",
+    "addTokens": "En función de la dificultad de la campaña, haz lo siguiente. Si estás jugando en…",
+    "easy": "…dificultad Fácil, añade una ficha {'{'}elderThing{'}'} a la bolsa de caos durante el resto de la campaña.",
+    "standard": "…dificultad Normal, añade una ficha {'{'}elderThing{'}'} y una ficha {'{'}tablet{'}'} a la bolsa de caos durante el resto de la campaña.",
+    "hard": "…dificultad Difícil, añade una ficha {'{'}elderThing{'}'}, una ficha {'{'}tablet{'}'} y una ficha {'{'}skull{'}'} a la bolsa de caos durante el resto de la campaña.",
+    "expert": "…dificultad Experto, añade una ficha {'{'}elderThing{'}'}, una ficha {'{'}tablet{'}'}, una ficha {'{'}cultist{'}'} y una ficha {'{'}skull{'}'} a la bolsa de caos durante el resto de la campaña.",
+    "checkCampaignLog": "Consulta el registro de campaña.",
+    "discovered": "*Si los investigadores descubrieron el paradero de la secta*, continúa en la _Introducción 2_.",
+    "otherwise": "De lo contrario, salta a la _Introducción 3_.",
+    "intro2": "<p>_Introducción 2_: La sola idea de que sacrifiquen a tu amigo te hiela hasta la médula. En lugar de ensamblar pruebas circunstanciales, propones registrar la residencia del Sirviente de la llama en busca de alguna pista. El registro arroja varios indicios. Una invitación a una reunión secreta. Un par de botas embarradas y rozadas. Un registro de operaciones de contrabando de alcohol en el Distrito ribereño. Una foto de tres rostros iluminados por la luz de unas velas en la oscuridad. Todo apunta a las alcantarillas de Arkham.</p><p>—Un poco necio por parte de una secta que venera el fuego dirigir sus asuntos desde las alcantarillas, ¿no te parece? —dice Armitage con una risita—. Pero creo que tienes razón.</p><p>Juntos, decidís rastrear las alcantarillas en busca de cualquier huella de tu amigo.</p><p class='basic right'>Continúa en _Preparación_.</p>",
+    "intro3": "<p>_Introducción 3_: La sola idea de que sacrifiquen a tu amigo te hiela hasta la médula. El Dr. Armitage y tú estudiáis con detenimiento las poquísimas pistas valiosas que habéis reunido. Tras varias horas de un análisis soporífero, Armitage conjetura que los Hermanos de las cenizas están celebrando su ritual en las alcantarillas de Arkham.</p><p>—Un poco necio por parte de una secta que venera el fuego dirigir sus asuntos desde las alcantarillas, ¿no te parece? —dice Armitage con una risita—. Pero es la única pista que tenemos.</p><p>Juntos, decidís rastrear las alcantarillas en busca de cualquier huella de tu amigo.</p><ul><li>Durante la preparación, coloca 1 ficha de Perdición en el Plan.</li></ul><p class='basic right'>Continúa en _Preparación_.</p>"
+  },
+  "resolutions": {
+    "noResolution": {
+      "title": "Sin resolución",
+      "body": "<p>_Si no se ha llegado a ninguna resolución (todos los investigadores han desistido o han sido derrotados)_: El Dr. Armitage escapa a duras penas con vida de las alcantarillas, consumido por la culpa de dejar atrás a sus compañeros. Al amanecer, un fuego inextinguible se ha propagado por todo el Barrio Este y se ha cobrado incontables vidas. Aunque los bomberos de Arkham hacen cuanto pueden, las llamas arden durante tres días antes de extinguirse al fin. Quienes huyeron hablan en susurros de visiones indecibles (un rostro aterrador y macabro que miraba desde las llamas) que aún los atormentan. Médicos y enfermeras siguen sin poder identificar el origen de los extraños moratones de las víctimas, que no se curan. Todo rastro de los compañeros de Armitage, así como de los Hermanos de las cenizas, ha quedado erradicado en el infierno de fuego.</p><ul><li>Anota en el registro de campaña que *Elokoss renació*.</li><li>Cada investigador _muere_.</li><li>Los investigadores pierden la campaña.</li></ul>"
+    },
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<p>_Resolución 1_: Contra todo pronóstico, el receptáculo del antiguo mal que es Elokoss ha sido destruido, y los planes de la secta para traerla a este plano han quedado desbaratados. El Dr. Armitage atiende a los sectarios a medida que vuelven en sí. Encuentras a tu amigo entre ellos, presa del miedo y la confusión, pero por lo demás sin daños. Mientras le explicas los espantosos acontecimientos de la noche, te escucha con atención. Al sacarlo de las alcantarillas junto con las demás personas inocentes, adviertes en su cuello una marca extraña y conocida. El moratón se ha atenuado y apenas se ve, pero sigue ahí.</p><p>Quizá solo sea cuestión de tiempo que la marca vuelva a despertar y que más seguidores de la Reina de las cenizas se alcen de nuevo para resucitar a su diosa. Juras que estarás a punto si ese día vuelve a llegar.</p><ul><li>Anota en el registro de campaña que *los investigadores derrotaron a Elokoss y a los Hermanos de las cenizas*.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de _Victoria X_ de cada carta de la zona de victoria.<ul><li>Cada investigador obtiene 5 puntos de experiencia adicionales por haber derrotado a Elokoss y salvado a su amigo.</li></ul></li><li>Los investigadores han conseguido la carta de recompensa de campaña Coleccionista. Añade las dos copias de esta carta a la reserva de cartas de Jugador.</li><li>Cada investigador sufre 2 traumas mentales y 2 traumas físicos a causa de sus horrendas experiencias.</li><li>¡Los investigadores ganan la campaña!</li></ul>"
+    },
+    "resolution2": {
+      "title": "Resolución 2",
+      "body": "<p>_Resolución 2_: Un viento aullante os acribilla con carbonilla. El Dr. Armitage arranca un tomo maltrecho de las manos de un sectario caído y entona un idioma gutural e inhumano. Un fuerte crujido, como de madera que se raja, resuena por la cisterna, y el árbol en llamas se convierte ante tus propios ojos en una ceniza fina como el polvo. A tu alrededor, los sectarios sueltan las armas y se detienen en seco, con un repentino aire de extravío. Ya no están bajo el influjo de Elokoss.</p><p>Encuentras a tu amigo entre ellos, presa del miedo y la confusión, pero por lo demás sin daños. La marca de su cuello se ha desvanecido sin dejar rastro, y el resto de la secta parece haber vuelto a la normalidad, sin recuerdo alguno de lo ocurrido esta noche. Aun así, lo que has vivido te deja un poso de temor. En los meses siguientes, el menor olor a humo te acelera el pulso. Las llamas han remitido, pero no logras librarte de la persistente sensación de que, en algún lugar muy por debajo de la ciudad, las ascuas de la ira de Elokoss siguen ardiendo sin llama.</p><ul><li>Anota en el registro de campaña que *los investigadores detuvieron el glorioso renacimiento de Elokoss*.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de _Victoria X_ de cada carta de la zona de victoria.</li><li>Cada investigador obtiene 5 puntos de experiencia adicionales por haber detenido un ritual blasfemo.</li><li>Los investigadores han conseguido la carta de recompensa de campaña Coleccionista. Añade las dos copias de esta carta a la reserva de cartas de Jugador.</li><li>Cada investigador sufre 2 traumas mentales y 2 traumas físicos a causa de los acontecimientos de la noche.</li><li>¡Los investigadores ganan la campaña!</li></ul>"
+    },
+    "resolution3": {
+      "title": "Resolución 3",
+      "body": "<p>_Resolución 3_: La vieja compuerta se abre con un chirrido y libera un diluvio de aguas residuales fétidas. Por los corredores oyes el torrente de agua acompañado de los gritos de incontables sectarios. En vez de intentar correr, aceptas tu destino. Está claro que no hay escapatoria. Has hecho lo que había que hacer. Mientras la inmundicia sube con rapidez hasta tus tobillos, luego hasta tus rodillas y después hasta tu cuello, piensas en tu amigo y en el Dr. Armitage, y en las incontables personas que probablemente se hayan ahogado. Has sacrificado tu vida y las suyas para impedir el regreso de un antiguo mal. Solo esperas que el sacrificio no haya sido en vano.</p><ul><li>Anota en el registro de campaña que *los investigadores inundaron el ritual de invocación de los Hermanos de las cenizas*.</li><li>Cada investigador que no haya desistido _muere_.</li><li>Cada investigador que haya desistido obtiene una cantidad de experiencia igual al valor de _Victoria X_ de cada carta de la zona de victoria.<ul><li>Cada investigador obtiene 3 puntos de experiencia adicionales por haber escapado del diluvio.</li></ul></li><li>Los investigadores han conseguido la carta de recompensa de campaña Coleccionista. Añade las dos copias de esta carta a la reserva de cartas de Jugador.</li><li>Cada investigador superviviente sufre 3 traumas mentales, pues le corroe la culpa por haber dejado atrás a sus amigos.</li><li>Los investigadores ganan la campaña, pero es solo cuestión de tiempo que los seguidores de Elokoss se alcen de nuevo…</li></ul>"
+    },
+    "xp": {
+      "resolution3": "por escapar del diluvio",
+      "bonus": "experiencia adicional"
+    }
+  },
+  "codex": {
+    "servantOfFlame": {
+      "title": "{'{'}codex{'}'} Códice Φ: Sirviente de la llama",
+      "intro": "<p>Al derrotar al Sirviente de la llama, le has devuelto la cordura. Cuando le quitas la máscara, alza hacia ti una mirada confusa.</p><p class='basic'>_Consulta el registro de campaña y resuelve una de las siguientes opciones:_</p>",
+      "davidRenfield": {
+        "body": "<p>_Si David Renfield es el heraldo de Elokoss:_</p><p>David gruñe cuando intentas ayudarle a ponerse en pie.</p><p>—Déjame. Sirvo por voluntad propia. La acogí en mi interior. Y ahora ella lo purgará todo con su llama purificadora. —Se ríe débilmente antes de exhalar su último aliento.</p><p class='basic right'>Cada investigador puede buscar en su mazo una carta _Tomo_ o _Hechizo_ y jugarla, ignorando todos los costes.</p>"
+      },
+      "corneliaAkely": {
+        "body": "<p>_Si Cornelia Akely es el heraldo de Elokoss:_</p><p>Cornelia se mira perpleja las manos ensangrentadas.</p><p>—Creía que todo había sido una pesadilla —dice mientras la ayudas a ponerse en pie. Te examina y frunce el ceño—. Tienes heridas. Puedo ayudar.</p><p class='basic right'>Cada investigador cura 3 puntos de daño.</p>"
+      },
+      "naomiOBannion": {
+        "body": "<p>_Si Naomi O’Bannion es el heraldo de Elokoss:_</p><p>—¿Qué clase de fiesta es esta? —brama Naomi, y luego te lanza una mirada asesina—. ¿Y quién diablos eres tú?</p><p>Haces lo posible por explicarle la situación mientras la ayudas a ponerse en pie.</p><p class='basic right'>Cada investigador obtiene 5 recursos.</p>"
+      },
+      "sgtEarlMonroe": {
+        "body": "<p>_Si el Sgto. Earl Monroe es el heraldo de Elokoss:_</p><p>El rostro del agente está paralizado en una expresión de terror cuando le quitas la máscara.</p><p>—¿Dónde estoy? —pregunta, casi como un niño—. ¿Y qué he hecho?</p><p>Se mira horrorizado la ropa salpicada de sangre.</p><p class='basic right'>Cada investigador puede buscar en su mazo un Apoyo _Arma_ y jugarlo, ignorando todos los costes.</p>"
+      },
+      "abigailForeman": {
+        "body": "<p>_Si Abigail Foreman es el heraldo de Elokoss:_</p><p>Abigail te aprieta las manos con fuerza cuando le quitas la máscara.</p><p>—Acaba con ella. Elokoss no debe despertar —dice entre toses.</p><p>La bibliotecaria te entrega una nota arrugada antes de perder el conocimiento.</p><p class='basic right'>Cada investigador puede robar hasta 3 cartas.</p>"
+      },
+      "margaretLiu": {
+        "body": "<p>_Si Margaret Liu es el heraldo de Elokoss:_</p><p>—Esto es como el desastre aquel del Club Tictac —dice furiosa la señorita Liu mientras la ayudas a ponerse en pie.</p><p>La cantante muestra una sorprendente indiferencia ante el caos que os rodea. En vez de preguntarle por el desastre, le indicas dónde está la salida.</p><p class='basic right'>Cada investigador cura 3 puntos de horror.</p>"
+      },
+      "label": {
+        "davidRenfield": {
+          "search": "Buscar en tu mazo una carta _Tomo_ o _Hechizo_ y jugarla, ignorando todos los costes."
+        },
+        "sgtEarlMonroe": {
+          "search": "Buscar en tu mazo un Apoyo _Arma_ y jugarlo, ignorando todos los costes."
+        }
+      }
+    }
+  }
+}

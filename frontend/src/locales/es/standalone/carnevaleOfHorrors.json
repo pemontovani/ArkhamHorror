@@ -1,0 +1,82 @@
+{
+  "specialRules": [
+    {
+      "title": "Sentido contrario a las agujas del reloj",
+      "body": "<p class='basic'>Algunas cartas indican a los jugadores que busquen el Lugar más cercano en el sentido contrario a las agujas del reloj. Es una excepción a la regla anterior y debe seguirse como si los Lugares estuvieran conectados en sentido contrario a las agujas del reloj.</p>"
+    },
+    {
+      "title": "«Enfrente de»",
+      "body": "<p class='basic'>El Lugar que está «enfrente de» otro es el más lejano, a la misma distancia tanto en el sentido de las agujas del reloj como en el sentido contrario. A efectos de este escenario, «enfrente de tu Lugar» y «enfrente de ti» significan lo mismo.</p>"
+    }
+  ],
+  "label": {
+    "doNotAddMask": "No añadir ninguna máscara",
+    "medicoDellaPeste": {
+      "heal1Damage": "Curar 1 punto de daño",
+      "heal1Horror": "Curar 1 punto de horror"
+    }
+  },
+  "massHysteria": {
+    "label": {
+      "shuffleMaskedCarnevaleGoers": "Barajar los Enmascarados del Carnevale"
+    }
+  },
+  "lostInVenice": {
+    "label": {
+      "moveAcross": "Moverse al Lugar que está enfrente de ti"
+    }
+  },
+  "tokens": {
+    "easyStandard": {
+      "skull": "-2. Esta ficha tiene un -1 adicional por cada Carnavalero inocente que haya bajo el mazo de Plan.",
+      "cultist": "Revela otra ficha. Si fracasas en esta prueba, roba la primera carta del mazo de Encuentros.",
+      "tablet": "-3. Si fracasas, inflige 1 punto de daño o 1 punto de horror al Carnavalero inocente más cercano que haya en juego.",
+      "elderThing": "-4. Si fracasas y Cnidathqua está en juego, te ataca."
+    },
+    "hardExpert": {
+      "skull": "-2. Esta ficha tiene un -1 adicional por cada Carnavalero inocente que haya bajo los mazos de Acto o de Plan.",
+      "cultist": "Revela otra ficha. Si fracasas en esta prueba, roba la primera carta del mazo de Encuentros.",
+      "tablet": "-4. Inflige 1 punto de daño o 1 punto de horror al Carnavalero inocente más cercano que haya en juego.",
+      "elderThing": "-6. Si fracasas y Cnidathqua está en juego, te ataca."
+    }
+  },
+  "intro": {
+    "title": "Llega el Carnevale…",
+    "body": "<p>—Mira —insiste el sheriff Engel—, ya sé que suena a locura, pero de verdad que no hay más.</p><p>Suspira, vuelve a sentarse y sirve una taza de café para ti y otra para él.</p><p>—Una señora de la Periferia vio a un chalado que llevaba esta máscara y empuñaba un cuchillo de carnicero ensangrentado —dice, y señala la máscara de cuero negro que hay sobre su escritorio. Tiene una nariz cómicamente larga y un extraño símbolo garabateado en amarillo en la frente—. Así que dio el aviso. Mis muchachos y yo lo trincamos en la esquina de Saltonstall con Garrison.</p><p>El sheriff aprieta la mandíbula y frunce el ceño mientras relata lo ocurrido.</p><p>—El tipo no hizo más que reírse mientras le poníamos las pulseras. Dijo llamarse Zanni. No soltaba otra cosa que «llega el carnaval», a saber qué demonios quería decir con eso. Hasta el día siguiente no encontramos el cuerpo de la víctima. La defensa lo quería con camisa de fuerza. Le dimos el gusto con mucho placer.</p><p>No hay tiempo que perder. Si tus pesquisas son correctas, este caso es más de lo que parece. El tal «Zanni» no hablaba de la feria de Darke, sino del Carnevale de Venecia, que empieza justo antes de la próxima luna llena…</p>"
+  },
+  "setup": {
+    "gatherSets": "Reúne todas las cartas del conjunto de Encuentros *Carnevale de horrores*, identificado con este icono: <section class='encounter-sets'><img src='{setImgPath}/venice1.png' /></section>",
+    "removeLocation": "Elige 1 Lugar al azar y retíralo de la partida. Si se elige la Basílica de San Marcos o el Canal, en vez de eso elige al azar un Lugar distinto.",
+    "placeLocations": "Pon en juego los otros 8 Lugares formando un círculo al azar.",
+    "abbess": "Pon en juego a la Abadesa Allegria Di Biase en la Basílica de San Marcos.",
+    "startAt": "Cada investigador comienza la partida en la Basílica de San Marcos.",
+    "carnevaleGoers": "Baraja los 7 Enmascarados del Carnevale y pon en juego 1 en cada Lugar que no sea la Basílica de San Marcos, con el lado Enmascarado del Carnevale boca arriba. No mires sus otros lados.",
+    "setAside": "Pon aparte, fuera del juego, las siguientes cartas: Cnidathqua, Pantalone, Medico Della Peste, Bauta y Gilded Volto."
+  },
+  "resolutions": {
+    "noResolution": {
+      "title": "Sin resolución",
+      "body": "<p>_Si no se ha llegado a ninguna resolución (todos los investigadores han sido derrotados)_: Vuelves en ti entre toses cuando un remo te da unos toquecitos en el hombro.</p><p>—<i>Tutto bene?</i> —El gondolero que sostiene el remo te mira con preocupación.</p><p>Asientes y te arrastras desde su góndola hasta el embarcadero, chorreando y con todo el cuerpo dolorido. La ciudad ha quedado arrasada. La mayoría de las barcas del canal están destrozadas, y las calles no están cubiertas de confeti, sino de sangre...</p><ul><li>Anota en el registro de campaña que *muchos fueron sacrificados a Cnidathqua durante el Carnaval*.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.</li><li>Mueve 1 Carnavalero inocente de debajo del mazo de Acto a debajo del mazo de Plan, si es posible.</li><li>Salta a _Recompensas adicionales_.</li></ul>"
+    },
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<p>_Resolución 1_: La ciudad aún se recupera de lo sucedido durante el eclipse. Como el sol abrasador ha derretido casi todo rastro de la criatura, mucha gente atribuye la violencia del Carnevale a Cascio Di Boerio, un capo del hampa local, y a su banda. Quienes conocen la verdad tienen la sensatez de no hablar del ser antiguo que habita en la Laguna Veneta. Con suerte, su nombre no volverá a pronunciarse jamás.</p><ul><li>Anota en el registro de campaña que *el sol desterró a Cnidathqua a las profundidades*.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.</li><li>Salta a _Recompensas adicionales_.</li></ul>"
+    },
+    "resolution2": {
+      "title": "Resolución 2",
+      "body": "<p>_Resolución 2_: La criatura retrocede mientras glóbulos de su carne gelatinosa se desgarran y se desprenden de su cuerpo para caer chapoteando en la laguna. No emite sonido alguno mientras su cuerpo destrozado se hunde en las profundidades. Los cánticos de la ciudad se sumen en un silencio luctuoso. Cuando regresas a las calles que bordean el canal, caen del cielo plumas negras allí donde antes revoloteaba el confeti de colores. No puedes más que preguntarte cuánto tardará la criatura en recuperarse.</p><ul><li>Anota en el registro de campaña que *Cnidathqua se retiró a lamerse las heridas*.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.</li><li>Continúa en _Recompensas adicionales_.</li></ul>"
+    },
+    "additionalRewards": {
+      "title": "Recompensas adicionales",
+      "body": "<p class='basic'>_Recompensas adicionales:_</p><ul><li>En orden de juego, cada investigador puede elegir una de las siguientes cartas _Máscara_ para añadirla a su mazo: Pantalone, Medico Della Peste, Bauta o Gilded Volto. La carta elegida no cuenta para el tamaño de mazo de ese investigador.</li><li>Si no hay Carnavaleros inocentes bajo el mazo de Acto y hay al menos 1 bajo el mazo de Plan, continúa en _Sacrificio consumado_.</li><li>Si no hay Carnavaleros inocentes bajo el mazo de Plan y hay 3 bajo el mazo de Acto, salta a _La abadesa, satisfecha_.</li></ul>"
+    },
+    "sacrificeMade": {
+      "title": "Sacrificio consumado",
+      "body": "<p>_Sacrificio consumado_: Se perdieron demasiadas vidas durante el eclipse como para detener las maquinaciones de los siervos de Cnidathqua. La bestia ha sido alimentada, y sus esbirros han cobrado poder. Te sorprendes deseando no vivir lo suficiente para ver las consecuencias de tu fracaso.</p><ul><li>Cada investigador busca en la colección una Debilidad básica _Locura_, _Lesión_ o _Monstruo_ al azar y la añade a su mazo durante el resto de la campaña.</li></ul>"
+    },
+    "abbessSatisfied": {
+      "title": "La abadesa, satisfecha",
+      "body": "<p>_La abadesa, satisfecha_: —<i>Grazie mille</i>. Gracias por toda tu ayuda —dice Allegria cuando regresas a la basílica—. Gracias a ti ha habido pocas víctimas. Me estremezco al pensar en lo que habría ocurrido si no hubieras venido. Si alguna vez necesitas ayuda, no dudes en pedirla.</p><ul><li>Un investigador cualquiera puede elegir añadir a la Abadesa Allegria Di Biase a su mazo. Esta carta no cuenta para el tamaño de mazo de ese investigador.</li></ul>"
+    }
+  }
+}

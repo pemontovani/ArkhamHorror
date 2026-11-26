@@ -1,0 +1,53 @@
+{
+  "cardOption": {
+    "title": "Opciones de cartas",
+    "configure": "Opciones de la carta",
+    "filterPlaceholder": "Filtrar cartas con opciones…",
+    "clear": "Borrar",
+    "c11582": {
+      "abilities": {
+        "1": "{'{'}fast{'}'} Agota la «Máscara» macabra: Deja de estar enfrentado a todos los Enemigos. Hasta el comienzo de tu siguiente turno, no puedes moverte y no puedes dañar a los Enemigos ni enfrentarte a ellos."
+      },
+      "onlyWhenEngaged": {
+        "label": "Ofrecer solo si hay Enemigos enfrentados a ti"
+      }
+    },
+    "c11756a": {
+      "abilities": {
+        "1": "{'{'}reaction{'}'} Cuando obtengas 1 o más recursos: Coloca 1 de esos recursos en Un buen dinero."
+      },
+      "stopAtFiveResources": {
+        "label": "Dejar de ofrecer al llegar a 5 recursos"
+      }
+    },
+    "c10085": {
+      "abilities": {
+        "1": "{'{'}fast{'}'} Elige un Enemigo que no sea Élite en cualquier Lugar y agota la Vara de Carnamagos: Revela 5 fichas de Caos aleatorias de la bolsa de caos. Si es revelada una ficha {'{'}curse{'}'}, busca entre tus cartas enlazadas un Evento _Putrefacción_ aleatorio y vincúlaselo a ese Enemigo."
+      },
+      "offerDuringSkillTests": {
+        "label": "Ofrecer durante las pruebas de habilidad"
+      }
+    },
+    "c10098": {
+      "abilities": {
+        "1": "{'{'}fast{'}'} Elige un Enemigo que no sea Élite en cualquier Lugar y agota la Vara de Carnamagos: Revela 5 fichas de Caos aleatorias de la bolsa de caos. Por cada ficha {'{'}curse{'}'} revelada, puedes buscar entre tus cartas enlazadas un Evento _Putrefacción_ y vinculárselo a ese Enemigo."
+      },
+      "offerDuringSkillTests": {
+        "label": "Ofrecer durante las pruebas de habilidad"
+      }
+    },
+    "c85030": {
+      "abilities": {
+        "1": "{'{'}fast{'}'} Derrota a un Enemigo que no sea Élite, que esté en tu Lugar y tenga 2 o menos puntos de salud restantes. A continuación, cura todo el daño del Vástago de cieno mascota, coloca 1 recurso sobre él y revela X fichas de Caos, donde X es la cantidad de recursos que tenga. Si se revela un símbolo {'{'}autoFail{'}'}, quedas derrotado y sufres 1 trauma físico."
+      },
+      "offerDuringSkillTests": {
+        "label": "Ofrecer durante las pruebas de habilidad"
+      }
+    },
+    "c11764": {
+      "treatAsPartiallyFlooded": {
+        "label": "Tratar «totalmente inundado» como «parcialmente inundado»"
+      }
+    }
+  }
+}

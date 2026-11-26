@@ -1,0 +1,54 @@
+{
+  "tokens": {
+    "easyStandard": {
+      "skull": "-2 (en vez de eso, -4 si estás en un Lugar _Bayou_).",
+      "cultist": "-2. Si el rougarou está en tu Lugar, revela otra ficha.",
+      "tablet": "Revela otra ficha. Si fracasas, no puedes moverte hasta el final de la ronda.",
+      "elderThing": "-4. Si el rougarou está en tu Lugar, te ataca."
+    },
+    "hardExpert": {
+      "skull": "-3 (en vez de eso, -6 si estás en un Lugar _Bayou_).",
+      "cultist": "-3. Si el rougarou está en tu Lugar, revela otra ficha.",
+      "tablet": "Revela otra ficha. Si fracasas, no puedes moverte hasta el final de la ronda.",
+      "elderThing": "-4. Si el rougarou está en tu Lugar o en un Lugar conectado, te ataca."
+    }
+  },
+  "remembered": {
+    "foundAnAncientBindingStone": "Se encontró una antigua piedra de atadura",
+    "foundAStrangeDoll": "Se encontró una muñeca extraña"
+  },
+  "intro": {
+    "title": "¡El terror atenaza Nueva Orleans!",
+    "body": "<p>Minnie Klein, tu contacto en el Arkham Advertiser, te ha pasado un borrador del artículo mientras tomabais un café en el Restaurante de Velma. Habría acabado en la imprenta de no ser porque Doyle Jeffries, el redactor jefe, se burló de la idea.</p><p>—Creo que sus palabras exactas fueron: «No pienso imprimir los delirios de una chiflada del vudú y hacerlos pasar por noticias» —te explicó.</p><p>Por la sonrisa pícara que se le iba dibujando en la cara, se notaba que olfateaba una historia.</p><p>El titular era sensacionalista. Tres muertes en nueve días bastaban para asustar a una población, desde luego. Pero dudas de que toda Nueva Orleans sea presa del terror, o siquiera de que se haya enterado de los asesinatos. Aun así, algo te había picado la curiosidad. «Madame Esprit», la sacerdotisa vudú del artículo, aseguraba que una maldición maligna había arraigado en el bayou.</p><p>—Aquí hay algo, ¿verdad? Conozco esa mirada —dijo Minnie.</p><p>No lo tenías claro. Si Madame Esprit estaba en lo cierto, ese «roux-ga-roux» no iba a conformarse con tres víctimas, eso era seguro. Pero ¿maldiciones? ¿Personas lobo? ¿Cómo iban a ser reales esas cosas? Solo había un modo de averiguarlo. Te pones el abrigo y te encaminas a la estación del Barrio Norte...</p>"
+  },
+  "setup": {
+    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de Encuentros: *La maldición del rougarou* y *El bayou*. Estos conjuntos se identifican, respectivamente, con los siguientes iconos: <section class='encounter-sets'><img src='{setImgPath}/curse-of-the-rougarou.png' /><img src='{setImgPath}/the-bayou.png' /></section>",
+    "setAsideEncounterSets": "Pon aparte, fuera del juego, el conjunto de Encuentros *La maldición del rougarou*.",
+    "placeLocations": "Clasifica los Lugares en 4 montones según su atributo (_Nueva Orleans_, _Ribera_, _Naturaleza_ e _Impío_). Elige al azar 1 de estos montones y retira de la partida esos Lugares. Elige al azar otro de estos montones y pon en juego esos Lugares. Pon aparte, fuera del juego, cada Lugar de los otros 2 montones. Cada investigador comienza la partida en un Lugar _Bayou_ que esté en juego.",
+    "setAside": "Pon aparte, fuera del juego, las siguientes cartas: Madame Esprit, Cepo para osos y Red de pesca."
+  },
+  "resolutions": {
+    "noResolution": {
+      "title": "Sin resolución",
+      "body": "<p class='basic'>_Si no se ha llegado a ninguna resolución (todos los investigadores han desistido o han sido derrotados)_: Ve a la _Resolución 1_.</p>"
+    },
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<p>_Resolución 1_: De algún modo consigues regresar a un lugar seguro antes del amanecer, y descansas hasta bien entrada la tarde. Hasta que al día siguiente vas en busca de Madame Esprit no comprendes quién fue la víctima de anoche. Con el corazón encogido y un temor que no logras sacudirte, decides enterrar su cuerpo en lugar de avisar a las autoridades: cuanta menos gente se adentre tanto en el bayou, mejor.</p><ul><li>Anota en el registro de campaña que *el Rougarou sigue acechando el pantano*.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.</li></ul>"
+    },
+    "resolution2": {
+      "title": "Resolución 2",
+      "body": "<p>_Resolución 2_: La criatura lanza un aullido lastimero mientras de sus heridas rezuma una sangre oscura y cenagosa. Cuando su cuerpo se desploma en el lodo, ya ha recobrado su forma original: la de un hombre joven de piel oscura, con el rostro crispado de dolor. Llevas su cuerpo ante Madame Esprit, que obra su extraña magia y limpia de la tierra la mancha de la maldición.</p><p>—Acude a mí si alguna vez necesitas mi ayuda —te dice la misteriosa mujer.</p><ul><li>Anota en el registro de campaña que *el Rougarou fue destruido* y que la maldición se ha levantado. Retira la Debilidad La maldición del rougarou del mazo de su portador. Un investigador cualquiera puede elegir añadir a Madame Esprit a su mazo. Esta carta no cuenta para el tamaño de mazo de ese investigador.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.</li></ul>"
+    },
+    "resolution3": {
+      "title": "Resolución 3",
+      "body": "<p>_Resolución 3_: De algún modo has logrado aplacar la furia y la sed de sangre que la maldición despertaba en la criatura, y en cuestión de instantes tienes delante la figura de un hombre joven de piel oscura, jadeante y sudoroso. Parece que solo ahora comprende todo lo que ha hecho, y acepta huir a algún rincón apartado del mundo donde no pueda hacer daño a nadie. Sin embargo, la maldición sigue viva. La ve en tus ojos y te agarra con fuerza del brazo.</p><p>—No dejes que te domine —te advierte—. Yo fui débil, pero tú... Veo que tienes fortaleza. Domina la maldición como yo no supe hacerlo.</p><ul><li>Anota en el registro de campaña que *el Rougarou escapó y abrazaste la maldición*. El portador de la Debilidad La maldición del rougarou debe añadir Transformación monstruosa a su mazo. Esta carta no cuenta para el tamaño de mazo de ese investigador.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.</li></ul>"
+    }
+  },
+  "huntingTheRougarou": {
+    "label": {
+      "resolution3": "Resolución 3",
+      "flipBack": "Volver a darle la vuelta al lado «a»"
+    }
+  }
+}

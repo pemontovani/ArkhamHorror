@@ -1,0 +1,136 @@
+{
+  "keywordsAndConcepts": {
+    "title": "Palabras clave y conceptos nuevos",
+    "entries": {
+      "0": {
+        "title": "El códice",
+        "body": "<p>Algunas cartas tienen el símbolo del códice. Durante un escenario, algunos efectos y capacidades de cartas pueden indicar a los jugadores que lean una entrada concreta del códice. Mientras juegues, ten a mano la guía de campaña para consultarla fácilmente. Ciertos Lugares, personajes y Enemigos tienen entradas en el códice. Para leer una entrada del códice, paga todos los costes y/o resuelve todos los efectos asociados a su capacidad de activación y, a continuación, lee la entrada correspondiente del escenario en curso en la guía de campaña y resuelve su texto.</p><ul><li>Cada entrada del códice no puede resolverse más de una vez por escenario a menos que se indique otra cosa.</li><li>Al resolver una entrada del códice, el jugador que la haya activado resuelve todos los efectos (resolver una prueba, infligir daño, pagar recursos, etc.). Si no está claro quién activó la entrada, la resuelve el investigador jefe.</li><li>Las entradas del códice activadas mediante un tipo de acción concreto (como Combatir, Evitar, Negociar, etc.) se consideran de ese tipo de acción durante toda la resolución de la entrada.</li><li>Al resolver una entrada del códice, el jugador solo lee la sección cuyos requisitos cumpla. Si no cumple los requisitos para resolver la primera sección, pasa a la siguiente.</li><li>Si el efecto de una carta indica a los jugadores que resuelvan una entrada del códice que no existe en el escenario que se está jugando, ese efecto fracasa.</li><li>Tras resolver una entrada del códice y realizar los cambios pertinentes en la partida y/o en el registro de campaña, reanuda la partida.</li></ul>"
+      },
+      "1": {
+        "title": "Alerta",
+        "body": "<p>Alerta es una capacidad de palabra clave. Cada vez que un investigador fracase en una prueba de habilidad al intentar evitar a un Enemigo preparado con la palabra clave Alerta, tras aplicar todos los resultados de esa prueba de habilidad, ese Enemigo realiza un ataque contra el investigador que intenta evitarlo. Un Enemigo no se agota tras realizar un ataque de Alerta.</p><ul><li>Este ataque tiene lugar tanto si el Enemigo está enfrentado al investigador que intenta evitarlo como si no.</li></ul>"
+      },
+      "2": {
+        "title": "Indiferente",
+        "body": "<p>Indiferente es una capacidad de palabra clave. Un Enemigo con la palabra clave Indiferente no se enfrenta automáticamente a los investigadores que estén en su Lugar.</p><ul><li>Cuando aparece un Enemigo Indiferente, lo hace sin enfrentarse.</li><li>Un investigador puede usar una acción de enfrentarse o la capacidad de una carta para enfrentarse a un Enemigo Indiferente.</li><li>Un investigador no puede atacar ni evitar a un Enemigo Indiferente mientras ese Enemigo no esté enfrentado a un investigador.</li></ul>"
+      },
+      "3": {
+        "title": "Escurridizo",
+        "body": "<p>Escurridizo es una capacidad de palabra clave. Los Enemigos Escurridizo representan a rivales que quieren evitar a los investigadores por su propia supervivencia o para lograr sus objetivos. Si un Enemigo preparado con la palabra clave Escurridizo ataca o es atacado, después de que se resuelva ese ataque, ese Enemigo deja inmediatamente de estar enfrentado a todos los investigadores, se mueve a un Lugar conectado (sin investigadores, si es posible) y se agota.</p><ul><li>Este efecto tiene lugar tanto si el Enemigo estaba enfrentado al investigador atacante como si no.</li></ul>"
+      }
+    }
+  },
+  "tokens": {
+    "easyStandard": {
+      "skull": "-X. X es la cantidad total de Enemigos _Élite_ que hay en la zona de victoria y bajo el Acto.",
+      "cultist": "-1. Si es una prueba contra un Enemigo _Élite_, revela otra ficha.",
+      "tablet": "-3. Si fracasas, coloca 1 de tus pistas en tu Lugar.",
+      "elderThing": "-1 por cada pista que controles."
+    },
+    "hardExpert": {
+      "skull": "-X. X es 2 más la cantidad total de Enemigos _Élite_ que hay en la zona de victoria y bajo el Acto.",
+      "cultist": "-3. Si es una prueba contra un Enemigo _Élite_, revela otra ficha.",
+      "tablet": "-4. Si fracasas, coloca 1 de tus pistas en tu Lugar.",
+      "elderThing": "-2 por cada pista que controles."
+    }
+  },
+  "setup": {
+    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de Encuentros:<section class='encounter-sets grid'><div><img src='{setImgPath}/smoke-and-mirrors.png' /><span>Humo y espejos</span></div><div><img src='{setImgPath}/arcane-lock.png' /><span>Cierre arcano</span></div><div><img src='{setImgPath}/arkham.png' /><span>Arkham</span></div><div><img src='{setImgPath}/bad-weather.png' /><span>Mal tiempo</span></div><div><img src='{setImgPath}/dead-ends.png' /><span>Callejones sin salida</span></div><div><img src='{setImgPath}/flying-terrors.png' /><span>Terrores voladores</span></div><div><img src='{setImgPath}/gangs-of-arkham.png' /><span>Bandas de Arkham</span></div><div><img src='{setImgPath}/people-of-arkham.png' /><span>Gente de Arkham</span></div><div><img src='{setImgPath}/whippoorwills2026.png' /><span>Chotacabras</span></div></section>",
+    "placeLocations": "Elige al azar uno de los dos Lugares Centro y uno de los dos Lugares Periferia y ponlos en juego. Retira de la partida las otras versiones de Centro y de Periferia. Pon en juego los Lugares Barrio Norte, Barrio Este, Distrito comercial, Distrito ribereño, Barrio Sur y French Hill. Cada investigador comienza la partida en la Universidad Miskatonic.",
+    "setOutOfPlay": "Reúne todas las cartas del conjunto de Encuentros <b>Gente de Arkham</b>. Elige una de ellas al azar y ponla aparte, fuera del juego, sin mirarla. Baraja las demás cartas de ese conjunto junto con el Enemigo Sirviente de la llama y reparte 1 carta boca abajo debajo de Barrio Norte, Centro, Barrio Sur, French Hill, Periferia y Distrito ribereño.",
+    "checkCampaignLog": "Consulta el registro de campaña.",
+    "miskatonicUniversityBurned": "*Si la Universidad Miskatonic ardió*, pon en juego la Universidad Miskatonic (*En llamas*) y retira de la partida la otra copia de la Universidad Miskatonic.",
+    "savedMiskatonicUniversity": "*Si los investigadores salvaron la Universidad Miskatonic*, pon en juego la Universidad Miskatonic (*Campus tranquilo*) y retira de la partida la otra copia de la Universidad Miskatonic. Coloca 1 ficha de Perdición en el Plan.",
+    "startAt": "Cada investigador comienza la partida en la Universidad Miskatonic.",
+    "placeDoom": "Coloca en el Plan 1 ficha de Perdición por cada investigador que haya en la partida.",
+    "bearerOfDrHenryArmitage": "Si un investigador es el portador del Apoyo de historia Dr. Henry Armitage, búscalo en su mazo y ponlo en juego bajo el control de su portador. No ocupa un hueco de aliado durante este escenario.",
+    "setAsideMarkOfElokoss": "Pon aparte, fuera del juego, todas las copias de la Debilidad Marca de Elokoss.",
+    "shuffleRemainder": "Baraja las cartas de Encuentro restantes para formar el mazo de Encuentros.",
+    "readyToBegin": "Ya está todo listo para comenzar."
+  },
+  "intro": {
+    "title": "Escenario II: Humo y espejos",
+    "body": "<p>Sigues al Dr. Armitage de vuelta a su piso. Un velo de humo negro oculta la luna y las estrellas mientras una brisa cálida arrastra cenizas y ascuas por las conocidas calles de la ciudad.</p><p>—Ya me sospechaba que se estaba cociendo algo turbio. Varios estudiantes han desaparecido en las últimas semanas —te dice el bibliotecario jefe—. Todos empezaron a comportarse de forma extraña tras asistir hace poco, fuera del campus, a una «reunión» supuestamente exclusiva. Se quejaban de unos susurros horribles e incesantes y de un extraño moratón que les había aparecido de repente en la piel. Y después se esfumaron.</p><p>Temiendo lo peor, le preguntas por tu amigo.</p><p>—Insistió en que nos viéramos hoy —responde—. Me contó que una organización que se hace llamar los «Hermanos de las cenizas» ha estado invitando a estudiantes y a ciudadanos vulnerables a esas extrañas asambleas. Tu amigo enumeró a una serie de personas que habían asistido, aunque no está claro si eran posibles reclutas o adeptos leales. Antes de marcharse, habló de otra reunión que se celebra esta noche. Un encuentro de todos los fieles. No sé por qué, pero la sola idea me llena de un pavor indecible. Y ahora tu amigo ha desaparecido —añade con pesadumbre.</p><p>Decides interrogar a las personas sospechosas de la lista y reunirte después en el Restaurante de Velma, en el Barrio Este, antes de la medianoche. El bibliotecario jefe te sugiere actuar con tacto en lugar de usar métodos contundentes que podrían alertar a los conspiradores. Sin embargo, te preocupa no tener otra opción.</p><ul><li>Añade 2 fichas {'{'}cultist{'}'} a la bolsa de caos durante el resto de la campaña (*anótalo en el registro de campaña*).</li></ul><p class='right basic'>Continúa en _Preparación_.</p>"
+  },
+  "tooltips": {
+    "arkhamAlive": {
+      "resign": "_Desistir_. Regresas para poner en común con el Dr. Armitage lo que sabéis del paradero de tu amigo."
+    },
+    "emergentEvils": {
+      "resign": "@:brethrenOfAsh.smokeAndMirrors.tooltips.arkhamAlive.resign"
+    }
+  },
+  "resolutions": {
+    "noResolution": {
+      "title": "Sin resolución",
+      "body": "<p>_Si no se ha llegado a ninguna resolución (todos los investigadores han desistido o han sido derrotados)_: Durante el trayecto en taxi hasta el Restaurante de Velma, repasas todo lo que has averiguado. Por desgracia, tus pesquisas han dado muchos indicios, pero pocos resultados sólidos. Solo puedes esperar que al Dr. Armitage le haya ido mejor.</p>",
+      "harbingerOfElokoss": "Revela el Enemigo del conjunto de Encuentros _Gente de Arkham_ que se puso aparte al comienzo de la partida. Esta es la verdadera identidad del Enemigo Sirviente de la llama, un heraldo de Elokoss. Anota en el registro de campaña que *{name} es el heraldo de Elokoss*.",
+      "drawnCard": "Reúne todos los Enemigos _Élite_ que estuvieran en juego y/o debajo de un Lugar cuando terminó el escenario y barájalos boca abajo junto con el heraldo de Elokoss; después, roba uno de ellos al azar. Se ha robado {name}. Si el Enemigo robado…",
+      "isHarbinger": "…es el heraldo de Elokoss, anota en el registro de campaña que *los investigadores descubrieron el paradero de la secta*.",
+      "otherwise": "…es cualquier otro Enemigo, anota en el registro de campaña que *los investigadores fracasaron en su búsqueda*.",
+      "servantOfFlame": "Si el Enemigo Sirviente de la llama está en la zona de victoria, anota en el registro de campaña que *los investigadores mataron al Sirviente de la llama*.",
+      "victory": "Cada investigador obtiene una cantidad de experiencia igual al valor de _Victoria X_ de cada carta de la zona de victoria, además de 1 punto de experiencia adicional por cada Enemigo que estuviera bajo el Acto cuando terminó el escenario.",
+      "proceed": "Si el Enemigo Sirviente de la llama estaba bajo el Acto cuando terminó el escenario, salta a la _Resolución 2_. De lo contrario, continúa en el _Escenario III: Reina de las cenizas_."
+    },
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<p>_Resolución 1_: Paras un taxi en dirección al Barrio Este y repasas todo lo que has averiguado. Pese a sus intentos de ocultar su verdadera identidad, has descubierto quién está realmente detrás de todo. Solo esperas que la información que has reunido baste para salvar a tu amigo desaparecido.</p><ul><li>Anota en el registro de campaña que *los investigadores descubrieron el paradero de la secta*.</li><li>Revela el Enemigo del conjunto de Encuentros _Gente de Arkham_ que se puso aparte al comienzo de la partida. Es el heraldo de Elokoss. Anota en el registro de campaña que *{name} es el heraldo de Elokoss*.</li><li>Comprueba qué Enemigos estaban en la zona de victoria y/o bajo el Acto cuando terminó el escenario y actualiza el registro de campaña.<ul><li>Si el Enemigo Sirviente de la llama está en la zona de victoria, anota que *los investigadores mataron al Sirviente de la llama*.</li><li>Si hay 6 Enemigos _Élite_ bajo el Acto, anota que *los investigadores peinaron Arkham en busca de respuestas*.</li><li>Si hay 6 Enemigos _Élite_ en la zona de victoria, anota que *los investigadores agitaron el avispero*.</li></ul></li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de _Victoria X_ de cada carta de la zona de victoria, además de 1 punto de experiencia adicional por cada Enemigo que estuviera bajo el Acto cuando terminó el escenario.</li><li>Si el Enemigo _Sirviente de la llama_ estaba bajo el Acto cuando terminó el escenario, continúa en la _Resolución 2_. De lo contrario, continúa en el _Escenario III: Reina de las cenizas_.</li></ul>"
+    },
+    "resolution2": {
+      "title": "Resolución 2",
+      "body": "<p>_Resolución 2_: De camino a reunirte con el Dr. Armitage, pides al taxista que pase por el lugar seguro donde dejaste a tu némesis sin conocimiento. Al entrar te recibe un olor a humo, y el suelo está negro de hollín. Pese a todos tus esfuerzos, la macabra figura ha escapado. Las esposas que usaste para sujetar al sirviente están hechas pedazos (ni derretidas ni manipuladas de ningún otro modo), lo que indica que alguien le ayudó a huir.</p><ul><li>Anota en el registro de campaña que *el Sirviente de la llama escapó*.</li><li>Cada investigador obtiene 1 punto de experiencia adicional.</li><li>Continúa en el _Escenario III: Reina de las cenizas_.</li></ul>"
+    },
+    "xp": {
+      "resolution2": "por capturar al Sirviente de la llama",
+      "bonus": "por cada Enemigo bajo el Acto"
+    }
+  },
+  "label": {
+    "r2": "El Sirviente de la llama estaba bajo el Acto (→ Resolución 2)",
+    "r3": "El Sirviente de la llama escapó (→ Resolución 3)"
+  },
+  "xp": {
+    "resolution2": "por capturar al Sirviente de la llama",
+    "bonus": "por cada Enemigo bajo el Acto"
+  },
+  "codex": {
+    "label": {
+      "addToVictory": "Añadir el Sirviente de la llama a la zona de victoria. Cada investigador roba 3 cartas.",
+      "placeUnderAct": "Colocar el Sirviente de la llama bajo el Acto. Cada investigador obtiene 1 pista."
+    },
+    "davidRenfield": {
+      "title": "{'{'}codex{'}'} Códice 1: David Renfield",
+      "body": "<p>El altivo señor Renfield intenta quitarte de en medio con cortesía, pero, cuando mencionas a los «Hermanos de las cenizas», huye por una calle cercana. Aunque le persigues, el escatólogo resulta ser sorprendentemente veloz.</p><p class='basic right'>Mueve a David Renfield a un Lugar conectado (sin investigadores, si es posible).</p><p class='basic right'>Coloca 1 recurso (*de la reserva de fichas*) en David Renfield, como indicio. Si tiene 1 {'{'}perPlayer{'}'} indicios, sigue leyendo. De lo contrario, cualquier investigador puede volver a activar este Códice.</p>",
+      "success": "@:brethrenOfAsh.smokeAndMirrors.codex.davidRenfield.body <hr><p>Al cabo, encuentras al señor Renfield escondido en una librería abarrotada. Cuando le explicas mejor quién eres y qué pretendes, accede a responder a tus preguntas.</p><p>—Solo asistí a la reunión por curiosidad académica —dice el escatólogo—. Aunque buena parte de lo que dijeron eran puras paparruchas, sí que saqué algunas ideas. Parece que los Hermanos de las cenizas veneran a una antigua diablesa llamada «Elokoss»: un ser de fuego y destrucción al que se atribuye el gran incendio de Alejandría. O eso aseguran. Como si fuera algo de lo que enorgullecerse —se burla—. Cuando mencionaste a los Hermanos, m-me temí que fueras parte de ellos. ¡Son un ejército de siervos, todos unidos bajo su reina!</p><p class='basic right'>Has interrogado con éxito a este sospechoso.</p><p class='basic right'>Coloca a David Renfield bajo el Acto.</p>"
+    },
+    "corneliaAkely": {
+      "title": "{'{'}codex{'}'} Códice 2: Cornelia Akely",
+      "body": "<p>Encuentras a la señora Akely trabajando en el turno de noche de un taller destartalado. Parece bastante amable mientras te ofrece un cigarrillo, pero, en cuanto mencionas a los «Hermanos de las cenizas», se le endurece el gesto y te señala la puerta.</p><p class='basic right'>Cura 1 punto de horror.</p><p class='basic right'>Coloca 1 recurso (*de la reserva de fichas*) en Cornelia Akely, como indicio. Si tiene 1 {'{'}perPlayer{'}'} indicios, sigue leyendo. De lo contrario, cualquier investigador puede volver a activar este Códice.</p>",
+      "success": "@:brethrenOfAsh.smokeAndMirrors.codex.corneliaAkely.body <hr><p>Al cabo, tus palabras ablandan a la malhumorada capataz. Se disculpa y te invita a tomar asiento.</p><p>—Fui porque un par de amistades mías de la fábrica de NHI me hablaron maravillas. Al parecer, esos «Hermanos de las cenizas» predican algo sobre un «renacimiento glorioso» para todos sus seguidores. Del resto me desentendí. De todos modos, esas patrañas no van conmigo —dice Cornelia.</p><p>Cuando le preguntas por sus amistades, niega con la cabeza.</p><p>—Ninguna de las tres ha aparecido por el trabajo en las últimas semanas.</p><p class='basic right'>Has interrogado con éxito a esta sospechosa.</p><p class='basic right'>Coloca a Cornelia Akely bajo el Acto.</p>"
+    },
+    "naomiOBannion": {
+      "title": "{'{'}codex{'}'} Códice 3: Naomi O’Bannion",
+      "body": "<p>A la cabecilla de los O’Bannion le interesan bien poco tus preguntas, aunque no tiene ningún reparo en liquidar cualquier cosa que te esté dando problemas... por un precio. Tendrás que untar unas cuantas manos más si piensas sacarle alguna información.</p><p class='basic right'>Puedes elegir un Enemigo que no sea *Humanoide* en cualquier Lugar. Derrota automáticamente al Enemigo elegido.</p><p class='basic right'>Coloca 1 recurso (*de la reserva de fichas*) en Naomi O’Bannion, como indicio. Si tiene 1 {'{'}perPlayer{'}'} indicios, sigue leyendo. De lo contrario, cualquier investigador puede volver a activar este Códice.</p>",
+      "success": "@:brethrenOfAsh.smokeAndMirrors.codex.naomiOBannion.body <hr><p>Naomi echa la cabeza hacia atrás y suelta una sonora carcajada cuando mencionas a los Hermanos de las cenizas.</p><p>—¿Esos chiflados? No sé quiénes son. Pero dos de mis chicos pillaron a un par de ellos husmeando en uno de nuestros garitos. Tenían algo rarísimo, como si les faltara un hervor. Y te aseguro que no era por el matarratas. —Da una larga calada a su cigarrillo de clavo.</p><p>Le preguntas dónde los encontraron, y te echa a la cara una densa nube de humo.</p><p>—Ni de coña te voy a hablar de mis negocios. Y ahora, largo.</p><p class='basic right'>Has interrogado con éxito a esta sospechosa.</p><p class='basic right'>Coloca a Naomi O’Bannion bajo el Acto.</p>"
+    },
+    "sgtEarlMonroe": {
+      "title": "{'{'}codex{'}'} Códice 4: Sgto. Earl Monroe",
+      "body": "<p>Ante la mención de los «Hermanos de las cenizas», el agente de policía empuña la porra y te dice que más te vale meter las narices en otra parte. Te preparas para pelear.</p><p class='basic right'>Cura 1 punto de daño.</p><p class='basic right'>Coloca 1 recurso (*de la reserva de fichas*) en el Sgto. Earl Monroe, como indicio. Si tiene 1 {'{'}perPlayer{'}'} indicios, sigue leyendo. De lo contrario, cualquier investigador puede volver a activar este Códice.</p>",
+      "success": "@:brethrenOfAsh.smokeAndMirrors.codex.sgtEarlMonroe.body <hr><p>Al cabo, Monroe cede.</p><p>—Está bien, está bien. —El agente escupe algo de sangre mientras se palpa la mejilla magullada.</p><p>»Vinieron a verme unos cuantos después de que registráramos la tercera desaparición. Insistían en que la gente desaparecida se había ido por voluntad propia. Cuando les dije que seguía sin convencerme, me llevaron a una de sus reuniones, cerca de los muelles. Todo aquel asunto olía muy mal. Les pasaba algo en los ojos, como si tuvieran la mirada hipnotizada o algo así. —El agente aparta la vista, arrepentido—. Me pagaron para que callara. No estoy orgulloso. No se lo cuentes a nadie... Te... te prometo que a partir de ahora iré por el buen camino.</p><p class='basic right'>Has interrogado con éxito a este sospechoso.</p><p class='basic right'>Coloca al Sgto. Earl Monroe bajo el Acto.</p>"
+    },
+    "abigailForeman": {
+      "title": "{'{'}codex{'}'} Códice 5: Abigail Foreman",
+      "body": "<p>La auxiliar de biblioteca despacha tus preguntas con un gesto mientras saca varios tomos más del estante. La única manera de apartarla de su trabajo quizá sea ayudarla a encontrar lo que quiera que esté buscando.</p><p class='basic right'>Roba 1 carta.</p><p class='basic right'>Coloca 1 recurso (*de la reserva de fichas*) en Abigail Foreman, como indicio. Si tiene 1 {'{'}perPlayer{'}'} indicios, sigue leyendo. De lo contrario, cualquier investigador puede volver a activar este Códice.</p>",
+      "success": "@:brethrenOfAsh.smokeAndMirrors.codex.abigailForeman.body <hr><p>Abigail se deja caer en un lujoso sillón con un suspiro.</p><p>—Sí, llevo buscando cualquier información sobre los «Hermanos de las cenizas» desde que mi compañera de piso desapareció la semana pasada. Por suerte, he encontrado esto. —Abre un delgado volumen en cuya cubierta hay una delicada incrustación de un abedul con ojos en flor. Dentro hay muchos dibujos perturbadores de sacrificios violentos, de víctimas quemadas vivas y de extraños símbolos inhumanos dispuestos en formas insólitas.</p><p>»Bastante macabro, ¿no te parece? —dice Abigail—. Parece que está escrito en acadio. Por desgracia, se tardará semanas en traducirlo, porque todo el departamento de lenguas antiguas está de expedición. Esta vez, en Egipto. Siento no haber sido de más ayuda —dice mientras apoya la mano en la cubierta del libro.</p><p class='basic right'>Has interrogado con éxito a esta sospechosa.</p><p class='basic right'>Coloca a Abigail Foreman bajo el Acto.</p>"
+    },
+    "margaretLiu": {
+      "title": "{'{'}codex{'}'} Códice 6: Margaret Liu",
+      "body": "<p>Margaret Liu, una de las cantantes de salón más conocidas de la ciudad, está completamente absorta en su actuación. Puede que tengas que ponerle imaginación para llamar su atención.</p><p class='basic right'>Mira la primera carta del mazo de Encuentros. Puedes descartarla.</p><p class='basic right'>Coloca 1 recurso (*de la reserva de fichas*) en Margaret Liu, como indicio. Si tiene 1 {'{'}perPlayer{'}'} indicios, sigue leyendo. De lo contrario, cualquier investigador puede volver a activar este Códice.</p>",
+      "success": "@:brethrenOfAsh.smokeAndMirrors.codex.margaretLiu.body <hr><p>Tus intentos de llamar la atención de la señorita Liu resultan más que eficaces, y pronto te encuentras entre bastidores y con toda su atención.</p><p>—Debo decir que me ha impresionado mucho su pequeña, ejem, actuación —dice—. Pero ¿a qué ha venido en realidad?</p><p>La sonrisa despreocupada de la cantante de salón se desvanece ante la mención de los «Hermanos de las cenizas».</p><p>—No sé quiénes son ni me interesa saberlo —dice—. Hace una semana volvía a casa cuando me abordaron dos hombres que llevaban, y quiero recalcarlo, las túnicas más feas que verá usted en su vida. Tenían en la capucha un símbolo de lo más extraño.</p><p>Después garabatea un tosco signo en una servilleta. Parece una mano con un ojo incrustado. Le preguntas qué ocurrió a continuación, y señala con la cabeza al gorila de la puerta.</p><p>—Antonio los ahuyentó. No he vuelto a verlos.</p><p class='basic right'>Has interrogado con éxito a esta sospechosa.</p><p class='basic right'>Coloca a Margaret Liu bajo el Acto.</p>"
+    },
+    "servantOfFlame": {
+      "title": "{'{'}codex{'}'} Códice Φ: Sirviente de la llama",
+      "body": "<p>Tu némesis yace a tus pies, sin posibilidad de defenderse. La llama que envolvía su figura se ha apagado, aunque, milagrosamente, la túnica ni siquiera está chamuscada. Todo intento de quitarle la máscara es inútil; tendrás que esperar a que recupere el conocimiento si quieres descubrir de quién se trata. Te preguntas cuántas víctimas se habrá cobrado su hoz salpicada de sangre. Quizá sería mejor acabar con su vida aquí y ahora para evitar más derramamiento de sangre. Nadie más tiene por qué enterarse.</p><p class='basic'>Los investigadores deben decidir (*elige una opción*):</p><ul><li>*No podemos arriesgarnos a que haga daño a más gente. Es un peligro demasiado grande para dejarlo con vida.* Añade el Sirviente de la llama a la zona de victoria. Cada investigador roba 3 cartas.</li><li>*Retengámoslo para interrogarlo más tarde esta noche.* Coloca el Sirviente de la llama bajo el Acto. Cada investigador obtiene 1 pista (*de la reserva de fichas*).</li></ul>"
+    }
+  }
+}
