@@ -679,7 +679,8 @@ CREATE TABLE public.arkham_third_edition_tables (
 CREATE TABLE public.notifications (
     id integer NOT NULL,
     body text,
-    created_at timestamp without time zone
+    created_at timestamp without time zone,
+    category text
 );
 
 --
@@ -740,7 +741,9 @@ CREATE TABLE public.users (
     phase_transition_notifications boolean DEFAULT false NOT NULL,
     features text DEFAULT ''::text NOT NULL,
     allow_spectators_by_default boolean DEFAULT false NOT NULL,
-    admin boolean DEFAULT false
+    admin boolean DEFAULT false,
+    last_login_at timestamp with time zone DEFAULT now() NOT NULL,
+    last_seen_at timestamp with time zone DEFAULT now() NOT NULL
 );
 
 --
@@ -1701,3 +1704,6 @@ INSERT INTO public.arkham_schema_migrations (name) VALUES ('notifications') ON C
 INSERT INTO public.arkham_schema_migrations (name) VALUES ('add_admin_to_users') ON CONFLICT DO NOTHING;
 INSERT INTO public.arkham_schema_migrations (name) VALUES ('align_model_column_types') ON CONFLICT DO NOTHING;
 INSERT INTO public.arkham_schema_migrations (name) VALUES ('dump_only_keys_and_indexes') ON CONFLICT DO NOTHING;
+INSERT INTO public.arkham_schema_migrations (name) VALUES ('add_primary_key_to_arkham_steps') ON CONFLICT DO NOTHING;
+INSERT INTO public.arkham_schema_migrations (name) VALUES ('add_login_tracking_to_users') ON CONFLICT DO NOTHING;
+INSERT INTO public.arkham_schema_migrations (name) VALUES ('add_category_to_notifications') ON CONFLICT DO NOTHING;
