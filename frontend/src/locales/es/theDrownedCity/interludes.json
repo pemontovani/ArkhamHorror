@@ -1,0 +1,239 @@
+{
+  "headings": {
+    "kind": {
+      "finale": "Final"
+    },
+    "finale": "La perdición de Arkham"
+  },
+  "interludes": {
+    "3": "El despertar",
+    "4": "Regreso a Arkham"
+  },
+  "finale": {
+    "title": "Final: La perdición de Arkham",
+    "body": "<p>El mes siguiente a tu regreso a Arkham transcurre como un sueño. Algo sigue sin ir bien. Las preocupaciones de tu vida anterior no son nada comparadas con la austera grandiosidad y la amenaza de la ciudad antigua. En tus sueños deambulas por ella, con algo que no te atreves a describir pisándote los talones. Si le contaras a alguien la verdad de lo que has visto, podrían ingresarte en un sanatorio, o algo peor. Intentas localizar a Ruby y a Andy para preguntarles por sus sueños, pero no encuentras ni rastro de ellos.</p><p>El Arkham Advertiser ha empezado a informar de que una extraña «enfermedad del sueño» se propaga entre la población de la ciudad. No se conoce la causa, no hay indicios de dolencia alguna ni nada que las víctimas tengan en común. Simplemente, la gente parece dormirse una noche y no volver a despertar. Abundan los rumores sobre sonámbulos que vagan de noche por las calles. Sin embargo, en lugar de cundir el pánico, la población parece recibir unas noticias que deberían ser alarmantes con apagada indiferencia. La propia ciudad de Arkham se está hundiendo en un sopor profundo.</p><p>En tus sueños agitados sigues viendo la ciudad sumergida y al descomunal behemot que dormía en ella. Sabes, sin sombra de duda, que volverás a verlo.</p><p class='basic right'>Continúa en _La perdición de Arkham parte I_.</p>"
+  },
+  "epilogue": {
+    "title": "Epílogo",
+    "checkCampaignLog": "Consulta el registro de campaña.",
+    "proceedToEpilogue1": "*Si Cthulhu aniquiló la ciudad de Arkham*, continúa en _Epílogo 1_.",
+    "proceedToEpilogue2": "*Si Cthulhu fue ahuyentado* o *Cthulhu fue desterrado, pero Arkham quedó destruida*, salta a _Epílogo 2_.",
+    "proceedToEpilogue3": "*Si Cthulhu fue desterrado*, salta a _Epílogo 3_.",
+    "proceedToEpilogue4": "*Si los investigadores detuvieron el despertar de Cthulhu*, salta a _Epílogo 4_.",
+    "epilogue1": {
+      "title": "Epílogo 1: 20 de agosto",
+      "body": "<p>Han pasado casi dos meses desde la destrucción de Arkham. Según los informes, la mayor parte de los supervivientes ha sido ingresada en un sanatorio del norte del estado. El resto estaba postrado en cama por el coma contagioso que azota la ciudad desde el mes pasado y no tiene ni idea de lo que ocurrió en realidad. Los pocos testimonios de que disponemos atribuyen la destrucción a «un enorme behemot» que arrasó la ciudad y aniquiló cuanto encontraba a su paso. Una docena de ciudades de la costa este y del litoral de Sudamérica han informado de fenómenos similares. Los lugareños han empezado a llamarlo el azote silencioso, aunque la opinión general sostiene que fue una tormenta de una fuerza excepcional.</p><p>El futuro de Arkham es incierto. Con pocas casas e infraestructuras a las que regresar, los residentes supervivientes se han dispersado por localidades cercanas como Dunwich, Kingsport, Innsmouth y Providence. Se sigue debatiendo si salvar lo poco que queda de la Universidad Miskatonic, pero no parece probable. Arkham es poco más que una ciudad fantasma.</p><p class='right'>Minnie Klein</p>"
+    },
+    "epilogue2": {
+      "title": "Epílogo 2: 18 de septiembre",
+      "body": "<p>A Ruby Standish, <span class='censor'>XX</span> Rue <span class='censor'>XXX</span> n.º 3, París, Francia:</p><p>Por desgracia, ahora mismo no tengo tiempo de ir a verte. Aún me queda demasiado por hacer en Arkham. La ciudad sale adelante renqueando como buenamente puede, pero pasará un tiempo antes de que nada vuelva a parecer «normal». Si es que es posible algo «normal» después de lo que pasó. Casi nadie parece recordar gran cosa de lo que ocurrió aquella noche. Afirman que nos barrió un temporal muy violento. Supongo que otras ciudades de la costa también resultaron afectadas, así que todo el mundo se ha aferrado a la idea de que fue una especie de huracán.</p><p>Los pocos que sí lo recordamos no nos atrevemos a contar nada. El manicomio Arkham aún no se ha reconstruido, pero hay muchos sanatorios en las cercanías. A cualquiera que mencione lo que pasó de verdad lo declaran víctima de la enfermedad del sueño y lo ingresan.</p><p>En lo más hondo sé que Él regresará. Los viejos sueños no han cesado. Sigue ahí dentro, en algún rincón profundo de mi mente, esperando el momento. Cuando vuelva, no habrá explosivos ni potencia de fuego que lo detengan. Si regresa, será para vengarse.</p><p>Seguramente hiciste bien en marcharte. Seguro que Francia es preciosa.</p><p class='right'>Andy Van Nortwick</p>"
+    },
+    "epilogue3": {
+      "title": "Epílogo 3: 18 de septiembre",
+      "body": "<p>A Ruby Standish, <span class='censor'>XX</span> Rue <span class='censor'>XXX</span> n.º 3, París, Francia:</p><p>Por desgracia, ahora mismo no tengo tiempo de ir a verte. Aún me queda demasiado por hacer en Arkham. La ciudad sale adelante renqueando como buenamente puede, pero pasará un tiempo antes de que nada vuelva a parecer «normal». Si es que es posible algo «normal» después de lo que pasó. Dicho esto, el proyecto de reconstrucción ha ido sorprendentemente bien. Con cierto respaldo de New Horizons Industries, han empezado a brotar flamantes edificios nuevos por toda la ciudad. ¡Hasta tenemos un teatro nuevo! Ah, y te alegrará saber que el Arkham Advertiser me ha ofrecido un puesto a jornada completa. No podré ejercerlo hasta que reconstruyan la redacción, pero al menos es una idea agradable.</p><p>Apenas parece haber quien recuerde aquella noche. Afirman que «un temporal muy violento» causó la destrucción, incluso después de que yo señalara las enormes huellas entre los escombros. Supongo que otras ciudades de la costa también resultaron afectadas, así que todo el mundo se ha aferrado a la idea de que fue una especie de huracán. Cualquier otro relato se descarta como producto de la extraña enfermedad del sueño que se extendió por la ciudad antes del ataque.</p><p>Quería darte las gracias por... bueno, por todo. De no ser por ti y por los colaboradores de Randall, estaría muerto. Igual que casi todo Arkham. No sé si Él volverá algún día, pero si eso ocurre, ya sé a quién llamar.</p><p class='right'>Andy Van Nortwick</p>"
+    },
+    "epilogue4": {
+      "title": "Epílogo 4: 30 de mayo",
+      "body": "<p>El viaje de regreso desde R’lyeh fue largo. Cuando volvimos a Arkham, la Tienda esotérica de Tillinghast (y presumiblemente el propio Randall) se había esfumado sin dejar rastro. Ruby considera saldadas todas nuestras deudas, aunque a mí me preocupa que algún día pueda presentarse a cobrarlas.</p><p>La primavera está en pleno apogeo en Arkham. Las flores abiertas y el aire fresco no podrían estar más lejos de las salas húmedas y rancias de la ciudad sumergida. Por mucho tiempo que pase, jamás olvidaré el rostro de aquella cosa en las profundidades de la ciudad antigua. ¿Fue el primigenio quien la hizo emerger? ¿O los sueños de sus miles de seguidores? No hay manera de saber qué puso en marcha aquellos engranajes infernales ni cuándo podrían volver a alzarse.</p><p class='right'>—Tu diario</p>"
+    }
+  },
+  "theAwakening": {
+    "title": "Interludio III: El despertar",
+    "awakening1": "<p>_El despertar 1:_ Un violento temblor te derriba. Mientras te levantas a duras penas, Ruby ahoga un grito. Aparece una densa sombra, velada por la oscuridad sepulcral que reina tras las puertas. Un pulso constante, como el latido de un corazón, recorre la silueta de pesadilla de la ciudad. La antiquísima monstruosidad se arrastra sobre el vientre a través de la puerta.</p><p>La gigantesca bestia se tambalea. Tiene sin esfuerzo el tamaño de una pequeña montaña, la piel de un verde enfermizo, cabeza y rostro de pulpo y un par de alas fláccidas y andrajosas. Ves doble al mirarlo, como si la criatura estuviera aquí y también en otra parte: a la vez metafísica y física. El hedor de su carne podrida y antiquísima casi te provoca arcadas.</p><p>Los ojos rojos de la cosa resplandecen cuando baja la vista hacia ti. Un peso constante e insistente te oprime los hombros y te obliga a arrodillarte. Te oyes hablar con una voz que no es del todo la tuya: «¡CTHULHU FHTAGN!».</p>",
+    "checkCampaignLog": "Consulta el registro de campaña.",
+    "proceedToTheAwakening2": "Si hay al menos 1 artefacto marcado en «Artefactos obtenidos», continúa en _El despertar 2_.",
+    "skipToTheAwakening3": "De lo contrario, salta a _El despertar 3_.",
+    "awakening2": "<p>_El despertar 2:_ —¡No lo mires! —grita Ruby.</p><p>Te vuelves y ves que tus acompañantes también se han arrodillado ante el espantoso dios que sueña muerto. Una oleada de calor se extiende por tu cuerpo mientras él ahonda en tu mente, en tus recuerdos. La sensación cálida da paso a algo frío, lleno de odio. Alzas la vista y ves que te devuelve la mirada, con el quinto ojo abierto.</p><p>Sientes su ira: te has llevado parte de sus dominios. Debes perecer.</p>",
+    "replaceChaosTokensWithTwo": "Retira todas las fichas {'{'}cultist{'}'}, {'{'}tablet{'}'} y {'{'}elderThing{'}'} de la bolsa de caos. Después, añade a la bolsa de caos 2 fichas {'{'}cultist{'}'}, 2 fichas {'{'}tablet{'}'} y 2 fichas {'{'}elderThing{'}'} durante el resto de la campaña. Salta a _El despertar 4_.",
+    "awakening3": "<p>_El despertar 3:_ —¡No lo mires! —grita Ruby.</p><p>Te vuelves y ves que tus acompañantes también se han arrodillado ante el espantoso dios que sueña muerto. Una oleada de calor se extiende por tu cuerpo mientras él ahonda en tu mente, en tus recuerdos. El gran Cthulhu aparta de ti la mirada y la dirige hacia el norte. En tu mente ves la imagen del pequeño ídolo verde sobre el escritorio de Randall, en Arkham. La sensación cálida da paso a algo frío, lleno de odio. Alzas la vista y ves que el gran Cthulhu te devuelve la mirada, con su quinto ojo soñador abierto.</p><p>Sientes su ira contra quien robó parte de sus dominios. Debe perecer.</p>",
+    "replaceChaosTokens": "Retira todas las fichas {'{'}cultist{'}'}, {'{'}tablet{'}'} y {'{'}elderThing{'}'} de la bolsa de caos. Después, añade a la bolsa de caos 1 ficha {'{'}cultist{'}'}, 1 ficha {'{'}tablet{'}'} y 2 fichas {'{'}elderThing{'}'} durante el resto de la campaña.",
+    "proceedToTheAwakening4": "Continúa en _El despertar 4_.",
+    "awakening4": "<p>_El despertar 4:_ Luchando contra la terrible voluntad del primigenio, te incorporas y ayudas a los demás a ponerse en pie. El gran Cthulhu intenta atraparos con sus tentáculos nervudos mientras huís hasta la orilla y remáis con furia hacia el Cassandra. Una vez a bordo, el barco se abre paso por un angosto estrecho, entre una sucesión de agujas emergidas y bajíos mortales, hasta alcanzar el mar abierto.</p><p>Un rugido ensordecedor resuena sobre las aguas. Te vuelves y ves que la colosal abominación se desliza viscosamente en el agua negra y desaparece de la vista. Escrutas las insondables profundidades, esperando ver surgir cinco iracundos ojos rojos dispuestos a volcar el barco. La silueta de pesadilla de R’lyeh titila con un pálido fuego verde mientras se desvanece en la distancia. Pasa un minuto, luego diez, luego treinta. No hay movimiento, nada se agita en las profundidades. Puede que la abominación haya perdido el interés, o que se haya enredado en los bajíos. O al menos eso esperas.</p>",
+    "proceedToReturnToArkham": "Continúa en el _Interludio IV: Regreso a Arkham_."
+  },
+  "returnToArkham": {
+    "title": "Interludio: Regreso a Arkham",
+    "checkCampaignLog": "Consulta el registro de campaña.",
+    "proceedToReturnToArkham1": "Si hay al menos 1 artefacto marcado en «Artefactos obtenidos», continúa en _Regreso a Arkham 1_.",
+    "skipToReturnToArkham2": "De lo contrario, salta a _Regreso a Arkham 2_.",
+    "returnToArkham1": "<p>_Regreso a Arkham 1:_ Las pesadillas pueblan tu sueño durante la travesía de vuelta. Al llegar a Arkham, entregáis los hallazgos de la expedición a un Tillinghast eufórico. Mientras le relatas lo ocurrido, el coleccionista da vueltas a cada pieza entre las manos, maravillado ante la tecnología antigua.</p><p>—Habéis hecho todo lo que os pedí y más —sonríe—. Considerad anuladas vuestras deudas. Y, por supuesto, estaré encantado de cumplir nuestro acuerdo original.</p>",
+    "returnToArkham2": "<p>_Regreso a Arkham 2:_ Las pesadillas pueblan tu sueño durante la travesía de vuelta. Al llegar a Arkham, exponéis ante Tillinghast vuestros escasos hallazgos. El anticuario monta en cólera al ver que habéis regresado con las manos vacías, hasta que Andy deja sobre su escritorio la losa de obsidiana que encontró en R’lyeh. Randall la examina con mirada gélida.</p><p>—Supongo que esto es... aceptable. Considerad anuladas vuestras deudas. Y, aunque no habéis traído casi nada de valor, me veo obligado a cumplir nuestro acuerdo original.</p>",
+    "checkTasks": "Consulta la sección de Tareas del registro de campaña.",
+    "gainTaskExperience": "Por cada progreso marcado en tu tarea, obtienes (solo tú) 1 punto de experiencia adicional.",
+    "resolveTasks": "Cada investigador resuelve su tarea. Cuando cada investigador haya leído el apartado correspondiente a su tarea, continúa en _La perdición de Arkham_.",
+    "xp": {
+      "taskProgress": "Progreso en tu tarea"
+    },
+    "tasks": {
+      "walkInFaith": {
+        "title": "Tarea: Caminar con fe",
+        "readOnly": "_Léelo solo si tienes la tarea «Caminar con fe»._",
+        "fiveOrMoreProgress": "Si hay 5 o más progresos marcados en tu tarea:",
+        "otherwise": "_De lo contrario:_",
+        "completed": "<p>A tu regreso, tus correligionarios te aclaman como la voz de la profecía. Los sueños que te condujeron a R’lyeh son las mismas visiones que comparten tus hermanas y hermanos en la fe. Ahora, cada vez son más quienes cantan en lenguas extrañas y cosen capas de retales. El propósito de tu viaje a R’lyeh, de presenciar a aquellos peregrinos perdidos, no era hacer tambalear tu fe, sino restaurarla. Has vislumbrado el rostro de los antiguos. Solo tú tienes la valía necesaria para guiar a tu gente fuera de las tinieblas y hacia la luz. No tienes más que seguir tu camino con la misma devoción inquebrantable que te sacó de R’lyeh.</p>",
+        "completedEffect": "Anota en el registro de campaña que (nombre del investigador) es fuerte en su fe. Esta tarea está completada (entra en juego con su lado Completado boca arriba).",
+        "failed": "<p>Estás en un puente sobre el río Miskatonic, contemplando cómo las aguas danzan y centellean bajo tus pies. Al regresar, sentiste que algo era distinto. Algo había cambiado. Tus correligionarios cuentan que hace poco llegaron forasteros con capas de retales, que pronunciaban profecías milagrosas y promesas seductoras. Ahora tu lugar de culto está cubierto de símbolos profanos: una mano con un ojo en llamas, un cáliz rebosante de sangre. Lo que para ti era sagrado está mancillado.</p><p>Ahora, mientras miras el agua desde lo alto, sostienes en una mano el símbolo de tu fe. No puedes evitar la sensación de que te llevaron por el mal camino. Respiras hondo y arrojas el objeto al agua. Mientras se hunde, sientes que una parte de ti se hunde con él. Ya no hay vuelta atrás.</p>",
+        "failedEffect": "Retira permanentemente la tarea «Caminar con fe» de tu mazo y sufre 1 trauma mental. Durante el resto de la campaña, en vez de eso debes tratar la ficha {'{'}elderThing{'}'} como si fuera una ficha {'{'}autoFail{'}'}."
+      },
+      "goodMoney": {
+        "title": "Tarea: Un buen dinero",
+        "readOnly": "_Léelo solo si tienes la tarea «Un buen dinero»._",
+        "fiveOrMoreProgress": "Si hay 5 o más progresos marcados en tu tarea:",
+        "otherwise": "_De lo contrario:_",
+        "completed": "<p>Con una sonrisita, te marchas de tu cita con Sanford llevando un maletín repleto de billetes. Escamoteaste suficientes baratijas antiguas y notas de investigación como para contentar tanto a Tillinghast como a ese viejo chiflado de Sanford. Con lo que te ha pagado cada uno, tienes dinero de sobra para ir adonde quieras y ser quien quieras ser. De todos modos, parece que Sanford y sus lacayos se van a pique.</p>",
+        "completedEffect": "Anota en el registro de campaña que (nombre del investigador) se ha forrado. Esta tarea está completada (entra en juego con su lado Completado boca arriba).",
+        "failed": "<p>Con una sonrisita, te marchas de tu cita con Sanford llevando un maletín lleno. Doblas una esquina y descubres que unos matones te rodean.</p><p>—Tillinghast nos ha dicho que llevas un buen retraso. Por suerte, creo que ya puedes pagar —dice uno de ellos.</p><p>Al parecer, jugar a dos bandas era más difícil de lo que pensabas. Alzas los puños y te preparas para lo que se te viene encima. Qué demonios, si vas a caer, caerás repartiendo golpes.</p>",
+        "failedEffect": "Retira permanentemente la tarea «Un buen dinero» de tu mazo y sufre 1 trauma físico. Busca en la colección una Debilidad básica _Lesión_ o _Criminal_ y añádela a tu mazo. Esta carta no cuenta para el tamaño de mazo de tu investigador."
+      },
+      "dreamsOfDestruction": {
+        "title": "Tarea: Sueños de destrucción",
+        "readOnly": "_Léelo solo si tienes la tarea «Sueños de destrucción»._",
+        "fiveOrMoreProgress": "Si hay 5 o más progresos marcados en tu tarea:",
+        "otherwise": "_De lo contrario:_",
+        "completed": "<p>Hojeas la recompensa de Randall por todos tus esfuerzos: una pila maltrecha de libros de Blavatsky y Crowley. Puede que satisficieran a cualquier aprendiz de vidente, pero no a ti. Casi resulta insultante que te los ofreciera como recompensa. Al cerrar el libro, oyes el leve susurro de las mismas voces que oíste en R’lyeh. Tus pesadillas no anunciaban destrucción: eran advertencias de espíritus errantes. La calamidad que se avecina quizá sea inevitable, te dicen, pero eso no significa que no puedas combatirla.</p>",
+        "completedEffect": "Anota en el registro de campaña que (nombre del investigador) entiende el futuro. Esta tarea está completada (entra en juego con su lado Completado boca arriba). Añade una ficha +1 a la bolsa de caos durante el resto de la campaña.",
+        "failed": "<p>Los susurros que te atormentaban en R’lyeh han cesado por fin. Desde que regresaste, cada mañana despiertas en completo silencio. Sin embargo, lejos de consolarte, la ausencia de susurros te llena de un pavor aún mayor. Es como si se hubiera cortado tu vínculo con el más allá. O quizá los espíritus que querían advertirte de la calamidad que se avecina te hayan abandonado.</p>",
+        "failedEffect": "Retira permanentemente la tarea «Sueños de destrucción» de tu mazo y sufre 1 trauma mental. Retira la ficha {'{'}elderSign{'}'} de la bolsa de caos durante el resto de la campaña."
+      },
+      "noPlaceLikeHome": {
+        "title": "Tarea: Como en casa, en ningún sitio",
+        "readOnly": "_Léelo solo si tienes la tarea «Como en casa, en ningún sitio»._",
+        "fiveOrMoreProgress": "Si hay 5 o más progresos marcados en tu tarea:",
+        "otherwise": "_De lo contrario:_",
+        "completed": "<p>Sales de la Tienda esotérica de Tillinghast presa de la furia, con las melosas promesas de Randall resonando en tu cabeza. Tu deuda ha quedado perdonada, pero aún falta ajustar cuentas por tu alojamiento y manutención.</p><p>—Unos pocos meses más y por fin estaremos en paz —te arrulló.</p><p>En lugar de contestar, cogiste tu recompensa y te marchaste. Nunca fue cuestión de dinero. Quería tenerte a su servicio. Seguro que algún día irá a por ti para cobrar, pero eso ya no importa. Nunca te hizo falta. El hogar es lo que tú haces de él, no el sitio donde lo haces; Tillinghast ya no puede hacer nada para arrebatártelo.</p>",
+        "completedEffect": "Anota en el registro de campaña que (nombre del investigador) ha encontrado su verdadero hogar. Esta tarea está completada (entra en juego con su lado Completado boca arriba).",
+        "failed": "<p>Caminas por el Barrio Sur dando vueltas a las últimas palabras de Randall. Tu deuda ha quedado perdonada, pero aún falta ajustar cuentas por tu alojamiento y manutención.</p><p>—Unos pocos meses más y por fin estaremos en paz —te arrulló.</p><p>Le diste las gracias. Es una petición de lo más razonable. Y, al fin y al cabo, solo gracias a él no vives en la calle.</p><p>Al pasar junto a la pensión de Ma, te llega el olor de una comida casera: pan recién horneado, judías verdes y jamón en lonchas. Te rugen las tripas. Sientes una vieja añoranza, algo más que hambre. Solo un poco más de trabajo, y Tillinghast te ayudará a salir adelante. Algún día, muy pronto, tendrás un hogar propio.</p>",
+        "failedEffect": "Retira permanentemente la tarea «Como en casa, en ningún sitio» de tu mazo y sufre 1 trauma físico o 1 trauma mental. Añade 1 ficha {'{'}cultist{'}'} a la bolsa de caos durante el resto de la campaña."
+      },
+      "doNoHarm": {
+        "title": "Tarea: No hacer daño",
+        "readOnly": "_Léelo solo si tienes la tarea «No hacer daño»._",
+        "fiveOrMoreProgress": "Si hay 5 o más progresos marcados en tu tarea:",
+        "otherwise": "_De lo contrario:_",
+        "completed": "<p>Mientras cruzas la Plaza de la Independencia, doblas una esquina y ves una figura desplomada en el suelo. Echas a correr hacia ella mientras tu mente se llena de recuerdos del peregrino de R’lyeh. Se te revuelve el estómago al acercarte, esperando una experiencia mucho menos truculenta. Aún respira. Puedes ayudarla. Sea cual sea el apuro en que se encuentre la gente, sabes que siempre estarás ahí para ayudar.</p>",
+        "completedEffect": "Anota en el registro de campaña que (nombre del investigador) ha jurado proteger a los demás. Esta tarea está completada (entra en juego con su lado Completado boca arriba).",
+        "failed": "<p>Te despiertas de golpe en plena primera noche de vuelta en Arkham. El gato encaramado a los pies de tu cama huye sorprendido mientras te enjugas el sudor frío de la frente. Los ecos de los rostros que dejaste atrás se apagan poco a poco, pero no puedes dejar de pensar en las últimas palabras del moribundo: «Madre». Los latidos de tu corazón se van calmando mientras miras por la ventana. Te envuelven los pensamientos sobre lo que podrías haber hecho de otro modo. Nunca podrás salvar a todo el mundo. ¿Merece la pena siquiera intentarlo?</p>",
+        "failedEffect": "Retira permanentemente la tarea «No hacer daño» de tu mazo y sufre 1 trauma mental. Añade 1 ficha {'{'}tablet{'}'} a la bolsa de caos durante el resto de la campaña."
+      },
+      "toeTheLine": {
+        "title": "Tarea: Cumplir las normas",
+        "readOnly": "_Léelo solo si tienes la tarea «Cumplir las normas»._",
+        "fiveOrMoreProgress": "Si hay 5 o más progresos marcados en tu tarea:",
+        "otherwise": "_De lo contrario:_",
+        "completed": "<p>—Tu cometido será supervisar la construcción y, más adelante, la dirección de la nueva fábrica.</p><p>Radiante, la persona que ahora te contrata desliza sobre la mesa un contrato recién impreso. Cuando miras por la ventana de tu nuevo despacho, sientes que se te hincha el corazón. Tras tu éxito en la expedición, Tillinghast mencionó sus contactos con la incipiente New Horizons Industries. Aunque el magnate de la industria cárnica aún no ha puesto la primera piedra en Arkham, Randall te ha asegurado que cuidarán bien de ti. Solo tienes que firmar en la línea de puntos.</p>",
+        "completedEffect": "Anota en el registro de campaña que (nombre del investigador) ha encontrado un nuevo trabajo. Esta tarea está completada (entra en juego con su lado Completado boca arriba).",
+        "failed": "<p>La sala enmudece cuando entras. Cuando pediste recuperar tu antiguo empleo, Tillinghast accedió con muchísimo gusto. Mientras tu antiguo superior charla como si nunca te hubieras ido, captas las miradas nerviosas de quienes trabajaban contigo. Fueran cuales fuesen los pequeños favores que moviera aquel turbio hombre de negocios, deben de haber funcionado. Al tomar asiento, miras a esas caras nerviosas que en otro tiempo considerabas amigas. Has conseguido todo lo que querías, incluso tu viejo escritorio. ¿Por qué sigues sintiendo tanto vacío?</p>",
+        "failedEffect": "Retira permanentemente la tarea «Cumplir las normas» de tu mazo y sufre 1 trauma físico. Roba al azar fichas de la bolsa de caos hasta tener 2 fichas que no sean de símbolo. Sustituye cada una de esas fichas por una ficha de Caos con un valor 2 puntos inferior durante el resto de la campaña (si no puedes sustituir una ficha, repite este proceso hasta que se hayan sustituido un total de 2 fichas de Caos).",
+        "tokenReplacement": {
+          "title": "Cumplir las normas",
+          "body": "Dos fichas sin símbolo robadas al azar se sustituyen por una ficha de Caos con un valor 2 puntos inferior durante el resto de la campaña:"
+        }
+      },
+      "proveYourWorth": {
+        "title": "Tarea: Demostrar tu valía",
+        "readOnly": "_Léelo solo si tienes la tarea «Demostrar tu valía»._",
+        "fiveOrMoreProgress": "Si hay 5 o más progresos marcados en tu tarea:",
+        "otherwise": "_De lo contrario:_",
+        "completed": "<p>Han pasado varias noches desde tu regreso a Arkham, y estás contemplando desde lo alto a una multitud que te adora. No es de extrañar que la expedición fuera un éxito. Todo ha sido gracias a ti. Y, tras prometer a Tillinghast unos cuantos favores sin importancia, estás recibiendo el reconocimiento que tanto mereces. Pronto te encargarás de que quienes alguna vez dudaron de ti reciban también su merecido. ¿Quién dijo que la humildad fuera algo bueno?</p>",
+        "completedEffect": "Anota en el registro de campaña que (nombre del investigador) ha hecho su parte. Esta tarea está completada (entra en juego con su lado Completado boca arriba).",
+        "failed": "<p>La noche de tu regreso descubres que tu antiguo círculo te ha cerrado las puertas de forma humillante. El propio Tillinghast ha difundido los peores rumores sobre ti. Lo malo es que todos eran ciertos. No fuiste más que un lastre en la expedición. Eres el hazmerreír de tu círculo. Nada de lo que has logrado ha sido jamás por méritos propios. No vales nada, tal como decían.</p>",
+        "failedEffect": "Retira permanentemente la tarea «Demostrar tu valía» de tu mazo y sufre 1 trauma mental. Retira de tu mazo cartas de nivel 1-5 que sumen un total de 10 o más puntos de experiencia (recuerda comprar cartas nuevas para mantener un tamaño de mazo legal). No puedes volver a comprar esas cartas.<br><span style='color:purple'>*Retira las cartas manualmente en tu constructor de mazos.*</span>"
+      },
+      "plumbTheDepths": {
+        "title": "Tarea: Sondear las profundidades",
+        "readOnly": "_Léelo solo si tienes la tarea «Sondear las profundidades»._",
+        "fiveOrMoreProgress": "Si hay 5 o más progresos marcados en tu tarea:",
+        "otherwise": "_De lo contrario:_",
+        "completed": "<p>Apenas una semana después de tu regreso, recibes de la Universidad Miskatonic la petición de presentar formalmente tus hallazgos. Más de una vez ha llegado a tus oídos la palabra «cátedra». Pese al increíble reconocimiento que te han granjeado tus estudios, el prestigio te resulta vacío. La pantomima académica es poco más que un teatro de sombras. Y no es nada comparada con las horrendas verdades que descubriste en R’lyeh. En más de una ocasión te desvelas en la oscuridad, respirando con dificultad, con recuerdos de una época y un mundo que no son los tuyos. Conoces la espantosa verdad: la humanidad no es más que un débil eco de civilizaciones mucho más grandes.</p><p>Quizá sea cierto. Quizá no seas más que una mota y todos tus afanes sean en vano. Pero también has oído maravillas sobre las condiciones de las cátedras de Miskatonic. Te la has ganado, maldita sea. Más vale que la disfrutes.</p>",
+        "completedEffect": "Anota en el registro de campaña que (nombre del investigador) ha descubierto la verdad secreta. Esta tarea está completada (entra en juego con su lado Completado boca arriba).",
+        "failed": "<p>Han pasado varias noches desde tu regreso y te encuentras en una de las muchas salas de lectura de la biblioteca Orne de Miskatonic, con la mirada fija en el fuego que crepita. Tus hallazgos se recibieron como pura fantasía, y los antiguos escritos que tradujiste se descartaron sin miramientos. Tendrías suerte si te dejaran dar clase a niños, no digamos ya impartir lecciones en las magnas aulas de una universidad. Interrumpes la lectura para observar un extraño código garabateado en los márgenes de tu libro, que te resulta curiosamente familiar. Por un instante sientes una conocida punzada de curiosidad, la misma que sentiste en R’lyeh.</p><p>Cierras el libro de texto. Si no te van a escuchar, ¿para qué molestarse?</p>",
+        "failedEffect": "Retira permanentemente la tarea «Sondear las profundidades» de tu mazo y sufre 1 trauma mental. Añade 1 ficha {'{'}skull{'}'} a la bolsa de caos durante el resto de la campaña."
+      }
+    }
+  },
+  "anOfferYouCantRefuse": {
+    "title": "Interludio I: Una oferta que no puedes rechazar",
+    "interlude1": "<p>_Interludio 1_: —Lo que habéis recuperado no es una simple curiosidad. Se le compró a un precio muy alto a un tratante de Egipto, que la heredó de un pariente que la compró en Pekín, ya sabéis cómo van estas cosas. —Randall sonríe con suficiencia mientras admiras el antiguo artefacto.</p><p>Es una figura vagamente humanoide, sentada en postura encorvada, con una pesada cabeza de pulpo y rasgos de calamar. Hay algo malévolo en su expresión, algo malsano en el modo mismo en que fue esculpida. Te cuesta apartar la vista.</p>",
+    "agencyDetectiveOrCriminal": "<p class='red'>_Si tu investigador tiene el atributo Agencia, Detective o Criminal:_ La grandilocuente historia de Randall sobre cómo adquirió el artefacto parece artificiosa sin necesidad. Tienes sobrados motivos para creer que la antigua estatua se obtuvo por medios no del todo legítimos. Por desgracia, eso no te dice nada sobre los verdaderos orígenes de la reliquia.</p>",
+    "interlude1Continued": "<p>—Esta es una reliquia singular, de orígenes prehistóricos o, me atrevería a decir, prehumanos.</p><p>La voz de Randall rompe el hechizo. El resto de la historia del excéntrico anticuario desborda la imaginación. Describe el testimonio de una antigua contienda cósmica y cree que la Tierra entera está al borde de un apocalipsis muy parecido al que destruyó al creador de la estatua.</p><p>—En toda la historia humana, en cada una de las mitologías, existe un relato sobre un gran diluvio. Un cataclismo. Hay leyendas sobre una gran ciudad-estado: un bastión de saber y poder que se hundió bajo las olas. La humanidad le ha dado muchos nombres. Atlántida. Mu. Lemuria. Pero su verdadero nombre, un nombre anterior a la historia, es _R’lyeh_.</p><p>»Tras muchas y minuciosas investigaciones, y con la ayuda de un marinero loco llamado Gustaf, he determinado las coordenadas relativas de la ciudad antigua. Una franja de océano en el Pacífico Sur donde muchos veleros han naufragado o desaparecido sin explicación. Lo que me lleva a mi oferta. Necesito a alguien con audacia y recursos para encabezar una expedición a la ciudad antigua. Alguien que traiga pruebas de su antiguo saber, estudie sus secretos y deje constancia de sus maravillas. Necesito que ese alguien seas tú —dice Randall mirándote, y luego mira a Ruby y a Andy.</p><p>»Si aceptáis, os eximiré de cualquier deuda pendiente y os proporcionaré dinero suficiente para retiraros con holgura. Con mucha holgura. Y, por supuesto, os prestaré ayuda con vuestras otras preocupaciones.</p><p>Tu mente vuelve a esas otras «preocupaciones».</p>",
+    "chooseTask": "En orden de juego, cada investigador debe elegir una tarea distinta y leer su texto.",
+    "label": {
+      "walkInFaith": "Caminar con fe",
+      "toeTheLine": "Cumplir las normas",
+      "noPlaceLikeHome": "Como en casa, en ningún sitio",
+      "goodMoney": "Un buen dinero",
+      "doNoHarm": "No hacer daño",
+      "proveYourWorth": "Demostrar tu valía",
+      "dreamsOfDestruction": "Sueños de destrucción",
+      "plumbTheDepths": "Sondear las profundidades",
+      "refuse": "Rechazar. Continúa en _Interludio 3_.",
+      "accept": "Aceptar su oferta. Salta a _Interludio 4_."
+    },
+    "task": {
+      "walkInFaith": {
+        "title": "Tarea: Caminar con fe",
+        "body": "<p>Toda tu vida has creído en algo superior a ti, algo que guía tu mano y marca tu camino. Hace meses reconociste en el ojo sin párpado de la vidriera de la tienda de Tillinghast el que veías en sueños. Era una señal. No puedes evitar pensar que esa es la razón por la que acabaste aquí. No tienes más remedio que decir que sí.</p>"
+      },
+      "toeTheLine": {
+        "title": "Tarea: Cumplir las normas",
+        "body": "<p>Eras una estrella rutilante en pleno ascenso... hasta tu repentina e ignominiosa caída en desgracia. Alguien con quien trabajabas se encargó de que jamás volvieras a encontrar un empleo honrado, así que recurriste a Tillinghast para ganarte la vida. Siempre has albergado la esperanza de que pudiera ayudarte a recuperar tu antiguo puesto y a restablecer tu buen nombre.</p>"
+      },
+      "noPlaceLikeHome": {
+        "title": "Tarea: Como en casa, en ningún sitio",
+        "body": "<p>El señor Tillinghast siempre se ha portado bien contigo. Cuando pasabas por una mala racha, fue él quien te sacó de la calle y quien te pagó una cama caliente y un plato caliente en la pensión de Ma. El dinero que te ha prometido por este trabajo te permitirá por fin levantar cabeza. Sabes que cumplirá.</p>"
+      },
+      "goodMoney": {
+        "title": "Tarea: Un buen dinero",
+        "body": "<p>Con los años has tenido que hacer muchas cosas que jamás reconocerías en la buena sociedad. Pero todo eso se ha acabado. Esta es tu oportunidad de empezar de cero, la que Tillinghast te prometió hace años cuando saldó tu vieja deuda. Con lo que te ofrece, por fin deberías poder vivir a tu manera... siempre que sobrevivas a un descabellado recado más.</p>"
+      },
+      "doNoHarm": {
+        "title": "Tarea: No hacer daño",
+        "body": "<p>La gente siempre ha contado contigo cuando las cosas se tuercen. Randall ha visto cómo sacabas partido a tus aptitudes a lo largo de los trabajos que has hecho para él; el escurridizo hombre de negocios nunca te ha encargado nada fácil, pero siempre has estado a la altura. Si bordas este último trabajo, te ha prometido lo suficiente para hacer realidad tus sueños.</p>"
+      },
+      "proveYourWorth": {
+        "title": "Tarea: Demostrar tu valía",
+        "body": "<p>Has oído cómo hablan de ti a tus espaldas. «Un peso muerto», te han llamado. Ya verán. Randall te ha prometido todo lo necesario para llegar a lo más alto y demostrar a esa panda de víboras de qué pasta estás hecho en realidad. Necesitas este trabajo para demostrar a todo el mundo que no eres el fracaso que dicen tus colegas.</p>"
+      },
+      "dreamsOfDestruction": {
+        "title": "Tarea: Sueños de destrucción",
+        "body": "<p>Cada noche desde hace un año te atormentan pesadillas espantosas. Visiones de una terrible calamidad. Calles en ruinas. Formas espectrales de personas ahogadas. Y, por encima de todo ello, una figura colosal sin nombre. Entraste en la tienda de Tillinghast con la esperanza de hallar respuestas en sus tomos de ocultismo, y su creciente negocio no tardó en envolverte en sus redes. Randall te ha prometido respuestas.</p>"
+      },
+      "plumbTheDepths": {
+        "title": "Tarea: Sondear las profundidades",
+        "body": "<p>Nunca pretendiste tener tratos con Randall, ni con la mafia, ni con nada de esto. Pero jamás consigues reprimir el afán irrefrenable de comprender el mundo que te rodea. Aunque te han advertido una y otra vez de que la curiosidad acabaría contigo, no puedes negar la atracción de lo desconocido. Este trabajo consagrará tu carrera, si juegas bien tus cartas.</p>"
+      }
+    },
+    "interlude2": "<p>_Interludio 2_: Miras a Randall con los ojos entornados. Hay algo que no te está contando. Alguna trampa. Con Tillinghast siempre hay trampa. Igual que siempre queda un trabajo más por hacer. Le preguntas de qué se trata, y él suspira.</p><p>—Pensaba que era evidente, pero es probable que esta expedición resulte bastante peligrosa. Por eso he pensado en confiártela a ti. Has demostrado tener muchísimos recursos. Y, como he dicho, pienso recompensarte generosamente.</p><p class='basic'>Los investigadores deben decidir (elige una opción):</p>",
+    "refuse": "Rechazar. Continúa en _Interludio 3_.",
+    "accept": "Aceptar su oferta. Salta a _Interludio 4_.",
+    "interlude3": "<p>_Interludio 3_: Tiene que haber trampa. De lo contrario, Tillinghast no ofrecería un cebo tan tentador. Se acabó. Niegas con la cabeza.</p><p>—Entonces, fuera de aquí —dice Tillinghast con frialdad, señalando la puerta—. Ya no me sirves de nada. Pero ten por seguro que, si le cuentas una sola palabra de esto a alguien, lo lamentarás.</p><p>Sin decir nada, sales de la tienda y dejas atrás las maravillas, y los peligros, que Tillinghast te tuviera reservados.</p><ul><li>Los investigadores pierden la campaña.</li></ul>",
+    "interlude4": "<p>_Interludio 4_: Sean cuales sean sus motivos para haber dejado lo importante para el final, la oferta es demasiado tentadora como para rechazarla. Ruby y Andy asienten contigo. El rostro de Tillinghast se parte en su habitual sonrisa socarrona.</p><p>—Qué maravilla. Esperaba que dijerais que sí. En verdad, esta es la oportunidad de vuestra vida. Os aseguro que lo cambiará todo.</p><p>Después de que Andy negocie un abundante suministro de película y Ruby suba su comisión, Tillinghast expone el plan de la expedición. Mañana un tren os llevará a San Francisco, donde el Cassandra zarpará para conduciros hasta las coordenadas indicadas en el Pacífico Sur. El anticuario expone los detalles con un regocijo exaltado, casi infantil.</p><p>—He enviado provisiones suficientes para que la expedición entera aguante varios meses si fuera necesario. Dicho esto, preparaos para cualquier cosa.</p><p class='basic right'>Continúa en el _Interludio II: Expedición a R’lyeh_</p>",
+    "recommended": {
+      "noPlaceLikeHome": "Recomendada para investigadores Superviviente ({'{'}survivor{'}'}), Vagabundo, Cazador o Viajero.",
+      "walkInFaith": "Recomendada para investigadores Guardián ({'{'}guardian{'}'}), Místico ({'{'}mystic{'}'}), Creyente, Bendecido, Elegido, Cazador o Hechicero.",
+      "toeTheLine": "Recomendada para investigadores Guardián ({'{'}guardian{'}'}), Agencia, Detective, Cazador, Policía o Veterano.",
+      "goodMoney": "Recomendada para investigadores Rebelde ({'{'}rogue{'}'}), Cívico, Criminal, Emprendedor o Alta sociedad.",
+      "proveYourWorth": "Recomendada para investigadores Agencia, Intérprete, Crepúsculo de Plata o Alta sociedad.",
+      "doNoHarm": "Recomendada para investigadores Ayudante, Cívico, Médico, Veterano o Protector.",
+      "dreamsOfDestruction": "Recomendada para investigadores Místico ({'{'}mystic{'}'}), Artista, Clarividente, Sectario, Maldito, Soñador, Intérprete o Hechicero.",
+      "plumbTheDepths": "Recomendada para investigadores Buscador ({'{'}seeker{'}'}), Agencia, Clarividente, Detective, Miskatonic, Erudito o Reportero."
+    }
+  },
+  "expeditionToRlyeh": {
+    "title": "Interludio II: Expedición a R’lyeh",
+    "body": "<img class='interlude-banner' src='{setImgPath}/../extra/the-drowned-city/rlyeh.png' alt='R’lyeh' /><p>Empieza a caer la tarde cuando ves por primera vez la ciudad antigua. Sales de tu camarote y encuentras a Andy y a Ruby contemplando una silueta escarpada y desolada por la amura de estribor. La ciudad antigua es una maraña de torres derrumbadas, distritos laberínticos y sendas quebradas que se enroscan sobre sí mismas como un nido de ratas. A Andy casi se le cae la cámara cuando una ola encrespada levanta la proa del barco y la deja caer con un golpe seco.</p><p>—Lo estás viendo. Es real. Dime que es real —dice Andy mientras carga a toda prisa más película en su cámara llena de arañazos.</p><p>Tú y el resto de la tripulación contempláis con una mezcla de asombro y pavor esa silueta que retuerce la mente. El agua del mar mana de las bocas de efigies alienígenas y sepulcros antiquísimos. Extrañas formas efímeras aparecen y desaparecen en los cañones de obsidiana de R’lyeh. No se parece a nada que hayan construido manos humanas.</p><p>Te sorprendes pronunciando entre dientes el nombre de la ciudad. Hasta la imperturbable Ruby parece haberse quedado sin habla cuando el barco atraviesa un anillo de bajíos rocosos y entra en una amplia ensenada. Tras tocar tierra, la expedición acampa en la playa de arena negra, al pie de una altísima aguja de obsidiana. Unas puertas gigantescas y amenazadoras, encajadas en la base de la torre, se alzan como centinelas mudos. La primera noche apenas se cruza una palabra entre los miembros de la expedición; Andy pasa la velada estudiando con detenimiento una piedra de obsidiana con símbolos resplandecientes, mientras Ruby reorganiza con mimo su bolsa de herramientas.</p><p>Por la mañana, discutís qué ruta seguir. Tillinghast ha proporcionado equipo de buceo, material de escalada y raciones suficientes para explorar el interior durante al menos dos semanas antes de que tengáis que regresar a la playa. Sin embargo, Andy y Ruby no se ponen de acuerdo. Andy quiere seguir la costa hasta la muralla occidental en ruinas, cerca de la boca de la ensenada. Ruby, que siempre se ha sentido a sus anchas en las alturas, quiere subir a lo alto para cartografiar la ciudad. Señala con entusiasmo un edificio lejano, semejante a una catedral, tierra adentro.</p><p>Según a quién decidáis seguir, exploraréis la ciudad antigua de oeste a este o de este a oeste. Debéis decidir en grupo:</p>",
+    "label": {
+      "west": "Seguir a Andy por la costa hasta la muralla occidental. Continúa en _Expedición occidental_.",
+      "east": "Acompañar a Ruby por los cañones de obsidiana hacia un enorme edificio en el interior. Salta a _Expedición oriental_."
+    },
+    "westernExpedition": "<p>_Expedición occidental:_ Hay algo en la lejana muralla en ruinas y en las agujas sumergidas que te llama. Cuando aceptas acompañar a Andy hacia el oeste, suspira de alivio.</p><p>—Sé apañármelas, claro, pero si tenemos que bucear, yo... —Se queda un momento con la mirada perdida en la distancia—. No quiero preocuparte, pero juraría que he visto algo con forma humana nadando ahí abajo. Agradeceré la compañía.</p><p>Con una súbita aprensión, diriges la vista más allá del agua negra, hasta el borde de la ensenada. Algo asoma un instante entre las olas y desaparece. Tienes la sensación de que te observan.</p><p>—Dos semanas, entonces —dice Ruby mientras se echa al hombro un rollo de cuerda—. Nos reuniremos aquí dentro de dos semanas. No olvidéis los trajes de buzo. Y que no os maten. No soportaría perder mi rivalidad favorita.</p>",
+    "easternExpedition": "<p>_Expedición oriental:_ Desde que desembarcasteis, no has podido apartar la vista de esa silueta fantasmagórica. Cuando aceptas acompañarla hacia el este, vislumbras en Ruby un levísimo asomo de sonrisa.</p><p>—Bien, puedes venir. Siempre que no me retrases —dice con sorna.</p><p>Un viento maligno silba por los traicioneros cañones, con olor a una descomposición antiquísima y a algo más, más dulzón. A lo lejos, los nubarrones de tormenta se agitan amenazadores.</p>",
+    "theExpeditionHeadedWest": "Anota en el registro de campaña que *la expedición se dirigió hacia el oeste*.",
+    "andyVanNortwick": "Elige un investigador para que añada el Apoyo de historia Andy Van Nortwick a su mazo. No cuenta para el tamaño de su mazo. Esta carta se encuentra en el conjunto de Encuentros *Expedición*, identificado con el siguiente icono:<section class='encounter-sets'><img src='{setImgPath}/tdc_expedition.png' /></section>",
+    "westernChaosTokens": "Retira 1 ficha {'{'}tablet{'}'} de la bolsa de caos. Añade 1 ficha {'{'}cultist{'}'} a la bolsa de caos durante el resto de la campaña.",
+    "proceedToTheWesternWall": "Continúa en _La muralla occidental_.",
+    "theExpeditionHeadedEast": "Anota en el registro de campaña que *la expedición se dirigió hacia el este*.",
+    "rubyStandish": "Elige un investigador para que añada el Apoyo de historia Ruby Standish a su mazo. No cuenta para el tamaño de su mazo. Esta carta se encuentra en el conjunto de Encuentros *Expedición*, identificado con el siguiente icono:<section class='encounter-sets'><img src='{setImgPath}/tdc_expedition.png' /></section>",
+    "proceedToObsidianCanyons": "Continúa en _Cañones de obsidiana_."
+  }
+}

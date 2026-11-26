@@ -1,0 +1,118 @@
+{
+  "intro": {
+    "title": "La perdición de Arkham parte II",
+    "theDoomOfArkham1": "<p>_La perdición de Arkham 1_: Tú y los demás contempláis sin poder hacer nada cómo Cthulhu arrasa el resto del Barrio Fluvial. El agua negra inunda las calles y las ruinas a su paso.</p><p>—Randall está detrás de esto. No sé cómo ni por qué, pero creo que quería que despertáramos a esa cosa —dice Ruby.</p><p>Unas llamas voraces empiezan a lamer los escombros al incendiarse las tuberías de gas reventadas, e iluminan las legiones de la semilla de Cthulhu mientras se abaten sobre la ciudad.</p><p>—Si eso es cierto, más vale que encontremos la forma de detenerlo —dice Andy.</p><p>Te miran en busca de una indicación.</p>",
+    "mustDecide": "Los investigadores deben decidir (elige una opción):",
+    "lastStand": "«Tenemos que plantar una última resistencia y expulsarlo a pura potencia de fuego». Continúa en _La perdición de Arkham 2_.",
+    "anotherWay": "«Tiene que haber otra manera». Salta a _La perdición de Arkham 3_ (solo puedes elegir esta opción si hay 5 o más artefactos marcados o anotados y no tachados en «Artefactos obtenidos» en el registro de campaña).",
+    "theDoomOfArkham2": "<p>_La perdición de Arkham 2_: —Me gusta cómo piensas —dice el inspector Legrasse mientras carga su arma con un chasquido satisfactorio.</p><p>Juntos trazáis un plan para ahuyentar a la antiquísima amenaza. Ruby propone que parte del grupo suba a los tejados, mientras Legrasse telefonea a unos contactos de la policía de Arkham. Si resistís en grupo, quizá logréis desviar la ira de Cthulhu lejos de la propia Arkham.</p><p>—Es la peor idea que he oído en mi vida, pero no creo que tengamos otra opción —dice Ruby.</p><p>Ves en sus ojos un destello de algo, ¿miedo, tal vez? No te queda más remedio que luchar.</p>",
+    "recordStoodTogether": "Anota en el registro de campaña que _los investigadores resistieron juntos_.",
+    "alliesIntoPlay": "Busca en los conjuntos de Encuentros *Expedición* y *La perdición de Arkham*, en el mazo de cada investigador y en todas las zonas dentro y fuera del juego los siguientes Apoyos de historia: John Raymond Legrasse, Ruby Standish y Andy Van Nortwick. Pon en juego cada uno de estos Apoyos bajo el control de cualquier investigador (o investigadores). Ninguno de ellos ocupa un hueco de aliado durante este escenario.",
+    "theDoomOfArkham3": "<p>_La perdición de Arkham 3_: Andy os hace señas para que entréis en un restaurante desierto mientras el agua sigue subiendo.</p><p>—Este no es mi campo —dice, y deja sobre una mesa un montón de papeles sueltos—. Pero he estado traduciendo los símbolos de R’lyeh, y creo que podríamos detener esto con, ejem... bueno, con un ritual.</p><p>Ruby desecha con un gesto las objeciones del inspector Legrasse mientras Andy expone un «ritual del retorno» que descubrió en las antiguas cortes de R’lyeh. Valiéndoos de fragmentos de la antigua ciudad de R’lyeh, quizá podáis sellar al primigenio.</p>",
+    "theDoomOfArkham3Continued": "<p>—Los símbolos que traduje parecían dar a entender que Cthulhu y sus, ejem, hijos están ligados a la propia R’lyeh... —Despliega un plano de Arkham—. Si colocamos estos artefactos por la ciudad de esta manera, puedo recitar el ritual y desterrarlo. Pero necesitaré que atraigáis su atención, que no os quite ojo, mientras lo preparo.</p><p>Andy levanta uno de los artefactos que recuperasteis de Randall y le da vueltas en la mano. Resplandece con una luz antinatural.</p>",
+    "theDoomOfArkham3Ruby": "<p>—Iré a la comisaría de policía de Arkham —dice el inspector Legrasse—. Tengo allí algunos contactos. Deberíamos poder sacar agentes a la calle para ayudar a los supervivientes.</p><p>Ruby, que no ha abierto la boca desde que Andy expuso el plan, se cruza de brazos.</p><p>—O sea, que queréis que soliviantemos a la cosa que está literalmente destruyendo la ciudad para que tú puedas recitar unas palabritas y esconder unas reliquias. —Da una calada al cigarrillo—. ¿Qué podría salir mal?</p>",
+    "recordAlliesHaveAPlan": "Anota en el registro de campaña que _tus aliados tienen un plan_.",
+    "alliesSetAside": "Busca en los conjuntos de Encuentros *Expedición* y *La perdición de Arkham*, en el mazo de cada investigador y en todas las zonas dentro y fuera del juego los siguientes Apoyos de historia: John Raymond Legrasse, Ruby Standish y Andy Van Nortwick. Ponlos aparte, fuera del juego.",
+    "addToken": "Añade 1 ficha {elderThing} a la bolsa de caos durante el resto de la campaña.",
+    "proceedToSetup": "Continúa en _Preparación_.",
+    "label": {
+      "lastStand": "«Tenemos que plantar una última resistencia y expulsarlo a pura potencia de fuego».",
+      "anotherWay": "«Tiene que haber otra manera»."
+    }
+  },
+  "setup": {
+    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de Encuentros: *La perdición de Arkham parte II*, *Dominación*, *Niebla primordial*, *Inundación*, *Semilla estelar*, *Agentes de Cthulhu* y *Las máscaras de medianoche*. Estos conjuntos se identifican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/the-doom-of-arkham-part-ii.png' /><img src='{setImgPath}/domination.png' /><img src='{setImgPath}/elder-mist.png' /><img src='{setImgPath}/flood.png' /><img src='{setImgPath}/star-spawn.png' /><img src='{setImgPath}/agents-of-cthulhu.png' /><img src='{setImgPath}/midnight-masks.png' /></section>",
+    "midnightMasksLocations": "Al reunir el conjunto de Encuentros *Las máscaras de medianoche*, coge solo las cartas de Lugar. No cojas ninguna otra carta de este conjunto.",
+    "placeLocations": "Pon en juego todos los Lugares según el diagrama de colocación de Lugares.",
+    "arkhamLocations": "Reúne todos los Lugares del conjunto *Las máscaras de medianoche* junto con los Tejados del este y los Tejados del oeste. Pon en juego al azar uno de los dos Lugares Centro y uno de los dos Lugares Barrio Sur y retira de la partida las otras versiones de esos Lugares. Pon en juego Barrio Norte, Barrio Este, Hospital de Santa María y Universidad Miskatonic.",
+    "rivertownRuined": "Pon en juego Barrio Fluvial (En ruinas) del conjunto de Encuentros *La perdición de Arkham parte II*. Retira de la partida la otra versión de Barrio Fluvial.",
+    "setAsideLocations": "Pon aparte, fuera del juego, todos los demás Lugares.",
+    "cthulhuAtRivertown": "Coloca el Enemigo de una sola cara Cthulhu (Mal primordial) en Barrio Fluvial.",
+    "startAtRivertown": "Cada investigador comienza la partida en Barrio Fluvial.",
+    "cthulhuBoard": "Monta el tablero de Cthulhu según el diagrama <i>(consulta <b>El tablero de Cthulhu</b>)</i>.",
+    "placeBoard": "Busca el tablero troquelado de doble cara incluido en esta caja y colócalo por encima de los mazos de Acto y de Plan, con el lado de Cthulhu boca arriba.",
+    "placeFacets": "Coloca en el tablero de Cthulhu una copia de cada uno de los tres Enemigos Cthulhu (Alas ancestrales, Rostro feroz y Garra siniestra), con el lado no _Enfurecido_ boca arriba, de modo que formen una imagen completa de Cthulhu.",
+    "buildCthulhuDeck": "Baraja las 18 cartas de Cthulhu para formar el mazo de Cthulhu <i>(consulta <b>El mazo de Cthulhu</b>)</i>. Coloca este mazo junto al tablero de Cthulhu.",
+    "checkCampaignLogActAgenda": "Consulta el registro de campaña para formar los mazos de Acto y de Plan:",
+    "fightBack": "Si _los investigadores resistieron juntos_, forma el mazo de Plan usando el Plan 1a: «La perdición de Arkham» y el mazo de Acto usando el Acto 1a: «¡Peleemos!». Retira de la partida todos los demás Actos y Planes.",
+    "banishHim": "Si _tus aliados tienen un plan_, forma el mazo de Plan usando el Plan 1a: «La perdición de Arkham» y el mazo de Acto usando el Acto 1a: «¡Desterrémoslo!». Pon aparte, fuera del juego, el Plan especial «¡El último sello!». Retira de la partida todos los demás Actos y Planes.",
+    "checkCampaignLog": "Consulta el registro de campaña.",
+    "artifacts": "Reúne todos los artefactos obtenidos que no estén tachados en «Artefactos obtenidos». Pon en juego cada uno de ellos bajo el control de un investigador, repartidos lo más equitativamente posible.",
+    "floodedNeighborhoods": "Añade las fichas de Inundación a la reserva de fichas y aumenta el nivel de inundación de cada Lugar que figure en «Barrios inundados».",
+    "starSpawnAside": "Pon aparte, fuera del juego, el conjunto de Encuentros *Semilla estelar*.",
+    "cthulhusRage": "Coloca 1 recurso en la carta de referencia de escenario, bajo «Furia de Cthulhu» <i>(consulta <b>Furia de Cthulhu</b>)</i>. Si solo hay 1 o 2 jugadores, coloca 1 recurso adicional en la carta de referencia de escenario.",
+    "buildEncounterDeck": "Baraja las cartas de Encuentro restantes para formar el mazo de Encuentros.",
+    "readyToBegin": "El destino de Arkham está en tus manos. Ya está todo listo para comenzar."
+  },
+  "rules": {
+    "cthulhuBoard": {
+      "title": "El tablero de Cthulhu",
+      "body": "<p class='basic'>Cthulhu está representado en el mapa como un único Enemigo, pero se compone de varias cartas de Enemigo en el tablero de Cthulhu. Los investigadores enfrentados a Cthulhu (Mal primordial) también están enfrentados a cada carta del tablero de Cthulhu, como un solo Enemigo. Cuando interactúes con Cthulhu (al combatirlo, evitarlo, etc.), elige una de las cartas de Enemigo de doble cara del tablero de Cthulhu con la que interactuar.</p><p class='basic'>Durante la fase de Enemigos, Cthulhu ataca a cada investigador que esté en su Lugar usando los valores combinados de daño y de horror de todos los Enemigos Cthulhu del tablero de Cthulhu. Este ataque se realiza además de cualquier otro ataque o efecto que provoque el mazo de Cthulhu (ver más abajo). Si una carta del tablero de Cthulhu fuese a atacar por una palabra clave u otro efecto mientras se la combate o se la evita, solo ataca esa carta.</p><p class='basic'>Los efectos de cartas que infligen daño a varios Enemigos de un Lugar pueden infligir daño a cada una de las cartas de Enemigo del tablero de Cthulhu.</p>"
+    },
+    "cthulhuDeck": {
+      "title": "El mazo de Cthulhu",
+      "body": "<p class='basic'>Durante la preparación de este escenario se forma un segundo mazo con un dorso de carta distinto: el mazo de Cthulhu. Es un mazo aparte compuesto exclusivamente por cartas de «acción». El mazo de Cthulhu no es un mazo de Encuentros y las cartas de acción no son Traiciones.</p><p class='basic'>Después de moverse y atacar con normalidad durante la fase de Enemigos, Cthulhu realiza acciones adicionales mediante las cartas de acción del mazo de Cthulhu. Al final de la fase de Enemigos, el efecto Obligado del Plan indica a los investigadores que roben la primera carta del mazo de Cthulhu. Al robar cartas del mazo de Cthulhu, resuelve sus efectos de uno en uno, de arriba abajo. Una vez resuelta una carta de acción, se descarta en la pila de descarte de Cthulhu. Si el mazo de Cthulhu se queda vacío, vuelve a formarlo inmediatamente barajando la pila de descarte de Cthulhu.</p>"
+    },
+    "cthulhusRage": {
+      "title": "Furia de Cthulhu",
+      "body": "<p class='basic'>A lo largo de este escenario, la cantidad de recursos que haya bajo «Furia de Cthulhu» en la carta de referencia de escenario indica la ira de Cthulhu contra los investigadores. Cuanto mayor sea la Furia de Cthulhu, más peligroso y letal se vuelve el durmiente despertado. La Furia de Cthulhu no tiene de por sí ningún efecto de juego; sin embargo, algunos efectos de cartas de Encuentro pueden cambiar o hacerse más fuertes en función de su nivel actual.</p>"
+    }
+  },
+  "label": {
+    "chooseAllyInvestigator": "Elige un investigador que tome el control de {name}.",
+    "chooseArtifactInvestigator": "Elige un investigador que controle {name}.",
+    "chooseAlly": "Elige un Apoyo de historia _Aliado_ puesto aparte del que tomar el control.",
+    "noAlly": "No tomar el control de ningún Apoyo de historia _Aliado_.",
+    "chooseInvestigatorToTest": "Elige un investigador que haga la prueba",
+    "increaseFloodLevel": "Aumentar el nivel de inundación del Lugar de Cthulhu",
+    "dreadsightGroupChoice": "Los investigadores deben decidir como grupo",
+    "cthulhuAttacks": "Cthulhu <i>(Garra siniestra)</i> ataca a cada investigador que esté en su Lugar",
+    "chooseEnemyForDoom": "Elige un Enemigo del tablero de Cthulhu que no tenga Perdición",
+    "chooseSkillForTest": "Elige una habilidad que poner a prueba",
+    "chooseCthulhuEnemyToReturn": "Elige un Enemigo [[Cthulhu]] que devolver al tablero de Cthulhu, con el lado [[Enfurecido]] boca arriba",
+    "chooseLocationToFlood": "Elige un Lugar cuyo nivel de inundación aumentar",
+    "chooseLocationToRuin": "Elige el Lugar totalmente inundado al que se mueve Cthulhu",
+    "cluesToPlace": "¿Cuántas de tus pistas quieres colocar en este Lugar?"
+  },
+  "tokens": {
+    "easyStandard": {
+      "skull": "-X. X es la Furia de Cthulhu.",
+      "cultist": "-3. Si fracasas y tu Lugar está inundado, recibe 1 punto de daño.",
+      "tablet": "-3. Si fracasas, coloca 1 de tus pistas en tu Lugar.",
+      "elderThing": "-1. Revela otra ficha. Si fracasas, después de que esta prueba se resuelva, roba la primera carta del mazo de Cthulhu (máximo de un robo por ronda)."
+    },
+    "hardExpert": {
+      "skull": "-X. X es 2 más la Furia de Cthulhu.",
+      "cultist": "-5. Si tu Lugar está inundado, recibe 1 punto de daño.",
+      "tablet": "-5. Si fracasas, coloca 1 de tus pistas en tu Lugar.",
+      "elderThing": "-3. Revela otra ficha. Si fracasas, después de que esta prueba se resuelva, roba la primera carta del mazo de Cthulhu (máximo de un robo por ronda)."
+    }
+  },
+  "resolutions": {
+    "xp": {
+      "bonus": "por haber disipado un antiguo mal"
+    },
+    "label": {
+      "removeNoWeakness": "No retirar ninguna Debilidad básica al azar"
+    },
+    "noResolution": {
+      "title": "Sin resolución",
+      "body": "<p>_Si no se ha llegado a ninguna resolución (todos los investigadores han desistido o han sido derrotados)_: Intentas levantarte a duras penas mientras el suelo se sacude con un nuevo temblor. El poderoso Cthulhu te mira desde lo alto con cinco ojos rojos y desapasionados. Has soñado antes con este momento. Su descomunal figura oculta las estrellas y titila con un fulgor sobrenatural. Su aliento putrefacto te baña y agita el agua. Por un momento, el estruendo se desvanece cuando cruzas la mirada con el primigenio. Lo sientes en tu mente. No hay ira ni furia, solo una fría indiferencia.</p><p>Esto no es un ajuste de cuentas, ni un juicio, ni una destrucción. Tú y los tuyos no sois más que una molestia. Los gruesos tentáculos escamosos que brotan del rostro de Cthulhu serpentean sobre el agua en tu busca, en busca de las cosas que tú y los tuyos le arrebatasteis. No tienes fuerzas para resistirte. ¿Y por qué ibas a hacerlo? Tu destino y el de toda tu patética especie estaba escrito en las estrellas. La perdición ha llegado a Arkham.</p><ul><li>Anota en el registro de campaña que _Cthulhu aniquiló la ciudad de Arkham_.</li><li>Los investigadores, junto con el resto de la población de Arkham, mueren.</li><li>Los investigadores pierden la campaña.</li><li>Continúa en el _Epílogo_.</li></ul>"
+    },
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<p>_Resolución 1_: Tras horas de lucha, te alzas ante el poderoso Cthulhu, que te mira desde lo alto con cinco ojos rojos y desapasionados. Has soñado antes con este momento. Su descomunal figura oculta las estrellas y titila con un fulgor sobrenatural. Su aliento putrefacto te baña y agita el agua. Por un momento, el estruendo se desvanece cuando cruzas la mirada con el primigenio. Lo sientes en tu mente. No hay ira ni furia, solo una fría indiferencia.</p><p>Suena un disparo, seguido de una docena más. A tu espalda, desde los tejados cercanos y desde otros puntos de los alrededores, una andanada de armas de fuego y explosivos acribilla la carne flácida y fétida del primigenio. El inspector Legrasse grita a sus compañeros, azuzándolos para que no cejen. El gran Cthulhu gime de dolor mientras la pura potencia de fuego le destroza la carne acorazada e inunda las calles de una sangre negra y aceitosa. Por fin, las tornas parecen haber cambiado a tu favor. Amilanado por el asalto implacable, el primigenio se vuelve hacia el Miskatonic y se interna pesadamente en el agua, seguido de una cohorte de criaturas monstruosas.</p><p>Sientes que los demás contienen el aliento a la espera de alguna represalia, pero no llega nada. Entonces una ovación rompe el silencio, y la siguen decenas más. Arkham está a salvo... por ahora.</p><ul><li>Anota en el registro de campaña que _Cthulhu fue ahuyentado_.</li><li>Cada investigador sufre 3 traumas físicos y 3 traumas mentales a causa de su batalla contra Cthulhu.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.</li><li>¡Los investigadores ganan la campaña! Pero ¿cuánto tardará Cthulhu en regresar?</li><li>Continúa en el _Epílogo_.</li></ul>"
+    },
+    "resolution2": {
+      "title": "Resolución 2",
+      "body": "<p>_Resolución 2_: Justo cuando Cthulhu se dispone a golpear, los signos de su cuerpo adquieren un brillo cegador y sus extremidades se quedan rígidas de repente. Andy sale con audacia a la calle y recita a trompicones otras dos estrofas guturales. Tú y Ruby os unís a él en los cánticos mientras el ritual toma forma. El primigenio vuelve a rugir y cae de bruces, como atado por cuerdas invisibles. Una corona de inquietante luz verde y dorada atraviesa las nubes y después se abre para dejar ver el cielo nocturno. Anidada en el corazón de una nebulosa de color esmeralda y oro hay una estrella brillante y resplandeciente.</p><p>La luz de la estrella se intensifica. Ante tus ojos, el cuerpo del primigenio se retuerce y se dobla como un reflejo quebrado. Por un instante ves titilar las agujas de R’lyeh en la silueta rota de Arkham, con un aspecto a la vez ajeno y familiar. Con un último rugido, Cthulhu desaparece en el éter.</p><p>La corona de estrellas lejanas se encoge y después se derrumba con un trueno. Tras ella queda un silencio espantoso.</p><p>Tú, Ruby y Andy trepáis al tejado de un edificio cercano y os sentáis en el borde a contemplar la ciudad en ruinas. El Barrio Fluvial y buena parte del distrito comercial están completamente bajo el agua, pero la mayor parte de Arkham sigue en pie. Los tres os quedáis mirando el paisaje apocalíptico mientras los nubarrones se disipan y bañan la ciudad con la pálida luz de la luna. Una sirena solitaria resuena a través de las riberas desbordadas del río Miskatonic. Andy se pone en pie y te tiende la mano.</p><p>—No hay tiempo para descansar. La gente de Arkham todavía nos necesita, más que nunca.</p><ul><li>Anota en el registro de campaña que _Cthulhu fue desterrado_.</li><li>Cada investigador sufre 1 trauma físico y 1 trauma mental a causa de su batalla contra Cthulhu.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria. Cada investigador puede retirar de su mazo 1 Debilidad básica al azar (ignorando los requisitos de construcción de mazos) por haber salvado a Arkham de un antiguo mal.</li><li>¡Los investigadores ganan la campaña!</li><li>Continúa en el _Epílogo_.</li></ul>"
+    },
+    "resolution3": {
+      "title": "Resolución 3",
+      "body": "<p>_Resolución 3_: Justo cuando Cthulhu se dispone a golpear, los signos de su cuerpo adquieren un brillo cegador y sus extremidades se quedan rígidas de repente. Andy sale con audacia a la calle y recita a trompicones otras dos estrofas guturales. Tú y Ruby os unís a él en los cánticos mientras el ritual toma forma. El primigenio vuelve a rugir y cae de bruces, como atado por cuerdas invisibles. Una corona de inquietante luz verde y dorada atraviesa las nubes y después se abre para dejar ver el cielo nocturno. Anidada en el corazón de una nebulosa de color esmeralda y oro hay una estrella brillante y resplandeciente.</p><p>La luz de la estrella se intensifica. Ante tus ojos, el cuerpo del primigenio se retuerce y se dobla como un reflejo quebrado. Por un instante ves titilar las agujas de R’lyeh en la silueta rota de Arkham, con un aspecto a la vez ajeno y familiar. Con un último rugido, Cthulhu desaparece en el éter.</p><p>La corona de estrellas lejanas se encoge y después se derrumba con un trueno. Tras ella queda un silencio espantoso.</p><p>Tú, Ruby y Andy trepáis al tejado de un edificio cercano y os sentáis en el borde a contemplar la ciudad en ruinas. La ciudad de Arkham es la viva imagen de la devastación. El Barrio Fluvial está completamente bajo el agua. La Plaza de la Independencia y el ayuntamiento son poco más que escombros, y poco queda de los demás barrios de la ciudad. Solo puedes imaginar la cifra de muertos. Los tres os quedáis mirando en un silencio sobrecogido mientras los nubarrones se disipan y bañan la ciudad con la pálida luz de la luna. Miras a Ruby y ves que está llorando.</p><p>—No creía que esta ciudad me importara un comino, pero aquí me tienes, llorando como una cría —solloza—. ¿Qué más podríamos haber hecho?</p><ul><li>Anota en el registro de campaña que _Cthulhu fue desterrado_, pero _Arkham quedó destruida_.</li><li>Cada investigador sufre 2 traumas físicos y 2 traumas mentales a causa de su batalla contra Cthulhu.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria. Cada investigador obtiene 5 puntos de experiencia adicionales por haber disipado un antiguo mal.</li><li>Los investigadores ganan la campaña, aunque Arkham ha quedado completamente en ruinas.</li><li>Continúa en el _Epílogo_.</li></ul>"
+    }
+  },
+  "errata": {
+    "theFinalSeal": "La primera frase del dorso de este Plan debería decir: «Si este Plan ha avanzado al alcanzar su umbral de Perdición, todos los investigadores son derrotados. De lo contrario…»"
+  }
+}

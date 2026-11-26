@@ -1,0 +1,113 @@
+{
+  "intro": {
+    "title": "La corte de los antiguos",
+    "checkCampaignLog": "Consulta el registro de campaña.",
+    "headedWest": "Si la expedición se dirigió hacia el oeste, continúa en _La corte de los antiguos 1_.",
+    "headedEast": "Si la expedición se dirigió hacia el este, salta a _La corte de los antiguos 2_.",
+    "courtOfTheAncients1": "_La corte de los antiguos 1_: El tiempo parece escurrirse mientras sigues los túneles oscuros que salen del corazón de la ciudad. Al cabo, el incesante traqueteo y el zumbido de la maquinaria se desvanecen y dan paso a un silencio ominoso. Andy acaba de proponer que deis la vuelta para buscar otra ruta cuando la interminable escalera llega a su fin. En el techo, sobre vuestras cabezas, hay una puerta de intrincados relieves. Al presionar un panel en su centro, se revela un edificio vasto y diáfano que recuerda vagamente a la nave de una antiquísima catedral alienígena. Un ascensor altísimo domina el centro, rodeado de plantas circulares en espiral. Las paredes están cubiertas de incontables símbolos alienígenas que palpitan con una luz verde. Te preguntas si el gran archivo albergará algo de valor.",
+    "courtOfTheAncients2": "_La corte de los antiguos 2_: Aterrizas en la planta superior de la altísima nave. Escaleras sinuosas y pasarelas rodean la inmensa estructura y dejan ver más niveles abajo. Las paredes que te rodean están cubiertas de símbolos alienígenas resplandecientes: cientos de miles de signos que ocupan cada superficie. Te preguntas si el gran archivo albergará algo de valor.",
+    "courtOfTheAncients2Ruby": "«Ándate con ojo. No somos quienes han llegado aquí primero», dice Ruby. La ladrona de joyas se inclina sobre un cuerpo humano tendido en un charco de sangre fresca. Te llama la atención su colorida capa de retales. Un rugido grave y retumbante resuena por la sala. El semblante de Ruby se ensombrece.",
+    "courtOfTheAncients2Conclusion": "«Si queremos encontrar algo de valor, más vale que nos demos prisa».",
+    "resolvePlumbTheDepths": "Si algún investigador tiene la tarea Sondear las profundidades, resuelve su historia correspondiente, que aparece a la derecha.",
+    "proceedToSetup": "Continúa en _Preparación_.",
+    "plumbTheDepths": {
+      "title": "Tarea: Sondear las profundidades",
+      "instructions": "_Léelo solo si tienes la tarea «Sondear las profundidades»:_",
+      "body": "No puedes evitar maravillarte ante la austera grandeza del antiguo edificio. ¿Fue un palacio antiquísimo? ¿Una biblioteca? ¿Un lugar de culto? Los intrincados murales de las paredes son una mezcla de pictogramas y escritura alienígena que representa una antigua migración a través de las estrellas. Los símbolos resplandecen con una luz verde parpadeante y narran historias incognoscibles, antiguos secretos ocultos a la humanidad.",
+      "memories": "Una imagen, un paisaje de pesadilla poblado de horrores oceánicos y ciudades hundidas, te llama la atención. Presionas el ojo de una criatura especialmente perturbadora y sientes una oleada de recuerdos antiquísimos. Los pensamientos y sensaciones de un ser alienígena, las imágenes de las profundidades estigias de algún planeta lejano, desbordan tu consciencia. Los recuerdos dan paso a hechos más nítidos y definidos, a fechas, a una historia registrada por una civilización prehistórica.",
+      "reflection": "Empiezas a sentir que te escurres, como si hicieran pasar tu consciencia por un tamiz. Podrías aprender mucho más..., pero ¿deberías?",
+      "choose": "Debes decidir (elige una opción):",
+      "lookAway": "Apartar la vista. Borra 1 progreso de _Sondear las profundidades_ en el registro de campaña. Cada investigador comienza el siguiente escenario con 1 pista (de la reserva de fichas).",
+      "seekTheTruth": "Buscar la verdad. Marca 2 progresos en _Sondear las profundidades_ en el registro de campaña y sufre 1 trauma mental. Cada investigador comienza el siguiente escenario con 1 carta menos en su mano inicial."
+    },
+    "label": {
+      "plumbTheDepths": {
+        "lookAway": "Apartar la vista.",
+        "seekTheTruth": "Buscar la verdad."
+      }
+    }
+  },
+  "setup": {
+    "title": "Preparación",
+    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de Encuentros: _La corte de los antiguos_, _Dominación_, _Sueños_, _Niebla primordial_, _El ineludible_, _R’lyeh_ y _Semilla estelar_. Estos conjuntos se identifican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/court-of-the-ancients.png' /><img src='{setImgPath}/domination.png' /><img src='{setImgPath}/dreams.png' /><img src='{setImgPath}/elder-mist.png' /><img src='{setImgPath}/the-inescapable.png' /><img src='{setImgPath}/rlyeh.png' /><img src='{setImgPath}/star-spawn.png' /></section>",
+    "placeFixedLocations": "Pon en juego los Lugares Pasarelas sinuosas, Antecámara occidental, Antecámara oriental y Altar antiguo según el diagrama de colocación de Lugares.",
+    "placeCrumblingArchives": "Baraja todas las copias de Archivos en mal estado y retira de la partida una de ellas al azar. Pon en juego todas las copias restantes de Archivos en mal estado como se muestra en el diagrama de colocación de Lugares.",
+    "checkCampaignLogWest": "Consulta el registro de campaña. Si _la expedición se dirigió hacia el oeste_:",
+    "westGreatLift": "Pon en juego el Lugar Gran ascensor en el nivel 1, con el lado (Inactivo) boca arriba (consulta _El Gran ascensor y deslizar Lugares_).",
+    "westGatherStowaways": "Reúne todas las cartas del conjunto de Encuentros _Polizones_. Este conjunto se identifica con el siguiente icono:<section class='encounter-sets'><img src='{setImgPath}/stowaways.png' /></section>",
+    "westBuildActAgendaDeck": "Forma los mazos de Acto y de Plan usando el Plan 1a: «Archivos en ruinas», el Plan 2a: «Cimientos inestables», el Acto 1a: «Pasos gigantes» y el Acto 2a: «Huida de la torre (v. I)». Retira de la partida todos los demás Actos y Planes.",
+    "westStarSpawn": "Busca en el conjunto de Encuentros _Semilla estelar_ el Enemigo Semilla estelar observadora y ponlo aparte, fuera del juego. Retira de la partida al azar otras dos cartas del conjunto de Encuentros _Semilla estelar_.",
+    "westBeginAtEastAntechamber": "Cada investigador comienza la partida en Antecámara oriental.",
+    "checkCampaignLogEast": "Consulta el registro de campaña. Si _la expedición se dirigió hacia el este_:",
+    "eastGreatLift": "Pon en juego el Lugar Gran ascensor en el nivel 4, con el lado (Inactivo) boca arriba (consulta _El Gran ascensor y deslizar Lugares_).",
+    "eastGatherPilgrims": "Reúne todas las cartas del conjunto de Encuentros _Peregrinos_. Este conjunto se identifica con el siguiente icono:<section class='encounter-sets'><img src='{setImgPath}/pilgrims.png' /></section>",
+    "eastBuildActAgendaDeck": "Forma los mazos de Acto y de Plan usando el Plan 1a: «Archivos inundados», el Plan 2a: «Cimientos inestables», el Acto 1a: «Pasos gigantes» y el Acto 2a: «Huida de la torre (v. II)». Retira de la partida todos los demás Actos y Planes.",
+    "eastAddFloodTokens": "Añade las fichas de Inundación a la reserva de fichas.",
+    "eastFloodLevelsOneAndTwo": "Aumenta el nivel de inundación de cada Lugar de los niveles 1 y 2.",
+    "eastFullyFloodLevelOne": "Aumenta el nivel de inundación de cada Lugar del nivel 1 para que queden totalmente inundados.",
+    "eastStarSpawn": "Busca en el conjunto de Encuentros _Semilla estelar_ el Enemigo Semilla estelar observadora y ponlo aparte, fuera del juego. Retira de la partida todas las demás cartas del conjunto de Encuentros _Semilla estelar_.",
+    "eastBeginAtTwistingCatwalks": "Cada investigador comienza la partida en Pasarelas sinuosas.",
+    "setCardsAside": "Pon aparte, fuera del juego, el Apoyo de historia Fragmento de Y’ch’lecht y el Enemigo Tirano colosal.",
+    "checkCampaignLogInescapable": "Consulta el registro de campaña.",
+    "creatureWasDefeated": "Si _la criatura fue derrotada_, retira de la partida el conjunto de Encuentros _El ineludible_.",
+    "otherwise": "De lo contrario, pon aparte, fuera del juego, el Enemigo El ineludible.",
+    "chooseExpeditionAsset": "En orden de juego, cada jugador puede elegir 1 Apoyo _Artefacto_ obtenido o 1 Apoyo _Objeto_ del conjunto de Encuentros _Expedición_ para que empiece en juego bajo su control. Este conjunto se identifica con el siguiente icono:<section class='encounter-sets'><img src='{setImgPath}/tdc_expedition.png' /></section>",
+    "buildEncounterDeck": "Baraja las cartas de Encuentro restantes para formar el mazo de Encuentros.",
+    "readyToBegin": "Ya está todo listo para comenzar."
+  },
+  "rules": {
+    "greatLift": {
+      "title": "El Gran ascensor y deslizar Lugares",
+      "body": "<p class='basic'>Durante este escenario, los investigadores tendrán que usar el Gran ascensor para explorar otros niveles de la torre.</p><ul><li>Los Lugares no están conectados entre sí salvo a través del Gran ascensor, de sus iconos de conexión o de ciertos efectos de cartas.</li><li>El Gran ascensor solo está conectado a los Lugares que tiene a su izquierda y a su derecha, y viceversa.</li><li>Cuando se indique que deslices el Gran ascensor hacia arriba o hacia abajo, mueve el Gran ascensor al nivel superior o inferior al que ocupa.<ul><li>El Gran ascensor no puede subir por encima del nivel 4 ni bajar por debajo del nivel 1.</li></ul></li><li>Cuando el Gran ascensor se mueve, todas las cartas y fichas que estén en ese Lugar se mueven con él.</li></ul>"
+    }
+  },
+  "label": {
+    "chooseExpeditionAssetQuestion": "Elige un Apoyo de Artefacto obtenido, o un Apoyo de Objeto del conjunto de Encuentros Expedición, para que empiece en juego bajo tu control.",
+    "noExpeditionAsset": "No tomar ningún Apoyo de Artefacto ni de Expedición.",
+    "additionalActions": "Acciones adicionales para gastar",
+    "greatLift": {
+      "slideUp": "Deslizar el Gran ascensor hacia arriba",
+      "slideDown": "Deslizar el Gran ascensor hacia abajo",
+      "slideUpAdditional": "Gastar 1 pista por investigador para deslizar el Gran ascensor hacia arriba",
+      "slideDownAdditional": "Gastar 1 pista por investigador para deslizar el Gran ascensor hacia abajo",
+      "doNotSlide": "No deslizar el Gran ascensor"
+    }
+  },
+  "cosmicOmen": {
+    "label": {
+      "shuffleGlyphIntoEncounterDeck": "Añadir al mazo de Encuentros una carta Símbolo en juego y barajarlo",
+      "takeHorrorAndDiscard": "Sufrir 1 punto de horror directo y descartar al azar 1 carta de tu mano"
+    }
+  },
+  "tokens": {
+    "easyStandard": {
+      "skull": "-X. X es la cantidad de cartas _Símbolo_ que hay en la zona de victoria.",
+      "cultist": "-2 (en vez de eso, -4 si hay un Enemigo _Polizón_ en tu Lugar).",
+      "tablet": "-2. Si tu Lugar está inundado, revela otra ficha.",
+      "elderThing": "-4. Si esta ficha es revelada durante un ataque o un intento de evitar, recibe 1 punto de daño o 1 punto de horror."
+    },
+    "hardExpert": {
+      "skull": "-X. X es 1 más la cantidad de cartas _Símbolo_ que hay en la zona de victoria.",
+      "cultist": "-3 (en vez de eso, -5 si hay un Enemigo _Polizón_ en tu Lugar).",
+      "tablet": "-3. Si tu Lugar está inundado, revela otra ficha.",
+      "elderThing": "-5. Si esta ficha es revelada durante un ataque o un intento de evitar, recibe 1 punto de daño y 1 punto de horror."
+    }
+  },
+  "resolutions": {
+    "xp": {
+      "bonus": "por escudriñar la corte de los antiguos"
+    },
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<p>_Resolución 1_: Haciendo acopio de valor para otra escalada, vas poniendo una mano por encima de la otra, de asidero en asidero, mientras la torre amenaza con derrumbarse bajo tus pies. Al fin te encaramas al borde de la cúpula destrozada y sales a lugar seguro. Andy abandona trepando la antigua corte, seguido del resto de la expedición. Contempláis desde lo alto la deslumbrante silueta de R’lyeh, que parece desplazarse y mecerse de forma extraña con los fuertes vientos marinos.</p><ul><li>Actualiza el registro de campaña.<ul><li>Tacha «La corte de los antiguos» en el mapa de R’lyeh.</li><li>Si el Fragmento de Y’ch’lecht estaba bajo el control de un investigador cuando terminó el escenario, marca la casilla del «Fragmento de Y’ch’lecht» en «Artefactos obtenidos».</li></ul></li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.</li><li>Continúa en _Cañones de obsidiana_.</li></ul>"
+    },
+    "resolution2": {
+      "title": "Resolución 2",
+      "body": "<p>_Resolución 2_: Tras hurgar y retorcer cada saliente del estrado, por fin se abre deslizándose. Debajo, una escalera de caracol desciende hacia una profunda oscuridad. Otro bloque de roca se hace añicos contra el suelo del antiguo edificio.</p><p>—¡Tenemos que salir de aquí! —grita Ruby.</p><p>Sin perder un instante, bajas por la escalera y dejas atrás la torre que se desmorona y sus antiguos secretos.</p><ul><li>Actualiza el registro de campaña.<ul><li>Tacha «La corte de los antiguos» en el mapa de R’lyeh.</li><li>Si el Fragmento de Y’ch’lecht estaba bajo el control de un investigador cuando terminó el escenario, marca la casilla del «Fragmento de Y’ch’lecht» en «Artefactos obtenidos».</li></ul></li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.</li><li>Continúa en _La gran cámara_.</li></ul>"
+    },
+    "noResolution": {
+      "title": "Sin resolución",
+      "body": "<p>_Si no se ha llegado a ninguna resolución (todos los investigadores han desistido o han sido derrotados)_: El resto de la expedición te cuenta que te encontraron de pie al borde de la altísima escalada, como si caminaras en sueños. Te frotas los ojos. No guardas ningún recuerdo de la corte alienígena. Y, puesto que se ha derrumbado casi por completo, jamás lo guardarás.</p><ul><li>Actualiza el registro de campaña.<ul><li>Tacha «La corte de los antiguos» en el mapa de R’lyeh.</li><li>Si el Fragmento de Y’ch’lecht estaba bajo el control de un investigador cuando terminó el escenario, marca la casilla del «Fragmento de Y’ch’lecht» en «Artefactos obtenidos».</li></ul></li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.</li><li>Consulta el registro de campaña.<ul><li>Si la expedición se dirigió hacia el oeste, continúa en _Cañones de obsidiana_.</li><li>Si la expedición se dirigió hacia el este, continúa en _La gran cámara_.</li></ul></li></ul>"
+    }
+  }
+}

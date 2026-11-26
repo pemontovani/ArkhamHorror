@@ -1,0 +1,139 @@
+{
+  "intro": {
+    "title": "La muralla occidental",
+    "checkCampaignLog": "Consulta el registro de campaña.",
+    "headedWest": "Si la expedición se dirigió hacia el oeste, continúa en _La muralla occidental 1_.",
+    "headedEast": "Si la expedición se dirigió hacia el este, salta a _La muralla occidental 2_.",
+    "westernWall1": "_La muralla occidental 1_: A medida que avanzas hacia el oeste, resulta cada vez más claro que la playa por la que caminas es la parte superior de una antiquísima muralla circular. Brazas más abajo, la muralla cae a plomo hasta una plaza redonda en el lecho marino. Con cierta planificación, podrías descender con seguridad hasta el fondo pasando de una bolsa de aire atrapado a otra entre las viejas ruinas. Si tienes cuidado, tal vez consigas llegar con vida al fondo del mar.",
+    "westernWall2": "_La muralla occidental 2_: Los inestables cimientos de la ciudad antigua se estremecen mientras R’lyeh sigue emergiendo. Capas de mampostería que se desmoronan y pasillos al descubierto forman una senda traicionera hacia la superficie. Para ascender con seguridad, tendrás que escalar la pared vertical de la antigua muralla pasando de una bolsa de aire atrapado a otra. Conociendo los peligros de la descompresión, no puedes limitarte a subir flotando. Si tienes cuidado, tal vez consigas llegar con vida a la superficie.",
+    "resolveDoNoHarm": "Si un investigador tiene la tarea No hacer daño, resuelve su historia correspondiente, que aparece a la derecha.",
+    "proceedToWesternSetup": "Continúa en _Preparación (v.I): Expedición occidental_.",
+    "proceedToEasternSetup": "Continúa en _Preparación (v.II): Expedición oriental_.",
+    "doNoHarm": {
+      "title": "Tarea: No hacer daño",
+      "instructions": "_Léelo solo si tienes la tarea «No hacer daño»:_",
+      "body": "Mientras te preparas para recorrer la muralla, divisas un cuerpo tendido boca abajo en la arena negra. Es un hombre con una capa de retales hecha jirones. Dejando a un lado la pregunta de cómo ha llegado hasta aquí, te acercas y le tomas el pulso. Sigue vivo, aunque está gravemente herido. Un pus amarillo rezuma de las marcas redondas de ventosas que tiene en el cuello, los brazos y el pecho. Le vendas las heridas lo mejor que puedes y después lo despiertas con sales aromáticas. Abre los ojos con un parpadeo y pronuncia con voz ronca una sola palabra: «Madre». Miras a los demás. Está claro que este hombre necesita ayuda.",
+      "choose": "Debes decidir (elige una opción):",
+      "bringAlong": "«Llevémoslo con nosotros. Aún podemos salvarlo». Después de preparar este escenario, coloca 1 ficha de Perdición en el Plan. Anota en el registro de campaña que _la expedición ayudó al peregrino_.",
+      "leaveBehind": "«Dejémoslo aquí». Cuando reveles el Lugar inicial en el siguiente escenario, no coloques pistas en ese Lugar. Anota en el registro de campaña que _la expedición abandonó al peregrino_."
+    },
+    "label": {
+      "doNoHarm": {
+        "bringAlong": "«Llevémoslo con nosotros. Aún podemos salvarlo».",
+        "leaveBehind": "«Dejémoslo aquí»."
+      }
+    }
+  },
+  "setup": {
+    "west": {
+      "title": "Preparación (v.I): Expedición occidental",
+      "setLocationsAside": "Pon aparte, fuera del juego, Cimientos de obsidiana, Chabola hundida, Escalera sumergida, Ruinas destrozadas {'{'}runeV{'}'} y Cámara submarina {'{'}runeZ{'}'}.",
+      "placeUpperWalkways": "Baraja los cinco Lugares _Pasarela_ restantes junto con Chabola hundida, Escalera sumergida y Ruinas destrozadas {'{'}runeV{'}'}, puestos aparte. Pon en juego seis de ellos en los niveles 2-4, por debajo de Muralla occidental, con el lado sin revelar boca arriba.",
+      "buildActDeck": "Forma el mazo de Acto usando el Acto 1a: «Descenso al abismo». Retira de la partida el otro Acto.",
+      "chooseExpeditionAsset": "En orden de juego, cada jugador puede elegir 1 Apoyo _Objeto_ del conjunto de Encuentros _Expedición_ para que empiece en juego bajo su control. Este conjunto se identifica con el siguiente icono:<section class='encounter-sets'><img src='{setImgPath}/tdc_expedition.png' /></section>",
+      "placeBottomWalkways": "Baraja los dos Lugares _Pasarela_ restantes junto con Cimientos de obsidiana, puesto aparte, de modo que no sepas cuál es cuál, y ponlos en juego en el nivel 5, con el lado sin revelar boca arriba.",
+      "setCardsAside": "Pon aparte, fuera del juego, el Enemigo El ineludible, la Debilidad Parásito cazador y la Traición de doble cara Mural del fondo marino {'{'}runeW{'}'}.",
+      "floodLevels": "Aumenta el nivel de inundación de cada Lugar de los niveles 2-5.",
+      "fullyFloodLevels": "Aumenta el nivel de inundación de los niveles 4 y 5 para que queden totalmente inundados."
+    },
+    "east": {
+      "title": "Preparación (v.II): Expedición oriental",
+      "setLocationsAside": "Pon aparte, fuera del juego, Muralla occidental, Chabola hundida, Escalera sumergida, Ruinas destrozadas {'{'}runeV{'}'} y Cámara submarina {'{'}runeZ{'}'}.",
+      "placeUpperWalkways": "Baraja los cinco Lugares _Pasarela_ restantes junto con Chabola hundida, Escalera sumergida y Ruinas destrozadas {'{'}runeV{'}'}, puestos aparte. Pon en juego seis de ellos en los niveles 2-4, por encima de Cimientos de obsidiana, con el lado sin revelar boca arriba.",
+      "buildActDeck": "Forma el mazo de Acto usando el Acto 1a: «Ascenso por la muralla». Retira de la partida el otro Acto.",
+      "chooseExpeditionAsset": "En orden de juego, cada jugador puede elegir 1 Apoyo _Artefacto_ obtenido o 1 Apoyo _Objeto_ del conjunto de Encuentros _Expedición_ para que empiece en juego bajo su control. Este conjunto se identifica con el siguiente icono:<section class='encounter-sets'><img src='{setImgPath}/tdc_expedition.png' /></section>",
+      "placeBottomWalkways": "Baraja los dos Lugares _Pasarela_ restantes junto con Muralla occidental, puesto aparte, de modo que no sepas cuál es cuál, y ponlos en juego en el nivel 5, con el lado sin revelar boca arriba.",
+      "setCardsAside": "Pon aparte, fuera del juego, la Debilidad Parásito cazador y la Traición de doble cara Mural del fondo marino {'{'}runeW{'}'}.",
+      "floodLevels": "Aumenta el nivel de inundación de cada Lugar de los niveles 1-4.",
+      "fullyFloodLevels": "Aumenta el nivel de inundación de los niveles 1 y 2 para que queden totalmente inundados."
+    },
+    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de Encuentros: _La muralla occidental_, _Legado cósmico_, _Profundos_, _Inundación_, _R’lyeh_, _Semilla estelar_, _El ineludible_, _Criaturas submarinas_ y _Agentes de Cthulhu_. Estos conjuntos se identifican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/the-western-wall.png' /><img src='{setImgPath}/cosmic-legacy.png' /><img src='{setImgPath}/tdc_deep-ones.png' /><img src='{setImgPath}/flood.png' /><img src='{setImgPath}/rlyeh.png' /><img src='{setImgPath}/star-spawn.png' /><img src='{setImgPath}/the-inescapable.png' /><img src='{setImgPath}/undersea-creatures.png' /><img src='{setImgPath}/agents-of-cthulhu.png' /></section>",
+    "gatherLocations": "Reúne todos los Lugares del conjunto de Encuentros _La muralla occidental_.",
+    "placeWesternWall": "Pon en juego Muralla occidental en el nivel 1, como se muestra.",
+    "placeObsidianFoundations": "Pon en juego Cimientos de obsidiana en el nivel 1, como se muestra.",
+    "removeWalkways": "Reúne todos los demás Lugares _Pasarela_ y retira dos de la partida al azar.",
+    "beginAtWesternWall": "Cada investigador comienza la partida en Muralla occidental.",
+    "beginAtObsidianFoundations": "Cada investigador comienza la partida en Cimientos de obsidiana.",
+    "removeTheInescapable": "Consulta el registro de campaña. Si _la criatura fue derrotada_, retira de la partida el conjunto de Encuentros _El ineludible_.",
+    "setAsideCoralStarSpawn": "Busca en el conjunto de Encuentros _Semilla estelar_ el Enemigo Semilla estelar de coral y ponlo aparte, fuera del juego. Retira de la partida todas las demás cartas del conjunto de Encuentros _Semilla estelar_.",
+    "addFloodTokens": "Añade las fichas de Inundación a la reserva de fichas.",
+    "buildEncounterDeck": "Baraja las cartas de Encuentro restantes para formar el mazo de Encuentros.",
+    "readyToBegin": "Ya está todo listo para comenzar."
+  },
+  "label": {
+    "chooseExpeditionAssetQuestion": "Elige un Apoyo para que empiece en juego bajo tu control.",
+    "noExpeditionAsset": "No tomar ningún Apoyo de Artefacto ni de Expedición."
+  },
+  "sunkenStairway": {
+    "label": {
+      "above": "Poner Cámara submarina en la fila situada por encima de Escalera sumergida.",
+      "below": "Poner Cámara submarina en la fila situada por debajo de Escalera sumergida."
+    }
+  },
+  "rules": {
+    "locationAdjacency": {
+      "title": "Adyacencia de Lugares en La muralla occidental",
+      "body": "<p class='basic'>Durante este escenario, los Lugares se disponen según un patrón fijo de 5 niveles.</p><ul><li>La posición de cada Lugar tiene su propio nivel del 1 al 5, que empieza en Muralla occidental en el nivel 1 y desciende hasta los Lugares inferiores en el nivel 5.</li><li>Los efectos de cartas que hagan referencia al nivel de un Lugar se refieren a la fila numerada en la que está, como se muestra en el diagrama de colocación de Lugares.</li><li>Durante este escenario, cada Lugar está conectado a todos los Lugares de la fila superior y de la fila inferior. Los Lugares de una misma fila no están conectados entre sí.</li></ul>"
+    }
+  },
+  "specialRules": [
+    {
+      "title": "@:theDrownedCity.theWesternWall.rules.locationAdjacency.title",
+      "body": "@:theDrownedCity.theWesternWall.rules.locationAdjacency.body"
+    }
+  ],
+  "tokens": {
+    "easyStandard": {
+      "skull": "-X. X es el nivel de tu Lugar.",
+      "cultist": "-3. Si fracasas y tu Lugar está totalmente inundado, recibe 1 punto de daño.",
+      "tablet": "-3. Si fracasas, aumenta el nivel de inundación de tu Lugar.",
+      "elderThing": "-3 (en vez de eso, -5 si tu Lugar está totalmente inundado)."
+    },
+    "hardExpert": {
+      "skull": "-X. X es 2 más el nivel de tu Lugar.",
+      "cultist": "-5. Si tu Lugar está totalmente inundado, recibe 1 punto de daño.",
+      "tablet": "-5. Aumenta el nivel de inundación de tu Lugar, si es posible.",
+      "elderThing": "-5 (si tu Lugar está totalmente inundado, en vez de eso fracasas automáticamente)."
+    }
+  },
+  "resolutions": {
+    "xp": {
+      "bonus": "mientras la expedición sigue adelante"
+    },
+    "label": {
+      "resolution3": {
+        "drownedQuarter": "Continuar en _El barrio sumergido_.",
+        "apiary": "Continuar en _El apiario_."
+      }
+    },
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<p>_Resolución 1_: El lecho marino es una fantasmagoría onírica de flora siniestra y criaturas de pesadilla. Un pez linterna mutante que solo cabría calificar de antediluviano nada plácidamente entre un bosque de hierbas marinas de aguas profundas. Otra criatura abisal de ojos brillantes y fauces dentadas nada derecha hacia ti, pero en el último momento se aparta ante el campo titilante que mantiene el agua a raya.</p><ul><li>Tacha «La muralla occidental» en el mapa de R’lyeh del registro de campaña.</li><li>Si un investigador tiene la tarea No hacer daño, resuelve su historia correspondiente en esta página.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.</li><li>Salta a la _Resolución 3_.</li></ul>"
+    },
+    "resolution2": {
+      "title": "Resolución 2",
+      "body": "<p>_Resolución 2_: Un temblor sacude la ciudad antigua y te derriba. Ruby suelta una maldición mientras recuperas el equilibrio apoyándote en una columna caída. La ciudad de R’lyeh sigue emergiendo. Al cabo, los temblores remiten. Ruby se detiene a tu lado y contempla el círculo perfecto de la bahía de aguas negras.</p><p>—Maldita sea —dice—. Me aposté con Andy que llegaríamos antes. Pero ese blandengue no se atreverá a cobrar si finjo que me he roto la pierna, ¿no crees?</p><p>Suspiras y encabezas el camino de vuelta al Cassandra, mientras Ruby se venda la pantorrilla derecha. Será agradable regresar.</p><ul><li>Tacha «La muralla occidental» en el mapa de R’lyeh del registro de campaña.</li><li>Si un investigador tiene la tarea *No hacer daño*, resuelve su historia correspondiente en esta página.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.</li><li>Continúa en _Sepulcro del durmiente_.</li></ul>"
+    },
+    "noResolution": {
+      "title": "Sin resolución",
+      "body": "<p>_Si no se ha llegado a ninguna resolución (todos los investigadores han sido derrotados)_: Con ayuda del resto de la expedición, llegas renqueando a tu destino, refugiándote en las bolsas de aire dispersas entre las ruinas que se desmoronan. Figuras de pesadilla revolotean de un lado a otro en el oscuro océano que hay más allá de la muralla. Las criaturas que viven en los cimientos de R’lyeh y en sus alrededores son retorcidas y extrañas; tienes la sensación de que pronto volverás a verlas, en tus propias pesadillas.</p><ul><li>Tacha «La muralla occidental» en el mapa de R’lyeh del registro de campaña.</li><li>Si un investigador tiene la tarea No hacer daño, resuelve su historia correspondiente en esta página.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.</li><li>Consulta el registro de campaña.<ul><li>Si la expedición se dirigió hacia el oeste, salta a la _Resolución 3_.</li><li>Si la expedición se dirigió hacia el este, continúa en _Sepulcro del durmiente_.</li></ul></li></ul>"
+    },
+    "doNoHarmResolution": {
+      "title": "Tarea: No hacer daño",
+      "instructions": "_Léelo solo si tienes la tarea «No hacer daño»:_",
+      "checkCampaignLog": "Consulta el registro de campaña.",
+      "helpedThePilgrim": "Si la expedición ayudó al peregrino, continúa en la Tarea 1.",
+      "otherwise": "De lo contrario, salta a la Tarea 2.",
+      "task1": "_Tarea 1:_ El estado del hombre se deteriora con rapidez. Al final de vuestra peligrosa travesía, tose una flema amarilla y rancia. Justo cuando dejáis atrás las sendas traicioneras, se dobla por la mitad con un grito y se araña el pecho y la cara. En la piel del cuello y del hombro le aparecen pequeños orificios que se abren como fruta podrida y de los que brota un torrente de parásitos serpenteantes semejantes a gusanos. La boca de cada gusano está llena de dientecillos serrados que gotean la misma repugnante bilis amarilla que mana del cuerpo de la víctima. Lo que quedaba del hombre se pone en pie lentamente, como una marioneta repulsiva, y tiende hacia ti una mano ensangrentada. Un gusano gomoso le sale del brazo reptando y tiembla, como si saboreara el aire.",
+      "task1HuntingParasite": "Busca la Debilidad Parásito cazador puesta aparte y añádela permanentemente a tu mazo. Esta carta no cuenta para el tamaño de mazo de tu investigador.",
+      "task1Progress": "Hiciste todo lo posible por ayudar a la víctima. Marca 2 progresos en «No hacer daño» en el registro de campaña.",
+      "task2": "_Tarea 2:_ Incluso después de superar la muralla, no puedes dejar de pensar en el hombre al que abandonaste. El recuerdo de sus ojos suplicantes y de su tos sibilante atormentará para siempre tus sueños. ¿Podrías haberlo salvado? ¿O, al menos, haberle procurado una muerte con algo de dignidad?",
+      "task2Trauma": "Abandonaste a alguien que necesitaba ayuda. Sufre 1 trauma mental.",
+      "task2Progress": "Borra 1 progreso de «No hacer daño» en el registro de campaña."
+    },
+    "resolution3": {
+      "title": "Resolución 3",
+      "body": "<p>_Resolución 3_: Una antiquísima cúpula titila de forma tentadora en el lecho marino. Mientras te maravillas ante las extrañas vistas, un bloque de obsidiana se desprende y cae desde lo alto sobre la cúpula submarina. En lugar de hacerse añicos, la cúpula ondula, flexible, mientras la roca la atraviesa con un estruendo atronador. Algo en su centro proyecta una barrera que repele el agua, pero deja pasar los objetos sólidos.</p><p>Sea cual sea la extraña tecnología que alberga la cúpula, es probable que a Tillinghast le interese. Sin embargo, también podrías adentrarte en R’lyeh: una puerta redonda en la base de la muralla, protegida por el mismo campo titilante que la cúpula, te invita a entrar en la ciudad.</p><ul><li>Los investigadores deben decidir (elige una opción):<ul><li>Para desvelar los secretos de la cúpula submarina, continúa en _El barrio sumergido_.</li><li>Para seguir hacia el subsuelo de R’lyeh, continúa en _El apiario_.</li></ul></li></ul>"
+    }
+  }
+}

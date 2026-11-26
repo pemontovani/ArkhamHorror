@@ -1,0 +1,46 @@
+{
+  "intro": {
+    "title": "Un último trabajo",
+    "body1": "<p>Contienes un escalofrío en el aire fresco de primavera mientras esperas bajo una farola parpadeante. Esta es tu última noche al servicio de Randall Tillinghast, un comerciante local de curiosidades. El último envío que el anticuario debía recibir de Nueva Orleans ha desaparecido, y te ha encargado recuperarlo. No es más que el último de una larga serie de «recados» arriesgados, y a menudo ilícitos, para el taimado anciano. La paga del trabajo de esta noche debería bastar casi para saldar lo que queda de tu deuda con Tillinghast.</p><p>Tus dos fuentes llegan puntuales. Ruby Standish, célebre ladrona de joyas, se acerca con una sonrisita de suficiencia. El intrépido reportero Andy Van Nortwick aparece poco después. Parece que Tillinghast atrae a la mezcla de especialistas más variopinta para sus «favores».</p><p>Entre lo que cuenta Ruby y lo que cuenta Andy, te haces una idea aproximada de dónde está el envío.</p><p>—Le seguí la pista desde el almacén del Barrio Sur hasta unos cuantos traficantes del mercado negro del Barrio Fluvial. Sin suerte, me temo —dice Ruby.</p><p>Andy se quita el sombrero y se enjuga la frente.</p><p>—Por poco no la cuento en un tiroteo en el centro. Parece que los de Sheldon y los de O’Bannion vuelven a las andadas.</p><p>Las dos bandas están enzarzadas en otra guerra territorial, al parecer por un cargamento de alcohol de contrabando que se ha esfumado. Puede que se llevaran el envío desaparecido junto con el verdadero botín que buscaban las bandas.</p>",
+    "wendy": "<p class='red'>_Si estás jugando como Wendy Adams:_ —Si vamos a meternos en territorio de las bandas, más te vale no cometer ninguna imprudencia —dice Andy con evidente preocupación en la voz—. Después de este trabajo, tendremos dinero de sobra para encontrar a tu padre. Te lo prometo.</p>",
+    "body2": "<p>Tiritas cuando un viento helado agita el aire. Ruby sonríe con picardía.</p><p>—¿Qué te parece una pequeña apuesta? Doble o nada. Quien se haga antes con el envío se lo lleva todo. Espero que sepas perder —dice con sorna.</p><p>Antes de que puedas responder, ya se ha fundido entre las sombras.</p><p class='basic right'>Continúa en _Preparación_</p>"
+  },
+  "setup": {
+    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de Encuentros: *Un último trabajo*, *Sueños*, *Frío helador*, *Puertas cerradas*, *Las máscaras de medianoche*, *Ratas* y *Miedo impactante*. Estos conjuntos se identifican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/one-last-job.png' /><img src='{setImgPath}/dreams.png' /><img src='{setImgPath}/chilling-cold.png' /><img src='{setImgPath}/locked-doors.png' /><img src='{setImgPath}/midnight-masks.png' /><img src='{setImgPath}/rats.png' /><img src='{setImgPath}/striking-fear.png' /></section>Al reunir el conjunto de Encuentros *Las máscaras de medianoche*, coge solo las cartas de Lugar. No cojas los Actos, Planes ni Traiciones de este conjunto.",
+    "locations": "Retira de la partida los siguientes Lugares: Hospital de Santa María, Barrio Sur, Cementerio, Tu casa y, al azar, una de las dos copias de Centro.",
+    "placeLocations": "Pon en juego todos los Lugares restantes.",
+    "startAt": "Cada investigador comienza la partida en la Tienda esotérica de Tillinghast.",
+    "actDeck": "Forma el mazo de Acto usando una de las dos copias del Acto 1a: «Preguntando a las bandas», elegida al azar. Pon aparte, fuera del juego, todas las copias de los Actos 2 y 3.",
+    "setAside": "Pon aparte a Sadie Sheldon, a Naomi O’Bannion y las dos copias de Sicaria de banda."
+  },
+  "tokens": {
+    "easyStandard": {
+      "skull": "-X. X es la cantidad de Enemigos _Criminal_ en juego (hasta un máximo de 4).",
+      "tablet": "-2 (en vez de eso, -4 si hay un Enemigo _Criminal_ en tu Lugar).",
+      "elderThing": "-3. Si fracasas, descarta las 3 primeras cartas del mazo de Encuentros. Elige 1 Enemigo _Criminal_ descartado por este efecto y haz que aparezca enfrentado a ti."
+    },
+    "hardExpert": {
+      "skull": "-X. X es la cantidad de Enemigos _Criminal_ en juego más 1.",
+      "tablet": "-3 (en vez de eso, -5 si hay un Enemigo _Criminal_ en tu Lugar).",
+      "elderThing": "-4. Si fracasas, descarta las 6 primeras cartas del mazo de Encuentros. Elige 1 Enemigo _Criminal_ descartado por este efecto y haz que aparezca enfrentado a ti. Realiza un ataque inmediatamente."
+    }
+  },
+  "resolutions": {
+    "xp": {
+      "bonus": "mientras reflexionan sobre el trabajo de esta noche"
+    },
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<p>_Resolución 1_: Regresas a la Tienda esotérica de Tillinghast con el envío y con Ruby Standish. La ladrona de joyas admite de mala gana que has ganado su pequeña apuesta y te promete una copa más tarde, sin mencionar el «doble o nada» que había propuesto. Una campanilla de plata suena cuando entras en la familiar y mohosa tienda de curiosidades. En cuestión de instantes, Randall tiene la caja abierta sobre su escritorio. Dentro hay un pequeño ídolo de color verde jade envuelto en tela.</p><p>—No podría estar más impresionado —dice Tillinghast. Los ojos le brillan mientras examina la figurilla verde. Cuando miras el ídolo, la cabeza te da vueltas.</p><p>Ruby se pasea nerviosa por el recibidor de la tienda y se dirige con aspereza a tu patrón:</p><p>—Muy bien, Tillinghast. Hemos cumplido nuestra parte del trato. ¿Dónde está lo nuestro?</p><p>La puerta de la tienda vuelve a sonar cuando regresa Andy. Randall se sienta tras su escritorio y os observa por encima de las yemas de sus dedos entrelazados.</p><p>—Mis sospechas se han confirmado: la reliquia es auténtica. Buen trabajo. ¿Qué me diríais si os dijese que tengo una oferta demasiado buena como para rechazarla?</p>"
+    },
+    "noResolution": {
+      "title": "Sin resolución",
+      "body": "<p>_Si no se ha llegado a ninguna resolución (todos los investigadores han desistido o han sido derrotados):_ Con el cuerpo molido a golpes, te arrastras de vuelta a la Tienda esotérica de Tillinghast y te apoyas pesadamente en la puerta. La vidriera muestra una pirámide con un ojo ciclópeo que te mira con insensible afectación. Siempre te ha parecido que tenía algo extraño, inquietante. Tras una larga pausa, te sostienes en el marco de la puerta y entras en la tienda. Dentro encuentras a Ruby y a Andy en torno al escritorio de Randall, examinando una pequeña figurilla verde.</p><p>Randall se inclina hacia delante en su silla y os observa por encima de las yemas de sus dedos entrelazados.</p><p>—Más vale tarde que nunca, supongo. Mis sospechas se han confirmado: la reliquia es auténtica. Buen trabajo. ¿Qué me diríais si os dijese que tengo una oferta demasiado buena como para rechazarla?</p>"
+    },
+    "rubyLostTheBet": "Anota en el registro de campaña que *Ruby perdió la apuesta*.",
+    "rubyWonTheBet": "Anota en el registro de campaña que *Ruby ganó la apuesta*.",
+    "victory": "Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.",
+    "discoveredAnAlienLanguage": "Si los investigadores descubrieron un idioma alienígena, descubres este símbolo:<section class='encounter-sets'><img src='{setImgPath}/../extra/the-drowned-city/runes/a.png' /></section>Anota «Profundidades» en el registro de campaña, bajo {'{'}runeA{'}'} en la sección de símbolos. Este símbolo ha sido traducido.",
+    "proceed": "Continúa en el _Interludio I: Una oferta que no puedes rechazar_"
+  }
+}

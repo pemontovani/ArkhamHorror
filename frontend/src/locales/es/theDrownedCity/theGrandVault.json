@@ -1,0 +1,122 @@
+{
+  "intro": {
+    "title": "La gran cámara",
+    "checkCampaignLog": "Consulta el registro de campaña.",
+    "headedWest": "Si la expedición se dirigió hacia el oeste, continúa en _La gran cámara 1_.",
+    "headedEast": "Si la expedición se dirigió hacia el este, salta a _La gran cámara 2_.",
+    "grandVault1": "_La gran cámara 1_: Oyes el traqueteo resonante de una gran maquinaria mucho antes de verla. Al salir de los túneles claustrofóbicos, te encuentras al borde de un precipicio que domina una enorme extensión cavernosa. Es tan vasta que no alcanzas a ver el otro lado. Una sucesión de salas interconectadas se despliega como un laberinto en el que vibra el sonido de ingenios alienígenas. En medio del estruendo se oye, aún más abajo, el rumor del agua que corre.",
+    "grandVault2": "_La gran cámara 2_: Oyes el traqueteo resonante de una gran maquinaria mucho antes de verla. Al llegar al pie de la escalera de caracol, te encuentras al borde de un precipicio que domina una enorme extensión cavernosa. Es tan vasta que no alcanzas a ver el otro lado. Una sucesión de salas interconectadas se despliega como un laberinto en el que vibra el sonido de ingenios alienígenas. En medio del estruendo se oye, aún más abajo, el rumor del agua que corre.",
+    "grandVault3": "_La gran cámara 3_: Este es el núcleo palpitante de R’lyeh. Colosales compuertas canalizan el agua de las crecidas desde la ciudad de arriba y llenan y vacían cámaras como si fueran las cavidades de un corazón. Esto parece ser alguna fuente de energía y la razón de que la ciudad siga emergiendo. Tras hablarlo con la expedición, decides explorar el inmenso complejo antes de continuar. Si hay un sitio donde encontrar uno de esos esquivos artefactos, es este.",
+    "resolveToeTheLine": "Si algún investigador tiene la tarea Cumplir las normas, resuelve su historia correspondiente, que aparece en la página siguiente.",
+    "proceedToSetup": "Continúa en _Preparación_.",
+    "toeTheLine": {
+      "title": "Tarea: Cumplir las normas",
+      "instructions": "_Léelo solo si tienes la tarea «Cumplir las normas»:_",
+      "body": "La expedición acampa antes de descender a la cámara que hay abajo. Durante una comida insípida pero contundente, alguien de la expedición revela que tiene relación con quienes antes te empleaban. «Un momento, ¿hablan de ti todo el tiempo?», dice con un resoplido. «Créeme, por lo que me han contado, no quieres recuperar tu antiguo empleo. Tu antigua jefatura aún hace chistes a tu costa. Aunque Tillinghast pudiera conseguirte el puesto, allí no te respeta nadie. Te espera una vida de curro de peón».",
+      "reflection": "Terminas de comer en silencio mientras das vueltas a esas palabras. Puede que quienes trabajaban contigo no te respeten, pero, con los contactos de Tillinghast, podrías hacer que te temieran. Unos cuantos sobornos, unas amenazas en el momento oportuno, incluso una llamada de la mafia, podrían ponerlos en su sitio. No es precisamente jugar limpio, pero, si juegas bien tus cartas, podrías echar a quien te echó. Tienes lo que queda de expedición para planear tu jugada antes de volver a Arkham.",
+      "choose": "Debes decidir (elige una opción):",
+      "oldJob": "Recuperar tu antiguo empleo a cualquier precio. Borra 1 progreso de _Cumplir las normas_ en el registro de campaña. En el siguiente escenario, recibes +1 a cada una de tus habilidades durante el primer Plan.",
+      "highRoad": "Ir por el camino honrado. No merece la pena. Marca 2 progresos en _Cumplir las normas_ en el registro de campaña y sufre 1 trauma mental. En el siguiente escenario, recibes -1 a cada una de tus habilidades durante el primer Plan."
+    },
+    "label": {
+      "toeTheLine": {
+        "oldJob": "Recuperar tu antiguo empleo a cualquier precio.",
+        "highRoad": "Ir por el camino honrado. No merece la pena."
+      }
+    }
+  },
+  "setup": {
+    "title": "Preparación",
+    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de Encuentros: _La gran cámara_, _Maquinaria alienígena_, _Inundación_, _El ineludible_, _R’lyeh_ y _Semilla estelar_. Estos conjuntos se identifican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/the-grand-vault.png' /><img src='{setImgPath}/alien-machinery.png' /><img src='{setImgPath}/flood.png' /><img src='{setImgPath}/the-inescapable.png' /><img src='{setImgPath}/rlyeh.png' /><img src='{setImgPath}/star-spawn.png' /></section>",
+    "placeFixedLocations": "Pon en juego los Lugares La gran escalera, Plataforma móvil, Sala sellada y Núcleo de la cámara, como se indica en el diagrama de colocación de Lugares.",
+    "removeOtherworldlyMechanisms": "Retira de la partida al azar una copia de Mecanismos de otro mundo (Mecanismos de otro mundo está en el lado revelado de algunos Lugares Sala de la cámara).",
+    "placeVaultChambers": "Baraja juntas todas las copias restantes de Sala de la cámara y ponlas en juego según el diagrama de colocación de Lugares.",
+    "beginAtTheGreatStair": "Cada investigador comienza en La gran escalera.",
+    "checkCampaignLog": "Consulta el registro de campaña.",
+    "powerWasDiverted": "Si _la energía fue desviada_, coloca 1 recurso en el Lugar Sala de la cámara inferior izquierdo. Ese Lugar ha quedado «activado».",
+    "otherwise": "De lo contrario, coloca un recurso en los Lugares Sala de la cámara inferior izquierdo, inferior derecho y superior derecho. Esos Lugares han quedado «activados».",
+    "starSpawn": "Baraja los Enemigos del conjunto de Encuentros _Semilla estelar_ y retira de la partida 2 de ellos al azar. Pon aparte, fuera del juego, los demás.",
+    "setCardsAside": "Pon aparte, fuera del juego, las siguientes cartas: todas las copias de la Traición de doble cara Cámara antigua, todas las copias del Enemigo Asistente de la cámara, el Apoyo de historia Tablilla de marea y el conjunto de Encuentros _El ineludible_.",
+    "chooseExpeditionAsset": "En orden de juego, cada jugador puede elegir 1 Apoyo _Artefacto_ obtenido o 1 Apoyo _Objeto_ del conjunto de Encuentros _Expedición_ para que empiece en juego bajo su control. Este conjunto se identifica con el siguiente icono:<section class='encounter-sets'><img src='{setImgPath}/tdc_expedition.png' /></section>",
+    "addFloodTokens": "Añade las fichas de Inundación a la reserva de fichas.",
+    "floodBottomRow": "Aumenta el nivel de inundación de los tres Lugares Sala de la cámara de la fila inferior.",
+    "buildEncounterDeck": "Baraja las cartas de Encuentro restantes para formar el mazo de Encuentros.",
+    "readyToBegin": "Ya está todo listo para comenzar."
+  },
+  "theVaultCore": {
+    "title": "Interludio del escenario: El núcleo de la cámara",
+    "body": "El núcleo de la cámara alberga una compleja estación de control. Con las salas circundantes activadas, la estación zumba con una enfermiza energía verde. Antiguos símbolos estilizados representan un facsímil deformado y cambiante de la ciudad. Tras examinarlo un rato, deduces que la estación suministra energía a cada sector de la ciudad; hay, sobre todo, una zona conocida que te llama la atención: dos enormes puertas en la base de una aguja altísima. Su diseño se parece curiosamente al de las puertas de obsidiana del lugar donde desembarcasteis.",
+    "node": "Un pequeño nodo rojo parpadea debajo, como si te suplicara que lo pulsaras.",
+    "choose": "Debes decidir (elige una opción):",
+    "pushTheButton": "Pulsar el botón. Anota en el registro de campaña que _el santuario interior quedó abierto_. Continuad la partida.",
+    "leaveItAlone": "Dejarlo en paz. Cada investigador obtiene 1 punto de experiencia adicional. Continuad la partida.",
+    "label": {
+      "pushTheButton": "Pulsar el botón.",
+      "leaveItAlone": "Dejarlo en paz."
+    },
+    "xp": {
+      "leaveItAlone": "por no haber tocado el botón"
+    }
+  },
+  "label": {
+    "deadlyMechanisms": {
+      "deactivate": "Desactivar el Lugar Cámara activado más cercano.",
+      "drawAttendant": "Robar 1 de los Enemigos Asistente de la cámara puestos aparte.",
+      "move": "Moverse a un Lugar adyacente (inundado, si es posible)."
+    },
+    "chooseExpeditionAssetQuestion": "Elige un Apoyo de Artefacto obtenido, o un Apoyo de Objeto del conjunto de Encuentros Expedición, para que empiece en juego bajo tu control.",
+    "noExpeditionAsset": "No tomar ningún Apoyo de Artefacto ni de Expedición.",
+    "deactivateYourLocation": "Desactivar tu Lugar.",
+    "ancientVault": {
+      "takeDamageAndHorror": "Recibir una cantidad total de daño y/o de horror"
+    }
+  },
+  "tokens": {
+    "easyStandard": {
+      "skull": "-X. X es la mitad de la cantidad de Lugares activados (redondeando hacia abajo).",
+      "cultist": "-3. Si fracasas, debes desactivar tu Lugar o bien recibir 1 punto de daño o 1 punto de horror.",
+      "tablet": "-2 (en vez de eso, -3 si tu Lugar está parcialmente inundado; o -4 si tu Lugar está totalmente inundado).",
+      "elderThing": "-4. Si fracasas, busca en la pila de descarte de Encuentros una copia de la Traición Sigue detrás de ti y añádela a la zona de victoria."
+    },
+    "hardExpert": {
+      "skull": "-X. X es la cantidad de Lugares activados.",
+      "cultist": "-4. Después de que se resuelva esta prueba, debes desactivar tu Lugar o bien recibir 1 punto de daño y 1 punto de horror.",
+      "tablet": "-3 (en vez de eso, -4 si tu Lugar está parcialmente inundado; o -5 si tu Lugar está totalmente inundado).",
+      "elderThing": "-5. Si fracasas, busca en la pila de descarte de Encuentros una copia de la Traición Sigue detrás de ti y róbala."
+    }
+  },
+  "tooltips": {
+    "theGreatStair": {
+      "resign": "Te aventuras en la oscuridad, dejando atrás el traqueteo de la maquinaria."
+    }
+  },
+  "resolutions": {
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<p>_Resolución 1_: Los miembros de la expedición pasan la velada contando historias y haciendo bromas. A pesar del lúgubre ambiente de la ciudad, los ánimos parecen altos. Compartes tus hallazgos con Ruby y sus acompañantes mientras Andy intenta preparar un guiso. Ella describe su difícil ruta hasta la cámara y te aconseja que tomes el camino que sube por la antigua corte que hay arriba, en lugar de la ruta que ella siguió por las fábricas silenciosas.</p><p>—De todos modos, estoy bastante segura de que la fábrica se derrumbó a nuestro paso —dice Ruby—. Si vas por el camino de la corte, te recomiendo que no te acerques a esos «peregrinos». La ciudad entera está plagada de ellos. Vi a toda una turba que avanzaba arrastrando los pies hacia el colosal templo de las alturas. Me contaron que habían escapado de una especie de nido subterráneo. Parece que algunos han pillado una fiebre bastante fea, así que te recomiendo que guardes las distancias.</p><ul><li>Actualiza el registro de campaña.<ul><li>Tacha «La gran cámara» en el mapa de R’lyeh.</li><li>Si la Tablilla de marea estaba bajo el control de un investigador cuando terminó el escenario, marca la casilla de la «Tablilla de marea» en «Artefactos obtenidos».</li></ul></li><li>Si algún investigador tiene la tarea Un buen dinero, haz que resuelva su historia correspondiente en esta página.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.</li><li>Continúa en _La corte de los antiguos_.</li></ul>"
+    },
+    "resolution2": {
+      "title": "Resolución 2",
+      "body": "<p>_Resolución 2_: Los miembros de la expedición pasan la velada contando historias y haciendo bromas. A pesar del lúgubre ambiente de la ciudad, los ánimos parecen altos. Mientras Ruby juega al póquer con los miembros más impulsivos de la expedición, compartes tus hallazgos con Andy. Él, a su vez, relata su travesía por la muralla occidental hundida y a través de los antiquísimos cimientos de la ciudad.</p><p>—Un desprendimiento nos dejó atrapados en una especie de cripta antigua. Había restos momificados de unas criaturas espantosas, que no se parecen a nada que haya visto jamás. Por lo demás, ha sido bastante tranquilo —dice Andy mientras te tiende un cuenco de guiso insípido—. Ah, pero, de hecho, hace unos días nos topamos con alguien que estaba gravísimamente enfermo. No quiso venir con nosotros. Dijo que era una especie de «peregrino» y que habían venido a adorar al dios de esta ciudad antigua. Un tal Cthulhu.</p><p>El nombre de «Cthulhu» resuena en tus oídos. Lo has oído una y otra vez en tus sueños. Después de la comida, te sorprendes pronunciándolo entre dientes mientras te duermes.</p><ul><li>Actualiza el registro de campaña.<ul><li>Tacha «La gran cámara» en el mapa de R’lyeh.</li><li>Si la Tablilla de marea estaba bajo el control de un investigador cuando terminó el escenario, marca la casilla de la «Tablilla de marea» en «Artefactos obtenidos».</li></ul></li><li>Si algún investigador tiene la tarea Un buen dinero, haz que resuelva su historia correspondiente en esta página.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.</li><li>Continúa en _El apiario_.</li></ul>"
+    },
+    "noResolution": {
+      "title": "Sin resolución",
+      "body": "<p>_Si no se ha llegado a ninguna resolución (todos los investigadores han desistido durante el Acto 1 o han sido derrotados)_: Te rescatan de las aguas revueltas con el cuerpo molido, pero por suerte con vida. Tras regresar al altísimo precipicio donde empezaste, te llevas la grata sorpresa de encontrar a Ruby y a Andy charlando mientras comen raciones secas. En lugar de abreviar el reencuentro, decides acampar. Pasáis juntos la velada haciendo bromas y contando historias. Antes de que cada cual siga su camino, Ruby y Andy comparten sus hallazgos y trazan un tosco mapa de la ciudad antigua.</p><ul><li>Actualiza el registro de campaña.<ul><li>Tacha «La gran cámara» en el mapa de R’lyeh.</li><li>Si la Tablilla de marea estaba bajo el control de un investigador cuando terminó el escenario, marca la casilla de la «Tablilla de marea» en «Artefactos obtenidos».</li></ul></li><li>Si algún investigador tiene la tarea Un buen dinero, haz que resuelva su historia correspondiente en esta página.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.</li><li>Consulta el registro de campaña.<ul><li>Si la expedición se dirigió hacia el oeste, continúa en _La corte de los antiguos_.</li><li>Si la expedición se dirigió hacia el este, continúa en _El apiario_.</li></ul></li></ul>"
+    },
+    "goodMoney": {
+      "title": "Tarea: Un buen dinero",
+      "instructions": "_Léelo solo si tienes la tarea «Un buen dinero»:_",
+      "body": "Permaneces horas en vela en la oscuridad, dando vueltas a tu última conversación en Arkham. Carl Sanford, máximo dirigente de la Logia del Crepúsculo de Plata, te dijo que tenía un trato para ti. Un trato mejor que cualquiera que Tillinghast pueda ofrecerte jamás. Lo único que tienes que hacer es presentarle tus hallazgos a él en vez de a Randall. Si escamoteas unas cuantas reliquias de más y quizá birlas algunas notas y fotos de la ciudad antigua, prometió pagarte el doble que Tillinghast, tal vez incluso más.",
+      "reflection": "No querías mezclarte en la mezquina rencilla que se traen esos dos viejos. Jugar a dos bandas entraña, sin duda, un riesgo. Dicho esto, no te dio la impresión de que Sanford creyera que te estaba dando a elegir. Si juegas bien tus cartas, podrías cobrar tanto de Sanford como de Tillinghast y marcharte con el triple de recompensa. Hagas lo que hagas, tendrás que tener la determinación de llegar hasta el final.",
+      "choose": "Debes decidir (elige una opción):",
+      "playItSafe": "Ir sobre seguro. Borra 1 progreso de _Un buen dinero_ en el registro de campaña. En el siguiente escenario, comienzas la partida con 3 recursos adicionales.",
+      "playBothSides": "Sacar todo el partido posible a ambos bandos. Marca 2 progresos en _Un buen dinero_ en el registro de campaña. En el siguiente escenario, no puedes obtener recursos durante la fase de Mantenimiento."
+    },
+    "label": {
+      "goodMoney": {
+        "playItSafe": "Ir sobre seguro.",
+        "playBothSides": "Sacar todo el partido posible a ambos bandos."
+      }
+    }
+  }
+}

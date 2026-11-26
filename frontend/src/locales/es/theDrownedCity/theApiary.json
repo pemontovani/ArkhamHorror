@@ -1,0 +1,180 @@
+{
+  "intro": {
+    "title": "El apiario",
+    "checkCampaignLog": "Consulta el registro de campaña.",
+    "headedWest": "Si la expedición se dirigió hacia el oeste, continúa en _El apiario 1_.",
+    "headedEast": "Si la expedición se dirigió hacia el este, salta a _El apiario 2_.",
+    "apiary1": "_El apiario 1_: Los húmedos túneles que hay bajo R’lyeh se ramifican y se enhebran sin fin, como los capilares de alguna bestia gigantesca. En las paredes hay nódulos brillantes dispuestos a intervalos, que palpitan con una luz suave. Tras acampar la tercera noche, te sientas en el túnel frente a Andy mientras él garabatea con frenesí en su cuaderno. La conversación no tarda en derivar hacia los acontecimientos que os llevaron a ambos a trabajar para Tillinghast.",
+    "ursulaDowns": "<p class='red'>_Si estás jugando como Ursula Downs:_ Mientras Andy cuenta la historia que os unió, tanto tú como Jake, tu ayudante, aportáis algunos detalles. Contienes un escalofrío al recordar los horrores que presenciaste en el Amazonas y el incidente en el que Jake perdió la pierna.</p>",
+    "apiary1Andy": "—En resumidas cuentas... El señor Tillinghast dijo que tenía otra gran noticia para mí. La oportunidad de dar por fin el campanazo. Y, bueno, quizá suficiente dinero para saldar lo que debo en el Hibb. —Pone cara de vergüenza—. ¡Después de mi último encargo necesitaba desahogarme! Desahogarme mucho.",
+    "apiary1Tremor": "Un temblor sacude los túneles. Andy palidece y se inclina hacia ti.<br>—Tengo una teoría. ¿Esta ciudad? Está emergiendo. Quiero decir que sigue emergiendo. Las sacudidas, los cimientos que se desmoronan, el hecho de que antes estuviera bajo el agua y ahora no... Viste el cementerio de barcos entre las agujas de la ciudad, ¿verdad? Hace siglos que desaparecen barcos en esta franja del océano. No sé cuál es la causa, pero no dejo de tener unos sueños...",
+    "apiary1Cavern": "Al día siguiente, descubrís una vasta caverna. Las paredes y el techo están acribillados como un panal por pequeños orificios redondos que se ramifican sin orden en un laberinto de madrigueras. Andy corre hasta la entrada de un túnel especialmente hediondo y recoge un jirón de tela ensangrentado.<br>—No sé qué vive aquí, pero creo que le gusta comer gente.",
+    "apiary1Conclusion": "Más adentro, unas excrecencias carnosas y biliosas recubren el túnel y rezuman un icor espeso como la flema. ¿De verdad puede quedar alguien con vida aquí abajo?",
+    "apiary2": "_El apiario 2_: Más allá del corazón de la ciudad, los túneles descienden sin cesar a través de una serie de complejos: antiquísimas fábricas alienígenas congeladas en el tiempo.<br>—Me pregunto qué fabricarían aquí —dice Ruby.<br>Apéndices metálicos provistos de garras penden sobre raíles de kilómetros de longitud, mientras unas estatuas gigantescas os miran desde nichos elevados. Para no caminar en medio de ese inquietante silencio, preguntas a quienes te acompañan qué les llevó a trabajar para Tillinghast.",
+    "apiary2Ruby": "—La verdad es que Tillinghast me pilló intentando escabullirme con parte de su, ejem, mercancía —dice Ruby—. No fue mi mejor trabajo. Pero ese hombre sabe cómo darle la vuelta a cualquier trato para salir ganando. En lugar de eso, me ofreció un empleo. La paga era buena, mejor que lo que me había agenciado, así que acepté. Llevo una buena temporada ahorrando para retirarme.",
+    "apiary2Cavern": "Las fábricas dan paso a un laberíntico entramado de túneles. Tras días de exploración, descubrís una vasta caverna. Las paredes y el techo están acribillados como un panal por pequeños orificios redondos que se ramifican sin orden en un laberinto de madrigueras. Los restos ensangrentados de un joven con una capa de retales yacen boca abajo ante uno de los túneles. El hedor es insoportable.",
+    "apiary2Note": "—Es el mismo tipo de capa que llevaba el otro individuo. —Ruby se lleva un pañuelo a la boca mientras saca un trocito de papel del bolsillo del hombre.<br>Hay dos palabras garabateadas con sangre: ENVIAD AYUDA. Miras túnel abajo. Unas excrecencias carnosas y biliosas recubren sus lados y le dan el aspecto de un esófago gigantesco. De su interior emana una peste mucho peor.",
+    "apiary2Conclusion": "—Algo me dice que ya no queda nadie a quien ayudar. Aun así, puede que ahí abajo haya algo que merezca la pena —dice Ruby, con una notable falta de su habitual aplomo en la voz.",
+    "resolveWalkInFaith": "Si algún investigador tiene la tarea Caminar con fe, resuelve su historia correspondiente en esta página.",
+    "proceedToWesternSetup": "Continúa en _Preparación (v.I): Expedición occidental_.",
+    "proceedToEasternSetup": "Continúa en _Preparación (v.II): Expedición oriental_.",
+    "walkInFaith": {
+      "title": "Tarea: Caminar con fe",
+      "instructions": "_Léelo solo si tienes la tarea «Caminar con fe»:_",
+      "body": "Una abrumadora sensación de pavor y sobrecogimiento te llena el pecho mientras contemplas el panal de túneles carnosos y esponjosos y los restos esparcidos por el suelo. Hay varias capas desgarradas y un farol roto. En el centro de la sala han dibujado un enorme círculo de tiza compuesto por palabras latinizantes y símbolos arcanos. ¿Un ritual de protección, quizá? Más inquietante aún es que en su centro han trazado un símbolo sagrado de tu propia fe. ¿Compartían tus creencias quienes lo dibujaron? Podrían ser herejes, pero, al pensarlo, te preguntas si fue el destino lo que los atrajo, como a ti, a esta ciudad antigua. A medida que desciendes al vientre de la bestia, se te encoge el estómago. ¿Te ha llevado tu fe por el mal camino?",
+      "choose": "Debes decidir (elige una opción):",
+      "doubts": "«Me asaltan tantas dudas». Borra 1 progreso de _Caminar con fe_ en el registro de campaña. En el siguiente escenario, la primera vez que cada investigador fuese a robar del mazo de Encuentros, en vez de eso puede robar 1 carta de su mazo.",
+      "resolve": "«Mi determinación es firme». Marca 2 progresos en _Caminar con fe_ en el registro de campaña y sufre 1 trauma mental. En el siguiente escenario, la primera carta de Encuentro que robe cada investigador obtiene Oleada."
+    },
+    "label": {
+      "walkInFaith": {
+        "doubts": "«Me asaltan tantas dudas».",
+        "resolve": "«Mi determinación es firme»."
+      }
+    }
+  },
+  "setup": {
+    "west": {
+      "title": "Preparación (v.I): Expedición occidental",
+      "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de Encuentros: _El apiario_, _Legado cósmico_, _Niebla primordial_, _El ineludible_, _Peregrinos_, _Secta oscura_ y _Miedo impactante_. Estos conjuntos se identifican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/the-apiary.png' /><img src='{setImgPath}/cosmic-legacy.png' /><img src='{setImgPath}/elder-mist.png' /><img src='{setImgPath}/the-inescapable.png' /><img src='{setImgPath}/pilgrims.png' /><img src='{setImgPath}/dark-cult.png' /><img src='{setImgPath}/striking-fear.png' /></section>",
+      "buildActDeck": "Forma el mazo de Acto usando el Acto 1a: «Señales inquietantes» y el Acto 2a: «Peregrinos perdidos». Retira de la partida el otro Acto.",
+      "removeFromGame": "Retira de la partida el Enemigo Madre.",
+      "setCardsAside": "Pon aparte, fuera del juego, todo lo siguiente: cada Lugar _Apiario_, los Enemigos Amalgama grotesca y Parásito escamoso {'{'}runeT{'}'} (de doble cara), los Apoyos de historia Maria Rivera, Reliquia antigua {'{'}runeS{'}'} y «Máscara» macabra, los conjuntos de Encuentros _Peregrinos_ y _El ineludible_ y todas las copias de la Debilidad Transformación parasitaria.",
+      "shuffleIntoBottomTen": "Después de hacerlo, añade el Lugar Túneles luminosos, puesto aparte, a las 10 últimas cartas del mazo de Encuentros y barájalas."
+    },
+    "east": {
+      "title": "Preparación (v.II): Expedición oriental",
+      "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de Encuentros: _El apiario_, _Legado cósmico_, _Niebla primordial_, _El ineludible_, _Semilla estelar_, _Polizones_ y _Miedo impactante_. Estos conjuntos se identifican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/the-apiary.png' /><img src='{setImgPath}/cosmic-legacy.png' /><img src='{setImgPath}/elder-mist.png' /><img src='{setImgPath}/the-inescapable.png' /><img src='{setImgPath}/star-spawn.png' /><img src='{setImgPath}/stowaways.png' /><img src='{setImgPath}/striking-fear.png' /></section>Al reunir el conjunto de Encuentros _Semilla estelar_, coge solo el Enemigo Semilla estelar infectada. Retira de la partida todas las demás cartas de ese conjunto.",
+      "buildActDeck": "Forma el mazo de Acto usando el Acto 1a: «Señales inquietantes» y el Acto 2a: «La mente colmena». Retira de la partida el otro Acto.",
+      "removeFromGame": "Retira de la partida el Apoyo de historia Maria Rivera.",
+      "setCardsAside": "Pon aparte, fuera del juego, todo lo siguiente: cada Lugar _Apiario_, los Enemigos Amalgama grotesca, Madre y Parásito escamoso {'{'}runeT{'}'} (de doble cara), los Apoyos de historia «Máscara» macabra y Reliquia antigua {'{'}runeS{'}'}, todas las copias de la Debilidad Transformación parasitaria y el conjunto de Encuentros _El ineludible_.",
+      "shuffleIntoBottomTen": "Después de hacerlo, añade el Lugar Pasillo aferrador, puesto aparte, a las 10 últimas cartas del mazo de Encuentros y barájalas."
+    },
+    "placeApiaryEntrance": "Pon en juego Entrada al apiario, con el lado (Luz atrayente) boca arriba.",
+    "beginAtApiaryEntrance": "Cada investigador comienza la partida en Entrada al apiario.",
+    "chooseExpeditionAsset": "En orden de juego, cada jugador puede elegir 1 Apoyo _Artefacto_ obtenido o 1 Apoyo _Objeto_ del conjunto de Encuentros _Expedición_ para que empiece en juego bajo su control. Este conjunto se identifica con el siguiente icono:<section class='encounter-sets'><img src='{setImgPath}/tdc_expedition.png' /></section>",
+    "removeTheInescapable": "Consulta el registro de campaña. Si _la criatura fue derrotada_, retira de la partida el conjunto de Encuentros _El ineludible_.",
+    "buildEncounterDeck": "Baraja todas las cartas de Encuentro restantes junto con los siguientes Lugares _Apiario_ puestos aparte para formar el mazo de Encuentros: Campos de cultivo y las dos copias de Senderos carnosos.",
+    "readyToBegin": "Ya está todo listo para comenzar."
+  },
+  "lostPilgrims": {
+    "title": "Interludio del escenario: Peregrinos perdidos",
+    "body": "<p>Tosiendo débilmente, la mujer se presenta como Maria Rivera. Ella y los demás forman una comunidad de peregrinos de toda condición a quienes sus sueños han traído a este lugar.</p><p>—Estos son los dominios del dios ahogado, el monarca muerto Cthulhu. Nuestra líder, lady Dao, nos ha ordenado que aguardemos su regreso en esta ciudad antigua.</p><p>El nombre de «Cthulhu» resuena en tus oídos. Lo has oído una y otra vez en tus sueños.</p><p>Maria prosigue:</p><p>—Sin embargo, algo malévolo vive en estos túneles. Algo que me temo que despertamos con nuestra presencia. Enviamos a una persona del grupo a buscar ayuda, pero no ha vuelto.</p><p>Un rugido espantoso interrumpe la conversación. Maria baja la mirada.</p><p>—Desde que llegamos, nos persigue algo... algo horrible. Nos ha dado caza por las calles, por el antiguo archivo e incluso por el corazón de la ciudad. Esperaba que no nos siguiera hasta este lugar corrupto y espantoso. —Tose débilmente—. No tengo fuerzas para sacar a los míos de estos túneles. Por favor, te lo suplico, condúcenos a un lugar seguro.</p><p>Otro rugido retumba por los túneles, esta vez más cerca, acompañado del trino de los parásitos. Andy te mira, luego mira a Maria y dice:</p><p>—Reúne a tu gente. Nadie merece morir aquí abajo.</p>",
+    "flipApiaryEntrance": "Dale la vuelta a Entrada al apiario para mostrar su lado (*Salida peligrosa*).",
+    "gatherCultists": "Busca en el mazo de Encuentros, la pila de descarte y todas las zonas dentro y fuera del juego cada Enemigo _Sectario_ que no sea una Debilidad. Barájalos juntos y colócalos en un montón boca abajo debajo de Campamento perdido.",
+    "mariaRivera": "Elige un investigador para que tome el control del Apoyo de historia Maria Rivera puesto aparte. (*¡Recuerda que Maria también es un _Sectario_ al que se puede salvar!*)",
+    "theInescapable": "Haz que el Enemigo El ineludible puesto aparte aparezca, agotado, en el Lugar más alejado de todos los investigadores. Añade el resto del conjunto de Encuentros *El ineludible* al mazo de Encuentros junto con la pila de descarte de Encuentros y barájalo.",
+    "placeClues": "Coloca pistas en cada Lugar revelado sin _Victoria X_ hasta igualar su valor de pistas.",
+    "continuePlaying": "Continuad la partida."
+  },
+  "theHiveMind": {
+    "title": "Interludio del escenario: La mente colmena",
+    "body": "<p>Sientes la embestida de una consciencia alienígena cuando mil pensamientos y recuerdos invaden los tuyos. Ella es tu Madre. Lo sientes en lo más profundo. Ves una legión de monstruosidades aladas y tentaculadas que entran en una nave de otro mundo. Ves a Madre, pequeña como un gusano, salir reptando de su huésped. La ves entrar en otro huésped, y luego en otro más, poniendo huevos en sus gaznates. Sientes su necesidad de crecer, de extenderse, de proliferar. Después, el sabor de la carne alienígena, de la carne humana, de tu propia carne, pues Madre te está saboreando en este mismo instante.</p><p>Despiertas y ves a Ruby de pie sobre ti, cuchillo en mano. Estás en una cámara palpitante y fétida; el cordón que te unía a la Madre se agita en el suelo ante ti como la cola de una lagartija. Incrustado en las paredes de la cámara está el enorme cadáver de una criatura alienígena, sostenido como una marioneta macabra: la mismísima Madre. Sientes su deseo de absorberte, de convertirse en ti, de devorarte.</p><p>—Tenemos que matarla —gruñe Ruby.</p>",
+    "rearrangeRing": "Reorganiza Entrada al apiario, Pasillo aferrador, Pasillo famélico y Celoma ácido formando un círculo. Coloca en la zona de victoria todos los demás Lugares con _Victoria X_ que no tengan pistas, descartando todas las fichas y cartas que haya en ellos.",
+    "removeRemainingLocations": "Busca cada uno de los Lugares restantes en el mazo de Encuentros, la pila de descarte de Encuentros y la zona de juego y retíralos de la partida.",
+    "placeCentralChamber": "Busca el Lugar Sala central puesto aparte y colócalo en el hueco central, con el borde inferior mirando hacia Celoma ácido.",
+    "spawnMother": "Haz que el Enemigo Madre puesto aparte aparezca en Sala central.",
+    "theInescapable": "Si el conjunto de Encuentros *El ineludible* está puesto aparte, haz que el Enemigo El ineludible aparezca en el Lugar más alejado de todos los investigadores. Añade el resto del conjunto de Encuentros *El ineludible* al mazo de Encuentros junto con la pila de descarte de Encuentros y barájalo.",
+    "placeClues": "Coloca pistas en cada Lugar revelado sin _Victoria X_ hasta igualar su valor de pistas.",
+    "continuePlaying": "Continuad la partida."
+  },
+  "label": {
+    "chooseExpeditionAssetQuestion": "Elige un Apoyo de Artefacto obtenido, o un Apoyo de Objeto del conjunto de Encuentros Expedición, para que empiece en juego bajo tu control.",
+    "noExpeditionAsset": "No tomar ningún Apoyo de Artefacto ni de Expedición.",
+    "cluesToSpend": "Pistas para gastar",
+    "moveToConnecting": "Moverse a un Lugar conectado",
+    "motherAttacks": "Madre te ataca"
+  },
+  "tokens": {
+    "easyStandard": {
+      "skull": "-X. X es la mitad de la cantidad de Perdición que haya en Enemigos y Apoyos en juego, redondeando hacia abajo (hasta un máximo de 4).",
+      "cultist": "-1. Si hay un Enemigo _Sectario_ en tu Lugar, revela otra ficha.",
+      "tablet": "-3. Si fracasas, coloca 1 ficha de Perdición en un Enemigo de tu Lugar que no tenga Perdición.",
+      "elderThing": "-4. Si fracasas, recibe 1 punto de daño o 1 punto de horror."
+    },
+    "hardExpert": {
+      "skull": "-X. X es la cantidad de Perdición que haya en Enemigos y Apoyos en juego (hasta un máximo de 8).",
+      "cultist": "-3. Si hay un Enemigo _Sectario_ en tu Lugar, revela otra ficha.",
+      "tablet": "-5. Si fracasas, coloca 1 ficha de Perdición en un Enemigo de tu Lugar (que no tenga Perdición, si es posible).",
+      "elderThing": "-6. Si fracasas, recibe 1 punto de daño o 1 punto de horror."
+    }
+  },
+  "tooltips": {
+    "apiaryEntranceBeckoningLight": {
+      "resign": "Desistir."
+    },
+    "apiaryEntranceDangerousExit": {
+      "resign": "Desistir."
+    }
+  },
+  "resolutions": {
+    "xp": {
+      "bonus": "¡por salvar a los peregrinos de una muerte casi segura!"
+    },
+    "investigatorDefeat": {
+      "title": "Derrota de un investigador",
+      "body": "<p>_Derrota de un investigador_: No sientes ningún dolor. De hecho, no hay ningún «tú» que pueda sentirlo. Ahora «tú» formas parte de una mente interconectada e infinita que habita bajo esta ciudad. Siempre has estado aquí. Y aquí estarás siempre.</p>",
+      "killed": "Cada investigador derrotado muere. Si no quedan investigadores supervivientes para continuar la campaña, los investigadores pierden la campaña.",
+      "storyAssets": "Si el Apoyo de historia Andy Van Nortwick o Ruby Standish estaba en el mazo de un investigador que haya muerto, elige un investigador superviviente para que lo añada a su mazo durante el resto de la campaña. Esta carta no cuenta para el tamaño de mazo de ese investigador.",
+      "otherResolution": "Si se ha llegado a otra resolución, los demás investigadores continúan en esa resolución."
+    },
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<p>_Resolución 1_: La última de las personas supervivientes sale de los fétidos túneles. Tras darte las gracias, los peregrinos te muestran el túnel por el que vinieron desde el «corazón de la ciudad». Mientras os marcháis, Andy limpia el icor del objetivo de su cámara.</p><p>—Otro carrete que no vale para nada. Una sola foto podría haber consagrado mi carrera. Para esto, podría haber tirado toda la película por la borda de camino aquí.</p>",
+      "updateCampaignLog": "Actualiza el registro de campaña.",
+      "crossOutTheApiary": "Tacha «El apiario» en el mapa de R’lyeh.",
+      "grislyMask": "Si la «Máscara» macabra estaba bajo el control de un investigador cuando terminó el escenario, marca la casilla de la «Máscara» macabra en «Artefactos obtenidos».",
+      "victory": "Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.",
+      "experience": "_Experiencia_: {xp}",
+      "recordPilgrimsWereSaved": "Anota que _los peregrinos se salvaron_.",
+      "bonus": "¡Cada investigador obtiene 2 puntos de experiencia adicionales por haber salvado a los peregrinos de una muerte casi segura!",
+      "proceedToTheGrandVault": "Continúa en _La gran cámara_."
+    },
+    "resolution2": {
+      "title": "Resolución 2",
+      "body": "<p>_Resolución 2_: En estado de conmoción, sales de los túneles y encuentras la vasta antecámara donde empezaste. Si sobrevivió algún peregrino, no se quedó a esperar. Tras un largo silencio, la expedición se prepara para seguir adelante. Andy observa con los ojos entornados un rastro de sangre en el suelo y señala que, si hubieran arrastrado a un peregrino, habría mucha más porquería. Su rastro quizá conduzca al «núcleo de la ciudad», como lo llamó Maria.</p>",
+      "updateCampaignLog": "Actualiza el registro de campaña.",
+      "crossOutTheApiary": "Tacha «El apiario» en el mapa de R’lyeh.",
+      "grislyMask": "Si la «Máscara» macabra estaba bajo el control de un investigador cuando terminó el escenario, marca la casilla de la «Máscara» macabra en «Artefactos obtenidos».",
+      "victory": "Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.",
+      "experience": "_Experiencia_: {xp}",
+      "parasiticTransformation": "Cada investigador debe buscar en el conjunto de Encuentros _El apiario_ una copia de Transformación parasitaria y añadirla a su mazo. Esta carta no cuenta para el tamaño de su mazo.",
+      "recordPilgrimsWereDevoured": "Anota que _los peregrinos fueron devorados_.",
+      "proceedToTheGrandVault": "Continúa en _La gran cámara_."
+    },
+    "resolution3": {
+      "title": "Resolución 3",
+      "body": "<p>_Resolución 3_: La expedición regresa a la entrada del apiario con un largo y penoso camino, cubierta de vísceras. Te rascas un picor persistente en la nuca, con la esperanza de que no te hayan infectado. Recuerdos fragmentados del breve instante en que formaste parte de la mente colmena siguen invadiendo tus pensamientos. Dudas que vuelvas a ser quien eras del todo.</p>",
+      "updateCampaignLog": "Actualiza el registro de campaña.",
+      "crossOutTheApiary": "Tacha «El apiario» en el mapa de R’lyeh.",
+      "grislyMask": "Si la «Máscara» macabra estaba bajo el control de un investigador cuando terminó el escenario, marca la casilla de la «Máscara» macabra en «Artefactos obtenidos».",
+      "victory": "Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.",
+      "experience": "_Experiencia_: {xp}",
+      "recordParasitesExterminated": "Anota que _los investigadores exterminaron a los parásitos alienígenas_.",
+      "proceedToResolution4": "Continúa en la _Resolución 4_."
+    },
+    "noResolution": {
+      "title": "Sin resolución",
+      "body": "<p>_Si no se ha llegado a ninguna resolución_: Te arrancas del cuello un gusano que se retuerce mientras escapas de los pútridos túneles. Ojalá no haya llegado a infectarte...</p>",
+      "updateCampaignLog": "Actualiza el registro de campaña.",
+      "crossOutTheApiary": "Tacha «El apiario» en el mapa de R’lyeh.",
+      "grislyMask": "Si la «Máscara» macabra estaba bajo el control de un investigador cuando terminó el escenario, marca la casilla de la «Máscara» macabra en «Artefactos obtenidos».",
+      "victory": "Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.",
+      "experience": "_Experiencia_: {xp}",
+      "parasiticTransformation": "Cada investigador debe buscar en el conjunto de Encuentros _El apiario_ una copia de Transformación parasitaria y añadirla a su mazo. Esta carta no cuenta para el tamaño de su mazo.",
+      "checkCampaignLog": "Consulta el registro de campaña.",
+      "proceedToTheGrandVault": "Si la expedición se dirigió hacia el oeste, continúa en _La gran cámara_.",
+      "proceedToResolution4": "Si la expedición se dirigió hacia el este, salta a la _Resolución 4_."
+    },
+    "resolution4": {
+      "title": "Resolución 4",
+      "body": "<p>_Resolución 4_: Al cabo, das con tu antigua ruta. Varios días más de viaje te llevan hasta una gran puerta redonda del tamaño de la de una cámara acorazada. Tras pulsar uno tras otro varios símbolos alienígenas, la puerta rueda a un lado y revela un camino seco que serpentea por el lecho marino hacia una cúpula de suave resplandor. Un sutil campo de energía titilante contiene el peso del océano. Mientras te maravillas ante el camino y la cúpula milagrosos, un bloque de obsidiana se desprende y cae desde lo alto sobre la cúpula. En lugar de hacerse añicos, la cúpula ondula, flexible, mientras la roca la atraviesa con un estruendo atronador.</p><p>—Esto es imposible —dice Ruby, boquiabierta—. Algo dentro de esa cúpula alimenta la barrera. Parece que contiene el agua, pero deja pasar otras cosas. Sea lo que sea que lo hace, podría ser un buen hallazgo para Randall.</p><p>Alza la vista hacia la pared vertical que conduce a la superficie.</p><ul><li>Los investigadores deben decidir (elige una opción):<ul><li>«Ya que hemos llegado hasta aquí, no vamos a dejar piedra sin remover». Para explorar la cúpula del lecho marino, continúa en _El barrio sumergido_.</li><li>«¿Estáis locos? ¡Tenemos que salir de aquí!». Para escalar la pared y regresar al campamento, continúa en _La muralla occidental_.</li></ul></li></ul>"
+    },
+    "label": {
+      "resolution4": {
+        "drownedQuarter": "«Ya que hemos llegado hasta aquí, no vamos a dejar piedra sin remover».",
+        "westernWall": "«¿Estáis locos? ¡Tenemos que salir de aquí!»."
+      }
+    }
+  }
+}

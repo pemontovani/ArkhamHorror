@@ -1,0 +1,92 @@
+{
+  "intro": {
+    "title": "Sepulcro del durmiente",
+    "checkCampaignLog": "Consulta el registro de campaña.",
+    "sepulchreOfTheSleeper1": "<p>_Sepulcro del durmiente 1_: El reencuentro de la expedición en la playa es decididamente sombrío, y la niebla que avanza no hace sino acentuarlo. Una de las tripulantes que dejasteis al cuidado del barco ha muerto; según los demás, la asesinaron cuando unos peregrinos hambrientos robaron las raciones que quedaban. Por suerte, el Cassandra está intacto. Apenas os queda comida suficiente para llegar al continente. Andy y Ruby comentan sus hallazgos mientras el resto de la expedición se venda las heridas y empieza a cargar el Cassandra para el viaje de vuelta. Una vez cargado el barco, te reúnes con Andy y Ruby en la orilla.</p>",
+    "proceedToSepulchreOfTheSleeper2": "Si hay al menos 1 artefacto marcado en «Artefactos obtenidos» y al menos 10 símbolos traducidos en el registro de símbolos, continúa en _Sepulcro del durmiente 2_.",
+    "proceedToTheAwakening": "De lo contrario, continúa en el _Interludio III: El despertar_.",
+    "sepulchreOfTheSleeper2": "<p>_Sepulcro del durmiente 2_: —¿Cuántos de esos feos garabatos has llegado a descifrar? —pregunta Ruby.</p><p>Andy está encorvado sobre la losa de obsidiana, tomando notas en un cuaderno encuadernado en cuero. A la media luz del atardecer, los símbolos de la losa resplandecen como un fuego pálido. Andy hojea varias páginas empapadas y deja sobre la piedra un trozo de papel ensangrentado.</p><p>—Suficientes para descifrar esto. Lo encontré en el cuerpo de un peregrino. Viene a decir lo siguiente.</p><p>Garabatea a toda prisa la traducción en una página en blanco y te la tiende. Dice así:</p><p>«No está muerto lo que puede yacer eternamente,<br />y en eones extraños hasta la muerte puede morir».</p>",
+    "proceedToSepulchreOfTheSleeper3": "Si los 5 artefactos están marcados en «Artefactos obtenidos», los 26 símbolos están traducidos en el registro de símbolos y el santuario interior quedó abierto, continúa en _Sepulcro del durmiente 3_.",
+    "addZeroToken": "De lo contrario, añade una ficha 0 a la bolsa de caos durante el resto de la campaña. Continúa en el _Interludio III: El despertar_.",
+    "sepulchreOfTheSleeper3": "<p>_Sepulcro del durmiente 3_: Sumando tu propio relato, Ruby y Andy te ayudan a reconstruir poco a poco una historia a partir de los distintos frisos y artefactos hallados en la ciudad antigua. Surge un tema común: una civilización alienígena venida de mucho más allá de las estrellas; una antiquísima guerra anterior a la propia historia; el hundimiento de R’lyeh; la «muerte» y el regreso profetizado de un antiguo dios llamado Cthulhu.</p><p>Andy señala la aguja central. Las puertas de obsidiana de su base están abiertas de par en par. De ellas sale un olor a descomposición, tenue pero penetrante.</p><p>—Los miembros de la tripulación que se quedaron dicen que esas puertas se abrieron hace una semana. Alguien entró, pero no ha vuelto —dice Andy. Comparte algunas traducciones que ha hecho de calcos tomados de la puerta—. Este describe un glorioso renacimiento, un durmiente que se levanta y el regreso de los grandes primigenios. Afirma que recuperará lo que es suyo: cada parte de R’lyeh que le arrebataron, cada rincón de sus dominios.</p><p>»Esa cosa, Cthulhu, está muerta. O dormida. No estoy seguro; los detalles son vagos en el mejor de los casos. Pero, con la ciudad y todo lo que hay en ella despertando, imagino que es cuestión de tiempo que despierte también. Ha llamado aquí a sus seguidores desde sus sueños. Y, a juzgar por el olor, está ahí dentro. —El reportero señala las puertas de obsidiana.</p><p>Tras una larga pausa, Ruby se pone en pie.</p><p>—No sería un gran golpe si dejáramos las puertas abiertas. —Guiña un ojo—. Yo digo que encerremos a esa cosa antes de zarpar hacia el ocaso. ¿Quién me acompaña?</p>",
+    "mustDecide": "Los investigadores deben decidir (elige una opción):",
+    "knowBetter": "«Deberíamos tener la sensatez de no molestar a lo que haya ahí dentro». Cada investigador marca 1 progreso en su tarea en el registro de campaña. Anota en el registro de campaña que los investigadores no se enfrentaron a la pesadilla. Continúa en el _Interludio III: El despertar_.",
+    "layItToRest": "«Deberíamos darle descanso... para siempre». Continúa en _Preparación_.",
+    "label": {
+      "knowBetter": "«Deberíamos tener la sensatez de no molestar a lo que haya ahí dentro».",
+      "layItToRest": "«Deberíamos darle descanso... para siempre»."
+    }
+  },
+  "setup": {
+    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de Encuentros: *Sepulcro del durmiente*, *Dominación*, *Sueños*, *R’lyeh*, *Semilla estelar*, *Antiguos males* y *Miedo impactante*. Estos conjuntos se identifican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/sepulchre-of-the-sleeper.png' /><img src='{setImgPath}/domination.png' /><img src='{setImgPath}/dreams.png' /><img src='{setImgPath}/rlyeh.png' /><img src='{setImgPath}/star-spawn.png' /><img src='{setImgPath}/ancient-evils.png' /><img src='{setImgPath}/striking-fear.png' /></section>",
+    "placeLocations": "Pon en juego Descanso del durmiente y todas las copias de Nicho tallado con símbolos.",
+    "startAt": "Cada investigador comienza la partida en Descanso del durmiente.",
+    "chooseExpeditionItem": "En orden de juego, cada jugador puede elegir 1 Apoyo _Objeto_ del conjunto de Encuentros *Expedición* para que empiece en juego bajo su control. Este conjunto se identifica con el siguiente icono:<section class='encounter-sets'><img src='{setImgPath}/tdc_expedition.png' /></section>",
+    "artifacts": "Reúne todos los Apoyos _Artefacto_ obtenidos y pon en juego cada uno de ellos bajo el control de un investigador, repartidos lo más equitativamente posible.",
+    "buildAgendaDeck": "Forma un mazo de Plan especial usando Bajo la ciudad como primer Plan y Cthulhu despertado como segundo Plan. Estos sustituyen a los mazos de Acto y de Plan.",
+    "buildEncounterDeck": "Baraja las cartas de Encuentro restantes para formar el mazo de Encuentros."
+  },
+  "rules": {
+    "disturbance": {
+      "title": "Perturbación",
+      "body": "<p class='basic'>A lo largo de este escenario, la cantidad de recursos que haya bajo «Perturbación» en la carta de referencia de escenario indica hasta qué punto Cthulhu es consciente de la presencia de los investigadores. Cuanto mayor sea la Perturbación, más cerca estará el durmiente de despertar. La Perturbación no tiene de por sí ningún efecto de juego; sin embargo, algunos efectos de cartas de Encuentro pueden cambiar o hacerse más fuertes en función de su nivel actual.</p>"
+    }
+  },
+  "label": {
+    "chooseExpeditionItem": "Elige un Apoyo _Objeto_ para que empiece en juego bajo tu control.",
+    "noExpeditionItem": "No tomar ningún Apoyo _Objeto_.",
+    "chooseArtifactInvestigator": "Elige un investigador que controle {name}.",
+    "placeAdditionalDoomOnObsidianClaw": "Gastar 1 {perPlayer} pistas, como grupo, para colocar 1 ficha de Perdición adicional en la Garra de obsidiana",
+    "placeAdditionalDoomOnBarrierNode": "Gastar 1 {perPlayer} pistas, como grupo, para colocar 1 ficha de Perdición adicional en el Nodo de la barrera",
+    "placeAdditionalDoomOnTidalTablet": "Gastar 1 {perPlayer} pistas, como grupo, para colocar 1 ficha de Perdición adicional en la Tablilla de marea",
+    "placeAdditionalDoomOnGrislyMask": "Gastar 1 {perPlayer} pistas, como grupo, para colocar 1 ficha de Perdición adicional en la «Máscara» macabra",
+    "placeAdditionalDoomOnShardOfYchlecht": "Gastar 1 {perPlayer} pistas, como grupo, para colocar 1 ficha de Perdición adicional en el Fragmento de Y’ch’lecht",
+    "doNotPlaceAdditionalDoom": "No colocar Perdición adicional",
+    "readyCthulhu": "Preparar a Cthulhu",
+    "eachInvestigatorHereTakesDirectDamage": "Cada investigador que esté en el Lugar de Cthulhu sufre 1 punto de daño directo"
+  },
+  "tooltips": {
+    "weakenCthulhu": "{fast} Durante tu turno, retira 1 ficha de Perdición de un Apoyo _Artefacto_ que controles: Cthulhu pierde Implacable y recibe -1 al combate y -1 a evitar hasta el final de la ronda (límite de una vez por Apoyo y ronda).",
+    "sigilCarvedAlcoveStoryOfAmbition": {
+      "test": "{action}: Haz una prueba de {willpower} (5). Si tienes éxito, coloca 1 ficha de Perdición en la Garra de obsidiana. Los investigadores que estén en este Lugar pueden gastar 1 {perPlayer} pistas, como grupo, para colocar 1 ficha de Perdición adicional en la Garra de obsidiana."
+    },
+    "sigilCarvedAlcoveStoryOfResilience": {
+      "test": "{action}: Haz una prueba de {combat} (5). Si tienes éxito, coloca 1 ficha de Perdición en el Nodo de la barrera. Los investigadores que estén en este Lugar pueden gastar 1 {perPlayer} pistas, como grupo, para colocar 1 ficha de Perdición adicional en el Nodo de la barrera."
+    },
+    "sigilCarvedAlcoveStoryOfInfinity": {
+      "test": "{action}: Haz una prueba de {intellect} (5). Si tienes éxito, coloca 1 ficha de Perdición en la Tablilla de marea. Los investigadores que estén en este Lugar pueden gastar 1 {perPlayer} pistas, como grupo, para colocar 1 ficha de Perdición adicional en la Tablilla de marea."
+    },
+    "sigilCarvedAlcoveStoryOfDefiance": {
+      "test": "{action}: Haz una prueba de {agility} (5). Si tienes éxito, coloca 1 ficha de Perdición en la «Máscara» macabra. Los investigadores que estén en este Lugar pueden gastar 1 {perPlayer} pistas, como grupo, para colocar 1 ficha de Perdición adicional en la «Máscara» macabra."
+    }
+  },
+  "tokens": {
+    "easyStandard": {
+      "skull": "-X. X es la Perturbación actual (hasta un máximo de 6).",
+      "cultist": "-4. Si fracasas, roba la primera carta del mazo de Encuentros. Si fracasas por 3 o más, esa carta obtiene Peligro y Oleada.",
+      "tablet": "-4. Por cada punto que te falte para tener éxito, debes recibir 1 punto de horror o bien descartar 1 carta de tu mano.",
+      "elderThing": "-3. Revela otra ficha."
+    },
+    "hardExpert": {
+      "skull": "-X. X es la Perturbación actual.",
+      "cultist": "-6. Si fracasas, roba la primera carta del mazo de Encuentros. Si fracasas por 3 o más, esa carta obtiene Peligro y Oleada.",
+      "tablet": "-6. Por cada punto que te falte para tener éxito, debes recibir 1 punto de horror o bien descartar 1 carta de tu mano.",
+      "elderThing": "-4. Revela otra ficha."
+    }
+  },
+  "resolutions": {
+    "xp": {
+      "bonus": "por haber impedido que un antiguo mal se alzara para sembrar de nuevo el terror en toda la Tierra"
+    },
+    "investigatorDefeat": {
+      "title": "Derrota de un investigador",
+      "body": "<p>_Derrota de un investigador_: Con la mente y el cuerpo destrozados, te desplomas ante la inmensa figura de Cthulhu. A tu alrededor la ciudad tiembla y te llena los oídos de un zumbido ensordecedor. Cthulhu te mira desde lo alto con indiferencia. Para él no eres más que una molestia, una plaga insignificante. Tu consciencia no tarda en replegarse sobre sí misma, a medida que la frágil estructura de tu mente cede ante la libertad sin ataduras de la locura absoluta.</p>",
+      "drivenInsane": "Cada investigador derrotado pierde la <b>razón</b>. Si no quedan investigadores supervivientes, los investigadores pierden la campaña.",
+      "otherResolution": "Si se ha llegado a otra resolución, los demás investigadores continúan en esa resolución."
+    },
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<p>_Resolución 1_: La gigantesca figura de Cthulhu cae de espaldas en el estanque central. Sus manos fofas y provistas de garras arañan los bordes del estanque sin lograr asirse, mientras su cuerpo se hunde bajo el agua negra. Los cinco ojos rojos y resplandecientes, deformados por la superficie del agua, se desvanecen poco a poco. Y, tan de repente como empezó, todo queda en silencio y en calma.</p><p>Sales por las puertas de obsidiana y caminas hasta la orilla. Por fin tienes todo a punto para dejar atrás esta ciudad, llevar estos artefactos a Arkham y seguir adelante con tu vida. Mientras subes a bordo del Cassandra, vuelves la vista hacia la silueta blasfema de la ciudad, recortada contra el sol poniente como el espinazo de una bestia antiquísima. Las aguas turbias se agitan a medida que la ciudad antigua empieza a descender, de forma casi imperceptible, para ser reclamada por el océano. Tanto el soñador como su morada en R’lyeh han hallado reposo.</p><p>—Me pregunto qué pensaba hacer el señor Tillinghast con esos artefactos —reflexiona Andy.</p><p>—Venderlos, probablemente —dice Ruby, con un cigarrillo apretado entre los dientes.</p><p>Con los ojos cerrados, regresas al camarote. Quizá esta noche, por primera vez en meses, disfrutes de un sueño profundo y sin sueños.</p><ul><li>Anota en el registro de campaña que los investigadores detuvieron el despertar de Cthulhu.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria. Cada investigador obtiene 10 puntos de experiencia adicionales por haber impedido que un antiguo mal se alzara para sembrar de nuevo el terror en toda la Tierra.</li><li>Cada investigador sufre 2 traumas mentales.</li><li>¡Los investigadores ganan la campaña!</li><li>Continúa en el _Epílogo_.</li></ul>"
+    }
+  }
+}

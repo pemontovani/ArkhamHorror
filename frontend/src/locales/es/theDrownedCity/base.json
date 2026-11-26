@@ -1,0 +1,159 @@
+{
+  "difficulty": {
+    "Easy": "Quiero dejarme llevar",
+    "Standard": "Quiero soñar",
+    "Hard": "Quiero sumergirme",
+    "Expert": "Quiero R’lyeh"
+  },
+  "specialRules": [
+    {
+      "title": "Fichas de Inundación",
+      "body": "@:theDrownedCity.additionalRulesAndClarifications.floodTokens"
+    },
+    {
+      "title": "Artefactos",
+      "body": "@:theDrownedCity.additionalRulesAndClarifications.artifacts"
+    },
+    {
+      "title": "Símbolos alienígenas",
+      "body": "@:theDrownedCity.additionalRulesAndClarifications.alienGlyphs"
+    },
+    {
+      "title": "Nuevas palabras clave",
+      "body": "@:theDrownedCity.newKeywords.body"
+    }
+  ],
+  "label": {
+    "noAir": "No has encontrado aire. Sufres 5 puntos de daño directo.",
+    "walkInFaith": {
+      "drawFromDeck": "En vez de eso, robar 1 carta de tu mazo",
+      "drawEncounter": "Robar del mazo de Encuentros con normalidad"
+    },
+    "naomiOBannion": {
+      "chooseDamage": "Elegir un investigador que sufra 1 punto de daño para impedir que Naomi O’Bannion se prepare",
+      "preventReadying": "Sufrir 1 punto de daño para impedir que Naomi O’Bannion se prepare",
+      "doNotTakeDamage": "No sufrir 1 punto de daño"
+    },
+    "dreamingMigration": {
+      "moveNearestEnemy": "Mover el Enemigo más cercano a tu Lugar, y te ataca",
+      "drawTopmostEnemy": "Robar el Enemigo situado más arriba en la pila de descarte de Encuentros"
+    },
+    "horrorInClay": {
+      "blankPrintedText": "Considerar en blanco el cuadro de texto impreso de este Apoyo hasta el final de la ronda",
+      "moveStarSpawn": "Mover un Enemigo _Semilla estelar_ una vez en cualquier dirección"
+    }
+  },
+  "intro": {
+    "title": "Las profundidades resurgidas",
+    "body": "<p class='indent'>«… la ciudad cadavérica y de pesadilla de R’lyeh, construida incontables eones antes de la historia por las inmensas y repugnantes figuras que descendieron de las estrellas oscuras. Allí yacían el gran Cthulhu y sus huestes, ocultos en criptas cubiertas de un fango verde, desde donde por fin, tras ciclos incalculables, enviaban los pensamientos que sembraban el miedo en los sueños de las almas sensibles y llamaban imperiosamente a sus fieles a emprender una peregrinación para liberarlos y restaurarlos».</p><p class='basic right'>– H. P. Lovecraft, «La llamada de Cthulhu»</p>"
+  },
+  "prologue": {
+    "title": "Prólogo",
+    "body": "<p><span class='wolgast'>15 de abril</span></p><p>Hace ya tiempo que algo no va bien. Está siendo un año de un frío inusitado, con abundantes nevadas, lluvias y nieblas que mantienen el cielo de Nueva Inglaterra sumido en una melancolía perpetua. Un nerviosismo inquieto parece haberse colado en todos los aspectos de la vida doméstica. En las esquinas, las pequeñas discusiones acaban a golpes. Tras las puertas cerradas resuenan gritos y chillidos ahogados. Un número nada desdeñable de estudiantes ha dejado sin más de asistir a clase en la Universidad Miskatonic. La gente de Arkham lo nota en los huesos: algo ha cambiado. Algo no va bien.</p><p class='basic right'>Continúa en _Un último trabajo_.</p>"
+  },
+  "additionalRulesAndClarifications": {
+    "title": "Reglas adicionales y aclaraciones",
+    "floodTokens": "<h3>Fichas de Inundación</h3><p class='basic'>A lo largo de esta campaña, los efectos de las cartas de escenario pueden inundar Lugares. Cada Lugar puede tener uno de tres niveles de inundación: sin inundar, parcialmente inundado o totalmente inundado. El nivel de inundación de un Lugar puede indicarse con las fichas de Inundación de doble cara incluidas en esta caja de campaña. _El nivel de inundación de un Lugar no tiene de por sí ningún efecto de juego_. Sin embargo, algunos efectos de cartas pueden cambiar o hacerse más fuertes mientras estés en un Lugar inundado, sobre todo si está totalmente inundado.</p><ul><li>Un Lugar sin ficha de Inundación está sin inundar.</li><li>Si un Lugar queda parcialmente inundado, coloca sobre él una ficha de Inundación con el lado «parcialmente inundado» boca arriba para indicarlo.</li><li>Si un Lugar queda totalmente inundado, coloca sobre él una ficha de Inundación con el lado «totalmente inundado» boca arriba para indicarlo (o, si ya está parcialmente inundado, dale la vuelta a su ficha de Inundación).<br><div style='display:flex;flex-direction:row;gap:1em;justify-content: center; align-items: center; align-self: center;'><div class='center'><img width='70' src='{setImgPath}/../tokens/partially-flooded.png' /><br><p>parcialmente inundado</p></div><div class='center'><img width='70' src='{setImgPath}/../tokens/fully-flooded.png' /><br><p>totalmente inundado</p></div></div></li><li>Si el nivel de inundación de un Lugar «aumenta», pasa de sin inundar a parcialmente inundado, o de parcialmente inundado a totalmente inundado. El nivel de inundación de un Lugar totalmente inundado no puede aumentar.</li><li>Si el nivel de inundación de un Lugar «disminuye», pasa de totalmente inundado a parcialmente inundado, o de parcialmente inundado a sin inundar. Si un Lugar queda sin inundar, retira su ficha de Inundación. El nivel de inundación de un Lugar sin inundar no puede disminuir.</li><li>A efectos de las cartas, se consideran «inundados» tanto los Lugares parcialmente inundados como los totalmente inundados.</li></ul>",
+    "artifacts": "<h3>Artefactos</h3><p class='basic'>A lo largo de la campaña *La ciudad sumergida*, los investigadores pueden conseguir ciertos Apoyos de historia _Artefacto_ (llamados también simplemente «artefactos»). Los artefactos funcionan como cualquier otro Apoyo, salvo en lo siguiente:</p><ul><li class='basic'>Los artefactos nunca se añaden a los mazos de investigador. Tras la resolución de un escenario, devuelve a la caja los artefactos que haya en juego.</li><li class='basic'>Al preparar un escenario, puede indicarse a los investigadores que empiecen la partida con un Apoyo de historia _Artefacto_ obtenido. En ese proceso solo pueden elegirse los artefactos que estén marcados en la sección «Artefactos obtenidos» del registro de campaña.</li><li class='basic'>Los artefactos tienen un dorso de carta propio, no tienen coste, no pueden abandonar el juego y no pueden elegirse para ser descartados mediante efectos del escenario.</li><li class='basic'>Algunos artefactos contienen símbolos alienígenas. Todo texto que haya debajo de esos símbolos se considera en blanco a menos que los investigadores hayan traducido todos los símbolos alienígenas del artefacto.</li><li class='basic'>Si es derrotado un investigador que controle un artefacto, _entrega el control de ese artefacto al investigador superviviente más cercano_ en lugar de retirarlo de la partida.</li></ul>",
+    "alienGlyphs": "<h3>Símbolos alienígenas</h3><p class='basic'>A lo largo de la campaña, puede indicarse a los investigadores que traduzcan un símbolo en la segunda página del registro de campaña. Para ello, escribe el texto traducido en el espacio que hay justo debajo de ese símbolo, como indique el juego.</p><ul><li class='basic'>El significado de un símbolo no tiene de por sí ningún efecto de juego.</li><li class='basic'>Algunos artefactos contienen símbolos alienígenas. Todo texto que haya debajo de esos símbolos se considera en blanco a menos que los investigadores hayan traducido todos los símbolos alienígenas del artefacto.</li><li class='basic'>En la mayoría de los escenarios de la campaña *La ciudad sumergida* se indicará a los jugadores que pongan aparte, fuera del juego, las cartas Símbolo.</li></ul>"
+  },
+  "newKeywords": {
+    "title": "Nuevas palabras clave",
+    "body": "<h3>Alerta</h3><p class='basic'>Algunos Enemigos de esta campaña tienen la palabra clave Alerta. Cada vez que un investigador fracase en una prueba de habilidad al intentar evitar a un Enemigo con la palabra clave Alerta, tras aplicar todos los resultados de esa prueba, dicho Enemigo realiza un ataque contra ese investigador. Un Enemigo no se agota tras realizar un ataque de Alerta. Este ataque ocurre tanto si el Enemigo está enfrentado al investigador que intenta evitarlo como si no.</p><h3>Errante</h3><p class='basic'>Algunos Enemigos de esta campaña tienen la palabra clave Errante. Durante la fase de Enemigos (en el paso de estructura 3.2), cada Enemigo preparado y sin enfrentar que tenga la palabra clave Errante se mueve a un Lugar conectado siguiendo la ruta más corta hacia el objetivo designado (descrito entre paréntesis junto a la palabra «Errante»).</p><h3>Implacable</h3><p class='basic'>Algunos Enemigos de esta campaña tienen la palabra clave Implacable. Durante la fase de Enemigos (después del paso de estructura 3.3), cada Enemigo con la palabra clave Implacable que haya atacado en esta fase (incluso si se canceló ese ataque) se prepara y ataca por segunda vez al investigador o investigadores a los que esté enfrentado.</p><h3>Sello</h3><p class='basic'>Como coste adicional para que entre en juego una carta con la palabra clave Sello, su controlador debe buscar en la bolsa de caos la ficha de Caos indicada y colocarla encima de la carta, sellando así la ficha. Una ficha de Caos sellada no se considera en la bolsa de caos y, por lo tanto, no puede revelarse de la bolsa como parte de una prueba de habilidad o de una capacidad.</p>"
+  },
+  "glyphs": {
+    "title": "Símbolos alienígenas",
+    "runes": {
+      "a": "Profundidades",
+      "b": "Planta",
+      "c": "Antiguo",
+      "d": "Ola",
+      "e": "Oscuridad",
+      "f": "Estrellas",
+      "g": "Vida",
+      "h": "Y’ch’lecht",
+      "i": "Cthulhu",
+      "j": "Dormir",
+      "k": "Sueños",
+      "l": "Brazo",
+      "m": "Tierra",
+      "n": "Perdición",
+      "o": "Energía",
+      "p": "Tiempo atmosférico",
+      "q": "Mano",
+      "r": "Tiempo",
+      "s": "Máquina",
+      "t": "Aire",
+      "u": "Hijas",
+      "v": "Extraño",
+      "w": "Parásito",
+      "x": "Suma",
+      "y": "Conocimiento",
+      "z": "Ciudad"
+    }
+  },
+  "rlyehMap": {
+    "rlyehWesternWall": "La muralla occidental",
+    "rlyehDrownedQuarter": "El barrio sumergido",
+    "rlyehApiary": "El apiario",
+    "rlyehGrandVault": "La gran cámara",
+    "rlyehCourtOfTheAncients": "La corte de los antiguos",
+    "rlyehObsidianCanyons": "Cañones de obsidiana",
+    "rlyehSepulchreOfTheSleeper": "Sepulcro del durmiente"
+  },
+  "artifactsEarned": {
+    "title": "Artefactos obtenidos"
+  },
+  "key": {
+    "rubyWonTheBet": "Ruby ganó la apuesta.",
+    "rubyLostTheBet": "Ruby perdió la apuesta.",
+    "theInvestigatorsDiscoveredAnAlienLanguage": "Los investigadores descubrieron un idioma alienígena.",
+    "walkInFaith": "Caminar con fe",
+    "toeTheLine": "Cumplir las normas",
+    "noPlaceLikeHome": "Como en casa, en ningún sitio",
+    "goodMoney": "Un buen dinero",
+    "doNoHarm": "No hacer daño",
+    "proveYourWorth": "Demostrar tu valía",
+    "dreamsOfDestruction": "Sueños de destrucción",
+    "plumbTheDepths": "Sondear las profundidades",
+    "theExpeditionHeadedWest": "La expedición se dirigió hacia el oeste.",
+    "theExpeditionHeadedEast": "La expedición se dirigió hacia el este.",
+    "theExpeditionHelpedThePilgrim": "La expedición ayudó al peregrino.",
+    "theExpeditionLeftThePilgrim": "La expedición abandonó al peregrino.",
+    "theCreatureWasDefeated": "La criatura fue derrotada.",
+    "barrierNode": "Nodo de la barrera",
+    "obsidianClaw": "Garra de obsidiana",
+    "shardOfYchlecht": "Fragmento de Y’ch’lecht",
+    "tidalTablet": "Tablilla de marea",
+    "grislyMask": "«Máscara» macabra",
+    "horrorInClay": "Horror de arcilla",
+    "discoveredGlyphs": "Símbolos alienígenas",
+    "rlyehMap": "Mapa de R’lyeh",
+    "thePilgrimsWereSaved": "Los peregrinos se salvaron.",
+    "thePilgrimsWereDevoured": "Los peregrinos fueron devorados.",
+    "theInvestigatorsExterminatedTheAlienParasites": "Los investigadores exterminaron a los parásitos alienígenas.",
+    "thePowerWasDiverted": "La energía fue desviada.",
+    "theInnerSanctumWasUnsealed": "El santuario interior quedó abierto.",
+    "helpedWithTheRopes": "Ha ayudado con las cuerdas",
+    "wasHelpedWithTheRopes": "Ha recibido ayuda con las cuerdas",
+    "yourAlliesHaveAPlan": "Tus aliados tienen un plan.",
+    "theInvestigatorsStoodTogether": "Los investigadores resistieron juntos.",
+    "isStrongInTheirFaith": "Es fuerte en su fe.",
+    "madeBank": "Se ha forrado.",
+    "understandsTheFuture": "Entiende el futuro.",
+    "foundTheirTrueHome": "Ha encontrado su verdadero hogar.",
+    "sworeAnOathToProtectOthers": "Ha jurado proteger a los demás.",
+    "foundNewWork": "Ha encontrado un nuevo trabajo.",
+    "pulledTheirWeight": "Ha hecho su parte.",
+    "learnedTheSecretTruth": "Ha descubierto la verdad secreta.",
+    "lostTheirFaith": "Ha perdido la fe.",
+    "theInvestigatorsDidNotConfrontTheNightmare": "Los investigadores no se enfrentaron a la pesadilla.",
+    "theInvestigatorsHaltedCthulhusAwakening": "Los investigadores detuvieron el despertar de Cthulhu.",
+    "floodedNeighborhoods": "Barrios inundados",
+    "cthulhuWasDrivenAway": "Cthulhu fue ahuyentado.",
+    "cthulhuAnnihilatedTheExpedition": "Cthulhu aniquiló la expedición.",
+    "cthulhuAnnihilatedTheCityOfArkham": "Cthulhu aniquiló la ciudad de Arkham.",
+    "cthulhuWasBanished": "Cthulhu fue desterrado.",
+    "arkhamWasDestroyed": "Arkham quedó destruida."
+  }
+}

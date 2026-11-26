@@ -16,6 +16,7 @@ import theInnsmouthConspiracy from '@/locales/es/theInnsmouthConspiracy'
 import edgeOfTheEarth from '@/locales/es/edgeOfTheEarth'
 import theScarletKeys from '@/locales/es/theScarletKeys'
 import theFeastOfHemlockVale from '@/locales/es/theFeastOfHemlockVale'
+import theDrownedCity from '@/locales/es/theDrownedCity'
 
 // Anything missing here falls back to English key by key (fallbackLocale in
 // main.ts). Mirrors en.ts: `label` has to be nested -- the app asks for
@@ -41,4 +42,5 @@ export default
   , edgeOfTheEarth
   , theScarletKeys
   , theFeastOfHemlockVale
+  , theDrownedCity
   }

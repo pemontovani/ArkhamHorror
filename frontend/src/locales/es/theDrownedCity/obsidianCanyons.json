@@ -1,0 +1,197 @@
+{
+  "intro": {
+    "title": "Cañones de obsidiana",
+    "checkCampaignLog": "Consulta el registro de campaña.",
+    "headedWest": "Si la expedición se dirigió hacia el oeste, continúa en _Cañones de obsidiana 1_.",
+    "headedEast": "Si la expedición se dirigió hacia el este, continúa en _Cañones de obsidiana 2_.",
+    "obsidianCanyons1": "<p>_Cañones de obsidiana 1_: —¿Estoy soñando? —Andy contempla el horizonte. Figuras efímeras se aglutinan y luego se disipan en las nieblas de abajo. A lo lejos ves las puertas de obsidiana del lugar donde desembarcasteis. La amplia extensión que te separa de ellas está repleta de agujas que retuercen la mente y de una venenosa neblina verde. Andy maldice mientras vacía de agua la bolsa de su cámara—. El señor Tillinghast me aseguró que esta bolsa era hermética. Le dije que lo único que quería eran fotos, quizá un contrato para un libro. Y ahora está todo echado a perder.</p><ul><li>Salta a _Cañones de obsidiana 3_.</li></ul>",
+    "obsidianCanyons2": "<p>_Cañones de obsidiana 2_: Las calles de R’lyeh están anegadas de agua estancada y de un hedor fétido y bilioso que no logras identificar. Tras pasar horas sin apenas alejarte del lugar donde desembarcasteis, encuentras una senda por la que trepar hasta la cumbre. Con tu cuerda y un poco de material de escalada, alcanzas el mirador más cercano. La antigua cúpula te llama desde la distancia.</p><p>—Tú no mires abajo —dice Ruby—. Si te caes, no pienso despegarte del suelo.</p><ul><li>Continúa en _Cañones de obsidiana 3_.</li></ul>",
+    "obsidianCanyons3": "<p>_Cañones de obsidiana 3_: La ciudad alienígena se extiende a lo largo de kilómetros. Pedazos de agujas rotas flotan en el aire sobre torres derrumbadas, y de la parte inferior de antiquísimos puentes cuelgan arrecifes de colores. Pecios de barcos antiguos en descomposición se inclinan precariamente en lo alto de las agujas de obsidiana, meciéndose con suavidad. Tú y quienes te acompañan contempláis sobrecogidos ese paisaje increíble.</p><p>Una racha de viento huracanado está a punto de levantarte del suelo. Recuperas el equilibrio y miras hacia el sur, donde ves unos nubarrones oscuros y furiosos que chisporrotean con una energía verde. La brisa alcanza un aullido creciente y, de pronto, amaina. El paisaje de abajo parece reorganizarse mientras las nubes miasmáticas se curvan y se arremolinan. La cabeza te da vueltas; cuando vuelves a mirar el horizonte, la silueta de la ciudad ha cambiado por completo.</p>",
+    "resolveTasks": "Si algún investigador tiene la tarea Sueños de destrucción o Demostrar tu valía, resuelve su historia correspondiente en esta página.",
+    "setupWest": "Si la expedición se dirigió hacia el oeste, continúa en _Preparación (v. I): Expedición occidental_.",
+    "setupEast": "Si la expedición se dirigió hacia el este, continúa en _Preparación (v. II): Expedición oriental_.",
+    "dreamsOfDestruction": {
+      "title": "Tarea: Sueños de destrucción",
+      "instructions": "_Léelo solo si tienes la tarea «Sueños de destrucción»:_",
+      "body": "Mientras contemplas el paisaje sobrecogedor, una cacofonía de susurros inunda tus pensamientos. Sin poder soportarlo, caes de rodillas y te aprietas las sienes con las manos.",
+      "vision": "Con los ojos de la mente ves una corona de luz, un cielo repleto de sombras tenebrosas y una figura gigantesca que se retuerce de dolor, cubierta de signos resplandecientes. ¿Es una visión? ¿O un recuerdo antiquísimo? Ves las agujas de la ciudad doblarse como briznas de hierba mientras caen meteoros del cielo.",
+      "sorrow": "Algo se agita en tu interior. Estás sintiendo el pesar de otra persona... o de otra cosa. La ciudad sepultada, serena, condenada a dormir en el fondo del océano durante vigintillones de años. Sea lo que sea lo que sientes, quiere compartir tus cargas, tus miedos, tus deseos. Solo tienes que dejarlo entrar...",
+      "choose": "Debes decidir (elige una opción):",
+      "drownOut": "Acallar los susurros. Borra 1 progreso de _Sueños de destrucción_ en el registro de campaña y sufre 1 trauma mental. Obtienes (solo tú) 2 puntos de experiencia adicionales.",
+      "letItIn": "Dejarlo entrar. Marca 2 progresos en _Sueños de destrucción_ en el registro de campaña. Al comienzo del primer turno de cada investigador en el escenario Cañones de obsidiana, debe robar la primera carta del mazo de Encuentros."
+    },
+    "proveYourWorth": {
+      "title": "Tarea: Demostrar tu valía",
+      "instructions": "_Léelo solo si tienes la tarea «Demostrar tu valía»:_",
+      "body": "No hay nadie más en esta expedición que aprecie tus talentos. ¿Cómo iban a hacerlo? Tu deber es ayudar, enseñarles por qué eras la elección perfecta para esta maldita expedición. Nadie te lo ha pedido, pero este podría ser el momento perfecto para demostrar tu valía.",
+      "choose": "Debes decidir (elige una opción):",
+      "ropesAreWrong": "«Estas cuerdas están fatal. Puedo hacerlo mucho mejor». Sin consultar a nadie, elige un investigador al que ayudar (que no seas tú, si es posible). Recuerda que «(nombre de tu investigador) ha ayudado con las cuerdas» (así como el nombre del investigador elegido). Cada investigador comienza el siguiente escenario con 2 recursos iniciales menos.",
+      "trustTheirHandiwork": "«Me fío de su trabajo». Cada investigador comienza el siguiente escenario con 1 recurso inicial adicional."
+    },
+    "xp": {
+      "dreamsOfDestruction": "por acallar los susurros"
+    },
+    "label": {
+      "dreamsOfDestruction": {
+        "drownOut": "Acallar los susurros.",
+        "letItIn": "Dejarlo entrar."
+      },
+      "proveYourWorth": {
+        "ropesAreWrong": "«Estas cuerdas están fatal. Puedo hacerlo mucho mejor».",
+        "trustTheirHandiwork": "«Me fío de su trabajo».",
+        "chooseInvestigator": "Elige un investigador al que ayudar."
+      }
+    }
+  },
+  "setup": {
+    "west": {
+      "title": "Preparación (v.I): Expedición occidental",
+      "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de Encuentros: *Cañones de obsidiana*, *Legado cósmico*, *Niebla primordial*, *El ineludible*, *R’lyeh*, *Semilla estelar*, *Antiguos males*, *Frío helador*, *Ángeles descarnados* y *Miedo impactante*. Estos conjuntos se identifican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/obsidian-canyons.png' /><img src='{setImgPath}/cosmic-legacy.png' /><img src='{setImgPath}/elder-mist.png' /><img src='{setImgPath}/the-inescapable.png' /><img src='{setImgPath}/rlyeh.png' /><img src='{setImgPath}/star-spawn.png' /><img src='{setImgPath}/ancient-evils.png' /><img src='{setImgPath}/chilling-cold.png' /><img src='{setImgPath}/nightgaunts.png' /><img src='{setImgPath}/striking-fear.png' /></section>Pon aparte, fuera del juego, las 14 cartas de los conjuntos de Encuentros *Antiguos males*, *Frío helador* y *Miedo impactante* como _«cielo abierto»_ (consulta _Cielo abierto_).",
+      "gatherLocations": "Reúne todos los Lugares del conjunto de Encuentros _Cañones de obsidiana_.",
+      "removeLocations": "Retira de la partida Cúpula antigua.",
+      "setAsideLocations": "Pon aparte, fuera del juego, Calles de R’lyeh, Torre central, Torre flotante, Cascada aérea, Planetario de símbolos{'{'}runeD{'}'} y Muralla occidental.",
+      "buildSummitDeck": "Baraja todos los demás Lugares _Cumbre_ en un mazo aparte, con el lado sin revelar boca arriba. Este es el mazo de Cumbres (consulta _El mazo de Cumbres y deslizar Lugares_).",
+      "placeStart": "Pon en juego Calles de R’lyeh junto con cuatro de las cartas de cielo abierto puestas aparte, según el diagrama de colocación de Lugares del Acto 1.",
+      "fillGrid": "Rellena cada hueco vacío del diagrama con la última carta del mazo de Cumbres, por encima y a la derecha de Calles de R’lyeh, hasta que haya 3 filas y 4 columnas.",
+      "shuffleInCentralSpire": "Añade Torre central, puesta aparte, a las tres primeras cartas del mazo de Cumbres y barájalas.",
+      "beginAtRlyehStreets": "Cada investigador comienza la partida en Calles de R’lyeh.",
+      "windsStoryCard": "Busca la carta de Historia de doble cara Vientos del este/Vientos del oeste y ponla en juego, con el lado Vientos del este boca arriba.",
+      "buildActAgendaDeck": "Forma los mazos de Acto y de Plan usando el Plan 1a: «Tormentas invasoras», el Acto 1a: «Explorando las torres», el Acto 2a: «Cielos letales» y el Acto 3a: «Regreso a la costa». Retira de la partida todos los demás Actos y Planes.",
+      "stormIntensity": "Coloca 1 recurso en la carta de referencia de escenario, bajo Intensidad de la tormenta.",
+      "starSpawn": "Baraja los Enemigos del conjunto de Encuentros *Semilla estelar* y retira de la partida dos de ellos al azar.",
+      "setCardsAside": "Pon aparte, fuera del juego, el Apoyo de historia de doble cara Reliquia celeste{'{'}runeF{'}'}, la Traición Mural erosionado{'{'}runeE{'}'} y el Apoyo de historia Garra de obsidiana.",
+      "checkCampaignLogInescapable": "Consulta el registro de campaña. *Si la criatura fue derrotada*, retira de la partida el conjunto de Encuentros *El ineludible*. De lo contrario, haz que el Enemigo El ineludible aparezca, agotado, en el Lugar más alejado de todos los investigadores.",
+      "chooseExpeditionAsset": "En orden de juego, cada jugador puede elegir 1 Apoyo _Artefacto_ obtenido o 1 Apoyo _Objeto_ del conjunto de Encuentros *Expedición* para que empiece en juego bajo su control. Este conjunto se identifica con el siguiente icono:<section class='encounter-sets'><img src='{setImgPath}/tdc_expedition.png' /></section>",
+      "buildEncounterDeck": "Baraja las cartas de Encuentro restantes para formar el mazo de Encuentros.",
+      "readyToBegin": "Ya está todo listo para comenzar."
+    },
+    "east": {
+      "title": "Preparación (v.II): Expedición oriental",
+      "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de Encuentros: *Cañones de obsidiana*, *Legado cósmico*, *Niebla primordial*, *El ineludible*, *R’lyeh*, *Semilla estelar*, *Frío helador*, *Ángeles descarnados* y *Miedo impactante*. Estos conjuntos se identifican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/obsidian-canyons.png' /><img src='{setImgPath}/cosmic-legacy.png' /><img src='{setImgPath}/elder-mist.png' /><img src='{setImgPath}/the-inescapable.png' /><img src='{setImgPath}/rlyeh.png' /><img src='{setImgPath}/star-spawn.png' /><img src='{setImgPath}/chilling-cold.png' /><img src='{setImgPath}/nightgaunts.png' /><img src='{setImgPath}/striking-fear.png' /></section>Pon aparte, fuera del juego, las 11 cartas de los conjuntos de Encuentros *Frío helador* y *Miedo impactante* como _«cielo abierto»_ (consulta _Cielo abierto_).",
+      "gatherLocations": "Reúne todos los Lugares del conjunto de Encuentros *Cañones de obsidiana*.",
+      "removeLocations": "Retira de la partida Muralla occidental y Torre flotante.",
+      "setAsideLocations": "Pon aparte, fuera del juego, Calles de R’lyeh, Torre central, Cascada aérea, Planetario de símbolos{'{'}runeD{'}'} y Cúpula antigua.",
+      "buildSummitDeck": "Baraja todos los demás Lugares _Cumbre_ en un mazo aparte, con el lado sin revelar boca arriba. Este es el mazo de Cumbres (consulta _El mazo de Cumbres y deslizar Lugares_).",
+      "placeStart": "Pon en juego Calles de R’lyeh junto con cuatro de las cartas de cielo abierto puestas aparte, según el diagrama de colocación de Lugares del Acto 1.",
+      "fillGrid": "Rellena cada hueco vacío del diagrama con la última carta del mazo de Cumbres, por encima y a la derecha de Calles de R’lyeh, hasta que haya 3 filas y 4 columnas.",
+      "shuffleInCentralSpire": "Añade Torre central, puesta aparte, a las tres primeras cartas del mazo de Cumbres y barájalas.",
+      "beginAtRlyehStreets": "Cada investigador comienza la partida en Calles de R’lyeh.",
+      "windsStoryCard": "Busca la carta de Historia de doble cara Vientos del este/Vientos del oeste y ponla en juego, con el lado Vientos del oeste boca arriba.",
+      "buildActAgendaDeck": "Forma los mazos de Acto y de Plan usando el Plan 1a: «Tormentas sobrenaturales», el Acto 1a: «Registrando las torres» y el Acto 2a: «¡Hacia la cúpula antigua!». Retira de la partida todos los demás Actos y Planes.",
+      "stormIntensity": "Coloca 1 recurso en la carta de referencia de escenario, bajo Intensidad de la tormenta.",
+      "starSpawn": "Baraja los Enemigos del conjunto de Encuentros *Semilla estelar* y retira de la partida tres de ellos al azar.",
+      "setCardsAside": "Pon aparte, fuera del juego, el Apoyo de historia de doble cara Reliquia celeste{'{'}runeF{'}'}, la Traición Mural erosionado{'{'}runeE{'}'} y el Apoyo de historia Garra de obsidiana, junto con el conjunto de Encuentros *El ineludible*.",
+      "removeStarVampire": "Busca en el conjunto de Encuentros *Cañones de obsidiana* una copia del Enemigo Vampiro estelar y retírala de la partida.",
+      "chooseExpeditionAsset": "En orden de juego, cada jugador puede elegir 1 Apoyo _Objeto_ del conjunto de Encuentros *Expedición* para que empiece en juego bajo su control. Este conjunto se identifica con el siguiente icono:<section class='encounter-sets'><img src='{setImgPath}/tdc_expedition.png' /></section>",
+      "buildEncounterDeck": "Baraja las cartas de Encuentro restantes para formar el mazo de Encuentros.",
+      "readyToBegin": "Ya está todo listo para comenzar."
+    }
+  },
+  "rules": {
+    "openSky": {
+      "title": "Cielo abierto",
+      "body": "<p class='basic'>A lo largo de este escenario se te indicará que coloques cartas de «cielo abierto» tomando las cartas de Encuentro reunidas durante la preparación y poniéndolas boca abajo en las posiciones indicadas.</p><ul><li>El cielo abierto cuenta como un Lugar a efectos de las cartas, de la adyacencia entre Lugares y para determinar la distancia entre Lugares.</li><li>Los investigadores no pueden moverse a un cielo abierto a menos que los efectos del escenario indiquen lo contrario.</li><li>El cielo abierto no se puede investigar ni se pueden soltar pistas en él. Si por cualquier motivo se fuese a soltar o a colocar una pista en un cielo abierto, los investigadores deben elegir el Lugar revelado más cercano y colocar la pista en él.</li><li>Los Lugares pueden entrar en juego en una posición ocupada por una carta de cielo abierto. Si ocurre esto, la carta de cielo abierto que ocupaba esa posición abandona el juego.</li><li>Si una carta de cielo abierto abandona el juego por cualquier motivo, colócala en la parte superior del mazo de Cumbres. No la coloques en la pila de descarte de Encuentros. Se descartan todos los Enemigos, fichas y cartas vinculadas que haya en ese cielo abierto.</li></ul>"
+    },
+    "summitDeck": {
+      "title": "El mazo de Cumbres y deslizar Lugares",
+      "body": "<p class='basic'>Durante este escenario, los Lugares y el cielo abierto entran en juego y lo abandonan a través del mazo de Cumbres. Este mazo está compuesto por cartas de Lugar _Cumbre_ y por cartas de cielo abierto de una sola cara.</p><ul><li>Las cartas se roban siempre de la parte _inferior_ del mazo de Cumbres.</li><li>Las cartas de Encuentro del mazo de Cumbres siempre se colocan boca abajo (con el lado sin revelar boca arriba si son Lugares).</li><li>Si por cualquier motivo se crea un hueco entre Lugares o cielos abiertos y las instrucciones de las cartas de escenario no lo rellenan de inmediato, rellénalo con la _última_ carta del mazo de Cumbres, boca abajo si es una carta de Encuentro o con el lado sin revelar boca arriba si es un Lugar.</li><li>Puede indicarse a los investigadores que deslicen filas hacia la izquierda o hacia la derecha. Para ello, desliza una vez en la dirección indicada cada carta de esa fila (Lugares y cielo abierto). Todas las cartas y fichas que haya en esos Lugares o cielos abiertos también se mueven. Las cartas que queden fuera de las columnas establecidas se colocan en la parte superior del mazo de Cumbres.</li><li>Algunos Lugares no se pueden mover. Si se te indica que deslices las cartas de una fila y en ella hay un Lugar que no se puede mover, deja ese Lugar donde está y «sáltalo», moviendo la carta que ocuparía su espacio al hueco creado más cercano.</li></ul>"
+    },
+    "stormIntensity": {
+      "title": "Intensidad de la tormenta",
+      "body": "<p class='basic'>A lo largo de este escenario, la cantidad de recursos que haya bajo «Intensidad de la tormenta» en la carta de referencia de escenario indica la fuerza de los vendavales sobrenaturales de R’lyeh. Cuanto mayor sea la Intensidad de la tormenta, más peligroso será el tiempo. La Intensidad de la tormenta no tiene de por sí ningún efecto de juego; sin embargo, algunos efectos del escenario pueden cambiar o hacerse más fuertes en función de su nivel actual.</p>"
+    },
+    "locationAdjacency": {
+      "title": "Adyacencia de Lugares en este escenario",
+      "body": "<p class='basic'>Durante este escenario, los Lugares se disponen formando una cuadrícula fija. _Cada Lugar está conectado a todos los Lugares adyacentes a él_.</p><ul><li>Los Lugares adyacentes comparten un lado (izquierda, derecha, arriba o abajo).</li><li>Los Lugares que solo comparten una esquina no se consideran adyacentes.</li></ul>"
+    }
+  },
+  "label": {
+    "chooseExpeditionAssetQuestion": "Elige un Apoyo para que empiece en juego bajo tu control.",
+    "noExpeditionAsset": "No tomar ningún Apoyo de Artefacto ni de Expedición.",
+    "cluesToSpend": "Elige cuántas pistas gastar.",
+    "summitEntry": {
+      "spendClue": "Gastar 1 pista",
+      "test": "Hacer una prueba de {agility} (2)"
+    },
+    "searchTheSpires": {
+      "chooseLocation": "Elige una carta de la parte inferior del mazo de Cumbres.",
+      "placeNone": "No poner en juego ningún Lugar revelado",
+      "chooseOrder": "Elige la siguiente carta que colocar en la parte superior del mazo de Cumbres. La última carta elegida quedará encima de todas.",
+      "restOnTop": "Coloca las cartas restantes en la parte superior del mazo de Cumbres en cualquier orden"
+    },
+    "summitDeck": {
+      "toTop": "Colocar en la parte superior del mazo de Cumbres",
+      "toBottom": "Colocar en la parte inferior del mazo de Cumbres"
+    },
+    "wingsOfTerror": {
+      "drawEnemy": "Robar ese Enemigo",
+      "attack": "Ese Enemigo te ataca"
+    },
+    "lostInTheClouds": {
+      "eachInvestigatorTakesHorror": "Cada investigador sufre 2 puntos de horror directo",
+      "resolveWinds": "Resolver el efecto Obligado de la carta de Historia Vientos del este/Vientos del oeste como si hubieras robado una ficha de símbolo distinta de {eldersign}"
+    }
+  },
+  "tooltips": {
+    "westernWall": {
+      "resign": "Desciendes trepando."
+    },
+    "ancientDome": {
+      "resign": "Desciendes trepando."
+    }
+  },
+  "hangingShip": {
+    "slide": "Deslizar Barco colgado a un cielo abierto adyacente"
+  },
+  "magneticSpires": {
+    "swap": "Elige un cielo abierto a 2 espacios de distancia como máximo e intercámbialo con Torres magnéticas"
+  },
+  "tokens": {
+    "easyStandard": {
+      "skull": "-X. X es la Intensidad de la tormenta actual.",
+      "cultist": "-4. Si esta prueba fracasa, coloca 1 ficha de Perdición en el Enemigo más cercano.",
+      "tablet": "-1 por cada cielo abierto adyacente a tu Lugar actual.",
+      "elderThing": "-2. Si hay un Enemigo en tu Lugar, revela otra ficha."
+    },
+    "hardExpert": {
+      "skull": "-X. X es 2 más la Intensidad de la tormenta actual.",
+      "cultist": "-6. Coloca 1 ficha de Perdición en el Enemigo más cercano.",
+      "tablet": "-2 por cada cielo abierto adyacente a tu Lugar actual.",
+      "elderThing": "-4. Si hay un Enemigo en tu Lugar, revela otra ficha."
+    }
+  },
+  "resolutions": {
+    "xp": {
+      "bonus": "por desafiar los cañones de obsidiana"
+    },
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<p>_Resolución 1_: Andy se sienta en un peñasco reluciente e intenta con todas sus fuerzas que no se le note la impresión.</p><p>—Bueno. Pensaba que este viaje iba a consagrar mi carrera. Pero resulta que, entre parásitos alienígenas, tormentas magnéticas y, ya sabes, el océano Pacífico, mi carrera no tenía la menor oportunidad —suspira—. Al menos volvemos de una pieza. Bueno, casi —se ríe, protegiéndose el brazo vendado.</p><p>Cuando el resto del grupo se ha reunido, emprendéis el camino de vuelta a la playa donde desembarcasteis.</p><ul><li>Actualiza el registro de campaña.<ul><li>Si la Garra de obsidiana estaba bajo el control de un investigador cuando terminó el escenario, marca la casilla de la «Garra de obsidiana» en la sección «Artefactos obtenidos» del registro de campaña.</li><li>Tacha «Cañones de obsidiana» en el mapa de R’lyeh del registro de campaña.</li></ul></li><li>Si algún investigador tiene la tarea Demostrar tu valía, resuelve su historia correspondiente en esta página.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.</li><li>Continúa en _Sepulcro del durmiente_.</li></ul>"
+    },
+    "resolution2": {
+      "title": "Resolución 2",
+      "body": "<p>_Resolución 2_: Te reúnes con Ruby en lo más alto de la antigua corte. Al asomarte a las profundidades, te deja sin habla la pura amplitud de la construcción. La cúpula destrozada sobre la que te encuentras tiene al menos cuatrocientos metros de diámetro y corona una cámara vasta y diáfana. Abajo, un ascensor altísimo se alza en el centro de una nave como de catedral, rodeado de plantas circulares en espiral. Cinco largos ábsides irradian desde la estructura central como garras de obsidiana y dominan la silueta sobrenatural de la ciudad.</p><p>Ruby se detiene en el borde agrietado y contempla la vasta extensión de abajo.</p><p>—Ni siquiera sé si se ve el fondo, pero creo que cualquier cosa que haya ahí abajo es mejor que esa tormenta.</p><p>Al mirar el horizonte que se oscurece, no te queda más remedio que darle la razón.</p><ul><li>Actualiza el registro de campaña.<ul><li>Si la Garra de obsidiana estaba bajo el control de un investigador cuando terminó el escenario, marca la casilla de la «Garra de obsidiana» en la sección «Artefactos obtenidos» del registro de campaña.</li><li>Tacha «Cañones de obsidiana» en el mapa de R’lyeh del registro de campaña.</li></ul></li><li>Si algún investigador tiene la tarea Demostrar tu valía, resuelve su historia correspondiente en esta página.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.</li><li>Continúa en _La corte de los antiguos_.</li></ul>"
+    },
+    "noResolution": {
+      "title": "Sin resolución",
+      "body": "<p>_Si no se ha llegado a ninguna resolución (todos los investigadores han sido derrotados)_: Los vendavales venenosos aúllan por los corredores de piedra negra de la ciudad antigua con toda la fuerza de un huracán. Mientras los vientos cortantes te azotan por todas partes, los vapores acres hacen que la cabeza te dé vueltas entre visiones inquietantes. Estos fenómenos sobrenaturales parecen soplar desde algún lugar muy remoto, desde un plano de existencia sin dimensiones.</p><p>Despiertas y ves a quienes te acompañan en torno a ti. Mientras te ayudan a levantarte, das la espalda a la silueta resplandeciente de la ciudad y a las nubes revueltas. No recuerdas haber perdido el conocimiento. ¿Cómo has llegado siquiera hasta aquí?</p><ul><li>Tacha «Cañones de obsidiana» en el mapa de R’lyeh del registro de campaña.</li><li>Cada investigador debe buscar en la colección una Debilidad básica _Locura_ o _Augurio_ al azar y añadirla a su mazo durante el resto de la campaña.</li><li>Si algún investigador tiene la tarea Demostrar tu valía, resuelve su historia correspondiente en esta página.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.</li><li>Consulta el registro de campaña.<ul><li>Si la expedición se dirigió hacia el oeste, continúa en _Sepulcro del durmiente_.</li><li>Si la expedición se dirigió hacia el este, continúa en _La corte de los antiguos_.</li></ul></li></ul>"
+    },
+    "proveYourWorth": {
+      "title": "Tarea: Demostrar tu valía",
+      "instructions": "_Léelo solo si tienes la tarea «Demostrar tu valía»:_",
+      "checkCampaignLog": "Consulta el registro de campaña.",
+      "helpedWithTheRopes": "Si «(nombre de tu investigador) ha ayudado con las cuerdas», continúa en la _Tarea 1_.",
+      "otherwise": "De lo contrario, salta a la _Tarea 2_.",
+      "task1": "_Tarea 1_: Deberías enorgullecerte de lo que has hecho. Tu trabajo impresionó tanto al resto de la expedición que oíste a alguien corear tu nombre mientras escalabais. Puede que lo estuviera gritando; no lo sabes con certeza. Sea lo que sea lo que ocurriera, nadie parece tener ganas de seguir hablando del tema. Por desgracia, tu trabajo con las cuerdas no sirvió de mucho. Varias se rompieron durante la escalada, y ahora uno de los miembros de la expedición tiene una pierna rota. Qué lástima. Debe de haber sido un fallo del fabricante.",
+      "task1Chosen": "El investigador al que elegiste ayudar antes sufre 1 trauma físico y obtiene 2 puntos de experiencia adicionales.",
+      "task1Progress": "Cuánta satisfacción te das, ¿verdad? Marca 2 progresos en «Demostrar tu valía» en el registro de campaña.",
+      "task2": "_Tarea 2_: «¡No, así no!». Otro miembro de la expedición interviene una vez más para ayudar. Te muerdes la lengua. No tiene ni idea de lo grosero que resulta. Tampoco es que le importe. ¿Para qué molestarte en demostrar nada a estos ingratos? No merecen la pena.",
+      "task2Trauma": "Es verdad: nunca estarás a la altura. Borra 1 progreso de «Demostrar tu valía» y sufre 1 trauma mental.",
+      "task2OtherInvestigators": "Todos los demás investigadores (excepto tú) obtienen 1 punto de experiencia adicional.",
+      "xp": {
+        "helped": "por las cuerdas que se rompieron",
+        "other": "por aguantarlo"
+      }
+    }
+  }
+}

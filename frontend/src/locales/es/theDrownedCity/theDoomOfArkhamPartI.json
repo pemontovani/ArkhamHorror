@@ -1,0 +1,81 @@
+{
+  "intro": {
+    "title": "La perdición de Arkham parte I",
+    "intro1": "<p>Otra pesadilla, y te despiertan unos golpes furiosos en la puerta. Al abrir encuentras a Andy y a Ruby, con un aspecto desastrado, junto a un inspector elegantemente vestido que se presenta como John Raymond Legrasse. El inspector explica que ha estado investigando una oleada de sectas oníricas en Estados Unidos y en el extranjero.</p>",
+    "intro2": "<p>Les invitas a pasar cuando empieza a llover. Una vez sentados, el inspector te muestra de pronto la fotografía de una estatua conocida. Hace varios meses envió la estatua a un colega de la Universidad Miskatonic para que la analizara. Por lo visto, cuando Tillinghast te pidió que encontraras su «envío desaparecido», no se trataba más que de un robo de poca monta. Te cuenta que llegó a Arkham hace cosa de un mes para interrogar a Tillinghast y recuperar la estatua.</p>",
+    "intro3": "<p>—Había algo que no me cuadraba después de entregar los artefactos —dice Andy con aire sombrío—. Así que unos días más tarde fui a la tienda. Cuando llegamos, la tienda se había mudado. O eso creímos. Ruby acabó encontrándola, y entramos y nos topamos con el inspector discutiendo con Tillinghast y... las cosas no salieron demasiado bien.</p>",
+    "intro4": "<p>—Eso es quedarse corto —dice Legrasse—. Randall me estaba dando largas cuando aparecieron estos dos. Nos echó a la calle en un santiamén. Cuando miramos alrededor, no estábamos... aquí. —Le preguntas qué quiere decir, y niega con la cabeza—. Quiero decir que no estábamos aquí. En Arkham. La puerta de su tienda daba a un sitio completamente distinto. Nos costó un mes entero volver.</p>",
+    "intro5": "<p>—Creo que estábamos en algún lugar del Tíbet, o incluso más al norte. La vuelta fue... toda una odisea —suspira Andy.</p><p>Hace unos meses quizá te habría costado creer su historia, pero ahora no. Sabiendo lo que sabes de Tillinghast, no te sorprende que tenga planeado algo mucho más siniestro que una simple adquisición. Pero ¿qué?</p>",
+    "intro6": "<p>Junto con el inspector Legrasse, Ruby y Andy, decides recuperar los artefactos y plantar cara a Tillinghast, dondequiera que esté. Cuando os ponéis en marcha, la lluvia se convierte en un fuerte aguacero.</p>",
+    "proceedToSetup": "Continúa en _Preparación_."
+  },
+  "setup": {
+    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de Encuentros: *La perdición de Arkham parte I*, *Profundos*, *Dominación*, *Sueños*, *Semilla estelar*, *Agentes de Cthulhu* y *Las máscaras de medianoche*. Estos conjuntos se identifican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/the-doom-of-arkham-part-i.png' /><img src='{setImgPath}/tdc_deep-ones.png' /><img src='{setImgPath}/domination.png' /><img src='{setImgPath}/dreams.png' /><img src='{setImgPath}/star-spawn.png' /><img src='{setImgPath}/agents-of-cthulhu.png' /><img src='{setImgPath}/midnight-masks.png' /></section>",
+    "midnightMasksCards": "Al reunir el conjunto de Encuentros *Las máscaras de medianoche*, coge solo las cartas de Lugar y de Traición. No cojas los Actos ni los Planes de este conjunto.",
+    "placeLocations": "Busca todos los Lugares del conjunto de Encuentros *Las máscaras de medianoche* y ponlos en juego del siguiente modo:",
+    "randomVersions": "Pon en juego al azar uno de los dos Lugares Centro y uno de los dos Lugares Barrio Sur y retira de la partida las otras versiones de esos Lugares. Pon en juego Barrio Norte, Barrio Este, Barrio Fluvial, Hospital de Santa María y Universidad Miskatonic según el diagrama de colocación de Lugares.",
+    "setAsideLocations": "Pon aparte, fuera del juego, todos los demás Lugares.",
+    "startAtRivertown": "Cada investigador comienza la partida en Barrio Fluvial.",
+    "cardsBeneathLocations": "Baraja el Lugar de una sola cara Tienda esotérica de Tillinghast junto con todas las Traiciones del conjunto de Encuentros *Las máscaras de medianoche* y coloca una de esas cartas debajo de cada Lugar, excepto Barrio Fluvial.",
+    "starSpawn": "Baraja los Enemigos del conjunto de Encuentros *Semilla estelar* y retira de la partida dos de ellos al azar (en vez de eso, retira tres si juegas en modo fácil).",
+    "setCardsAside": "Reúne todos los artefactos obtenidos junto con el Apoyo de historia Horror de arcilla y ponlos aparte, fuera del juego.",
+    "legrasse": "Elige un investigador para que añada el Apoyo de historia John Raymond Legrasse a su mazo. Esta carta no cuenta para el tamaño de su mazo.",
+    "legrasseInPlay": "Pon en juego el Apoyo de historia John Raymond Legrasse bajo el control de ese investigador. No ocupa un hueco de aliado durante la Parte I ni la Parte II de este escenario.",
+    "doomOnAgenda": "Coloca sobre el Plan tanta Perdición como investigadores haya.",
+    "floodTokens": "Añade las fichas de Inundación a la reserva de fichas.",
+    "buildEncounterDeck": "Baraja las cartas de Encuentro restantes para formar el mazo de Encuentros."
+  },
+  "rules": {
+    "partsOfTheDoomOfArkham": {
+      "title": "Parte I y Parte II de La perdición de Arkham",
+      "body": "<p class='basic'>Este escenario está dividido en dos partes. Los jugadores pueden optar por jugarlas de una en una (con un descanso entre ambas) o jugar las dos seguidas en una sesión más larga. Cada parte es una partida independiente, con su propia preparación y su propia resolución.</p><p class='basic'>Los investigadores pueden mejorar sus mazos entre la Parte I y la Parte II.</p>"
+    }
+  },
+  "label": {
+    "chooseLegrasseInvestigator": "Elige un investigador para que añada a John Raymond Legrasse a su mazo."
+  },
+  "tooltips": {
+    "theComingStorm": {
+      "resign": "{action}: <b>Desistir.</b> Abandonas la búsqueda."
+    }
+  },
+  "tokens": {
+    "easyStandard": {
+      "skull": "-X. X es la mitad de la cantidad de Lugares que no tienen cartas de escenario debajo (redondeando hacia arriba).",
+      "cultist": "-3. Si esta prueba fracasa, coloca 1 ficha de Perdición en el Enemigo más cercano que no tenga Perdición.",
+      "tablet": "-3. Si esta prueba fracasa, coloca 1 de tus pistas en tu Lugar.",
+      "elderThing": "-2. Si tu Lugar está inundado, revela otra ficha."
+    },
+    "hardExpert": {
+      "skull": "-X. X es la cantidad de Lugares que no tienen cartas de escenario debajo.",
+      "cultist": "-5. Si esta prueba fracasa, coloca 1 ficha de Perdición en el Enemigo más cercano que no tenga Perdición.",
+      "tablet": "-5. Si esta prueba fracasa, coloca 1 de tus pistas en tu Lugar.",
+      "elderThing": "-4. Si tu Lugar está inundado, revela otra ficha."
+    }
+  },
+  "resolutions": {
+    "xp": {
+      "bonus": "por plantar cara a Randall Tillinghast"
+    },
+    "label": {
+      "readyToFight": "«Tenemos todo a punto para luchar».",
+      "needMoreTime": "«Necesitamos más tiempo»."
+    },
+    "noResolution": {
+      "title": "Sin resolución",
+      "body": "<p>_Si todos los investigadores han desistido o han sido derrotados_: Tres vecinos aterrorizados pasan a tu lado calle abajo a la carrera, seguidos por una descomunal semilla de Cthulhu. Se te hiela la sangre. No hay ningún lugar seguro al que huir. Deambulas por las calles inundadas en busca de algún rastro de Ruby, de Andy o del inspector Legrasse.</p><ul><li>Cada investigador busca en la colección una Debilidad básica _Lesión_ o _Locura_ al azar y la añade a su mazo. Esta carta no cuenta para el tamaño de mazo de ese investigador.</li><li>Continúa en la _Resolución 1_.</li></ul>"
+    },
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<p>_Resolución 1_: Un rugido estremecedor sacude los mismísimos cimientos de Arkham. Junto a quienes te acompañan, alzas la vista y ves cómo la familiar y descomunal figura de Cthulhu emerge pesadamente del río Miskatonic. De un solo movimiento, el primigenio aplasta bajo sus pies una manzana entera del Barrio Fluvial. El crujido de la madera y el estallido de los cristales llenan el aire, seguidos de un coro de gritos.</p><p>Andy, Ruby y el inspector intercambian una mirada sombría al confirmarse tus peores temores.</p><p>—¡Tenemos que hacer algo! —grita Andy por encima del estruendo.</p><ul><li>Actualiza el registro de campaña. En «Artefactos obtenidos»:<ul><li>Tacha el nombre de cada Apoyo _Artefacto_ que no estuviera bajo el control de ningún investigador cuando terminó el escenario.</li><li>Si el Horror de arcilla estaba bajo el control de un investigador cuando terminó el escenario, anota «Horror de arcilla» en «Artefactos obtenidos».</li></ul></li><li>Anota en el registro de campaña «Barrios inundados:», seguido de una lista de todos los Lugares inundados.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.</li><li>Los investigadores deben decidir (elige una opción):<ul><li>«Tenemos todo a punto para luchar». Continúa en la _Resolución 2_ si quieres seguir jugando inmediatamente.</li><li>«Necesitamos más tiempo». Salta a la _Resolución 3_ si quieres hacer un descanso y continuar la próxima vez que juegues.</li></ul></li></ul>"
+    },
+    "resolution2": {
+      "title": "Resolución 2",
+      "body": "<p>_Resolución 2_: Solo tú puedes hacer frente a esta grave amenaza. Arkham te necesita ahora.</p><ul><li>Recoge la partida como de costumbre.</li><li>Continúa inmediatamente en _La perdición de Arkham parte II_.</li></ul>"
+    },
+    "resolution3": {
+      "title": "Resolución 3",
+      "body": "<p>_Resolución 3_: Instas a quienes te acompañan a tomarse tiempo para prepararse y te dispones a serenarte para la resistencia final.</p><ul><li>Recoge la partida como de costumbre.</li><li>Cuando quieras volver a jugar, empieza en _La perdición de Arkham parte II_.</li></ul>"
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "intro": {
+    "title": "El barrio sumergido",
+    "drownedQuarter1": "_El barrio sumergido 1_: Al entrar en la cúpula submarina te recibe el chisporroteo de la electricidad. Zanjas anegadas y ruinas que se desmoronan cubren la plaza redonda del lecho marino. Por más que lo intentas, la vista se te va una y otra vez al océano que hay más allá de la barrera alienígena. Un banco de medusas flota como en un sueño por las profundidades tenebrosas. Si el campo de energía desapareciera por cualquier motivo, el agua arrastraría sin remedio a la expedición.",
+    "checkCampaignLog": "Consulta el registro de campaña.",
+    "headedWest": "Si la expedición se dirigió hacia el oeste, continúa en _El barrio sumergido 2_.",
+    "headedEast": "Si la expedición se dirigió hacia el este, salta a _El barrio sumergido 3_.",
+    "drownedQuarter2": "_El barrio sumergido 2_: —Creo que este es el origen. —Andy señala la construcción redonda del centro de la plaza. Descargas eléctricas lamen la burbuja titilante de lo alto. La construcción es la fuente del resplandor y, probablemente, del campo de energía que protege estas ruinas del agua del océano. En su interior encuentras un planetario que gira: un complejo mecanismo de esferas suspendidas y engranajes zumbantes que remueven una corriente eléctrica constante. Encerrado en su núcleo hay un orbe incandescente. Andy se agita, nervioso—. Es lo que alimenta la máquina. No sé qué pasará si lo sacamos, pero... parece algo que el señor Tillinghast querría tener.",
+    "drownedQuarter2Conclusion": "Antes de que puedas poner objeciones, empieza a manipular los antiguos mandos. Tal vez haya un modo de sacar el orbe sin ahogarse...",
+    "drownedQuarter3": "_El barrio sumergido 3_: Sigues a la expedición entre pozas de aguas profundas y ruinas hundidas hasta la fuente del resplandor y, probablemente, del campo de energía. En su interior encuentras un planetario que gira: un complejo mecanismo de esferas suspendidas y engranajes zumbantes que remueven una corriente eléctrica constante. Encerrado en su núcleo hay un orbe incandescente. Ruby ahoga un grito.<br>—Es una especie de estación de bombeo. Apostaría a que ese orbe es una parte importante. Puede que, si lo robamos, se nos venga encima el océano. —Sonríe con picardía—. Así que más te vale estar a punto para echar a correr.",
+    "drownedQuarter3Conclusion": "Antes de que puedas poner objeciones, empieza a manipular los antiguos mandos. Tal vez haya un modo de llevarse el orbe sin ahogarse...",
+    "resolveNoPlaceLikeHome": "Si un investigador tiene la tarea Como en casa, en ningún sitio, resuelve su historia correspondiente, que aparece en la página siguiente.",
+    "proceedToSetup": "Continúa en _Preparación_.",
+    "noPlaceLikeHome": {
+      "title": "Tarea: Como en casa, en ningún sitio",
+      "instructions": "_Léelo solo si tienes la tarea Como en casa, en ningún sitio:_",
+      "body": "La cabeza te da vueltas al alzar la vista hacia el planetario alienígena. La imagen te devuelve a aquella primera noche, la noche en que Tillinghast te sacó de la calle. Las estrellas brillaban mucho, y no puedes olvidar la formación concreta que dibujaban, la misma que tienes ahora delante. Lejos del ajetreo constante y de las preocupaciones de tu vida en Arkham, has estado dando vueltas a las cosas. Las palabras de Tillinghast eran amables, pero su tono era áspero, frío, insensible. Al pensarlo, te das cuenta de que solo has logrado la atención del hombre de negocios cuando le resultabas útil. No había bondad en su gesto; al salvarte, te adquirió como un nombre más entre los lacayos que le deben favores.",
+      "question": "Este es ya tu enésimo «último trabajo». ¿De verdad vale algo la palabra de Tillinghast?",
+      "choose": "Debes decidir (elige una opción):",
+      "trustHim": "«El señor Tillinghast me ha tratado bien. Confío en él». Cura 1 trauma mental o 1 trauma físico de tu investigador. Borra 1 progreso de _Como en casa, en ningún sitio_ en el registro de campaña.",
+      "onMyOwn": "«No tengo a nadie más. No puedo confiar en nadie». Marca 2 progresos en _Como en casa, en ningún sitio_ en el registro de campaña y sufre 1 trauma mental. Cada investigador comienza el siguiente escenario con 2 cartas menos en su mano inicial."
+    },
+    "label": {
+      "noPlaceLikeHome": {
+        "trustHim": "«El señor Tillinghast me ha tratado bien. Confío en él».",
+        "onMyOwn": "«No tengo a nadie más. No puedo confiar en nadie».",
+        "healTraumaQuestion": "Cura 1 trauma mental o 1 trauma físico de tu investigador.",
+        "healPhysicalTrauma": "Curar 1 trauma físico.",
+        "healMentalTrauma": "Curar 1 trauma mental."
+      }
+    }
+  },
+  "setup": {
+    "title": "Preparación",
+    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de Encuentros: _El barrio sumergido_, _Maquinaria alienígena_, _Legado cósmico_, _Profundos_, _Niebla primordial_, _Inundación_, _R’lyeh_ y _Criaturas submarinas_. Estos conjuntos se identifican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/the-drowned-quarter.png' /><img src='{setImgPath}/alien-machinery.png' /><img src='{setImgPath}/cosmic-legacy.png' /><img src='{setImgPath}/tdc_deep-ones.png' /><img src='{setImgPath}/elder-mist.png' /><img src='{setImgPath}/flood.png' /><img src='{setImgPath}/rlyeh.png' /><img src='{setImgPath}/undersea-creatures.png' /></section>",
+    "locationPlacement": "Colocación de Lugares para «El barrio sumergido»",
+    "placeBarrierCore": "Pon en juego Núcleo de la barrera, con el lado (Inactivo) boca arriba.",
+    "gatherSeaFloorLocations": "Reúne todos los Lugares _Fondo marino_ y retira de la partida, al azar, una copia de Arrecife de coral y una copia de Acrópolis sumergida.",
+    "placeSeaFloorLocations": "Baraja los ocho Lugares _Fondo marino_ restantes y ponlos en juego formando una cuadrícula de 3x3 alrededor del Núcleo de la barrera, como se muestra en el diagrama de colocación de Lugares.",
+    "beginAtBarrierCore": "Cada investigador comienza la partida en el Núcleo de la barrera.",
+    "setCardsAside": "Pon aparte, fuera del juego, el Apoyo de historia Nodo de la barrera y las cartas de doble cara Parásito submarino {'{'}runeX{'}'} y Reliquia de obsidiana {'{'}runeY{'}'}.",
+    "chooseExpeditionAsset": "En orden de juego, cada jugador puede elegir 1 Apoyo _Artefacto_ obtenido o 1 Apoyo _Objeto_ del conjunto de Encuentros _Expedición_ para que empiece en juego bajo su control. Este conjunto se identifica con el siguiente icono:<section class='encounter-sets'><img src='{setImgPath}/tdc_expedition.png' /></section>",
+    "addFloodTokens": "Añade las fichas de Inundación a la reserva de fichas y consulta el registro de campaña.",
+    "headedEast": "Si la expedición se dirigió hacia el este, la ciudad que emerge ha sacudido la antigua cúpula. Aumenta el nivel de inundación de 1 {'{'}perPlayer{'}'} Lugares _Fondo marino_.",
+    "buildEncounterDeck": "Baraja las cartas de Encuentro restantes para formar el mazo de Encuentros.",
+    "readyToBegin": "Ya está todo listo para comenzar."
+  },
+  "label": {
+    "chooseFloodedSeaFloor": "Aumenta el nivel de inundación de 1 Lugar Fondo marino por investigador.",
+    "chooseExpeditionAssetQuestion": "Elige un Apoyo de Artefacto obtenido, o un Apoyo de Objeto del conjunto de Encuentros Expedición, para que empiece en juego bajo tu control.",
+    "noExpeditionAsset": "No tomar ningún Apoyo de Artefacto ni de Expedición."
+  },
+  "tokens": {
+    "easyStandard": {
+      "skull": "-X. X es la mitad de la cantidad de Lugares revelados (redondeando hacia abajo).",
+      "cultist": "-2. Si fracasas y tu Lugar está totalmente inundado, recibe 1 punto de daño.",
+      "tablet": "-4. Si fracasas, coloca 1 de tus pistas en tu Lugar.",
+      "elderThing": "-3 (en vez de eso, -5 si tu Lugar no está inundado)."
+    },
+    "hardExpert": {
+      "skull": "-X. X es la cantidad de Lugares revelados.",
+      "cultist": "-3. Si tu Lugar está inundado, recibe 1 punto de daño.",
+      "tablet": "-4. Por cada punto que te falte para tener éxito, coloca 1 de tus pistas en tu Lugar.",
+      "elderThing": "-4 (en vez de eso, -6 si tu Lugar no está inundado)."
+    }
+  },
+  "resolutions": {
+    "xp": {
+      "bonus": "por estudiar a fondo el barrio sumergido"
+    },
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<p>_Resolución 1_: El extraño nodo palpita en tu mano y proyecta una suave burbuja de luz que repele los escombros que caen. Llegas a la entrada justo cuando la cúpula estalla como una pompa. La expedición contempla con una mezcla de sobrecogimiento y miedo cómo un torrente de agua marina reclama la construcción alienígena. Sientes un pequeño pinchazo de dolor en la palma, bajas la vista y ves que el nodo se está enterrando en ella, mientras unos finísimos filamentos negros, como patas de araña, se extienden bajo tu piel. Se retraen sin dolor cuando te arrancas el nodo. A Tillinghast sin duda le complacerá este hallazgo.</p><ul><li>En la sección «Artefactos obtenidos» del registro de campaña, marca la casilla que hay junto a «Nodo de la barrera».</li><li>Salta a la _Resolución 3_.</li></ul>"
+    },
+    "resolution2": {
+      "title": "Resolución 2",
+      "body": "<p>_Resolución 2_: El núcleo reactivado da buena cuenta de la cúpula anegada y desagua en cuestión de minutos. Inspeccionas con la expedición el perímetro de las ruinas sumergidas, maravillándote ante su antigua grandeza. La sensación de caminar por un lecho marino seco, con peces que revolotean al otro lado de la burbuja parpadeante, parece sacada de un sueño. Al cabo de varias horas, la expedición sigue adelante.</p><ul><li>Anota en el registro de campaña que _la energía fue desviada_.</li><li>Cada investigador obtiene 2 puntos de experiencia adicionales por haber estudiado a fondo el barrio sumergido.</li><li>Continúa en la _Resolución 3_.</li></ul>"
+    },
+    "resolution3": {
+      "title": "Resolución 3",
+      "body": "<p>_Resolución 3_: El campo de energía que protege el túnel de regreso a la ciudad sigue aguantando con firmeza. Los cimientos dentados de R’lyeh continúan desprendiéndose a pedazos a medida que la ciudad emerge. Es hora de seguir adelante.</p><ul><li>Tacha «El barrio sumergido» en el mapa de R’lyeh del registro de campaña.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.</li></ul>"
+    },
+    "noResolution": {
+      "title": "Sin resolución",
+      "body": "<p>_Si no se ha llegado a ninguna resolución (todos los investigadores han desistido o han sido derrotados)_: Al otro lado de la entrada de la cúpula, miras el lecho marino a través de la sutil barrera. El océano reclamó la cúpula alienígena en apenas unos segundos. Es un pequeño milagro que no te arrastrara.</p><ul><li>El fracaso te ha hecho perder de vista tus objetivos. Cada investigador debe borrar 1 progreso de su tarea, si es posible.</li><li>Salta a la _Resolución 3_.</li></ul>"
+    }
+  }
+}
