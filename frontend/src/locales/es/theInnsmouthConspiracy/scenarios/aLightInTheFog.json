@@ -1,0 +1,92 @@
+{
+  "heading": "Escenario VI",
+  "setup": {
+    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de Encuentros: *Una luz en la niebla*, *Criaturas de las profundidades*, *Cavernas inundadas*, *Marea creciente*, *Sicigia* y *Miedo impactante*. Estos conjuntos vienen indicados por los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/a-light-in-the-fog.png' /><img src='{setImgPath}/undersea-creatures.png' /><img src='{setImgPath}/flooded-caves.png' /><img src='{setImgPath}/rising-tide.png' /><img src='{setImgPath}/syzygy.png' /><img src='{setImgPath}/striking-fear.png' /></section>",
+    "placeLocations": "Pon en juego en la misma fila la Garita del Cabo del Halcón, el Acantilado del Cabo del Halcón, la Escalera del faro y la Cabaña del farero. Pon en juego la Sala de la linterna directamente encima de la Escalera del faro.",
+    "startAt": "Cada investigador comienza la partida en la Garita del Cabo del Halcón.",
+    "removeUndergroundRivers": "De entre los Lugares Túnel de marea, retira de la partida los 2 Lugares Río subterráneo.",
+    "setAsideOtherLocations": "Pon aparte, fuera del juego, todos los demás Lugares.",
+    "placeKeys": "Pon aparte las llaves de la siguiente forma:",
+    "faceupKeys": "Pon aparte, boca arriba, las llaves blanca, negra, azul, amarilla y roja.",
+    "facedownKeys": "Pon aparte, boca abajo, las llaves morada y verde. Mézclalas para no saber cuál es cuál.",
+    "captured": "Pon en juego la carta de Historia de doble cara «¡Capturados!» junto a la carta de referencia de escenario, con el lado de historia boca arriba. (Esta carta está en el reverso del Lugar Calabozos.) Su texto está activo.",
+    "setAsideCards": "Pon aparte, fuera del juego, las siguientes cartas: el Enemigo Oceiros Marsh, las dos copias de la Traición Digno de su puesto y las dos copias de la Traición Hecho prisionero.",
+    "checkCampaignLog": "Comprueba el Registro de campaña.",
+    "wavewornIdol": "Si _llevaron el ídolo al faro_, busca en la colección el Ídolo desgastado por el oleaje y ponlo aparte, fuera del juego.",
+    "awakenedMantle": "Si _llevaron el manto al faro_, busca en la colección el Manto despertado y ponlo aparte, fuera del juego.",
+    "headdressOfYhaNthlei": "Si _llevaron la diadema al faro_, busca en la colección la Diadema de Y'ha-nthlei y ponla aparte, fuera del juego.",
+    "checkCampaignLogDoom": "Comprueba el Registro de campaña.",
+    "afterSunrise": "Si _los investigadores llegaron al Cabo del Halcón tras la salida del sol_, coloca 1 de Perdición sobre el Plan 1.",
+    "tideHasGrownStronger": "Si _la marea se ha fortalecido_, coloca 1 de Perdición sobre el Plan 1.",
+    "floodTokens": "Añade las fichas de Inundación a la reserva de fichas."
+  },
+  "specialRules": [
+    {
+      "title": "Llaves",
+      "body": "<div class='red bordered'><p class='basic'>En este escenario, las llaves representan lo siguiente:</p><ul><li>Roja: una llave dorada de coral cubierta de extrañas runas brillantes. En la empuñadura lleva inscrita la palabra «Y'ha-nthlei».</li><li>Azul: una llave grabada con el símbolo de un ojo de pez hinchado.</li><li>Verde: un cúmulo de peridoto en bruto del tamaño de un puño que palpita y resplandece con una luz antinatural.</li><li>Amarilla: una pesada argolla de hierro repleta de llaves de celdas.</li><li>Morada: la larva muerta de un pez deforme.</li><li>Negra: un mapa de las profundidades que se extienden bajo el Arrecife del Diablo.</li><li>Blanca: un catalejo de bolsillo.</li></ul></div>"
+    }
+  ],
+  "intro": {
+    "title": "Escenario VI: Una luz en la niebla",
+    "body": "<p>Una niebla teñida de carmesí cubre el cielo cuando llegáis a la garita del Cabo del Halcón. En lo alto de los acantilados, la luz del faro atraviesa la bruma. Visto el estado en que se encuentra Innsmouth, te preguntas para qué sirve ya esa señal. Dudas que haya ningún barco en alta mar con este tiempo inclemente.</p><p>En algún lugar del interior están las pruebas que encontraste hace semanas. Sospechas que Oceiros, el hombre que te capturó y te abandonó en aquel pozo para que murieras, también reside ahí dentro. «¿Preparados?», pregunta la agente Harper. «Si las cosas se tuercen, aquí no tenemos una vía de escape de verdad. Hay que estar preparados para cualquier cosa».</p><p>Asientes. Ya es tarde para echarse atrás. Avanzas con paso firme hacia los acantilados. De un modo u otro, esto termina hoy.</p>"
+  },
+  "flashback12": {
+    "title": "Destello del pasado XII",
+    "body": "<div class='blue'><h1>Destello del pasado XII</h1><p>Alzas la vista hacia el faro del Cabo del Halcón, pero desde mucho más abajo. Vas a bordo del barco de pesca del señor Moore, durante tu travesía al Arrecife del Diablo varias semanas atrás. La embarcación se balancea de lado a lado mientras las olas embravecidas azotan el casco. «Me temo que va a ser un viaje movidito», grita el capitán por encima del estruendo del mar agitado. «El tiempo anda loco de remate últimamente. Mareas raras y vientos más raros todavía».</p><p>Pero tú sigues contemplando el ominoso faro, cuya luz es una guía, una señal de advertencia o ambas cosas. Por curiosidad de saber qué conocerá, preguntas al señor Moore por el faro. «¿Ese trasto? Lleva ahí desde antes que el propio Innsmouth. La familia Marsh lo ha mantenido encendi'o desde que tengo memoria. Ahora el farero es Oceiros. Tipo raro, ese Oceiros. Dicen que el único sitio del pueblo que pisa es el local de la Orden de Dagón, junto a New Church Green». Niega con la cabeza.</p><p>Te preguntas si dentro de ese faro habrá más secretos de lo que parece a simple vista. El señor Moore parece percibir tu curiosidad. «He oído que esos Marsh han excavado cavernas bajo el faro que bajan hasta el nivel del mar y más allá», asegura. «No sé si será verdad, pero a veces, cuando salgo a faenar, he visto grupos de ellos en lo alto del acantilado, agitando los brazos y arrodillándose como si rezaran o algo así. Nunca le he hecho mucho caso, pero...», baja la voz. «Pensé que debías saberlo».</p><p>Asientes y le das las gracias. Si lo que dice es cierto, quizá deberías hacer una visita a ese faro. Tomas nota mentalmente de investigar más sobre el Cabo del Halcón cuando vuelvas al pueblo.</p><p>Cuando tu mente regresa de golpe al presente, recuerdas las pesquisas que hiciste tras la expedición al Arrecife del Diablo y la información que encontraste sobre la vasta red de túneles que hay bajo el faro...</p><hr /><p class='basic'>Anota en la sección «Recuerdos recuperados» del Registro de campaña *una conversación con el señor Moore*.</p><p class='basic'>Elige una de las siguientes fichas de Caos y retírala de la bolsa de caos durante el resto de la campaña ({'{'}cultist{'}'}, {'{'}tablet{'}'} o {'{'}elderThing{'}'}).</p><p class='basic'>El investigador Jefe obtiene 1 {'{'}perPlayer{'}'} Pistas de la reserva.</p></div>"
+  },
+  "flashback13": {
+    "title": "Destello del pasado XIII",
+    "body": "<div class='blue'><h1>Destello del pasado XIII</h1><p>Hablas con uno de los muchos marineros que frecuentan una taberna destartalada junto a los muelles de Innsmouth, en algún lugar de los suburbios del sudeste del decrépito puerto. Se ha buscado un rincón propio en el local donde esconderse y ahogarse en alcohol. Tanto mejor: prefieres llevar tu investigación con discreción.</p><p>Tomas notas mientras el borracho divaga sobre las criaturas que ha visto nadar frente a la costa y merodear por los arrecifes. «Profundos», los llama. «Una vez pesqué uno con la red», farfulla con la lengua trabada. «Ella y sus huevos, ¡así como lo oyes!, ¡sus huevos, más grandes que un puño, y que se retorcían y se meneaban, además!».</p><p>Absorto en el ritual de contar historias a sus compañeros de la mar, entra en detalles: «Llevaba a uno en brazos. Un diablillo diminuto, con unos ojos saltones llenos de odio. No soportaba mirarlo. En cuanto me di cuenta de lo que había pesca'o, tiré la red por la borda y me volví derecho aquí. Si por mí fuera, no volvería a navegar nunca».</p><p>Rumias esta nueva información. Si este hombre dice la verdad, esas criaturas parecen tener un ciclo vital semejante al de un pez. Pero entonces, ¿qué función cumplen los insólitos híbridos que has visto merodear por el pueblo? ¿No son más que fruto de tu imaginación atemorizada? ¿O hay una parte mucho más siniestra de este ciclo vital que se te escapa?</p><hr /><p class='basic'>Anota en la sección «Recuerdos recuperados» del Registro de campaña *el ciclo vital de un «profundo»*.</p><p class='basic'>Elige una de las siguientes fichas de Caos y retírala de la bolsa de caos durante el resto de la campaña ({'{'}cultist{'}'}, {'{'}tablet{'}'} o {'{'}elderThing{'}'}).</p></div>"
+  },
+  "resolutions": {
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<p>_Resolución 1_: Sin fuerzas, te dejas caer sobre la orilla rocosa. Las olas te lamen los tobillos mientras contemplas el cielo. Tras las nubes, intensos tonos carmesíes auguran un final funesto para toda la humanidad. El cráneo te palpita de dolor mientras te esfuerzas por recordar por qué. La luna y el sol se deslizan hasta alinearse. Un estruendo atronador resuena a lo lejos. Nubes oscuras y revueltas se arremolinan y bullen sobre el océano rencoroso. ¿Qué significa todo esto? ¿Cuál es la verdad que se esconde tras la Orden Esotérica de Dagón? ¿La verdad oculta en el Arrecife del Diablo? La oscuridad vuelve a adueñarse de tus sentidos.</p>"
+    },
+    "resolution2": {
+      "title": "Resolución 2",
+      "body": "<p>_Resolución 2_: El agotamiento y la desesperación te carcomen los músculos mientras escapas hacia los bosques oscuros que rodean el Cabo del Halcón. Sabes que es demasiado peligroso detenerse, pero apenas te tienes en pie. Te apoyas contra un árbol cercano y contemplas el cielo. Tras las nubes, intensos tonos carmesíes auguran un final funesto para toda la humanidad. El cráneo te palpita mientras te esfuerzas por recordar por qué. La luna y el sol se deslizan hasta alinearse. Un estruendo atronador resuena a lo lejos. Nubes oscuras y revueltas se arremolinan y bullen sobre el océano rencoroso. ¿Qué significa todo esto? ¿Cuál es la verdad que se esconde tras la Orden Esotérica de Dagón? ¿La verdad oculta en el Arrecife del Diablo? La oscuridad vuelve a adueñarse de tus sentidos.</p>"
+    },
+    "resolution3": {
+      "title": "Resolución 3",
+      "body": "<p>_Resolución 3_: Te invade el pánico cuando el nivel del agua sube hasta el techo de la caverna. Ya no queda aire que respirar. Sientes cómo las corrientes tiran de ti hacia abajo, cada vez más hondo, donde aguardan al acecho los ojos saltones y brillantes de los profundos. Nadas a la desesperada hasta la trampilla del sótano del faro. Tu única esperanza es forzarla y arrastrarte hasta las estancias de arriba, donde espera el dulce oxígeno. Empujas y empujas con todas tus fuerzas, esperando, imaginando, rezando por que en cualquier momento tu fuerza haga saltar la trampilla. Los pulmones están a punto de estallarte. ¡No! ¡Este no puede ser el final! Forcejeas y luchas por sobrevivir, pero la cerradura no cede. Hambrientos de aire, tus pulmones claudican. La garganta se te llena de agua salada y fría. Lo último que sientes son unas manos palmeadas que te agarran los tobillos.</p>"
+    },
+    "resolution4": {
+      "title": "Resolución 4",
+      "body": "<p>_Resolución 4_: Venir aquí ha sido un terrible error. El Cabo del Halcón no es un simple faro, sino un cuartel general de la Orden de Dagón, aún más hostil y mortífero que el pueblo de Innsmouth que dejaste atrás. Con el peligro a cada paso y el rencoroso farero pisándote los talones, abandonas los secretos del faro y huyes hacia los bosques oscuros.</p><p>Cuando ya has penetrado tanto en la arboleda que no se ve la luz del faro, no te quedan fuerzas para nada. Sabes que es demasiado peligroso detenerse, pero apenas te tienes en pie. Te apoyas contra un árbol cercano y contemplas el cielo. Tras las nubes, intensos tonos carmesíes auguran un final funesto para toda la humanidad. El cráneo te palpita mientras te esfuerzas por recordar por qué. La luna y el sol se deslizan hasta alinearse. Un estruendo atronador resuena a lo lejos. Nubes oscuras y revueltas se arremolinan y bullen sobre el océano rencoroso. ¿Qué significa todo esto? ¿Cuál es la verdad que se esconde tras la Orden Esotérica de Dagón? ¿La verdad oculta en el Arrecife del Diablo? La oscuridad vuelve a adueñarse de ti.</p>"
+    }
+  },
+  "tokens": {
+    "easyStandard": {
+      "skull": "-1. Si tu Lugar está inundado, revela una ficha de Caos adicional.",
+      "cultist": "-2. Si fracasas, después de que termine esta prueba, aumenta el nivel de inundación de tu Lugar.",
+      "tablet": "-3. Si fracasas en esta prueba y tu Lugar está inundado, sufre 1 punto de daño.",
+      "elderThing": "-4. Si fracasas, mueve una vez hacia tu Lugar al Enemigo preparado y sin enfrentar más cercano. Pierde Indiferente durante este movimiento."
+    },
+    "hardExpert": {
+      "skull": "-2. Si tu Lugar está inundado, revela una ficha de Caos adicional.",
+      "cultist": "-2. Si fracasas, después de que termine esta prueba, aumenta el nivel de inundación de tu Lugar (si no puedes, sufre en su lugar 1 punto de horror).",
+      "tablet": "-3. Si fracasas en esta prueba y tu Lugar está inundado, sufre 2 puntos de daño.",
+      "elderThing": "-4. Mueve una vez hacia tu Lugar al Enemigo sin enfrentar más cercano. Pierde Indiferente durante este movimiento."
+    }
+  },
+  "pumpRoom": {
+    "label": {
+      "decreaseFlood": "Elige un Lugar para disminuir su nivel de inundación",
+      "increaseFlood": "Elige un Lugar para aumentar su nivel de inundación"
+    }
+  },
+  "tooltips": {
+    "theMoonRoom": {
+      "resign": "Te pones uno de los trajes de buzo vacíos y te zambulles en el estanque reflectante"
+    },
+    "falconPointGatehouse": {
+      "resign": "Vuelves al bosque, dejando atrás el faro y sus misterios."
+    }
+  },
+  "worshippersOfTheDeep": {
+    "label": {
+      "moveBelow": "Mover al Lugar situado directamente debajo de su Lugar"
+    }
+  }
+}

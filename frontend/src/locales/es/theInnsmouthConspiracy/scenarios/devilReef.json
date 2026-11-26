@@ -1,0 +1,94 @@
+{
+  "heading": "Escenario IV",
+  "setup": {
+    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de Encuentros: *El arrecife del diablo*, *Agentes de Hidra*, *Criaturas de las profundidades*, *Cavernas inundadas*, *Avería* y *Marea creciente*. Estos conjuntos vienen indicados por los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/devil-reef.png' /><img src='{setImgPath}/agents-of-hydra.png' /><img src='{setImgPath}/undersea-creatures.png' /><img src='{setImgPath}/flooded-caves.png' /><img src='{setImgPath}/malfunction.png' /><img src='{setImgPath}/rising-tide.png' /></section>",
+    "placeKeys": "Pon aparte las llaves de la siguiente forma:",
+    "faceupKeys": "Pon aparte, boca arriba, las llaves morada, blanca y negra.",
+    "facedownKeys": "Pon aparte, boca abajo, las llaves amarilla, verde, roja y azul. Mézclalas para no saber cuál es cuál.",
+    "churningWaters": "Pon en juego el Lugar Aguas agitadas. (Entra en juego totalmente inundado.)",
+    "fishingVessel": "Pon en juego el Apoyo de historia Barco de pesca en las Aguas agitadas.",
+    "startInVessel": "Cada investigador comienza la partida en el Barco de pesca.",
+    "setAsideRelics": "Pon aparte, fuera del juego, los siguientes Apoyos de historia: Manto despertado, Diadema de Y'ha-nthlei e Ídolo desgastado por el oleaje.",
+    "devilReefLocations": "Baraja los 5 Lugares del Arrecife del Diablo y ponlos todos en juego, con el lado sin descubrir boca arriba.",
+    "notAdjacent": "No los coloques adyacentes a las Aguas agitadas: estos Lugares no se conectan por adyacencia, sino mediante sus símbolos de conexión.",
+    "unfathomableDepths": "Prepara las Profundidades insondables siguiendo estos pasos:",
+    "removeThree": "Primero, retira de la partida, sin mirarlos, 1 de cada uno de los siguientes Lugares: Ruinas ciclópeas, Gruta de profundos y Templo de la unión. Cada uno de estos Lugares es el lado descubierto de un Lugar Profundidades insondables.",
+    "setAsideThree": "Pon aparte, fuera del juego, los 3 Lugares Profundidades insondables restantes.",
+    "tidalTunnelsDeck": "Baraja los 8 Lugares Túnel de marea para formar el mazo de Túneles de marea.",
+    "unrevealedSide": "Todas las cartas del mazo de Túneles de marea deben estar con el lado sin descubrir boca arriba, de modo que solo se vea el lado «Túnel de marea».",
+    "placeNearEncounterDeck": "Coloca este mazo cerca del mazo de Encuentros.",
+    "checkCampaignLog": "Consulta la sección «Recuerdos recuperados» del Registro de campaña. En función de las siguientes circunstancias, debe usarse una versión distinta del Plan 1 en este escenario. Retira de la partida la otra versión del Plan 1.",
+    "secretsOfTheSeaV1": "Si en «Recuerdos recuperados» aparece _una batalla con un horripilante demonio_, usa el Plan 1a: Secretos del mar (v. I).",
+    "secretsOfTheSeaV2": "En caso contrario, usa el Plan 1a: Secretos del mar (v. II).",
+    "floodTokens": "Añade las fichas de Inundación a la reserva de fichas."
+  },
+  "specialRules": [
+    {
+      "title": "Vehículos",
+      "body": "<p class='basic'>Un Apoyo con la palabra clave Vehículo representa un vehículo al que los investigadores pueden subir o del que pueden bajar. Un Apoyo con esta palabra clave se llama vehículo y sigue estas reglas:</p><ul><li>Mientras la minicarta de un investigador esté colocada solapando un vehículo, ese investigador está en ese vehículo. En cambio, mientras la minicarta de un investigador esté colocada solapando su Lugar, ese investigador no está en ningún vehículo (aunque esté en el mismo Lugar que uno).<ul><li>Como capacidad {'{'}action{'}'}, un investigador puede subir a un vehículo que esté en su Lugar o bajar de él. Mueve la minicarta de ese investigador sobre el vehículo, o fuera de él y sobre su Lugar, para indicar su nueva posición. Cada investigador solo puede usar esta capacidad una vez por ronda.</li><li>Un investigador que está en un vehículo está también en el Lugar de ese vehículo.</li><li>Mientras un investigador esté en un vehículo, no puede moverse con independencia del vehículo.</li></ul></li><li>Los vehículos suelen tener una o más capacidades que les permiten moverse a un Lugar conectado. Cuando un vehículo se mueve de un Lugar a otro, todos los investigadores que van en él se mueven con el vehículo.</li><li>Los vehículos no alteran en modo alguno el movimiento ni el enfrentamiento de los Enemigos, salvo que se indique otra cosa.</li></ul>"
+    },
+    {
+      "title": "Llaves",
+      "body": "<div class='red bordered'><p class='basic'>En este escenario, las llaves representan lo siguiente:</p><ul><li>Roja / Azul / Verde / Amarilla: diversos artilugios que sirven para acceder a las partes más profundas del Arrecife del Diablo.</li><li>Morada: un extraño ídolo.</li><li>Negra: una diadema mística.</li><li>Blanca: un manto impío.</li></ul></div>"
+    }
+  ],
+  "deepOnePredator": {
+    "label": {
+      "moveKey": "Mover la llave {key} al Profundo depredador",
+      "moveClue": "Mover una de tus Pistas al Profundo depredador"
+    }
+  },
+  "deepOneHatchling": {
+    "label": {
+      "attacksYou": "La Cría de profundo te ataca"
+    }
+  },
+  "intro1": {
+    "title": "Escenario IV: Arrecife del Diablo",
+    "body": "<header><p>VIERNES, 2 DE SEPTIEMBRE DE 1927</p><p>TRES SEMANAS ANTES</p></header><p><b>Introducción 1:</b> El rugido del motor del barco te arranca de tus pensamientos. «¿Te encuentras bien?», gruñe el capitán. «Ni que hubieras visto un fantasma. Estás más blanco que la pared».</p><p>Te vuelves hacia el viejo curtido. El señor Moore era el único capitán que encontraste en Innsmouth libre de la maldición o deformidad que atenaza a la mayor parte del pueblo. Su aparente humanidad, sin embargo, no le ha librado de tener los dientes rotos, la mandíbula torcida y una enorme cicatriz que le surca la mejilla derecha. Aun así, verlo es un alivio, teniendo en cuenta cómo ha ido el resto de la investigación.</p><p>«No me puedo creer que quieras ir a ese condena'o Arrecife del Diablo», exclama, negando con la cabeza. «Es cosa de necios».</p><p>Le recuerdas que bien contento se puso de llevarte cuando le enseñaste su paga, lo que le arranca una risa rasposa.</p><p>«Ahí me has pillado», admite. «Ahora prepárate. Zarpamos en diez minutos». Pasa a trompicones de la cubierta principal al puente para trazar el rumbo mientras te preparas para el viaje que te espera.</p>"
+  },
+  "intro2": {
+    "title": "Escenario IV: Arrecife del Diablo",
+    "body": "<p><b>Introducción 2:</b> El agente Dawson sube por fin a bordo. Viste un grueso abrigo y lleva una escopeta colgada al hombro. «La agente Harper tenía un alijo con algo de potencia de fuego extra», explica. «Dados los rumores, he pensado que no estaría de más».</p><p>Sabes a qué rumores se refiere: se dice que el Arrecife del Diablo está encantado, o quizá infestado, por alguna especie de criatura marina diabólica. Los marineros de Innsmouth hablan de siluetas que entran y salen a gatas de las cuevas de las muchas islas del arrecife, de aletas extrañamente deformes avistadas en la superficie del mar y de barcos enteros que se estrellan contra las rocas afiladas y desaparecen bajo las olas.</p><p>«Toda nuestra investigación nos ha traído hasta aquí. Sea lo que sea lo que pasa en este pueblo, la Orden Esotérica de Dagón y este \"Arrecife del Diablo\" están en el centro de todo. La agente Harper sospecha que la Orden difundió esos rumores para mantener a los marineros lejos del arrecife. Si es así, tiene que haber algo que la Orden está ocultando».</p><p>Preguntas dónde está Harper, y Dawson te lanza una mirada severa. «Ella tiene su misión. Nosotros, la nuestra». Le recuerdas a Dawson que ya cumpliste la misión para la que te contrataron, lo que arranca una media sonrisa al curtido veterano. «Cierto. Y sin embargo, aquí estás».</p><p>No le falta razón. Podrías haberte marchado justo después del rescate de Harper, pero te quedaste para colaborar en su investigación. Quizá por sentido del deber, o quizá por curiosidad. Fuera lo que fuese, ahora estás aquí, y ya no hay vuelta atrás.</p>"
+  },
+  "intro3": {
+    "title": "Escenario IV: Arrecife del Diablo",
+    "body": "<p><b>Introducción 3:</b> El agente Dawson sube por fin a bordo. Unas grandes ojeras cuelgan bajo sus ojos cansados. «Todas nuestras pistas se han enfriado», dice con resignación. «Esté donde esté la agente Harper, ya está fuera de nuestro alcance».</p><p>Intentas consolar a Dawson recordándole por qué habéis decidido investigar el Arrecife del Diablo. Según los rumores, está encantado, o quizá infestado, por alguna especie de criatura marina diabólica. Los marineros de Innsmouth hablan de siluetas que entran y salen a gatas de las cuevas de las muchas islas del arrecife, de aletas extrañamente deformes avistadas en la superficie del mar y de barcos enteros que se estrellan contra las rocas afiladas y desaparecen bajo las olas.</p><p>«Tienes razón», admite Dawson con un suspiro. «Lo que sea que le ocurriera a la agente Harper tiene que ver con la Orden Esotérica de Dagón. El libro que deslizaron bajo la puerta de tu habitación del hotel es prueba suficiente. Y si mi hipótesis es correcta, quienes han estado difundiendo esos rumores sobre el Arrecife del Diablo no son otros que los de la propia Orden. Si es así, tiene que haber algo que están ocultando».</p><p>Asientes y empiezas a prepararte para la misión. El agente Dawson te observa con curiosidad todo el tiempo. «¿Por qué te quedaste?», pregunta al fin. «Podrías haberte marchado de Innsmouth cuando fracasamos en el rescate de la agente Harper, pero decidiste quedarte. ¿Por qué?».</p><p>La verdad es que no lo tienes claro. Quizá fuera por sentido del deber. Quizá por curiosidad. Te encoges de hombros y le dices que no importa. Ahora estás aquí, y ya no hay vuelta atrás. Tu confesión te vale una sonrisa del curtido veterano.</p><p>«Bien. Vamos a descubrir qué esconden», dice.</p>"
+  },
+  "flashback9": {
+    "title": "Destello del pasado IX",
+    "body": "<div class='blue'><h1>Destello del pasado IX</h1><p>Mientras vadeas la caverna inundada, tu pie choca contra algo duro y metálico. El agua está demasiado oscura y turbia para ver qué hay bajo la superficie. Contienes el aliento, te sumerges y tanteas en busca del objeto. Al final, tus manos se cierran sobre algo liso y pesado. Lo arrastras hasta la superficie y lo subes a un saliente de roca.</p><p>Es una estatua que representa a algún tipo de entidad, o quizá a una deidad, aunque no se parece a ninguna figura religiosa que hayas visto. Sus insólitos tentáculos espinosos y su único ojo fulminante de cristal translúcido te ponen la piel de gallina. Y sin embargo, también te llama, como el sonido de las olas rompiendo en la orilla en un día nublado y brumoso...</p><hr /><p class='basic'>Anota en la sección «Recuerdos recuperados» del Registro de campaña *el descubrimiento de un extraño ídolo*.</p><p class='basic'>Toma el control de la llave morada y del Apoyo de historia <span data-image-id='07179'>Ídolo desgastado por el oleaje</span> puesto aparte. Coloca la llave morada sobre el <span data-image-id='07179'>Ídolo desgastado por el oleaje</span>. *(Sigue bajo el control de ese investigador.)* Durante el resto de la partida, quien tome el control de la llave morada toma también el control del <span data-image-id='07179'>Ídolo desgastado por el oleaje</span>. Si la llave morada se coloca sobre otra carta, coloca el <span data-image-id='07179'>Ídolo desgastado por el oleaje</span> cerca de esa carta, sin controlar. Si la llave morada abandona el juego, retira de la partida el <span data-image-id='07179'>Ídolo desgastado por el oleaje</span>.</p></div>"
+  },
+  "flashback10": {
+    "title": "Destello del pasado X",
+    "body": "<div class='blue'><h1>Destello del pasado X</h1><p>Nadas a través de una serie de vastas salas submarinas hasta que por fin llegas a un círculo de columnas. En el interior de este crómlech sumergido se alza un altar cubierto con una tela ornamentada. Está bordada con ricos hilos de oro e incrustada de ópalos cerúleos. Pese a estar sumergido, el tejido parece perfectamente conservado. Preguntándote qué hace un objeto así en lo hondo de esta caverna submarina, decides llevártelo.</p><p>En cuanto emerges de las profundidades y pisas piedra seca, adviertes con asombro que la tela está completamente seca. Al darle vueltas entre las manos, encuentras un broche de oro y comprendes que no es una simple pieza de tela sin forma, sino un manto, quizá incluso parte de un atuendo mayor. Cuando te pones la extraña capa, sus gemas palpitan con poder arcano.</p><hr /><p class='basic'>Anota en la sección «Recuerdos recuperados» del Registro de campaña *el descubrimiento de un manto impío*.</p><p class='basic'>Toma el control de la llave blanca y del Apoyo de historia <span data-image-id='07180'>Manto despertado</span> puesto aparte. Coloca la llave blanca sobre el <span data-image-id='07180'>Manto despertado</span>. *(Sigue bajo el control de ese investigador.)* Durante el resto de la partida, quien tome el control de la llave blanca toma también el control del <span data-image-id='07180'>Manto despertado</span>. Si la llave blanca se coloca sobre otra carta, coloca el <span data-image-id='07180'>Manto despertado</span> cerca de esa carta, sin controlar. Si la llave blanca abandona el juego, retira de la partida el <span data-image-id='07180'>Manto despertado</span>.</p></div>"
+  },
+  "flashback11": {
+    "title": "Destello del pasado XI",
+    "body": "<div class='blue'><h1>Destello del pasado XI</h1><p>Llegas a un saliente de roca que domina una especie de ceremonia. Horrendas criaturas semejantes a peces se postran ante dos enormes estatuas: una de ónice y otra de mármol blanco. Al borde de esta cornisa reposa una corona de oro con un dibujo que recuerda a una concha y tres cuernos bien diferenciados. Sea lo que sea este artefacto, está claro que es importante para esas criaturas. Haces acopio de valor, te apoderas de él y escapas mientras aún puedes. La reliquia vibra con poder en tus manos mientras huyes.</p><hr /><p class='basic'>Anota en la sección «Recuerdos recuperados» del Registro de campaña *el descubrimiento de una reliquia mística*.</p><p class='basic'>Toma el control de la llave negra y del Apoyo de historia <span data-image-id='07181'>Diadema de Y'ha-nthlei</span> puesto aparte. Coloca la llave negra sobre la <span data-image-id='07181'>Diadema de Y'ha-nthlei</span>. *(Sigue bajo el control de ese investigador.)* Durante el resto de la partida, quien tome el control de la llave negra toma también el control de la <span data-image-id='07181'>Diadema de Y'ha-nthlei</span>. Si la llave negra se coloca sobre otra carta, coloca la <span data-image-id='07181'>Diadema de Y'ha-nthlei</span> cerca de esa carta, sin controlar. Si la llave negra abandona el juego, retira de la partida la <span data-image-id='07181'>Diadema de Y'ha-nthlei</span>.</p></div>"
+  },
+  "resolutions": {
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<p>_Resolución 1_: Con la luz del día menguando y la marea subiendo hasta engullir las distintas islas frente a la costa de Innsmouth, decides regresar al puerto con tus hallazgos. «¿Has encontra'o lo que buscabas?», pregunta el señor Moore cuando ya habéis alcanzado la costa sin percances.</p><p>La verdad es que no lo tienes del todo claro. Lo que has encontrado es sobrecogedor. Las calas y las cavernas de marea del Arrecife del Diablo no solo albergaban reliquias de la Orden Esotérica de Dagón, sino también una horda de extrañas criaturas: híbridos entre pez, hombre y monstruo. Puede que hayas escapado con vida, pero los horrores que viste en esas cuevas te acompañarán para siempre. Dientes afilados y dentados, altares manchados de sangre, plegarias impías, señales de una catástrofe inminente... todo ello sigue atormentándote incluso después de haber escapado.</p><p>Pero ¿está Innsmouth realmente a salvo? ¿Lo está acaso alguna tierra?</p>"
+    }
+  },
+  "tokens": {
+    "easyStandard": {
+      "skull": "-X. X es el número de llaves que controlan los investigadores.",
+      "cultist": "-2. Si fracasas y se trata de un intento de ataque o de evitar contra un Enemigo _Profundo_, se enfrenta a ti. (Si ya está enfrentado a ti, primero deja de estarlo y después vuelve a enfrentarse a ti.)",
+      "tablet": "-3. Si fracasas y no estás en un vehículo, sufre 1 punto de daño.",
+      "elderThing": "-4. Si fracasas y tu Lugar tiene una llave, sufre 1 punto de horror."
+    },
+    "hardExpert": {
+      "skull": "-X. X es 1 más que el número de llaves que controlan los investigadores.",
+      "cultist": "-3. Si se trata de un intento de ataque o de evitar contra un Enemigo _Profundo_, se enfrenta a ti. (Si ya está enfrentado a ti, primero deja de estarlo y después vuelve a enfrentarse a ti.)",
+      "tablet": "-4. Si no estás en un vehículo, sufre 1 punto de daño.",
+      "elderThing": "-5. Si tu Lugar tiene una llave, sufre 1 punto de horror."
+    }
+  },
+  "label": {
+    "shuffleThomasDawsonInto": "Elige en el mazo de qué investigador barajar a Thomas Dawson",
+    "addThomasDawsonToHand": "Elige qué investigador añade a Thomas Dawson a su mano"
+  }
+}

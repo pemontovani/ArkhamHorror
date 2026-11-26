@@ -1,0 +1,141 @@
+{
+  "heading": "Escenario VIII",
+  "setup": {
+    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de Encuentros: *Hacia el remolino*, *Agentes de Hidra*, *Criaturas de las profundidades*, *Cavernas inundadas*, *Recuerdos fragmentados*, *Sicigia* y *Antiguos males*. Estos conjuntos vienen indicados por los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/into-the-maelstrom.png' /><img src='{setImgPath}/agents-of-hydra.png' /><img src='{setImgPath}/undersea-creatures.png' /><img src='{setImgPath}/flooded-caves.png' /><img src='{setImgPath}/shattered-memories.png' /><img src='{setImgPath}/syzygy.png' /><img src='{setImgPath}/ancient-evils.png' /></section>",
+    "placeKeys": "Comprueba el Registro de campaña. Coloca las llaves azul, roja, verde y amarilla de la siguiente forma:",
+    "blueKey": "Si _los investigadores tienen la llave de Y'ha-nthlei_, elige a un investigador para que tome el control de la llave azul. En caso contrario, ponla aparte, boca abajo.",
+    "redKey": "Si _los investigadores tienen un mapa de Y'ha-nthlei_, elige a un investigador para que tome el control de la llave roja. En caso contrario, ponla aparte, boca abajo.",
+    "greenKey": "Si _el guardián de Y'ha-nthlei ha sido derrotado_, elige a un investigador para que tome el control de la llave verde. En caso contrario, ponla aparte, boca abajo.",
+    "yellowKey": "Si _la puerta de Y'ha-nthlei te reconoce como su guardián por derecho_, elige a un investigador para que tome el control de la llave amarilla. En caso contrario, ponla aparte, boca abajo.",
+    "fewerThanFour": "Si hay menos de 4 llaves puestas aparte, mezcla boca abajo las llaves morada, blanca y negra. Después, ve poniéndolas aparte de una en una hasta que haya como máximo 4 llaves puestas aparte. Retira de la partida las llaves restantes que sobren. Las llaves retiradas no se usarán en este escenario.",
+    "shuffleKeys": "Mezcla las llaves puestas aparte para no saber cuál es cuál.",
+    "placeLocations": "Pon en juego el Portal a Y'ha-nthlei. (Entra en juego parcialmente inundado.) Pon en juego los 8 Lugares Túnel de marea rodeándolo.",
+    "startAt": "Cada investigador comienza la partida en el Portal a Y'ha-nthlei.",
+    "setAsideOtherLocations": "Pon aparte, fuera del juego, todos los demás Lugares.",
+    "checkCampaignLog": "Comprueba el Registro de campaña.",
+    "divingSuits": "Cada investigador que _tenga un traje de buzo_ comienza la partida con un Apoyo de historia Traje de buzo en su zona de juego.",
+    "removeUnusedDivingSuits": "Retira de la partida los Trajes de buzo que no se usen.",
+    "actDeck": "Al formar el mazo de Acto, usa solo la versión Ciudad de las profundidades (v. I) del Acto 2a. Pon aparte, fuera del juego, Ciudad de las profundidades (v. II) y Ciudad de las profundidades (v. III).",
+    "setAsideCards": "Pon aparte, fuera del juego, el Enemigo Lloigor, el Enemigo Abominación acuática, el Enemigo de doble cara Hidra y el Enemigo de doble cara Dagón.",
+    "floodTokens": "Añade las fichas de Inundación a la reserva de fichas."
+  },
+  "specialRules": [
+    {
+      "title": "Llaves",
+      "body": "<div class='red bordered'><p class='basic'>En este escenario, las llaves representan lo siguiente:</p><ul><li>Roja: información sobre la ruta sobrenatural a Y'ha-nthlei y los secretos que encierra.</li><li>Azul: una llave que permite cruzar el portal de Y'ha-nthlei y sus demás umbrales.</li><li>Verde: un trofeo que demuestra que se es digno de entrar en Y'ha-nthlei y comulgar con sus deidades.</li><li>Amarilla: una insignia que simboliza la lealtad a Y'ha-nthlei y a sus deidades.</li><li>Morada: una llave de oro reluciente para abrir las cámaras acorazadas de las profundidades.</li><li>Negra: una llave de obsidiana que sirve para activar las numerosas trampas de la ciudad de las profundidades.</li><li>Blanca: una llave de coral, una de las muchas que se usan para orientarse por las honduras de Y'ha-nthlei.</li></ul></div>"
+    }
+  ],
+  "hydrasBrood": {
+    "label": {
+      "placeDoomOnHydra": "Colocar 1 de Perdición sobre Hidra",
+      "hydraAttacksYou": "Hidra te ataca"
+    }
+  },
+  "dagonsBrood": {
+    "label": {
+      "placeDoomOnDagon": "Colocar 1 de Perdición sobre Dagón",
+      "dagonAttacksYou": "Dagón te ataca"
+    }
+  },
+  "dagonDeepInSlumber": {
+    "label": {
+      "exhaustDagon": "Agotar a Dagón",
+      "removeDoomFromDagon": "Retirar 1 de Perdición de Dagón"
+    }
+  },
+  "hydraDeepInSlumber": {
+    "label": {
+      "exhaustHydra": "Agotar a Hidra",
+      "removeDoomFromHydra": "Retirar 1 de Perdición de Hidra"
+    }
+  },
+  "intro": {
+    "title": "Escenario VIII: Hacia el remolino",
+    "body": "<p>Tu plan es sencillo. Temerario, pero sencillo. Todo lo que has averiguado te lleva a concluir que la Orden Esotérica de Dagón es la causa tanto de la subida de las mareas como de la aparición de los horrendos «profundos». Y no solo eso: a lo largo de las últimas décadas, la Orden ha ido transformando a los vecinos en más de esas criaturas espantosas, y las ha utilizado para infiltrarse en Innsmouth desde dentro. Pero lo peor de todo es que la entidad a la que adora la secta, Dagón, no es más que una de dos. Su compañera, Hidra, aún duerme en los abismos bajo Innsmouth, esperando despertar para reclamar su dominio sobre un océano sin fin.</p><p>Estas son las conclusiones que te han llevado a tu plan: viajar una vez más al Arrecife del Diablo, descender a la ciudad de los profundos que yace oculta en el fondo del océano y acabar de una vez por todas con sus planes. La agente Harper te ayuda con los preparativos y carga tus pertenencias en el barco que conseguiste robar de lo que quedaba de los muelles de Innsmouth. «Solo tenemos una oportunidad», dice Harper. «No creo que haga falta recordarte lo que podría pasar si fracasamos». Mira de forma elocuente las ruinas inundadas de Innsmouth. «¿Todo listo?».</p>"
+  },
+  "flashback14": {
+    "title": "Destello del pasado XIV",
+    "body": "<div class='blue'><h1>Destello del pasado XIV</h1><p>Vuelves a estar muy por debajo de la sede de la Orden Esotérica de Dagón, saliendo de la sala donde habías interrumpido el ritual de la Orden. Sigues al agente Dawson por una serie de sinuosos corredores inundados, flanqueados por estatuas de monstruosidades acuáticas y bestias deformes. Preguntas a Dawson adónde vais exactamente, pero no responde. Por fin entráis en otra cámara, parecida a la anterior. Sus paredes están cubiertas de efigies sobrenaturales y de una representación de las olas del océano arremolinándose bajo una alineación de astros. Un estanque que te resulta familiar domina la caverna, y en su interior duerme la oscura silueta de algo descomunal. Para tu sorpresa, la agente Harper está de pie ante el estanque, contemplando su oscuro reflejo. Se vuelve sobresaltada al oírte llegar y solo se relaja al ver quién eres. «¿Está hecho?», pregunta Dawson.</p><p>Asiente. «Este no va a despertar en una buena temporada».</p><p>«Bien. La Orden nos ha descubierto. No tenemos tiempo que perder. Vamos a la cámara acorazada a coger lo que hemos venido a buscar».</p><p>Te quedas de piedra. ¿Qué está pasando aquí exactamente? Los dos agentes notan tu desconcierto a la vez. Una sombría revelación se abre paso cuando comprendes la verdad de la situación. La agencia no vino a investigar actividades delictivas en Innsmouth. Vino a por otra cosa. Y las únicas cámaras acorazadas que has visto hasta ahora en estas profundidades son las que están repletas de riquezas arcaicas. La fortuna material que ha mantenido a flote el pueblo de Innsmouth todos estos años, quizá las mismas riquezas que persuadieron a tantos vecinos de seguir a la Orden y renunciar a su propia humanidad.</p><p>Conteniendo la frustración, preguntas cuánto de lo que te contó Dawson era mentira. «No todo», responde con calma. «La agente Harper estaba desaparecida cuando contacté contigo, eso era cierto. Pero la enviaron aquí con otra misión. Una que debemos cumplir en este mismo momento o nos arriesgamos a perder todo aquello por lo que hemos trabajado. Y vas a ayudarnos».</p><p>Te cruzas de brazos en señal de desafío. Una cosa es que te hayan ocultado la verdad los dos agentes por los que te has jugado la vida. Otra muy distinta es ayudarlos a llevarse a escondidas un tesoro para el gobierno, sobre todo cuando hay tanto más en juego.</p><p>«Creo que no lo entiendes», replica Dawson con voz sorprendentemente serena. «Eres un recurso de la agencia y estás bajo mi autoridad. Harás lo que te ordene». A medida que el silencio entre ambos se vuelve más tenso, ves que la mano de Dawson se desliza hacia el arma enfundada. ¿De verdad está dispuesto a llegar tan lejos...?</p><p>Justo entonces oís gritos al fondo del pasillo. «Mierda. Ya están aquí». Dawson se vuelve hacia Harper y le da órdenes secas en voz baja: «Sal por el Arrecife del Diablo. Nosotros volveremos por donde hemos venido. Nos vemos en la cámara acorazada».</p><p>El minuto siguiente es un borrón. Dawson y Harper se separan. Pese a tu enfado, decides que lo mejor es seguir al agente Dawson, ya que conoces esa ruta de escape. Un torrente de pisadas y alaridos os pisa los talones. No llegáis muy lejos antes de que os acorralen. Un anciano de ojos muy abiertos que no parpadean, vestido con una larga túnica, os corta la salida. «Prendedlos», dice. El resto solo lo recuerdas en fogonazos de horror. El interrogatorio. El pozo oscuro e inundado. El destino de Dawson. Harper encontrándote en la playa...</p><p>...Te encaras con Harper mientras tu vista vuelve a adaptarse al presente. Parece entender lo que has visto. Su mano ronda peligrosamente la pistola. «Maldita sea», dice. «Esperaba que no recordaras lo que pasó la última vez que estuvimos en esta sala...». Toma aire con un temblor mientras os juzgáis en silencio. «Bueno, ¿y ahora qué?», pregunta. «Todavía tengo un trabajo que hacer. ¿Vas a interponerte en mi camino?».</p><hr /><p class='basic'>Anota en la sección «Recuerdos recuperados» del Registro de campaña *una dolorosa traición*.</p><p class='basic'>Los investigadores deben decidir (elegir una opción):</p><ul><li>Ayudar a la agente Harper a completar su misión. Pon en juego <span data-image-id='07317'>Ciudad de las profundidades (v. II)</span> puesta aparte junto al Acto en curso. Proporciona un nuevo objetivo alternativo.</li><li>Desafiar a la agente Harper. Busca a <span data-image-id='07083'>Elina Harper</span> en la mano, el mazo, la pila de descartes y todas las zonas de juego de cada jugador y retírala de la partida. Pon en juego <span data-image-id='07318'>Ciudad de las profundidades (v. III)</span> puesta aparte junto al Acto en curso. Proporciona un nuevo objetivo alternativo.</li></ul></div>",
+    "label": {
+      "helpAgentHarper": "Ayudar a la agente Harper a completar su misión. Pon en juego Ciudad de las profundidades (v. II) puesta aparte junto al Acto en curso. Proporciona un nuevo objetivo alternativo.",
+      "defyAgentHarper": "Desafiar a la agente Harper. Busca a Elina Harper en la mano, el mazo, la pila de descartes y todas las zonas de juego de cada jugador y retírala de la partida. Pon en juego Ciudad de las profundidades (v. III) puesta aparte junto al Acto en curso. Proporciona un nuevo objetivo alternativo."
+    }
+  },
+  "resolutions": {
+    "xp": {
+      "bonus": "Bonificación"
+    },
+    "noResolution": {
+      "title": "Sin resolución",
+      "body": "<p>_Si no se ha llegado a ninguna resolución porque todos los investigadores fueron derrotados_: El cántico de los profundos alcanza su apogeo. Las extrañas murallas de Y'ha-nthlei se retuercen y contorsionan ante tus ojos, como pulmones que luchan a la desesperada por respirar. El aire se enrarece. El agua se filtra por las paredes. Ya nada puede detener el tirón de la marea. Nada puede detener la gran inundación. Un rugido triunfal resuena por toda la ciudad, y los habitantes de las profundidades se alzan jubilosos para responder a su llamada. Te derrumbas, sin fuerzas y con resignación. Tu papel ha terminado. El de la humanidad terminará pronto.</p>"
+    },
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<p>_Resolución 1_: Regresas frenéticamente a la entrada de la ciudad submarina, con la desesperada esperanza de escapar con vida. Sientes el tirón familiar de las corrientes a tu alrededor mientras emerges al otro lado del umbral sobrenatural. El corazón no deja de desbocarse hasta que por fin rompes la superficie del agua y te desplomas sobre un saliente de roca.</p>"
+    },
+    "resolution2": {
+      "title": "Resolución 2",
+      "body": "<p>_Resolución 2_: Cuando sales de las cavernas del Arrecife del Diablo y alzas la vista al cielo, ves con alivio que el sol y la luna ya no están alineados. La marea también parece estar retirándose. Por fin los mares se han calmado.</p>"
+    },
+    "resolution3": {
+      "title": "Resolución 3",
+      "body": "<p>_Resolución 3_: Cuando sales de las cavernas del Arrecife del Diablo y alzas la vista al cielo, se te hace un nudo en la garganta. El sol y la luna siguen trabados en su impía alineación, y el mar sigue engullendo la mayor parte de la costa.</p>"
+    },
+    "resolution4": {
+      "title": "Resolución 4",
+      "body": "<p>_Resolución 4_: La agente Harper es la primera en hablar. «Lo hemos conseguido. No me puedo creer que lo hayamos conseguido». Asientes. No solo habéis logrado detener a los profundos, sino que además has ayudado a Harper a cumplir su misión. Rebusca entre sus cosas hasta dar con una pistola de color naranja chillón y cañón ancho, la carga con una bengala y lanza la brillante luz al cielo con una sonrisa victoriosa. «Vendrán a recogernos en cualquier momento. Seguro que te recompensarán generosamente por tu ayuda. Siempre que accedas a no hablar de nada de esto con nadie, claro», dice. Asientes. De todos modos, nadie te iba a creer.</p>"
+    },
+    "resolution5": {
+      "title": "Resolución 5",
+      "body": "<p>_Resolución 5_: No hay ni rastro de la agente Harper. Quizá no llegara a salir con vida de la ciudad. Conservas la esperanza de que esté ahí fuera, en alguna parte. Aun así, te alivia saber que, al menos, nadie podrá volver a usar las riquezas de Y'ha-nthlei para manipular a la humanidad. Ni el gobierno, ni los profundos: nadie.</p>"
+    },
+    "resolution6": {
+      "title": "Resolución 6",
+      "body": "<p>_Resolución 6_: La agente Harper es la primera en hablar. «Bueno. Supongo que misión cumplida». Te muerdes el labio. Puede que haya cumplido su misión, pero las secuelas que el ritual de los profundos ha dejado en el mundo no se borrarán jamás. Rebusca entre sus cosas hasta dar con una pistola de color naranja chillón y cañón ancho, la carga con una bengala y lanza la brillante luz al cielo con una sonrisa victoriosa. «Vendrán a recogernos en cualquier momento. Después volaremos esa ciudad en pedazos y, con suerte, todo esto habrá terminado», dice. No lo tienes tan claro. Gran parte del daño ya está hecho. ¿Terminará alguna vez de verdad? ¿O solo estáis retrasando lo inevitable?</p>"
+    },
+    "resolution7": {
+      "title": "Resolución 7",
+      "body": "<p>_Resolución 7_: No hay ni rastro de la agente Harper. Quizá no llegara a salir con vida de la ciudad. Conservas la esperanza de que esté ahí fuera, en alguna parte. Aun así, te alivia saber que, al menos, nadie podrá volver a usar las riquezas de Y'ha-nthlei para manipular a la humanidad. Ni el gobierno, ni los profundos: nadie. Contemplas una vez más las olas que azotan el horizonte. La inundación parece haberse detenido. Quizá hayas dañado lo suficiente a los profundos y a sus amos como para haber frustrado su ritual. O quizá solo estén aguardando el momento de volver a emerger. ¿De verdad ha terminado? ¿O no has hecho más que retrasar lo inevitable?</p>"
+    },
+    "resolution8": {
+      "title": "Resolución 8",
+      "body": "<p>_Resolución 8_: Al concluir el ritual, la costa este es el primer litoral que el mar creciente anega. El resto del continente no tarda en seguirla. Los casquetes polares se derriten y devoran lo que queda de la Tierra. Las ciudades caen. La humanidad deja de existir. Solo quedan el océano y la alineación de astros, inmóvil para siempre, que se cierne en lo alto. Y, por supuesto, los herederos de esta nueva Tierra: Hidra, Dagón y sus hijos.</p>"
+    }
+  },
+  "tokens": {
+    "easyStandard": {
+      "skull": "-1 (-3 en su lugar si hay 4 o más Lugares _Y'ha-nthlei_ sin inundar en juego).",
+      "cultist": "-3. Si fracasas, coloca 1 de Perdición en el Plan en curso (esto puede hacer avanzar el Plan en curso).",
+      "tablet": "-4. Si fracasas, debes aumentar el nivel de inundación de tu Lugar o sufrir 1 punto de daño.",
+      "elderThing": "-5. Si fracasas y hay una llave en tu Lugar, sufre 1 punto de horror."
+    },
+    "hardExpert": {
+      "skull": "-2 (-4 en su lugar si hay 4 o más Lugares _Y'ha-nthlei_ sin inundar en juego).",
+      "cultist": "-4. Si fracasas, coloca 1 de Perdición en el Plan en curso (esto puede hacer avanzar el Plan en curso).",
+      "tablet": "-5. Si fracasas, debes aumentar el nivel de inundación de tu Lugar o sufrir 1 punto de daño.",
+      "elderThing": "-6. Si fracasas y hay una llave en tu Lugar, sufre 1 punto de horror."
+    }
+  },
+  "treacherousDepths": {
+    "label": {
+      "increaseFloodLevel": "Aumentar el nivel de inundación de tu Lugar actual",
+      "discardAssetsToShroud": "Descartar de tu zona de juego Apoyos con un coste total en recursos de al menos X, donde X es el valor de Velo de tu Lugar."
+    }
+  },
+  "conspiracyOfDeepOnes": {
+    "label": {
+      "placeDoomCanAdvance": "Colocar 1 de Perdición en el Plan en curso (este efecto puede hacer avanzar el Plan en curso)",
+      "ancientOneAttacks": "El Enemigo _Primigenio_ en juego más cercano te ataca"
+    }
+  },
+  "cityOfTheDeep": {
+    "label": {
+      "continuePlaying": "Seguir jugando",
+      "proceedToR1": "Pasar inmediatamente a (→R1)"
+    }
+  },
+  "label": {
+    "helpAgentHarper": "Ayudar a la agente Harper a completar su misión. Pon en juego Ciudad de las profundidades (v. II) puesta aparte junto al Acto en curso. Proporciona un nuevo objetivo alternativo.",
+    "defyAgentHarper": "Desafiar a la agente Harper. Busca a Elina Harper en la mano, el mazo, la pila de descartes y todas las zonas de juego de cada jugador y retírala de la partida. Pon en juego Ciudad de las profundidades (v. III) puesta aparte junto al Acto en curso. Proporciona un nuevo objetivo alternativo."
+  }
+}

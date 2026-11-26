@@ -1,0 +1,127 @@
+{
+  "heading": "Escenario VII",
+  "setup": {
+    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de Encuentros: *La guarida de Dagón*, *Agentes de Dagón*, *Cavernas inundadas*, *Sicigia*, *Secta oscura* y *Puertas cerradas*. Estos conjuntos vienen indicados por los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/lair-of-dagon.png' /><img src='{setImgPath}/agents-of-dagon.png' /><img src='{setImgPath}/flooded-caves.png' /><img src='{setImgPath}/syzygy.png' /><img src='{setImgPath}/dark-cult.png' /><img src='{setImgPath}/locked-doors.png' /></section>",
+    "placeKeys": "Coloca las llaves de la siguiente forma:",
+    "faceupKeys": "Pon aparte, boca arriba, las llaves negra, azul, verde, morada y roja.",
+    "facedownKeys": "Pon aparte, boca abajo, las llaves blanca y amarilla. Mézclalas para no saber cuál es cuál.",
+    "placeLocations": "Pon en juego los siguientes Lugares: Gran entrada, Corredores siniestros, las dos copias de la Sala de la planta baja, las dos copias de la Sala del primer piso y la Sala del segundo piso.",
+    "startAt": "Cada investigador comienza la partida en la Gran entrada.",
+    "setAsideOtherLocations": "Pon aparte, fuera del juego, todos los demás Lugares.",
+    "setAsideCards": "Pon aparte, fuera del juego, las siguientes cartas: las dos copias de la Traición Sicigia, las dos copias de la Traición Alineamiento de mareas, el Apoyo de historia de doble cara Estatua de Y'ha-nthlei, el Enemigo Apóstol de Dagón y el Enemigo de doble cara Dagón.",
+    "checkMemories": "Consulta la sección «Recuerdos recuperados» del Registro de campaña. Si hay...",
+    "fourOrFewer": "...4 recuerdos anotados o menos, añade 5 fichas {'{'}bless{'}'} a la bolsa de caos.",
+    "fiveToSeven": "...entre 5 y 7 recuerdos anotados, añade 2 fichas {'{'}curse{'}'} a la bolsa de caos.",
+    "eightOrMore": "...8 recuerdos anotados o más, añade 5 fichas {'{'}curse{'}'} a la bolsa de caos.",
+    "jailbreak": "Consulta la sección «Recuerdos recuperados» del Registro de campaña. Si en ella aparece _una fuga de la cárcel_, busca en la colección el Enemigo _Sospechoso_ rodeado en «Posibles sospechosos» y ponlo aparte, fuera del juego.",
+    "checkSecretCult": "Consulta la sección «Recuerdos recuperados» del Registro de campaña.",
+    "theInitiationV1": "Si en «Recuerdos recuperados» aparece _un encuentro con una secta secreta_, al formar el mazo de Plan usa el Plan 1a: «La iniciación (v. I)» y retira de la partida el Plan 1a: «La iniciación (v. II)».",
+    "theInitiationV2": "En caso contrario, al formar el mazo de Plan usa el Plan 1a: «La iniciación (v. II)» y retira de la partida el Plan 1a: «La iniciación (v. I)».",
+    "checkStickTogether": "Consulta la sección «Recuerdos recuperados» del Registro de campaña.",
+    "whatLurksBelowV1": "Si en «Recuerdos recuperados» aparece _una decisión de no separarse_, busca en la colección a Thomas Dawson y ponlo en juego bajo el control de un investigador cualquiera. Al formar el mazo de Plan, usa el Plan 2a: «Lo que acecha debajo (v. I)» y retira de la partida el Plan 2a: «Lo que acecha debajo (v. II)».",
+    "whatLurksBelowV2": "En caso contrario, pon aparte a Thomas Dawson, fuera del juego. Al formar el mazo de Plan, usa el Plan 2a: «Lo que acecha debajo (v. II)» y retira de la partida el Plan 2a: «Lo que acecha debajo (v. I)».",
+    "floodTokens": "Añade las fichas de Inundación a la reserva de fichas."
+  },
+  "specialRules": [
+    {
+      "title": "Gastar llaves",
+      "body": "<p class='basic'>Durante este escenario, puede que se indique a los investigadores que gasten 1 o más llaves. Solo el investigador que controle una llave puede gastarla. Las llaves gastadas se colocan sobre la carta de referencia de escenario.</p>"
+    },
+    {
+      "title": "Llaves",
+      "body": "<div class='red bordered'><p class='basic'>En este escenario, las llaves representan lo siguiente:</p><ul><li>Roja: un emblema grabado con un glifo que representa un gran sacrificio.</li><li>Azul: un pergamino que detalla algunas de las actividades y secretos de la Orden.</li><li>Verde: un emblema que representa un ojo de pez que se abre.</li><li>Morada: un emblema con un círculo de palabras inscritas en un alfabeto que no comprendes.</li><li>Negra: un emblema tallado con un sello arcano.</li><li>Blanca/Amarilla: emblemas cuyos glifos representan la alineación de los astros. La llave blanca muestra la luna superpuesta al sol. La llave amarilla muestra el sol superpuesto a la luna.</li></ul></div>"
+    }
+  ],
+  "label": {
+    "discardTwoCards": "Descartar 2 cartas de tu mano",
+    "discardAsset": "Descartar un Apoyo bajo tu control",
+    "takeControlOfThomasDawson": "Elige qué investigador toma el control de Thomas Dawson",
+    "tellOceirosNothing": "No contarle nada a Oceiros",
+    "lieToOceiros": "Mentir a Oceiros",
+    "tellOceirosEverything": "Contárselo todo a Oceiros"
+  },
+  "intro1": {
+    "title": "Escenario VII: La guarida de Dagón",
+    "body": "<header><p>JUEVES, 15 DE SEPTIEMBRE DE 1927</p><p>UNA SEMANA ANTES</p></header><p><b>Introducción 1:</b> Estás ante los agrietados escalones de mármol que suben a la logia de la Orden Esotérica de Dagón. Todas las pruebas te han conducido hasta aquí. Sea lo que sea lo que pasa en este pueblo, la Orden está detrás. No tienes ninguna duda... aunque su objetivo último sigue siendo un misterio.</p><p>El pueblo guarda un silencio inquietante mientras aguardas ante la entrada del edificio. En otro tiempo, este lugar quizá fuera imponente y opulento. Años de abandono y daños por las inundaciones lo han dejado casi en ruinas. Su pintura, antaño blanca, está gris y desconchada, y muchas de las columnas que flanquean la entrada empiezan a desmoronarse. Aun así, es uno de los lugares más intimidantes de Innsmouth, y proyecta autoridad a pesar de su decrepitud. No, no es autoridad: es algo más oscuro. Una amenaza latente, no expresada.</p><p>«¿Todo listo?», pregunta el agente Dawson. Su calma habitual ha desaparecido, sustituida por una gravedad sin rastro de humor que te desconcierta. «Ha llegado el momento. Aquí encontraremos las respuestas».</p><p>No lo tienes tan claro. Todas las demás pistas que has seguido solo han traído más preguntas.</p>"
+  },
+  "intro2": {
+    "title": "Escenario VII: La guarida de Dagón",
+    "body": "<p><b>Introducción 2:</b> A la agente Harper la secuestraron cuando se acercó demasiado a la Orden, pero interrogar a su secuestrador no os proporcionó precisamente las respuestas que necesitabais. Lo que sabes ahora es que la influencia de la Orden impregna Innsmouth, desde las figuras cívicas importantes hasta los ciudadanos de a pie. La economía, la religión, la política... todo está enredado de un modo u otro en los asuntos de esta secta. Peor aún, muchos habitantes del pueblo parecen seguir a la Orden con una devoción ciega y fanática. Tantos que ya dudas de que esto sea siquiera un pueblo que funcione. No es de extrañar que la gente sea tan hostil con los forasteros.</p><p>No fue hasta tu investigación del Arrecife del Diablo cuando empezaste de verdad a retirar las capas externas de Innsmouth y a destapar la podredumbre que hay debajo. Allí encontraste lo que la Orden ocultaba: las monstruosas criaturas que emergían de las profundidades y rondaban las islas de marea, congregándose para rezar a alguna deidad espantosa. Quizá sea incluso el mismo «Dagón» al que rinde culto la Orden.</p>"
+  },
+  "intro3": {
+    "title": "Escenario VII: La guarida de Dagón",
+    "body": "<p><b>Introducción 3:</b> No te cabe duda de que a la agente Harper la secuestraron después de que empezara a investigar a la Orden. Tu propia investigación podría haber acabado igual si no te hubieras quitado de en medio una semana después de que los vecinos se soliviantaran. Parece que la influencia de la Orden impregna Innsmouth, desde las figuras cívicas importantes hasta los ciudadanos de a pie. La economía, la religión, la política... todo está enredado de un modo u otro en los asuntos de esta secta. Pero ¿por qué?</p><p>No fue hasta tu investigación del Arrecife del Diablo cuando empezaste de verdad a retirar las capas externas de Innsmouth y a destapar la podredumbre que hay debajo. Allí encontraste lo que la Orden ocultaba: las monstruosas criaturas que emergían de las profundidades y rondaban las islas de marea, congregándose para rezar a alguna deidad espantosa. Quizá sea incluso el mismo «Dagón» al que rinde culto la Orden.</p>"
+  },
+  "intro4": {
+    "title": "Escenario VII: La guarida de Dagón",
+    "body": "<p><b>Introducción 4:</b> Ñiiiic. El agente Dawson abre las grandes puertas que sirven de entrada al edificio, y le sigues de cerca. Dentro, las salas están oscuras y sumidas en una quietud inquietante. Solo flota en el aire un débil rumor de agua que gotea. «Esto no me gusta un pelo», dice Dawson mientras la puerta principal se cierra a vuestra espalda. Desenfunda la pistola, enciende la linterna y recorre la estancia con el haz. «No deberíamos separarnos. En la unión está la seguridad». Asientes. La Orden ha demostrado ser muy peligrosa, y sin duda no quiere que husmees en su sede...</p>"
+  },
+  "intro5": {
+    "title": "Escenario VII: La guarida de Dagón",
+    "body": "<p><b>Introducción 5:</b> Ñiiiic. El agente Dawson abre con un chirrido las grandes puertas que sirven de entrada al edificio, y le sigues de cerca. Dentro, las salas están oscuras y sumidas en una quietud inquietante. Solo flota en el aire un débil rumor de agua que gotea. «Está tranquilo. Supongo que esta noche no hay ceremonias. Mejor», dice Dawson mientras la puerta principal se cierra a vuestra espalda. Enciende la linterna e ilumina una puerta cercana. «Deberíamos separarnos. Así abarcaremos más terreno. A ver si averiguas qué esconden aquí. Me reuniré contigo más tarde». Asientes y tomas la dirección opuesta...</p>"
+  },
+  "resolutions": {
+    "noResolution": {
+      "title": "Sin resolución",
+      "body": "<p>_Si no se ha llegado a ninguna resolución (cada investigador desistió o fue derrotado)_: Este lugar es más peligroso de lo que jamás habrías imaginado. Huyes a trompicones por los corredores oscuros e inundados, desandando el camino tan rápido como puedes para llegar a la entrada. El corazón se te desboca cuando por fin ves la salida. Jadeas de alivio al atravesar las puertas de golpe, hacia la salvación...</p><p>...Solo que no estás a salvo. Al pie de los escalones aguarda una turba de ciudadanos enfurecidos, demasiado numerosa para abrirte paso a golpes. «¡Ahí! ¡A por ellos!», grita una mujer arrugada que encabeza la muchedumbre. En cuestión de instantes te rodean y te atrapan. Forcejeas y luchas por tu vida, pero es inútil. Lo último que recuerdas es cómo te arrastran de vuelta por las salas de la Orden hacia un destino desconocido...</p>"
+    },
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<p>_Resolución 1_: Ahora estás en otro sitio, boca abajo sobre una piedra fría y húmeda. Te sujetan con fuerza los brazos a la espalda. No tienes ni idea de cómo has llegado aquí. A medida que recobras la consciencia, tu vista se va enfocando. Estiras el cuello para observar lo que te rodea, pero está demasiado oscuro para ver nada dentro de tu celda de piedra.</p><p>«Lo preguntaré por última vez. ¿Quién os ha enviado?», dice una voz. Es grave y ronca, como el croar de una rana.</p><p>Oyes responder al conocido barítono sereno del agente Dawson: «Le huele el aliento a rayos. ¿Ha oído hablar de lavarse los dientes?». Pese al sarcasmo que rezuman sus palabras, la voz le tiembla muy levemente.</p><p>«Tus burlas no hacen más que enmascarar el miedo que se esconde dentro», replica la voz. «Muy bien. Si no nos sirves de nada, serás el primero en ser sacrificado».</p><p>Tu vista sigue adaptándose. Apenas alcanzas a distinguir la silueta de Dawson al otro lado de la celda. Está de rodillas ante una trampilla metálica en el suelo de piedra. Una figura anciana con túnica aprieta un cuchillo curvo contra su garganta. Alguien levanta la trampilla, y los ojos de Dawson se abren de par en par. Te dirige una última mirada de desesperación, niega con la cabeza lentamente y con toda intención, y desliza con disimulo algo por el suelo de piedra. Entonces la figura encapuchada lo empuja adentro. Entre el forcejeo y la escasa luz, nadie repara en la llave de coche que se detiene patinando justo a tu lado.</p><p>Coges la llave y te la metes en el bolsillo justo antes de que te empujen hacia delante. Otros dos pares de manos frías y viscosas te agarran por los hombros, y la figura encapuchada desliza el cuchillo hasta tu cuello. Lo único que ves de su rostro son sus ojos, muy abiertos y sin parpadear.</p><p>«Oceiros, a estos también los encontramos en la guarida de Dagón», explica otra voz a la figura anciana de la túnica. «Creemos que son los que andaban husmeando por el Arrecife del Diablo».</p><p>El hombre que te apoya el cuchillo en la garganta asiente. «Tu turno», declara. «Dinos a qué has venido y quizá te dejemos marchar. ¿Quién te ha enviado? ¿Qué has visto?».</p>"
+    },
+    "resolution2": {
+      "title": "Resolución 2",
+      "body": "<p>_Resolución 2_: Recuerdas la forma lenta y suave en que el agente Dawson negó con la cabeza y sabes lo que quería decir con ese gesto. Alzas la vista hacia los ojos sin parpadeo del hombre, aprietas la mandíbula y no dices nada. Entre tu interrogador y tú pasa un instante de silencioso entendimiento. «Muy bien. Tu desafío no te ha ganado más que una muerte lenta y agónica». La trampilla metálica vuelve a abrirse. Dentro no ves más que oscuridad. Clavas en tu captor una mirada larga y fulminante.</p><p>«Llevad de inmediato al faro lo que han robado», ordena Oceiros a otra de las figuras con túnica. «Es hora de comenzar nuestra gran obra. Nadie volverá a entorpecer los asuntos de la Orden. Pronto todos comprenderán el orden natural de la vida». Entonces hace una seña a tus captores y te empujan hacia delante. Las manos viscosas te sueltan y de pronto caes dando tumbos en la oscuridad. Lo último que sientes es tu cabeza al golpear la piedra fría, y entonces...</p>"
+    },
+    "resolution3": {
+      "title": "Resolución 3",
+      "body": "<p>_Resolución 3_: Solo se te ocurre una forma de salir de esta. La Orden cree que andas husmeando en sus asuntos, así que tendrás que convencerlos de que no sabes ni te importa lo que traman. Mientes lo mejor que puedes, hilando una historia que quizá los persuada de que sencillamente estabas en el lugar equivocado en el momento equivocado. «¿Y qué hay de tu desafortunado amigo?», pregunta tu interrogador. Le dices que no has visto a ese hombre en tu vida. «Quizá digas la verdad», responde, y sueltas un efímero suspiro de alivio antes de que haga añicos tus esperanzas: «...pero no importa. Has visto demasiado y, por ello, hay que silenciarte. No te preocupes. Pronto te unirás a nuestros parientes». La trampilla metálica vuelve a abrirse. Dentro no ves más que oscuridad.</p><p>«Llevad de inmediato al faro lo que han robado», ordena Oceiros a otra de las figuras con túnica. «Es hora de comenzar nuestra gran obra. Nadie volverá a entorpecer los asuntos de la Orden. Pronto todos comprenderán el orden natural de la vida». Entonces hace una seña a tus captores y te empujan hacia delante. Las manos viscosas te sueltan y de pronto caes dando tumbos en la oscuridad. Lo último que sientes es tu cabeza al golpear la piedra fría, y entonces...</p>"
+    },
+    "resolution4": {
+      "title": "Resolución 4",
+      "body": "<p>_Resolución 4_: Nada de esto entraba en el trato. Con la esperanza de evitar el destino de Dawson, no te queda más remedio que contárselo todo a tu interrogador. Explicas que Dawson te contrató para encontrar a su agente desaparecida y pasas a describir lo ocurrido en las últimas semanas, incluidas tu exploración del Arrecife del Diablo y tu investigación sobre la Orden. Una lenta sonrisa se va dibujando en el rostro del hombre mientras revelas cuanto sabes. «Te agradezco la franqueza. Por desgracia, solo hay una manera en que puedo pagártela. Has visto demasiado y, por ello, hay que silenciarte». Se te hiela el corazón al comprender a qué se refiere. La trampilla metálica vuelve a abrirse. Dentro no ves más que oscuridad.</p><p>«Llevad de inmediato al faro lo que han robado», ordena Oceiros a otra de las figuras con túnica. «Es hora de comenzar nuestra gran obra. Nadie volverá a entorpecer los asuntos de la Orden. Pronto todos comprenderán el orden natural de la vida». Entonces hace una seña a tus captores y te empujan hacia delante. Las manos viscosas te sueltan y de pronto caes dando tumbos en la oscuridad. Lo último que sientes es tu cabeza al golpear la piedra fría, y entonces...</p>"
+    }
+  },
+  "tokens": {
+    "easyStandard": {
+      "skull": "-1 por cada llave sobre esta carta.",
+      "cultist": "0. Revela una ficha de Caos adicional. Si revelas 1 o más fichas {'{'}curse{'}'} durante esta prueba, fracasas automáticamente.",
+      "tablet": "-3. Si fracasas, coloca en tu Lugar todas las llaves que controles.",
+      "elderThing": "-4. Si fracasas, añade 1 ficha {'{'}curse{'}'} a la bolsa de caos."
+    },
+    "hardExpert": {
+      "skull": "-2 por cada llave sobre esta carta.",
+      "cultist": "-2. Revela una ficha de Caos adicional. Si revelas 1 o más fichas {'{'}curse{'}'} durante esta prueba, fracasas automáticamente.",
+      "tablet": "-3. Coloca en tu Lugar todas las llaves que controles y sufre 1 punto de daño.",
+      "elderThing": "-4. Añade 2 fichas {'{'}curse{'}'} a la bolsa de caos."
+    }
+  },
+  "remembered": {
+    "unlockedTheEntranceToTheCaves": "Abierta la entrada a las cuevas",
+    "unlockedTheThirdFloor": "Abierto el segundo piso",
+    "unlockedTheFinalDepths": "Abiertas las profundidades finales"
+  },
+  "hallOfLoyalty": {
+    "label": {
+      "addBlessTokens": "Añadir 4 fichas {'{'}bless{'}'}",
+      "addBlessTokensPartial": "Añadir 4 (en realidad, {actual}) fichas {'{'}bless{'}'}"
+    }
+  },
+  "lairOfDagon": {
+    "label": {
+      "doNotSpendKey": "No gastar ninguna llave",
+      "spendKey": "Gastar {key}"
+    }
+  },
+  "whatLurksBelow": {
+    "label": {
+      "doNotTakeKey": "No coger ninguna llave",
+      "takeKey": "Coger la llave {key}"
+    }
+  },
+  "tooltips": {
+    "grandEntryway": {
+      "resign": "Ya has tenido bastante de este lugar."
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "heading": "Escenario V",
+  "setup": {
+    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de Encuentros: *Horror a toda máquina*, *Niebla sobre Innsmouth*, *Avería*, *Recuerdos fragmentados* y *Antiguos males*. Estos conjuntos vienen indicados por los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/horror-in-high-gear.png' /><img src='{setImgPath}/fog-over-innsmouth.png' /><img src='{setImgPath}/malfunction.png' /><img src='{setImgPath}/shattered-memories.png' /><img src='{setImgPath}/ancient-evils.png' /></section>",
+    "roadDeck": "Crea el mazo de Carretera siguiendo estos pasos:",
+    "findRoadLocations": "Busca Acceso al Cabo del Halcón y las 6 copias de El camino largo. Cada una es el lado descubierto de un Lugar Camino viejo de Innsmouth. Ponlas todas aparte, fuera del juego.",
+    "bottomThree": "Baraja juntos el Acceso al Cabo del Halcón puesto aparte y dos Lugares Camino viejo de Innsmouth para formar las tres últimas cartas del mazo de Carretera.",
+    "remainingOnTop": "Coloca encima, en orden aleatorio, todos los Lugares Camino viejo de Innsmouth restantes.",
+    "unrevealedSide": "Todas las cartas del mazo de Carretera deben mostrar únicamente el lado Camino viejo de Innsmouth, para que los jugadores no sepan cuál es cuál.",
+    "putRoadIntoPlay": "Pon en juego las 3 primeras cartas del mazo de Carretera en línea recta de izquierda a derecha, siendo la izquierda la «parte trasera» y la derecha la «parte delantera».",
+    "chooseVehicles": "Elegid vehículos. En este escenario, los investigadores pueden usar dos: el Coche de Thomas Dawson y el Coche de Elina Harper. Cada investigador debe elegir un vehículo al que subirse. No pueden subir más de dos investigadores al mismo vehículo.",
+    "vehiclesBeginAtFront": "Cada vehículo al que suba al menos un investigador comienza la partida en el Lugar Camino viejo de Innsmouth de la parte delantera. Retira de la partida los demás vehículos.",
+    "runningSide": "Cada vehículo comienza la partida con el lado «En marcha» boca arriba.",
+    "beginInVehicle": "Cada investigador comienza la partida en el vehículo al que haya elegido subirse.",
+    "triggerRoad": "Activa la palabra clave Carretera X de ese Lugar cuando se descubra.",
+    "chooseDrivers": "Elegid conductores. Un investigador de cada vehículo debe ser designado conductor de ese vehículo.",
+    "driverNote": "Todo vehículo con al menos un investigador en su interior debe tener siempre un conductor. Si el conductor abandona el vehículo o es eliminado, elige a otro investigador de ese vehículo para que sea el nuevo conductor.",
+    "playerCount": "En función del número de jugadores de la partida:",
+    "onePlayer": "Si hay exactamente 1 jugador en la partida, no se hace ningún cambio.",
+    "twoOrThreePlayers": "Si hay 2 o 3 jugadores en la partida, busca entre los conjuntos de Encuentros reunidos 1 Enemigo _Vehículo_ al azar. Haz que ese Enemigo aparezca en el Lugar más cercano a la parte trasera.",
+    "fourPlayers": "Si hay exactamente 4 jugadores en la partida, busca entre los conjuntos de Encuentros reunidos 2 Enemigos _Vehículo_ al azar. Haz que ambos aparezcan en el Lugar más cercano a la parte trasera.",
+    "checkCampaignLog": "Comprueba el Registro de campaña. En función de las siguientes circunstancias, debe usarse una versión distinta del Plan 1 en este escenario. Retira de la partida la otra versión del Plan 1.",
+    "theChaseIsOnV2": "Si _el Terror del Arrecife del Diablo está muerto_, usa el Plan 1a: ¡Comienza la persecución! (v. II).",
+    "theChaseIsOnV1": "En caso contrario, usa el Plan 1a: ¡Comienza la persecución! (v. I)."
+  },
+  "specialRules": [
+    {
+      "title": "Vehículos",
+      "body": "<p class='basic'>Un Apoyo con la palabra clave Vehículo representa un vehículo al que los investigadores pueden subir o del que pueden bajar. Un Apoyo con esta palabra clave se llama vehículo y sigue estas reglas:</p><ul><li>Mientras la minicarta de un investigador esté colocada solapando un vehículo, ese investigador está en ese vehículo. En cambio, mientras la minicarta de un investigador esté colocada solapando su Lugar, ese investigador no está en ningún vehículo (aunque esté en el mismo Lugar que uno).<ul><li>Como capacidad {'{'}action{'}'}, un investigador puede subir a un vehículo que esté en su Lugar o bajar de él. Mueve la minicarta de ese investigador sobre el vehículo, o fuera de él y sobre su Lugar, para indicar su nueva posición. Cada investigador solo puede usar esta capacidad una vez por ronda.</li><li>Un investigador que está en un vehículo está también en el Lugar de ese vehículo.</li><li>Mientras un investigador esté en un vehículo, no puede moverse con independencia del vehículo.</li></ul></li><li>Los vehículos suelen tener una o más capacidades que les permiten moverse a un Lugar conectado. Cuando un vehículo se mueve de un Lugar a otro, todos los investigadores que van en él se mueven con el vehículo.</li><li>Los vehículos no alteran en modo alguno el movimiento ni el enfrentamiento de los Enemigos, salvo que se indique otra cosa.</li></ul>"
+    },
+    {
+      "title": "En marcha / Detenido",
+      "body": "<p class='basic'>Los vehículos de este escenario pueden estar «en marcha» o «detenidos», como indican sus dos caras. Las diferencias entre un vehículo en marcha y uno detenido vienen indicadas por el texto de juego de cada cara. El motor de un vehículo se puede arrancar o parar mediante la capacidad de ese vehículo, dándole la vuelta.</p><ul><li>Por lo general, los investigadores solo podrán avanzar con rapidez en un vehículo en marcha. Sin embargo, a veces puede ser buena idea detener brevemente el vehículo si te acercas a un Lugar peligroso, como una Carretera del acantilado o una Curva cerrada. ¡Cuidado!</li></ul>"
+    },
+    {
+      "title": "Carretera X",
+      "body": "<p class='basic'>Durante este escenario, los investigadores recorren el camino viejo de Innsmouth, desde Innsmouth hasta el Cabo del Halcón. Esta carretera suele ser una línea recta de izquierda a derecha, pero a veces tiene bifurcaciones.</p><p class='basic'>Cada vez que se descubra un Lugar con la palabra clave Carretera X, si no hay ningún Lugar por delante del que se acaba de descubrir, pon en juego X Lugares nuevos en una columna nueva delante de él, con el lado Camino viejo de Innsmouth boca arriba. El primero de estos Lugares debe ser el Lugar superior del mazo de Carretera. Los demás Lugares que haya que poner en juego se cogen de entre los Lugares El camino largo puestos aparte (si no hay suficientes, usa tantos como puedas). Baraja esos Lugares para que los jugadores no sepan cuál es cuál.</p><p>*Por ejemplo: Trish conduce el Coche de Elina Harper y acaba de adelantarlo a un Lugar sin descubrir. Se trata de una Bifurcación del camino con la palabra clave «Carretera 2». Como ahora mismo no hay ningún Lugar delante de la Bifurcación del camino, debe colocar 2 Lugares Camino viejo de Innsmouth delante de ella. Coge la primera carta del mazo de Carretera y uno de los Lugares El camino largo puestos aparte, pone ambos en juego en una columna nueva delante de la Bifurcación del camino y los baraja para que los jugadores no sepan cuál es cuál.*</p><ul><li>Por lo general, conviene evitar tomar El camino largo, ya que te frenará y reducirá el tiempo del que dispones para llegar al Cabo del Halcón.</li><li>Durante este escenario, cada Lugar está conectado con todos los Lugares que tenga detrás o delante, pero con ningún otro de su misma columna.</li></ul>"
+    }
+  ],
+  "label": {
+    "discardAsset": "Descartar un Apoyo bajo tu control",
+    "whichVehicle": "¿En qué vehículo empezarás?",
+    "whereWillEnemySpawn": "¿Dónde aparecerá el Enemigo?"
+  },
+  "intro": {
+    "title": "Escenario V: Horror a toda máquina",
+    "body": "<p>Los árboles pasan zumbando mientras avanzas traqueteando por el viejo camino de tierra a las afueras de Innsmouth. El sol se ha puesto tras el horizonte occidental, y solo la luna llena baña las polvorientas carreteras con su resplandor intenso e inquietante. «Aquí», grita la agente Harper desde el asiento del copiloto, por encima del rugido del motor. Señala un punto del mapa que tiene desplegado sobre el regazo y le da repetidos golpecitos con el dedo. «El faro del Cabo del Halcón. Ahí es donde debería estar Oceiros». Un escalofrío te sube por la espalda. Si tus recuerdos son de fiar, Oceiros es el hombre que te abandonó a la muerte en aquellos túneles de marea. Preguntas a Harper a qué distancia de Innsmouth está el Cabo del Halcón, con la esperanza de llegar antes de que la Orden se entere de que has escapado. Suspira. «No está muy lejos, pero estas carreteras serpentean. Puede ser difícil orientarse. Un giro equivocado y...». Harper y tú veis a la vez las luces en el retrovisor. Faros. Y se hacen más grandes y brillantes por segundos. Harper maldice entre dientes. «Supongo que no serán amigos tuyos, ¿no?». Niegas con la cabeza y aferras con más fuerza el volante. Parece que la Orden ya se ha enterado de tu huida de Innsmouth. Le dices a la agente Harper que se agarre y pisas a fondo el acelerador.</p>"
+  },
+  "resolutions": {
+    "noResolution": {
+      "title": "Sin resolución",
+      "body": "<p>_Si no se ha llegado a ninguna resolución (todos los investigadores fueron derrotados)_: El trayecto hasta el Cabo del Halcón no es precisamente un paseo. Entre los sectarios que te pisan los talones y las criaturas que habitan en los bosques de las afueras de Innsmouth, tu vehículo sufre acoso a cada paso. Sin forma de escapar indemne, no te queda más remedio que abandonarlo y adentrarte a pie, con sigilo, por el bosque. Cuando por fin divisas a lo lejos la luz del faro, el alba ya baña el cielo con un resplandor anaranjado. «Por fin», gime la agente Harper. Sin tiempo para descansar, prosigues la caminata hasta el faro del Cabo del Halcón, sin fuerzas pero con la misma determinación.</p>"
+    },
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<p>_Resolución 1_: Suspiras de alivio al ver cómo la luz del lejano faro atraviesa la niebla. «Paremos aquí y hagamos el resto del camino a pie», sugiere Harper. «Si todavía hay alguien en ese faro, es mejor que no nos oiga llegar». Su consejo es acertado. No sabes bien qué esperar cuando llegues al Cabo del Halcón, pero todo indica que es otro puesto avanzado de la Orden. Compruebas dos veces que no te siguen y detienes el coche en la cuneta. Recoges tus pertenencias del maletero y emprendes la caminata hacia el faro del Cabo del Halcón...</p>"
+    }
+  },
+  "tokens": {
+    "easyStandard": {
+      "skull": "-1 (-3 en su lugar si quedan 6 o menos Lugares en el mazo de Carretera).",
+      "cultist": "-1. Por cada punto por el que fracases, un investigador que esté en tu vehículo coloca 1 de sus Pistas en tu Lugar.",
+      "tablet": "-2. Por cada punto por el que fracases, un investigador que esté en tu vehículo pierde 1 recurso.",
+      "elderThing": "-4. Si fracasas, resuelve la palabra clave Cazador de todos los Enemigos en juego."
+    },
+    "hardExpert": {
+      "skull": "-2 (-4 en su lugar si quedan 6 o menos Lugares en el mazo de Carretera).",
+      "cultist": "-2. Por cada punto por el que fracases, un investigador que esté en tu vehículo coloca 1 de sus Pistas en tu Lugar.",
+      "tablet": "-3. Por cada punto por el que fracases, un investigador que esté en tu vehículo pierde 1 recurso.",
+      "elderThing": "-4. Resuelve la palabra clave Cazador de todos los Enemigos en juego."
+    }
+  },
+  "tooltips": {
+    "elinaHarpersCarRunning": {
+      "drawAndMoveRoad": "Si eres el conductor de este vehículo: Roba la primera carta del mazo de Encuentros. Después, mueve este vehículo a un Lugar _Carretera_ conectado. (Máximo una vez por ronda.)",
+      "stopCar": "Si eres el conductor de este vehículo: Detienes el coche. Da la vuelta a este vehículo.",
+      "drive": "Si eres el conductor de este vehículo: Roba la primera carta del mazo de Encuentros. Después, mueve este vehículo a un Lugar _Carretera_ conectado. (Máximo una vez por ronda.)",
+      "stop": "Si eres el conductor de este vehículo: Detienes el coche. Da la vuelta a este vehículo."
+    },
+    "thomasDawsonsCarRunning": {
+      "drawAndMoveRoad": "Si eres el conductor de este vehículo: Roba la primera carta del mazo de Encuentros. Después, mueve este vehículo a un Lugar _Carretera_ conectado. (Máximo una vez por ronda.)",
+      "stopCar": "Si eres el conductor de este vehículo: Detienes el coche. Da la vuelta a este vehículo.",
+      "drive": "Si eres el conductor de este vehículo: Roba la primera carta del mazo de Encuentros. Después, mueve este vehículo a un Lugar _Carretera_ conectado. (Máximo una vez por ronda.)",
+      "stop": "Si eres el conductor de este vehículo: Detienes el coche. Da la vuelta a este vehículo."
+    }
+  }
+}

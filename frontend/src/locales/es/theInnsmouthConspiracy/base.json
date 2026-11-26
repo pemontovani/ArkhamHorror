@@ -1,0 +1,232 @@
+{
+  "specialRules": [
+    {
+      "title": "Llaves",
+      "body": "<p class='basic'>Esta expansión introduce las fichas de Llave, que representan objetos o datos importantes que se pueden conseguir y usar durante los escenarios. Las fichas de Llave tienen dos caras. Boca abajo, las siete llaves muestran el mismo símbolo universal, de modo que se pueden mezclar sin que los investigadores sepan cuál es cuál. Boca arriba, cada llave tiene un color propio (negro, rojo, azul, verde, amarillo, morado y blanco).</p><p class='basic'>Si un escenario usa una o más llaves, su preparación indica cuántas se ponen aparte y si deben quedar boca arriba o mezcladas boca abajo. Las llaves pueden entrar en juego mediante diversos efectos de cartas, y suelen colocarse sobre un Enemigo, un Lugar o un Apoyo de historia. Se pueden conseguir de tres formas:</p><ul><li>Si un Lugar que tenga una llave no tiene Pistas, un investigador puede tomar el control de todas las llaves de ese Lugar como una capacidad {'{'}fast{'}'}.</li><li>Si un investigador hace que un Enemigo con una llave abandone el juego, ese investigador debe tomar el control de todas las llaves que tuviera el Enemigo. (Si abandona el juego por otro medio, coloca sus llaves en su Lugar.)</li><li>Algunos efectos de cartas pueden permitir a un investigador tomar el control de llaves de otras maneras.</li></ul><p class='basic'>Cuando un investigador toma el control de una llave, la pone boca arriba (si estaba boca abajo) y la coloca sobre su carta de Investigador. Si un investigador que controla una o más llaves es eliminado, coloca cada una de sus llaves en su Lugar. Como capacidad {'{'}action{'}'}, un investigador puede entregar cualquier cantidad de sus llaves a otro investigador que esté en su mismo Lugar.</p><p class='basic'>Las llaves no tienen ningún efecto de juego por sí mismas. Sin embargo, algunos efectos de cartas pueden cambiar según qué llaves controle un investigador. Además, a veces hacen falta llaves para poder avanzar en un escenario.</p>"
+    },
+    {
+      "title": "Fichas de Inundación",
+      "body": "<p class='basic'>A lo largo de esta campaña, los efectos de las cartas de escenario pueden inundar Lugares. Cada Lugar tiene uno de tres niveles de inundación: sin inundar, parcialmente inundado o totalmente inundado. El nivel de inundación de un Lugar se puede indicar con las fichas de Inundación de doble cara incluidas en esta caja deluxe. El nivel de inundación de un Lugar no tiene ningún efecto de juego por sí mismo. Sin embargo, algunos efectos de cartas pueden cambiar o volverse más fuertes mientras estás en un Lugar inundado, sobre todo si está totalmente inundado.</p><ul><li>Un Lugar sin ficha de Inundación está sin inundar.</li><li>Si un Lugar pasa a estar parcialmente inundado, indícalo colocando sobre él una ficha de Inundación con el lado «parcialmente inundado» boca arriba.</li><li>Si un Lugar pasa a estar totalmente inundado, indícalo colocando sobre él una ficha de Inundación con el lado «totalmente inundado» boca arriba (o, si ya estaba parcialmente inundado, dando la vuelta a su ficha).</li><li>Si el nivel de inundación de un Lugar «aumenta», pasa de sin inundar a parcialmente inundado, o de parcialmente inundado a totalmente inundado. No se puede aumentar el nivel de inundación de un Lugar totalmente inundado.</li><li>Si el nivel de inundación de un Lugar «disminuye», pasa de totalmente inundado a parcialmente inundado, o de parcialmente inundado a sin inundar. Si un Lugar queda sin inundar, retira su ficha de Inundación.</li><li>A efectos de las cartas, tanto los Lugares parcialmente inundados como los totalmente inundados se consideran «inundados».</li></ul>"
+    },
+    {
+      "title": "Fichas de Bendición y de Maldición",
+      "body": "<p class='basic'>Esta expansión introduce dos nuevos tipos de fichas de Caos: las fichas de Bendición ({'{'}bless{'}'}) y las fichas de Maldición ({'{'}curse{'}'}). Por defecto, la bolsa de caos no contiene ninguna ficha {'{'}bless{'}'} ni {'{'}curse{'}'}. Sin embargo, algunos efectos de cartas pueden añadirlas a la bolsa de caos o retirarlas de ella.</p><ul><li>Las fichas {'{'}bless{'}'} reveladas durante una prueba de habilidad tienen este efecto: «+2. Revela otra ficha. En lugar de devolver esta ficha a la bolsa de caos, devuélvela a la reserva de fichas».<ul><li>En ningún momento puede haber más de 10 fichas {'{'}bless{'}'} en total entre las incluidas en la bolsa de caos y las selladas en cartas en juego.</li></ul></li><li>Las fichas {'{'}curse{'}'} reveladas durante una prueba de habilidad tienen este efecto: «–2. Revela otra ficha. En lugar de devolver esta ficha a la bolsa de caos, devuélvela a la reserva de fichas».<ul><li>En ningún momento puede haber más de 10 fichas {'{'}curse{'}'} en total entre las incluidas en la bolsa de caos y las selladas en cartas en juego.</li></ul></li><li>Las fichas {'{'}bless{'}'} o {'{'}curse{'}'} reveladas fuera de una prueba de habilidad no tienen ningún efecto por sí mismas, salvo que el efecto de una carta indique otra cosa.</li></ul>"
+    },
+    {
+      "title": "Sello",
+      "body": "<p class='basic'>Como coste adicional para que entre en juego una carta con la palabra clave Sello, su controlador debe buscar en la bolsa de caos la ficha de Caos especificada y colocarla sobre la carta, sellando así la ficha. Si se puede elegir qué ficha sellar, decide el controlador de la carta. Si la ficha especificada no está en la bolsa de caos, la carta no puede entrar en juego.</p><p class='basic'>Una ficha de Caos sellada no se considera dentro de la bolsa de caos y, por tanto, no puede revelarse de la bolsa como parte de una prueba de habilidad ni de una capacidad. Cuando una ficha de Caos se «libera», vuelve a la bolsa de caos y deja de considerarse sellada. Si una carta con una o más fichas de Caos selladas abandona el juego por cualquier motivo, las fichas selladas en ella se liberan inmediatamente.</p><p class='basic'>Algunas cartas (con o sin la palabra clave Sello) pueden tener además capacidades que sellen una o más fichas de Caos como parte de su efecto. Se sigue el mismo proceso: se busca en la bolsa de caos la ficha especificada, se saca de la bolsa y se coloca sobre la carta. Si la ficha especificada no está en la bolsa de caos, el efecto fracasa.</p>"
+    }
+  ],
+  "interludes": {
+    "1": "Piezas del puzle",
+    "2": "La sicigia",
+    "3": "Bajo las olas",
+    "4": "Verdades ocultas"
+  },
+  "interlude1": {
+    "part1": {
+      "title": "Interludio I: Piezas del puzle",
+      "body": "<p>No tienes ni idea de quién es esta mujer ni de qué te conoce, pero ella parece sentirse cómoda y te trata con familiaridad. Rebuscas en tu memoria dónde podríais haberos conocido, pero es inútil. Tienes la certeza de que es una completa desconocida. Después de despertar sin recuerdos en una prisión fría y húmeda, no estás de humor para hacer amistades. Se te deben de notar el miedo y la desconfianza, porque la mujer retrocede y entrecierra los ojos. «¿Qué pasa? ¿Algo va mal?».</p><p>Respondes preguntándole si la conoces. «¿De verdad no te acuerdas? Vaya, eso va a complicar las cosas. ¿Qué recuerdas? ¿Recuerdas algo?».</p><p>Le cuentas a la mujer los fogonazos de memoria que has tenido antes...</p>"
+    },
+    "aMeetingWithThomasDawson": {
+      "title": "Si en «Recuerdos recuperados» aparece una reunión con Thomas Dawson:",
+      "body": "<p>Atas cabos y preguntas a la mujer si es la señorita Harper. «Ah, ¿así que sí te acuerdas de mí?», dice con una sonrisilla pícara, pero niegas con la cabeza y le explicas que lo único que recuerdas es que un tal Thomas Dawson te contrató para encontrarla. «Pero eso fue... Ah. Has olvidado muchas cosas, ¿verdad? Hablando de Dawson, ¿dónde está? ¿Lo has visto ahí abajo?».</p><p>Piensas en el rostro retorcido y destrozado que desencadenó tu destello del pasado. La expresión de la agente Harper se ensombrece al mirarte a los ojos. «...Ya veo. Ojalá no hubiera venido nunca a este pueblo dejado de la mano de Dios. Esos animales van a pagar por esto». Le preguntas quién cree que es responsable de la muerte de Dawson, y responde arqueando las cejas. «Claro, no te acuerdas. Que yo sepa, la última vez que alguien os vio a cualquiera de los dos fue justo antes de que visitarais la Orden Esotérica de Dagón. Saca tus propias conclusiones».</p>"
+    },
+    "noMemoriesRecovered": {
+      "title": "Si no aparece nada en «Recuerdos recuperados»:",
+      "body": "<p>Niegas con la cabeza. No recuerdas nada. «Eso va a complicar las cosas», dice la mujer con un suspiro. «Está bien. Te contaré lo que sé. Soy la agente Elina Harper. Por lo que tengo entendido, mi jefe, el agente Thomas Dawson, te contrató porque entiendes mejor que nadie... bueno, cosas que al resto no nos cuadran». Le preguntas para qué trabajo te contrataron, y la mujer sonríe con sorna. «En realidad, te contrataron para encontrarme. A la Orden no le hizo mucha gracia. Es una historia un poco larga. Primero salgamos de aquí y luego te pongo al día».</p>"
+    },
+    "aBattleWithAHorrifyingDevil": {
+      "title": "Si en «Recuerdos recuperados» aparece una batalla con un horripilante demonio:",
+      "body": "<p>Hablas a la agente Harper de tu lucha contra una especie de criatura acuática. «El Arrecife del Diablo», dice con un escalofrío. «Sea lo que sea lo que está pasando en este pueblo, el Arrecife del Diablo está en el centro de todo. Esperemos no tener que volver por allí pronto... y que esa cosa siga bien muerta».</p>"
+    },
+    "aDecisionToStickTogether": {
+      "title": "Si en «Recuerdos recuperados» aparece una decisión de no separarse:",
+      "body": "<p>«¿Así que Dawson y tú me estabais buscando por separado hasta que decidisteis hacerlo juntos? Interesante». Lo sopesa un momento. «Supongo que hasta el extraordinario capitán Dawson puede perder los nervios de vez en cuando. Resulta gratificante saber que le importaba tanto encontrarme. Aun así...», su mirada se pierde en el horizonte. «Está bien, Dawson. Me aseguraré de que tu muerte no haya sido en vano. Quemaré este pueblo hasta los cimientos si hace falta».</p>"
+    },
+    "anEncounterWithASecretCult": {
+      "title": "Si en «Recuerdos recuperados» aparece un encuentro con una secta secreta:",
+      "body": "<p>Describes tu recuerdo del interior de una especie de sede sectaria. «Por lo que cuentas, tuvo que ser dentro del edificio de la Orden Esotérica de Dagón, en la zona norte del pueblo», razona la agente Harper. «Esa organización es repugnante, lo sé. Pero no tengo ninguna prueba que llevarme, y parece que has olvidado todo lo que averiguaste». Masculla una maldición.</p>"
+    },
+    "part2": {
+      "title": "Interludio I: Piezas del puzle",
+      "body": "<p>Señalas el extraño horizonte carmesí que hay detrás de la agente Harper y comentas la alineación del sol y la luna. «Empezó justo después de que el agente Dawson y tú entrarais en la sede de la Orden», explica. «Hace casi tres días. No tengo ni idea de lo que significa, pero dudo que sea nada bueno. Últimamente todo Innsmouth está cerrado a cal y canto. No se ve un alma. Tienes suerte de que haya averiguado dónde buscarte».</p><p>La cabeza te da vueltas. Lo último que recuerdas antes de despertar en aquel pozo húmedo es disfrutar de una agradable tarde de finales de verano en Arkham. Ahora estás en otro pueblo, y tu memoria está llena de enormes lagunas. Preguntas qué día es, y la agente Harper responde: «Es veinticuatro de septiembre. No sé exactamente cuándo llegaste a Innsmouth ni cuánta memoria te falta. ¿No recuerdas nada más? ¿Nada en absoluto?».</p><p>El agua chapotea contra tus pies mientras te esfuerzas por recordar. En cuestión de minutos, la marea ha subido varios centímetros y no da señales de frenar. Clavas la mirada en la mujer que tienes delante, en sus ojos cansados, su ropa desaliñada, las marcas rojas de sus muñecas, y algo se activa en tu memoria.</p><p>«Despierta. Casi hemos llegado». El recuerdo acecha al borde de tu consciencia y amenaza con arrastrarte a la oscuridad. «Eh. Que despiertes, te digo». Te aferras la frente mientras un dolor abrasador rebota por todo tu cráneo. «¡Despierta, maldita sea!».</p><p>La oscuridad va cerrando los bordes de tu visión. Más recuerdos regresan en tromba...</p>"
+    },
+    "xp": {
+      "aMeetingWithThomasDawson": "Una reunión con Thomas Dawson",
+      "aBattleWithAHorrifyingDevil": "Una batalla con un horripilante demonio",
+      "aDecisionToStickTogether": "Una decisión de no separarse",
+      "anEncounterWithASecretCult": "Un encuentro con una secta secreta"
+    }
+  },
+  "interlude2": {
+    "theSyzygy1": {
+      "title": "La sicigia 1",
+      "body": "<p><b>La sicigia 1:</b> Un fogonazo estalla en tu mente. Las sombras ahogan tus pensamientos a medida que el recuerdo se desvanece. Vuelves a estar en la playa rocosa de la costa, con el cráneo palpitando de dolor. La agente Harper se inclina sobre ti con la preocupación grabada en el ceño. «¡Eh! Eh, ¿por fin has despertado?».</p><p>Te incorporas con los músculos doloridos. Parece que la marea ha subido varios centímetros más mientras no estabas consciente. El agua fría te lame los tobillos y te empapa los zapatos. «¿Qué ha pasado?», dice. «¿Qué has visto?».</p>"
+    },
+    "theSyzygy2": {
+      "title": "La sicigia 2",
+      "body": "<p><b>La sicigia 2:</b> Le dices a Harper que recuerdas tu misión de encontrarla, pero que tras una semana de búsqueda no lo habías conseguido. Lo último que recuerdas es que alguien deslizó bajo la puerta de tu habitación del hotel un cuaderno con información sobre una organización llamada «Orden Esotérica de Dagón».</p><p>«Ah. Sí, fui yo. Siento no haber podido quedarme a charlar, pero tenía otros asuntos que atender», explica. Te cuenta que, tras varios días de cautiverio, por fin logró imponerse a su captor y liberarse, pero resultó herida en el proceso. Como para demostrar su historia, se abre la gabardina y ves manchas oscuras de sangre que atraviesan su camisa. Varias vendas asoman bajo la tela. «No me alcanzó el riñón por muy poco. Qué suerte la mía, ¿eh?».</p><p>Te quejas de que perdiste el tiempo buscándola por todas partes, y suelta un bufido. «¡Para nada! Averiguaste más en una semana que yo en dos. Sabía que estabas tras algo y quería ayudar, pero me seguían todavía. Así que dejé la única información sólida que había encontrado y me quité de en medio. En realidad, el resto lo hiciste tú». Por desgracia, no recuerdas nada de «el resto».</p>"
+    },
+    "theSyzygy3": {
+      "title": "La sicigia 3",
+      "body": "<p><b>La sicigia 3:</b> Le dices a Harper que recuerdas tu misión de encontrarla y el interrogatorio a su secuestrador. Sonríe. «Gracias otra vez por aquello, por cierto. Aunque lo tenía todo bajo control», bromea. «¿Recuerdas algo de después?».</p><p>Niegas con la cabeza. Lo último que recuerdas es que se mencionó una organización llamada «Orden Esotérica de Dagón».</p><p>Harper masculla una maldición. «Qué mala suerte. Pero, con amnesia o sin ella, al menos sé que puedo confiar en ti. Te acuerdes o no, ya me has sacado de un apuro».</p>"
+    },
+    "theSyzygy4": {
+      "title": "La sicigia 4",
+      "body": "<p><b>La sicigia 4:</b> «Tranquilidad», dice, «ya te pongo al día. Todavía hay muchas cosas que no recuerdas». En ese momento, un trueno ensordecedor retumba en el horizonte oriental y una poderosa ola se estrella contra los espigones. El cielo es de un carmesí intenso tras los negros nubarrones de tormenta que se arremolinan en torno al sol y la luna. Los dos astros penden juntos en perfecta alineación. «Eso no puede ser bueno». Los labios de Harper se tensan de preocupación. «Vale, cambio de planes. Volvamos a Innsmouth. Te explicaré lo que sé por el camino».</p>"
+    }
+  },
+  "interlude3": {
+    "beneathTheWaves1": {
+      "title": "Bajo las olas 1",
+      "body": "<p>Vas dando tumbos entre tus recuerdos, luchando por regresar al presente. Recuerdas una celda oscura. Un cuchillo en tu garganta. Un hombre de ojos muy abiertos que no parpadean, vestido con una larga túnica con capucha. «Oceiros», llama otra voz, «a estos también los encontramos en la guarida de Dagón. Creemos que son los que andaban husmeando por el Arrecife del Diablo».</p><p>Oceiros asiente. El cuchillo se clava un poco más en tu garganta. «Llevad de inmediato al faro lo que han robado», ordena. «Es hora de comenzar nuestra gran obra. Nadie volverá a entorpecer los asuntos de la Orden».</p><p>Tu mente regresa de golpe al presente. El rugido de un motor de automóvil crece a medida que recuperas los sentidos. La agente Harper te agarra del hombro y te mira fijamente a los ojos. «Otra visión», dice con un deje de sorpresa. «¿Has recordado algo? ¿Qué era?».</p><p>Te sacudes el dolor que te martillea el cráneo y preguntas a Harper si el nombre de Oceiros le dice algo. «¿Oceiros Marsh? Es el farero del viejo faro del Cabo del Halcón», responde. «¿Por qué? ¿Qué has visto?».</p>"
+    },
+    "purpleKey": "<p>Describes el ídolo que encontraste en la gruta submarina. La agente Harper va asintiendo. «Recuerdo haber visto algo así en unas notas que encontré mientras tú investigabas el arrecife. Representa a una especie de deidad antigua, algo que esas viles criaturas adoran». Su voz baja hasta convertirse apenas en un susurro. «Algo que sospecho que no es ningún mito». Preguntas dónde está ahora el ídolo, y niega con la cabeza. «Sospecho que te lo quitaron cuando te arrojaron a aquel pozo», responde.</p>",
+    "whiteKey": "<p>Recuerdas el extraño manto que hallaste sumergido en las profundidades del Arrecife del Diablo. «Sí, me acuerdo de haberlo visto», dice Harper chasqueando los dedos. «Lo llevaba puesto uno de los \"sacerdotes\" de esa maldita Orden Esotérica de Dagón cuando llegué a Innsmouth. Debieron de llevarlo al faro con el resto de tus pertenencias cuando te capturaron en la sede de la Orden. Con suerte, seguirá allí...».</p>",
+    "blackKey": "<p>Hablas a la agente Harper del templo con las dos estatuas que descubriste en el interior del Arrecife del Diablo y de la corona que robaste. «Suena a la \"Diadema de Y'ha-nthlei\" sobre la que leí mientras investigaba a la Orden. Me impresiona que consiguieras llevártela. Sea lo que sea, parece muy importante para ellos. Aunque sigo sin tener ni idea de qué es \"Y'ha-nthlei\"». Comentas que ya no tienes la corona, y asiente. «Debieron de quitártela y llevarla al faro con el resto de tus cosas antes de que perdieras la memoria», explica.</p>",
+    "noKeys": "<p>Te esfuerzas por recordar algo de valor más allá de tu primera exploración del arrecife. Recuerdas las insólitas criaturas contra las que luchaste, las distintas islas que exploraste y la marea que no dejaba de subir, pero nada más. Tiene que haber secretos ocultos en esos arrecifes, pero o no lograste encontrarlos o sencillamente no los recuerdas. La cabeza te palpita de dolor mientras intentas arrancar recuerdos al vacío de tu mente. «No pasa nada», dice la agente Harper, posando una mano en tu hombro. «Lo resolveremos juntos».</p>",
+    "beneathTheWaves2": "<p>«Parece que estás empezando a recuperar la memoria», dice la agente Harper con una sonrisa vacilante. «¿Cómo te encuentras?».</p><p>Te cuesta dar con una respuesta apropiada. En parte te alivia que los recuerdos regresen, pero también desearías que no hubieran sido tan vívidos. Vuelves a preguntarte si no deberías aprovechar la ocasión para conducir de vuelta a Arkham y no pisar Innsmouth nunca más. Entonces tu mirada se cruza con la de Harper, y ves en sus ojos una feroz determinación. La misma que se agita en tu interior.</p><p>No dices nada, pero parece entenderlo. «Debe de ser mucho que asimilar. Por ahora, centrémonos en llegar al Cabo del Halcón. Si lo que dices es cierto y Oceiros forma parte de la Orden Esotérica de Dagón, allí debería haber respuestas». Vuelve la cabeza y escruta el horizonte occidental. El sol se hunde justo por debajo de las copas de los árboles y baña el cielo de un escarlata intenso. «Algo me dice que esto no ha terminado».</p>",
+    "xp": {
+      "purpleKey": "El ídolo fue llevado al faro.",
+      "whiteKey": "El manto fue llevado al faro.",
+      "blackKey": "La diadema fue llevada al faro."
+    }
+  },
+  "interlude4": {
+    "hiddenTruths": {
+      "title": "Interludio IV: Verdades ocultas",
+      "body": "<p>En cuanto tu mente regresó al presente, empezaste a trazar tu plan. Un plan para entrar en el reino de los profundos y acabar con su conspiración de una vez por todas. «Esto es ridículo, lo sabes, ¿no?», pregunta Harper. Asientes. Claro que es ridículo. Llevas dos días huyendo. Con gente persiguiéndote. Dándote caza. Atormentándote.</p><p>Pero también llevas dos días recobrando los recuerdos que habías olvidado. Y lo que has visto es algo que no puedes ignorar de ningún modo. Has visto a la deidad que da nombre a la Orden Esotérica de Dagón y entiendes lo que la Orden pretende hacer. La alineación de los astros en el cielo, la marea que no deja de subir, el tiempo revuelto y cambiante, las criaturas que emergen de las profundidades: todo está relacionado. Lo has visto. Llegará una inundación, un gran cataclismo que arrasará a la humanidad para que solo queden las profundidades. La gran ciudad del arrecife se alzará de nuevo y se convertirá en el corazón palpitante de toda la vida en la Tierra.</p><p>Todavía hay lagunas en tu memoria, pero sabes que todo esto es cierto. Innsmouth entero está sumido en esta conspiración. La Orden controlaba el pueblo mediante sus juramentos y la riqueza secreta que atesoraba de las profundidades. No es de extrañar que trataran con tanto desprecio a los forasteros como tú.</p><p>Dedicas a Harper una mirada elocuente. Suspira y asiente. «Lo sé. Es la única manera». Entre los dos, planeáis el rumbo. En el puerto de Innsmouth aún quedan barcos abandonados. Al amparo de la noche, tenéis que apoderaros de uno, navegar hasta el Arrecife del Diablo y descender de nuevo a las ruinas antediluvianas que yacen en las profundidades, bajo esas islas desoladas. Allí está la otra entrada a la ciudad. Y'ha-nthlei.</p><p>Se te eriza la piel con un escalofrío al pronunciar el nombre en voz alta. Harper tuerce el gesto, aunque percibes la determinación tras su mirada de acero. «Voy a llevar esta misión hasta el final, Dawson. Por ti».</p><p>Pones sobre la mesa toda la información que has descubierto y las reliquias que has obtenido a pesar de los horrores desplegados contra ti. Sabes que el camino a Y'ha-nthlei está sellado. Tiene que haber una forma de entrar. Quizá ya tengas las respuestas que buscas...</p>"
+    },
+    "guardianDispatched": "<p>Examinas el trofeo que encontraste en el pozo de sacrificios en el que despertaste hace unos días: parte de lo que fue la criatura contra la que luchaste en el Arrecife del Diablo. No era el mismo tipo de criatura que los «profundos» que adora la Orden Esotérica de Dagón, pero no puedes evitar darle vueltas a las similitudes entre ambos. Recuerdas que los peces no dejan de crecer a medida que envejecen, y te preguntas si les ocurrirá lo mismo a los profundos. Quizá se tratara de una antigua estirpe de profundo, algo tan viejo que se volvió enorme y deforme más allá de lo imaginable. En ese caso, ¿qué hacía en el Arrecife del Diablo? ¿Custodiaba Y'ha-nthlei? Y si es así, ¿qué augura eso para ti? Decides llevarte el trofeo, con la esperanza de que sea lo bastante importante para ayudarte en tu misión...</p>",
+    "rightfulKeeper": "<p>Ahora comprendes para qué sirve la reliquia que encontraste en el Arrecife del Diablo. No es solo un objeto de poder. Es una insignia, una especie de herencia que lleva quien monta guardia ante la puerta de la ciudad de los profundos. Derrotaste a quien estaban preparando para ser su siguiente protector. Ahora la reliquia te reconoce como su heredero legítimo. Quizá con ella logres entrar en Y'ha-nthlei...</p>",
+    "label": {
+      "keepElinaHarper": "¿Te acompañará Elina Harper a Y'ha-nthlei?",
+      "addElinaHarper": "Añadir a Elina Harper a tu mazo",
+      "doNotAddElinaHarper": "No añadir a Elina Harper a tu mazo"
+    }
+  },
+  "epilogue": {
+    "epilogue1": {
+      "title": "Epílogo",
+      "body": "<p><b>Epílogo 1:</b> El viaje de vuelta en coche a Arkham es silencioso. Después de todo lo que has pasado, habrías pensado que el silencio sería un remanso de paz... pero te has quedado a solas con tus pensamientos: pensamientos sobre Innsmouth, sobre los profundos, sobre monstruos enormes que moran en los abismos bajo las olas. Te descubres mirando una y otra vez el retrovisor, esperando ver los faros de unos perseguidores que quieren verte muerto; los ojos brillantes, sin párpados, de un horror acuático en el asiento trasero; o quizá incluso la mirada fría y sin vida de Thomas Dawson, mutado hasta resultar casi irreconocible. Pero no ves nada. Solo una carretera vacía.</p><p>Suspiras y repasas una vez más los acontecimientos de las últimas semanas. Crees tener una imagen completa de lo ocurrido, y aun así sientes que falta algo. Otra laguna en tu memoria...</p>"
+    },
+    "checkMemories": "Comprueba la sección «Recuerdos recuperados» del Registro de campaña.",
+    "ifAllFourteen": "Si las 14 anotaciones siguientes aparecen en «Recuerdos recuperados», lee el _Destello del pasado XV_. En caso contrario, pasa al _Epílogo 2_.",
+    "memories": {
+      "aMeetingWithThomasDawson": "Una reunión con Thomas Dawson.",
+      "aBattleWithAHorrifyingDevil": "Una batalla con un horripilante demonio.",
+      "aDecisionToStickTogether": "Una decisión de no separarse.",
+      "anEncounterWithASecretCult": "Un encuentro con una secta secreta.",
+      "aDealWithJoeSargent": "Un trato con Joe Sargent.",
+      "aFollowedLead": "Una pista seguida.",
+      "anIntervention": "Una intervención.",
+      "aJailbreak": "Una fuga de la cárcel.",
+      "discoveryOfAStrangeIdol": "El descubrimiento de un extraño ídolo.",
+      "discoveryOfAnUnholyMantle": "El descubrimiento de un manto impío.",
+      "discoveryOfAMysticalRelic": "El descubrimiento de una reliquia mística.",
+      "aConversationWithMrMoore": "Una conversación con el señor Moore.",
+      "theLifecycleOfADeepOne": "El ciclo vital de un «profundo».",
+      "aStingingBetrayal": "Una dolorosa traición."
+    },
+    "epilogue2": {
+      "title": "Epílogo",
+      "body": "<p><b>Epílogo 2:</b> ...Te sacudes esa sensación. Ya no importa. Toda esta odisea ha quedado atrás. Innsmouth, Dagón, Hidra, Y'ha-nthlei: solo un recuerdo terrible que ojalá pudieras olvidar, como todos esos otros que perdiste. Pisas a fondo el acelerador. Cuanto antes te alejes de este lugar infernal, mejor.</p>"
+    },
+    "flashback15": {
+      "title": "Destello del pasado XV",
+      "body": "<div class='blue'><h1>Destello del pasado XV</h1><p>Vuelves a estar en el despacho del agente Dawson en Boston. Ha salido solo un momento a buscar unos documentos que tienes que firmar. Sin duda, algún tipo de acuerdo para no hablar de nada que veas u oigas mientras trabajes para el gobierno. Pasan varios minutos. Empiezas a deambular por el despacho, examinando los numerosos libros y mapas que Dawson tiene desperdigados. Algunos son bastante inofensivos (un manual de medicina, una historia de Nueva Inglaterra, un tratado sobre la anatomía de las criaturas acuáticas del Atlántico), pero los volúmenes se vuelven cada vez más extraños a medida que inspeccionas su colección.</p><p>Al acercarte al lado del despacho que ocupa Dawson, adviertes que los muchos libros, sobres y documentos repartidos por su escritorio descansan sobre un mapa desplegado. Decides arriesgarte a echar un vistazo, confiando en que lo que esté haciendo Dawson lo mantenga fuera un rato más. Apartas algunos de los objetos que estorban y examinas el mapa. Es una enorme carta náutica de los océanos del mundo, marcada en muchos puntos con tinta negra reciente. A un lado hay una pluma estilográfica.</p><p>Las marcas que ha hecho Dawson son, como mínimo, curiosas. Hay más de una docena repartidas por los mares. Algunas están frente a las costas de varios continentes y otras en mitad del océano, señaladas con amplios círculos sin rellenar que indican que se desconocen sus coordenadas exactas. Junto a cada una hay garabateadas unas palabras extrañas. P'tha'wei, en el Atlántico norte, cerca de Groenlandia. Yhe'nthalla, en el Atlántico sur, frente a la costa de África. R'lyeh, en lo más hondo del Pacífico sur. Th'all-iewa, junto a Australia, en el océano Índico oriental. Y al menos diez más, algunas acompañadas de signos de interrogación: señal de que el registro está incompleto. Apartas con cuidado el libro que reposa sobre Norteamérica y ves una más frente a la costa de Massachusetts. Y'ha-nthlei.</p><p>Das un frenazo y el coche chirría hasta detenerse mientras tu mente regresa al presente. No. No puede ser. Se te hace un nudo en el corazón al comprender la verdad. ¡No...!</p><p>Y'ha-nthlei no era el hogar de los profundos. Solo era uno de muchos.</p><hr /><p class='basic'>Anota en la sección «Recuerdos recuperados» del Registro de campaña *la horrible verdad*.</p></div>"
+    }
+  },
+  "memoriesRecovered": {
+    "aMeetingWithThomasDawson": "Una reunión con Thomas Dawson",
+    "aBattleWithAHorrifyingDevil": "Una batalla con un horripilante demonio",
+    "aDecisionToStickTogether": "Una decisión de no separarse",
+    "anEncounterWithASecretCult": "Un encuentro con una secta secreta",
+    "anIntervention": "Una intervención",
+    "aJailbreak": "Una fuga de la cárcel",
+    "aDealWithJoeSargent": "Un trato con Joe Sargent",
+    "aFollowedLead": "Una pista seguida",
+    "discoveryOfAStrangeIdol": "El descubrimiento de un extraño ídolo",
+    "discoveryOfAnUnholyMantle": "El descubrimiento de un manto impío",
+    "discoveryOfAMysticalRelic": "El descubrimiento de una reliquia mística",
+    "aConversationWithMrMoore": "Una conversación con el señor Moore",
+    "theLifecycleOfADeepOne": "El ciclo vital de un «profundo»",
+    "aStingingBetrayal": "Una dolorosa traición",
+    "youRememberWhereYouHaveToGo": "Recuerdas adónde tienes que ir",
+    "theHorribleTruth": "La horrible verdad"
+  },
+  "possibleHideouts": {
+    "innsmouthJail": "Cárcel de Innsmouth",
+    "shorewardSlums": "Suburbios ribereños",
+    "sawboneAlley": "Callejón del Matasanos",
+    "theHouseOnWaterStreet": "La casa de Water Street",
+    "esotericOrderOfDagon": "Orden Esotérica de Dagón",
+    "newChurchGreen": "New Church Green"
+  },
+  "possibleSuspects": {
+    "brianBurnham": "Brian Burnham",
+    "barnabasMarsh": "Barnabas Marsh",
+    "otheraGilman": "Othera Gilman",
+    "zadokAllen": "Zadok Allen",
+    "joyceLittle": "Joyce Little",
+    "robertFriendly": "Robert Friendly"
+  },
+  "label": {
+    "noAir": "No has encontrado aire. Sufre 5 puntos de daño directo",
+    "shuffleThatCardIntoLeadsDeck": "Barajar esa carta en el mazo de Indicios"
+  },
+  "syzygy": {
+    "label": {
+      "loseResources": "Cada investigador pierde 3 recursos.",
+      "takeHorror": "Cada investigador sufre 2 puntos de horror.",
+      "placeDoomCanAdvance": "Coloca 1 de Perdición en el Plan en curso (este efecto puede hacer avanzar el Plan en curso)."
+    }
+  },
+  "fogOverInnsmouth": {
+    "label": {
+      "putIntoPlay": "Poner en juego Niebla sobre Innsmouth junto al mazo de Plan."
+    }
+  },
+  "furtiveLocals": {
+    "label": {
+      "putIntoPlay": "Poner en juego Lugareños furtivos junto al mazo de Plan."
+    }
+  },
+  "key": {
+    "memoriesRecovered": "Recuerdos recuperados",
+    "outForBlood": "Sed de sangre",
+    "theMissionFailed": "La misión fracasó",
+    "theMissionWasSuccessful": "La misión tuvo éxito",
+    "possibleSuspects": "Posibles sospechosos",
+    "possibleHideouts": "Posibles escondites",
+    "innsmouthWasConsumedByTheRisingTide": "La marea creciente consumió Innsmouth",
+    "theInvestigatorsMadeItSafelyToTheirVehicles": "Los investigadores llegaron a salvo a sus vehículos",
+    "theTideHasGrownStronger": "La marea se ha fortalecido",
+    "theTerrorOfDevilReefIsStillAlive": "El Terror del Arrecife del Diablo sigue vivo",
+    "theTerrorOfDevilReefIsDead": "El Terror del Arrecife del Diablo está muerto",
+    "theIdolWasBroughtToTheLighthouse": "Llevaron el ídolo al faro",
+    "theMantleWasBroughtToTheLighthouse": "Llevaron el manto al faro",
+    "theHeaddressWasBroughtToTheLighthouse": "Llevaron la diadema al faro",
+    "theInvestigatorsReachedFalconPointBeforeSunrise": "Los investigadores llegaron al Cabo del Halcón antes de la salida del sol",
+    "theInvestigatorsReachedFalconPointAfterSunrise": "Los investigadores llegaron al Cabo del Halcón tras la salida del sol",
+    "possessesADivingSuit": "Tiene un traje de buzo",
+    "theInvestigatorsPossessAMapOfYhaNthlei": "Los investigadores tienen un mapa de Y'ha-nthlei",
+    "theInvestigatorsPossessTheKeyToYhaNthlei": "Los investigadores tienen la llave de Y'ha-nthlei",
+    "dagonHasAwakened": "Dagón ha despertado",
+    "dagonStillSlumbers": "Dagón sigue durmiendo",
+    "theOrdersRitualWasDisrupted": "El ritual de la Orden fue interrumpido",
+    "theGatekeeperHasBeenDefeated": "El guardián de la puerta ha sido derrotado",
+    "theGuardianOfYhanthleiIsDispatched": "El guardián de Y'ha-nthlei ha sido derrotado",
+    "theGatewayToYhanthleiRecognizesYouAsTheRightfulKeeper": "La puerta de Y'ha-nthlei te reconoce como su guardián por derecho",
+    "theInvestigatorsEscapedYhanthlei": "Los investigadores escaparon de Y'ha-nthlei",
+    "thePlotOfTheDeepOnesWasThwarted": "El plan de los profundos fue frustrado",
+    "theFloodHasBegun": "La inundación ha comenzado",
+    "agentHarpersMissionIsComplete": "La misión de la agente Harper quedó completada",
+    "theRichesOfTheDeepAreLostForever": "Las riquezas de las profundidades se han perdido para siempre",
+    "agentHarpersMissionIsCompleteButAtWhatCost": "La misión de la agente Harper quedó completada... pero ¿a qué precio?",
+    "theRichesOfTheDeepAreLostForeverButAtWhatCost": "Las riquezas de las profundidades se han perdido para siempre... pero ¿a qué precio?",
+    "theDeepOnesHaveFloodedTheEarth": "Los profundos han inundado la Tierra",
+    "theHorribleTruth": "La horrible verdad"
+  }
+}
