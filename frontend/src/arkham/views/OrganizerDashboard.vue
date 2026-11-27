@@ -262,7 +262,7 @@ function playSeat(group: GroupDigest) {
   router.push({ name: 'Game', params: { gameId: group.gameId }, query: { event: props.id } })
 }
 
-// Organizer-only: delete the event and all of its group games, then return home.
+// Organizer-only: delete the event and all of its group games, then return to the list.
 async function removeEvent() {
   if (deleting.value) return
   if (!window.confirm(t('event.confirmDelete'))) return
@@ -270,7 +270,7 @@ async function removeEvent() {
   try {
     await deleteEvent(props.id)
     store.disconnect()
-    router.push('/')
+    router.push({ name: 'Games' })
   } catch (e) {
     console.error(e)
     deleting.value = false

@@ -1,4 +1,5 @@
 <script lang="ts" setup>
+import AuthLayout from '@/components/AuthLayout.vue'
 import { useUserStore } from '@/stores/user'
 import { useRoute, useRouter, onBeforeRouteLeave } from 'vue-router'
 import { computed, ref, reactive, onUnmounted } from 'vue'
@@ -67,57 +68,49 @@ onBeforeRouteLeave(() => {
 </script>
 
 <template>
-  <form v-if="health" @submit.prevent="authenticate">
-    <header><i class="secret"></i></header>
-    <div class="notice" v-if="expired && !signInError">{{$t('sessionExpired')}}</div>
-    <div class="error" v-if="dormant && !signInError">{{$t('accountDormant')}}</div>
-    <div class="error" v-if="signInError">{{signInError}}</div>
-    <section>
-      <div>
-        <input
-          v-model="credentials.email"
-          type="email"
-          :placeholder="$t('email')"
-        />
-      </div>
-      <div>
-        <input
-          v-model="credentials.password"
-          type="password"
-          :placeholder="$t('password')"
-        />
-      </div>
-      <div>
-        <button>{{$t('logIn')}}</button>
-      </div>
-    </section>
-    <section>
-      <router-link to="/password-reset">{{$t('forgotPassword')}}</router-link>
-    </section>
-  </form>
-  <div v-else class="service-down">
-    <div class="service-down-card">
+  <AuthLayout>
+    <form v-if="health" @submit.prevent="authenticate">
+      <div class="notice" v-if="expired && !signInError">{{$t('sessionExpired')}}</div>
+      <div class="error" v-if="dormant && !signInError">{{$t('accountDormant')}}</div>
+      <div class="error" v-if="signInError">{{signInError}}</div>
+      <section>
+        <div>
+          <input
+            v-model="credentials.email"
+            type="email"
+            :placeholder="$t('email')"
+          />
+        </div>
+        <div>
+          <input
+            v-model="credentials.password"
+            type="password"
+            :placeholder="$t('password')"
+          />
+        </div>
+        <div>
+          <button>{{$t('logIn')}}</button>
+        </div>
+      </section>
+      <section>
+        <router-link to="/password-reset">{{$t('forgotPassword')}}</router-link>
+      </section>
+    </form>
+    <div v-else class="service-down">
       <h1>{{$t('serviceUnavailable')}}</h1>
       <p>{{$t('pleaseTryAgainLater')}}</p>
     </div>
-  </div>
+  </AuthLayout>
 </template>
 
 <style scoped>
 form {
-  margin: 0 auto;
-  margin-top: 10vh;
-  width: 50vw;
-  max-width: 400px;
+  width: 100%;
 }
 
 section {
   border-radius: 3px;
   padding: 10px;
-}
-
-header {
-  text-align: center;
 }
 
 input {
@@ -142,24 +135,6 @@ button {
   }
 }
 
-i.secret {
-  font-family: 'Arkham';
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  font-size: 5em;
-  color: #16192B;
-  -webkit-font-smoothing: antialiased;
-  position: relative;
-
-  &:before {
-    font-family: "Arkham";
-    content: "\0048";
-  }
-}
-
 .error {
   background:#E3CCCD;
   color: #900000;
@@ -177,24 +152,11 @@ i.secret {
 }
 
 .service-down {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background: linear-gradient(135deg, var(--background-dark), var(--background));
-}
-
-.service-down-card {
-  background: var(--background-dark);
-  color: #2a2f47;
-  padding: 2rem 3rem;
-  border-radius: 12px;
-  box-shadow: var(--card-shadow);
+  padding: 0 10px 10px;
   text-align: center;
-  max-width: 400px;
 }
 
-.service-down-card h1 {
+.service-down h1 {
   text-transform: uppercase;
   font-family: 'Teutonic', sans-serif;
   font-size: 1.8rem;
@@ -202,7 +164,7 @@ i.secret {
   color: var(--title);
 }
 
-.service-down-card p {
+.service-down p {
   font-size: 1rem;
   color: var(--text);
 }

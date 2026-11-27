@@ -4,6 +4,7 @@
   "serviceUnavailable": "Service Unavailable",
   "pleaseTryAgainLater": "Please try again later.",
   "nav": {
+    "games": "Games",
     "home": "Home",
     "about": "About",
     "achievements": "Achievements",
@@ -740,6 +741,7 @@
     "avifUnsupported": "Your browser does not support AVIF images. Please update your browser or switch to a different one."
   },
   "pageTitles": {
+    "games": "Games",
     "base": "Arkham Horror",
     "newGame": "New Game",
     "watch": "Watch",
@@ -1084,6 +1086,10 @@
     "loading": "Loading…"
   },
   "home": {
+    "continuePlaying": "Continue playing",
+    "continue": "Continue",
+    "quickAccess": "Quick access",
+    "activeCount": "{count} in progress",
     "announcements": "Announcements",
     "categories": {
       "important": "Important",

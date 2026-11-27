@@ -6,6 +6,12 @@ export default [
     meta: { requiresAuth: true, title: "Arkham Horror" },
   },
   {
+    path: '/games',
+    name: 'Games',
+    component: () => import('@/views/Games.vue'),
+    meta: { requiresAuth: true, title: "Arkham Horror: Games" },
+  },
+  {
     path: '/new-game',
     name: 'NewGame',
     component: () => import('@/views/NewGame.vue'),

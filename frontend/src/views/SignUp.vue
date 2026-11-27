@@ -1,4 +1,5 @@
 <script lang="ts" setup>
+import AuthLayout from '@/components/AuthLayout.vue'
 import { ref, reactive } from 'vue'
 import { useUserStore } from '@/stores/user'
 import { useSiteSettingsStore } from '@/stores/site_settings'
@@ -46,51 +47,48 @@ async function register() {
 </script>
 
 <template>
-  <div v-if="inviteOnly" class="closed">
-    <header><i class="secret"></i></header>
-    <section>
-      <h1>{{ $t('registrationClosed.title') }}</h1>
-      <p>{{ $t('registrationClosed.body') }}</p>
-      <router-link to="/sign-in">{{ $t('logIn') }}</router-link>
-    </section>
-  </div>
-  <form v-else @submit.prevent="register">
-    <header><i class="secret"></i></header>
-    <section>
-      <div>
-        <input
-          v-model="registration.username"
-          type="text"
-          :placeholder="$t('username')"
-        />
-      </div>
-      <div>
-        <input
-          v-model="registration.email"
-          type="email"
-          :placeholder="$t('email')"
-        />
-      </div>
-      <div>
-        <input
-          v-model="registration.password"
-          type="password"
-          :placeholder="$t('password')"
-        />
-      </div>
-      <div>
-        <button>{{$t('register')}}</button>
-      </div>
-    </section>
-  </form>
+  <AuthLayout>
+    <div v-if="inviteOnly" class="closed">
+      <section>
+        <h1>{{ $t('registrationClosed.title') }}</h1>
+        <p>{{ $t('registrationClosed.body') }}</p>
+        <router-link to="/sign-in">{{ $t('logIn') }}</router-link>
+      </section>
+    </div>
+    <form v-else @submit.prevent="register">
+      <section>
+        <div>
+          <input
+            v-model="registration.username"
+            type="text"
+            :placeholder="$t('username')"
+          />
+        </div>
+        <div>
+          <input
+            v-model="registration.email"
+            type="email"
+            :placeholder="$t('email')"
+          />
+        </div>
+        <div>
+          <input
+            v-model="registration.password"
+            type="password"
+            :placeholder="$t('password')"
+          />
+        </div>
+        <div>
+          <button>{{$t('register')}}</button>
+        </div>
+      </section>
+    </form>
+  </AuthLayout>
 </template>
 
 <style scoped>
 form, .closed {
-  margin: 0 auto;
-  margin-top: 10vh;
-  width: 50vw;
-  max-width: 400px;
+  width: 100%;
 }
 
 .closed {
@@ -115,10 +113,6 @@ section {
   padding: 10px;
 }
 
-header {
-  text-align: center;
-}
-
 input {
   outline: 0;
   border: 0;
@@ -141,21 +135,4 @@ button {
   }
 }
 
-i.secret {
-  font-family: 'Arkham';
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  font-size: 5em;
-  color: #15192C;
-  -webkit-font-smoothing: antialiased;
-  position: relative;
-
-  &:before {
-    font-family: "Arkham";
-    content: "\0048";
-  }
-}
 </style>

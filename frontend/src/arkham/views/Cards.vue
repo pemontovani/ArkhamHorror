@@ -831,9 +831,11 @@ const showSidebar = ref(false)
 const sidebarCollapsed = ref(false)
 const selectedCard = ref<Arkham.CardDef | null>(null)
 
-// The details modal steps through the cards in the order the grid shows them,
-// which groups two defs that are one physical card into a single tile.
-const navigableCards = computed(() => groupCards(imageViewCards.value).map((entry) => entry.card))
+// The details modal steps through the cards in the order the open view shows
+// them -- only the grid has the unimplemented ones -- and both views group two
+// defs that are one physical card into a single entry.
+const shownCards = computed(() => view.value === View.List ? cards.value : imageViewCards.value)
+const navigableCards = computed(() => groupCards(shownCards.value).map((entry) => entry.card))
 
 const selectedIndex = computed(() => {
   if (!selectedCard.value) return -1
@@ -966,7 +968,13 @@ const stepCard = (delta: number) => {
         selectable
         @select="selectedCard = $event"
       />
-      <CardListView v-if="view == View.List" :cards="cards" :show-counts="false" />
+      <CardListView
+        v-if="view == View.List"
+        :cards="cards"
+        :show-counts="false"
+        show-details
+        @select="selectedCard = $event"
+      />
     </div>
     <CardDetailsModal
       v-if="selectedCard"

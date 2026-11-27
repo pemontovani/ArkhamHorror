@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import { useI18n } from 'vue-i18n'
-import { computed, onMounted, ref } from 'vue'
+import { computed, onMounted, ref, watch } from 'vue'
 import { customInvestigatorUsesCardPortrait, portraitImage } from '@/arkham/cardImages'
 import { customCardFaceKnown, isCustomCardCode } from '@/arkham/customCards'
 import { useCardStore } from '@/stores/cards'
@@ -8,7 +8,7 @@ import type { GameDetails } from '@/arkham/types/Game'
 import type { Difficulty } from '@/arkham/types/Difficulty'
 import type { CampaignDetails } from '@/arkham/types/Campaign'
 import type { ScenarioDetails } from '@/arkham/types/Scenario'
-import { imgsrc } from '@/arkham/helpers'
+import { campaignBox, imgsrc, scenarioBox } from '@/arkham/helpers'
 import { localizedGameName, localizedScenarioName } from '@/arkham/scenarioNames'
 import campaignCatalog from '@/arkham/data/campaigns.json'
 import { homebrewCampaigns } from '@/arkham/homebrewData'
@@ -134,6 +134,17 @@ const scenarioIcon = computed(() => {
   const variant = scenario.value.variant ? `-${scenario.value.variant}` : ''
   return imgsrc(`sets/${setId}${variant}.png`)
 })
+
+/* The box art of what is being played: the campaign's, or for a standalone game
+ * the scenario's. Not every homebrew ships one, and a row whose picture fails to
+ * load simply goes without. */
+const boxImage = computed(() => {
+  if (campaign.value?.id) return campaignBox(campaign.value.id)
+  if (scenario.value?.id) return scenarioBox(scenario.value.id)
+  return null
+})
+const boxFailed = ref(false)
+watch(boxImage, () => (boxFailed.value = false))
 </script>
 
 <template>
@@ -146,6 +157,10 @@ const scenarioIcon = computed(() => {
       lost: game.outcome?.result === 'Lost',
     }"
   >
+    <div v-if="boxImage && !boxFailed" class="game-box">
+      <!-- Decoration: the title beside it already names the campaign. -->
+      <img :src="boxImage" alt="" loading="lazy" @error="boxFailed = true" />
+    </div>
     <div class="game-details">
       <div class="game-title">
         <div class="main-details">
@@ -325,7 +340,36 @@ h2 {
   filter: invert(100%);
 }
 
+.game-box {
+  flex: none;
+  position: relative;
+  width: 150px;
+
+  /* Taken out of the flow so the picture fits the row rather than setting its
+     height. Contained, because campaign boxes are square and scenario packs are
+     upright. */
+  img {
+    position: absolute;
+    inset: 8px;
+    width: calc(100% - 16px);
+    height: calc(100% - 16px);
+    object-fit: contain;
+    filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.5));
+  }
+
+  @media (max-width: 768px) {
+    width: 90px;
+
+    img {
+      inset: 6px;
+      width: calc(100% - 12px);
+      height: calc(100% - 12px);
+    }
+  }
+}
+
 .game-details {
+  min-width: 0;
   flex: 1;
 }
 

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-/* The admin-written notifications, as a feed down the side of the games list
+/* The admin-written notifications, as a feed down the side of the home page
  * rather than a stack of banners across the top of it.
  *
  * Each entry is an AnnouncementCard, which is the same card the admin panel

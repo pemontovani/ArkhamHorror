@@ -1,4 +1,5 @@
 <script lang="ts" setup>
+import AuthLayout from '@/components/AuthLayout.vue'
 import { reactive } from 'vue'
 import { useToast } from '@/toasts'
 import { useI18n } from 'vue-i18n';
@@ -29,39 +30,32 @@ const toast = useToast()
 </script>
 
 <template>
-  <form @submit.prevent="updatePassword">
-    <header><i class="secret"></i></header>
-    <section>
-      <div>
-        <input
-          v-model="reset.password"
-          type="password"
-          :placeholder="$t('newPassword')"
-        />
-      </div>
-      <div>
-        <button>{{$t('updatePassword')}}</button>
-      </div>
-    </section>
-  </form>
+  <AuthLayout>
+    <form @submit.prevent="updatePassword">
+      <section>
+        <div>
+          <input
+            v-model="reset.password"
+            type="password"
+            :placeholder="$t('newPassword')"
+          />
+        </div>
+        <div>
+          <button>{{$t('updatePassword')}}</button>
+        </div>
+      </section>
+    </form>
+  </AuthLayout>
 </template>
 
 <style scoped>
 form {
-  margin: 0 auto;
-  margin-top: 10vh;
-  width: 50vw;
-  max-width: 400px;
+  width: 100%;
 }
 
 section {
-  background-color: #15192C;
   border-radius: 3px;
   padding: 10px;
-}
-
-header {
-  text-align: center;
 }
 
 input {
@@ -83,24 +77,6 @@ button {
   width: 100%;
   &:hover {
     background: hsl(80, 35%, 32%);
-  }
-}
-
-i.secret {
-  font-family: 'Arkham';
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  font-size: 5em;
-  color: #16192B;
-  -webkit-font-smoothing: antialiased;
-  position: relative;
-
-  &:before {
-    font-family: "Arkham";
-    content: "\0048";
   }
 }
 

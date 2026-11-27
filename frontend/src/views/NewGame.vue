@@ -6,7 +6,7 @@ const router = useRouter()
 
 /* A push rather than a step back through history, because this is a page of its
  * own now: it can be arrived at by URL, where there is nothing to go back to. */
-const cancel = () => router.push({ path: '/' })
+const cancel = () => router.push({ name: 'Games' })
 </script>
 
 <template>

@@ -21,7 +21,7 @@ const { games, inactiveIds, loading } = useSpectatableGames()
               <h2>{{ $t('watch.title') }}</h2>
             </div>
             <div class="header-actions">
-              <RouterLink class="secondary-cta" to="/">{{ $t('watch.back') }}</RouterLink>
+              <RouterLink class="secondary-cta" to="/games">{{ $t('watch.back') }}</RouterLink>
             </div>
           </header>
           <p class="watch-blurb">{{ $t('watch.blurb') }}</p>

@@ -1564,12 +1564,12 @@ function roomClosed(reason: string) {
   } else {
     toast.info(t('gameClosed'), { timeout: 6000 })
   }
-  router.push({ name: 'Home' })
+  router.push({ name: 'Games' })
 }
 
 function leaveAbandonedRoom() {
   roomAbandoned.value = false
-  router.push({ name: 'Home' })
+  router.push({ name: 'Games' })
 }
 
 /*

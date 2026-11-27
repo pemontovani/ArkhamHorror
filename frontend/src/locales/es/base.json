@@ -4,6 +4,7 @@
   "serviceUnavailable": "Servicio no disponible",
   "pleaseTryAgainLater": "Por favor, inténtalo de nuevo más tarde.",
   "nav": {
+    "games": "Partidas",
     "home": "Inicio",
     "about": "Acerca de",
     "achievements": "Logros",
@@ -735,6 +736,7 @@
     "avifUnsupported": "Tu navegador no admite imágenes AVIF. Actualiza tu navegador o cambia a otro."
   },
   "pageTitles": {
+    "games": "Partidas",
     "base": "Arkham Horror",
     "newGame": "Nueva partida",
     "watch": "Ver partidas",
@@ -1079,6 +1081,10 @@
     "loading": "Cargando…"
   },
   "home": {
+    "continuePlaying": "Seguir jugando",
+    "continue": "Continuar",
+    "quickAccess": "Accesos rápidos",
+    "activeCount": "{count} en curso",
     "dismiss": "Descartar",
     "noActiveGames": "No hay partidas en curso.",
     "loadGame": "Cargar partida",

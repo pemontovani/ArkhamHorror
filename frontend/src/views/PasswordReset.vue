@@ -1,4 +1,5 @@
 <script lang="ts" setup>
+import AuthLayout from '@/components/AuthLayout.vue'
 import { reactive, ref } from 'vue'
 import { useToast } from '@/toasts'
 import { useI18n } from 'vue-i18n';
@@ -26,35 +27,34 @@ const toast = useToast()
 </script>
 
 <template>
-  <form v-if="!submitted" @submit.prevent="resetPassword">
-    <header><i class="secret"></i></header>
-    <section>
-      <div>
-        <input
-          v-model="reset.email"
-          type="email"
-          :placeholder="$t('email')"
-        />
-      </div>
-      <div>
-        <button>{{$t('resetPassword')}}</button>
-      </div>
-    </section>
-  </form>
-  <div v-else class="container box">
-    <p>{{ $t('deckUi.checkEmailForReset') }}</p>
-  </div>
+  <AuthLayout>
+    <form v-if="!submitted" @submit.prevent="resetPassword">
+      <section>
+        <div>
+          <input
+            v-model="reset.email"
+            type="email"
+            :placeholder="$t('email')"
+          />
+        </div>
+        <div>
+          <button>{{$t('resetPassword')}}</button>
+        </div>
+      </section>
+    </form>
+    <div v-else class="submitted">
+      <p>{{ $t('deckUi.checkEmailForReset') }}</p>
+    </div>
+  </AuthLayout>
 </template>
 
 <style scoped>
-form, .container {
-  margin: 0 auto;
-  margin-top: 10vh;
-  width: 50vw;
-  max-width: 400px;
+form {
+  width: 100%;
 }
 
-header {
+.submitted {
+  padding: 0 10px 10px;
   text-align: center;
 }
 
@@ -77,24 +77,6 @@ button {
   width: 100%;
   &:hover {
     background: hsl(80, 35%, 32%);
-  }
-}
-
-i.secret {
-  font-family: 'Arkham';
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  font-size: 5em;
-  color: #16192B;
-  -webkit-font-smoothing: antialiased;
-  position: relative;
-
-  &:before {
-    font-family: "Arkham";
-    content: "\0048";
   }
 }
 

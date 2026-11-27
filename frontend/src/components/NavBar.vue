@@ -68,6 +68,7 @@ async function logout() {
 
     <nav class="main-links">
       <router-link to="/" class="home-link">{{$t('nav.home')}}</router-link>
+      <router-link v-if="currentUser" to="/games" class="nav-link">{{$t('nav.games')}}</router-link>
       <router-link v-if="currentUser" to="/decks" class="nav-link">{{$t('nav.myDecks')}}</router-link>
       <router-link v-if="currentUser" to="/cards" class="nav-link">{{$t('nav.cards')}}</router-link>
       <router-link v-if="currentUser" to="/achievements" class="nav-link">{{$t('nav.achievements')}}</router-link>
@@ -101,6 +102,7 @@ async function logout() {
     </OnClickOutside>
 
     <div v-if="mobileOpen" class="mobile-menu" @click="mobileOpen = false">
+      <router-link to="/games">{{$t('nav.games')}}</router-link>
       <router-link to="/decks">{{$t('nav.myDecks')}}</router-link>
       <router-link to="/cards">{{$t('nav.cards')}}</router-link>
       <router-link to="/achievements">{{$t('nav.achievements')}}</router-link>

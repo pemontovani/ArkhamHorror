@@ -16,6 +16,10 @@ const props = withDefaults(defineProps<{
   attachments?: Record<string, Arkham.CardDef[]>,
   showCounts?: boolean,
   selectable?: boolean,
+  /* Clicking a card's name asks the parent to show its details instead of
+   * following the link out to ArkhamDB, as clicking a picture does in the image
+   * view. Not the same as `selectable`, which turns the list into a chooser. */
+  showDetails?: boolean,
   /* Editing an overlay: each card gets take-one/put-one-back controls right
    * where it is listed, rather than in a separate pane. */
   overlayEditing?: boolean,
@@ -27,6 +31,7 @@ const props = withDefaults(defineProps<{
   attachments: () => ({}),
   showCounts: true,
   selectable: false,
+  showDetails: false,
   overlayEditing: false,
   overlayRemoved: () => () => 0,
   overlayCount: () => () => null,
@@ -35,7 +40,20 @@ const props = withDefaults(defineProps<{
 const shownCount = (card: Arkham.CardDef, count: number) => props.overlayCount(card) ?? count
 const isOut = (card: Arkham.CardDef) => props.overlayCount(card) === 0
 
-const emit = defineEmits<{ choose: [index: number]; 'overlay-take': [card: Arkham.CardDef]; 'overlay-restore': [card: Arkham.CardDef] }>()
+const emit = defineEmits<{
+  choose: [index: number]
+  select: [card: Arkham.CardDef]
+  'overlay-take': [card: Arkham.CardDef]
+  'overlay-restore': [card: Arkham.CardDef]
+}>()
+
+// A modified click keeps the link's own behaviour: ArkhamDB in a new tab.
+const onNameClick = (event: MouseEvent, card: Arkham.CardDef) => {
+  if (!props.showDetails) return
+  if (event.metaKey || event.ctrlKey || event.shiftKey || event.button !== 0) return
+  event.preventDefault()
+  emit('select', card)
+}
 
 const store = useDbCardStore()
 
@@ -133,8 +151,9 @@ const attachmentHeading = (card: Arkham.CardDef) => {
                 </span>
                 <span v-if="showCounts" class="deck-card-count">x {{ shownCount(card, count) }}</span>
                 <button v-if="selectable" type="button" class="card-choice-name" :data-image="cardImage(card.cardCode)" @click.stop="emit('choose', index)">{{ cardName(card) }}{{ levelText(card) }}</button>
+                <button v-else-if="showDetails && isCustomCardCode(card.art)" type="button" class="card-choice-name" @click="emit('select', card)">{{ cardName(card) }}{{ levelText(card) }}</button>
                 <span v-else-if="isCustomCardCode(card.art)" class="card-name">{{ cardName(card) }}{{ levelText(card) }}</span>
-                <a v-else target="_blank" :href="`${localizeArkhamDBBaseUrl()}/card/${card.art}`">{{ cardName(card) }}{{ levelText(card) }}</a>
+                <a v-else target="_blank" :href="`${localizeArkhamDBBaseUrl()}/card/${card.art}`" @click="onNameClick($event, card)">{{ cardName(card) }}{{ levelText(card) }}</a>
                 <span v-if="isUnderworldMarketCard(card)" class="market-badge" v-tooltip="marketTooltip(card)" :aria-label="marketTooltip(card)">
                   <font-awesome-icon icon="store" />
                   <span>x {{ marketCardCount(card) }}</span>
