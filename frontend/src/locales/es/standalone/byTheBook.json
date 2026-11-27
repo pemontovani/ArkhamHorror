@@ -1,0 +1,71 @@
+{
+  "tooltips": {
+    "arkhamPoliceStation": {
+      "moveToConnecting": "{'{'}fast{'}'}: Muévete a un Lugar conectado.",
+      "captureCultist": "{'{'}fast{'}'} Elige un Enemigo _Sectario_ que no sea Debilidad y que esté en este Lugar y gasta tantas pistas como la salud que le quede: Negociar. Añade ese Enemigo a la zona de victoria."
+    },
+    "captureTheConspirators": {
+      "flipConspirator": "{'{'}fast{'}'} Los investigadores gastan, como grupo, 1 {'{'}perPlayer{'}'} pistas: da la vuelta a un conspirador que esté boca abajo en tu Lugar y ponlo en juego enfrentado a ti.",
+      "exhaustCultist": "{'{'}fast{'}'} Gasta 1 recurso: agota a un Enemigo _Sectario_ enfrentado a ti (*sigue enfrentado*). Solo Roland Banks puede activar esta capacidad."
+    }
+  },
+  "specialRules": "Cada Lugar en juego tiene debajo, boca abajo, un Enemigo Sectario en calidad de conspirador. El Acto permite a los investigadores gastar pistas como grupo para poner boca arriba a un conspirador de su Lugar y ponerlo en juego, y los conspiradores se pueden capturar en la Comisaría de Arkham gastando tantas pistas como la salud que les quede.",
+  "tokens": {
+    "easyStandard": {
+      "skull": "-X. X es la cantidad de Enemigos _Sectario_ en la zona de victoria, hasta un máximo de 5.",
+      "cultist": "-2. Si hay un Enemigo _Sectario_ enfrentado a ti, revela una ficha de Caos adicional.",
+      "tablet": "-3. Prepara todos los Enemigos _Sectario_ enfrentados a ti.",
+      "elderThing": "-4. Si fracasas, Roland Banks recibe 1 punto de daño."
+    },
+    "hardExpert": {
+      "skull": "-X. X es la cantidad de Enemigos _Sectario_ en la zona de victoria más 1.",
+      "cultist": "-3. Si hay un Enemigo _Sectario_ enfrentado a ti, revela una ficha de Caos adicional.",
+      "tablet": "-4. Prepara todos los Enemigos _Sectario_ enfrentados a ti.",
+      "elderThing": "-5. Si fracasas, Roland Banks recibe 1 punto de daño."
+    }
+  },
+  "intro": {
+    "title": "Escenario de desafío: Siguiendo el procedimiento",
+    "body": "<p>El papeleo es asfixiante. Desde que llegaste a Arkham, tus casos se han vuelto cada vez más difíciles de manejar. Creías que ibas a perseguir contrabandistas y mafiosos, no monstruos imaginarios. Pero cuanto más tiempo siguen abiertos tus casos absurdos, más empiezas a pensar que quizá no sean tan absurdos, después de todo. Y puede que eso signifique que los monstruos tampoco son imaginarios.</p><p>La Oficina tiene incontables directrices para gestionar casos de todo tipo, pero guarda un inquietante silencio sobre los sacrificios humanos. Así que, cuando te hablaron de los cadáveres hallados dentro de la Cueva negra, no sabías muy bien por dónde empezar. Interrogar a la gente del lugar y a los allegados de las víctimas no aportó nada de valor. Las pruebas que quedaron en la cueva fueron poco útiles, por decirlo suavemente: ofrendas y escritos que proclamaban que los sacrificios eran dones, junto con representaciones de un árbol monstruoso. Así que hiciste lo que mejor se te da: seguiste el rastro y encontraste el hilo que unía todas las muertes.</p><p>Un hombre está en el centro de todas las víctimas: el Sr. Damien Grey. El congresista no es de Arkham, no tiene parientes ni seres queridos en la zona ni forma parte de ninguna comisión que exija su presencia en la ciudad. Aun así, lleva varios meses alojado en Arkham, con un propósito desconocido. Y está relacionado con cada una de las víctimas por no más de dos grados de separación, lo que te huele a chamusquina. Más a chamusquina huele la escolta policial que sigue al Sr. Grey por la ciudad las veinticuatro horas del día, pese a que no ha habido ninguna amenaza contra la integridad del congresista.</p><p>Tienes que llegar al fondo de este misterio, y pronto. Ahora ves ese maldito árbol en todas partes. Cada día desaparece más gente, y hay quien incluso asegura haber visto monstruos con aspecto de cabra merodeando por los callejones. Pero si el Sr. Grey está realmente detrás de esto, tendrás que ir con cuidado. Acusar en falso a un político supondría sin duda el fin de tu carrera. Es hora de hacer lo que has venido a hacer: desenterrar las pruebas, descubrir la verdad y traer a los culpables para interrogarlos. Con todos los puntos sobre las íes.</p><p class='basic right'>Continúa en la _Preparación_.</p>"
+  },
+  "setup": {
+    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de Encuentros: <i>Siguiendo el procedimiento</i>, <i>Las máscaras de medianoche</i>, <i>Agentes de Shub-Niggurath</i>, <i>Secta de Umôrdhoth</i>, <i>Frío helador</i>, <i>Secta oscura</i>, <i>Ángeles descarnados</i> y <i>Miedo impactante</i>. Se identifican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/by-the-book.png' /><img src='{setImgPath}/midnight-masks.png' /><img src='{setImgPath}/agents-of-shub.png' /><img src='{setImgPath}/cult-of-umordhoth.png' /><img src='{setImgPath}/chilling-cold.png' /><img src='{setImgPath}/dark-cult.png' /><img src='{setImgPath}/nightgaunts.png' /><img src='{setImgPath}/striking-fear.png' /></section>",
+    "removeCards": "Retira de la partida la carta de referencia de escenario, el mazo de Acto y el mazo de Plan originales del conjunto de Encuentros <i>Las máscaras de medianoche</i>, junto con el Lugar Tu casa y las dos copias de la Traición Cántico misterioso. Usa las nuevas cartas de referencia de escenario, de Acto y de Plan del conjunto de Encuentros <i>Siguiendo el procedimiento</i>.",
+    "chooseLocations": "Elige al azar uno de los dos Lugares Centro y uno de los dos Lugares Barrio Sur y ponlos en juego. Retira de la partida las otras versiones de Centro y Barrio Sur.",
+    "placeLocations": "Pon en juego los Lugares Barrio Norte, Barrio Este, Barrio Fluvial, Hospital de Santa María, Cementerio, Universidad Miskatonic y Comisaría de Arkham.",
+    "startAt": "Cada investigador comienza la partida en la Comisaría de Arkham.",
+    "conspirators": "Baraja juntos los 9 Enemigos _Sectario_ de los conjuntos de Encuentros <i>Secta de Umôrdhoth</i> y <i>Secta oscura</i>, y coloca uno de esos Enemigos boca abajo debajo de cada Lugar en juego como conspirador.",
+    "returnToConspirators": "<section style='display: flex; flex-direction: row; gap: 1em;'>Si tu colección las incluye, puedes decidir reunir también las cartas del conjunto de Encuentros *Regreso a Secta de Umôrdhoth*. Este conjunto se identifica con el icono de la derecha. Si lo haces, baraja las 3 cartas de este conjunto de Encuentros con los 9 Enemigos _Sectario_ anteriores y retira de la partida 3 de las 12 cartas al azar sin mirarlas. Después coloca uno de los Enemigos restantes boca abajo debajo de cada Lugar en juego como conspirador.<section class='encounter-sets' style='flex-shrink: 0'><img src='{setImgPath}/return-cult.png' align='right' /></section></section>",
+    "rolandClue": "Roland Banks comienza la partida con 1 pista (de la reserva de fichas)."
+  },
+  "label": {
+    "returnTo": {
+      "include": "Incluir el conjunto de Encuentros _Regreso a Secta de Umôrdhoth_",
+      "exclude": "No incluir el conjunto de Encuentros _Regreso a Secta de Umôrdhoth_"
+    }
+  },
+  "timeHasRunOut": {
+    "title": "Se ha agotado el tiempo",
+    "body": "<p>«No es suficiente», te reprende tu superior. «Lo siento, pero es demasiado rebuscado para creérmelo. Y si yo no me lo creo, los tribunales tampoco. En serio, ¿sectas? ¿Sacrificios humanos?».</p><p>Aprietas los dientes y das un manotazo en la montaña de documentos y pruebas que has reunido. Insistes en que todo está ahí.</p><p>«Llevas semanas con esto y aquí no hay un caso de verdad. Solo un montón de galimatías circunstanciales», replica. «Y además, el Sr. Grey es un pilar de esta comunidad. Que lo difames con estas acusaciones...». El deje de desprecio hacia ti en su voz lo delata. ¿Está a sueldo de Grey? ¿O algo peor? Sea como sea, está claro que discutir no te llevará a ninguna parte. Sabes que no conviene armar jaleo. Tendrás que agachar la cabeza y hacer las cosas a tu manera si quieres cambiar algo en Arkham.</p><p>Retira de la partida un Enemigo _Sectario_ de la zona de victoria (el Sr. Grey, si es posible).</p>"
+  },
+  "resolutions": {
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<p>_Resolución 1:_ presentadas las pruebas y cerrado el caso, regresas a tu rutina de investigar contrabandistas de alcohol y delincuentes comunes. Los responsables de los asesinatos, o al menos los que lograste atrapar, están a buen recaudo entre rejas. Con las pruebas que reuniste, ni siquiera la enorme influencia del Sr. Grey puede lograr que se perdonen sus crímenes.</p><p>Pero volver a los casos de siempre te está resultando difícil. Las preocupaciones tiran de tus pensamientos con insistencia. Algo empujó al Sr. Grey y a los demás a cometer estos atroces crímenes. A sacrificar vidas humanas en pos de un propósito oscuro y siniestro.</p><p>Bajo la superficie de esta ciudad hay una podredumbre, igual que el moho se esconde en los cimientos de una casa vieja que se pudre. Con tanto aún por saber, ¿cómo puedes estar seguro de que las directrices de la Oficina contemplan lo que has visto? ¿Y si la próxima vez tienes que saltarte las normas para llegar a la verdad? ¿Qué harás entonces?</p><ul><li>Roland Banks obtiene {rolandXp} puntos de experiencia, el total de los valores de Victoria X de los Enemigos de la zona de victoria.</li><li>Los demás investigadores obtienen {otherXp} puntos de experiencia, el total de los valores de Victoria X de los Lugares de la zona de victoria.</li><li>Si la cantidad de Enemigos _Sectario_ en la zona de victoria es de 4 o 5, Roland Banks comienza el siguiente escenario con 1 carta adicional en la mano. Si es de 6 o 7, con 2 cartas adicionales. Si es de 8 o 9, con 3 cartas adicionales. Si es de 10, con 3 cartas adicionales y, además, elige una ficha cualquiera sin símbolo y retírala de la bolsa de caos para el resto de la campaña.</li><li>Si el Sr. Grey está en la zona de victoria, Roland Banks puede mejorar el .38 especial de Roland a su versión avanzada, o bien devolver la versión avanzada de Encubrimiento a su versión original.</li></ul>"
+    },
+    "resolution2": {
+      "title": "Resolución 2",
+      "body": "<p>_Resolución 2:_ ningún procedimiento ni entrenamiento podría haberte preparado para los monstruos que surgieron durante tu investigación, tanto los humanos como los literales. Pese a tus esfuerzos, no te quedó más remedio que cerrar el caso y pasar desapercibido. Seguir implicándote podría haber sido tu fin. Puede que el Sr. Grey y sus esbirros nunca afronten las consecuencias que merecen sus actos atroces. Pero al menos ahora conoces la auténtica podredumbre que yace bajo la superficie de esta ciudad. La próxima vez estarás mejor preparado. Con normas o sin ellas.</p><ul><li>Roland Banks obtiene {rolandXp} puntos de experiencia, el total de los valores de Victoria X de los Enemigos de la zona de victoria.</li><li>Los demás investigadores obtienen {otherXp} puntos de experiencia, el total de los valores de Victoria X de los Lugares de la zona de victoria.</li><li>Roland Banks debe mejorar Encubrimiento a su versión avanzada, o bien devolver la versión avanzada del .38 especial de Roland a su versión original.</li></ul>"
+    },
+    "label": {
+      "removeChaosToken": "Elegir una ficha cualquiera sin símbolo y retirarla de la bolsa de caos para el resto de la campaña",
+      "advancedReward": "El Sr. Grey está en la zona de victoria. Roland Banks puede mejorar el .38 especial de Roland a su versión avanzada, o bien devolver la versión avanzada de Encubrimiento a su versión original",
+      "doNotSwap": "No cambiar ninguna carta",
+      "upgradeRolands38Special": "Mejorar el .38 especial de Roland a su versión avanzada"
+    },
+    "advancedPenalty": "Roland Banks debe mejorar Encubrimiento a su versión avanzada, o bien devolver la versión avanzada del .38 especial de Roland a su versión original",
+    "downgradeCoverUp": "Devolver la versión avanzada de Encubrimiento a su versión original",
+    "upgradeCoverUp": "Mejorar Encubrimiento a su versión avanzada",
+    "downgradeRolands38Special": "Devolver la versión avanzada del .38 especial de Roland a su versión original"
+  }
+}

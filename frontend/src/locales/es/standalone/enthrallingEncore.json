@@ -1,0 +1,62 @@
+{
+  "intro": {
+    "title": "Un bis cautivador",
+    "body": "<p>Cada cual tiene un papel que interpretar en la función de la vida. No sabes cuánto tiempo ha pasado desde que <i>El Rey de Amarillo</i> llegó al Teatro Ward de Arkham. Desde entonces te lo has quitado de la cabeza, descartándolo como una alucinación inexplicable e increíblemente vívida. Pero entonces la oíste. Primero te llegó en sueños: la melodía obsesiva de la partitura orquestal de la obra, interpretada ahora por un solo violín. Te ha llevado a un rincón de Arkham que habías estado evitando: el Teatro Ward. El teatro está oscuro y en silencio, salvo por esa melodía que solo tú puedes oír...</p>"
+  },
+  "setup": {
+    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de Encuentros: *Un bis cautivador*, *Se cierra el telón*, *Podredumbre e impurezas*, *Delirios*, *Apariciones*, *Gules*, *Miedo impactante* y *Ratas*. Todos estos conjuntos, salvo *Un bis cautivador*, se encuentran en la Caja básica y en la expansión de campaña El camino a Carcosa. La carta de referencia de escenario, los actos y los planes originales del conjunto de Encuentros *Se cierra el telón* se retiran de la partida.<section class='encounter-sets'><img src='{setImgPath}/curtain-call.png' /><img src='{setImgPath}/decay-and-filth.png' /><img src='{setImgPath}/delusions.png' /><img src='{setImgPath}/hauntings.png' /><img src='{setImgPath}/ghouls.png' /><img src='{setImgPath}/striking-fear.png' /><img src='{setImgPath}/rats.png' /></section>",
+    "propsDeck": "Crea el mazo de Atrezo. Para ello, busca en tu colección 3 Apoyos de nivel 0 que no sean Aliado de cada clase ({'{'}guardian{'}'}, {'{'}seeker{'}'}, {'{'}rogue{'}'}, {'{'}mystic{'}'} y {'{'}survivor{'}'}), hasta un total de 15 cartas (sin repetidas, si es posible). Baraja juntas estas cartas para formar el mazo de Atrezo. Colócalo cerca de la carta de referencia de escenario. (Se usa la lista sugerida en la hoja de reglas: Entrenamiento físico, Primeros auxilios, Machete, Viejo libro de conocimiento, Hiperconsciencia, Textos médicos, Hurto, Carterista, Curtido en la vida, Rosario sagrado, Videncia, Estudios arcanos, Bate de béisbol, Pata de conejo y Fuerzas de flaqueza).",
+    "removeCards": "Retira de la partida El hombre de la máscara pálida y Emisario real.",
+    "setAside": "Pon aparte, fuera del juego, cada copia de Puerta del vestíbulo y cada copia de Puerta de bastidores.",
+    "placeLocations": "Pon en juego los Lugares Teatro, Vestíbulo, Balcón y Bastidores.",
+    "startAt": "Cada investigador comienza la partida en el Teatro.",
+    "sinisterSoloist": "Pon en juego en Bastidores al Enemigo Solista siniestro."
+  },
+  "tokens": {
+    "easyStandard": {
+      "skull": "-X. X es la cantidad de compases.",
+      "cultist": "-2. Si fracasas, debes gastar 1 pista o bien recibir 1 punto de daño.",
+      "tablet": "-3 (-5 en su lugar si entre las cartas que controlas hay 3 o más clases).",
+      "elderThing": "-2. Si el Solista siniestro está en tu Lugar, revela otra ficha."
+    },
+    "hardExpert": {
+      "skull": "-X. X es la cantidad de compases más 1.",
+      "cultist": "-3. Si fracasas, debes gastar 1 pista y recibir 1 punto de daño.",
+      "tablet": "-4 (-6 en su lugar si entre las cartas que controlas hay 3 o más clases).",
+      "elderThing": "-3. Si el Solista siniestro está en tu Lugar, en su lugar fracasas automáticamente."
+    }
+  },
+  "label": {
+    "cultist": {
+      "spendClue": "Gastar 1 pista",
+      "takeDamage": "Recibir 1 punto de daño"
+    },
+    "chooseInvestigator": "Elige un investigador para que robe 1 de las cartas de Atrezo reveladas",
+    "chooseProp": "Elige una carta de Atrezo para robarla. Las cartas restantes se barajarán y se colocarán en la parte inferior del mazo de Atrezo"
+  },
+  "resolutions": {
+    "noResolution": {
+      "title": "Sin resolución",
+      "body": "<p>Si no se ha llegado a ninguna resolución porque todos los investigadores han sido derrotados: salta a la <b>Resolución 2</b>.</p>"
+    },
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<div class='resolution'><p>_Resolución 1_: con el violinista derrotado, solo puedes esperar que el último espectro de aquella función impía descanse por fin. Cada día que pasa desde los sucesos del Teatro Ward tienes los nervios a flor de piel, siempre esperando oír la melodía. Pasan los días, la melodía no regresa y parece que se te permite seguir con tu vida como si los sucesos en torno a <i>El Rey de Amarillo</i> nunca hubieran ocurrido en realidad. Pero ocurrieron, ¿verdad?</p><ul><li>Cada investigador obtiene una cantidad de experiencia igual al total de los valores de Victoria X de las cartas de la zona de victoria.<ul><li>_Experiencia_: {xp}</li></ul></li><li>Cada investigador puede mejorar su carta distintiva a su versión avanzada, o bien devolver la versión avanzada de su Debilidad a su versión original (si es posible).<ul><li>Cada investigador que no pueda mejorar su carta distintiva a la versión avanzada ni devolver su Debilidad avanzada a la original obtiene en su lugar 2 puntos de experiencia adicionales.</li></ul></li></ul></div>"
+    },
+    "resolution2": {
+      "title": "Resolución 2",
+      "body": "<div class='resolution'><p>_Resolución 2_: sin fuerzas para resistir más al solista, caes de rodillas y dejas que el poder sobrecogedor de la melodía te inunde como una riada imparable. Las notas te llenan los oídos y ahogan cualquier otro pensamiento. La vista se te apaga; la realidad del Teatro Ward se oscurece, se retuerce y se estira en ángulos extraños.</p><p>Aprietas los ojos e intentas concentrarte en lo que puedes sentir para no perder el contacto con la realidad. Tus manos se hunden en una arena áspera, y cada pocos segundos notas agua fría que lame las yemas de tus dedos. Tras lo que parecen minutos, vuelves a abrir los ojos y ves las altas agujas de aquella ciudad antigua, que se alzan hacia un cielo iluminado por estrellas negras. Una orquesta invisible se une ahora al violín y alcanza un crescendo ensordecedor. Intentas levantarte, pero las piernas te tiemblan y ceden, y caes de espaldas...</p><p>...sobre las polvorientas tablas de un escenario. El ruido de tu caída resuena en las paredes cavernosas del Teatro Ward. Desde el proscenio, miras el techo oscuro que se cierne sobre ti. El solista se ha ido. Los monstruos se han ido. El teatro está oscuro y parece abandonado, salvo por ti.</p><p>Te levantas despacio, das media vuelta y huyes, sin querer buscar rastro alguno de lo que has vivido. Tienes el convencimiento de que este lugar está maldito, de que la obra está maldita y de que esta maldición te perseguirá el resto de tus días.</p><p>Cuando cruzas las puertas principales del teatro y sales de nuevo a la calle, vuelves a oír en tu cabeza la melodía obsesiva...</p><ul><li>Cada investigador obtiene una cantidad de experiencia igual al total de los valores de Victoria X de las cartas de la zona de victoria.<ul><li>_Experiencia_: {xp}</li></ul></li><li>Cada investigador debe mejorar su Debilidad a su versión avanzada, o bien devolver la versión avanzada de su carta distintiva a su versión original, si es posible.<ul><li>Cada investigador que no pueda mejorar su carta distintiva a la versión avanzada ni devolver su Debilidad avanzada a la original sufre en su lugar 1 trauma mental.</li></ul></li></ul></div>"
+    },
+    "label": {
+      "swapSignature": "Mejorar o devolver cartas distintivas",
+      "upgradeSignature": "Mejorar tu carta distintiva a su versión avanzada",
+      "downgradeWeakness": "Devolver tu Debilidad avanzada a su versión original",
+      "upgradeWeakness": "Mejorar tu Debilidad a su versión avanzada",
+      "downgradeSignature": "Devolver tu carta distintiva avanzada a su versión original",
+      "doNotSwap": "No hacer el cambio"
+    },
+    "xp": {
+      "unableToSwap": "Sin posibilidad de mejorar o devolver cartas distintivas"
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "specialRules": [
+    {
+      "title": "Escenario de desafío",
+      "body": "<p class='basic'>Los escenarios de desafío son escenarios especiales para imprimir y jugar que usan productos ya existentes de la colección de Arkham Horror: El juego de cartas, junto con cartas adicionales para imprimir, a fin de crear contenido nuevo. El escenario de desafío Lee o muere gira en torno a Daisy Walker y, por tanto, tiene los siguientes requisitos:</p><ul><li>Se debe elegir a Daisy Walker como parte del grupo de investigadores al jugar este escenario.</li><li>El mazo de Daisy Walker debe incluir al menos 4 Apoyos _Tomo_. Las Debilidades _Tomo_ no cuentan para este total.</li></ul>"
+    }
+  ],
+  "tokens": {
+    "easyStandard": {
+      "skull": "-X. X es la cantidad de Apoyos _Tomo_ que controle Daisy Walker.",
+      "cultist": "Revela otra ficha. Si fracasas, descarta las 2 primeras cartas de tu mazo.",
+      "tablet": "-2. Si esta prueba es un ataque o un intento de evitar contra el Nombrador de los muertos y no tienes éxito por al menos 2, te ataca.",
+      "elderThing": "-3. Si fracasas, Daisy Walker recibe 1 punto de horror."
+    },
+    "hardExpert": {
+      "skull": "-X. X es 1 más la cantidad de Apoyos _Tomo_ que controle Daisy Walker.",
+      "cultist": "Revela otra ficha. Si fracasas, descarta las 3 primeras cartas de tu mazo.",
+      "tablet": "-3. Si esta prueba es un ataque o un intento de evitar contra el Nombrador de los muertos y no tienes éxito por al menos 3, te ataca.",
+      "elderThing": "-5. Si fracasas, Daisy Walker recibe 1 punto de horror."
+    }
+  },
+  "intro": {
+    "title": "Escenario de desafío: Lee o muere",
+    "body": "<p>Te has pasado la vida leyendo. En la infancia no era más que un simple interés por cuentos inofensivos. Cuentos truculentos, desde luego, pero inofensivos al fin y al cabo. Tu fascinación por el terror y lo macabro te valió entre tus amistades y compañeros de clase el apodo de «Sustos». Pero, a medida que crecías, esa fascinación creció contigo hasta rozar la obsesión. Tu apetito por el horror pasó del misterio y la fantasía a algo más. A algo real.</p><p>Cuando descubriste la traducción de El Necronomicón de John Dee, supiste que por fin habías hallado el verdadero horror que anhelabas en secreto. Si hubieras sabido lo que te aguardaba una vez que leyeras ese tomo espantoso... Lo habrías vuelto a guardar bajo llave en la colección restringida de Henry Armitage, en la biblioteca Orne, y no lo habrías abierto nunca más.</p><p>O eso te gusta pensar. Pero ni siquiera tú puedes dudar de la atracción que ejerce el Kitab al-Azif. El libro de los muertos. Por eso, cuando el Dr. Armitage te hizo llamar a la biblioteca Orne, el pavor que sentías en los huesos predijo con exactitud lo que había ocurrido.</p><p>«No entiendo cómo ha podido pasar esto», dice el Dr. Armitage mientras observa los destrozos. Toda la colección restringida está patas arriba y hecha jirones. El Necronomicón yace abierto en una mesa cercana, con los cierres de metal rotos. Pasas los dedos por sus páginas correosas, semejantes a la piel. Tus ojos revolotean por las palabras en una danza familiar:</p><p class='basic center'>«Caminan invisibles e inmundos por lugares solitarios donde se han pronunciado las Palabras y aullado los Ritos en sus Estaciones. El viento farfulla con Sus voces, y la tierra murmura con Su consciencia».</p><p>Se te hace un nudo en la garganta al comprender lo que debe de haber ocurrido. Algo se ha desatado, y solo tú puedes averiguar cómo detenerlo...</p><p class='basic right'>Continúa en la _Preparación_.</p>"
+  },
+  "investigatorSetup": {
+    "title": "Preparación de los investigadores",
+    "body": "<p class='basic'>Retira del mazo de Daisy Walker todos los Apoyos _Tomo_ que no sean Debilidad. Pon aparte, fuera del juego, cada uno de esos Apoyos.</p>"
+  },
+  "setup": {
+    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de Encuentros: *Lee o muere*, *Actividad extracurricular*, *Hechicería*, *El Más Allá*, *Esclavos de Bishop*, *Chotacabras*, *Antiguos males*, *Puertas cerradas*, *Agentes de Yog-Sothoth* y *El destino de Armitage*. Todos estos conjuntos, salvo Lee o muere, se encuentran en la expansión de lujo El legado de Dunwich. Se identifican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/extracurricular-activity.png' /><img src='{setImgPath}/sorcery.png' /><img src='{setImgPath}/the-beyond.png' /><img src='{setImgPath}/bishops-thralls.png' /><img src='{setImgPath}/whippoorwills.png' /><img src='{setImgPath}/ancient-evils.png' /><img src='{setImgPath}/locked-doors.png' /><img src='{setImgPath}/agents-of-yog.png' /><img src='{setImgPath}/armitages-fate.png' /></section>",
+    "newCards": "Retira de la partida la carta de referencia de escenario, el mazo de Acto y el mazo de Plan originales del conjunto de Encuentros *Actividad extracurricular*. Usa la nueva carta de referencia de escenario, la carta de Plan y la carta de Acto del conjunto de Encuentros descargable *Lee o muere*.",
+    "removeCards": "Retira de la partida el Lugar Despachos del profesorado (*Se ha hecho tarde*), el Lugar Laboratorios de alquimia, el Apoyo de historia Pócima alquímica, el Enemigo El experimento y el Apoyo de historia Profesor Warren Rice. Estas cartas no se usan en este escenario de desafío.",
+    "placeLocations": "Pon en juego cada uno de los Lugares restantes: Patio principal de Miskatonic, Biblioteca Orne, Edificio de Humanidades, Sindicato de estudiantes, Edificio de Ciencias, Edificio de administración, Residencia estudiantil y Despachos del profesorado (*La noche aún es joven*).",
+    "daisyWalker": "Daisy Walker comienza la partida en la Biblioteca Orne.",
+    "otherInvestigators": "Todos los demás investigadores comienzan la partida en el Patio principal de Miskatonic.",
+    "ignoreForced": "Como la Residencia estudiantil y los Despachos del profesorado comienzan la partida en juego y los Laboratorios de alquimia se retiran de la partida, ignora las capacidades Obligado que fueran a poner en juego estos Lugares.",
+    "placeTomes": "Baraja los Apoyos _Tomo_ puestos aparte que retiraste del mazo de Daisy Walker y coloca 1 boca abajo debajo de cada Lugar salvo el Patio principal de Miskatonic, empezando por los Lugares más alejados de la Biblioteca Orne. Coloca los Apoyos _Tomo_ puestos aparte que sobren boca abajo debajo de la Biblioteca Orne.",
+    "jazzMulligan": "Pon en juego en el Edificio de Ciencias el Apoyo de historia «Jazz» Mulligan.",
+    "namerOfTheDead": "Pon en juego en la Biblioteca Orne, sin enfrentar y agotado, al Enemigo Nombrador de los muertos (incluido en el conjunto de Encuentros descargable *Lee o muere*).",
+    "drHenryArmitage": "Daisy Walker toma el control del Apoyo de historia Dr. Henry Armitage. (Si el Dr. Henry Armitage ya forma parte del mazo de un investigador, búscalo en ese mazo y ponlo en juego bajo el control de Daisy Walker)."
+  },
+  "tooltips": {
+    "speedReading": {
+      "takeTome": "{'{'}fast{'}'} Si eres Daisy Walker, los investigadores de tu Lugar gastan 1{'{'}perPlayer{'}'} pistas: añade a tu mazo 1 carta de Jugador que esté boca abajo debajo de este Lugar y baraja el mazo."
+    },
+    "mortalInquiry": {
+      "moveJazz": "{'{'}action{'}'}: muévete a un Lugar _Miskatonic_ que esté a un máximo de 3 conexiones de distancia."
+    },
+    "namerOfTheDead": {
+      "parley": "{'{'}action{'}'} Si eres Daisy Walker y controlas al menos 4 Apoyos _Tomo_ que no sean Debilidad: _Negociar._ Realiza una prueba de {'{'}willpower{'}'} (18). Esta prueba recibe -2 a su dificultad por cada Apoyo _Tomo_ que controles. Si tienes éxito, haz avanzar el acto."
+    }
+  },
+  "resolutions": {
+    "noResolution": {
+      "title": "Sin resolución",
+      "body": "<div class='resolution'><p>_Si no se ha llegado a ninguna resolución porque todos los investigadores han sido derrotados:_ continúa en la _Resolución 2_.</p></div>"
+    },
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<div class='resolution'><p>_Resolución 1_: cuando despiertas, el suelo de la biblioteca es un revoltijo de papeles esparcidos y libros destrozados. El Necronomicón yace ante ti, sellado de nuevo por su cierre metálico. Ojalá la presencia que se desató, fuera cual fuera, esté a buen recaudo en su interior. Pero no puedes arriesgarte a que el grimorio se quede aquí: es demasiado peligroso para dejarlo sin vigilancia. Metes el tomo en tu bolso, sabiendo que solo tú puedes mantenerlo a salvo... o mantener a salvo de él a los demás.</p><ul><li>Daisy Walker obtiene una cantidad de experiencia igual al total de los valores de Victoria X de las cartas de la zona de victoria, o bien igual a la cantidad de Apoyos _Tomo_ que tuviera en juego al final de la partida, lo que sea mayor.</li><li>Los demás investigadores solo obtienen una cantidad de experiencia igual al total de los valores de Victoria X de las cartas de la zona de victoria.<ul><li>_Experiencia_: {xp}</li></ul></li><li>Daisy Walker puede mejorar el Bolso de mano de Daisy a su versión avanzada, o bien devolver la versión avanzada de El Necronomicón (*Traducción de John Dee*) a su versión original.</li></ul></div>"
+    },
+    "resolution2": {
+      "title": "Resolución 2",
+      "body": "<div class='resolution'><p>_Resolución 2_: vuelves a meter el tomo en tu bolso. Solo puedes esperar que la entidad que se desató no cause más daño...</p><ul><li>Daisy Walker obtiene una cantidad de experiencia igual al total de los valores de Victoria X de las cartas de la zona de victoria, o bien igual a la cantidad de Apoyos _Tomo_ que tuviera en juego al final de la partida, lo que sea mayor.</li><li>Los demás investigadores solo obtienen una cantidad de experiencia igual al total de los valores de Victoria X de las cartas de la zona de victoria.<ul><li>_Experiencia_: {xp}</li></ul></li><li>Daisy Walker debe mejorar El Necronomicón (*Traducción de John Dee*) a su versión avanzada, o bien devolver la versión avanzada del Bolso de mano de Daisy a su versión original.</li></ul></div>"
+    },
+    "xp": {
+      "tomes": "Apoyos Tomo que Daisy Walker tenía en juego al final de la partida"
+    },
+    "label": {
+      "maySwapSignatureCards": "Daisy Walker puede mejorar el Bolso de mano de Daisy a su versión avanzada, o bien devolver la versión avanzada de El Necronomicón a su versión original",
+      "mustSwapSignatureCards": "Daisy Walker debe mejorar El Necronomicón a su versión avanzada, o bien devolver la versión avanzada del Bolso de mano de Daisy a su versión original",
+      "upgradeDaisysToteBag": "Mejorar el Bolso de mano de Daisy a su versión avanzada",
+      "downgradeTheNecronomicon": "Devolver El Necronomicón a su versión original",
+      "upgradeTheNecronomicon": "Mejorar El Necronomicón a su versión avanzada",
+      "downgradeDaisysToteBag": "Devolver el Bolso de mano de Daisy a su versión original",
+      "doNotSwap": "No hacer el cambio"
+    }
+  }
+}

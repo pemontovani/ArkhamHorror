@@ -1,0 +1,275 @@
+{
+  "specialRules": [
+    {
+      "title": "Punto de control",
+      "body": "<p class='basic'>Este escenario está dividido en dos partes. Los jugadores pueden optar por jugarlas de una en una (con un descanso entre ambas) o jugarlas seguidas como parte de una sesión más larga. Cada parte es una partida independiente, con su propia preparación y su propia resolución. Al completar la primera parte, la guía de campaña conduce a los investigadores a un Punto de control que les indica cómo proceder. Si quieren pasar directamente a la parte siguiente, el Punto de control les explica cómo recoger la partida para preparar esa parte. Si quieren hacer un descanso y reanudar la partida en la próxima sesión, el Punto de control les indica que anoten en el registro de campaña la información que hará rápida y sencilla la preparación de esa sesión.</p>"
+    },
+    {
+      "title": "Nivel de alarma",
+      "body": "<p class='basic'>La preparación de este escenario indica a los jugadores que coloquen 1 ficha de Perdición sobre cada carta de Investigador para marcar su «nivel de alarma» actual. A medida que avanza el golpe, los niveles de alarma pueden subir o bajar según las acciones y decisiones de los investigadores. Cuanto más alto sea el nivel de alarma, más cerca está el casino de descubrir tus actos, lo que pondrá en peligro el éxito del golpe. Si un efecto aumenta el nivel de alarma de un investigador en cualquier cantidad, coloca esa cantidad de Perdición junto a la carta de ese investigador para representarlo. Del mismo modo, si un efecto reduce el nivel de alarma de un investigador en cualquier cantidad, retira esa cantidad de Perdición de junto a su carta. El nivel de alarma de un investigador no puede bajar de 1 ni pasar de 10.</p><p class='basic'>Aunque se marca con fichas de Perdición, el nivel de alarma de un investigador no es Perdición y no cuenta para el umbral de Perdición del Plan.</p><p class='basic'>El nivel de alarma de un investigador tiene además el siguiente efecto:</p><ul><li>Cada Enemigo Casino que esté en el Lugar de un investigador con un nivel de alarma de 6 o más pierde Indiferente.</li></ul>"
+    },
+    {
+      "title": "Isamara Ordoñez",
+      "body": "<p class='basic'>Isamara Ordoñez es una carta de Apoyo de historia de doble cara. Si Isamara Ordoñez abandona el juego por cualquier motivo, o si es derrotado un investigador que controle a Isamara Ordoñez, se la pone aparte.</p>"
+    },
+    {
+      "title": "Errante",
+      "body": "<p class='basic'>Algunos Enemigos tienen la palabra clave Errante. Durante la fase de Enemigos (en el paso de estructura 3.2), cada Enemigo preparado y sin enfrentar que tenga la palabra clave Errante se mueve a un Lugar conectado siguiendo la ruta más corta hacia el Lugar designado (descrito entre paréntesis junto a la palabra «Errante»).</p><ul><li>Si hay varios Lugares que puedan considerarse el Lugar designado, el investigador jefe puede elegir hacia qué Lugar se mueve ese Enemigo.</li><li>Si un Enemigo con Errante tuviera que moverse a un Lugar bloqueado por la capacidad de una carta, ese Enemigo no se mueve.</li><li>Durante este escenario, los Lugares se disponen en dos «núcleos» principales, formados por Lugares Públicos o Restringidos (consulta las páginas 15 y 26). Si el Lugar de Errante de un Enemigo es «sentido de las agujas del reloj» o «sentido contrario a las agujas del reloj», significa que se moverá al Lugar conectado en ese sentido dentro del núcleo en el que esté. Los Enemigos no pasan de un núcleo a otro de este modo, salvo que se muevan por otro medio.</li></ul>"
+    },
+    {
+      "title": "Iconos de juego",
+      "body": "<p class='basic'>Las capacidades de algunas cartas de Encuentro de este escenario piden a un investigador que descarte cartas del mazo de Encuentros para «comprobar sus iconos de juego». Para ello, el investigador descarta la cantidad indicada de cartas de Encuentro y comprueba los iconos de juego que aparecen en cada una. Los iconos constan de un color (rojo o negro), un palo (corazones, diamantes, tréboles o picas) y un valor (4, 5, 6, 7, 8, 9, 10, J, Q o K).</p><p class='basic'>A efectos del valor numérico, J, Q y K cuentan como 10. A efectos del color, los corazones y los diamantes son rojos, mientras que los tréboles y las picas son negros.</p><p class='basic'>Si el mazo de Encuentros se queda sin cartas mientras compruebas iconos de juego, pon aparte las cartas ya descartadas, baraja el resto de la pila de descarte con el mazo de Encuentros y sigue descartando cartas.</p><p class='basic'>«Valores consecutivos» en el efecto de una carta indica que los valores de los iconos de juego comprobados van seguidos en orden.</p><p class='basic'>Si se descarta una carta sin iconos de juego, ponla aparte y descarta otra carta en su lugar (las cartas puestas aparte de este modo se descartan una vez comprobados los iconos de juego).</p><p class='basic'>*Nota: en algunas cartas de Encuentro aparece un valor «A». Esas cartas concretas no entran en el mazo de Encuentros, por lo que sus iconos nunca se usan al comprobar iconos de juego.*</p>"
+    },
+    {
+      "title": "Cambiar cartas",
+      "body": "<p class='basic'>Algunos efectos de Lugares _Juego_ que te indican que descartes cartas del mazo de Encuentros especifican que puedes cambiar cartas. Esto significa que, después de que un investigador descarte la cantidad indicada de cartas de Encuentro y compruebe sus iconos de juego, puede poner aparte tantas de esas cartas descartadas como quiera. Después, descarta del mazo de Encuentros la misma cantidad de cartas para sustituir las puestas aparte. Una vez resuelto el efecto, descarta las cartas puestas aparte.</p>"
+    },
+    {
+      "title": "El manantial de la fortuna",
+      "body": "<p class='basic'>Este escenario incluye El manantial de la fortuna, que es una «Llave», un tipo de carta nuevo introducido en la campaña Las llaves escarlata. Las reglas completas sobre las cartas de Llave se encuentran en la guía de campaña de Las llaves escarlata. En este escenario, El manantial de la fortuna solo se usa como indicador para fichas y como objetivo que los investigadores deben conseguir. Considera en blanco el cuadro de texto de El manantial de la fortuna durante este escenario. Por tanto, no necesitas las reglas completas sobre las cartas de Llave para jugarlo; sin embargo, si los investigadores juegan este escenario como parte de la campaña Las llaves escarlata, quizá puedan conseguir El manantial de la fortuna y usarlo en escenarios posteriores.</p>"
+    }
+  ],
+  "headings": {
+    "checkpoint1": "Punto de control"
+  },
+  "names": {
+    "checkpoint1": "El plan",
+    "part1": "Fortuna e insensatez, parte I",
+    "part2": "Fortuna e insensatez, parte II"
+  },
+  "tokens": {
+    "easyStandard": {
+      "skull": "-X. X es la mitad de tu nivel de alarma (redondeando hacia arriba).",
+      "cultist": "Revela otra ficha. Si fracasas, aumenta tu nivel de alarma en 1.",
+      "tablet": "-3. Si fracasas, el Enemigo más cercano se mueve una vez hacia ti.",
+      "elderThing": "-5. En vez de eso, puedes aumentar tu nivel de alarma en 1 para tener éxito automáticamente."
+    },
+    "hardExpert": {
+      "skull": "-X. X es tu nivel de alarma.",
+      "cultist": "Revela otra ficha. Si fracasas, aumenta tu nivel de alarma en 1.",
+      "tablet": "-4. El Enemigo más cercano se mueve una vez hacia ti.",
+      "elderThing": "-6. En vez de eso, puedes aumentar tu nivel de alarma en 1 para tener éxito automáticamente."
+    }
+  },
+  "tooltips": {
+    "casinoFloorBusyNight": {
+      "resign": "¡Es hora de salir de aquí!"
+    },
+    "casinoFloorCalmNight": {
+      "resign": "¡Es hora de salir de aquí!"
+    },
+    "relicRoom": {
+      "reveal": "{'{'}action{'}'} Sufre 1 punto de daño y 1 punto de horror a menos que los investigadores hayan «encontrado el sello de Abarran»: Haz una prueba de {'{'}willpower{'}'} o de {'{'}agility{'}'} (4). Si tienes éxito, los investigadores que estén en Puerta de la cámara pueden gastar 4 {'{'}perPlayer{'}'} pistas, como grupo, para revelar Sala de reliquias"
+    }
+  },
+  "label": {
+    "isamaraOrdonezTheTorchSinger": {
+      "ready": "Preparar"
+    },
+    "huntersHunger": {
+      "discard": "Descartar un Apoyo _Aliado_ que controles. Todos los demás investigadores reciben 1 punto de horror.",
+      "test": "Hacer una prueba de {'{'}agility{'}'} (3). Si fracasas, sufre 1 punto de daño directo y 1 punto de horror directo."
+    },
+    "elderThing": {
+      "alarm": "Aumentar tu nivel de alarma en 1 para tener éxito automáticamente"
+    },
+    "relicRoom": {
+      "reveal": "Gastar 4 {'{'}perPlayer{'}'} pistas, como grupo, para revelar Sala de reliquias"
+    },
+    "cardsToDiscard": "Cartas para descartar",
+    "avariceCalls": {
+      "test": "Hacer una prueba de {'{'}willpower{'}'} (X), donde X es la mitad de tu nivel de alarma (redondeando hacia arriba)."
+    },
+    "suspiciousGaze": {
+      "alarm": "Aumentar tu nivel de alarma en 1"
+    },
+    "keepHand": "Terminar de cambiar cartas",
+    "theGrifter": {
+      "rank": "Cambiar valor",
+      "suit": "Cambiar palo",
+      "color": "Cambiar color",
+      "alarmLevel": "Reducir tu nivel de alarma en 1",
+      "change": {
+        "unpracticed": "Aumentar tu nivel de alarma en 1 para cambiar (por lo que quieras) el valor, el palo o el color de un icono de juego descartado.",
+        "practiced": "Aumentar tu nivel de alarma en 1 para cambiar (por lo que quieras) el valor, el palo o el color de hasta 2 iconos de juego descartados."
+      }
+    },
+    "rank": {
+      "Four": "Cuatro",
+      "Five": "Cinco",
+      "Six": "Seis",
+      "Seven": "Siete",
+      "Eight": "Ocho",
+      "Nine": "Nueve",
+      "Ten": "Diez",
+      "Jack": "Jota",
+      "Queen": "Reina",
+      "King": "Rey",
+      "Ace": "As"
+    },
+    "suit": {
+      "Clubs": "Tréboles",
+      "Diamonds": "Diamantes",
+      "Hearts": "Corazones",
+      "Spades": "Picas"
+    },
+    "baccarat": {
+      "Player": "Jugador",
+      "Banker": "Banca",
+      "Tie": "Empate"
+    }
+  },
+  "remembered": {
+    "cleanedOutTheHouse": "Los investigadores han dejado limpio al casino",
+    "impersonatedAHighRoller": "Los investigadores se han hecho pasar por jugadores de altos vuelos",
+    "foundAVent": "Los investigadores han encontrado un conducto de ventilación",
+    "convincedIsamaraToParticipateInTheHeist": "Los investigadores convencieron a Isamara para que participe en el golpe",
+    "obtainedAnEmployeeUniform": "Los investigadores han conseguido un uniforme del personal",
+    "stoleAbarransKeys": "Los investigadores han robado las llaves de Abarran",
+    "wonACultistMedallion": "Los investigadores han ganado un medallón de sectario",
+    "observedTheStaff": "Los investigadores han observado al personal",
+    "foundAbarransSigil": "Los investigadores han encontrado el sello de Abarran",
+    "obtainedASchematic": "Los investigadores han conseguido un plano",
+    "impersonatedAGuard": "Los investigadores se han hecho pasar por guardias",
+    "stayedOutOfSight": "Los investigadores se han mantenido fuera de la vista",
+    "deliveredADecoyPackage": "Los investigadores han entregado un paquete señuelo",
+    "isamaraMesmerizedTheGuardsWithHerSong": "Isamara ha cautivado a los guardias con su canto"
+  },
+  "intro": {
+    "title": "Fortuna e insensatez, parte I",
+    "intro1": "<p>_Introducción 1_: ¡UN HOMBRE, ALCANZADO DOS VECES POR UN RAYO MINUTOS DESPUÉS DE GANAR UNA FORTUNA! Ese titular sensacionalista fue lo primero que te llamó la atención. Podrías haberlo despachado como un suceso extraordinario e improbable, exagerado para vender periódicos, de no ser por las historias que vinieron después, todas centradas en el mismo sitio: un casino de Montecarlo llamado Défis de la Roulette. Además del desafortunado cliente fulminado apenas unos instantes después de salir del casino con sus ganancias, otras personas han tenido finales tan truculentos como inverosímiles dentro o cerca del local. Al indagar más, resulta que el casino apareció de forma rápida e inesperada, y las autoridades de Mónaco se han mostrado sospechosamente reservadas sobre su procedencia exacta y sobre quién es su propietario. Desde que abrió, el casino ha sido un imán para lo antinatural y lo inconcebible. Cuanto más averiguas, más parece que merece la pena, como mínimo, echar un vistazo para determinar si estos sucesos son simple coincidencia o el resultado de algo mucho más siniestro.</p>",
+    "scarletKeys": "<p>Si estás jugando *Fortuna e insensatez* como historia secundaria durante la campaña *Las llaves escarlata*, continúa en la _Introducción 2_.</p>",
+    "notScarletKeys": "<p>De lo contrario, salta a la _Introducción 3_.</p>",
+    "intro2": "<p>_Introducción 2_: A tu célula le han facilitado el nombre de un contacto en el Défis de la Roulette: Isamara Ordoñez. Isamara no es una empleada cualquiera: es la «Flor de Nicaragua», una cantante cuyas actuaciones se han convertido en uno de los grandes reclamos del casino. Según se dice, durante el último mes ha pedido ayuda a distintas partes, preocupada por algunos de los sucesos que ha presenciado entre bastidores. La Fundación tiene motivos para creer que una Llave puede estar implicada en estos extraños acontecimientos. Encuentras una mesa en el salón del casino y esperas el momento oportuno para atraer su atención. Apenas unos minutos después, sale al escenario una mujer con un llamativo vestido rojo. Su actuación es tan cautivadora que ya está bajando del escenario cuando recuerdas por qué has venido. No cabe duda de que es la persona que buscas. Mientras recorre el público con la mirada, saludas discretamente con la mano. Al principio parece no hacerte mucho caso, pero entonces sus ojos se posan en la flor que te indicaron que llevaras. Se acerca a tu mesa y se sienta. Una sonrisa despreocupada adorna su rostro, pero sus palabras son cortantes y directas.</p><p>—Si te envían Ellos, aquí no es seguro hablar. Reúnete conmigo dentro de una hora.</p><p>Te entrega una tarjeta con la dirección de una cafetería cercana. Después se levanta y se alisa el vestido.</p><p>—¡Muchísimas gracias por sus amables palabras sobre mi actuación! —dice para quien pueda estar escuchando—. ¡Espero verle pronto de nuevo!</p><p class='basic right'>Salta a la _Introducción 4_.</p>",
+    "intro3": "<p>_Introducción 3_: Aunque pasas varios días preguntando por el casino en la ciudad, las pistas prometedoras parecen escasear. Cuando visitas el propio casino, no ves nada fuera de lugar, aunque tus preguntas indagatorias no pasan del todo inadvertidas. Mientras estás en el salón del casino sopesando si el viaje a Montecarlo ha sido una completa pérdida de tiempo y si, después de todo, aquí no pasa nada raro, una mujer con un llamativo vestido rojo se sienta a tu mesa. Reconoces en ella a Isamara Ordoñez, la cantante que actuaba hace unos instantes y que ha cautivado al público con su voz, de una belleza inquietante. Una sonrisa despreocupada adorna su rostro, pero sus palabras son cortantes y directas.</p><p>—Te estás descuidando demasiado. Aquí no podemos hablar. Si quieres saber la verdad, reúnete conmigo dentro de una hora.</p><p>Te entrega una tarjeta con la dirección de una cafetería cercana. Después se levanta y se alisa el vestido.</p><p>—Muchísimas gracias por sus amables palabras sobre mi actuación —dice para quien pueda estar escuchando—. ¡Espero verle pronto de nuevo!</p><p class='basic right'>Continúa en la _Introducción 4_.</p>",
+    "intro4": "<p>_Introducción 4_: Cuando os reunís, Isamara lleva un largo abrigo del azul más oscuro y su melena castaña y ondulada queda medio oculta bajo un sombrero de ala ancha. Está claro que le preocupa que la reconozcan.</p><p>—Haces bien en sospechar de lo que pasa en el Défis —empieza, sin perder tiempo en cortesías—. En apariencia es un casino como cualquier otro. Pero pasan más cosas de las que nadie podría imaginar. Entre bastidores, quienes de verdad mueven los hilos son una secta llamada los Elegidos de la Fortuna. Son letales y peligrosos. Toda persona que se ha acercado demasiado a la verdad o ha contrariado de algún modo al casino ha tenido un final horrible.</p><p>Preguntas por el dueño del casino y por su relación con la secta. Isamara esboza una sonrisa sin alegría.</p><p>—¿Abarran? Es su cabecilla. No solo eso: es el peor de todos. Él trajo el casino aquí, pero, lo que es más importante, trajo el Manantial.</p><p>Isamara explica que la cámara acorazada del casino guarda una reliquia extraña y poderosa, de origen misterioso. Esa reliquia es la causante de los sucesos improbables que parecen surgir en torno al casino. El objeto se conoce como el Manantial de la Fortuna y tiene el poder de manipular la probabilidad y la suerte. Abarran lo custodia con celo, pues quien posee el Manantial puede poner la fortuna al servicio de su causa, por egoísta y destructiva que sea. Con el tiempo ha creado el leal cuadro de los Elegidos de la Fortuna concediéndoles parte de los beneficios del Manantial. Han llegado a venerarlo casi como a un dios. A esos verdaderos creyentes se los distingue fácilmente de los empleados corrientes del casino por los peculiares medallones en forma de moneda que llevan al cuello.</p><p>—Por algún motivo, Abarran confía en mí, e incluso me ha ofrecido unirme. Creo que me ve como un posible activo —murmura Isamara.</p><p>Le preguntas qué quiere que hagas.</p><p>—Roba el Manantial. Llévatelo muy lejos de aquí. No sé cómo decirlo más claro. Mientras esté en manos de Abarran, lo usará para engrandecerse. Peor aún, me temo que cuanto más tiempo se empleen sus poderes, mayor será la probabilidad de que sufran daño quienes están en el casino. ¿Quién sabe qué catástrofes aparentemente imposibles puede convocar si no se lo sacan de ahí?</p><p>Sus palabras no parecen tanto una súplica de ayuda como una llamada a la acción. Te sorprendes aceptando el encargo casi sin pensarlo conscientemente. Cuando vas a levantarte, te detiene con la mano.</p><p>—Una última cosa: no subestimes a Abarran. Es un hombre peligroso. Muestra al mundo una cara civilizada, pero bajo esa máscara hay una ira apenas contenida que puede estallar si siente que su trofeo está amenazado. He visto su genio, y no dudo de que podría llevarle a descuartizar a una persona con sus propias manos si creyera tener motivos.</p><p>Con tan alentadora idea en la cabeza, empiezas a planear un golpe en el que te juegas más que nunca.</p><p class='basic right'>Si quieres saltarte la vigilancia y pasar directamente al golpe, salta a _Fortuna e insensatez, parte II_ (*aviso: saltarte la vigilancia aumentará drásticamente la dificultad de la parte II*).</p><p class='basic right'>De lo contrario, continúa en la _Introducción 5_.</p>",
+    "intro5": "<p>_Introducción 5_: Varios días después, te reúnes con Isamara para discutir un plan para vigilar el casino antes del golpe. Isamara te explica en qué debes fijarte a medida que se acerca la noche de la vigilancia y te advierte de que no tendrás tiempo para hacerlo todo:</p><p class='basic'>A continuación se resume la información que Isamara transmite a los investigadores sobre la próxima vigilancia del casino.</p><ul><li>A los jugadores de altos vuelos se los tiene en gran estima. Si derrochas suficiente dinero, se te abrirán opciones durante el golpe.</li><li>Conseguir un uniforme de alguien del personal del casino podría facilitarte mucho pasar sin que reparen en ti.</li><li>Isamara se juega mucho con el golpe, pero, como es comprensible, también le preocupa implicarse directamente. ¿Tal vez puedas hacerle cambiar de opinión?</li><li>Cuanto más dinero ganes, más probable será que el casino tenga que sacar carros de dinero la concurrida noche del golpe. Resulta que en esos carros hay sitio suficiente para que se esconda una persona…</li><li>En algún lugar del casino hay un gran conducto de ventilación que va directamente de las zonas públicas a las del personal y evita la entrada habitual de empleados.</li><li>Abarran lleva encima las llaves de su despacho mientras hace su ronda diaria. Es arriesgado, pero, si logras quitárselas, no tendrás que buscar luego la forma de entrar en su despacho.</li><li>En la sala principal del casino hay un hueco que puede usarse para ocultar cosas para el golpe. Todo lo que dejes allí estará disponible de inmediato cuando empiece la gran noche.</li><li>El Manantial de la Fortuna se alimenta de las fuerzas del azar y la suerte y las manipula. Cuanto más juegues a juegos de azar, más fácil y rápido será controlarlo después.</li><li>Por último, cuantas más pistas reúnas sobre el funcionamiento del casino, más posibilidades tendrás de pasar inadvertido cuando llegue el momento del golpe y mejor preparado estarás para tu papel.</li></ul>",
+    "label": {
+      "skip": "Saltar a _Fortuna e insensatez, parte II_.",
+      "doNotSkip": "Continuar en la _Introducción 5_."
+    },
+    "alarmLevel": {
+      "title": "Nivel de alarma",
+      "body": "<p class='basic'>La preparación de este escenario indica a los jugadores que coloquen 1 ficha de Perdición sobre cada carta de Investigador para marcar su «nivel de alarma» actual. A medida que avanza el golpe, los niveles de alarma pueden subir o bajar según las acciones y decisiones de los investigadores. Cuanto más alto sea el nivel de alarma, más cerca está el casino de descubrir tus actos, lo que pondrá en peligro el éxito del golpe. Si un efecto aumenta el nivel de alarma de un investigador en cualquier cantidad, coloca esa cantidad de Perdición junto a la carta de ese investigador para representarlo. Del mismo modo, si un efecto reduce el nivel de alarma de un investigador en cualquier cantidad, retira esa cantidad de Perdición de junto a su carta. _El nivel de alarma de un investigador no puede bajar de 1 ni pasar de 10_.</p><p class='basic'>Aunque se marca con fichas de Perdición, el nivel de alarma de un investigador no es Perdición y no cuenta para el umbral de Perdición del Plan.</p><p class='basic'>El nivel de alarma de un investigador tiene además el siguiente efecto:</p><ul><li>Cada Enemigo _Casino_ que esté en el Lugar de un investigador con un nivel de alarma de 6 o más pierde Indiferente.</li></ul>"
+    },
+    "patrol": {
+      "title": "Errante",
+      "body": "<p class='basic'>Algunos Enemigos tienen la palabra clave Errante. Durante la fase de Enemigos (en el paso de estructura 3.2), cada Enemigo preparado y sin enfrentar que tenga la palabra clave Errante se mueve a un Lugar conectado siguiendo la ruta más corta hacia el Lugar designado (descrito entre paréntesis junto a la palabra «Errante»).</p><ul><li>Si hay varios Lugares que puedan considerarse el Lugar designado, el investigador jefe puede elegir hacia qué Lugar se mueve ese Enemigo.</li><li>Si un Enemigo con Errante tuviera que moverse a un Lugar bloqueado por la capacidad de una carta, ese Enemigo no se mueve.</li><li>Durante este escenario, los Lugares se disponen en dos «núcleos» principales, formados por Lugares _Públicos_ o _Restringidos_. Si el Lugar de Errante de un Enemigo es «sentido de las agujas del reloj» o «sentido contrario a las agujas del reloj», significa que se moverá al Lugar conectado en ese sentido dentro del núcleo en el que esté. Los Enemigos no pasan de un núcleo a otro de este modo, salvo que se muevan por otro medio.</li></ul><div class='columns'><img src='{setImgPath}/../extra/fortune-and-folly/patrol-public.avif'><img src='{setImgPath}/../extra/fortune-and-folly/patrol-restricted.avif'></div>"
+    },
+    "gameIcons": {
+      "title": "Iconos de juego",
+      "body": "<p class='basic' style='container-type: inline-size'><img style='width: clamp(100px, 25cqw, 175px); shape-outside: url({setImgPath}/../extra/fortune-and-folly/game-icons.png); float: right; shape-margin: 1em; margin-left: 1em;' src='{setImgPath}/../extra/fortune-and-folly/game-icons.png'>Las capacidades de algunas cartas de Encuentro de este escenario piden a un investigador que descarte cartas del mazo de Encuentros para «comprobar sus iconos de juego». Para ello, el investigador descarta la cantidad indicada de cartas de Encuentro y comprueba los iconos de juego que aparecen en cada una. Los iconos constan de un color (rojo o negro), un palo (♥, ♦, ♠ o ♣) y un valor (4, 5, 6, 7, 8, 9, 10, J, Q o K).</p><ul><li>A efectos del valor numérico, J, Q y K cuentan como 10. A efectos del color, ♥ y ♦ son rojos, mientras que ♠ y ♣ son negros.</li><li>Si el mazo de Encuentros se queda sin cartas mientras compruebas iconos de juego, pon aparte las cartas ya descartadas, baraja el resto de la pila de descarte con el mazo de Encuentros y sigue descartando cartas.</li><li>«Valores consecutivos» en el efecto de una carta indica que los valores de los iconos de juego comprobados van seguidos en orden.</li><li>Si se descarta una carta sin iconos de juego, ponla aparte y descarta otra carta en su lugar (*las cartas puestas aparte de este modo se descartan una vez comprobados los iconos de juego*).</li><li>Nota: en algunas cartas de Encuentro aparece un valor «A». Esas cartas concretas no entran en el mazo de Encuentros, por lo que sus iconos nunca se usan al comprobar iconos de juego.</li></ul>"
+    },
+    "mulligans": {
+      "title": "Cambiar cartas",
+      "body": "<p class='basic'>Algunos efectos de Lugares _Juego_ que te indican que descartes cartas del mazo de Encuentros especifican que puedes cambiar cartas. Esto significa que, después de que un investigador descarte la cantidad indicada de cartas de Encuentro y compruebe sus iconos de juego, puede poner aparte tantas de esas cartas descartadas como quiera. Después, descarta del mazo de Encuentros la misma cantidad de cartas para sustituir las puestas aparte. Una vez resuelto el efecto, descarta las cartas puestas aparte.</p>"
+    },
+    "theWellspringOfFortune": {
+      "title": "El manantial de la fortuna",
+      "body": "<div class='columns' style='padding-right: 30px;'><p class='basic' style='padding-left: 0; margin-left: 0;'>Este escenario incluye El manantial de la fortuna, que es una «Llave», un tipo de carta nuevo introducido en la campaña *Las llaves escarlata*. Las reglas completas sobre las cartas de Llave se encuentran en la guía de campaña de *Las llaves escarlata*. En este escenario, El manantial de la fortuna solo se usa como indicador para fichas y como objetivo que los investigadores deben conseguir. _Considera en blanco el cuadro de texto de El manantial de la fortuna durante este escenario_. Por tanto, no necesitas las reglas completas sobre las cartas de Llave para jugarlo; sin embargo, si los investigadores juegan este escenario como parte de la campaña *Las llaves escarlata*, quizá puedan conseguir El manantial de la fortuna y usarlo en escenarios posteriores.</p><div style='flex:1; margin-top: 30px;' class='fan-thin'><img src='{setImgPath}/../cards/88045.avif' /><img src='{setImgPath}/../cards/88045b.avif' /></div></div>"
+    }
+  },
+  "part1": {
+    "setup": {
+      "gatherSets": "Reúne todas las cartas del conjunto de Encuentros *Fortuna e insensatez*. Este conjunto se identifica con este icono:<section class='encounter-sets'><img src='{setImgPath}/fortune-and-folly.png'></section>",
+      "agendaAndActDecks": "Forma el mazo de Plan usando solo el Plan 1 y el mazo de Acto usando solo el Acto 1. Pon aparte, fuera del juego, las demás cartas de Plan y de Acto.",
+      "setAsideEncounterSets": "Pon aparte, fuera del juego, los siguientes conjuntos de Encuentros: *Los elegidos de la fortuna* y *Plan al garete*. Estos conjuntos se identifican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/fortunes-chosen.png'><img src='{setImgPath}/plan-in-shambles.png'></section>",
+      "placeLocations": "Pon en juego Zona de juego del casino, Bar del casino y Mesa de apuestas altas con el lado Noche tranquila boca arriba. Pon en juego todos los demás Lugares _Públicos_. ",
+      "theStakeout": "Coloca la carta de Historia La vigilancia junto a Zona de juego del casino.",
+      "startAt": "Cada investigador comienza la partida en Zona de juego del casino (*Noche tranquila*).",
+      "restricted": "Pon aparte, fuera del juego, todos los Lugares _Restringidos_.",
+      "isamara": "Pon en juego el Apoyo de historia Isamara Ordoñez (*Cantante de bar*) en Mesa de bacará, con el lado _Discreto_ boca arriba.",
+      "abarran": "Haz aparecer el Enemigo Abarran Arrigorriagakoa en Mesa de apuestas altas, con el lado (*El hombre del anillo de rubí*) boca arriba.",
+      "ifTheUniformFits": "Haz aparecer 1 copia de Guardia del casino en Ruleta. Vincúlale la carta de Historia Si el uniforme te vale… (*Si el uniforme te vale... está en el reverso de la carta de Historia Entrega de paquete*).",
+      "role": "Cada investigador elige uno de los Apoyos de historia _Rol_ y toma su control, con el lado _Inexperto_ boca arriba. Si hay exactamente un investigador en la partida, ese investigador elige y toma el control de un Apoyo de historia _Rol_ adicional, con el lado _Inexperto_ boca arriba.",
+      "extraRoles": "Retira de la partida los Apoyos de historia _Rol_ que no se hayan elegido.",
+      "theWellspringOfFortune": "Vincula la Llave El manantial de la fortuna al mazo de Acto, con el lado _Estable_ boca arriba. Coloca sobre ella 7 {'{'}perPlayer{'}'} pistas. Su cuadro de texto se considera en blanco durante este escenario.",
+      "setAside": "Pon aparte, fuera del juego, las siguientes cartas: las tres cartas de Historia Desaprobación de la fortuna, el Apoyo de historia Carro de dinero, el Apoyo de historia Mazo de posibilidades y el Apoyo de historia Isamara Ordoñez (*Cantante de baladas*).",
+      "alarmLevel": "Coloca 1 ficha de Perdición junto a cada carta de Investigador. Esta Perdición representa el nivel de alarma actual de ese investigador. No cuenta como Perdición ni para el umbral de Perdición del Plan en curso."
+    },
+    "resolutions": {
+      "noResolution": {
+        "title": "Sin resolución",
+        "body": "<p>_Si no se ha llegado a ninguna resolución (todos los investigadores han sido derrotados)_: Continúa en la _Resolución 1_.</p>"
+      },
+      "resolution1": {
+        "title": "Resolución 1",
+        "body": "<p>_Resolución 1_: Te sacan del casino por la fuerza tras haber llamado demasiado la atención. Seguro que tu descripción no tardará en circular entre el personal. Esto, sin duda, complicará mucho las cosas cuando empiece el golpe.</p><ul><li>Cada investigador que no haya desistido aumenta su nivel de alarma en 2.</li><li>Los investigadores no pueden gastar experiencia ni modificar sus mazos entre Fortuna e insensatez, parte I y Fortuna e insensatez, parte II. Continúa en el _Punto de control: El plan_ (no recojas todavía la partida).</li></ul>"
+      },
+      "resolution2": {
+        "title": "Resolución 2",
+        "body": "<p>_Resolución 2_: Esperas que baste con lo que has podido averiguar y conseguir esta noche. Al menos puedes descansar algo más tranquilo sabiendo que el personal no pareció mostrar especial interés en ti. Así será más fácil pasar inadvertido cuando empiece el golpe de verdad.</p><ul><li>Los investigadores no pueden gastar experiencia ni modificar sus mazos entre Fortuna e insensatez, parte I y Fortuna e insensatez, parte II. Continúa en el _Punto de control: El plan_ (no recojas todavía la partida).</li></ul>"
+      }
+    }
+  },
+  "part2": {
+    "setup": {
+      "stash": "Antes de robar su mano inicial en este escenario, cada investigador puede buscar en su mazo todas sus cartas anotadas como «Escondido» y ponerlas aparte (1 copia por cada copia anotada). Cada investigador añade sus cartas escondidas puestas aparte a su mano inicial después de cambiar cartas.",
+      "gatherSets": "Reúne todas las cartas del conjunto de Encuentros *Fortuna e insensatez*. Este conjunto se identifica con este icono:<section class='encounter-sets'><img src='{setImgPath}/fortune-and-folly.png'></section>",
+      "agendaAndActDecks": "Forma el mazo de Plan usando los Planes 2-4 y el mazo de Acto usando los Actos 2-3. Pon aparte, fuera del juego, las demás cartas de Plan y de Acto.",
+      "neededTimeToRest": "*Si los investigadores necesitan tiempo para descansar*, coloca 1 ficha de Perdición en el Plan 2a.",
+      "setAsideEncounterSets": "Pon aparte, fuera del juego, los siguientes conjuntos de Encuentros: *Los elegidos de la fortuna* y *Plan al garete*. Estos conjuntos se identifican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/fortunes-chosen.png'><img src='{setImgPath}/plan-in-shambles.png'></section>",
+      "roles": "Cada investigador toma el control de los Apoyos de historia _Rol_ que consten a su nombre en el registro de campaña, con el lado _Inexperto_ boca arriba. Si en el registro de campaña el _Rol_ elegido consta como _Experimentado_, entra en juego con el lado _Experimentado_ boca arriba.",
+      "skippedPart1": "Si te has saltado la parte I, cada investigador elige 1 cualquiera de los Apoyos de historia _Rol_ y toma su control, con el lado _Inexperto_ boca arriba. Si hay exactamente 1 investigador en la partida, ese investigador elige y toma el control de un Apoyo de historia _Rol_ adicional, con el lado _Inexperto_ boca arriba.",
+      "extraRoles": "Retira de la partida los Apoyos de historia _Rol_ que no se hayan elegido.",
+      "placeLocations": "Pon en juego Zona de juego del casino, Bar del casino y Mesa de apuestas altas, con los lados (*Noche ajetreada*) boca arriba. Pon en juego todos los demás Lugares.",
+      "theHeist": "Coloca la carta de Historia El golpe junto a Puerta de la cámara (*El golpe está en el reverso de la carta de Historia La vigilancia*).",
+      "theWellspringOfFortune": "Vincula El manantial de la fortuna a Sala de reliquias, con el lado Estable boca arriba. Si jugaste la parte I, coloca sobre ella la cantidad de pistas anotada (de lo contrario, coloca sobre ella 7 {'{'}perPlayer{'}'} pistas).",
+      "startAt": "Cada investigador comienza la partida en Zona de juego del casino.",
+      "isamara": "*Si los investigadores convencieron a Isamara para que participe en el golpe*, pon en juego a Isamara Ordoñez (*Cantante de bar*), con el lado _Banda_ boca arriba, en Bar del casino. De lo contrario, ponla aparte.",
+      "setAside": "Pon aparte, fuera del juego, las siguientes cartas: las tres cartas de Historia Desaprobación de la fortuna, la carta de Historia Entrega de paquete, el Apoyo de historia Mazo de posibilidades, el Apoyo de historia Isamara Ordoñez (*Cantante de baladas*) y Abarran Arrigorriagakoa, con el lado (*Abarran desatado*) boca arriba (*Entrega de paquete está en el reverso de la carta de Historia Si el uniforme te vale...*).",
+      "cleanedOutTheHouse": "*Si los investigadores han dejado limpio al casino*, pon en juego el Carro de dinero en Mesa de apuestas altas. De lo contrario, ponlo aparte, fuera del juego.",
+      "spawnEnemies": "Busca en el mazo de Encuentros 1 copia de Guardia del casino. Haz que aparezca en Mesa de apuestas altas. Después, busca en el mazo de Encuentros 1 copia de Patrulla de seguridad. Haz que aparezca en Bar del casino.",
+      "alarmLevel": "Si jugaste la parte I, fija el nivel de alarma de cada investigador en el que se anotó en el Punto de control. De lo contrario, fija el nivel de alarma de cada investigador en 1."
+    },
+    "additionalRewards": {
+      "title": "Recompensas adicionales",
+      "body": "<ul><li>Comprueba la cantidad de tareas de la carta de Historia El golpe que se han completado durante este escenario. Si te saltaste la parte I, considera que la cantidad de tareas completadas es 2 más que las completadas durante el escenario.<ul><li>Cada investigador obtiene 1 punto de experiencia adicional por cada tarea completada en la carta de Historia El golpe por encima del mínimo de 4.</li><li>Si solo se completaron 4 tareas o menos, no se conceden recompensas adicionales.</li><li>Si se completaron 5 tareas o más e Isamara Ordoñez estaba en juego al final del escenario, los investigadores han conseguido a Isamara Ordoñez. Un investigador cualquiera puede elegir añadir a Isamara Ordoñez (Cantante de baladas) a su mazo. Esta carta no cuenta para el tamaño de mazo de ese investigador.</li><li> Si se completaron 6 tareas o más, los investigadores han conseguido el Mazo de posibilidades. Un investigador cualquiera puede elegir añadir el Mazo de posibilidades a su mazo. Esta carta no cuenta para el tamaño de mazo de ese investigador. Durante la preparación de cada escenario, ese investigador reúne las cartas de Encuentro de Fortuna e insensatez que tengan los siguientes iconos de juego: J ♠, J ♥, J ♦, J ♣, Q ♦, Q ♠, K ♣, K ♥, A ♠. Estas cartas se barajan para formar un «mazo de posibilidades» aparte (como alternativa, puedes usar naipes normales en lugar de las cartas de Encuentro de Fortuna e insensatez).</li></ul></li></ul>"
+    },
+    "resolutions": {
+      "label": {
+        "fortunesChosen": "Elige cualquier ficha numérica de la bolsa de caos. Sustitúyela por una ficha numérica cuyo valor sea 2 puntos inferior (*por ejemplo, puedes sustituir una ficha 0 por una ficha -2, o una ficha -3 por una ficha -5*)."
+      },
+      "scarletKeys": "Si estás jugando la campaña Las llaves escarlata:",
+      "meddled": "Anota en el registro de campaña que la célula se entrometió en los asuntos de Abarran.",
+      "bearer": "Elige un investigador que sea el portador de El manantial de la fortuna y actualiza en consecuencia el registro de campaña.",
+      "fortunesChosen": "Anota en el registro de campaña que *los Elegidos de la Fortuna han atado la mala suerte a los investigadores*. Elige cualquier ficha numérica de la bolsa de caos. Sustitúyela por una ficha numérica cuyo valor sea 2 puntos inferior (*por ejemplo, puedes sustituir una ficha 0 por una ficha -2, o una ficha -3 por una ficha -5*).",
+      "xp": "Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.",
+      "additionalRewards": "Continúa en _Recompensas adicionales_.",
+      "resolution1": {
+        "title": "Resolución 1",
+        "body": "<p>_Resolución 1_: Junto con Isamara, examinas la reliquia que ha sido el origen de todos estos problemas. A veces parece una moneda corriente, aunque antiquísima, de alguna civilización olvidada hace mucho. Otras veces, sin embargo, el aire que la rodea se deforma y se curva. Ahora conoces además, por experiencia, las formas en que puede hacer demasiado real lo que parece imposible. Por primera vez, ves una sonrisa sincera en el rostro de Isamara.</p><p>—Tengo que darte las gracias por esto. Por arrancarlo de las manos de Abarran. Y por llevártelo de este sitio. No sé qué habría pasado si no lo hubieras hecho. Lo de esta noche ya ha sido bastante malo, pero nada habría impedido que Abarran se aferrara a su trofeo, por mucha gente que muriera por el camino.</p><p>Empiezas a recoger tus cosas, e Isamara hace lo mismo. Sabes que tendréis que abandonar Montecarlo inmediatamente, pues cualquiera de los Elegidos de la Fortuna que haya sobrevivido, incluido el propio Abarran, os dará caza a ti y al Manantial.</p><p>—Lo vi una última vez, antes de escapar —explica Isamara—. La mirada de furia de sus ojos... Sin su preciado artefacto será aún más inestable.</p><p>Le dices que quizá sea él quien debería tener miedo. Al fin y al cabo, ella ha orquestado con éxito su caída desde dentro. Ante tus palabras, la misma sonrisa vuelve a cruzar su rostro.</p><p>—Podría acostumbrarme a esa idea.</p><p>Con todo preparado y el Manantial en la mano, dejas atrás Montecarlo, esperando que te dure la suerte.</p>"
+      },
+      "resolution2": {
+        "title": "Resolución 2",
+        "body": "<p>_Resolución 2_: Se mire como se mire, escapar de las garras de aquellas horribles criaturas y de un ejército de empleados y vigilantes del casino podría considerarse una noche de éxito. Sin embargo, el Manantial, la razón de ser de este malhadado golpe, se te ha escurrido entre los dedos. En los días siguientes, te preguntas si tienes el valor o la locura suficientes para volver a intentarlo, pero el casino no vuelve a abrir sus puertas y no hay más rastro de Abarran ni de los Elegidos de la Fortuna. Los periódicos guardan un extraño silencio sobre lo ocurrido aquella noche, sin mencionar los monstruos fantásticos que aterrorizaron a la clientela. Más que nunca, parece que alguna persona o grupo ayudó a Abarran a montar aquí su tinglado y lo sigue protegiendo después de los hechos. Y, lo que es más importante, tras tu intento de golpe y la extraña incursión dimensional, Abarran se ha llevado el Manantial a algún lugar muy lejano. Es posible que puedas seguirle la pista y encontrar otra forma de obtener la reliquia, pero, por ahora, no hay indicios ni rastro de adónde puede haber ido. Dejas Montecarlo lamiéndote las heridas y preguntándote si tendrás la fortuna, o la desgracia, de volver a toparte algún día con Abarran y el Manantial.</p>"
+      },
+      "resolution3": {
+        "title": "Resolución 3",
+        "body": "<p>_Resolución 3_: Cuando recobras el conocimiento un rato después, lo primero que te impresiona es el silencio absoluto. Al ponerte en pie, ves que el casino está completamente vacío. Ni sectarios. Ni monstruos. Ni clientes. Ni un alma a la vista. Y no hace falta mucho para comprender que la reliquia que buscabas también ha desaparecido hace rato. Sales a trompicones a la luz del día y descubres que la ciudad sigue con sus quehaceres, como si nada fuera de lo común hubiera sucedido. En los días siguientes, el casino cierra sus puertas para siempre. No hay más rastro de Abarran ni de los Elegidos de la Fortuna. Dejas Montecarlo curándote las heridas y preguntándote si tendrás la fortuna, o la desgracia, de volver a toparte algún día con Abarran y el Manantial.</p>"
+      }
+    }
+  },
+  "checkpoint1": {
+    "thePlan1": {
+      "title": "Punto de control: El plan",
+      "body": "<p>_El plan 1_: Completada la vigilancia, ha llegado el momento de planear el golpe en sí. Solo quedan unos días para la noche del sábado en el Défis de la Roulette, la más concurrida de la semana y el momento perfecto para perderse entre la multitud. El plan del golpe es sencillo, al menos en teoría. Con el personal y la seguridad del casino ocupados con la clientela del sábado, primero entraréis en las zonas públicas, como la última vez. Allí intentaréis pasar lo más inadvertidos posible mientras completáis las tareas necesarias. Una vez hecho esto, os colaréis en las zonas restringidas de la parte trasera del casino, reservadas al personal. En esa zona está la propia cámara acorazada, donde se encuentra el Manantial de la Fortuna. Según Isamara, la puerta de la cámara no solo está asegurada con acero macizo, sino que además la mantiene cerrada algún tipo de energía. Por si fuera poco, la vigilan sin cesar guardias, patrullas y los sectarios de los Elegidos de la Fortuna. Hará falta un plan ejecutado con esmero, y algo de improvisación, para triunfar contra todo pronóstico. Con tan poco tiempo para reunir suministros y ensayar la maniobra, quizá no haya ocasión de descansar y recuperarse de vuestro primer encontronazo con el casino.</p><section class='note-green'><h1>El plan 2 &amp; El plan 3</h1><p>_Nota_: La elección que sigue es puramente narrativa. Los dos pasajes describen el mismo estado de juego resultante y solo se diferencian en la contabilidad que habría que llevar a mano en una mesa física (qué anotar en el registro de campaña y qué dejar sobre la mesa), y esta aplicación se encarga de todo ello en ambos casos. Cualquiera de las dos opciones conduce a la misma *parte II*, y en ambas puedes detenerte en la pantalla de continuación que viene después y retomar la partida cuando quieras.</p></section>"
+    },
+    "thePlan2": {
+      "title": "Punto de control: El plan",
+      "body": "<p>_El plan 2_: Respiras hondo y haces los últimos preparativos…</p><ul><li>Comprueba la cantidad total de daño y de horror de cada investigador. Si algún investigador tiene 6 o más puntos entre daño y horror, recuerda que *los investigadores necesitan tiempo para descansar*.</li><li>Por cada 1 {'{'}perPlayer{'}'} pistas que haya en la carta de Historia La vigilancia al concluir la parte I, los investigadores, como grupo, eligen una de las siguientes opciones:<ul><li>Reducir en 1 el nivel de alarma de cada investigador.</li><li>Elegir una carta _Rol_ que estuviera bajo el control de un investigador cuando terminó la partida. Dar la vuelta a la carta elegida para mostrar su lado _Experimentado_.</li></ul></li><li>Reúne los Apoyos boca abajo de debajo de Zona de juego del casino que formen parte del «alijo para el golpe». Cada investigador toma los Apoyos escondidos que le pertenezcan y los pone aparte.</li><li>No retires de la partida ningún Lugar (*se retiran todas las fichas de estos Lugares y se descartan con normalidad todas sus cartas, excepto El manantial de la fortuna, Isamara Ordoñez y Abarran Arrigorriagakoa*).</li><li>Restablece el mazo de cada investigador y el mazo de Encuentros.</li><li>Continúa en _Fortuna e insensatez, parte II_.</li></ul>"
+    },
+    "thePlan3": {
+      "title": "Punto de control: El plan",
+      "body": "<p>_El plan 3_: Respiras hondo y haces los últimos preparativos…</p><ul><li>Anota en el registro de campaña cada línea de texto que se te haya indicado que recuerdes durante este escenario (*también tendrás que recordarlas en la parte II*).</li><li>Comprueba la cantidad total de daño y de horror de cada investigador. Si algún investigador tiene 6 o más puntos entre daño y horror, anota en el registro de campaña que *los investigadores necesitan tiempo para descansar*.</li><li>Anota el nombre de cada carta _Rol_ que estuviera bajo el control de un investigador cuando terminó la partida.</li><li>Por cada 1 {'{'}perPlayer{'}'} pistas que haya en la carta de Historia La vigilancia al concluir la parte I, los investigadores, como grupo, eligen una de las siguientes opciones:<ul><li>Reducir en 1 el nivel de alarma de cada investigador.</li><li>Elegir una carta _Rol_ que estuviera bajo el control de un investigador cuando terminó la partida. Escribir _Experimentado_ en el registro de campaña junto al nombre de la carta elegida.</li></ul></li><li>Anota en el registro de campaña el nivel de alarma de cada investigador.</li><li>Anota en el registro de campaña la cantidad de pistas que haya en El manantial de la fortuna.</li><li>Reúne los Apoyos boca abajo de debajo de Zona de juego del casino que formen parte del «alijo para el golpe». Anota «Escondido:» en el registro de campaña y, a continuación, el nombre de cada Apoyo reunido.</li><li>Recoge la partida como de costumbre.</li><li>Cuando quieras volver a jugar, continúa en _Fortuna e insensatez, parte II_.</li></ul>"
+    },
+    "choices": "<ul><li>Por cada 1 {'{'}perPlayer{'}'} pistas que haya en la carta de Historia La vigilancia al concluir la parte I, los investigadores, como grupo, eligen una de las siguientes opciones:</li></ul>",
+    "label": {
+      "alarm": "Reducir en 1 el nivel de alarma de cada investigador.",
+      "flipRole": "Elegir una carta _Rol_ que estuviera bajo el control de un investigador cuando terminó la partida. Escribir _Experimentado_ en el registro de campaña junto al nombre de la carta elegida.",
+      "continuePart2Now": "Seguir jugando la parte II ahora.",
+      "playPart2Later": "Dejar la partida y jugar la parte II más tarde."
+    },
+    "chooseRoleToFlip": "<p>Elige una carta _Rol_ que estuviera bajo el control de un investigador cuando terminó la partida. Escribe _Experimentado_ en el registro de campaña junto al nombre de la carta elegida.</p>"
+  }
+}

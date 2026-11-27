@@ -1,0 +1,147 @@
+{
+  "intro": {
+    "title": "Los laberintos de la demencia",
+    "chooseGroup": "<p class='basic'>Si juegas como minicampaña, juega tres partidas consecutivas, una por cada grupo, en el orden que prefieras. A diferencia de una campaña normal, se aplican las siguientes reglas:</p><ul class='level-2'><li>Al crear mazos para Los laberintos de la demencia, usa las reglas del modo independiente de la página 19 de la Referencia de reglas. No es necesario que empieces con 0 puntos de experiencia.</li><li>Los jugadores pueden intercambiar investigadores o mazos entre un escenario y otro para representar a los distintos grupos de investigadores atrapados en los Laberintos.</li> <li>Durante esta campaña no se obtiene ni se gasta experiencia entre escenarios.</li> <li>Esta campaña no tiene registro de campaña. Durante ella los investigadores no sufren traumas, y quienes _mueran_ o _enloquezcan_ pueden seguir usándose en otros escenarios.</li></ul><p class='basic'>¿Qué grupo está atrapado en esta parte del laberinto?</p>",
+    "chooseGroupSingle": "<p class='basic'>Si juegas como un solo escenario independiente, puedes elegir el grupo A, B o C. Usa las instrucciones de preparación del grupo elegido para preparar la partida.</p><p class='basic'>¿Qué grupo está atrapado en esta parte del laberinto?</p>",
+    "groupA": "<p>Despiertas en un lugar extraño, sin el menor recuerdo de cómo has llegado hasta aquí. Los músculos te flaquean y no te obedecen. Ves borroso. El simple hecho de levantarte te exige un esfuerzo tremendo. Las piernas te tiemblan y apenas soportan tu peso.</p><p>Por primera vez desde que despertaste, estudias lo que te rodea. Te han sellado en una cámara sin ventanas, repleta de tuberías de cobre. Por todas partes se oye el débil silbido del aire que se escapa. Aquí te tienen en cautiverio, sin medio alguno de huir. Cerca de ti, en el suelo, hay una nota.</p>",
+    "groupB": "<p>Despiertas en un lugar extraño, sin el menor recuerdo de cómo has llegado hasta aquí. Los músculos te flaquean y no te obedecen. Ves borroso. El simple hecho de levantarte te exige un esfuerzo tremendo. Las piernas te tiemblan y apenas soportan tu peso.</p><p>Por primera vez desde que despertaste, estudias lo que te rodea. Te han sellado dentro de un alto tanque de cristal, y el agua te cubre hasta los tobillos. Al otro lado del cristal opaco ves muchos más tanques como el tuyo, envueltos en niebla. Aquí te tienen en cautiverio, sin medio alguno de huir. Junto al tanque, en el suelo, hay una nota.</p>",
+    "groupC": "<p>Despiertas en un lugar extraño, sin el menor recuerdo de cómo has llegado hasta aquí. Los músculos te flaquean y no te obedecen. Ves borroso. El simple hecho de levantarte te exige un esfuerzo tremendo. Las piernas te tiemblan y apenas soportan tu peso.</p><p>Por primera vez desde que despertaste, estudias lo que te rodea. Estás en una cámara oscura, iluminada solo por unas pocas velas. Barriles viejos, cajas y estanterías podridas abarrotan la angosta estancia. No ves ninguna ventana ni puerta que lleve al exterior. Aquí te tienen en cautiverio, sin medio alguno de huir. Cerca de ti, en el suelo, hay una nota.</p>",
+    "note": "<p><i>Dice así:</i></p><p><span class='wolgast' style='font-weight:600;'>Saludos.<br/>Os he reunido aquí para un experimento. Consideradlo una prueba de la voluntad humana. Sobreviviréis. O moriréis.<br/>No estáis a solas. Otros dos grupos comparten vuestra suerte. ¿Arriesgaréis la vida para ayudarlos? ¿O hallaréis la libertad a costa de sus cadáveres?<br/>Os permitiré escapar si demostráis tener una voluntad firme y un ingenio rápido. Si no, vuestro dolor y vuestra angustia servirán para recordar que los humanos no son los herederos de la Tierra.</span></p>"
+  },
+  "label": {
+    "decayDiagram": {
+      "cluesToFlip": "Pistas para dar la vuelta"
+    },
+    "satisfyDoomThreshold": "Añadir Perdición al Plan en curso hasta alcanzar su umbral de Perdición.",
+    "groupA": "Grupo A",
+    "groupB": "Grupo B",
+    "groupC": "Grupo C"
+  },
+  "remembered": {
+    "pulledTheLeftLever": "{name} tiró de la palanca izquierda",
+    "pulledTheMiddleLever": "{name} tiró de la palanca central",
+    "pulledTheRightLever": "{name} tiró de la palanca derecha",
+    "beenInjected": "{name} ha recibido una inyección"
+  },
+  "setup": {
+    "gatherSets": "Reúne todas las cartas del conjunto de Encuentros <i>Los laberintos de la demencia</i>. Este conjunto se identifica con este icono:<section class='encounter-sets'><img src='{setImgPath}/in-the-labyrinths-of-lunacy.png'></section>",
+    "singleGroup": "Como juegas en <i>Modo de grupo único</i>, reúne todas las cartas del conjunto de Encuentros <i>Grupo único</i>, identificado con este icono:<section class='encounter-sets'><img src='{setImgPath}/single-group.png'></section> Retira de la partida todas las cartas del conjunto de Encuentros <i>Multijugador épico</i>.",
+    "actDeckGroupA": "Crea el mazo de Acto usando solo las versiones (Grupo A) de los actos 1 y 2. Retira de la partida las demás versiones de esos actos.",
+    "actDeckGroupB": "Crea el mazo de Acto usando solo las versiones (Grupo B) de los actos 1 y 2. Retira de la partida las demás versiones de esos actos.",
+    "actDeckGroupC": "Crea el mazo de Acto usando solo las versiones (Grupo C) de los actos 1 y 2. Retira de la partida las demás versiones de esos actos.",
+    "chamberOfSecrets": "Elige al azar 1 de las 3 copias de la Cámara de los secretos y ponla en juego. Retira las otras 2 copias de la partida. Cada investigador comienza la partida en la Cámara de los secretos.",
+    "chamberOfRainAndSorrows": "Pon en juego los Lugares Cámara de la lluvia y Cámara del pesar. Elige al azar un investigador para que comience la partida en la Cámara de la lluvia. Todos los demás investigadores comienzan la partida en la Cámara del pesar.",
+    "chamberOfNightAndRegret": "Pon en juego los Lugares Cámara de la noche y Cámara del remordimiento. Cada investigador comienza la partida en la Cámara de la noche.",
+    "setAside": "Pon aparte, fuera del juego, las siguientes cartas: Llave de los misterios, Jeringuilla misteriosa, Eixodolon, Mascota de Eixodolon, Diagrama de la putrefacción, Diagrama del hambre, Diagrama del marchitamiento, las dos copias de Raptor sin rostro y todos los demás Lugares.",
+    "keyOfMysteries": "Como juegas en <i>Modo de grupo único</i>, pon en juego en la Cámara de los secretos la Llave de los misterios que habías puesto aparte.",
+    "hiddenChamberOfSecrets": "Como juegas en <i>Modo de grupo único</i>, elige al azar 1 de las 3 copias puestas aparte de la Cámara de los secretos y colócala debajo de la carta de referencia de escenario, sin mirar su lado revelado.",
+    "eixodolonsNote": "El investigador jefe toma el control de la Nota de Eixodolon.",
+    "addTokens": "Añade a la bolsa de caos 2 de las fichas de Caos de este grupo (grupo A: Primigenio; grupo B: Tablilla; grupo C: Sectario)."
+  },
+  "skull": {
+    "takeDamage": "Recibir 1 punto de daño",
+    "takeHorror": "Recibir 1 punto de horror"
+  },
+  "chamberOfSorrows": {
+    "takeClue": "Toma el control de 1 pista de un investigador que esté en la Cámara del pesar o en la Cámara de la lluvia (o de ese Lugar si eres el único investigador de la partida)."
+  },
+  "chamberOfRegret": {
+    "label": {
+      "whichLever": "Tiras de una de las 3 palancas (elige una): izquierda, central o derecha. En cuanto lo haces, el rastrillo se cierra de golpe a tu espalda. No puedes abandonar la Cámara del remordimiento durante el resto del acto en curso.",
+      "left": "Tirar de la palanca izquierda",
+      "middle": "Tirar de la palanca central",
+      "right": "Tirar de la palanca derecha"
+    }
+  },
+  "labyrinthineHalls": {
+    "chooseDrawCards": "Encuentras una vieja caja de seguridad en un montón de desechos y decides dejar algo en ella. Elige un investigador para que robe 2 cartas.",
+    "chooseGainResources": "Encuentras el cadáver de alguien a quien crees haber conocido y desearías haber podido salvar. Elige un investigador para que obtenga 4 recursos.",
+    "chooseAdditionalActions": "Miras un espejo cubierto de vegetación y ves un reflejo desconocido. Elige un investigador para que realice 2 acciones adicionales durante su siguiente turno.",
+    "additionalActions": "Salas laberínticas"
+  },
+  "torturedVictim": {
+    "label": {
+      "discardRandomCard": "Descartar una carta al azar de tu mano",
+      "takeAttack": "La Víctima torturada realiza inmediatamente un ataque contra ti"
+    }
+  },
+  "unnaturalWeariness": {
+    "loseResources": "Perder 3 recursos",
+    "loseAction": "Perder 1 acción",
+    "discardRandomCard": "Descartar una carta al azar de tu mano"
+  },
+  "act2Setup": {
+    "title": "Preparación del acto 2",
+    "shuffleEncounterDeck": "Baraja con el mazo de Encuentros todas las copias puestas aparte de Raptor sin rostro y la pila de descarte de Encuentros.",
+    "labyrinthineHalls": "Pon en juego las 3 Salas laberínticas puestas aparte.",
+    "chamberOfDecay": "Pon en juego la Cámara del marchitamiento que habías puesto aparte.",
+    "chambersOfRotAndPoison": "Pon en juego la Cámara de la putrefacción y la Cámara del veneno que habías puesto aparte.",
+    "chamberOfHunger": "Pon en juego la Cámara del hambre que habías puesto aparte.",
+    "eixodolonsPet": "Pon en juego la Mascota de Eixodolon que habías puesto aparte, cerca de la Cámara del hambre pero no en ningún Lugar. Mientras no esté en ningún Lugar, se considera «encerrada».",
+    "removeDoom": "Retira toda la Perdición en juego y avanza al acto 2a y al Plan 2a."
+  },
+  "act3Setup": {
+    "title": "Preparación del acto 3",
+    "abandonedWarehouse": "Pon en juego el Almacén abandonado que habías puesto aparte.",
+    "moveInvestigators": "Deja sin enfrentar a todos los Enemigos enfrentados y mueve a cada investigador superviviente al Almacén abandonado.",
+    "eixodolon": "Pon en juego en el Almacén abandonado al Enemigo Eixodolon que habías puesto aparte.",
+    "removeDoom": "Retira toda la Perdición en juego y avanza al acto 3a y al Plan 3a."
+  },
+  "theLevers": {
+    "title": "¿Qué palanca?",
+    "match": "<p>El investigador que tiró de la palanca examina la Cámara de los secretos que hay bajo la carta de referencia de escenario. ¡Coincide! El rastrillo se levanta y la puerta de la Cámara de la noche se abre. Resuelve la <b>Preparación del acto 2</b>.</p>",
+    "noMatch": "<p>El investigador que tiró de la palanca examina la Cámara de los secretos que hay bajo la carta de referencia de escenario. No coincide. Hileras de cuchillas afiladísimas emergen de las paredes de la cámara y te diseccionan con una precisión espantosa. Mueres. Resuelve la <b>Preparación del acto 2</b>.</p>",
+    "noLever": "<p><i>Se acabó el tiempo. Corres hacia las palancas, pero es demasiado tarde. Hileras de cuchillas afiladísimas emergen de las paredes de la cámara y te diseccionan con una precisión espantosa.</i></p><p>El investigador más cercano a la Cámara del remordimiento muere. <i>(En caso de empate, deciden los investigadores).</i> Resuelve la <b>Preparación del acto 2</b>.</p>"
+  },
+  "seepingDeath": {
+    "title": "El pozo de veneno",
+    "injected": "<p>Has «recibido una inyección»: el cieno es repugnante, pero inofensivo. Resuelve la <b>Preparación del acto 3</b>.</p>",
+    "notInjected": "<p>No has «recibido una inyección»: el veneno se filtra por tu piel y devora tus órganos desde dentro. Mueres. Resuelve la <b>Preparación del acto 3</b>.</p>",
+    "noValve": "<p><i>Los suelos y las paredes de todo el laberinto se desplazan y giran, y pierdes el equilibrio. La gravedad se retuerce, resbalas por el suelo y caes al pozo venenoso.</i></p><p>Mueve a cada investigador a la Cámara del veneno. Cada investigador de este grupo que no haya «recibido una inyección» muere. Resuelve la <b>Preparación del acto 3</b>.</p>"
+  },
+  "thePet": {
+    "title": "Hambre infinita",
+    "victory": "<p><i>Suspiras con alivio cuando la criatura se desploma sin vida.</i></p><p>Resuelve la <b>Preparación del acto 3</b>.</p>",
+    "breaksFree": "<p><i>La criatura atraviesa el cristal de su terrario y se lanza con voracidad contra cualquiera que esté cerca.</i></p><p>Mueve la Mascota de Eixodolon a la Cámara del hambre. Ataca a cada investigador que esté en la Cámara del hambre, siguiendo el orden de los jugadores. Resuelve la <b>Preparación del acto 3</b>.</p>"
+  },
+  "resolutions": {
+    "label": {
+      "endScenario": "Terminar el escenario aquí",
+      "playAnotherGroup": "Continuar la minicampaña con otro grupo"
+    },
+    "noResolution": {
+      "title": "Sin resolución",
+      "body": "<p>_Si no se ha llegado a ninguna resolución (todos los investigadores han sido derrotados)_: ve a la _Resolución 1_.</p>"
+    },
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<p>_Resolución 1_: en las manos equivocadas, tu angustia es un arma poderosa. Tu sangre alimenta el glifo arcano grabado en el suelo de cemento, en el corazón del laberinto. Para la cruel mente que te ha atrapado aquí, es un momento de triunfo y reivindicación. El mundo entero sentirá este dolor. Este miedo. Esta desesperación.</p><ul><li>Los investigadores pierden.</li></ul>"
+    },
+    "resolution2": {
+      "title": "Resolución 2",
+      "body": "<p>_Resolución 2_: el cerebro de todo esto cae de rodillas, con la máscara agrietada. La sangre gotea de sus heridas abiertas sobre el suelo de cemento. «¿De verdad crees que puedes escapar?», resuella. Su voz distorsionada suena dolorida, pero triunfal. «¿De verdad crees... que yo permitiría que salieras de este lugar?». Su cuerpo se desploma. Al ver una ocasión de huir, corres hacia las puertas de hierro que te mantienen dentro del almacén. Con un esfuerzo desesperado, logras por fin romper el candado y empujar las pesadas puertas.</p><p>Una súbita ráfaga de aire frío del anochecer te envuelve. Te sorprende ver unos muelles de madera a orillas del río Miskatonic. Unos patos graznan sobresaltados y se alejan nadando del muelle más cercano. El agua chapotea contra la orilla. Oyes a los estibadores ocupados en lo suyo, con la jornada casi terminada mientras el sol se pone a tu izquierda. Tras dar unos pasos, te derrumbas. El agotamiento y las heridas te impiden seguir. «¿Quién anda ahí?», grita un estibador. «Aquí hay una persona herida. ¡Rápido, hay que llevarla al Santa María!». Pierdes el conocimiento justo cuando un hombre musculoso te levanta en brazos.</p><p>Despiertas en un lugar extraño, sin el menor recuerdo de cómo has llegado hasta aquí. Los músculos te flaquean y no te obedecen. Ves borroso. El simple hecho de levantarte te exige un esfuerzo tremendo. Las piernas te tiemblan y apenas soportan tu peso. Cerca, en el suelo, una nota dice:</p><blockquote><i>Saludos. Os he reunido aquí para un experimento. Consideradlo una prueba de la voluntad humana. Sobreviviréis. O moriréis...</i></blockquote><ul><li>Los investigadores han sobrevivido, pero, en otra línea temporal, el laberinto tiene un nuevo huésped.</li></ul>"
+    },
+    "resolution3": {
+      "title": "Resolución 3",
+      "body": "<p>_Resolución 3_: el cerebro de todo esto cae de rodillas, con la máscara agrietada. La sangre gotea de sus heridas abiertas sobre el suelo de cemento. «¿De verdad crees que puedes matarme?», resuella. Su voz distorsionada suena dolorida, pero orgullosa. «Estoy en todas partes y en todo momento. Este recipiente no es más que uno. Hay otros. Y con que se demuestre que uno solo de ellos tiene razón, jamás moriré del todo». Su cuerpo cae inerte. Al ver una ocasión de huir, corres hacia las puertas de hierro que te mantienen dentro del almacén. Con un esfuerzo desesperado, logras por fin romper el candado y empujar las pesadas puertas.</p><p>Una súbita ráfaga de aire frío del anochecer te envuelve. Te sorprende ver unos muelles de madera a orillas del río Miskatonic. Unos patos graznan sobresaltados y se alejan nadando del muelle más cercano. El agua chapotea contra la orilla. Oyes a los estibadores ocupados en lo suyo, con la jornada casi terminada mientras el sol se pone a tu izquierda. Tras dar unos pasos, te derrumbas. El agotamiento y las heridas te impiden seguir. «¿Quién anda ahí?», grita un estibador. «Aquí hay una persona herida. ¡Rápido, hay que llevarla al Santa María!». Un hombre musculoso te levanta en brazos y te trasladan al hospital.</p><p>De algún modo has logrado salir del laberinto infernal de tu captor, pero sus últimas palabras te persiguen. ¿A qué se refería con «otros»? Recuerdas las extrañas visiones que tuviste en su dédalo, y un pensamiento terrible se abre paso en tu mente. El secuestrador mencionó otros grupos, pero nunca los encontraste y no tienes ni idea de si salieron con vida. Dices a la policía que hay más gente e insistes en que registren los muelles, pero no hay rastro del almacén del que escapaste, ni de la mente que te atrapó allí...</p><ul><li>Los investigadores han sobrevivido, pero Eixodolon sigue con vida.</li></ul>"
+    },
+    "resolution4": {
+      "title": "Resolución 4",
+      "body": "<p>_Resolución 4_: el cerebro de todo esto cae de rodillas, con la máscara agrietada. La sangre gotea de sus heridas abiertas sobre el suelo de cemento. El contorno de su cuerpo se retuerce y se difumina, como una arruga en el tejido del espacio y el tiempo. «¡Así que el ritual ha fracasado!». Su risa amarga se convierte en un grito de dolor. «Quizá la humanidad tenga una oportunidad, después de todo. ¡Esta agonía, este sufrimiento! Semejante poder no está hecho para que lo manejen los humanos. ¡Es para los del más allá!». Boquea y resuella, y se desploma. «No sigas el camino que yo seguí», suplica, «solo conduce a... la desesperación». Deja de respirar.</p><p>De algún modo has derrotado a tu captor, pero quedan muchas preguntas. Decides seguir explorando el laberinto y encuentras la manera de forzar las puertas de hierro que llevan a otras secciones del complejo. Para tu sorpresa, no hallas a más víctimas atrapadas en el laberinto: solo señales de su lucha y de su supervivencia.</p><p>Basta un golpe contundente para romper el candado que sella las puertas de hierro del almacén. El estruendo del metal contra el metal se triplica. No crees que tu secuestrador pretendiera que salieras nunca, pero de algún modo has desafiado todas las probabilidades. Te preguntas si los demás estarán abriendo estas pesadas puertas en este mismo instante.</p><p>Una súbita ráfaga de aire frío del anochecer te envuelve. Te sorprende ver unos muelles de madera a orillas del río Miskatonic. Unos patos graznan sobresaltados y se alejan nadando del muelle más cercano. El agua chapotea contra la orilla. Oyes a los estibadores ocupados en lo suyo, con la jornada casi terminada mientras el sol se pone a tu izquierda. Contemplas cómo el sol desaparece tras el horizonte, y los demás lo contemplan también.</p><ul><li>¡Los investigadores ganan!</li></ul>"
+    }
+  },
+  "tokens": {
+    "easyStandard": {
+      "skull": "-1. Revela otra ficha.",
+      "cultist": "-3. Si fracasas, coloca 1 de tus pistas en tu Lugar.",
+      "tablet": "-4. Si fracasas, pierdes 2 recursos.",
+      "elderThing": "-4. Si fracasas, descarta una carta al azar de tu mano."
+    },
+    "hardExpert": {
+      "skull": "-1. Revela otra ficha. Si fracasas, debes recibir 1 punto de daño o 1 punto de horror.",
+      "cultist": "-3. Coloca 1 de tus pistas en tu Lugar.",
+      "tablet": "-4. Pierdes 2 recursos.",
+      "elderThing": "-4. Descarta una carta al azar de tu mano."
+    }
+  }
+}

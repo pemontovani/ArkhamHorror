@@ -1,0 +1,108 @@
+{
+  "heading": "Escenario de desafío",
+  "specialRules": [
+    {
+      "title": "@:standalone.laidToRest.theSpectralEncounterDeck.title",
+      "body": "@:standalone.laidToRest.theSpectralEncounterDeck.body"
+    },
+    {
+      "title": "Hechizado",
+      "body": "<p class='basic'>Hechizado es una capacidad que aparece en algunos Lugares. Cada vez que un investigador fracase en una prueba de habilidad al investigar un Lugar, después de aplicar todos los resultados de esa prueba, ese investigador debe resolver todas las capacidades «Hechizado -» de ese Lugar. A efectos de otras cartas, un Lugar está «hechizado» si tiene al menos una capacidad «Hechizado -» (impresa o no).</p>"
+    },
+    {
+      "title": "@:standalone.laidToRest.theBeyondAndTheSpiritDeck.title",
+      "body": "@:standalone.laidToRest.theBeyondAndTheSpiritDeck.body"
+    },
+    {
+      "title": "Errante",
+      "body": "<p class='basic'>Algunos Enemigos tienen la palabra clave Errante. Durante la fase de Enemigos (en el paso de estructura 3.2), cada Enemigo preparado y sin enfrentar que tenga la palabra clave Errante se mueve a un Lugar conectado siguiendo la ruta más corta hacia el Lugar designado (descrito entre paréntesis junto a la palabra «Errante»).</p><ul><li>Si hay varios Lugares que puedan considerarse el Lugar designado, el investigador jefe puede elegir hacia qué Lugar se mueve el Enemigo.</li><li>Si un Enemigo con Errante tuviera que moverse a un Lugar bloqueado por la capacidad de una carta, el Enemigo no se mueve.</li></ul>"
+    }
+  ],
+  "theSpectralEncounterDeck": {
+    "title": "El mazo de Encuentros espectral",
+    "body": "<p class='basic'>Durante la preparación de este escenario se crean dos mazos de Encuentros: un mazo de Encuentros «estándar» y un mazo de Encuentros «espectral». Por lo general, cuando un investigador deba interactuar con el mazo de Encuentros, ese investigador debe usar el mazo de Encuentros estándar.</p><p class='basic'>Sin embargo, durante este escenario los Lugares pueden darse la vuelta por su lado _Espectral_. Mientras un investigador esté en un Lugar con el Atributo _Espectral_, ese investigador debe usar el mazo de Encuentros espectral en lugar del estándar a todos los efectos, salvo que se indique lo contrario. Esto incluye robar cartas del mazo de Encuentros, así como buscar, mirar, revelar o interactuar de cualquier otra forma con el mazo de Encuentros (o la pila de descarte de Encuentros). También incluye las capacidades que se activan cuando el mazo de Encuentros se queda sin cartas. Si un efecto se refiere expresamente al mazo de Encuentros estándar o al espectral, interactúa con el mazo indicado esté donde esté el investigador.</p><p class='basic'>Cada uno de los dos mazos de Encuentros tiene su propia pila de descarte. Cuando una carta de Encuentro con el Atributo _Espectral_ vaya a descartarse, se coloca en la pila de descarte del mazo de Encuentros espectral. Todas las demás cartas de Encuentro se descartan en la pila de descarte del mazo de Encuentros estándar.</p>"
+  },
+  "theBeyondAndTheSpiritDeck": {
+    "title": "El Más Allá y el mazo de Espíritus",
+    "body": "<p class='basic'>El Apoyo distintivo de doble cara El Más Allá que incluye este conjunto permite a Jim Culver vincularle Apoyos _Aliado_ del mazo de Espíritus como espíritus. El mazo de Espíritus es un mazo aparte que se baraja y se coloca boca abajo junto a El Más Allá cuando comienza la partida. Es inmune a todos los efectos de cartas de Jugador salvo al efecto Obligado de El Más Allá.</p><p class='basic'>Los espíritus están en juego, pero solo conservan su nombre y su cuadro de texto. Los espíritus no ocupan ningún espacio ni tienen valores de salud o cordura. Cuando un espíritu único entre en juego, descarta los Apoyos que compartan su nombre. Si un espíritu vinculado fuera a ser descartado, en su lugar se coloca en la parte <b>inferior</b> del mazo de Espíritus.</p>"
+  },
+  "tokens": {
+    "easyStandard": {
+      "skull": "-X. X es la cantidad de copias de Asuntos inacabados en la zona de victoria más 1.",
+      "cultist": "-X. X es la cantidad de cartas vinculadas a El Más Allá.",
+      "tablet": "-X. X es la cantidad de Lugares _Espectral_ en juego.",
+      "elderThing": "-2. Si hay un Enemigo _Geist_ en tu Lugar, revela otra ficha."
+    },
+    "hardExpert": {
+      "skull": "-X. X es la cantidad de copias de Asuntos inacabados en la zona de victoria más 2.",
+      "cultist": "-X. X es el doble de la cantidad de cartas vinculadas a El Más Allá.",
+      "tablet": "-X. X es el doble de la cantidad de Lugares _Espectral_ en juego.",
+      "elderThing": "-3. Si hay un Enemigo _Geist_ en tu Lugar, fracasas automáticamente."
+    }
+  },
+  "label": {
+    "upgradeJimsTrumpet": "Mejorar La trompeta de Jim a su versión avanzada",
+    "downgradeFinalRhapsody": "Devolver la versión avanzada de Rapsodia final a su versión original",
+    "upgradeFinalRhapsody": "Mejorar Rapsodia final a su versión avanzada",
+    "downgradeJimsTrumpet": "Devolver la versión avanzada de La trompeta de Jim a su versión original",
+    "doNotSwap": "No hacer el cambio"
+  },
+  "tooltips": {
+    "jeanDevereuxSeekingClosure": {
+      "parley": "Roba una carta boca abajo de debajo del Lugar de Jean Devereux y elige un Hereje vinculado a El Más Allá: <b>Negociar.</b> Jim Culver roba el Hereje elegido, le da la vuelta y resuelve su texto."
+    },
+    "jeanDevereuxPossessed": {
+      "parley": "<b>Negociar.</b> Realiza una prueba de {'{'}willpower{'}'} (3). Esta prueba recibe +1 a su dificultad por cada copia de Asuntos inacabados en la zona de victoria. Si tienes éxito, cura todo el daño de Jean Devereux y dale la vuelta (deja de estar enfrentado)."
+    },
+    "gatheringMists": {
+      "parley": "Gastad 2{'{'}perPlayer{'}'} pistas como grupo: <b>Negociar.</b> Destierras un espíritu. Descarta la primera carta del mazo de Espíritus. (Pista: ¡saca Herejes de El Más Allá e invócalos con la ayuda de Jean!)."
+    },
+    "laidToRest": {
+      "moveEnemy": "Agota La trompeta de Jim, o bien gastad 1{'{'}perPlayer{'}'} pistas como grupo: elige un Enemigo para que se mueva una vez hacia el Lugar de Jim Culver.",
+      "flipLocation": "Gastad 1{'{'}perPlayer{'}'} pistas como grupo: da la vuelta a tu Lugar. (Límite de grupo de una vez por ronda y por Lugar)."
+    }
+  },
+  "intro": {
+    "title": "Escenario de desafío: Reposo eterno",
+    "body": "<p><i>Los muertos no descansan. Vayas donde vayas, los oyes hablar, susurrar, llorar, gritar. A veces entre ellos, a veces a solas. Divagan sobre la gente a la que querían, sobre su trabajo o sobre el dinero que escondieron bajo las tablas del suelo antes de morir. Casi siempre hablan de comida o de bebida. Los muertos siempre tienen hambre. A veces, cuando se dan cuenta de que puedes oírlos, se te arriman mucho y te susurran al oído. Últimas voluntades y cosas así. Intentas ayudar cuando puedes, pero normalmente las personas de las que quieren que te ocupes también están muertas. Haces un montón de promesas vacías, pero al menos así se callan.</i></p><p><i>No siempre fue así. Los muertos empezaron a hablar el día en que tu padre murió en su casita estrecha del Barrio Francés. Al llegar a casa lo viste de pie en el salón, junto a su propio cuerpo; se desvaneció antes de que pudieras decir una palabra. Desde entonces, cada vez que tocabas la trompeta de tu padre, oías una cacofonía de voces. Algunas eran humanas. Pero también había otras. Lamentos penetrantes de labios inhumanos. Gritos guturales. Y una multitud de rostros espectrales y relucientes que asomaban entre las sombras.</i></p><p><i>Jean te ayudó a encontrarle sentido a todo. Se detuvo a escucharte tocar en una esquina de la calle Bourbon a cambio de unas monedas y advirtió la larga mirada que le dedicaste al fantasma tendido a tus pies. Él también lo veía. Jean se presentó como médium y te dijo que fueras a verlo a su tienda de Broadmoor. Te lo contó todo sobre los muertos, sobre lo que hay más allá de la tumba y sobre el precio que pagarías si les hacías compañía demasiado tiempo.</i></p><p><i>Fueron los muertos quienes te llevaron a Arkham. Te ganas la vida a duras penas tocando la trompeta de tu padre. Los muertos arman más jaleo cuando tocas. A veces incluso alaban tu música. Anoche Jean te encontró tocando frente al Clover Club, casi como la primera vez que os visteis. Se notaba que algo iba mal: tenía la cara demacrada y parecía llevar días sin dormir. Jean te dice que tu padre quiere verte, y que tienes que ir adonde la frontera entre este mundo y el otro sea delgada. Le dices que conoces el sitio ideal. La Colina del Ahorcado está plagada de espíritus. Quizá, si les haces unos cuantos favores, te devuelvan alguno.</i></p><p class='basic right'>Continúa en la <b>Preparación</b>.</p>"
+  },
+  "buildSpiritDeck": {
+    "title": "Crea el mazo de Espíritus",
+    "instructions": "Elige {count} Apoyos <strong>Aliado</strong> distintos (de cualquier clase, niveles 0-2) para formar el mazo de Espíritus de Jim Culver.",
+    "counter": "{selected} / {count}",
+    "confirm": "Confirmar mazo de Espíritus",
+    "search": "Buscar Apoyos Aliado…",
+    "allClasses": "Todas",
+    "noResults": "Ningún Apoyo Aliado coincide con los filtros.",
+    "selectedHeading": "Mazo de Espíritus"
+  },
+  "setup": {
+    "spiritDeck": "Sea cual sea la versión de Jim Culver que se use en este escenario, crea el mazo de Espíritus siguiendo los requisitos de creación de mazos de la versión paralela de la carta de Investigador de Jim Culver. Pon en juego en la zona de juego de Jim Culver el Apoyo distintivo El Más Allá junto con el mazo de Espíritus.",
+    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de Encuentros: *Reposo eterno*, *La paga del pecado*, *Aquelarre de Anette*, *Ciudad de pecados*, *Destino inexorable*, *El reino de la muerte*, *Espíritus atrapados* y *Brujería*. Todos estos conjuntos, salvo Reposo eterno, se encuentran en la expansión de campaña El círculo roto. Se identifican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/laid-to-rest.png'/><img src='{setImgPath}/the-wages-of-sin.png'/><img src='{setImgPath}/anettes-coven.png'/><img src='{setImgPath}/city-of-sins.png'/><img src='{setImgPath}/inexorable-fate.png'/><img src='{setImgPath}/realm-of-death.png'/><img src='{setImgPath}/trapped-spirits.png'/><img src='{setImgPath}/witchcraft.png'/></section>",
+    "removeCards": "Retira de la partida la carta de referencia de escenario, los actos, los planes y los Apoyos de historia Red espectral originales del conjunto de Encuentros *La paga del pecado*. Al preparar la partida, usa la nueva carta de referencia de escenario y los nuevos actos y planes del conjunto de Encuentros descargable *Reposo eterno*.",
+    "placeLocations": "Elige al azar uno de los dos Lugares El patíbulo, uno de los dos Lugares Tumbas de herejes y uno de los dos Lugares Cripta de la capilla y ponlos en juego, junto con el Ático de la capilla (<span class='set-icon-font'>C</span>176a). Retira de la partida las otras versiones de El patíbulo, Tumbas de herejes, Cripta de la capilla y Ático de la capilla (<span class='set-icon-font'>C</span>175a). Después pon en juego Campos encantados, Capilla abandonada y Arroyo del Ahorcado.",
+    "nonSpectral": "Pon en juego cada Lugar por su lado que no es _Espectral_. *Nota: dar la vuelta a un Lugar de un lado a otro durante este escenario no «revela» el nuevo Lugar.*",
+    "clues": "Coloca pistas en cada Lugar que no tenga hasta que todos los Lugares tengan al menos 1{'{'}perPlayer{'}'} pistas.",
+    "startAt": "Cada investigador comienza la partida en el Arroyo del Ahorcado.",
+    "heretics": "Retira de la partida dos de los Enemigos Hereje al azar. Baraja con el mazo de Espíritus cada Enemigo Hereje restante, con el lado de Enemigo boca arriba.",
+    "jeanDevereux": "Haz aparecer en el Arroyo del Ahorcado al Enemigo de doble cara Jean Devereux, con el lado (En busca de paz) boca arriba.",
+    "ravenousSpirits": "Coloca un Enemigo Espíritu voraz boca abajo debajo de los siguientes Lugares: El patíbulo, Tumbas de herejes, Ático de la capilla y Cripta de la capilla.",
+    "encounterDecks": "Este escenario utiliza dos mazos de Encuentros separados.",
+    "spectralDeck": "Separa todas las cartas restantes que tengan el Atributo _Espectral_ y barájalas juntas para crear el mazo de Encuentros espectral.",
+    "standardDeck": "Baraja juntas todas las cartas restantes que no tengan el Atributo _Espectral_ para crear el mazo de Encuentros estándar."
+  },
+  "resolutions": {
+    "noResolution": {
+      "title": "Sin resolución",
+      "body": "<p class='basic'>_Si no se ha llegado a ninguna resolución (todos los investigadores han desistido o han sido derrotados)_: continúa en la _Resolución 2_.</p>"
+    },
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<p>_Resolución 1_: formas fantasmagóricas cobran cuerpo y se retiran en la niebla que te rodea. Cuando tomas las manos de Jean, el médium cae redondo, sin sentido. En la oscuridad vislumbras el rostro de tu padre: las arrugas de la risa, sus ojos bondadosos, su sonrisa. Tu padre está por fin contigo.</p><p>Una brusca bocanada de aire rompe el momento cuando Jean despierta. Antes de que puedas reaccionar, el rostro de tu padre se desvanece en un parpadeo y te deja a solas. Pese al nudo que tienes en el estómago, sientes alivio al saber que tu padre ha estado aquí, aunque haya sido un instante, y que te ha visto. Mientras ayudas a Jean a ponerse en pie, oyes la voz de tu padre susurrándote ánimos por encima del alboroto de fantasmas que riñen en tus oídos. Ojalá nunca se calle.</p><ul><li>Jim Culver obtiene {jimXp} puntos de experiencia, el total de los valores de Victoria X de los Enemigos de la zona de victoria.</li><li>Los demás investigadores obtienen {xp} puntos de experiencia, el total de los valores de Victoria X de los Lugares de la zona de victoria.</li><li>Jim Culver puede mejorar La trompeta de Jim a su versión avanzada, o bien devolver la versión avanzada de Rapsodia final a su versión original.</li></ul>"
+    },
+    "resolution2": {
+      "title": "Resolución 2",
+      "body": "<p>_Resolución 2_: Jean maldice mientras os alejáis a trompicones de la Colina del Ahorcado, cabizbajos. «Lo siento», dice. «Los muertos hablan, pero no siempre escuchan». Un lamento mordaz de labios inhumanos barre la extensión y subraya las palabras del médium.</p><ul><li>Jim Culver obtiene {jimXp} puntos de experiencia, el total de los valores de Victoria X de los Enemigos de la zona de victoria.</li><li>Los demás investigadores obtienen {xp} puntos de experiencia, el total de los valores de Victoria X de los Lugares de la zona de victoria.</li><li>Jim Culver debe mejorar Rapsodia final a su versión avanzada, o bien devolver la versión avanzada de La trompeta de Jim a su versión original.</li></ul>"
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "tokens": {
+    "easyStandard": {
+      "skull": "-X. X es la fuerza del Abismo.",
+      "cultist": "Revela otra ficha. Si fracasas y la fuerza del Abismo es 3 o menos, añade 1 punto de fuerza al Abismo.",
+      "tablet": "-1. Ignora todas las bonificaciones a tu valor de habilidad para esta prueba de habilidad.",
+      "elderThing": "-4. Si tienes éxito y la fuerza del Abismo es 4 o más, retira 1 punto de fuerza del Abismo."
+    },
+    "hardExpert": {
+      "skull": "-X. X es la fuerza del Abismo más 1.",
+      "cultist": "Revela otra ficha. Si fracasas y la fuerza del Abismo es 5 o menos, añade 1 punto de fuerza al Abismo.",
+      "tablet": "-3. Ignora todas las bonificaciones a tu valor de habilidad para esta prueba de habilidad.",
+      "elderThing": "-5. Si tienes éxito y la fuerza del Abismo es 4 o más, retira 1 punto de fuerza del Abismo."
+    }
+  },
+  "remembered": {
+    "freedTheNightgaunts": "Has liberado a los ángeles descarnados",
+    "executedTheNightgaunts": "Has ejecutado a los ángeles descarnados",
+    "warnedTheDenizensOfSarkomand": "Has avisado a los ciudadanos de Sarkomand",
+    "cutOffAllEscape": "Has cortado toda posibilidad de fuga",
+    "pledForHelp": "Has suplicado ayuda",
+    "affrontedTheRulerOfThisRealm": "Has agraviado al soberano de este reino"
+  },
+  "intro": {
+    "title": "El usurpador de la noche",
+    "body": "<p>Winlock se atusa el bigote un momento mientras sopesa vuestras palabras. Como líder de la expedición que ahora mismo rastrea Dashur, la decisión de permitiros o no uniros a ella le corresponde a él. «Mirad, he leído las pruebas que habéis reunido. Sé lo que ocurrió en El Cairo. Creo vuestra historia. Pero, aun así...». Suelta un suspiro de exasperación. «Es que no sé cómo voy a convencer al resto del equipo de la expedición. Los templos antiguos son una cosa, pero ¿un portal a otra dimensión? ¿Y ese tal “Xzharah”? Nada de esto puede ser real, ¿verdad?».</p><p>Vuestras investigaciones y vuestra experiencia dicen lo contrario. La amenaza es real. Hay una organización secreta que actúa en Egipto, la Hermandad de la Bestia, y si no se la detiene, su recién hallado «Elegido» iniciará una campaña de destrucción que acabará con la Tierra.</p><p>Insistís por última vez en que se os permita acceder a los recursos de la expedición. «Está bien, está bien», cede Winlock. «No sé qué es lo que buscáis ahí fuera, en el desierto, pero espero que lo encontréis». Negáis con la cabeza por toda respuesta. Preferiríais volver con las manos vacías.</p>"
+  },
+  "setup": {
+    "gatherSets": "Reúne los siguientes conjuntos de Encuentros: *El usurpador de la noche*, *Arenas de Egipto*, *La Hermandad de la bestia* y *Regalos abisales*. Estos conjuntos se identifican respectivamente con los siguientes iconos: <section class='encounter-sets'><img src='{setImgPath}/nights-usurper.png' /><img src='{setImgPath}/sands-of-egypt.png' /><img src='{setImgPath}/brotherhood-of-the-beast.png' /><img src='{setImgPath}/abyssal-gifts.png' /></section>",
+    "placeLocations": "Pon en juego el Campamento de expedición. Cada investigador comienza la partida en el Campamento de expedición.",
+    "setAside": "Pon aparte, fuera del juego, las siguientes cartas: Khopesh del Abismo, Ángel descarnado invocado, el Lugar de una sola cara Portal arcano, el Enemigo de doble cara Xzharah, cada uno de los 5 Lugares _Sobrenaturales_ de doble cara y las dos copias de Shantak temido. Xzharah y los Lugares _Sobrenaturales_ tienen cartas de Historia en el reverso. Para disfrutar de la mejor experiencia, no mires las cartas de Historia de sus reversos.",
+    "explorationDeck": "Crea el mazo de Exploración. Para ello, baraja juntos los 7 Lugares de una sola cara restantes y 1 copia de cada una de las siguientes cartas de Traición: Alcance abisal, El Viento Negro, Terror bajo las pirámides y Enjambre de langostas.",
+    "brotherhood": "Busca los 6 Enemigos _Hermandad_ de doble cara. Estos Enemigos tienen cartas de Historia en el reverso. Algunos de ellos se colocan debajo de la carta de referencia de escenario como se indica a continuación. Los demás se retiran de la partida.",
+    "brotherhoodCampaign": "Si juegas en modo de campaña, coloca debajo de la carta de referencia de escenario cada uno de los Enemigos anotados junto a «Agentes de la Hermandad que escaparon» en tu registro de campaña.",
+    "brotherhoodStandalone": "Si juegas en modo independiente, baraja juntos estos 6 Enemigos y coloca 3 de ellos debajo de la carta de referencia de escenario sin mirarlos.",
+    "strengthOfTheAbyss": "Coloca fichas de Recurso en la carta de referencia de escenario (bajo «Fuerza del Abismo») como se indica a continuación.",
+    "strengthCampaign": "Si juegas en modo de campaña, coloca tantos recursos como indique el número entre paréntesis que aparece junto a «Soñadores en el Abismo» en tu registro de campaña.",
+    "strengthStandalone": "Si juegas en modo independiente, coloca 1 recurso por cada investigador que haya en la partida."
+  },
+  "resolutions": {
+    "noResolution": {
+      "title": "Sin resolución",
+      "body": "<p>_Si no se ha llegado a ninguna resolución (todos los investigadores han desistido o han sido derrotados)_: ve a la _Resolución 1_.</p>"
+    },
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<p>_Resolución 1_: «No es más que un arco. ¿Por qué está tan alterado, jefe?». Winlock se cruzó de brazos. Había algo en todo aquello que no encajaba. Estaba seguro de que ese era el sitio que buscaba la gente de Arkham, un arco con delicados motivos que no conducía a ninguna parte, y aun así Winlock tenía la certeza de que había algo al otro lado. «No es egipcio», observó, mirándolo con los ojos entornados. «Ni siquiera parece... humano».</p><p>«¿Se ha creído a esos chiflados? ¡Mire, jefe, no es nada!», se rio uno de sus hombres.</p><p>«¿Ah, no?», le espetó Winlock con los ojos muy abiertos. «¿Ah, no?».</p><ul><li>En tu registro de campaña, anota que *el día del ajuste de cuentas se acerca*.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.</li></ul>"
+    },
+    "resolution2": {
+      "title": "Resolución 2",
+      "body": "<p>_Resolución 2_: la esencia abandona el cuerpo de Xzharah. Remolinos de niebla lo envuelven y lo obligan a caer de rodillas. Las criaturas del Abismo aparecen en silencio a vuestro lado y rodean a Xzharah con un odio callado e inexpresivo. La espada de Xzharah lo traiciona y se le escurre de la mano; la hoja se resquebraja al golpear el suelo con estrépito. «...La profecía debe cumplirse...». Es el último de sus viles susurros. Su forma física se desvanece en la niebla etérea del reino, y todo es silencio en el Gran Abismo.</p><ul><li>En tu registro de campaña, anota que *el Abismo fue salvado*. Tacha todas las anotaciones *«(nombre de la carta) fue atrapado/a por el Abismo»* de tu registro de campaña.</li><li>Un investigador cualquiera puede decidir añadir Ángel descarnado invocado a su mazo. Esta carta no cuenta para el tamaño de mazo de ese investigador.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.</li></ul>"
+    },
+    "resolution3": {
+      "title": "Resolución 3",
+      "body": "<p>_Resolución 3_: Xzharah os posa una mano helada en el hombro mientras os arrodilláis ante él. «Habéis demostrado vuestra lealtad», decreta. Las criaturas del Abismo os rodean con la cabeza inclinada en señal de reverencia hacia su nuevo señor. No queda nadie que pueda oponerse a él. «Pocos de vuestra especie tienen el ingenio o la voluntad de ver más allá del presente. De ver cumplida nuestra profecía. Pero merecéis que se os abran los ojos. Lo merecéis mucho más que los necios en quienes confié en el pasado». Os invita a levantaros y pone en vuestras manos la empuñadura de su espada empapada en sangre. «Alzaos ahora al servicio de la Bestia y ocupad vuestro lugar entre nosotros».</p><ul><li>En tu registro de campaña, anota que *uniste fuerzas con Xzharah*.</li><li>Un investigador cualquiera puede decidir añadir el Khopesh del Abismo a su mazo. No cuenta para el tamaño de mazo de ese investigador.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.</li></ul>"
+    }
+  },
+  "specialRules": [
+    {
+      "title": "@:standalone.guardiansOfTheAbyss.rules.storyCards.title",
+      "body": "@:standalone.guardiansOfTheAbyss.rules.storyCards.body"
+    },
+    {
+      "title": "@:standalone.guardiansOfTheAbyss.rules.strengthOfTheAbyss.title",
+      "body": "@:standalone.guardiansOfTheAbyss.rules.strengthOfTheAbyss.body"
+    },
+    {
+      "title": "@:standalone.guardiansOfTheAbyss.rules.takenByTheAbyss.title",
+      "body": "@:standalone.guardiansOfTheAbyss.rules.takenByTheAbyss.body"
+    },
+    {
+      "title": "Explorar",
+      "body": "<p class='basic'>Algunas capacidades de *Guardianes del Abismo* se identifican con el tipo de acción _Explorar_. Estas capacidades suelen usarse para encontrar nuevos Lugares que poner en juego, y se inician mediante la acción «activar».</p><p class='basic'>Las capacidades _Explorar_ te indican que robes la primera carta del «mazo de Exploración», que es un mazo aparte que se crea durante este escenario. Este mazo se compone de varios Lugares de una sola cara y de cartas de Traición.</p><ul><li>Cada capacidad _Explorar_ indica un tipo concreto de Lugar que intentas robar. _Si se roba un Lugar de ese tipo, se pone en juego y te mueves a él._ Se considera una exploración «con éxito».</li><li>Si se roba cualquier otro Lugar, colócalo junto al mazo de Exploración y roba la siguiente carta de ese mazo. Repite el proceso hasta que se robe un Lugar del tipo indicado o una Traición. Una vez terminada la acción, baraja de nuevo en el mazo de Exploración todos los Lugares que haya junto a él.</li><li>Si se roba una carta de Traición, se resuelve de la forma normal. Si se descarta, colócala en la pila de descarte de Encuentros como harías normalmente. El mazo de Exploración no tiene pila de descarte. Se considera una exploración «sin éxito».</li><li>Cuando un Lugar de una sola cara entre en juego desde el mazo de Exploración, coloca en él tantas pistas como indique su valor de pistas.</li></ul>"
+    }
+  ]
+}

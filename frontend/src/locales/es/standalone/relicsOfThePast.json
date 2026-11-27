@@ -1,0 +1,101 @@
+{
+  "specialRules": [
+    {
+      "title": "Escenario de desafío",
+      "body": "<p class='basic'>Los escenarios de desafío son escenarios especiales para imprimir y jugar que usan productos ya existentes de la colección de Arkham Horror: El juego de cartas, junto con cartas adicionales para imprimir, a fin de crear contenido nuevo. Estos escenarios se diseñan partiendo de ciertos requisitos para ofrecer una experiencia exigente, similar a un rompecabezas.</p><p class='basic'><i>Reliquias del pasado</i> gira en torno a Monterey Jack y, por tanto, tiene el siguiente requisito: se debe elegir a Monterey Jack como parte del grupo de investigadores al jugar este escenario.</p>"
+    },
+    {
+      "title": "Explorar",
+      "body": "<p class='basic'>Algunas capacidades de este escenario se identifican con el tipo de acción <b>Explorar</b>. Estas capacidades suelen usarse para encontrar nuevos Lugares que poner en juego, y se inician mediante la acción «activar».</p><ul><li>Al resolver las capacidades <b>Explorar</b> de este escenario de desafío, sigue todas las reglas que se describen en la página 3 de la guía de campaña de <i>La era olvidada</i>, con las siguientes excepciones:</li><li>Si se roba un Enemigo del mazo de Exploración, se resuelve de la forma normal. Si se descarta, colócalo en la pila de descarte de Encuentros como harías normalmente. Se considera una exploración «sin éxito».</li><li>Si se roba un Apoyo de historia del mazo de Exploración, resuelve su efecto de Revelación. Se considera una exploración «con éxito».</li></ul>"
+    },
+    {
+      "title": "Suministros",
+      "body": "<p class='basic'><i>Reliquias del pasado</i> usa una lista de suministros propia de este escenario. Los suministros no tienen ningún efecto por sí mismos, pero las capacidades de las cartas pueden referirse a ellos. Cada investigador puede elegir uno de los suministros de la siguiente lista para llevarlo a la expedición (si solo hay un investigador, puede elegir dos).</p><ul><li><b>Tiza:</b> para escribir en superficies de piedra.</li><li><b>Brújula:</b> puede ayudar a no perder la orientación.</li><li><b>Diario:</b> para dejar constancia de lo que ocurra en la expedición.</li><li><b>Zurrón:</b> un lugar seguro donde guardar lo que encuentres en la tumba.</li><li><b>Antorchas:</b> pueden iluminar zonas oscuras o encender los candelabros de pared.</li></ul><p class='basic'>Si juegas <i>Reliquias del pasado</i> como historia secundaria dentro de una campaña mayor, sus suministros no se conservan en los escenarios siguientes. Además, si juegas <i>Reliquias del pasado</i> como historia secundaria dentro de la campaña <i>La era olvidada</i>, los suministros que se estén usando en la campaña no están disponibles mientras juegas <i>Reliquias del pasado</i>.</p>"
+    }
+  ],
+  "tokens": {
+    "easyStandard": {
+      "skull": "-X. X es la cantidad de Lugares que tienen 1 o más fichas de Perdición.",
+      "cultist": "-1. Si estás Envenenado, revela otra ficha.",
+      "tablet": "-3. Si fracasas, coloca 1 ficha de Perdición en tu Lugar.",
+      "elderThing": "-3. Si fracasas, el Enemigo _Serpiente_ preparado y sin enfrentar más cercano se mueve una vez hacia tu Lugar."
+    },
+    "hardExpert": {
+      "skull": "-X. X es la cantidad de Lugares que tienen 1 o más fichas de Perdición más 1.",
+      "cultist": "-2. Si estás Envenenado, revela otra ficha.",
+      "tablet": "-4. Coloca 1 ficha de Perdición en tu Lugar.",
+      "elderThing": "-5. Después de que se resuelva esta prueba, el Enemigo _Serpiente_ preparado y sin enfrentar más cercano se mueve una vez hacia tu Lugar."
+    }
+  },
+  "intro": {
+    "title": "Escenario de desafío: Reliquias del pasado",
+    "body": "<p><i>Para entender mejor nuestro futuro, primero debemos entender nuestro pasado. Las noticias de la expedición fallida de la Universidad Miskatonic a las selvas de México no tardaron en llegar a tus oídos. Las historias de pirámides escalonadas, de míticos hombres serpiente y de artefactos de otro mundo en lugares que se creían deshabitados han despertado tu curiosidad. No tardaste en hacer las maletas y planear el viaje para investigarlo en persona. La expedición de la Universidad Miskatonic logró adentrarse en las ruinas, pero apenas consiguió avanzar. Se te acelera el corazón al pensar en qué otros tesoros olvidados aguardan por descubrir en el corazón de la tumba.</i></p>",
+    "supplies": {
+      "title": "Suministros",
+      "body": "<p><i>Reliquias del pasado</i> usa una lista de suministros propia de este escenario. Los suministros no tienen ningún efecto por sí mismos, pero las capacidades de las cartas pueden referirse a ellos. Cada investigador puede elegir uno de los suministros de la siguiente lista para llevarlo a la expedición (si solo hay un investigador, puede elegir dos).</p>"
+    }
+  },
+  "label": {
+    "supplies": {
+      "question": "Elige un suministro para llevar a la expedición",
+      "chalk": "Tiza: para escribir en superficies de piedra.",
+      "compass": "Brújula: puede ayudar a no perder la orientación.",
+      "journal": "Diario: para dejar constancia de lo que ocurra en la expedición.",
+      "satchel": "Zurrón: un lugar seguro donde guardar lo que encuentres en la tumba.",
+      "torches": "Antorchas: pueden iluminar zonas oscuras o encender los candelabros de pared."
+    },
+    "placeDoomOnYourLocation": "Colocar 1 ficha de Perdición en tu Lugar",
+    "nearestEnemyAttacksYou": "El Enemigo más cercano te ataca",
+    "vengeantPast": {
+      "question": "{name}: elige una opción",
+      "dealDamage": "Infligir 1 punto de daño a quien controla ese Apoyo",
+      "dealHorror": "Infligir 1 punto de horror a quien controla ese Apoyo",
+      "shuffleAsset": "Barajar ese Apoyo con el mazo de Exploración"
+    },
+    "innerChamber": {
+      "doNotDrawAnother": "No robar una carta adicional"
+    },
+    "ancientHall": {
+      "question": "Cualquier investigador en la Sala antigua puede gastar 3 recursos para cancelar este efecto",
+      "doNotCancel": "Barajar la primera carta del mazo de Encuentros con el mazo de Exploración"
+    },
+    "swap": {
+      "question": "Monterey Jack puede mejorar Látigo fiable a su versión avanzada, o bien devolver la versión avanzada de Secretos enterrados a su versión original",
+      "questionMust": "Monterey Jack debe mejorar Secretos enterrados a su versión avanzada, o bien devolver la versión avanzada de Látigo fiable a su versión original",
+      "upgradeTrustyBullwhip": "Mejorar Látigo fiable a su versión avanzada",
+      "downgradeBuriedSecrets": "Devolver Secretos enterrados a su versión original",
+      "upgradeBuriedSecrets": "Mejorar Secretos enterrados a su versión avanzada",
+      "downgradeTrustyBullwhip": "Devolver Látigo fiable a su versión original",
+      "doNotSwap": "No hacer el cambio"
+    }
+  },
+  "supplies": {
+    "question": "Elige un suministro para llevar a la expedición",
+    "chalk": "Tiza: para escribir en superficies de piedra.",
+    "compass": "Brújula: puede ayudar a no perder la orientación.",
+    "journal": "Diario: para dejar constancia de lo que ocurra en la expedición.",
+    "satchel": "Zurrón: un lugar seguro donde guardar lo que encuentres en la tumba.",
+    "torches": "Antorchas: pueden iluminar zonas oscuras o encender los candelabros de pared."
+  },
+  "setup": {
+    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de Encuentros: *Reliquias del pasado*, *La perdición de Eztli*, *Agentes de Yig*, *Trampas letales*, *Ruinas olvidadas*, *Veneno*, *Serpientes*, *Ponzoña de Yig*, *Frío helador*, *Puertas cerradas* y *Las máscaras de medianoche*. Se identifican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/rop.png' /><img src='{setImgPath}/the-doom-of-eztli.png' /><img src='{setImgPath}/agents-of-yig.png' /><img src='{setImgPath}/deadly-traps.png' /><img src='{setImgPath}/forgotten-ruins.png' /><img src='{setImgPath}/poison.png' /><img src='{setImgPath}/serpents.png' /><img src='{setImgPath}/yigs-venom.png' /><img src='{setImgPath}/chilling-cold.png' /><img src='{setImgPath}/locked-doors.png' /><img src='{setImgPath}/midnight-masks.png' /></section>Al reunir el conjunto de Encuentros *Las máscaras de medianoche*, coge solo las 5 cartas de Traición (2x Pista falsa y 3x Sombra acechante). No cojas los Lugares, el Acto, el Plan ni la carta de referencia de escenario de ese conjunto.",
+    "removeCards": "Retira de la partida la carta de referencia de escenario, los actos y los planes originales del conjunto de Encuentros *La perdición de Eztli*. Usa la nueva carta de referencia de escenario y los nuevos actos y planes del conjunto de Encuentros *Reliquias del pasado*. Además, retira de la partida las siguientes cartas del conjunto de Encuentros *La perdición de Eztli*: el Apoyo Reliquia de las eras, el Enemigo Heraldo de Valusia y los Lugares Pasadizo secreto, Sala antigua y Cámara del tiempo.",
+    "explorationDeck": "Crea el mazo de Exploración. Para ello, baraja los cinco Lugares de una sola cara junto con cada una de las siguientes cartas: una copia de cada una de las Traiciones Oscuridad profunda y Último error, y tres copias de Víbora de foso. Si juegas en dificultad Difícil o Experto, baraja también una copia de Puerta cerrada con llave y una copia de Sepultado.",
+    "setAside": "Pon aparte, fuera del juego, las siguientes cartas: la Traición Pasado vengativo, el Lugar Cámara interior, los tres Enemigos Progenie de Yig y cada uno de los cuatro Apoyos de historia _*Antiguo*_.",
+    "placeEntryway": "Pon en juego la Entrada. Cada investigador comienza la partida en la Entrada.",
+    "poisoned": "Pon aparte cada Debilidad Envenenado que no esté ya en el mazo de un investigador."
+  },
+  "resolutions": {
+    "xp": {
+      "journal": "El investigador que tenía el diario desistió"
+    },
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<p>_Resolución 1_: con un restallido del látigo cruzas balanceándote el último hueco y, tras rodar deprisa, pasas por debajo de la puerta de piedra antes de que se cierre a tu espalda. Te pones en pie, contemplas la selva que se extiende ante ti y vuelves a respirar el aire húmedo. Al revisar el equipo por última vez, ves que un polizón escamoso y serpentino se ha colado en tu bolsa. Lo agarras por detrás de la cabeza, lo lanzas con suavidad a la hierba y observas cómo se aleja reptando con un siseo.</p><p>Tendrás que conformarte con lo que has averiguado, y con lo que has encontrado, en las ruinas de Eztli. Es hora de dejar atrás la selva.</p><ul><li>Monterey Jack obtiene una cantidad de experiencia igual al total de los valores de Victoria X de los Apoyos de historia _Antiguo_ de la zona de victoria.<ul><li>_Experiencia_: {montereyXp}</li></ul></li><li>Los demás investigadores obtienen una cantidad de experiencia igual al total de los valores de Victoria X de los Enemigos y Lugares de la zona de victoria.<ul><li>_Experiencia_: {xp}</li></ul></li><li>Comprueba los suministros de cada investigador que haya desistido. Si el investigador que tenía el diario desistió, cada investigador obtiene 1 punto de experiencia adicional.</li><li>Monterey Jack puede mejorar Látigo fiable a su versión avanzada, o bien devolver la versión avanzada de Secretos enterrados a su versión original.</li></ul>"
+    },
+    "resolution2": {
+      "title": "Resolución 2",
+      "body": "<p>_Resolución 2_: corres por el pasillo en ruinas mientras los siseos de las monstruosidades ofidias que te persiguen resuenan en la piedra a tu espalda. El camino te lleva hasta un foso profundo, y te ves ante una disyuntiva: intentar cruzar el hueco o darte la vuelta para encarar a tus perseguidores. Te llevas la mano al cinto, sacas el látigo y decides usarlo para salvar el abismo. Lo lanzas contra una raíz que asoma cerca del techo y comienzas a balancearte.</p><p>Con un chasquido que encoge el alma, la raíz se parte bajo tu peso y caes al abismo. Rebotas contra rocas afiladas mientras te precipitas y aterrizas al fin en un arroyo poco profundo que corre por el fondo. Escupes sangre y, al alzar la vista, ves los ojos de los hombres serpiente que te observan desde muy arriba antes de volver por donde han venido.</p><p>Te levantas a duras penas y te fijas en el arroyo que tienes a los pies. Avanzas dando traspiés, siguiendo su curso, con la esperanza de que acabe llevándote al exterior.</p><ul><li>Cada investigador obtiene una cantidad de experiencia igual al total de los valores de Victoria X de las cartas de la zona de victoria.<ul><li>_Experiencia_: {xp}</li></ul></li><li>Monterey Jack debe mejorar Secretos enterrados a su versión avanzada, o bien devolver la versión avanzada de Látigo fiable a su versión original.</li></ul>"
+    }
+  }
+}

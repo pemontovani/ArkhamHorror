@@ -1,0 +1,77 @@
+{
+  "specialRules": [
+    {
+      "title": "En busca de papá",
+      "body": "<p class='basic'>En este escenario, Wendy registra Innsmouth en busca de cualquier rastro de su padre. El mazo de Indicios contiene los 6 Enemigos _Sospechoso_ y los 6 Lugares _Escondite_. A medida que las cartas _Sospechoso_ y _Escondite_ abandonen el juego, Wendy debe robar nuevos indicios del mazo de Indicios. El objetivo es vaciar el mazo de Indicios antes de que se llegue al plan 2b. Cuantas menos cartas queden en el mazo de Indicios, mejor.</p>"
+    },
+    {
+      "title": "Foto misteriosa",
+      "body": "<p class='basic'>Las cartas _Sospechoso_ y _Escondite_ no se pueden añadir a la zona de victoria salvo mediante el Apoyo de historia de doble cara Foto misteriosa que controla Wendy. Su cara frontal permite a Wendy negociar con Enemigos _Sospechoso_ y añadir a la zona de victoria los _Sospechosos_ sin pistas de su Lugar gastando pistas como grupo. Su reverso hace lo mismo con los Lugares _Escondite_ mediante la investigación. Cada carta que se añada así a la zona de victoria mejora la experiencia que se obtiene al final del escenario.</p>"
+    }
+  ],
+  "tokens": {
+    "easyStandard": {
+      "skull": "-X. X es la mitad de la cantidad de cartas _Sospechoso_ y _Escondite_ en la zona de victoria (redondeando hacia arriba).",
+      "cultist": "-2 (-4 en su lugar si estás negociando con un Enemigo _Sospechoso_ o investigando un Lugar _Escondite_).",
+      "tablet": "-3. Si tienes éxito, mira la primera carta del mazo de Indicios. Puedes decidir barajar el mazo de Indicios.",
+      "elderThing": "-1. Si fracasas, baraja la primera carta del mazo de Encuentros con el mazo de Indicios."
+    },
+    "hardExpert": {
+      "skull": "-X. X es la cantidad de cartas _Sospechoso_ y _Escondite_ en la zona de victoria.",
+      "cultist": "-3 (-5 en su lugar si estás negociando con un Enemigo _Sospechoso_ o investigando un Lugar _Escondite_).",
+      "tablet": "-4. Si tienes éxito, mira la primera carta del mazo de Indicios. Puedes decidir barajar el mazo de Indicios.",
+      "elderThing": "-2. Si fracasas, baraja la primera carta del mazo de Encuentros con el mazo de Indicios."
+    }
+  },
+  "intro": {
+    "title": "Escenario de desafío: Sube la Marea Roja",
+    "body": "<p>A la gente le dan igual quienes se quedan atrás. Eso fue lo primero que aprendiste en la calle, después de marcharte del orfanato. Has tenido que valerte por ti misma y hacer lo que sea para ir tirando. Hasta ahora, sin más que tu ingenio y el amuleto que mamá te dejó antes de que se la llevaran, has conseguido sobrevivir. De vez en cuando, alguien se compadece y echa una moneda o dos en tu taza. Una mañana gloriosa, una señora muy amable que salía del restaurante de Velma te dio las salchichas y los huevos que le habían sobrado. Pero la mayor parte del tiempo solo has podido contar contigo. Puede que los demás críos de la calle estén en la misma situación que tú, pero dudarías en llamar amigo a cualquiera de ellos, salvo quizá a James, y aun eso es mucho decir. No: el hambre, la soledad, el aburrimiento y la duda son tus mejores y únicas compañías. Y, pese a todo, de algún modo sigue siendo mejor que el orfanato.</p><p>Entonces llegó el día fatídico. Empezó como cualquier otro, con James y tú recorriendo el Barrio Fluvial para «recoger» cualquier cosa que pudierais venderle a Oliver Thomas. El resto acabaría sin duda en manos de la banda de Marvin, un puñado de chavales de la calle que se habían juntado para abusar de los demás. Pero hay una baratija entre tus ganancias que te llama la atención: una fotografía. Y no una cualquiera, sino una de tu padre.</p><p>Es inconfundible. No te cabe la menor duda. En la foto, tu padre está delante de un edificio que no reconoces. El letrero que tiene detrás parece estar en otro idioma, así que probablemente sea algún lugar muy, muy lejano. No hay forma de saber cuándo se tomó la foto. Está gastada, sucia y mellada por varios sitios. Le das la vuelta y ahí, garabateado con una letra familiar, lees: «Pronto sube la Marea Roja. Cuídate, mi niña».</p><p>Le suplicas a James que te diga de dónde ha salido la foto, y asegura que un hombre con un largo abrigo de lana y un bombín marrón oscuro la dejó caer en tu taza poco antes de que os toparais con la banda de Marvin. Sales de inmediato y vas preguntando para dar con el hombre del bombín. Tu única pista es que se subió a un autobús cerca del Barrio Este. El autobús destartalado y sin rótulos que va al pueblo portuario de Innsmouth. Rebañas todas las monedas que puedes y subes al único autobús que va al viejo puerto dejado de la mano de Dios. Si papá sigue por ahí, tienes que encontrarlo. ¡Tienes que hacerlo!</p><p class='basic right'>Continúa en la _Preparación_.</p>"
+  },
+  "setup": {
+    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de Encuentros: *Sube la Marea Roja*, *La desaparición de Elina Harper*, *Agentes de Dagón*, *Niebla sobre Innsmouth*, *Los lugareños*, *Frío helador*, *Puertas cerradas*, *Ángeles descarnados* y *Las máscaras de medianoche*.<section class='encounter-sets'><img src='{setImgPath}/red-tide-rising.png' /><img src='{setImgPath}/disappearance-of-elina-harper.png' /><img src='{setImgPath}/agents-of-dagon.png' /><img src='{setImgPath}/fog-over-innsmouth.png' /><img src='{setImgPath}/locals.png' /><img src='{setImgPath}/chilling-cold.png' /><img src='{setImgPath}/locked-doors.png' /><img src='{setImgPath}/nightgaunts.png' /><img src='{setImgPath}/midnight-masks.png' /></section>",
+    "midnightMasks": "Al reunir el conjunto de Encuentros *Las máscaras de medianoche*, coge solo las cinco cartas de Traición (2x Pista falsa y 3x Sombra acechante). No cojas ninguna otra carta de ese conjunto.",
+    "scenarioReference": "Retira de la partida la carta de referencia de escenario del conjunto de Encuentros *La desaparición de Elina Harper*. Usa la nueva carta de referencia de escenario del conjunto de Encuentros *Sube la Marea Roja*.",
+    "actAgendaDeck": "Retira de la partida todos los actos y planes del conjunto de Encuentros *La desaparición de Elina Harper*. Crea los mazos de Acto y de Plan usando solo las nuevas cartas de Acto y de Plan del conjunto de Encuentros *Sube la Marea Roja*.",
+    "placeLocations": "Pon en juego los siguientes Lugares: Plaza de Innsmouth, Refinería Marsh, Puerto de Innsmouth, Puente de Fish Street, Tienda de comestibles First National, Gilman House y Librería Little.",
+    "leadsDeck": "Prepara el mazo de Indicios: busca los 6 Enemigos únicos que tengan el Atributo _Sospechoso_ y los 6 Lugares de una sola cara que tengan el Atributo _Escondite_, y baraja juntas estas 12 cartas para formar el mazo de Indicios. Colócalo cerca de la carta de referencia de escenario.",
+    "drawLead": "Roba la primera carta del mazo de Indicios y resuelve su capacidad de Revelación. Si es un Lugar, Wendy Adams comienza la partida en ese Lugar. Si es un Enemigo, Wendy Adams comienza la partida en el Lugar de ese Enemigo. Todos los demás investigadores comienzan la partida en la Plaza de Innsmouth.",
+    "setAsideMonsters": "Pon aparte, fuera del juego, cada uno de los siguientes Enemigos _Monstruo_: Ser alado y las dos copias de Ángel descarnado cazador.",
+    "setAsideAngryMob": "Pon aparte, fuera del juego, la Muchedumbre airada.",
+    "adjustments": "Según la cantidad de investigadores (considera que hay 1 investigador más si juegas en dificultad Difícil, y 2 más si juegas en Experto): con 2 investigadores, comienza con 1 ficha de Perdición en el plan 1; con 3 investigadores, comienza con 2 fichas de Perdición en el plan 1; con 4 investigadores, baraja con el mazo de Indicios 1 Enemigo _Monstruo_ puesto aparte al azar.",
+    "removeStoryAssets": "Retira de la partida los Apoyos de historia Thomas Dawson y Elina Harper.",
+    "mysteriousPhoto": "Pon en juego, bajo el control de Wendy Adams, el Apoyo de historia de doble cara Foto misteriosa. Wendy Adams puede elegir por qué lado entra en juego. La Foto misteriosa no puede abandonar el juego salvo que Wendy Adams sea eliminada.",
+    "shuffleRemainder": "Baraja las demás cartas de Encuentro para formar el mazo de Encuentros."
+  },
+  "label": {
+    "mysteriousPhotoSuspects": "La Foto misteriosa entra en juego con su lado _Sospechoso_ boca arriba",
+    "mysteriousPhotoHideouts": "La Foto misteriosa entra en juego con su lado _Escondite_ boca arriba",
+    "flipMysteriousPhoto": "Dar la vuelta a la Foto misteriosa",
+    "shuffleLeadsDeck": "Barajar el mazo de Indicios",
+    "doNotShuffleLeadsDeck": "No barajar el mazo de Indicios"
+  },
+  "resolutions": {
+    "noResolution": {
+      "title": "Sin resolución",
+      "body": "<p>Si no se ha llegado a ninguna resolución porque todos los investigadores han desistido: continúa en la _Resolución 1_.</p><p>Si no se ha llegado a ninguna resolución porque todos los investigadores han sido derrotados: continúa en la _Resolución 2_.</p>"
+    },
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<p>_Resolución 1:_ no encontraste a papá, pero sí diste con lo siguiente mejor: el hombre del bombín marrón. Te acercas con disimulo, esperando que no te haga caso, como suele hacer todo el mundo, para poder encararte con él. Lo sigues hasta un callejón oscuro y enseguida te das cuenta de que te está llevando a un sitio escondido de miradas indiscretas. «No creí que me fueras a seguir», dice una vez a solas.</p><p>Las preguntas te salen a borbotones. ¿Conoce a tu padre? ¿Dónde está? ¿Por qué la foto? ¿Qué es la Marea Roja? Pero él se limita a llevarse un dedo a los labios. «Chsss, niña. Vas a hacer que me maten». Suspira, se quita la gorra y se pasa los dedos temblorosos por el pelo grasiento. «Mira, lo único que puedo decirte es que... tu padre se juntó con mala gente. Con gente que da mucho miedo. Pero quiso salirse. Y la única forma de salirse...». Hace una mueca y niega con la cabeza. «Tienes que entenderlo. No puede volver a casa. Estarías en peligro. Y él también. Pero... aun así quería que supieras que te quiere. Así que...».</p><p>Te secas una lágrima que amenaza con rodarte por la mejilla. El hombre parece aterrado. O es un actor de primera o dice la verdad. Le haces una última pregunta, quién es esa mala gente con la que se juntó papá, pero en cuanto la formulas niega con la cabeza y retrocede. «¡Ya he dicho demasiado!», es lo último que dice antes de huir.</p><ul><li>Ignora el valor de Victoria X de las cartas _Sospechoso_ y _Escondite_ de la zona de victoria. En su lugar, Wendy Adams obtiene 1 punto de experiencia por cada carta de la zona de victoria a partir de la 4.ª, y los demás investigadores obtienen 1 punto de experiencia por cada carta de la zona de victoria a partir de la 6.ª.</li><li>Si Wendy Adams fue derrotada, debe mejorar Sola y abandonada a su versión avanzada, o bien devolver la versión avanzada del Amuleto de Wendy a su versión original.</li><li>Si Wendy Adams no fue derrotada, puede mejorar el Amuleto de Wendy a su versión avanzada, o bien devolver la versión avanzada de Sola y abandonada a su versión original.</li></ul>"
+    },
+    "resolution2": {
+      "title": "Resolución 2",
+      "body": "<p>_Resolución 2:_ esperas a que tus perseguidores doblen la esquina antes de volver con sigilo a la parada y subir al siguiente autobús a Arkham. Arrugas con rabia los bordes de la foto de papá. Una lágrima solitaria te resbala por la mejilla. Sigues sin tener ninguna pista de verdad. ¿Quién era el hombre del bombín y el abrigo de lana de aquella mañana? ¿En qué lío te has metido? Pero, al mirar la foto una vez más, una esperanza persiste en tu mente: papá está vivo. Tiene que estarlo.</p><ul><li>Ignora el valor de Victoria X de las cartas _Sospechoso_ y _Escondite_ de la zona de victoria. En su lugar, Wendy Adams obtiene 1 punto de experiencia por cada carta de la zona de victoria a partir de la 4.ª, y los demás investigadores obtienen 1 punto de experiencia por cada carta de la zona de victoria a partir de la 6.ª.</li><li>Wendy Adams debe mejorar Sola y abandonada a su versión avanzada, o bien devolver la versión avanzada del Amuleto de Wendy a su versión original.</li></ul>"
+    },
+    "xp": {
+      "wendy": "Zona de victoria (1 punto de experiencia por cada carta a partir de la 4.ª)",
+      "other": "Zona de victoria (1 punto de experiencia por cada carta a partir de la 6.ª)"
+    },
+    "label": {
+      "upgradeWendysAmulet": "Mejorar el Amuleto de Wendy a su versión avanzada",
+      "downgradeWendysAmulet": "Devolver la versión avanzada del Amuleto de Wendy a su versión original",
+      "upgradeAbandonedAndAlone": "Mejorar Sola y abandonada a su versión avanzada",
+      "downgradeAbandonedAndAlone": "Devolver la versión avanzada de Sola y abandonada a su versión original",
+      "doNotSwap": "No cambiar ninguna carta"
+    }
+  }
+}

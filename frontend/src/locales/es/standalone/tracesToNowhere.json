@@ -1,0 +1,204 @@
+{
+  "tokens": {
+    "easyStandard": {
+      "skull": "-2. Si fracasas y hay un Enemigo _Monstruo_ en tu Lugar, ese Enemigo te ataca.",
+      "cultist": "-1. Si hay un Enemigo _Sindicato_ en tu Lugar, revela otra ficha.",
+      "tablet": "-2 (-4 en su lugar si estás en un Lugar _Sobrenatural_).",
+      "elderThing": "-4. Si fracasas, inflige 1 punto de horror a un Apoyo _Testigo_ en juego."
+    },
+    "hardExpert": {
+      "skull": "-3. Después de que se resuelva esta prueba, si hay un Enemigo _Monstruo_ en tu Lugar, ese Enemigo te ataca.",
+      "cultist": "-2. Si hay un Enemigo _Sindicato_ en tu Lugar, revela otra ficha.",
+      "tablet": "-3 (-5 en su lugar si estás en un Lugar _Sobrenatural_).",
+      "elderThing": "-5. Si fracasas, elige un Apoyo _Aliado_ o _Testigo_. Algo secuestra ese Apoyo."
+    }
+  },
+  "remembered": {
+    "theInvestigatorsFoundRecordOfMatildesBribe": "Los investigadores hallaron constancia del soborno de Matilde",
+    "theInvestigatorsFoundSomethingStrangeInTheFuneralHomeBasement": "Los investigadores hallaron algo extraño en el sótano de la funeraria",
+    "theInvestigatorsGlimpsedAnotherWorld": "Los investigadores vislumbraron otro mundo",
+    "albrechtIsTheCulprit": "Albrecht es el culpable",
+    "linaOpenedTheDoor": "Lina abrió la puerta",
+    "eugeneIsNotWhatHeSeems": "Eugene no es lo que parece"
+  },
+  "intro": {
+    "title": "Rastros hacia la nada",
+    "body": "<p>Desde que llegó a Arkham, la familia Husserl ha estado en el centro de un escándalo tras otro, y no hay uno de sus miembros que no se empeñe en dar que hablar. Josephine Husserl, la matriarca, daba fiestas elegantes para quienes de verdad movían los hilos de la ciudad. Mientras ella entretenía a invitados de toda condición, su marido, Elias, celebraba reuniones secretas con jefes de la mafia, políticos locales e incluso miembros de la policía. Los Husserl tenían dinero para invertir, y veían en Arkham un sinfín de oportunidades.</p><p>Sin embargo, cada uno de los hijos de Elias y Josephine acabó enemistado con otras personas influyentes de Arkham. Ya fuera Albrecht dilapidando en el juego la fortuna familiar, Elias Jr. cerrando malos tratos, Lina sin lograr que sus cuadros despertaran el menor interés en la alta sociedad, o Adele esforzándose sin éxito por distanciarse de todos ellos, los rumores sobre los Husserl corrían por las calles.</p><p>No obstante, por sorprendente que parezca, el Arkham Advertiser solo comentaba los aspectos más positivos de su imagen pública, estirando hasta donde podía el más exiguo gesto humanitario para sacar una noticia.</p><p>Pero la polémica estalló cuando una tarde desapareció Elias Husserl padre. Iba de camino a una reunión privada en French Hill y no regresó. Frustrada por la falta de iniciativa de la policía, Josephine contrató a la detective privada Aziza Steer, que no tardó en indagar entre los muchos contactos de Elias. Tras un par de semanas con escasos avances, Aziza te pidió ayuda con la investigación.</p><p>Pero cuando llegaste, no había ni rastro de Aziza. Ahora, en su despacho vacío, te toca descubrir qué les ha ocurrido a Aziza y a Elias padre.</p>"
+  },
+  "setup": {
+    "gatherSets": "Reúne todas las cartas de los conjuntos de Encuentros _Rastros hacia la nada_ y _Demencia dimensional_. Estos conjuntos se identifican con los siguientes iconos:<section class='encounter-sets grid'><div><img src='{setImgPath}/traces-to-nowhere.png' /><span>Rastros hacia la nada</span></div><div><img src='{setImgPath}/dimensional-madness.png' /><span>Demencia dimensional</span></div></section>",
+    "placeLocations": "Pon en juego los siguientes Lugares: Despacho de Steer, Distrito comercial, French Hill, Iglesia del sur y Sociedad Histórica.",
+    "beginPlay": "Cada investigador comienza la partida en el Despacho de Steer.",
+    "spawnEnforcer": "Haz aparecer en el Distrito comercial 1 de los Enemigos Matón a sueldo.",
+    "abductAziza": "Busca el Apoyo de historia Aziza Steer (*Tiene cuentas que ajustar*) y colócalo boca abajo debajo de la carta de referencia de escenario. ¡Han secuestrado a Aziza Steer!",
+    "setOutOfPlay": "Pon aparte, fuera del juego, las siguientes cartas:",
+    "suspects": "Los 6 Apoyos de historia _Sospechoso_.",
+    "culprits": "El Enemigo Policías corruptos y los 3 Enemigos _Culpable_.",
+    "actAgenda": "El plan 4a «Al foso» y las 3 copias del acto 4a.",
+    "locations": "Los Lugares Arkham Advertiser, Estación de tren y Club Tictac, así como las dos copias del Lugar Funeraria Duterte y las dos copias del Lugar Finca Meiger.",
+    "witnesses": "Los 4 Apoyos de historia _Testigo_ (Adele Husserl, Josephine Husserl, Charles Tamm y Gladys Washington).",
+    "dimensionalMadness": "El conjunto de Encuentros _Demencia dimensional_.",
+    "leadsDeck": "Crea el mazo de Indicios barajando los 4 Apoyos de historia _Testigo_ puestos aparte junto con las 2 primeras cartas del mazo de Encuentros (las 3 primeras si hay 3 o 4 investigadores en la partida).",
+    "leadsDeckNote": "El mazo de Indicios es un mazo especial de cartas de escenario. Cuando se indique a un investigador que robe una carta del mazo de Indicios, la resuelve como si la hubiera robado del mazo de Encuentros.",
+    "leadsDeckPlacement": "Coloca el mazo de Indicios junto a la carta de referencia de escenario.",
+    "begin": "Ya puedes empezar.",
+    "note": "<p class='basic'>*Nota*: el Enemigo Raptor del conjunto de Encuentros _Demencia dimensional_ es una carta de doble cara. Para disfrutar de la mejor experiencia, no mires el reverso del Raptor hasta que se te indique expresamente.</p>"
+  },
+  "codex": {
+    "josephineHusserl": {
+      "title": "Códice A: Josephine Husserl",
+      "body": "<p>Josephine te clava una mirada acerada. Sus labios finos y su ceño fruncido dejan claro que no le entusiasma verte. Dedica una sonrisa forzada a quienes la rodean mientras te aparta con suavidad. «Quienquiera que esté detrás de esto», dice poco más alto que un susurro, «conoce a mi familia. Tiene que ser un socio cercano de Elias o uno de mis propios hijos». Cuando la miras con sorpresa, apenas encoge un hombro. «No lo quiera el cielo», añade con despreocupación.</p><p>Preguntas si hay alguien en particular a quien deberías investigar. «Mi hija, Lina», dice Josephine. «Últimamente va mucho a la iglesia. Seguramente se sienta culpable de algo». Da un sorbo a su copa. «Y Albrecht. Es incapaz de alejarse de las cartas, y se ha estado viendo con alguien que trabaja de reportera al menos una vez por semana».</p><p class='basic right'>Busca en la bolsa de caos una ficha {'{'}cultist{'}'} y séllala sobre la carta de referencia de escenario. Añade a Josephine Husserl a la zona de victoria.</p>"
+    },
+    "adeleHusserl": {
+      "title": "Códice B: Adele Husserl",
+      "body": "<p>Adele suspira exasperada ante tus preguntas. «Mira, pierdes el tiempo», dice. «He hecho mucho por sacar de mi vida la influencia de mi familia. Salvo unos cientos de dólares, que Albrecht se empeñó en que aceptara, todo lo que tengo me lo he ganado». Niega con la cabeza, impotente. «Dijo que me lo merecía por no salir en los periódicos».</p><p>Preguntas si ha tenido contacto con alguien más, y asiente. «Junior», dice. «Hablé con él en el restaurante de Velma hace un par de noches. Parecía inquieto por algo. Nervioso. Dijo que iba a marcharse de la ciudad y me preguntó si me iría con él. Le dije que no. Ahora que voy por mi cuenta, he hecho amistades aquí, en Arkham. Gente en la que puedo confiar de verdad. No quiero empezar de cero otra vez. Además, no me fío de su ayudante, el Sr. Peel».</p><p class='basic right'>Busca en la bolsa de caos una ficha {'{'}tablet{'}'} y séllala sobre la carta de referencia de escenario. Añade a Adele Husserl a la zona de victoria.</p>"
+    },
+    "gladysWashington": {
+      "title": "Códice C: Gladys Washington",
+      "body": "<p>«¿Vas a continuar el trabajo de Aziza?», te pregunta Gladys. «Me alegro. No todos los Husserl son malos».</p><p>Le preguntas a quién se refiere y, tras una pausa, dice: «Antes tenía una relación muy cercana con Lina. Es pintora. Y su arte es muy... peculiar. Ha hecho exposiciones en el Distrito comercial para intentar vender algunas obras. Pero no ha tenido mucho éxito, y noto que eso la corroe». Preguntas si hay alguien más. «¿Quizá convenga no perder de vista a Junior? Lina ha comentado que quiere irse de la ciudad. No soy detective, pero, con todo lo que ha pasado, me parece un momento sospechoso».</p><p>Das las gracias a Gladys por la información y haces ademán de irte, pero ella levanta una mano para detenerte. «El otro día pasó algo extraño. Llegué a trabajar por la mañana y la puerta principal estaba rota. Como si la hubieran forzado desde dentro». Se encoge de hombros. «Aquí no había nadie más que yo y los difuntos», dice. «Pero el sótano huele más raro de lo normal. ¿Te importaría echar un vistazo, si tienes ocasión?».</p><p class='basic right'>Busca en la bolsa de caos una ficha {'{'}skull{'}'} y séllala sobre la carta de referencia de escenario. Añade a Gladys Washington a la zona de victoria.</p>"
+    },
+    "charlesTamm": {
+      "title": "Códice D: Charles Tamm",
+      "first": {
+        "body": "<p class='basic'>Si es la primera vez que se activa este códice durante esta partida, continúa en _Charles Tamm 1_.</p><p class='basic'>De lo contrario, salta a _Charles Tamm 2_.</p><p>_Charles Tamm 1_: cuando regresas al despacho, un hombre de traje impecable está sentado con los pies encima del escritorio. Exiges saber quién es.</p><p>«Charles Tamm», dice. «La Sra. Husserl me paga para que no te quite el ojo de encima». Se encoge de hombros mientras mete la mano en el bolsillo, saca una barrita de chicle y la desenvuelve. Se la echa a la boca. «Claro que podrían convencerme de que esta noche me acueste temprano».</p><p class='basic right'>Continúa en _Charles Tamm 2_.</p>"
+      },
+      "second": {
+        "body": "<p class='basic'>Si es la primera vez que se activa este códice durante esta partida, continúa en _Charles Tamm 1_.</p><p class='basic'>De lo contrario, salta a _Charles Tamm 2_.</p><p>_Charles Tamm 2_: «¿Y bien? ¿Trato hecho?».</p><p class='basic right'>Cualquier investigador en el Lugar de Charles Tamm puede gastar 4 recursos para añadirlo a la zona de victoria. De lo contrario, cualquier investigador puede volver a activar este códice.</p>"
+      }
+    },
+    "albrechtHusserl": {
+      "title": "Códice E: Albrecht Husserl",
+      "body": "<p class='basic'>_Si los investigadores «hallaron constancia del soborno de Matilde», sigue leyendo. De lo contrario, Albrecht se niega a dar una respuesta clara. Cualquier investigador puede volver a activar este códice._</p><p>Encaras a Albrecht por todos los sobornos que ha estado pagando a la policía de Arkham, además de al Arkham Advertiser. Levanta las manos a la defensiva, con la desesperación en la mirada. «Nunca debió llegar tan lejos», dice. «Pero cuando tienes a media docena de mafiosos echándote el aliento en la nuca, por no hablar de tu propio padre, ¡tienes que hacer algo! Y ahora parece que también me va a tocar limpiar esto».</p><p>Mete la mano en el bolsillo del abrigo y saca un tarro de cristal sellado. Dentro flota una criatura semejante a una medusa, de un rosa fluorescente. Corres a detenerlo y le arrancas el tarro de la mano, que se hace añicos contra el suelo.</p><p class='basic'>Recuerda que «Albrecht es el culpable».</p><p class='basic right'>Salta al _Interludio: El culpable_.</p>"
+    },
+    "matildeCorrea": {
+      "title": "Códice F: Matilde Correa",
+      "body": "<p>Le lanzas a Matilde el sobre abultado. Lo atrapa con torpeza, pero ni siquiera necesita abrirlo para saber lo que contiene. «¡Necesitaba el dinero!», dice. «Y Albrecht pagaba. ¡No me vengas con que tú no habrías aceptado el trato!».</p><p>Le preguntas por la criatura sobre la que has leído, la medusa. «No sé qué es», dice. «Lo único que sé es que Albrecht se la compra a una gente misteriosa. La necesita para hacer desaparecer personas».</p><p>Le dices a Matilde que se busque trabajo en otra ciudad antes de salir a enfrentarte a Albrecht Husserl.</p><p class='basic right'>Añade a Matilde Correa a la zona de victoria.</p>"
+    },
+    "vicarYang": {
+      "title": "Códice G: Vicario Yang",
+      "first": {
+        "body": "<p class='basic'>Si es la primera vez que se activa este códice en esta partida, continúa en _Vicario Yang 1_.</p><p class='basic'>De lo contrario, salta a _Vicario Yang 2_.</p><p>_Vicario Yang 1_: el vicario te acoge con amabilidad cuando llegas, pero su actitud se torna en melancólico pesar cuando mencionas el motivo de tu visita. «Me he visto con Lina. A esa mujer la atormentan unas pesadillas terribles. Pero no puedo hablar de lo que me ha contado. Confía en que respete su intimidad».</p><p class='basic right'>Continúa en _Vicario Yang 2_.</p>"
+      },
+      "second": {
+        "body": "<p class='basic'>Si es la primera vez que se activa este códice en esta partida, continúa en _Vicario Yang 1_.</p><p class='basic'>De lo contrario, salta a _Vicario Yang 2_.</p><p>_Vicario Yang 2_: habrá que convencer al vicario.</p><p class='basic right'>Elige un investigador en el Lugar del Vicario Yang para que realice una prueba de {'{'}intellect{'}'} (3). Si tiene éxito, el vicario le sugiere visitar la antigua mansión de French Hill. Pon en juego el Lugar puesto aparte Finca Meiger (*Con nuevos propietarios*) y añade al Vicario Yang a la zona de victoria. De lo contrario, cualquier investigador puede volver a activar este códice.</p>"
+      }
+    },
+    "linaHusserl": {
+      "title": "Códice H: Lina Husserl",
+      "body": "<p class='basic'>_Si los investigadores «vislumbraron otro mundo», sigue leyendo. De lo contrario, Lina se niega a dar una respuesta clara. Cualquier investigador puede volver a activar este códice._</p><p>Con el hartazgo de que Lina te dé largas, le revelas por fin lo que presenciaste en la Finca Meiger. Sus ojos castaños se clavan en los tuyos con intensidad. «¿Estaba abierta?», pregunta con un deje de desesperación en la voz. «La puerta de mis sueños. ¡¿Estaba abierta?!».</p><p>Antes de que puedas protestar, pasa corriendo a tu lado. La sigues. Mientras cruzáis la ciudad hacia la Finca Meiger, te confiesa que veía la puerta en sus pesadillas. La veía con tal nitidez y tan a menudo que tuvo que pintarla. Pero, una vez que la pintó, algo la atravesó. Se llevó a su padre. Se llevó a Aziza. Y quiere detenerlo antes de que pueda llevarse a nadie más. Pero antes de que lleguéis a la finca, parece que algo os ha encontrado.</p><p class='basic'>Recuerda que «Lina abrió la puerta».</p><p class='basic right'>Salta al _Interludio: El culpable_.</p>"
+    },
+    "eliasHusserlJr": {
+      "title": "Códice I: Elias Husserl Jr.",
+      "body": "<p>«Mira, sé a qué has venido», dice Elias. «¡Pero no tengo nada que ver con nada de eso!». Antes de que puedas contestar, te llama la atención el ruido de alguien que se acerca. Un hombre alto, de bigote fino y mirada agotada, te observa un momento en silencio. «Ah, Eugene», dice Elias al verlo. «Me alegro de que estés aquí. Diles a estos que me dejen en paz, ¿quieres?».</p><p>El Sr. Peel hace caso omiso de la orden de Junior. «Tú no vas a ninguna parte, Elias», dice. «Es hora de que cumplas tu parte del trato». Un grupo de matones de aspecto duro, con símbolos arcanos tatuados en los brazos, se reúne dispuesto a atacar. ¡No son simples gánsteres, sino sectarios disfrazados! Le dices a Junior que salga de ahí.</p><p class='basic right'>Pon en juego en el Lugar de Elias Husserl Jr. el Apoyo de historia puesto aparte Eugene Peel.</p><p class='basic right'>Busca en el mazo de Encuentros y en la pila de descarte 1 {'{'}perPlayer{'}'} Enemigos _Sindicato_ y hazlos aparecer en el Lugar de Elias Husserl Jr.</p><p class='basic right'>Añade a Elias Husserl Jr. a la zona de victoria.</p>"
+    },
+    "eugenePeel": {
+      "title": "Códice J: Eugene Peel",
+      "body": "<p>Después de dar una paliza a los sectarios de Peel, lo agarras por las solapas y lo arrojas contra unos cubos de basura cercanos. Queda despatarrado sobre las tablas del andén, cubierto de desperdicios.</p><p>«Te estás entrometiendo en un trato que no entiendes», dice el Sr. Peel. «Junior quería dinero de mis hermanos y de mí, y nosotros queríamos influencia en la ciudad de Arkham. Pero cuando su padre se negó a respetar el trato que había hecho Junior, lo quitamos de en medio. Hicimos lo mismo con esa otra detective, ¡y lo haremos contigo también!».</p><p>Mete la mano en el bolsillo y saca un tarrito de cristal con una extraña criatura semejante a una medusa en su interior. «¡Es hora de responder a todas tus preguntas!», dice, y lanza el tarro a tus pies, donde se hace añicos y derrama sobre el suelo del andén a la criatura de tentáculos.</p><p class='basic'>Recuerda que «Eugene no es lo que parece».</p><p class='basic right'>Salta al _Interludio: El culpable_.</p>"
+    }
+  },
+  "interlude": {
+    "theCulprit1": {
+      "title": "El culpable",
+      "body": "<p>El mundo que te rodea se abre de repente, y un súbito destello de luz púrpura y un penetrante olor a ozono abruman tus sentidos. Notas unas manos frías y con garras que atraviesan el mismo aire, te aferran y te arrastran hacia la luz. La vista y la cabeza te dan vueltas y, cuando quieres darte cuenta, estás cayendo por el aire de un mundo extraño. Aterrizas en un estanque de cieno gris y espeso, entre huesos humanos que se mueven y se hunden a tu alrededor. Antes de que puedas pensar, ya forcejeas y nadas para no hundirte bajo la superficie del extraño icor que se te pega a la ropa.</p><ul><li>Pon en juego cada Lugar _Sobrenatural_ puesto aparte.</li><li>Cada investigador se mueve directamente al Foso de huesos.</li><li>Da la vuelta al Raptor por su lado Vagabundo dimensional y muévelo al Foso de huesos (o hazlo aparecer en el Foso de huesos, si está puesto aparte).</li><li>Añade al mazo de Plan el plan 4a «Al foso» que estaba puesto aparte. Haz avanzar directamente al plan 4a (no resuelvas ningún otro plan).</li></ul>"
+    },
+    "theCulprit2": {
+      "title": "El culpable",
+      "body": "<p>La figura que se retuerce en el cieno a tu lado es Albrecht Husserl. «¡¿Qué?!», exclama mientras se hunde despacio en el foso de huesos lleno de cieno. «¡A mí no tenía que llevarme! ¡Esto es culpa tuya!». Se agarra al borde del foso y sale. Vuelve a meter la mano en el abrigo y desenfunda un arma. Te apunta desde el borde del foso, pero el chillido sobrenatural de un enorme monstruo reclama su atención.</p><p>Has llegado demasiado lejos para dejar que Albrecht muera aquí, en este lugar infernal. Tienes que llevarlo de vuelta a Arkham para que responda de sus crímenes ante la justicia de verdad.</p><ul><li>Retira de la partida el Apoyo de historia Albrecht Husserl.</li><li>Haz aparecer en el Foso de huesos al Enemigo Albrecht Husserl que estaba puesto aparte.</li><li>Algo secuestra cada Apoyo de historia _Sospechoso_ en juego en un Lugar _Arkham_, y cada carta del mazo de Indicios.</li><li>Reúne todas las cartas secuestradas y barájalas juntas. Vincula al Vagabundo dimensional 1 {'{'}perPlayer{'}'} de esas cartas, al azar. Coloca las cartas restantes boca abajo debajo del Foso de huesos.<ul><li>*Nota*: las cartas vinculadas al Vagabundo dimensional ya no se consideran secuestradas.</li></ul></li><li>Añade al mazo de Acto el acto 4a «La apuesta de Albrecht» que estaba puesto aparte. Haz avanzar directamente al acto 4a (no resuelvas el acto 3b).</li><li>Sigue jugando.</li></ul>"
+    },
+    "theCulprit3": {
+      "title": "El culpable",
+      "body": "<p>La figura que se retuerce en el cieno a tu lado es Lina Husserl. Se agarra al borde del foso y sale, escupiendo icor al suelo mientras recobra el aliento. Te mira desde arriba con una expresión de miedo y desconcierto cuando, despacio, una forma extraña se alza a su espalda. La silueta enorme y erizada de púas de la criatura se cierne sobre Lina, que se vuelve para encararla. «Te he visto antes», dice. «Estás aquí por mi culpa. ¡Has venido a por mí!».</p><p>Has llegado demasiado lejos para dejar que Lina muera aquí, en este lugar infernal. Tienes que llevarla de vuelta a Arkham y acabar con el monstruo que atormenta sus pesadillas.</p><ul><li>Retira de la partida el Apoyo de historia Lina Husserl.</li><li>Haz aparecer en el Foso de huesos a la Enemiga Lina Husserl que estaba puesta aparte.</li><li>Algo secuestra cada Apoyo de historia _Sospechoso_ en juego en un Lugar _Arkham_, y cada carta del mazo de Indicios.</li><li>Reúne todas las cartas secuestradas y barájalas juntas. Vincula al Vagabundo dimensional 1 {'{'}perPlayer{'}'} de esas cartas, al azar. Coloca las cartas restantes boca abajo debajo del Foso de huesos.<ul><li>*Nota*: las cartas vinculadas al Vagabundo dimensional ya no se consideran secuestradas.</li></ul></li><li>Añade al mazo de Acto el acto 4a «La pesadilla de Lina» que estaba puesto aparte. Haz avanzar directamente al acto 4a (no resuelvas el acto 3b).</li><li>Sigue jugando.</li></ul>"
+    },
+    "theCulprit4": {
+      "title": "El culpable",
+      "body": "<p>La figura que se retuerce en el cieno a tu lado es Eugene Peel. «¡Insolente!», te grita mientras avanza hacia el borde del foso. Se agarra al saliente y sale. «Tus intromisiones terminan aquí», dice, y mete la mano bajo el abrigo para sacar una daga de aspecto perverso. «Prepárate para afrontar tu destino, tan lejos de...».</p><p>Sus amenazas se ven interrumpidas cuando un enorme monstruo aparece de un salto y se posa en una roca cercana. Gruñe a Eugene y enseña hileras de dientes afilados. Él lo mira con horror mientras la criatura baja despacio de su atalaya. Pero has llegado demasiado lejos para dejar que Eugene muera aquí, en este lugar infernal. Tienes que llevarlo de vuelta a Arkham para que responda de sus crímenes ante la justicia de verdad.</p><ul><li>Retira de la partida el Apoyo de historia Eugene Peel.</li><li>Haz aparecer en el Foso de huesos al Enemigo Eugene Peel que estaba puesto aparte.</li><li>Algo secuestra cada Apoyo de historia _Sospechoso_ en juego en un Lugar _Arkham_, y cada carta del mazo de Indicios.</li><li>Reúne todas las cartas secuestradas y barájalas juntas. Vincula al Vagabundo dimensional 1 {'{'}perPlayer{'}'} de esas cartas, al azar. Coloca las cartas restantes boca abajo debajo del Foso de huesos.<ul><li>*Nota*: las cartas vinculadas al Vagabundo dimensional ya no se consideran secuestradas.</li></ul></li><li>Añade al mazo de Acto el acto 4a «El plan del Sr. Peel» que estaba puesto aparte. Haz avanzar directamente al acto 4a (no resuelvas el acto 3b).</li><li>Sigue jugando.</li></ul>"
+    }
+  },
+  "resolutions": {
+    "xp": {
+      "bonus": {
+        "storyAssets": "Apoyos de historia en la zona de victoria"
+      }
+    },
+    "noResolution": {
+      "title": "Sin resolución",
+      "body": "<p>La fuerza de las muchas amenazas que se ciernen sobre la familia Husserl resulta excesiva para ti. Pese a tus esfuerzos, sucumbes a la voluntad del Vagabundo dimensional, que te arrastra al foso de huesos de ese otro mundo.</p><ul><li>En tu registro de campaña, anota que *los investigadores no lograron resolver el caso*.</li><li>Los investigadores pierden la campaña.</li></ul>"
+    },
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<p>_Resolución 1_: te ha costado hasta la última gota de fuerza que has podido reunir, pero has logrado convencer a Lina Husserl de que se enfrente a sus miedos más profundos y derrote al monstruo de sus pesadillas. No sabes cómo atravesaron sus cuadros el velo entre los mundos para llamar al Vagabundo a Arkham, pero le sugieres que quizá deje de pintar lo que ve en sueños.</p><ul><li>En tu registro de campaña, anota que *los investigadores salvaron a Lina Husserl*.</li></ul>"
+    },
+    "resolution2": {
+      "title": "Resolución 2",
+      "body": "<p>_Resolución 2_: pese a ser un solo hombre, Eugene Peel era un líder entre los suyos en los círculos ocultistas. Sin él, la secta ha enmudecido.</p><ul><li>En tu registro de campaña, anota que *los investigadores detuvieron a Eugene Peel*.</li><li>Salta a la _Resolución 5_.</li></ul>"
+    },
+    "resolution3": {
+      "title": "Resolución 3",
+      "body": "<p>_Resolución 3_: regresas a Arkham con Albrecht Husserl a rastras y te apresuras a entregarlo a las autoridades. Solo puedes esperar que la familia Husserl no tenga en el bolsillo a toda la policía de Arkham.</p><ul><li>En tu registro de campaña, anota que *los investigadores detuvieron a Albrecht Husserl*.</li><li>Salta a la _Resolución 5_.</li></ul>"
+    },
+    "resolution4": {
+      "title": "Resolución 4",
+      "body": "<p>_Resolución 4_: pese a tus esfuerzos, no logras impedir que el Vagabundo dimensional se cobre su siguiente víctima. Escapas de vuelta a Arkham, donde solo puedes esperar que estos sucesos hayan terminado de una vez por todas.</p><ul><li>En tu registro de campaña, anota que *el culpable sigue en libertad*.</li><li>Continúa en la _Resolución 5_.</li></ul>"
+    },
+    "resolution5": {
+      "title": "Resolución 5",
+      "body": "<p>_Resolución 5_: no has podido localizar y recuperar a Elias, pero los avances que sí has logrado parecen haber satisfecho a la ciudad. Arkham se recupera pronto y parece deseosa de olvidar todo el asunto de la investigación sobre la familia Husserl. Josephine ocupa la posición de poder y autoridad que su marido desaparecido ha dejado vacante, y la familia Husserl, bajo su liderazgo, sigue prosperando en la ciudad, aunque con algo más de cautela.</p><ul><li>Si el Apoyo de historia Aziza Steer estaba bajo el control de un investigador cuando terminó el escenario, los investigadores han obtenido la carta de recompensa de campaña Aziza Steer (*Curtida*).</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.<ul><li>Por cada Apoyo de historia que hubiera en la zona de victoria cuando terminó el escenario, elige un investigador para que obtenga 1 punto de experiencia adicional.</li><li>_Experiencia_: {xp}</li></ul></li><li>Si juegas en modo de campaña, restablece la bolsa de caos de tu campaña.</li></ul>"
+    }
+  },
+  "label": {
+    "cab": {
+      "resources": "Gastar 4 recursos para pedir un taxi",
+      "actionAndResources": "Gastar 1 acción y 2 recursos para pedir un taxi"
+    },
+    "witness": {
+      "keepClue": "No gastar ninguna pista",
+      "spendClue": "Gastar 1 pista para reducir en 3 la dificultad de esta prueba"
+    },
+    "culprit": {
+      "spendClues": "Gastar {count} pistas para reducir la dificultad en {count}"
+    },
+    "blackjack": {
+      "decline": "No jugar al veintiuno",
+      "play": "Gastar 2 recursos para jugar al veintiuno",
+      "hit": "Revelar otra ficha",
+      "stand": "Dejar de revelar (tu mano suma {count})",
+      "countAs": "Contar la ficha {'{'}elderSign{'}'} como {count}"
+    },
+    "bonePit": {
+      "stop": "No gastar más pistas",
+      "spendAnother": "Gastar 1 pista más para salvar otra carta"
+    },
+    "thePortal": {
+      "noAdditionalRescue": "No gastar 2 pistas",
+      "rescueAdditional": "Gastar 2 pistas para rescatar una carta adicional"
+    },
+    "hungryVoid": {
+      "takeDamageAndHorror": "Recibir 1 punto de daño y 1 punto de horror",
+      "placeDoom": "Colocar 1 ficha de Perdición en el Plan en curso"
+    },
+    "overYourShoulder": {
+      "abductAlly": "Algo secuestra un Apoyo _Aliado_ de tu Lugar",
+      "takeHorror": "Recibir 1 punto de horror directo"
+    },
+    "disappearingEvidence": {
+      "discard": "Descartar 1 carta al azar de tu mano",
+      "allyHorror": "Un Apoyo _Aliado_ de tu Lugar recibe 1 punto de horror"
+    },
+    "lockedOut": {
+      "loseAction": "Perder 1 acción",
+      "allyDamage": "Un Apoyo _Aliado_ de tu Lugar recibe 1 punto de daño"
+    },
+    "ambushingShadow": {
+      "loseClue": "Perder 1 pista",
+      "discardCard": "Descartar 1 carta al azar de tu mano"
+    },
+    "aethrealBlight": {
+      "discardAsset": "Descartar un Apoyo que controles",
+      "removeFromGame": "Retirar de la partida las 2 primeras cartas de tu mazo"
+    },
+    "charlesTamm": {
+      "payOff": "Gastar 4 recursos para añadir a Charles Tamm a la zona de victoria",
+      "continue": "Continuar"
+    }
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "tokens": {
+    "easyStandard": {
+      "skull": "-1 por cada pista que tengas.",
+      "cultist": "-3. Si fracasas, coloca 1 recurso sobre el Enemigo _Mutado_ más cercano, como mutación.",
+      "tablet": "-3. Si fracasas, roba la primera carta _Maleficio_ de la pila de descarte de Encuentros.",
+      "elderThing": "-4. Si fracasas, coloca una carta asignada a esta prueba boca abajo debajo de un Enemigo _Insecto_, como carta de multitud."
+    },
+    "hardExpert": {
+      "skull": "-2 por cada pista que tengas.",
+      "cultist": "-4. Coloca 1 recurso sobre cada Enemigo _Mutado_, como mutación.",
+      "tablet": "-4. Roba la primera carta _Maleficio_ de la pila de descarte de Encuentros.",
+      "elderThing": "-5. Coloca todas las cartas asignadas a esta prueba boca abajo debajo de un Enemigo _Insecto_, como cartas de multitud."
+    }
+  },
+  "label": {
+    "bladeOfArkat": {
+      "resourcesToRemove": "Recursos que retirar"
+    },
+    "placeDoomOnTheBlueAgenda": "Colocar 1 ficha de Perdición en el Plan azul",
+    "placeClueOnYourLocation": "Colocar 1 de tus pistas en tu Lugar",
+    "take2Horror": "Recibir 2 puntos de horror",
+    "take3Horror": "Recibir 3 puntos de horror",
+    "removeHandFromGame": "Retirar de la partida todas las cartas de tu mano",
+    "removeCluesFromAroundHubDimension": "Retirar 2 pistas de en torno a la Dimensión nexo",
+    "huneStitchedHeraldAttacksYou": "El Heraldo de huna saturada te ataca",
+    "youAndYourAssetsTakeDamage": "Tú y cada Apoyo que controles sufrís 1 punto de daño directo",
+    "removeItemFromGame": "Elegir un Apoyo Objeto que controles y retirarlo de la partida",
+    "take2Damage": "Recibir 2 puntos de daño",
+    "placeCluesOnYourLocation": "Colocar 2 de tus pistas en tu Lugar",
+    "removeCardsInHandFromGame": "Elegir 3 cartas de tu mano y retirarlas de la partida",
+    "removeTopOfDeckFromGame": "Retirar de la partida las 6 primeras cartas de tu mazo. Añadir a tu mazo cada Debilidad retirada de este modo y barajarlo",
+    "spendClues": "Gastar 3 pistas",
+    "placeEnemyOnTopOfEncounterDeck": "Colocar un Enemigo que no sea Élite de tu Lugar en la parte superior del mazo de Encuentros",
+    "lookAtTopOfEncounterDeck": "Mirar las 5 primeras cartas del mazo de Encuentros. Descartar 2 y devolver las demás a la parte superior, en cualquier orden",
+    "skipTest": "No hacer la prueba"
+  },
+  "intro": {
+    "title": "La guerra de los Dioses Exteriores",
+    "body": "<p>Más de diez años después de la Gran Guerra, otra clase de guerra ha llegado a la Tierra: un conflicto urdido por facciones que han permanecido mucho tiempo ocultas en las sombras de la sociedad.</p><p>Empezó con los asesinatos de Arkham: más de una docena de cadáveres en la mitad de días. Al principio la policía pensó que el autor era un asesino en serie, hasta que el cuerpo de la sexta víctima apareció convertido en un amasijo de carne y vísceras, como un bocado masticado y vuelto a escupir. Ningún ser humano habría podido cometer un asesinato tan truculento.</p><p>Cuando empezaron a surgir muertes similares en otras ciudades de Norteamérica, decidiste descubrir la verdad. Un asesino en serie no podía estar en Arkham, Providence, Montreal y Nueva York a la vez. Tenía que ser obra de una organización. Pero no fue eso lo único que descubriste: muchas de las víctimas tenían rasgos comunes que permitían clasificarlas en tres grupos bien diferenciados.</p><p>En Providence, muchas víctimas eran personas mayores y cultas. En Montreal, quienes murieron vivían en los bosques de las afueras o ejercían profesiones relacionadas de un modo u otro con la naturaleza o la biología. En Nueva York aparecían cuerpos en lo más hondo de las alcantarillas y en los túneles del metro, y su identidad estaba envuelta en el misterio.</p><p>Llevas varias semanas intentando desenterrar la verdad que se oculta tras estos asesinatos y las distintas facciones que los cometen. En este tiempo, el conflicto ha crecido de forma exponencial. Masacres. Atentados. Avistamientos de extrañas ceremonias en las calles. Entidades que tapan las estrellas del cielo nocturno. Enjambres de insectos semejantes a langostas que devoran a la gente de cuerpo entero. Criaturas reptilianas mutadas que merodean por las alcantarillas. Y, lo que es peor, aunque Arkham parece el epicentro del conflicto, estos incidentes se están extendiendo por todo el mundo.</p><p>Esta no es una guerra corriente, ni una que las autoridades puedan afrontar. Solo tú sospechas la verdad. De algún modo, tienes que averiguar por qué luchan estas facciones y poner fin al conflicto antes de que su locura consuma el mundo entero.</p><p class='basic right'>Continúa en _Preparación_.</p>"
+  },
+  "setup": {
+    "gatherSets": "Reúne todas las cartas del conjunto de Encuentros *La guerra de los Dioses Exteriores*. Este conjunto se identifica con este icono:<section class='encounter-sets'><img src='{setImgPath}/war-of-the-outer-gods.png' /></section>",
+    "gatherFactionSets": "Reúne las 9 cartas de cada uno de los otros tres conjuntos de Encuentros: *Hijos del paraíso*, *Enjambre de la asimilación* y *Muerte de las estrellas*. Pon aparte, fuera del juego, estos conjuntos de Encuentros. _(Nota: en el conjunto de Encuentros_ La guerra de los Dioses Exteriores _se incluyen 1 Entidad etérea, 1 Trilogog y 1 Portador del paraíso, mientras que los demás forman parte de estos tres conjuntos de Encuentros.)_ Estos conjuntos se identifican con estos iconos:<section class='encounter-sets'><img src='{setImgPath}/children-of-paradise.png' /><img src='{setImgPath}/assimilating-swarm.png' /><img src='{setImgPath}/death-of-the-stars.png' /></section>",
+    "agendaDecks": "Al preparar el mazo de Plan, pon en juego los tres mazos de Plan en este orden (de arriba abajo): verde, azul y luego rojo.",
+    "placeLocations": "Deja aparte el Lugar Dimensión nexo y pon en juego los 10 Lugares restantes.",
+    "beginAtArkham": "Cada investigador comienza la partida en Arkham.",
+    "spawnCultists": "Busca en el conjunto de Encuentros *La guerra de los Dioses Exteriores* 1 copia de Discípulo del Enjambre, 1 copia de Astrónomo aficionado nihilista y 1 copia de Fanática del Paraíso. Haz aparecer cada uno de esos Enemigos (como indiquen sus instrucciones de «*Aparición* -»).",
+    "setAsideAssets": "Pon aparte, fuera del juego, los 5 siguientes Apoyos de historia: Capa del Reino Exterior, Portal de bolsillo, Fin temido, Hoja de Ark’at y Cráneo encantado.",
+    "shuffleRemainder": "Baraja las 19 cartas de Encuentro restantes para formar el mazo de Encuentros.",
+    "epicMultiplayer": "Si estás jugando en *modo multijugador épico*, la organización del evento calcula y anuncia los umbrales de Perdición globales de cada Plan."
+  },
+  "resolutions": {
+    "noResolution": {
+      "title": "Sin resolución",
+      "body": "<p>*Si no se ha llegado a ninguna resolución (todos los investigadores han sido derrotados)*:</p><ul><li>Si estás jugando en *modo de grupo único*, o si todos los grupos han sido derrotados en *modo multijugador épico*, determina qué facción va en cabeza y sigue estas instrucciones.<ul><li>Si va en cabeza la facción roja, salta a la _Resolución 5_.</li><li>Si va en cabeza la facción azul, salta a la _Resolución 6_.</li><li>Si va en cabeza la facción verde, salta a la _Resolución 7_.</li></ul></li><li>Si estás jugando en *modo multijugador épico*, compartes la resolución a la que lleguen los demás jugadores.</li></ul>"
+    },
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<p>_Resolución 1_: Las numerosas puertas del nexo están ahora selladas a cal y canto bajo tu férreo control. Con el nexo sellado, cabe esperar que las sectas que luchaban por poseerlo vuelvan a obrar en secreto, quizá aguardando el momento en que el nexo se reabra y puedan usarlo para impulsar sus crueles designios. Hasta entonces, la Tierra está a salvo… relativamente hablando.</p><ul><li>Un investigador cualquiera puede elegir añadir el Apoyo de historia Capa del Reino Exterior a su mazo. No cuenta para el tamaño de mazo de ese investigador.</li><li>Un investigador cualquiera puede elegir añadir el Apoyo de historia Portal de bolsillo a su mazo. No cuenta para el tamaño de mazo de ese investigador.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de *Victoria X* de cada carta de la zona de victoria. Cada investigador obtiene 2 puntos de experiencia adicionales por haber impedido que todos los Dioses Exteriores culminaran sus planes.</li></ul>"
+    },
+    "resolution2": {
+      "title": "Resolución 2",
+      "body": "<p>_Resolución 2_: El enjambre de Ezel es demasiado innumerable para derrotarlo por medios corrientes. ¡Pero hay un truco! Por muy de otro mundo que sean, los insectos siguen siendo insectos, y muchas colmenas cuentan con una reina. Echando mano de todo tu ingenio, trazas un plan para aplastar a la reina y dispersar así el enjambre.</p><p>Para tu sorpresa, el plan funciona. Eliminada la reina, el enjambre queda sin rumbo y su voracidad cede paso a la desesperación y el pánico. Las incontables criaturas no tardan en volver a descender al foso del que salieron. Quizá llegue otra reina que las reúna, pero tú sellarás ese maldito foso mucho antes de que eso ocurra. Por ahora, la Tierra está a salvo.</p><ul><li>Un investigador cualquiera puede elegir añadir el Apoyo de historia Capa del Reino Exterior a su mazo. No cuenta para el tamaño de mazo de ese investigador.</li><li>Un investigador cualquiera puede elegir añadir el Apoyo de historia Cráneo encantado a su mazo. No cuenta para el tamaño de mazo de ese investigador.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de *Victoria X* de cada carta de la zona de victoria.</li></ul>"
+    },
+    "resolution3": {
+      "title": "Resolución 3",
+      "body": "<p>_Resolución 3_: Silenus no tiene forma, quizá ni siquiera materia, pero sí un punto débil. Volviendo contra él los rituales de su propia secta, ideas un hechizo de un calor tan incandescente que ni el vacío del espacio puede devorarlo. Cuando desatas tu rito, las nieblas retroceden angustiadas, sin emitir más sonido que el siseo agudo del aire al ser succionado por el vacío.</p><p>Observas el cielo con temor, esperando que la niebla no regrese en el instante en que termine tu ritual. Pasan los minutos. Después, las horas. Las estrellas conocidas vuelven a llenar el cielo nocturno. Quizá la entidad se haya ido para siempre. Si son ciertas las notas de los muchos observadores de la criatura, es probable que regrese en el futuro, tal vez dentro de cientos o miles de años. Puede que hoy hayas salvado la Tierra, pero la comprensión de la verdadera naturaleza de la entidad aún te atormenta.</p><ul><li>Un investigador cualquiera puede elegir añadir el Apoyo de historia Capa del Reino Exterior a su mazo. No cuenta para el tamaño de mazo de ese investigador.</li><li>Un investigador cualquiera puede elegir añadir el Apoyo de historia Fin temido a su mazo. No cuenta para el tamaño de mazo de ese investigador.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de *Victoria X* de cada carta de la zona de victoria.</li></ul>"
+    },
+    "resolution4": {
+      "title": "Resolución 4",
+      "body": "<p>_Resolución 4_: Del caparazón de la bestia brotan sangre verde y un pus pegajoso mientras se desploma con un gemido tan potente que retumba por toda la Tierra. Gracias a tu rapidez, has abatido a la bestia antes de que se hiciera demasiado poderosa como para detenerla. Incluso en su infancia, era un rival formidable.</p><p>Contemplas con repugnancia cómo su cuerpo se disuelve en un icor amarillento. Menudo «paraíso» ha resultado ser esta cosa. Con el huevo eclosionado y lo que había dentro destruido, esperas que la secta de Ark’at se disperse, aunque temes que algún día llegue la venganza por haberte entrometido.</p><ul><li>Un investigador cualquiera puede elegir añadir el Apoyo de historia Capa del Reino Exterior a su mazo. No cuenta para el tamaño de mazo de ese investigador.</li><li>Un investigador cualquiera puede elegir añadir el Apoyo de historia Hoja de Ark’at a su mazo. No cuenta para el tamaño de mazo de ese investigador.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de *Victoria X* de cada carta de la zona de victoria.</li></ul>"
+    },
+    "resolution5": {
+      "title": "Resolución 5",
+      "body": "<p>_Resolución 5_: Poco a poco, el enjambre descompone toda la materia de la Tierra y transforma cada molécula para que se asemeje a las suyas. Tu consciencia perdura, atrapada para siempre en el espantoso enjambre zumbador. Pero todo va bien. Ahora estás con la reina. Un hambre extraña te corroe. Tu único deseo es asimilar. ¡El enjambre debe crecer!</p><ul><li>Cada investigador *muere*.</li><li>Los investigadores pierden la campaña.</li></ul>"
+    },
+    "resolution6": {
+      "title": "Resolución 6",
+      "body": "<p>_Resolución 6_: La Tierra no es más que el primer planeta engullido por Silenus, encarnación del Cielo Vacío, el final voraz de todas las cosas. Cuando el núcleo del planeta se desploma hasta el cero absoluto, toda vida se extingue al instante. Desde la abertura que el nexo ha creado en la Tierra, la entidad se extiende entonces hasta cada rincón del sistema solar y devora a su paso todo calor. Ya nada puede detenerla.</p><ul><li>Cada investigador *muere*.</li><li>Los investigadores pierden la campaña.</li></ul>"
+    },
+    "resolution7": {
+      "title": "Resolución 7",
+      "body": "<p>_Resolución 7_: Es imposible frenar el arrasamiento de la bestia. Solo vosotros sabíais algo sobre cómo derrotarla. Una tras otra, a medida que avanza por los continentes y a través de los océanos, caen las ciudades. Los ejércitos son aniquilados. Los gobiernos se derrumban. Las criaturas monstruosas nacidas gracias a la secta de Ark’at prosiguen su caza voraz hasta que no queda nada que gobernar salvo los vastos páramos de la Tierra y las ruinas desmoronadas de la civilización humana. Ha llegado el «paraíso» por el que con tanto gusto mataron.</p><ul><li>Cada investigador *muere*.</li><li>Los investigadores pierden la campaña.</li></ul>"
+    },
+    "xp": {
+      "bonus": "Por haber impedido que todos los Dioses Exteriores culminaran sus planes"
+    },
+    "label": {
+      "greenFactionInTheLead": "La facción verde iba en cabeza",
+      "blueFactionInTheLead": "La facción azul iba en cabeza",
+      "redFactionInTheLead": "La facción roja iba en cabeza"
+    }
+  },
+  "rules": {
+    "factions": {
+      "title": "Facciones",
+      "body": "<p class='basic'>Este escenario presenta tres facciones en guerra, cada una con sus propios conjuntos de Enemigos, Traiciones y Planes. Las facciones se distinguen por su color: azul, verde o rojo.</p><ul><li>La _Secta de Silenus_ es la facción _azul_. Las cartas azules también se reconocen por sus motivos de estrellas y constelaciones.<div class='card-examples'><div class='top'><div class='ex'><img src='{setImgPath}/../cards/86025.avif' /><img class='arrow' src='{setImgPath}/../extra/war-of-the-outer-gods/arrows/arrow-blue.svg' style='--at:12%' /></div><div class='ex'><img src='{setImgPath}/../cards/86026.avif' /><img class='arrow left' src='{setImgPath}/../extra/war-of-the-outer-gods/arrows/arrow-blue.svg' style='--at:29%' /></div></div><div class='ex'><img class='agenda' src='{setImgPath}/../cards/86003.avif' /><img class='arrow left' src='{setImgPath}/../extra/war-of-the-outer-gods/arrows/arrow-blue.svg' style='--at:13%;--right:-33px;' /></div></div></li><li>La _Secta de Magh’an Ark’at_ es la facción _verde_. Las cartas verdes también se reconocen por sus escamas y zarcillos.<div class='card-examples'><div class='top'><div class='ex'><img src='{setImgPath}/../cards/86027.avif' /><img class='arrow' src='{setImgPath}/../extra/war-of-the-outer-gods/arrows/arrow-green.svg' style='--at:55%; --left:-33px;' /></div><div class='ex'><img src='{setImgPath}/../cards/86028.avif' /><img class='arrow left' src='{setImgPath}/../extra/war-of-the-outer-gods/arrows/arrow-green.svg' style='--at:30%' /></div></div><div class='ex'><img class='agenda' src='{setImgPath}/../cards/86006.avif' /><img class='arrow left' src='{setImgPath}/../extra/war-of-the-outer-gods/arrows/arrow-green.svg' style='--at:13%;--right:-33px;' /></div></div></li><li>La _Secta de Ezel-zen-rezl_ es la facción _roja_. Las cartas rojas también se reconocen por sus motivos de panal y sus alas de insecto.<div class='card-examples'><div class='top'><div class='ex'><img src='{setImgPath}/../cards/86029.avif' /><img class='arrow' src='{setImgPath}/../extra/war-of-the-outer-gods/arrows/arrow-red.svg' style='--at:36%;--left:-35px;' /></div><div class='ex'><img src='{setImgPath}/../cards/86030.avif' /><img class='arrow left' src='{setImgPath}/../extra/war-of-the-outer-gods/arrows/arrow-red.svg' style='--at:27.5%' /></div></div><div class='ex'><img class='agenda' src='{setImgPath}/../cards/86009.avif' /><img class='arrow top' src='{setImgPath}/../extra/war-of-the-outer-gods/arrows/arrow-red.svg' style='--left:29%;--angle:-135deg;' /></div></div></li><li>A menos que se indique otra cosa, las cartas de cada facción funcionan como las cartas normales de su tipo (Enemigos, Traiciones o Planes).</li><li>Si se indica a los investigadores que realicen una secuencia «en orden de facción», primero se resuelve para la facción verde, después para la facción azul y, por último, para la facción roja (*nota: este es también el orden de los Planes de arriba abajo que se muestra durante la preparación*).</li></ul>"
+    },
+    "factionAgendas": {
+      "title": "Planes de facción",
+      "body": "<p class='basic'>Durante la preparación se forman tres mazos de Plan distintos, uno para cada facción (verde, azul y roja). Estos mazos de Plan representan el avance de cada facción hacia sus objetivos.</p><ul><li>Durante el paso «colocar Perdición en el Plan en curso» de la fase de Mitos, coloca 1 ficha de Perdición en cada Plan, en orden de facción.</li><li>Durante el paso «comprobar el umbral de Perdición» de la fase de Mitos, comprueba el umbral de Perdición de cada Plan, uno por uno, en orden de facción (o, si estás jugando en modo multijugador épico, en el orden que anuncie la organización del evento).</li><li>Mientras haya tres Planes en juego, la Perdición que esté sobre cartas de Jugador no cuenta para el umbral de Perdición de ninguno de esos Planes.</li><li>Si el efecto de una carta indica a un investigador que coloque Perdición en «el Plan en curso», los jugadores pueden elegir en qué Plan colocarla.</li><li>Cuando avanza un Plan, toda la Perdición de los demás Planes permanece. Retira con normalidad toda la Perdición de las demás cartas en juego (cartas de Jugador, Enemigos y Lugares).</li></ul>"
+    },
+    "inTheLead": {
+      "title": "«En cabeza»",
+      "body": "<p class='basic'>La facción que va «en cabeza» es la que más ha avanzado en su mazo de Plan. Si hay empate entre dos o más facciones, va en cabeza la facción empatada que tenga más Perdición en su Plan. Si persiste el empate, va en cabeza la facción que tenga más Enemigos en juego.</p>"
+    },
+    "warring": {
+      "title": "Beligerante",
+      "body": "<p class='basic'>Beligerante es una capacidad de palabra clave que hace que las facciones en guerra se muevan unas hacia otras y se ataquen durante la fase de Enemigos.</p><p class='basic'>Durante el paso «los Enemigos con Cazador se mueven» de la fase de Enemigos, cada Enemigo preparado y sin enfrentar que tenga la palabra clave Beligerante se mueve una vez hacia el Enemigo Beligerante de otra facción que esté más cerca.</p><ul><li>Los Enemigos Beligerantes se mueven en orden de facción.</li><li>Los Enemigos Beligerantes que ya estén en un Lugar con uno o más Enemigos de otra facción no se mueven.</li><li>Si hay varios Enemigos equidistantes que puedan ser el objetivo de este movimiento, el investigador jefe elige hacia cuál se mueve el Enemigo.</li><li>Si no hay ningún Enemigo que pueda ser el objetivo de este movimiento, el Enemigo no se mueve.</li><li>Si un Enemigo Beligerante tuviera que moverse a un Lugar y la capacidad de una carta bloquea ese movimiento, el Enemigo no se mueve.</li></ul><p class='basic'>Durante el paso «resolver ataques enemigos» de la fase de Enemigos, cada Enemigo sin enfrentar que tenga la palabra clave Beligerante ataca a un Enemigo Beligerante de otra facción que esté en su Lugar.</p><ul><li>Los Enemigos Beligerantes atacan en orden de facción.</li><li>Si hay varios Enemigos que puedan ser el objetivo de este ataque, el Enemigo Beligerante ataca al Enemigo (de otra facción) al que le quede menos salud. En caso de empate, el investigador jefe puede elegir el objetivo del ataque.</li><li>Un ataque realizado de este modo inflige una cantidad de daño igual a la suma de los valores de daño y de horror del Enemigo atacante.</li><li>_Si un Enemigo ataca y derrota a otro Enemigo (que no sea una carta de multitud), coloca 1 ficha de Perdición en el Plan de la facción del Enemigo atacante._</li></ul><div class='warring-example'><p class='we-title'>Ejemplo de Beligerante:</p><p class='we-cap'>*Un Discípulo del Enjambre está en Calles de Nueva York, un Heraldo de huna saturada está en Arkham y una Fanática del Paraíso está en Calles de Montreal. Los tres tienen la palabra clave Beligerante y están preparados y sin enfrentar.*</p><div class='we-panel we-setup'><div class='we-spot'><img class='loc' src='{setImgPath}/../cards/86021.avif' /><img class='enemy' src='{setImgPath}/../cards/86029.avif' /></div><div class='we-spot'><img class='loc' src='{setImgPath}/../cards/86014.avif' /><img class='enemy' src='{setImgPath}/../cards/86037.avif' /></div><div class='we-spot'><img class='loc' src='{setImgPath}/../cards/86018.avif' /><img class='enemy' src='{setImgPath}/../cards/86027.avif' /></div></div><p class='we-cap'>*Durante el paso «los Enemigos con Cazador se mueven» de la fase de Enemigos, cada uno de estos Enemigos se mueve una vez hacia el Enemigo Beligerante de otra facción que esté más cerca. En este caso, primero se mueve el Enemigo verde, a Arkham. El Heraldo de huna saturada no se mueve, porque ya hay un Enemigo en su Lugar. Por último, el Discípulo del Enjambre también se mueve a Arkham.*</p><div class='we-panel we-move'><div class='we-spot'><img class='loc' src='{setImgPath}/../cards/86021.avif' /><img class='enemy red-faction faded' src='{setImgPath}/../cards/86029.avif' /></div><div class='we-spot gathered'><img class='loc' src='{setImgPath}/../cards/86014.avif' /><img class='enemy blue-faction' src='{setImgPath}/../cards/86037.avif' /><img class='enemy red-faction' src='{setImgPath}/../cards/86029.avif' /><img class='enemy green-faction' src='{setImgPath}/../cards/86027.avif' /></div><div class='we-spot'><img class='loc' src='{setImgPath}/../cards/86018.avif' /><img class='enemy green-faction faded' src='{setImgPath}/../cards/86027.avif' /></div><img class='we-arrow we-mv-left' src='{setImgPath}/../extra/war-of-the-outer-gods/arrows/warring-move-arrow.svg' /><img class='we-arrow we-mv-right' src='{setImgPath}/../extra/war-of-the-outer-gods/arrows/warring-move-arrow-right.svg' /></div><p class='we-cap'>*Durante el paso «resolver ataques enemigos» de la fase de Enemigos, cada uno de estos Enemigos ataca a un Enemigo Beligerante de otra facción. Primero, la Fanática del Paraíso ataca al Discípulo del Enjambre y le inflige 1 punto de daño, porque le queda menos salud que al Heraldo de huna saturada. Después, el Heraldo de huna saturada también ataca al Discípulo del Enjambre y le inflige 3 puntos de daño. Esto derrota al Discípulo del Enjambre antes de que pueda atacar y hace que se coloque 1 ficha de Perdición en el Plan azul.*</p><div class='we-panel we-attack'><div class='enemy'><img src='{setImgPath}/../cards/86029.avif' /><img class='dmg d1' src='{setImgPath}/../tokens/damage-token.png' /><img class='dmg d2' src='{setImgPath}/../tokens/damage-token.png' /><img class='dmg d3' src='{setImgPath}/../tokens/damage-token.png' /><img class='dmg d4' src='{setImgPath}/../tokens/damage-token.png' /></div><div class='enemy'><img src='{setImgPath}/../cards/86037.avif' /></div><div class='enemy'><img src='{setImgPath}/../cards/86027.avif' /></div><img class='we-arrow we-atk-top' src='{setImgPath}/../extra/war-of-the-outer-gods/arrows/warring-attack-arrow-top.svg' /><img class='we-arrow we-atk-bot' src='{setImgPath}/../extra/war-of-the-outer-gods/arrows/warring-attack-arrow-bottom.svg' /></div></div>"
+    },
+    "wards": {
+      "title": "Salvaguardas",
+      "body": "Las salvaguardas permiten a los investigadores reducir la cantidad de Perdición que se coloca en los Planes. Cuando fuese a colocarse Perdición en un Plan, cada salvaguarda que tenga ese Plan impide que se coloque esa cantidad de Perdición. Después, retira de ese Plan una cantidad de salvaguardas igual a la Perdición que se haya impedido."
+    },
+    "placeAroundThisLocation": {
+      "title": "«Colocar en torno a este Lugar»",
+      "body": "Si se indica a los investigadores que coloquen 1 o más pistas «en torno a» un Lugar, esas pistas deben colocarse de modo que linden físicamente con la carta de Lugar, pero sin ponerlas sobre la propia carta. Las pistas que estén «en torno a» un Lugar no se consideran «sobre» él y no pueden descubrirse de ningún modo.<div class='place-around'><img src='{setImgPath}/../cards/86024b.avif' /><div class='clues left'><img src='{setImgPath}/../tokens/clue.png' /><img src='{setImgPath}/../tokens/clue.png' /></div><div class='clues right'><img src='{setImgPath}/../tokens/clue.png' /><img src='{setImgPath}/../tokens/clue.png' /><img src='{setImgPath}/../tokens/clue.png' /><img src='{setImgPath}/../tokens/clue.png' /><img src='{setImgPath}/../tokens/clue.png' /><img src='{setImgPath}/../tokens/clue.png' /><img src='{setImgPath}/../tokens/clue.png' /><img src='{setImgPath}/../tokens/clue.png' /></div><div class='clues top'><img src='{setImgPath}/../tokens/clue.png' /><img src='{setImgPath}/../tokens/clue.png' /></div><div class='clues bottom'><img src='{setImgPath}/../tokens/clue.png' /><img src='{setImgPath}/../tokens/clue.png' /><img src='{setImgPath}/../tokens/clue.png' /><img src='{setImgPath}/../tokens/clue.png' /></div></div>"
+    },
+    "swarmingX": {
+      "title": "Multitud X",
+      "body": "La palabra clave Multitud X representa a un grupo de Enemigos que actúan al unísono. Después de que entre en juego un Enemigo con la palabra clave Multitud X, coloca las X primeras cartas de tu mazo boca abajo debajo del Enemigo como cartas de multitud, sin mirarlas. El Enemigo bajo el que están esas cartas de multitud se llama «Enemigo anfitrión». Algunos efectos de cartas de escenario también pueden indicar a un jugador que añada cartas de multitud a un Enemigo. Se hace siguiendo el mismo proceso.<ul><li>Si en algún momento no está claro qué investigador debe añadir las cartas de multitud, lo hace el investigador jefe.</li><li>Cada carta de multitud situada bajo el Enemigo anfitrión actúa como una copia independiente de ese Enemigo. Cada carta de multitud tiene los mismos valores y texto que su carta anfitriona. *(Por ejemplo, si un investigador está enfrentado a un Enemigo anfitrión con 2 cartas de multitud debajo, ese investigador está enfrentado a 3 Enemigos en total.)*</li><li>Cada carta de multitud ataca por separado cuando los Enemigos atacan durante la fase de Enemigos. Cuando el Enemigo anfitrión y todas sus cartas de multitud hayan atacado en este paso, agótalos todos.</li><li>Cada carta de multitud puede ser atacada o recibir daño por separado, pero el Enemigo anfitrión no puede ser derrotado mientras le queden cartas de multitud debajo. Cuando una carta de multitud es derrotada, el daño sobrante puede infligirse a otra carta de multitud situada bajo el mismo Enemigo anfitrión o, si ya no le quedan cartas de multitud, al propio Enemigo anfitrión. *(Por ejemplo, Roland Banks usa una Automática del .45 para atacar a un Trilogog con 2 cartas de multitud. El ataque inflige 2 puntos de daño. El primer punto de daño derrota 1 de las 2 cartas de multitud, así que el punto sobrante puede infligirse a otra carta de multitud y derrotarla también.)*</li><li>Siempre que una carta de multitud abandone el juego, colócala en la parte inferior del mazo de su propietario. Si no sabes de quién es la carta de multitud, puedes mirarla para determinar su propietario.</li><li>El Enemigo anfitrión y todas sus cartas de multitud se mueven, se enfrentan y se agotan como una sola entidad. *(Por ejemplo, si se evita a un Enemigo anfitrión o a cualquiera de sus cartas de multitud, todos se agotan y dejan de estar enfrentados.)*</li><li>Cuando Victoria X aparece en un Enemigo con la palabra clave Multitud X, ese texto solo está activo en la carta anfitriona. Las cartas de multitud no pueden entrar en la zona de victoria y nunca valen puntos de victoria.</li></ul>"
+    }
+  },
+  "specialRules": [
+    {
+      "title": "@:standalone.warOfTheOuterGods.rules.factions.title",
+      "body": "@:standalone.warOfTheOuterGods.rules.factions.body"
+    },
+    {
+      "title": "@:standalone.warOfTheOuterGods.rules.factionAgendas.title",
+      "body": "@:standalone.warOfTheOuterGods.rules.factionAgendas.body"
+    },
+    {
+      "title": "@:standalone.warOfTheOuterGods.rules.inTheLead.title",
+      "body": "@:standalone.warOfTheOuterGods.rules.inTheLead.body"
+    },
+    {
+      "title": "@:standalone.warOfTheOuterGods.rules.warring.title",
+      "body": "@:standalone.warOfTheOuterGods.rules.warring.body"
+    },
+    {
+      "title": "@:standalone.warOfTheOuterGods.rules.wards.title",
+      "body": "@:standalone.warOfTheOuterGods.rules.wards.body"
+    },
+    {
+      "title": "@:standalone.warOfTheOuterGods.rules.placeAroundThisLocation.title",
+      "body": "@:standalone.warOfTheOuterGods.rules.placeAroundThisLocation.body"
+    },
+    {
+      "title": "@:standalone.warOfTheOuterGods.rules.swarmingX.title",
+      "body": "@:standalone.warOfTheOuterGods.rules.swarmingX.body"
+    }
+  ]
+}

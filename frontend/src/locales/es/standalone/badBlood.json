@@ -1,0 +1,87 @@
+{
+  "specialRules": [
+    {
+      "title": "Errante",
+      "body": "<p class='basic'>Algunos Enemigos tienen la palabra clave Errante. Durante la fase de Enemigos (en el paso de estructura 3.2), cada Enemigo preparado y sin enfrentar que tenga la palabra clave Errante se mueve a un Lugar conectado siguiendo la ruta más corta hacia el Lugar designado (descrito entre paréntesis junto a la palabra «Errante»).</p><ul><li>Si hay varios Lugares que puedan considerarse el Lugar designado, el investigador jefe puede elegir hacia qué Lugar se mueve el Enemigo.</li><li>Si un Enemigo con Errante tuviera que moverse a un Lugar bloqueado por la capacidad de una carta, el Enemigo no se mueve.</li></ul>"
+    },
+    {
+      "title": "Recuperar recuerdos",
+      "body": "<p class='basic'>En este escenario, Agnes y Elspeth compiten por recuperar recuerdos.</p><ul><li>Agnes puede recuperar recuerdos con la capacidad {'{'}fast{'}'} del acto 1a.</li><li>Elspeth recupera recuerdos automáticamente mediante las capacidades <b>Obligado</b> del plan 1a, cuando el modificador combinado de las fichas de Caos de su Lugar sea de 6 o más (ignorando el +/-).<ul><li>Solo a efectos de contar sus modificadores, considera que estas fichas de Caos se han revelado durante una prueba de habilidad.</li></ul></li></ul>"
+    },
+    {
+      "title": "Alerta",
+      "body": "<p class='basic'>Cada vez que un investigador fracase en una prueba de habilidad al intentar evitar a un Enemigo que tenga la palabra clave Alerta, después de aplicar todos los resultados de esa prueba, ese Enemigo realiza un ataque contra el investigador que intentaba evitarlo. Un Enemigo no se agota después de realizar un ataque de Alerta. Este ataque se produce tanto si el Enemigo está enfrentado a ese investigador como si no.</p>"
+    }
+  ],
+  "tokens": {
+    "easyStandard": {
+      "skull": "-X. X es la cantidad de recuerdos que ha recuperado Agnes Baker.",
+      "cultist": "-2. Prepara a Elspeth Baudin y resuelve su palabra clave Errante.",
+      "tablet": "-3. Si fracasas y hay un recuerdo en el Lugar de Elspeth Baudin, coloca esta ficha en ese Lugar.",
+      "elderThing": "-6. Agnes Baker puede recibir hasta 3 puntos de daño para aumentar tu valor de habilidad en 2 por cada punto de daño recibido."
+    },
+    "hardExpert": {
+      "skull": "-X. X es la cantidad de recuerdos que ha recuperado Agnes Baker más 1.",
+      "cultist": "-3. Prepara a Elspeth Baudin y resuelve su palabra clave Errante. Si está enfrentada a un investigador, realiza un ataque.",
+      "tablet": "-5. Si fracasas y hay un recuerdo en el Lugar de Elspeth Baudin, coloca esta ficha en ese Lugar.",
+      "elderThing": "-8. Agnes Baker puede recibir hasta 3 puntos de daño para aumentar tu valor de habilidad en 2 por cada punto de daño recibido."
+    }
+  },
+  "log": {
+    "agnesCollectsMemory": "Agnes Baker recupera un recuerdo (total: {count})",
+    "elspethCollectsMemory": "Elspeth Baudin recupera un recuerdo (total: {count})",
+    "agnesStealsMemory": "Agnes Baker recupera un recuerdo de Elspeth Baudin"
+  },
+  "label": {
+    "collectMemoryFromElspeth": "Agnes Baker recupera 1 recuerdo de Elspeth Baudin",
+    "gainCluesFromTokenBank": "Agnes Baker obtiene {count} pistas de la reserva de fichas",
+    "elderThingDamage": "Agnes Baker puede recibir hasta 3 puntos de daño para aumentar tu valor de habilidad en 2 por cada punto de daño recibido"
+  },
+  "intro": {
+    "title": "Escenario de desafío: Mala sangre",
+    "body": "<p>Siempre has sabido que había algo... diferente... en ti. Desde la infancia veías en sueños otro reino. Otra vida. Una de magia y majestad, de conquista y persecución. En cuanto encontraste aquella extraña llave antigua, en cuanto reconociste la filigrana de su empuñadura y el dibujo de sus dientes, supiste que aquellos sueños no eran sueños en absoluto, sino recuerdos. Recuerdos de otra vida. De un lugar llamado «Hiperbórea». Y a medida que regresaban los recuerdos, también regresaba la magia.</p><p>Durante meses practicaste en secreto, ahondando en tus recuerdos y afinando tus poderes. Pero últimamente tus sueños se han vuelto oscuros y truculentos. Quien fuiste en el pasado no era tan considerada ni tan clemente como tú. Era despiadada. Ansiaba el poder. Daba pavor contemplarla. Te has propuesto emplear estos extraños poderes solo para ayudar a los demás, y no para hacerles daño.</p><p>Pero no eres la única persona cuyos recuerdos han empezado a regresar. Elspeth Baudin visitó el restaurante por primera vez hace unas semanas. Al principio no era más que una clienta como cualquier otra. Pidió huevos, beicon y un café solo, igual que buena parte de la clientela de Velma. Pero había algo en sus ojos, un destello de reconocimiento o de curiosidad, que te puso en guardia.</p><p>Después llegaron las preguntas.</p><p>Primero te preguntó por la llave que llevabas colgada de una cadena al cuello. Le dedicaste tu mejor sonrisa y le contaste la mentira de siempre: que era una reliquia familiar, una baratija inofensiva sin más valor que el sentimental. Pero eso no la disuadió. Empezó a indagar en tu vida, en tu familia... en tus sueños.</p><p>Elspeth no era una clienta normal. No charlaba por charlar. Buscaba respuestas, igual que tú. Así que indagaste por tu cuenta. Pero no constaba en ningún registro que Elspeth residiera en Arkham, y las pocas personas que encontraste que la conocían solo hablaban en susurros asustados y te dieron muy poco con lo que trabajar.</p><p>Entonces llegó una llamada de la Tienda de curiosidades del Barrio Norte. Elspeth había estado buscando más objetos como tu «reliquia», e incluso había llegado a pronunciar el nombre de Hiperbórea. Busca algo que pueda desbloquear más recuerdos suyos, igual que tú... pero ella no es como tú. Esa sonrisa siniestra, la forma en que sus contactos temblaban de miedo al oír su nombre... Te estremece pensar lo que alguien con malas intenciones podría hacer con los poderes que encierran tus recuerdos...</p><p class='basic right'>Continúa en la _Preparación_.</p>"
+  },
+  "setup": {
+    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de Encuentros: *Mala sangre*, *Los hilos del destino*, *Hermandad pnakótica*, *Las máscaras de medianoche*, *Puertas cerradas*, *Ángeles descarnados* y *Secta oscura*. Se identifican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/bad-blood.png' /><img src='{setImgPath}/threads-of-fate.png' /><img src='{setImgPath}/pnakotic-brotherhood.png' /><img src='{setImgPath}/midnight-masks.png' /><img src='{setImgPath}/locked-doors.png' /><img src='{setImgPath}/nightgaunts.png' /><img src='{setImgPath}/dark-cult.png' /></section>Al reunir el conjunto de Encuentros *Las máscaras de medianoche*, coge solo las 5 cartas de Traición (2x Pista falsa y 3x Sombra acechante) y los siguientes Lugares: Barrio Norte, Centro (*Primer Banco de Arkham*), Barrio Este, Universidad Miskatonic y Barrio Fluvial. No cojas los demás Lugares, el Acto, el Plan ni la carta de referencia de escenario de ese conjunto.",
+    "scenarioReference": "Retira de la partida la carta de referencia de escenario original del conjunto de Encuentros *Los hilos del destino*. Usa la nueva carta de referencia de escenario del conjunto de Encuentros *Mala sangre*.",
+    "placeLocations": "Pon en juego Barrio Norte, Centro, Barrio Este, Universidad Miskatonic, Barrio Fluvial, Ayuntamiento, Restaurante de Velma y Tienda de curiosidades.",
+    "startAt": "Cada investigador comienza la partida en el Restaurante de Velma.",
+    "randomLocation": "Busca en los reversos del mazo de Acto original del conjunto de Encuentros *Los hilos del destino* los siguientes Lugares: Exposición eztli, Cueva negra, Vías del tren y Comisaría de Arkham. Elige uno al azar y ponlo en juego, ignorando su capacidad de <b>Revelación</b>. Retira de la partida las demás cartas de Acto y de Plan originales del conjunto de Encuentros *Los hilos del destino*.",
+    "actAgendaDecks": "Crea los mazos de Acto y de Plan usando solo las nuevas cartas de Acto y de Plan del conjunto de Encuentros *Mala sangre*.",
+    "removeStoryAssets": "Retira de la partida el Apoyo de historia Ichtaca (*La guardiana olvidada*) y el Apoyo de historia Diario de expedición.",
+    "placeElspeth": "Pon en juego en la Tienda de curiosidades a la Enemiga Elspeth Baudin.",
+    "placeMemories": "Coloca 1 recurso en cada Lugar en juego como «recuerdo»."
+  },
+  "agendas": {
+    "outForBlood": {
+      "title": "Buscando sangre",
+      "body": "<p>*Un chasquido de poder arcano restalla por todo el cielo, buscándote a ti y a quienes te acompañan. Durante un instante, el tormento es insoportable. El dolor se ramifica por tu cuerpo como veneno en las venas. Un fogonazo en el fondo de tu visión te ciega. Luego, tan de repente como llegó, todo termina. Pero falta algo. Algo se ha perdido. ¿Está intentando robarte los recuerdos?*</p><p>Elspeth Baudin ataca a cada investigador siguiendo el orden de los jugadores, esté donde esté *(incluso si está agotada)*.</p><p>Vuelve a dar la vuelta a este Plan.</p>"
+    }
+  },
+  "resolutions": {
+    "noResolution": {
+      "title": "Sin resolución",
+      "body": "<p class='basic'>_Si no se ha llegado a ninguna resolución porque todos los investigadores han sido derrotados:_ continúa en la _Resolución 2_.</p>"
+    },
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<p>_Resolución 1:_ sería tan sencillo. Podrías acabar con ella ahora mismo. Impedir que amenace a otras personas con sus poderes... Pero entonces, ¿serías diferente? Bajas la mano, y la magia se dispersa en el aire frío. «¿Por qué?», pregunta con la voz quebrada por el dolor. Niegas con la cabeza y le dices que se equivoca. El verdadero poder es la capacidad de hacer la paz, no la de librar la guerra. «Necia», espeta mientras se pone en pie a duras penas. «Eres débil, después de todo. Y lamentarás haberme dejado vivir». La ves alejarse con paso lento, con solo fragmentos de su vida anterior en la cabeza. Sus poderes han menguado considerablemente, pero sigue siendo un problema. Quizá deberías haber acabado con ella, como decía. Aun así, suspiras con alivio. No quieres que este poder cambie quién eres. No permitirás volverte como ella. Pase lo que pase.</p><ul><li>Agnes Baker obtiene una cantidad de experiencia igual al total de los valores de Victoria X de las cartas de la zona de victoria, o bien igual a la cantidad de recuerdos que hubiera recuperado al final de la partida, lo que sea mayor.</li><li>Los demás investigadores solo obtienen una cantidad de experiencia igual al total de los valores de Victoria X de las cartas de la zona de victoria.<ul><li>*Experiencia*: {xp}</li></ul></li><li>Agnes Baker <b>puede</b> mejorar la Herencia de Hiperbórea a su versión avanzada, o bien devolver la versión avanzada de Recuerdo oscuro a su versión original.</li></ul>"
+    },
+    "resolution2": {
+      "title": "Resolución 2",
+      "body": "<p>_Resolución 2:_ Elspeth te tiene a su merced. Levanta la mano, y su magia amenaza con destrozarte. Sonríe con suficiencia. Cierras los ojos y te preparas... pero el golpe mortal no llega. En vez de eso, te pone en pie de un tirón y te sacude el polvo del delantal. «Vamos», ronronea con una sonrisa diabólica. «No eres ningún animal que gimotea. ¿No recuerdas lo que eres en realidad? ¿Lo que somos en realidad?». Después, sin imponerte más castigo, se marcha y te deja solo con fragmentos de tu vida anterior.</p><ul><li>Agnes Baker obtiene una cantidad de experiencia igual al total de los valores de Victoria X de las cartas de la zona de victoria, o bien igual a la cantidad de recuerdos que hubiera recuperado al final de la partida, lo que sea mayor.</li><li>Los demás investigadores solo obtienen una cantidad de experiencia igual al total de los valores de Victoria X de las cartas de la zona de victoria.<ul><li>*Experiencia*: {xp}</li></ul></li><li>Agnes Baker <b>debe</b> mejorar Recuerdo oscuro a su versión avanzada, o bien devolver la versión avanzada de la Herencia de Hiperbórea a su versión original.</li></ul>"
+    },
+    "label": {
+      "chooseSwap": "Agnes Baker puede mejorar la Herencia de Hiperbórea a su versión avanzada, o bien devolver la versión avanzada de Recuerdo oscuro a su versión original",
+      "mustSwap": "Agnes Baker debe mejorar Recuerdo oscuro a su versión avanzada, o bien devolver la versión avanzada de la Herencia de Hiperbórea a su versión original",
+      "upgradeHeirloomOfHyperborea": "Mejorar la Herencia de Hiperbórea a su versión avanzada",
+      "downgradeHeirloomOfHyperborea": "Devolver la versión avanzada de la Herencia de Hiperbórea a su versión original",
+      "upgradeDarkMemory": "Mejorar Recuerdo oscuro a su versión avanzada",
+      "downgradeDarkMemory": "Devolver la versión avanzada de Recuerdo oscuro a su versión original",
+      "doNotSwap": "No hacer el cambio"
+    },
+    "xp": {
+      "memories": "Recuerdos que recuperó Agnes Baker"
+    }
+  }
+}

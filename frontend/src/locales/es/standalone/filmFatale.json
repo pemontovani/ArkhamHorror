@@ -1,0 +1,157 @@
+{
+  "tokens": {
+    "easyStandard": {
+      "skull": "-X. X es el número del Plan en curso más 1.",
+      "cultist": "-3 (en vez de eso, -5 si hay un Enemigo _Monstruo_ en tu Lugar).",
+      "tablet": "-3. Si hay un Enemigo _Saturniano_ en tu Lugar, revela otra ficha.",
+      "elderThing": "-3. Si fracasas y hay un Enemigo _Dinosaurio_ en tu Lugar, prepara ese Enemigo. Ese Enemigo te ataca."
+    },
+    "hardExpert": {
+      "skull": "-X. X es el número del Plan en curso más 2.",
+      "cultist": "-4 (en vez de eso, -6 si hay un Enemigo _Monstruo_ en tu Lugar).",
+      "tablet": "-4. Si hay un Enemigo _Saturniano_ en tu Lugar, revela otra ficha.",
+      "elderThing": "-4. Si fracasas y hay un Enemigo _Dinosaurio_ en tu Lugar, prepara ese Enemigo. Ese Enemigo te ataca."
+    }
+  },
+  "label": {
+    "andresRequest": {
+      "takeAndre": "Busca el Apoyo de historia André Patel puesto aparte y ponlo en juego bajo el control de cualquier investigador. No ocupa un hueco de aliado durante el resto del escenario.",
+      "setAside": "Elige un Atrezo para ponerlo aparte, fuera del juego"
+    },
+    "action": {
+      "option": "Cada investigador que esté en tu Lugar sufre 1 punto de daño y 1 punto de horror"
+    },
+    "breakALeg": {
+      "option": "Elegir y descartar un Apoyo _Objeto_ que no sea de historia y que controles"
+    },
+    "lostAsteroid": {
+      "pay": "Pagar 4 recursos para tener éxito automáticamente"
+    },
+    "tarPit": {
+      "option": "Descartar un Apoyo _Aliado_ o _Calzado_ que controles"
+    },
+    "jungleRiver": {
+      "option": "Descartar un Apoyo _Arma_ o _Ropa_ que controles"
+    },
+    "allosaurus": {
+      "option": "El Alosaurio derrota un Apoyo _Aliado_ que controles"
+    }
+  },
+  "tooltips": {
+    "rocketShip": {
+      "move": "¡Despegue!"
+    },
+    "ruinsOfTheSerpentKing": {
+      "exhaustEnemy": "Elige un Enemigo que esté en las Ruinas del rey serpiente y gasta X pistas, donde X es el valor de combate de ese Enemigo: Agota ese Enemigo.",
+      "attemptToWrestStaff": "Intentas arrancar el báculo del altar."
+    },
+    "castleHallways": {
+      "haunted": "Elige y descarta de tu mano 1 carta que tenga al menos 1 icono de habilidad de {'{'}intellect{'}'}. Si no puedes, prepara a La contessa y muévela a este Lugar."
+    },
+    "moonlitGarden": {
+      "haunted": "Cura 2 puntos de daño al Enemigo más cercano. Si este efecto no ha curado ningún daño, prepara a La contessa y muévela a este Lugar."
+    },
+    "catacombs": {
+      "haunted": "Prepara al Enemigo más cercano. Se mueve y ataca como si fuera la fase de Enemigos."
+    }
+  },
+  "remembered": {
+    "theInvestigatorsMadeTheirCallTime": "Los investigadores llegaron a tiempo"
+  },
+  "intro": {
+    "title": "Film Fatale",
+    "body": "<p>Has llegado a Hollywood a petición de tu contacto, el actor de cine mudo André Patel. Según André, en el Solar C está ocurriendo algo extraño. Han desaparecido cámaras y elementos de atrezo, y una sucesión de accidentes casi ha paralizado la producción. Entre los miembros del reparto corre el rumor de que las películas están «malditas». Nada de ello se tomó en serio hasta que apareció sin vida una persona del reparto.</p><p>El sol de última hora de la tarde cae a plomo sobre el pavimento ardiente mientras buscas a André entre el gentío. Media docena de figurantes con máscaras de alienígena pasan a toda prisa por tu lado, seguidos de un tramoyista que arrastra en una carreta una enorme pata de dinosaurio. Por fin lo divisas al otro lado del solar, junto a un trío de hombres lobo. Se le iluminan los ojos y, en cuanto te ve, cruza el ajetreado solar a grandes zancadas.</p><p>—¡Por fin! —Hace una reverencia—. Creía que no ibas a llegar nunca. ¡Y justo a tiempo, además! Sígueme, por favor.</p><p>Mientras la estrella del cine mudo te guía por el solar, vislumbras los distintos platós. En _Viaje cósmico_ hay un cohete de aspecto barato, un mago con túnica y unos extraterrestres «saturnianos». Por su parte, _La isla olvidada_ está repleta de pirámides pintadas con tosquedad y de gigantescos dinosaurios de cartón piedra. Cuando pasas junto al decorado de terror gótico de _La contessa abominable_, de él sale un grito que hiela la sangre.</p><p>—No creo que los percances de estos días sean simple mala suerte —dice André con gravedad—. Por desgracia, con mi fama me resulta difícil que el reparto y el equipo me den una respuesta franca. Nadie quiere contarle a la estrella que algo va mal en el rodaje. Por eso necesito que preguntes por los platós. Averigua qué creen que está pasando en realidad. —El semblante de André se anima—. La verdad es que esto podría resultar muy divertido. Espero que estés a la altura.</p>"
+  },
+  "setup": {
+    "gatherSets": "Reúne todas las cartas del conjunto de Encuentros *Film Fatale*. Este conjunto se identifica con el siguiente icono:<section class='encounter-sets'><img src='{setImgPath}/film-fatale.png' /></section>",
+    "placeLocations": "Pon en juego el Estudio central, con el lado (*Silencio en plató*) boca arriba. Pon en juego el Plató espacial, el Plató de selva y el Plató gótico.",
+    "beginPlay": "Cada investigador comienza la partida en el Estudio central.",
+    "props": "Reúne los tres Apoyos _Atrezo_, barájalos y colócalos boca abajo, formando un montón, debajo del Estudio central.",
+    "setOutOfPlay": "Pon aparte, fuera del juego, el Apoyo de historia André Patel.",
+    "setSetsOutOfPlay": "Pon aparte, fuera del juego, los siguientes conjuntos de Encuentros: *Viaje cósmico*, *La isla olvidada* y *La contessa abominable*. Estos conjuntos se identifican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/cosmic-journey.png' /><img src='{setImgPath}/forgotten-island.png' /><img src='{setImgPath}/abominable-contessa.png' /></section>",
+    "note": "(Nota: *si juegas* Film Fatale *como historia secundaria, usa la bolsa de caos del escenario independiente en lugar de la bolsa de caos de tu campaña mientras dure el escenario*.)",
+    "begin": "Ya está todo listo para comenzar."
+  },
+  "interlude": {
+    "instructions": "Comprueba la zona de victoria. Si hay tres Apoyos _Atrezo_ en la zona de victoria, añade una ficha «0» a la bolsa de caos y elige un Atrezo para ponerlo aparte, fuera del juego. A continuación, si…",
+    "heliosTelescope": "…el Telescopio Helios no está en la zona de victoria, continúa en _Viaje cósmico_",
+    "staffOfTheSerpent": "…el Báculo de la serpiente no está en la zona de victoria, continúa en _La isla olvidada_",
+    "accursedCape": "…la Capa maldita no está en la zona de victoria, continúa en _La contessa abominable_.",
+    "aCosmicJourney": {
+      "body": "<p>_Viaje cósmico_: —La verdad es que aquí siempre parece que nos falta un figurante —observa André.</p><p>En el plató reina el silencio mientras buscáis el principal elemento de atrezo de _Viaje cósmico_. Según algunos testimonios, han estallado misteriosamente varios incendios, todos ellos cerca del Telescopio Helios. Tras varios minutos de búsqueda, un gruñido metálico y grave rompe el silencio. Viene del cohete. André apoya una mano en el casco de madera.</p><p>—Está caliente —dice en voz baja.</p><p>La nave traquetea cuando la estrella de cine abre la escotilla.</p><p>Entras detrás de André y sientes que tus pasos resuenan sobre metal macizo. Lo que descubres en el interior desafía toda explicación. La nave es mucho más grande y compleja por dentro que por fuera; sus paredes de paneles están cubiertas de tubos metálicos y consolas luminosas. Sigues a André hasta una tapa de objetivo hecha pedazos en el suelo.</p><p>—Esto formaba parte del telescopio, pero ¿dónde está el resto? —pregunta.</p><p>Como en respuesta, el cohete cobra vida con una sacudida.</p><p>Corres hasta un ojo de buey, miras afuera y ves el vacío del espacio profundo, salpicado de estrellas. André mira al exterior sin dar crédito.</p><p>—Me parece que ya no estamos en Hollywood.</p>",
+      "gatherSets": "Reúne el conjunto de Encuentros *Viaje cósmico*. Este conjunto de Encuentros se identifica con el siguiente icono:<section class='encounter-sets'><img src='{setImgPath}/cosmic-journey.png' /></section>",
+      "set": "Descarta todos los Enemigos que haya en juego. Mueve a cada investigador al Plató espacial y pon aparte, fuera del juego, todos los demás Lugares _Plató_, descartando todas las fichas y cartas que haya en ellos.",
+      "locations": "Pon en juego todos los Lugares del conjunto de Encuentros *Viaje cósmico*",
+      "rocketShip": "Pon en juego el Apoyo de historia Cohete en el Plató espacial. Cada investigador entra en el Cohete.",
+      "placeClues": "Coloca pistas en el Plató espacial hasta igualar su valor de pistas.",
+      "saturniteMonarch": "Pon en juego el Enemigo Monarca saturniano en el Bastión del gobernante supremo, con el lado (*Anfitrión atento*) boca arriba.",
+      "acts": "Añade el Acto 2a: Viaje cósmico y el Acto 3a: De donde vinieron al mazo de Acto actual.",
+      "storyAsset": "Pon en juego, junto al mazo de Acto, el Apoyo de historia Telescopio Helios puesto aparte.",
+      "shuffleRemaining": "Añade al mazo de Encuentros todas las cartas restantes del conjunto de Encuentros *Viaje cósmico*, junto con la pila de descarte de Encuentros, y barájalo.",
+      "reelDeck": "Reúne todas las cartas de Encuentro de una sola cara de los conjuntos de Encuentros *La isla olvidada* y *La contessa abominable* puestos aparte. Barájalas para formar el «mazo de carrete». Coloca el mazo de carrete junto a la carta de referencia de escenario.",
+      "tokens": "Añade 2 fichas {'{'}tablet{'}'} a la bolsa de caos.",
+      "continue": "Continuad la partida."
+    },
+    "theForgottenIsland": {
+      "body": "<p>_La isla olvidada_: André te sigue por los decorados de _La isla olvidada_: follaje de plástico, césped verde de mala calidad, el siseo de una máquina de niebla. Según André, a un miembro de la producción lo encontraron balbuceando en el plató, con el elemento de atrezo emblemático de la película, el Báculo de la serpiente, en la mano. Mientras buscas el objeto, empiezas a notar el suelo más blando bajo los pies. Bajas la vista y ves que el zapato se te hunde en una tierra húmeda y arcillosa. El aire se ha vuelto de una humedad sofocante y lo llenan el zumbido de las cigarras y los gritos de aves lejanas. Alzas la mirada y ves unas hojas verdes y espesas que ocultan en parte un luminoso cielo azul. Ya no estás en el plató de la selva, sino en la selva misma.</p><p>—¿Qué locura es esta? —André se enjuga la frente y da un respingo cuando una larga serpiente le pasa reptando sobre los zapatos y se pierde entre la maleza.</p><p>Retrocedes ante el reptil y, más allá, descubres un sendero sinuoso que se adentra en la selva. Alguien, o algo, huyó del Solar C y se aventuró en este otro mundo. Por lo que has oído, el elemento de atrezo desaparecido parece estar en el centro de este extraño fenómeno.</p>",
+      "gatherSets": "Reúne el conjunto de Encuentros *La isla olvidada*. Este conjunto de Encuentros se identifica con el siguiente icono:<section class='encounter-sets'><img src='{setImgPath}/forgotten-island.png' /></section>",
+      "set": "Descarta todos los Enemigos que haya en juego. Mueve a cada investigador al Plató de selva y pon aparte, fuera del juego, todos los demás Lugares _Plató_, descartando todas las fichas y cartas que haya en ellos.",
+      "locations": "Pon en juego todos los Lugares del conjunto de Encuentros *La isla olvidada*.",
+      "seals": "Coloca 4 recursos en las Ruinas del rey serpiente, como sellos. Pon en juego en las Ruinas del rey serpiente el Apoyo de historia Báculo de la serpiente puesto aparte.",
+      "allosaurus": "Haz aparecer el Enemigo de doble cara Alosaurio en el Rio de selva, con el lado (*Depredador indómito*) boca arriba.",
+      "acts": "Añade el Acto 2a: La isla olvidada y el Acto 3a: Destruir la fuente al mazo de Acto actual.",
+      "shuffleRemaining": "Añade al mazo de Encuentros todas las cartas restantes del conjunto de Encuentros *La isla olvidada*, junto con la pila de descarte de Encuentros, y barájalo.",
+      "reelDeck": "Reúne todas las cartas de Encuentro de una sola cara de los conjuntos de Encuentros *Viaje cósmico* y *La contessa abominable* puestos aparte. Barájalas para formar el «mazo de carrete». Coloca el mazo de carrete junto a la carta de referencia de escenario.",
+      "tokens": "Añade 2 fichas {'{'}elderThing{'}'} a la bolsa de caos.",
+      "continue": "Continuad la partida."
+    },
+    "theAbominableContessa": {
+      "body": "<p>_La contessa abominable_: —Se rumorea que algunos intérpretes de esta producción se han metido demasiado en su papel. Pero hay más. La semana pasada, sin ir más lejos, la Capa maldita de la contessa estuvo a punto de estrangular a alguien del equipo de ayudantes... y eso que ni siquiera la llevaba puesta —dice André mientras te conduce al plató de _La contessa abominable_.</p><p>Una luna pálida brilla en un cielo pintado y proyecta largas sombras sobre un campo de tumbas. El telón de fondo representa un lúgubre castillo gótico con torres puntiagudas, gárgolas burlonas y vidrieras. La vista se te empieza a nublar mientras el decorado se deforma ante tus ojos. El castillo y sus alrededores cobran nitidez. Alzas la vista y ves que el techo del plató ha desaparecido, sustituido por un cielo estrellado, y que un bosque inmenso ocupa el lugar de las paredes. Por encima de todo se cierne el oscuro castillo, de pronto real.</p><p>—Esto es imposible —dice André contemplando el desolado paisaje.</p><p>Antes de que puedas responder, un aullido rompe la quietud. De los árboles cercanos surgen varias figuras de pesadilla. Corréis colina arriba para refugiaros en el ominoso castillo. Cuando las enormes puertas se cierran de golpe a vuestra espalda, una risa desquiciada resuena por el vasto vestíbulo. De entre las sombras sale una mujer bellísima, de tez pálida y labios rojos como la sangre. Sostiene en una mano una gran copa.</p><p>—Bienvenidos a mi humilde hogar. Soy la contessa Demetriou. Supongo que venís al banquete. Por desgracia, ¡el menú sois vosotros!</p><p>Entre carcajadas, se esfuma en una nube de murciélagos.</p><p>Mientras fuera arrecian los dientes que rechinan y las garras que arañan, André se vuelve hacia ti.</p><p>—En el rodaje corrían rumores extraños sobre esa capa, y ahora la lleva la contessa. Quizá, si se la quitamos, podamos poner fin a... todo esto —dice, y señala cuanto os rodea.</p>",
+      "gatherSets": "Reúne el conjunto de Encuentros *La contessa abominable*. Este conjunto de Encuentros se identifica con el siguiente icono:<section class='encounter-sets'><img src='{setImgPath}/abominable-contessa.png' /></section>",
+      "set": "Descarta todos los Enemigos que haya en juego. Mueve a cada investigador al Plató gótico y pon aparte, fuera del juego, todos los demás Lugares _Plató_, descartando todas las fichas y cartas que haya en ellos.",
+      "locations": "Pon en juego todos los Lugares del conjunto de Encuentros *La contessa abominable*.",
+      "contessa": "Haz aparecer a La contessa en el Trono de sangre, con el lado (*Innecesariamente engreída*) boca arriba.",
+      "placeClues": "Coloca pistas en el Plató gótico hasta igualar su valor de pistas.",
+      "acts": "Añade el Acto 2a: La contessa abominable y el Acto 3a: Baño de sangre al mazo de Acto.",
+      "shuffleRemaining": "Añade al mazo de Encuentros todas las cartas restantes del conjunto de Encuentros *La contessa abominable*, junto con la pila de descarte de Encuentros, y barájalo.",
+      "reelDeck": "Reúne todas las cartas de Encuentro de una sola cara de los conjuntos de Encuentros *Viaje cósmico* y *La isla olvidada* puestos aparte. Barájalas para formar el «mazo de carrete». Coloca el mazo de carrete junto a la carta de referencia de escenario.",
+      "tokens": "Añade 2 fichas {'{'}cultist{'}'} a la bolsa de caos.",
+      "continue": "Continuad la partida."
+    }
+  },
+  "resolutions": {
+    "xp": {
+      "bonus": {
+        "score": "Por haber llegado a tiempo"
+      }
+    },
+    "noResolution": {
+      "title": "Sin resolución",
+      "body": "<p>_Si no se ha llegado a ninguna resolución (todos los investigadores han sido derrotados):_ Sea cual sea la locura que se ha apoderado del Solar C, también te ha atrapado a ti. Te cuesta recordar quién eras antes de lo ocurrido hoy. ¿Eres tú? ¿O solo estás interpretando un papel? Mientras intentas descubrir la verdad, empiezan a aparecer los títulos de crédito.</p><ul><li>Cada investigador debe buscar en la colección una Debilidad básica _Locura_ o _Defecto_ al azar y añadirla permanentemente a su mazo. Esta carta no cuenta para el tamaño de mazo de ese investigador.</li><li>Continúa en _Fin_.</li></ul>"
+    },
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<p>_Resolución 1:_ Enfurecido, el monarca dispara a lo loco el Telescopio Helios contra decorados y figurantes por igual. Mientras huyes del lugar, vuelves la vista atrás y ves que André desaparece al paso de un haz caleidoscópico. Una vez fuera, no oyes más que un chasquido insidioso que sale del Solar C. Suena casi como una risa.</p><ul><li>Retira de la partida el Apoyo de historia André Patel.</li><li>Continúa en _Fin_.</li></ul>"
+    },
+    "resolution2": {
+      "title": "Resolución 2",
+      "body": "<p>_Resolución 2_: André te da unas palmadas en la espalda y se frota los ojos con un suspiro.</p><p>—<i>Bien joué, mon ami</i>. No habría sobrevivido a esto sin ti.</p><p>Sostienes entre las manos el telescopio, ya inerte, mientras tu mente vaga hacia las cosas asombrosas que acabas de ver. Saturno, las criaturas alienígenas y la inmensidad del espacio. No te hará falta ver _Viaje cósmico_ cuando se estrene: ya lo has vivido.</p><ul><li>Continúa en la _Resolución 5_.</li></ul>"
+    },
+    "resolution3": {
+      "title": "Resolución 3",
+      "body": "<p>_Resolución 3_: —¡Qué criaturas tan gigantescas! —exclama André—. Jamás creí que fuera posible presenciar algo así. Y tú... has estado sencillamente magistral. De verdad, no sé cómo agradecértelo.</p><p>La estrella de cine no parece alterada en lo más mínimo por los horrores extraños y portentosos con los que os habéis topado. Los restos de la gema del báculo yacen hechos añicos a tus pies. Quizá Hollywood no sea lo tuyo, piensas.</p><ul><li>Continúa en la _Resolución 5_.</li></ul>"
+    },
+    "resolution4": {
+      "title": "Resolución 4",
+      "body": "<p>_Resolución 4_: André se sacude del chaleco una gruesa capa de tierra de tumba y empieza a juguetear con su bastón.</p><p>—No estoy seguro, pero puede que _La contessa abominable_ acabe de perder a su protagonista. Sigo sin entender muy bien qué ha pasado, ni por qué, pero me alegro de que estuvieras aquí para ayudar.</p><ul><li>Continúa en la _Resolución 5_.</li></ul>"
+    },
+    "resolution5": {
+      "title": "Resolución 5",
+      "body": "<p>_Resolución 5_: Horas más tarde encuentras a André de pie junto a Erika Strand, la productora. Está sentada contra la pared, con la cabeza entre las manos.</p><p>—¿Un mal día, amiga mía?</p><p>André se agacha y deja a su lado una taza de té humeante. Tras un sorbo indeciso, Erika lo mira.</p><p>—¿Qué ha pasado? ¿Y por qué me siento como si acabara de perder un combate de lucha contra un tren? —pregunta.</p><p>André la observa mientras la aprensión deja paso a la curiosidad.</p><p>—No estoy seguro, pero desde luego no eras tú. Supongo que tenemos mucho de que hablar.</p><p>Erika asiente mientras la estrella de cine le relata los extraños y fantásticos sucesos del día. Al terminar la historia, André coge de golpe el sombrero y el bastón de una mesa cercana.</p><p>—Debo irme. Al parecer, el misterio aún no está del todo resuelto, pero os digo a todos <i>adieu</i>.</p><p>Justo cuando cruza la puerta, el actor se vuelve y sonríe con picardía.</p><p>—<i>Nous nous reverrons, mon ami</i>.</p><ul><li>Continúa en _Fin_.</li></ul>"
+    },
+    "fin": {
+      "title": "Fin",
+      "body": "<p>_Fin_: En algún lugar a lo lejos, una risa retorcida rasga el aire. Al cabo de unos instantes se detiene y grita: «¡... y corten! Hemos terminado».</p><ul><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.<ul><li>Si «los investigadores llegaron a tiempo», cada investigador obtiene 1 punto de experiencia adicional.</li><li>_Experiencia_: {xp}</li></ul></li><li>Si el Apoyo de historia André Patel estaba bajo el control de un investigador cuando terminó el escenario, cualquier investigador puede añadirlo a su mazo durante el resto de su campaña. Este Apoyo no cuenta para el tamaño de mazo de ese investigador.</li><li>Si estás jugando en modo de campaña, restablece la bolsa de caos de tu campaña.</li></ul>"
+    }
+  }
+}

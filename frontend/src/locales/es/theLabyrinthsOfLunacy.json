@@ -1,0 +1,22 @@
+{
+  "key": {
+    "[groupA]": {
+      "orderKey": "a",
+      "title": "Grupo A",
+      "theGroupEscapedTheLabyrinth": "Escapó del laberinto",
+      "theGroupPerished": "Pereció en el laberinto"
+    },
+    "[groupB]": {
+      "orderKey": "b",
+      "title": "Grupo B",
+      "theGroupEscapedTheLabyrinth": "Escapó del laberinto",
+      "theGroupPerished": "Pereció en el laberinto"
+    },
+    "[groupC]": {
+      "orderKey": "c",
+      "title": "Grupo C",
+      "theGroupEscapedTheLabyrinth": "Escapó del laberinto",
+      "theGroupPerished": "Pereció en el laberinto"
+    }
+  }
+}

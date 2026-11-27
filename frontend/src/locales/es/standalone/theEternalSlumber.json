@@ -1,0 +1,72 @@
+{
+  "tokens": {
+    "easyStandard": {
+      "skull": "-X. X es la fuerza del Abismo.",
+      "cultist": "Revela otra ficha. Si fracasas y la fuerza del Abismo es 3 o menos, añade 1 punto de fuerza al Abismo.",
+      "tablet": "0. Ignora todas las bonificaciones a tu valor de habilidad para esta prueba de habilidad.",
+      "elderThing": "-5. En lugar de eso, puedes añadir 1 punto de fuerza al Abismo para tener éxito automáticamente."
+    },
+    "hardExpert": {
+      "skull": "-X. X es la fuerza del Abismo más 1.",
+      "cultist": "Revela otra ficha. Si fracasas y la fuerza del Abismo es 5 o menos, añade 1 punto de fuerza al Abismo.",
+      "tablet": "-2. Ignora todas las bonificaciones a tu valor de habilidad para esta prueba de habilidad.",
+      "elderThing": "-6. En lugar de eso, puedes añadir 1 punto de fuerza al Abismo para tener éxito automáticamente."
+    }
+  },
+  "label": {
+    "elderThing": {
+      "addStrength": "Añadir 1 punto de fuerza al Abismo para tener éxito automáticamente"
+    }
+  },
+  "remembered": {
+    "foundADoorMarkedWithBlood": "Has encontrado una puerta marcada con sangre",
+    "boughtAnOddTrinket": "Has comprado una extraña baratija",
+    "discoveredAnAncientTablet": "Has descubierto una antigua tablilla",
+    "sabotagedTheTrain": "Has saboteado el tren",
+    "brokenIntoADesertedTemple": "Te has colado en un templo desierto"
+  },
+  "intro": {
+    "title": "El letargo eterno",
+    "body": "<p class='billenia'>*Saludos:*</p><p class='billenia'>*Lo siento, sé que ha pasado algún tiempo desde mi última carta. Os escribo ahora porque no hay nadie en quien pueda confiar aquí, en El Cairo. Ni siquiera sé si esta carta os llegará sana y salva. Solo puedo esperar que así sea, por el bien de todos.*</p><p class='billenia'>*Algo va mal en esta ciudad. Empezó hace unas semanas. El conservador jefe del Museo de Antigüedades Egipcias se quedó dormido y, sencillamente, no despertó. Al principio no le di importancia; una curiosidad médica sin más, un misterio que los doctores resolverían a su debido tiempo. Pero entonces volvió a ocurrir... Y otra vez. Cada vez había más gente por toda la ciudad que caía en coma. Ahora ocurre cada noche... Y mientras os escribo, están llevando al hospital a mi marido, John.*</p><p class='billenia'>*Tengo miedo. No quiero dormirme y no volver a despertar. Pero, sobre todo, me preocupa que haya quien esté infligiendo esta maldición a los demás a propósito. Y, si es así, ¿por qué?*</p><p class='billenia'>*Por favor, os lo suplico. Necesito vuestra ayuda.*</p><p class='billenia'>*Atentamente,*</p><p class='billenia' style='font-weight:500;font-size:1.8em;'>*Jessie Burke*</p>"
+  },
+  "setup": {
+    "gatherSets": "Reúne los siguientes conjuntos de Encuentros: *El letargo eterno*, *Arenas de Egipto*, *La Hermandad de la bestia* y *Tributo abisal*. Estos conjuntos se identifican respectivamente con los siguientes iconos: <section class='encounter-sets'><img src='{setImgPath}/eternal-slumber.png' /><img src='{setImgPath}/sands-of-egypt.png' /><img src='{setImgPath}/brotherhood-of-the-beast.png' /><img src='{setImgPath}/abyssal-tribute.png' /></section>",
+    "placeLocations": "Pon en juego los siguientes Lugares: Calles de El Cairo, Afueras de El Cairo, Patio del Templo, Museo de Antigüedades Egipcias, Bazar de El Cairo y Campamento de expedición.",
+    "startAt": "Cada investigador comienza la partida en las Calles de El Cairo.",
+    "setAside": "Pon aparte, fuera del juego, las siguientes cartas: Neith, John y Jessie Burke, Anj antiguo, las dos copias de Resucitado abisal y cada uno de los 7 Lugares de una sola cara (Río Nilo, Arenas de Dashur, Dunas del Sahara, Cámara intacta, Esfinge sin rostro, Oasis del desierto y Ruinas azotadas por la arena).",
+    "brotherhood": "Busca los 6 Enemigos _Hermandad_ de doble cara (Profesor Nathaniel Taylor, Dr. Layla El Masri, Dr. Wentworth Moore, Nadia Nimr, Farid y Nassor). Estos Enemigos tienen cartas de Historia en el reverso. Para disfrutar de la mejor experiencia, no mires las cartas de Historia de sus reversos. Baraja juntos estos 6 Enemigos y colócalos debajo de la carta de referencia de escenario.",
+    "strengthOfTheAbyss": "Por cada investigador que haya en la partida, coloca 1 ficha de Recurso en la carta de referencia de escenario, bajo «Fuerza del Abismo». Durante el resto del escenario, los recursos de la carta de referencia de escenario representan la fuerza actual del Abismo."
+  },
+  "resolutions": {
+    "noResolution": {
+      "title": "Sin resolución",
+      "body": "<p>_Si no se ha llegado a ninguna resolución (todos los investigadores han desistido o han sido derrotados)_: la ciudad de El Cairo duerme y jamás despertará. En el oeste, la Hermandad lo celebra, pues su profecía está a punto de cumplirse. Y en lo más profundo de las Tierras del Sueño, su Elegido empuña su arma por primera vez.</p><ul><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.</li><li>En tu registro de campaña, anota *Soñadores en el Abismo (X)*. X es la fuerza del Abismo en el momento en que terminó el escenario.</li><li>En tu registro de campaña, anota *Agentes de la Hermandad que escaparon*: y escribe el nombre de cada Enemigo _Sectario_ único que estuviera en juego o debajo de la carta de referencia de escenario cuando terminó la partida.</li><li>En tu registro de campaña, anota que *las intrigas de la Hermandad continúan sin freno*.</li></ul>"
+    },
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<p>_Resolución 1_: Jessie Burke llora de alegría cuando su marido abre los ojos por primera vez en semanas. «¿J... Jessie?». John tiembla mientras intenta ponerse en pie sin conseguirlo. Su esposa le apoya una mano en el hombro para sostenerlo. «Pensé que no despertarías jamás», reconoce mientras se seca las lágrimas. «De no ser por quienes nos acompañan, seguirías así». John se vuelve hacia vosotros con expresión sombría. «Entonces solo vosotros podéis detener lo que se avecina», dice enigmáticamente. «Lo he visto en sueños. Aquel a quien llaman Xzharah». Traga saliva con dificultad. «Y no se parece a nada que hayamos visto antes».</p><ul><li>En tu registro de campaña, anota que *se levantó la maldición del letargo*. Tacha todas las anotaciones *«(nombre de la carta) fue atrapado/a por el Abismo»* de tu registro de campaña.</li><li>Un investigador cualquiera puede decidir añadir a John y Jessie Burke a su mazo. Esta carta no cuenta para el tamaño de mazo de ese investigador.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.</li><li>En tu registro de campaña, anota *Soñadores en el Abismo (X)*. X es la fuerza del Abismo en el momento en que terminó el escenario.</li><li>En tu registro de campaña, anota *Agentes de la Hermandad que escaparon*: y escribe el nombre de cada Enemigo _Sectario_ único que estuviera en juego o debajo de la carta de referencia de escenario cuando terminó la partida.</li></ul>"
+    },
+    "resolution2": {
+      "title": "Resolución 2",
+      "body": "<p>_Resolución 2_: Neith se pone en pie. Ha perdido casi todo su poder, pero la fuerza de varios soñadores aún la sostiene. «Llevan siglos planeándolo. Se acerca su día del ajuste de cuentas. Nada puede impedirlo. Ni yo. Y desde luego tampoco vosotros». Adviertes que habla como si fuera ajena a todo ello, e insistes. «¿Crees que tuve elección?», dice con desdén. «Nadie puede resistirse a Xzharah. Ya lo verás. Doblegará tu voluntad como doblegó la mía». Su sombra crece y se retuerce, deforme. «Lo que quiere es el Abismo. Si deseas detenerlo, ve al oeste. Xzharah aguarda al otro lado del Portal». La sombra de Neith devora su cuerpo por completo y ella se desvanece. Solo queda su amuleto.</p><ul><li>En tu registro de campaña, anota que *conoces los planes de Xzharah*.</li><li>Un investigador cualquiera puede decidir añadir el Anj antiguo a su mazo. No cuenta para el tamaño de mazo de ese investigador.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.</li><li>En tu registro de campaña, anota *Soñadores en el Abismo (X)*. X es la fuerza del Abismo en el momento en que terminó el escenario.</li><li>En tu registro de campaña, anota *Agentes de la Hermandad que escaparon*: y escribe el nombre de cada Enemigo _Sectario_ único que estuviera en juego o debajo de la carta de referencia de escenario cuando terminó la partida.</li></ul>"
+    }
+  },
+  "specialRules": [
+    {
+      "title": "@:standalone.guardiansOfTheAbyss.rules.storyCards.title",
+      "body": "@:standalone.guardiansOfTheAbyss.rules.storyCards.body"
+    },
+    {
+      "title": "@:standalone.guardiansOfTheAbyss.rules.strengthOfTheAbyss.title",
+      "body": "@:standalone.guardiansOfTheAbyss.rules.strengthOfTheAbyss.body"
+    },
+    {
+      "title": "@:standalone.guardiansOfTheAbyss.rules.takenByTheAbyss.title",
+      "body": "@:standalone.guardiansOfTheAbyss.rules.takenByTheAbyss.body"
+    },
+    {
+      "title": "Explorar",
+      "body": "<p class='basic'>Algunas capacidades de *Guardianes del Abismo* se identifican con el tipo de acción _Explorar_. Estas capacidades suelen usarse para encontrar nuevos Lugares que poner en juego, y se inician mediante la acción «activar».</p><p class='basic'>Las capacidades _Explorar_ te indican que robes la primera carta del «mazo de Exploración», que es un mazo aparte que se crea durante este escenario. Este mazo se compone de varios Lugares de una sola cara y de cartas de Traición.</p><ul><li>Cada capacidad _Explorar_ indica un tipo concreto de Lugar que intentas robar. _Si se roba un Lugar de ese tipo, se pone en juego y te mueves a él._ Se considera una exploración «con éxito».</li><li>Si se roba cualquier otro Lugar, colócalo junto al mazo de Exploración y roba la siguiente carta de ese mazo. Repite el proceso hasta que se robe un Lugar del tipo indicado o una Traición. Una vez terminada la acción, baraja de nuevo en el mazo de Exploración todos los Lugares que haya junto a él.</li><li>Si se roba una carta de Traición, se resuelve de la forma normal. Si se descarta, colócala en la pila de descarte de Encuentros como harías normalmente. El mazo de Exploración no tiene pila de descarte. Se considera una exploración «sin éxito».</li><li>Cuando un Lugar de una sola cara entre en juego desde el mazo de Exploración, coloca en él tantas pistas como indique su valor de pistas.</li></ul>"
+    }
+  ]
+}

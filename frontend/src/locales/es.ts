@@ -21,6 +21,7 @@ import theFeastOfHemlockVale from '@/locales/es/theFeastOfHemlockVale'
 import theDrownedCity from '@/locales/es/theDrownedCity'
 import brethrenOfAsh from '@/locales/es/brethrenOfAsh'
 import standalone from '@/locales/es/standalone'
+import theLabyrinthsOfLunacyLog from '@/locales/es/theLabyrinthsOfLunacy.json'
 
 // Anything missing here falls back to English key by key (fallbackLocale in
 // main.ts). Mirrors en.ts: `label` has to be nested -- the app asks for
@@ -50,4 +51,5 @@ export default
   , theDrownedCity
   , brethrenOfAsh
   , standalone
+  , theLabyrinthsOfLunacy: theLabyrinthsOfLunacyLog
   }

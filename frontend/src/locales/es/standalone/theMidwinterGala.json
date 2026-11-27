@@ -1,0 +1,176 @@
+{
+  "specialRules": [
+    {
+      "title": "@:standalone.theMidwinterGala.intro.score.title",
+      "body": "@:standalone.theMidwinterGala.intro.score.body"
+    },
+    {
+      "title": "Cartas de Historia",
+      "body": "<p class='basic'>Las cartas de Historia son un tipo de carta que se usa en este escenario. Estas cartas aportan texto narrativo y de juego adicional. Cualquier investigador puede activar las capacidades de las cartas de Historia que estén en juego.</p>"
+    },
+    {
+      "title": "@:standalone.theMidwinterGala.intro.guestStoryAssets.title",
+      "body": "@:standalone.theMidwinterGala.intro.guestStoryAssets.body"
+    },
+    {
+      "title": "@:standalone.theMidwinterGala.intro.spellbound.title",
+      "body": "@:standalone.theMidwinterGala.intro.spellbound.body"
+    },
+    {
+      "title": "Alerta",
+      "body": "<p class='basic'>Cada vez que un investigador fracase en una prueba de habilidad al intentar evitar a un Enemigo con la palabra clave Alerta, tras aplicar todos los resultados de esa prueba, ese Enemigo realiza un ataque contra el investigador que intenta evitarlo. Un Enemigo no se agota tras realizar un ataque de Alerta. Este ataque tiene lugar tanto si el Enemigo está enfrentado a ese investigador como si no.</p>"
+    },
+    {
+      "title": "Errante",
+      "body": "<p class='basic'>Algunos Enemigos tienen la palabra clave Errante. Durante la fase de Enemigos (en el paso de estructura 3.2), cada Enemigo preparado y sin enfrentar que tenga la palabra clave Errante se mueve a un Lugar conectado siguiendo la ruta más corta hacia el Lugar designado (descrito entre paréntesis junto a la palabra «Errante»).</p><ul><li>Si hay varios Lugares que puedan considerarse el Lugar designado, el investigador jefe puede elegir hacia qué Lugar se mueve el Enemigo.</li><li>Si un Enemigo con Errante tuviera que moverse a un Lugar bloqueado por la capacidad de una carta, el Enemigo no se mueve.</li></ul>"
+    }
+  ],
+  "tokens": {
+    "easyStandard": {
+      "skull": "-X. X es el número del Plan en curso.",
+      "cultist": "-X. X es la cantidad de Apoyos _Invitado_ que haya en tu Lugar (hasta un máximo de 5).",
+      "tablet": "-2 (en vez de eso, -4 si estás en un Lugar _Privado_).",
+      "elderThing": "-3. Si fracasas o si El Exangüe está en tu Lugar, recibe 1 punto de horror."
+    },
+    "hardExpert": {
+      "skull": "-X. X es el número del Plan en curso más 1.",
+      "cultist": "-X. X es la cantidad de Apoyos de historia que haya en tu Lugar.",
+      "tablet": "-3 (en vez de eso, -5 si estás en un Lugar _Privado_).",
+      "elderThing": "-4. Si fracasas o si El Exangüe está en tu Lugar, recibe 1 punto de horror."
+    }
+  },
+  "message": {
+    "viciousAmbush": {
+      "couldNotMove": "El Enemigo {enemy}, elegido por Emboscada violenta, no ha podido moverse"
+    }
+  },
+  "label": {
+    "theFoundation": "La Fundación",
+    "miskatonicUniversity": "Universidad Miskatonic",
+    "theSyndicate": "El Sindicato",
+    "theSilverTwilightLodge": "La Logia del Crepúsculo de Plata",
+    "localsOfKingsport": "Lugareños de Kingsport",
+    "lanternClubMember": {
+      "discard": "Gastar 2 recursos adicionales para descartarlo en su lugar"
+    }
+  },
+  "tooltips": {
+    "thePaleLanternBeguilingAura": {
+      "flip": "Dale la vuelta a una carta hechizada que haya en tu Lugar.",
+      "break": "Agota La Lámpara Mortecina: Haz una prueba de {'{'}combat{'}'} o de {'{'}agility{'}'} (2). Si tienes éxito, coloca 1 punto de daño sobre ella. Después, si tiene 4 puntos de daño, la rompes; añádela a la zona de victoria (ignorando su efecto _Obligado_) y dale la vuelta a cada carta hechizada."
+    }
+  },
+  "intro": {
+    "title": "La gala del ecuador del invierno",
+    "flavor": "<p>«Era la fiesta de Yule, que la gente llama Navidad aunque en el fondo sabe que es más antigua que Belén y Babilonia, más antigua que Menfis y que la humanidad. Era la fiesta de Yule, y yo había llegado por fin a la antigua ciudad marinera donde mi pueblo había morado y celebrado la fiesta en los tiempos remotos en que celebrarla estaba prohibido; donde además habían ordenado a sus hijos que la celebraran una vez cada siglo, para que no cayera en el olvido la memoria de los secretos primigenios».</p><p class='right'>– H. P. Lovecraft, «El ceremonial»</p>",
+    "body": "<p>Cae una nevada ligera cuando te bajas del taxi ante la fachada agrietada y erosionada de la vieja mansión de Kingsport. Otros invitados, algunas de las figuras más influyentes desde Arkham hasta Nueva York, pasan revoloteando a tu lado para presentar sus invitaciones al portero. Al entrar tras ellos, percibes un aroma a cedro y a flores dulces con un fondo de algo rancio.</p><p>—El Club de la Lámpara está encantado de contar con tu presencia —te dice con una sonrisa y mirada penetrante alguien del servicio, y te entrega la misma máscara de color blanco hueso que se lleva en toda la velada.</p><p>Con la sensación de no encajar, te pones la máscara y sigues a una anciana vestida a la última moda hasta un salón donde crepita el fuego. La estancia resultaría cálida y acogedora de no ser por la inquietante rareza de sus cuadros oníricos y sus esculturas macabras. Mirarlos hace que la cabeza te dé vueltas.</p><p>—Por favor, por favor, permítanme un momento. —Una voz estentórea retumba desde una sala contigua.</p><p>Sigues la voz de vuelta al suntuoso vestíbulo. En lo alto de la escalinata, un caballero de porte majestuoso, con la barba cuidadosamente recortada y una máscara de alabastro, alza su copa de champán.</p><p>—Soy Declan Pearce, nomarca del Club de la Lámpara. Síganme, por favor.</p><p>Los invitados le siguen a través de unas amplias puertas dobles hasta el salón de baile, en cuyo centro se exhibe, tras un grueso cristal, una gema resplandeciente. La alta sociedad se congrega a su alrededor, maravillada ante los remolinos de colores iridiscentes que se mueven como nubes dentro de los ángulos tallados de la Joya.</p><p>—Distinguidos invitados. Esta es la Joya de Sarnath —dice Declan Pearce con aire triunfal—. Una piedra como ninguna otra, que según se cuenta fue tallada en una ciudad antigua de costas lejanas. Las leyendas aseguran que puede conceder los deseos de quien la porta.</p><p>Unas risas dispersas siguen al comentario de Pearce, y el propio presidente contiene una risita.</p><p>—Sí, sí, lo sé. Por supuesto, el verdadero propósito de esta velada son ustedes. Hemos invitado únicamente a lo mejor, a lo más selecto de la sociedad de Nueva Inglaterra, para apelar a su espíritu caritativo. Quienes demuestren mayor distinción, o generosidad, quizá tengan permiso para sostener la Joya antes de que acabe la noche. Y ¿quién sabe? Tal vez los sueños sean reales y la Joya de Sarnath pueda conceder deseos. Pero hasta entonces, disfruten de nuestra pequeña fiesta.</p><p>Tras otra tanda de risas amables, Pearce da una palmada y una docena de camareros cargados de apetitosos aperitivos se despliega por la sala. Recorres el salón de baile con la mirada, esperando ver alguna señal del contacto que te ha traído hasta aquí. Un escalofrío te recorre la espalda cuando cruzas la mirada con una figura alta y enmascarada que está al fondo del gentío. Ladea despacio la cabeza hacia la derecha, un poco más de la cuenta. Te preguntas si estará sonriendo tras su máscara de color blanco hueso.</p><p>Al cabo de lo que parece una eternidad, el hombre aparta los ojos de ti para seguir escudriñando la sala. Reprimiendo un estremecimiento, buscas entre el corrillo de invitados. Tu invitación a la gala llegó en un paquete sin remite, junto con una nota que prometía una generosa compensación por tu ayuda para hacerte con la Joya de Sarnath. Al fin encuentras a tu misterioso contacto.</p>",
+    "guestChoice": "<p class='basic'>¿Quién es tu misterioso contacto? Los investigadores deben elegir qué facción ha solicitado su ayuda (*consejo: la facción que elijas determinará tus objetivos en este escenario*).</p><p class='basic'>_Los invitados:_</p><ul><li>Una mujer de aire severo con un traje bien cortado se apoya en la pared con los brazos cruzados. Parece que preferiría estar en un tiroteo antes que en esta fiesta tan recargada. Si ella es tu contacto, continúa en _La Fundación ({'{'}guardian{'}'})_.</li><li>Un hombre con aspecto de sagaz profesor se acaricia la perilla mientras estudia un cuadro. Reconoces en él a Caldwell Phillips, decano de la Universidad Miskatonic. Si él es tu contacto, salta a _Universidad Miskatonic ({'{'}seeker{'}'})_.</li><li>Un hombre atildado de cabello oscuro sacude la ceniza de su puro en la copa de champán de un desventurado invitado. Su mirada inquieta indica que está estudiando el terreno. Si él es tu contacto, salta a _El Sindicato ({'{'}rogue{'}'})_.</li><li>Captas por el rabillo del ojo el brillo de un anillo de sello. Al volverte, ves al prestigioso dirigente de la Logia del Crepúsculo de Plata, Carl Sanford, que conversa con un par de invitados enmascarados. Si él es tu contacto, salta a _La Logia del Crepúsculo de Plata ({'{'}mystic{'}'})_.</li><li>Un hombre alto y corpulento, de larga barba negra y abrigo curtido por la intemperie, está claramente fuera de lugar en esta gala tan extravagante. Lo recuerdas de la taberna La Soga y el Ancla, en Kingsport. Si él es tu contacto, salta a _Lugareños de Kingsport ({'{'}survivor{'}'})_.</li></ul>",
+    "theFoundation": "<p>_La Fundación:_ —Ah, has venido —dice la mujer con un leve acento ruso—. Soy la agente Valeriya Antonova. Estoy aquí en representación de las autoridades.</p><p>Cuando le preguntas qué autoridades, se limita a asentir.</p><p>—Sí. Las autoridades.</p><p>Te explica que ella y sus «autoridades» investigan unas extrañas desapariciones, en la zona y en el extranjero, y que sospechan que el Club de la Lámpara y Declan Pearce son los culpables. La agente parece relajarse mientras apura de un trago una copa de champán.</p><p>—También creemos que esa Joya puede ser el origen de ciertos fenómenos paracausales sumamente insólitos. Mantente alerta ante lo que sea.</p><p class='basic right'>Salta a _Preparación_</p>",
+    "miskatonicUniversity": "<p>_Universidad Miskatonic_: Te acercas al decano Phillips y te presentas. El cuadro que examinaba es de un realismo inquietante: representa a una criatura humanoide cubierta de pelo, con múltiples brazos, cada uno rematado en una garra.</p><p>—Gente de mucha imaginación, esta del Club de la Lámpara —dice entre risas—. Veo que recibiste mi misiva. Gracias por venir. Debo reconocer que la universidad siente algo más que curiosidad por estudiar esta antigua gema. Según se cuenta, la Joya estuvo guardada en un monasterio tibetano hasta que desapareció en el siglo XII. ¡No podía dejar pasar la oportunidad, sin más! —exclama—. Claro que, si hubiera alguna forma de examinar la Joya más a fondo…</p><p class='basic right'>Salta a _Preparación_</p>",
+    "theSyndicate": "<p>_El Sindicato:_ El hombre alza su copa en un brindis burlón cuando te acercas.</p><p>—Johnny Valone. Me alegro de que hayas podido venir a este arreglo comercial beneficioso para ambas partes.</p><p>Apura la bebida y entrega la copa vacía con toda naturalidad a alguien de la alta sociedad que pasa cerca y que se queda entre el desconcierto y la ofensa. Valone parece hacer oídos sordos a sus protestas mientras te conduce a un despacho desierto.</p><p>—Tu reputación te precede. O, mejor dicho, no te precede. Nadie sospechará que estás en el ajo, y por eso te he pedido ayuda para hacernos con la Joya esa de no sé qué. Es un buen golpe. Te prometo que haremos que te merezca la pena.</p><p class='basic right'>Salta a _Preparación_</p>",
+    "theSilverTwilightLodge": "<p>_La Logia del Crepúsculo de Plata:_ Carl Sanford no se presenta cuando te acercas.</p><p>—Muy bien —dice con naturalidad, y despide con un gesto a sus invitados enmascarados—. Como sin duda sabrás, los rumores sobre la Joya de Sarnath están muy extendidos en los círculos ocultistas de Arkham. Dada la… pintoresca historia de la Joya, sería una magnífica adquisición para la colección de la Logia. —El patriarca te mira por encima del hombro—. Aunque sospecho que aquí hay en juego mucho más de lo que se ve a simple vista. Por eso te he pedido que vengas. Consigue la Joya para la Logia y recibirás una recompensa en conocimiento y riquezas que supera tus sueños más descabellados.</p><p>Le preguntas por qué la Logia merece la Joya más que nadie, y sonríe con suficiencia.</p><p>—La mantendremos a salvo. Mucho más a salvo que en otras manos. No puedes ni empezar a comprender su poder.</p><p class='basic right'>Salta a _Preparación_</p>",
+    "localsOfKingsport": "<p>_Lugareños de Kingsport:_ —Me llamo Bain. William Bain. —El recio hombre te estrecha la mano con firmeza—. Me alegro de que hayas venido a esta fiestecita tan elegante. A decir verdad, no soy exactamente de aquí; lo que pasa es que este viejo puerto me tiene ganado el corazón.</p><p>El hombre esquiva con habilidad tus preguntas sobre sus orígenes y señala a la silenciosa figura enmascarada del rincón de la sala.</p><p>—Él es la razón por la que te he invitado. Lo llaman «El Exangüe». Lo que sea que el Club de la Lámpara tenga planeado para esta noche es sin duda obra suya. —El capitán suspira—. Nada bueno puede salir de esa extraña Joya. Solo la ruina. Al menos, mientras la tenga el Club de la Lámpara.</p><p>Tras hablarlo un rato más, accedes a ayudar a Bain a recuperar la Joya.</p><p class='basic right'>Continúa en _Preparación_</p>",
+    "score": {
+      "title": "Puntuación",
+      "body": "En *La gala del ecuador del invierno*, los investigadores pueden cumplir varias tareas para obtener puntos. Al final de la partida, sumarán su puntuación para ganar experiencia adicional y medir hasta qué punto han logrado frustrar las verdaderas intenciones del Club de la Lámpara. Mientras juegas este escenario, consulta la página 24 de este cuadernillo para ver con qué tareas puedes puntuar. ¡Intenta superar tu puntuación anterior en cada partida!"
+    },
+    "guestStoryAssets": {
+      "title": "Apoyos de historia Invitado",
+      "body": "Los Apoyos _Invitado_ son un tipo de Apoyo de historia que aparece en este escenario. Los investigadores pueden negociar con los Apoyos _Invitado_ para tomar su control. Los investigadores no pueden activar capacidades de Apoyos _Invitado_ que no controlen."
+    },
+    "spellbound": {
+      "title": "Hechizado",
+      "body": "<p class='basic'>Hechizado es un estado que puede afectar a los Apoyos _Invitado_. Cuando un Apoyo _Invitado_ queda hechizado (mediante el texto de una carta o del juego), los investigadores pierden su control, le dan la vuelta para ponerlo boca abajo y retiran de él todo el daño y el horror (dejando las demás fichas).</p><ul><li>Cuando un Apoyo _Líder_ fuese a quedar hechizado, en vez de eso retíralo de la partida.</li><li>Cuando se le dé la vuelta a una carta hechizada para ponerla boca arriba, prepárala (dejando todas sus fichas). Deja de estar hechizada.</li><li>No se puede interactuar con una carta hechizada a menos que un efecto de juego indique explícitamente otra cosa.</li></ul>"
+    }
+  },
+  "setup": {
+    "gatherSets": "Reúne todas las cartas del conjunto de Encuentros *La gala del ecuador del invierno*. Este conjunto se identifica con este icono: <section class='encounter-sets'><img src='{setImgPath}/the-midwinter-gala.png' /></section>",
+    "placeLocations": "Pon aparte, fuera del juego, los 3 Lugares de habitaciones del _Primer piso_. Pon en juego el Vestíbulo y la Sala de la Lámpara. Pon en juego al azar los 3 Lugares de habitaciones de la _Planta baja_, en fila a la derecha del Vestíbulo",
+    "startAt": "Cada investigador comienza la partida en el Vestíbulo.",
+    "allied": "La facción elegida en _Los invitados_ es tu facción «aliada». Pon aparte la carta de Historia de esa facción y, a continuación, pon en juego bajo el control de cualquier investigador la carta _Líder_ de esa facción, con el lado de Apoyo de historia boca arriba. Pon en juego boca arriba, al azar, uno de los 3 Apoyos _Invitado_ restantes de esa facción en cada Lugar de habitación de la _Planta baja_. Retira de la partida su carta _Rival_.",
+    "rival": "Pon aparte, fuera del juego, una de las otras 4 cartas de Historia de facción, elegida al azar, junto con la carta _Líder_ de esa facción y su carta _Rival_. Esta facción es tu «rival» durante la partida. Retira de la partida los 3 Apoyos _Invitado_ restantes de tu rival.",
+    "otherFactions": "Por cada una de las 3 facciones restantes, retira de la partida su carta de Historia de facción, su carta _Líder_ y su carta _Rival_.",
+    "guestDeck": "Baraja boca abajo los 9 Apoyos _Invitado_ restantes para formar el mazo de Invitados y colócalo junto al mazo de Acto.",
+    "placeGuests": "Pon en juego boca arriba las 3 primeras cartas del mazo de Invitados, colocando una en cada Lugar de habitación de la _Planta baja_.",
+    "theBloodlessMan": "Pon en juego el Enemigo El Exangüe (*Acechador silencioso*), agotado, en la Sala de la Lámpara, y vincúlale el Apoyo de historia La Lámpara Mortecina, con el lado (*Resplandor hipnótico*) boca arriba.",
+    "setAside": "Pon aparte, fuera del juego, cada una de las siguientes cartas: todos los Enemigos _Monstruo_, las dos copias de Emboscada violenta, el Enemigo Declan Pearce y el Apoyo de historia Joya de Sarnath.",
+    "shuffleRemainder": "Baraja las 23 cartas de Encuentro restantes para formar el mazo de Encuentros."
+  },
+  "theFabledJewel": {
+    "title": "La legendaria Joya",
+    "body": "<p class='basic'>_Lee lo siguiente solo cuando se te indique durante el escenario._</p><p>Tu contacto tiene más instrucciones sobre cómo hacerte con la Joya.</p><p class='basic'>Pon en juego, junto al mazo de Acto, la carta de Historia de la facción a la que te hayas aliado, puesta aparte, con el lado _Aliado_ boca arriba. Si te aliaste con…</p>",
+    "theFoundation": "<p class='basic'>_La Fundación ({'{'}guardian{'}'})_, pon en juego, agotado, el Enemigo Declan Pearce puesto aparte en la Sala de la Lámpara. Vincula el Apoyo Joya de Sarnath puesto aparte a El Exangüe (ignorando su efecto de _Revelación_). Si El Exangüe no está en juego, vincula la Joya de Sarnath a la Sala de la Lámpara.</p>",
+    "miskatonicUniversity": "<p class='basic'>_Universidad Miskatonic ({'{'}seeker{'}'})_, pon en juego el Enemigo Declan Pearce puesto aparte en el Lugar del _*Primer piso*_ que esté más a la derecha y vincúlale el Apoyo Joya de Sarnath puesto aparte (ignorando su efecto de _Revelación_).</p>",
+    "theSyndicate": "<p class='basic'>_El Sindicato ({'{'}rogue{'}'})_, baraja juntos la primera carta del mazo de Encuentros, el Apoyo Joya de Sarnath puesto aparte y el Enemigo Declan Pearce, y coloca al azar 1 de ellas boca abajo debajo de cada Lugar del _*Primer piso*_, como «misterios».</p>",
+    "theSilverTwilightLodge": "<p class='basic'>_La Logia del Crepúsculo de Plata ({'{'}mystic{'}'})_, añade la pila de descarte de Encuentros al mazo de Encuentros y barájalo. Toma las 7 primeras cartas del mazo de Encuentros, barájalas junto con el Apoyo Joya de Sarnath y el Enemigo Declan Pearce puestos aparte y coloca esas 9 cartas en la parte inferior del mazo de Encuentros. Si hay exactamente 2 investigadores sin derrotar, descarta las 6 primeras cartas del mazo de Encuentros. Si hay exactamente 1 investigador sin derrotar, descarta las 12 primeras cartas del mazo de Encuentros.</p>",
+    "localsOfKingsport": "<p class='basic'>_Lugareños de Kingsport ({'{'}survivor{'}'})_, pon en juego el Enemigo Declan Pearce puesto aparte en la Sala de la Lámpara y vincúlale el Apoyo Joya de Sarnath puesto aparte (ignorando su efecto de _Revelación_). Coloca 1{'{'}perPlayer{'}'} puntos de daño y 1 ficha de Perdición sobre ese Apoyo. Revela la primera carta del mazo de Invitados y ponla en juego en el Vestíbulo.</p>"
+  },
+  "resolutions": {
+    "noResolution": {
+      "title": "Sin resolución",
+      "body": "<p>Despiertas, helándote de frío, boca abajo en la nieve ante la majestuosa mansión del Club de la Lámpara.</p><p>La casa está desierta, y sus alegres ventanas se ven oscuras y amenazadoras, como las cuencas vacías de una calavera sonriente.</p><p>No recuerdas cómo escapaste del caos, pero nunca olvidarás lo que ocurrió en la primera (y ojalá última) gala del ecuador del invierno de Kingsport.</p>"
+    },
+    "resigned": "<p>Despiertas, helándote de frío, boca abajo en la nieve ante la majestuosa mansión del Club de la Lámpara.</p><p>La casa está desierta, y sus alegres ventanas se ven oscuras y amenazadoras, como las cuencas vacías de una calavera sonriente.</p><p>No recuerdas cómo escapaste del caos, pero nunca olvidarás lo que ocurrió en la primera (y ojalá última) gala del ecuador del invierno de Kingsport.</p>",
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<p>_Resolución 1:_ Apartas la vista de la Joya y ves a tu contacto de pie ante la mansión, con la silueta recortada a la luz de la luna.</p>"
+    },
+    "resolution2": {
+      "title": "Resolución 2",
+      "body": "<p>_Resolución 2:_ La agente Antonova se vuelve y camina a grandes pasos hacia ti, con la mejilla izquierda salpicada de un icor viscoso.</p><p>—Al principio no me gustaba esta fiesta, pero se puso mucho más interesante cuando cerraron las puertas con llave. —Sonríe y te pone una mano en el hombro.</p><p>»He informado a mis superiores de los extraños efectos de esa «Joya». Quieren que se lleve a nuestras oficinas para custodiarla, pero tengo otras obligaciones que atender antes de poder entregarla.</p><p>»Supongo que no hay mucho peligro en dejar que la guardes por ahora. Que sepas que volveré más adelante a recogerla.</p><p>Después de ver el caos que la Joya ha desatado en la gala, te preguntas si en realidad no serás más un «caso de estudio» que quien se beneficia de su poder.</p><ul><li>Salta a la _Resolución 7_</li></ul>"
+    },
+    "resolution3": {
+      "title": "Resolución 3",
+      "body": "<p>_Resolución 3:_ Consigues calmar a un decano Caldwell muy aturullado, y el académico te quita la Joya de la mano y la levanta hacia la luz.</p><p>—Verdaderamente extraordinaria. Las leyendas apenas le hacen justicia. ¡Milagrosa! ¡Sobrecogedora!</p><p>Al sagaz caballero acaban por agotársele los calificativos, y entonces te agradece tu ayuda.</p><p>—En vista de lo que ha ocurrido aquí esta noche, preferiría que no guardáramos la Joya en el recinto universitario. Acabamos de reconstruir las residencias de estudiantes. Pero si pudieras traerla a mi despacho la semana que viene, me encantaría tener la oportunidad de estudiarla más a fondo.</p><ul><li>Salta a la _Resolución 7_</li></ul>"
+    },
+    "resolution4": {
+      "title": "Resolución 4",
+      "body": "<p>_Resolución 4:_ —No ha estado nada mal —dice Johnny Valone, con un puro encendido en la boca—. Tienes buenas manos. Siempre me viene bien otro par para algún que otro trabajito.</p><p>Guiña un ojo mientras suelta el humo por la comisura de los labios.</p><p>—Pensaba que podríamos colocar el cacharro en el mercado negro a buen precio, pero después de ver lo que ha pasado ahí dentro… —Su fachada de tipo duro se ablanda—. Eso no se lo deseo a nadie. Por cierto, ¿qué eran esos bichos? ¿Elefantes? ¿Gorilas enfermos?</p><p>Da una última calada al puro.</p><p>—Supongo que nunca lo sabré. Lo único que sé es que no pienso cargar con ese pedrusco hasta Arkham ni de broma. Considera la Joya un recuerdo de la fiesta. Y esto es por salvarme el pellejo.</p><p>Te tiende un fajo de billetes y se funde entre las sombras con una sonrisa de gato de Cheshire.</p><ul><li>Salta a la _Resolución 7_</li></ul>"
+    },
+    "resolution5": {
+      "title": "Resolución 5",
+      "body": "<p>_Resolución 5:_ —¡Me da igual lo que cueste: quiero esa Joya y la quiero ya! —Carl Sanford echa chispas ante sus lacayos.</p><p>Mientras escuchas cómo el patriarca pone de vuelta y media a sus colaboradores, repasas los acontecimientos de la noche. Aunque habías decidido ayudar a la Logia, ¿de verdad está el mundo más seguro con la Joya en su poder?</p><p>En lugar de devolvérsela a Sanford, te la guardas en el bolsillo y te escabulles en la noche. Solo tú puedes templar su poder. Lo que haces es de verdad por un bien mayor. Ojalá Sanford no se entere nunca.</p><ul><li>Salta a la _Resolución 7_</li></ul>"
+    },
+    "resolution6": {
+      "title": "Resolución 6",
+      "body": "<p>_Resolución 6:_ —Esta noche has hecho algo grande. —El capitán Bain te da una palmada en la espalda—. Con las historias que circulan sobre la Joya, la velada podría haber acabado mucho peor. Se dice que la Joya hace realidad los mayores sueños y las peores pesadillas de quien la porta. Quizá lo que le ha pasado al Club de la Lámpara sea lo apropiado…</p><p>Bain alza la vista hacia las ventanas oscurecidas y la nieve manchada de sangre, y después vuelve a ponerte la Joya en la mano.</p><p>—Sin embargo, algo me dice que, en tus manos, la Joya puede hacer algún bien.</p><p>Te abstraes contemplando el corazón turbio y humeante de la gema. Cuando levantas la vista, el capitán ha desaparecido.</p><ul><li>Salta a la _Resolución 7_</li></ul>"
+    },
+    "resolution7": {
+      "title": "Resolución 7",
+      "body": "<p>_Resolución 7:_ Se te eriza la piel en el asiento trasero del taxi, y tienes la sensación de que te observan.</p><p>Te vuelves para mirar la fachada de la mansión y ves el rostro de pesadilla de El Exangüe, que te contempla desde la ventana.</p><p>Mientras la mansión desaparece de la vista, piensas en Kingsport, una ciudad envuelta en misterio y folclore. Basta su nombre para atraerte y evocar imágenes de acantilados brumosos, calas sombrías y mansiones antiguas y taciturnas.</p><p>Durante generaciones, relatos de fenómenos inexplicables, sueños extraños y leyendas inquietantes han asolado Kingsport. Tras los sucesos de esta noche, por fin entiendes por qué.</p><ul><li>Cada investigador obtiene una cantidad de experiencia igual al valor de _Victoria X_ de cada carta de la zona de victoria.<ul><li>_Experiencia_: {xp}</li></ul></li><li>Suma tu puntuación (*ver página 24*) ({score}). Si tu puntuación es de…<ul><li class='{bonus1}'>…10-19, cada investigador obtiene 1 punto de experiencia adicional.</li><li class='{bonus2}'>…20-29, cada investigador obtiene 2 puntos de experiencia adicionales.</li><li class='{bonus3}'>…30-39, cada investigador obtiene 3 puntos de experiencia adicionales.</li><li class='{bonus4}'>…40-49, cada investigador obtiene 4 puntos de experiencia adicionales.</li><li class='{bonus5}'>…50 o más, cada investigador obtiene 5 puntos de experiencia adicionales.</li></ul></li></ul>"
+    },
+    "chooseGuest": "Cada investigador puede elegir un Apoyo _*Invitado*_ de una sola cara que esté bajo el control de cualquier investigador para añadirlo a su mazo (ignorando las restricciones de construcción de mazos). No cuenta para el tamaño de mazo de ese investigador.",
+    "jewelOfSarnath": "Si este escenario es una historia secundaria, durante la preparación de cada escenario posterior de esta campaña puedes añadir el Apoyo de historia Joya de Sarnath al mazo de Encuentros y barajarlo.",
+    "theFoundation": "Si los investigadores se pusieron del lado de _La Fundación ({'{'}guardian{'}'})_, continúa en la _Resolución 2_.",
+    "miskatonicUniversity": "Si los investigadores se pusieron del lado de la _Universidad Miskatonic ({'{'}seeker{'}'})_, continúa en la _Resolución 3_.",
+    "theSyndicate": "Si los investigadores se pusieron del lado de _El Sindicato ({'{'}rogue{'}'})_, continúa en la _Resolución 4_.",
+    "theSilverTwilightLodge": "Si los investigadores se pusieron del lado de _La Logia del Crepúsculo de Plata ({'{'}mystic{'}'})_, continúa en la _Resolución 5_.",
+    "localsOfKingsport": "Si los investigadores se pusieron del lado de los _Lugareños de Kingsport ({'{'}survivor{'}'})_, continúa en la _Resolución 6_.",
+    "label": {
+      "chooseGuest": "Elige un Apoyo Invitado de una sola cara que esté bajo el control de cualquier investigador para añadirlo a su mazo"
+    },
+    "xp": {
+      "bonus": {
+        "score": "Puntuación"
+      }
+    },
+    "tasks": {
+      "title": "Tareas para la puntuación de fin de partida",
+      "body": "<p>A continuación se enumeran las tareas que se usan para sumar tu puntuación.</p>",
+      "manorsWithNoClues": "<div class='task'>_1_ punto por cada Lugar _*Mansión*_ revelado sin pistas.<span class='tally'>{count}</span></div>",
+      "guestAssetsControlled": "<div class='task'>_1_ punto por cada Apoyo _Invitado_ controlado por los investigadores.<span class='tally'>{count}</span></div>",
+      "noSpellboundInPlay": "<div class='task'>_4_ puntos si no hay cartas hechizadas en juego.<span class='tally'>{count}</span></div>",
+      "agenda1AOr2A": "<div class='task'>_5_ puntos si está en juego el Plan 1a o el Plan 2a.<span class='tally'>{count}</span></div>",
+      "bloodlessManInVictory": "<div class='task'>_4_ puntos si El Exangüe está en la zona de victoria.<span class='tally'>{count}</span></div>",
+      "paleLanternInVictory": "<div class='task'>_3_ puntos si La Lámpara Mortecina está en la zona de victoria.<span class='tally'>{count}</span></div>",
+      "declanPearceInVictory": "<div class='task'>_3_ puntos si Declan Pearce está en la zona de victoria.<span class='tally'>{count}</span></div>",
+      "rivalInVictory": "<div class='task'>_4_ puntos si hay una carta de Historia _Rival_ en la zona de victoria.<span class='tally'>{count}</span></div>",
+      "damageBonus": "<div class='task'><span>_3_ puntos si no se ha derrotado a ningún investigador y hay 2 {'{'}perPlayer{'}'} puntos de daño o menos entre todos los investigadores.</span><span class='tally'>{count}</span></div>",
+      "horrorBonus": "<div class='task'><span>_3_ puntos si no se ha derrotado a ningún investigador y hay 2 {'{'}perPlayer{'}'} puntos de horror o menos entre todos los investigadores.</span><span class='tally'>{count}</span></div>",
+      "hardMode": "<div class='task'>_3_ puntos si juegas en dificultad Difícil.<span class='tally'>{count}</span></div>",
+      "expertMode": "<div class='task'>_6_ puntos si juegas en dificultad Experto.<span class='tally'>{count}</span></div>",
+      "factionBonus": "<div class='task'>Los puntos de fin de partida de la carta de Historia de tu facción.<span class='tally'>{count}</span></div>",
+      "total": "<div class='right task'>_Total:_ <span class='tally'>{count}</span></div>"
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "label": {
+    "lookAtExplorationDeck": "Mirar las primeras cartas del mazo de Exploración",
+    "lookAtEncounterDeck": "Mirar las primeras cartas del mazo de Encuentros",
+    "farid": {
+      "resourcesToSpend": "Cantidad de recursos que gastar"
+    },
+    "nadiaNimr": {
+      "horrorToTake": "Cantidad de horror que recibir"
+    },
+    "nassor": {
+      "addStrength": "Añadir 1 punto de fuerza al Abismo",
+      "extraDamage": "Nassor inflige +{count} de daño y +{count} de horror en este ataque"
+    },
+    "theBlackWind": {
+      "addStrength": "Añadir 1 punto de fuerza al Abismo y añadir El Viento Negro a la zona de victoria.",
+      "discard": "Descartar El Viento Negro y robar la primera carta del mazo de Encuentros para sustituirlo. Recibes -1 a todas las habilidades durante el resto de la ronda."
+    },
+    "fateOfTheDreamers": {
+      "removeStrength": "Retirar 2 puntos de fuerza del Abismo.",
+      "addStrength": "Añadir 2 puntos de fuerza al Abismo."
+    },
+    "prisonersOfConquest": {
+      "freeTheCreatures": "Realizar una prueba de {agility} (4) para liberar a las criaturas.",
+      "slayTheCreatures": "Realizar una prueba de {combat} (4) para matar a las criaturas."
+    },
+    "ruinsOfSarkomand": {
+      "speakToTheDenizens": "Realizar una prueba de {intellect} (3) para hablar con las criaturas casi humanoides que habitan estas ruinas.",
+      "blockTheTrapdoor": "Realizar una prueba de {combat} (3) para bloquear la trampilla."
+    },
+    "effigyOfNodens": {
+      "entreatForAid": "Realizar una prueba de {willpower} (2) para implorar ayuda a la entidad representada en esta estatua.",
+      "overthrowTheStatue": "Realizar una prueba de {combat} (2) para derribar la estatua."
+    },
+    "usurpTheNight": {
+      "proceed": "Continuar en la Resolución 3",
+      "flipBack": "Devolver esta carta a su lado de Enemigo",
+      "acceptMercy": "Aceptar la clemencia de Xzharah y desistir de inmediato",
+      "refuse": "Negarte"
+    },
+    "theHourOfJudgment": {
+      "destroyNeith": "Destruir a Neith de una vez por todas. Al elegir esta opción, crees que quienes siguen bajo la maldición del letargo eterno quedarán libres.",
+      "spareNeith": "Perdonar la vida a Neith y escuchar lo que tiene que decir. Al elegir esta opción, crees que puedes averiguar más sobre aquel a quien Neith llama Xzharah."
+    },
+    "defeatingXzharah": {
+      "proceed": "Continuar en la Resolución 2",
+      "flipBack": "Devolver este Acto a su lado «a»"
+    }
+  },
+  "intoTheGate": {
+    "ankh": "<p>*Tu amuleto anj brilla con una luz cegadora que hace retroceder a Xzharah. «¡Así que Neith nos ha abandonado!», sisea Xzharah.*</p>"
+  },
+  "removeStrengthFromTheAbyss": "Retira 1 punto de fuerza del Abismo.",
+  "theTranslatorsEvidence": {
+    "benefit": "<p>*Llevas la tablilla a la Dra. El Masri, que la traduce lo mejor que puede. «Cuando se haga la Elección, Él recibirá el poder de mil sacrificios de la tierra sagrada». Parpadea varias veces mientras intenta asimilar lo que significa. «¿Cuántos pacientes hay en coma ahora mismo?», pregunta con los ojos muy abiertos.*</p>"
+  },
+  "theSupplicantsEvidence": {
+    "benefit": "<p>*Logras acorralar al Dr. Moore cuando intenta escapar de la ciudad a pie. «Muy astuto», admite. «Pero ya se te ha acabado el tiempo. Enciérrame, no importa. Los soñadores serán sacrificados y nuestro Elegido nos guiará hacia una nueva era». Sin embargo, al cabo de varias horas está suplicando que lo dejen salir de la ciudad. «¡Por favor, llega la parca! Neith viene a por todos nosotros. Nos sacrificarán a todos, ¿es que no lo entiendes? ¡A ti y a mí! ¡Todos tenemos que huir de la ciudad mientras aún podamos!».*</p>"
+  },
+  "thePriestesssEvidence": {
+    "benefit": "<p>*Con la llave que te dio Nadia, entras en la residencia marcada. Para tu sorpresa, dentro no hay nadie, solo un leve hedor a podredumbre y cuero viejo. El sótano de la residencia está abarrotado de libros antiguos, registros que conservan la Hermandad y sus muchos agentes. Llevará tiempo examinarlos, pero una pista es una pista.*</p>"
+  },
+  "theSalesmansEvidence": {
+    "benefit": "<p>*Farid sonríe de oreja a oreja mientras mete ídolos dorados en su mochila a puñados. Le exiges información antes de que se entusiasme demasiado. «Mira, me prometieron riquezas que no podía ni soñar. Hasta yo tengo un precio, ¿sabes?». Levanta las manos con resignación. «Deja que te enseñe mis registros. He hecho muchos “negocios” en los últimos meses. Eso te llevará por el buen camino».*</p>"
+  },
+  "theAssassinsEvidence": {
+    "benefit": "<p>*Pese a sus heridas mortales, el asesino sonríe con malicia. «El Día se acerca», dice entre un ataque de tos. «¿Crees que matándome lo vas a impedir? ¡Necios! ¡La Bestia os devorará a todos!». Suelta una carcajada con su último aliento y calla para siempre.*</p><p>*Te apresuras a registrar sus pertenencias antes de que algún transeúnte vea el cuerpo. Entre las muchas curiosidades extrañas que lleva encima, encuentras un pequeño diario encuadernado en cuero con una inscripción críptica:*</p><p class='center'><span class='wolgast' style='line-height:1em;'>*Nuestro tributo empapa la hoja abisal<br>Mil almas que jamás despertarán<br>Con ello nuestro Elegido se alzará<br>¡Y el día cada vez más cerca está!*</span></p>"
+  },
+  "theProfessorsEvidence": {
+    "benefit": "<p>*Dejas la baratija sobre el escritorio del profesor. Él se pone el monóculo y la examina con atención. «¡Intrigante!», exclama. «Esto solo puede proceder de una tumba concreta de las criptas reales. La mayoría de los estudiosos no creen que exista». Se pone en pie y te estrecha la mano. «Dame algo de tiempo para estudiarlo más a fondo. Si salimos los dos con vida de esta, quizá pueda volver a presentar mi tesis», dice con una risita macabra.*</p>"
+  },
+  "rules": {
+    "storyCards": {
+      "title": "Cartas de Historia",
+      "body": "<p class='basic'>Las cartas de Historia son un nuevo tipo de carta de este escenario. Sirven para ofrecer narrativa adicional y suelen aparecer en el reverso de otra carta del escenario. Cuando se te indique que resuelvas una carta de Historia, lee su texto narrativo y resuelve su texto de juego, si lo tiene.</p><p class='basic'>(Nota: cuando un Lugar o Enemigo en juego se voltea para mostrar la carta de Historia de su otro lado, ese Lugar o Enemigo se sigue considerando en juego mientras se resuelve la carta de Historia).</p>"
+    },
+    "strengthOfTheAbyss": {
+      "title": "Fuerza del Abismo",
+      "body": "<p class='basic'>Durante este escenario, los recursos de la carta de referencia de escenario representan la fuerza actual del Abismo. Cuando se te indique que añadas fuerza al Abismo o que retires fuerza del Abismo, ajusta como corresponda la cantidad de fichas de Recurso de la carta de referencia de escenario. La fuerza del Abismo no tiene por sí misma ningún efecto de juego, aunque los efectos de ciertas cartas de Encuentro pueden volverse más potentes o cambiar según la fuerza actual del Abismo. Cuidado: a medida que crezca la fuerza del Abismo, también lo harán las fuerzas que se os oponen. Si se vuelve demasiado poderoso, sin duda fracasaréis como Guardianes del Abismo.</p>"
+    },
+    "takenByTheAbyss": {
+      "title": "«Atrapado por el Abismo»",
+      "body": "<p class='basic'>Si un efecto indica que un investigador o un Apoyo _Aliado_ que ha sido derrotado queda «atrapado por el Abismo», ese personaje sufre una maldición que lo deja en estado comatoso. Cuando el Abismo atrape a un investigador o a un Apoyo _Aliado_, primero añade 1 punto de fuerza al Abismo. Después, si esa carta era única, anota en el registro de campaña que «(nombre de la carta) fue atrapado/a por el Abismo». Un investigador atrapado por el Abismo se trata como si hubiera muerto o enloquecido. Además, durante el resto de la campaña, los jugadores no pueden jugar copias de ningún Apoyo _Aliado_ único que haya sido atrapado por el Abismo.</p>"
+    }
+  },
+  "specialRules": [
+    {
+      "title": "@:standalone.guardiansOfTheAbyss.rules.storyCards.title",
+      "body": "@:standalone.guardiansOfTheAbyss.rules.storyCards.body"
+    },
+    {
+      "title": "@:standalone.guardiansOfTheAbyss.rules.strengthOfTheAbyss.title",
+      "body": "@:standalone.guardiansOfTheAbyss.rules.strengthOfTheAbyss.body"
+    },
+    {
+      "title": "@:standalone.guardiansOfTheAbyss.rules.takenByTheAbyss.title",
+      "body": "@:standalone.guardiansOfTheAbyss.rules.takenByTheAbyss.body"
+    }
+  ]
+}

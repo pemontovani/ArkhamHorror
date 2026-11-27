@@ -1,0 +1,100 @@
+{
+  "cluesToSpend": "Pistas para gastar",
+  "naomiOBannion": {
+    "takeDamage": "Sufrir 1 punto de daño para impedir que Naomi O’Bannion se prepare",
+    "doNotTakeDamage": "No sufrir 1 punto de daño"
+  },
+  "intro": {
+    "title": "Maquinaciones por el tiempo",
+    "body": "<p class='indented'>«Las ciencias, que tiran cada una en su propia dirección, hasta ahora nos han hecho poco daño; pero algún día la unión de saberes dispersos abrirá unas perspectivas tan aterradoras de la realidad, y de la espantosa posición que ocupamos en ella, que o bien la revelación nos hará enloquecer o bien huiremos de esa luz mortífera hacia la paz y el amparo de una nueva edad oscura».</p><p class='basic right'>– H. P. Lovecraft, *La llamada de Cthulhu*</p><p>El titular del periódico reza: «¡Científicos locales ganan el Premio Nobel!». Debajo, dos físicos de edad avanzada posan con orgullo ante un gran telescopio. Echas un vistazo a la fecha del periódico y se te desencaja la mandíbula. Este número del Arkham Advertiser es del 5 de diciembre de 1956. Pero ¿cómo es posible?</p><p>Con sorpresa y curiosidad, devoras el periódico entero y conoces a dos científicos extraordinarios, Thomas Corrigan y Mary Zielinski, y el camino que los llevó a ganar el Premio Nobel de Física. Con los años, sus investigaciones encadenaron un éxito tras otro hasta culminar en el descubrimiento del teletransporte. Publicaron sus extraordinarios hallazgos el 23 de febrero de 1955 con gran aplauso. Y ahora (o, mejor dicho, dentro de treinta años) se les concede el Premio Nobel de Física.</p><p>Aunque resulta sospechoso, la intuición te dice que este misterioso periódico es auténtico. Ante la fama que les aguarda, acudes a la Universidad Miskatonic para conocerlos. Sin embargo, te informan de que no tienen ninguna vinculación con la universidad y de que, por desgracia, ambos desaparecieron hace años.</p><p>Sin que el resto del mundo lo sepa, se ha producido un cambio trascendental. Destacadas figuras de la ciencia se han esfumado sin dejar rastro. Inventos notables han dejado de haberse inventado. Un descubrimiento histórico ha quedado de pronto sin descubrir. Puede que la humanidad nunca vuelva a ser la misma.</p><p>Dentro de los portales que plagan Arkham se encuentra el reino de Tíndalos, donde incontables sendas suspendidas, angulosas y curvas, por arriba y por abajo, se alejan serpenteando en todas direcciones. Por esas sendas merodean esbirros malévolos: sátiros espantosos y perros de Tíndalos, entre otras monstruosidades. Las bestias están ansiosas por despedazar a sus presas o, lo que quizá sea peor, por secuestrarlas y aprisionarlas en Tíndalos.</p><p>Se ha producido una distorsión en el tiempo, y sus efectos se han propagado por los años posteriores. Estos científicos son dos de las almas desafortunadas que la sufren, y tendrás que encontrarlos y reparar la línea temporal rota. Pero recuerda: viajar por el tiempo puede acarrear consecuencias imprevistas, y algunas tendrán graves repercusiones.</p><p class='basic valid'>Si estás jugando en *modo de grupo único*, continúa en _Preparación para el modo de grupo único_.</p><p class='basic invalid'>Si estás jugando en *modo multijugador épico*, continúa en _Preparación para el modo multijugador épico_.</p>"
+  },
+  "setup": {
+    "gatherSets": "Reúne todas las cartas de los conjuntos de Encuentros <i>Maquinaciones por el tiempo</i> y <i>Modo de grupo único</i>. Estos conjuntos se identifican con estos iconos:<section class='encounter-sets'><img src='{setImgPath}/machinations-through-time.png'><img src='{setImgPath}/single-group.png'></section>",
+    "corriganIndustries": "Pon aparte, fuera del juego, el Lugar Industrias Corrigan.",
+    "placeLocations": "Pon en juego el Lugar Tíndalos, usando el lado que tiene el icono del conjunto de Encuentros <i>Modo de grupo único</i>. Pon en juego los catorce Lugares restantes <i>(consulta las colocaciones de Lugares de las páginas 16-18, ignorando la colocación de Tíndalos)</i>.",
+    "startAt": "Cada investigador comienza la partida en Tíndalos.",
+    "nobleLegacy": "Pon en juego, de una en una, las cartas de Historia Un noble legado (Pasado), Un noble legado (Presente) y Un noble legado (Futuro), y resuelve el texto de <b>Preparación</b> de cada una de ellas. <i>(Consejo: al jugar, céntrate primero en completar Un noble legado (Pasado), después en Un noble legado (Presente) y, por último, en Un noble legado (Futuro).)</i>",
+    "machination": "Elige al azar una de las tres cartas de Historia <b>Maquinaciones</b>, ponla en juego y resuelve su texto de <b>Preparación</b>. Retira de la partida las otras dos cartas de Historia <b>Maquinaciones</b>.",
+    "plot": "Elige al azar una de las tres cartas de Historia <b>Trama</b>, ponla en juego y resuelve su texto de <b>Preparación</b>. Retira de la partida las otras dos cartas de Historia <b>Trama</b>.",
+    "doom": "Añade 1 {'{'}perPlayer{'}'} fichas de Perdición al Plan 1a. Después, si no estás jugando en dificultad Normal, comprueba el nivel de dificultad:",
+    "easy": "Si es la dificultad Fácil, retira 1 ficha de Perdición del Plan 1a.",
+    "hard": "Si es la dificultad Difícil, añade 1 ficha de Perdición al Plan 1a.",
+    "expert": "Si es la dificultad Experto, añade 2 fichas de Perdición al Plan 1a.",
+    "shuffleRemainder": "Baraja las 33 cartas de Encuentro restantes para formar el mazo de Encuentros. Ya está todo listo para comenzar."
+  },
+  "tokens": {
+    "easyStandard": {
+      "skull": "-X. X es la cantidad de cartas de Historia que hay en la zona de victoria más 1.",
+      "cultist": "-1. Si estás en Tíndalos, fracasas automáticamente.",
+      "tablet": "-2 (en vez de eso, -4 si hay un Apoyo _Científico_ en tu Lugar).",
+      "elderThing": "-3. Si fracasas, inflige 1 punto de daño o 1 punto de horror a un Apoyo _Aliado_ que esté en tu Lugar."
+    },
+    "hardExpert": {
+      "skull": "-X. X es la cantidad de cartas de Historia que hay en la zona de victoria más 2.",
+      "cultist": "-2. Si estás en Tíndalos, fracasas automáticamente.",
+      "tablet": "-3 (en vez de eso, -6 si hay un Apoyo _Científico_ en tu Lugar).",
+      "elderThing": "-4. Si fracasas, inflige 1 punto de daño o 1 punto de horror a un Apoyo _Aliado_ que esté en tu Lugar."
+    }
+  },
+  "label": {
+    "doneMovingScientists": "Terminar de mover científicos",
+    "oMalleysWatchShop": {
+      "placeTime": "Agotar a Thomas Corrigan para colocar 1 recurso en el Club Tictac _Presente_, como tiempo"
+    },
+    "tickTockClub": {
+      "placeTime": "Agotar a Thomas Corrigan para colocar 1 recurso en el Club Tictac _Futuro_, como tiempo"
+    },
+    "oldSadieSheldon": {
+      "payTheDebt": "Gastar 3 recursos por investigador, como grupo, para añadir a Viejo Sadie Sheldon a la zona de victoria"
+    },
+    "mobTroubles": {
+      "search": "Buscar en el mazo de Encuentros o en la pila de descarte"
+    },
+    "uneasyAlliance": {
+      "test": "Hacer una prueba de {'{'}intellect{'}'} (4). Si tienes éxito, coloca 1 más de tus pistas en Edwin Bennet"
+    },
+    "vanishingHistory": {
+      "discardItem": "Descartar un Apoyo _Objeto_ que no sea de historia y que controles",
+      "discardCards": "Elegir y descartar de tu mano 3 cartas que no sean Debilidades"
+    },
+    "dimensionalBeamMachine": {
+      "investigator": "Mover a un investigador de tu Lugar a cualquier Lugar revelado",
+      "enemy": "Mover un Enemigo que no sea _Élite_ de tu Lugar a cualquier Lugar revelado"
+    }
+  },
+  "resolutions": {
+    "noResolution": {
+      "title": "Sin resolución",
+      "body": "<p>Incontables perros irrumpen por los portales y los ángulos del espacio y te acorralan. Con desconcierto y terror, te enfrentas cara a cara a tu final...</p><ul><li>Cada investigador que quede en cualquiera de las eras es derrotado y sufre 1 trauma mental.</li><li>Si el Apoyo Edwin Bennet está en juego en alguna era, continúa en la <b>Resolución 2</b>.</li><li>Si el Enemigo Edwin Bennet está en juego en alguna era, continúa en la <b>Resolución 3</b>.</li><li>De lo contrario, continúa en la <b>Resolución 4</b>.</li></ul>"
+    },
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<p>_Resolución 1:_ Los descubrimientos de Thomas Corrigan y Mary Zielinski ejercen una enorme influencia en el avance de las ciencias. Con su ayuda logras sellar todos los portales que conducen de Arkham a Tíndalos, y Edwin Bennet y sus maquinaciones dejan de ser una amenaza para el mundo. Compras un ejemplar del periódico en el que aparecen los dos científicos, y entonces caes en la cuenta: aún queda una cosa por hacer. Enciendes la máquina y colocas el periódico en la plataforma. Tienes que cerrar el bucle, o todo esto habrá sido en vano...</p><ul><li>Por cada uno de los siguientes Apoyos que esté en juego (Nikola Tesla, Ezra Graves y Máquina de haz dimensional), un investigador cualquiera puede elegir añadir ese Apoyo a su mazo. No cuenta para el tamaño de mazo de ese investigador.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de _Victoria X_ de cada carta de la zona de victoria.</li></ul>"
+    },
+    "resolution2": {
+      "title": "Resolución 2",
+      "body": "<p>_Resolución 2_: Contra todo pronóstico, consigues escapar de las garras de las bestias, pero, con ellas persiguiéndote, te resulta imposible reparar la línea temporal rota. No está todo perdido. Aunque con recelo, depositas tu confianza en Edwin Bennet para que arregle todo lo que se rompió. Capacidad tiene, pero ¿tiene integridad?</p><ul><li>Por cada uno de los siguientes Apoyos que esté en juego (Nikola Tesla, Ezra Graves y Máquina de haz dimensional), un investigador cualquiera puede elegir añadir ese Apoyo a su mazo. No cuenta para el tamaño de mazo de ese investigador.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de _Victoria X_ de cada carta de la zona de victoria.</li></ul>"
+    },
+    "resolution3": {
+      "title": "Resolución 3",
+      "body": "<p>_Resolución 3_: El miedo te paraliza, el hedor de las bestias aulladoras te revuelve el estómago y te desmayas. Cuando vuelves a abrir los ojos, te encuentras en una penumbra enfermiza bajo una luna verde, con una tierra fétida que te cubre hasta el cuello: ahora Tíndalos es tu residencia permanente. La humanidad ha sufrido una pérdida inmensa. Thomas Corrigan y Mary Zielinski también están presos en Tíndalos, y la obra de toda su vida desaparece con ellos. Peor aún: las maquinaciones del intrigante Edwin Bennet se propagan por el tiempo sin que nada las detenga. Te repugna pensar en lo que estará tramando ese psicópata.</p><ul><li>Cada investigador superviviente pierde la <b>razón</b>.</li></ul>"
+    },
+    "resolution4": {
+      "title": "Resolución 4",
+      "body": "<p>_Resolución 4_: Contra todo pronóstico, consigues escapar de las garras de las bestias, pero, con ellas persiguiéndote, te resulta imposible reparar la línea temporal rota. La humanidad ha sufrido una pérdida inmensa. Thomas Corrigan y Mary Zielinski están presos en Tíndalos, y la obra de toda su vida desaparece con ellos. El único consuelo es que Edwin Bennet no aparece por ninguna parte. Sus maquinaciones han cesado, y el mundo es mejor por ello. Pero en tu fuero interno persiste una idea: la posibilidad de que regrese.</p><ul><li>Por cada uno de los siguientes Apoyos que esté en juego (Nikola Tesla, Ezra Graves y Máquina de haz dimensional), un investigador cualquiera puede elegir añadir ese Apoyo a su mazo. No cuenta para el tamaño de mazo de ese investigador.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de _Victoria X_ de cada carta de la zona de victoria.</li></ul>"
+    }
+  },
+  "remembered": {
+    "thomasAndMaryHaveMet": "Thomas y Mary se han conocido",
+    "thomasAndMaryAreInspiredByNikolaTesla": "Thomas y Mary se han inspirado en Nikola Tesla",
+    "fundingForAnObservatoryHasBegun": "Ha empezado la financiación de un observatorio",
+    "theObservatoryIsBuilt": "Se ha construido el observatorio",
+    "teleportationResearchHasBegun": "Ha empezado la investigación sobre el teletransporte",
+    "corriganIndustriesHasBeenFounded": "Se ha fundado Industrias Corrigan",
+    "thomasAndMaryHaveMadeAHistoricDiscovery": "Thomas y Mary han hecho un descubrimiento histórico",
+    "thomasAndMaryHaveWonANobelPrize": "Thomas y Mary han ganado un Premio Nobel",
+    "aTreeSeedHasBeenPlanted": "Se ha plantado la semilla de un árbol",
+    "thomasAndMaryHaveMarried": "Thomas y Mary se han casado",
+    "theDebtHasBeenPaid": "Se ha pagado la deuda"
+  }
+}

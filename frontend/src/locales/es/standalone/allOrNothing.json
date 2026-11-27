@@ -1,0 +1,78 @@
+{
+  "tokens": {
+    "easyStandard": {
+      "skull": "-1 por cada pista que tengas.",
+      "cultist": "-2 (-4 en su lugar si tienes 10 o más recursos).",
+      "tablet": "-2. Si fracasas, pierde 3 recursos.",
+      "elderThing": "-3. Si fracasas, «Malasombra» O'Toole recibe 1 punto de horror."
+    },
+    "hardExpert": {
+      "skull": "-2 por cada pista que tengas.",
+      "cultist": "-4 (-8 en su lugar si tienes 10 o más recursos).",
+      "tablet": "-3. Pierde 3 recursos.",
+      "elderThing": "-5. Si fracasas, «Malasombra» O'Toole recibe 1 punto de horror."
+    }
+  },
+  "intro": {
+    "title": "Escenario de desafío: Todo o nada",
+    "body": "<p>Estás dispuesto a hacer lo que sea para arreglar las cosas. Las enormes deudas de hospital de tu madre no se van a pagar solas, así que se te ha ocurrido un plan: apostar. El subidón de adrenalina al ir con todo y jugártelo a merced de las cartas es un aliciente más. Últimamente parece que la vida te ha repartido una mala mano, pero a menudo consigues convertir manos pésimas en ganadoras. ¿Quién necesita habilidad cuando la diosa Fortuna está de tu parte?</p><p>Tu juego predilecto es el veintiuno. De algún modo, las cartas adecuadas suelen salir en el momento oportuno, e intentas disimular tu euforia cuando el crupier vuelve a pasarse. Parece que cada noche te llega una racha, mientras las pilas de fichas crecen cada vez más ante ti. Esas rachas contribuyen mucho a saldar las deudas, pero tu suerte suele atraer la ira tanto del crupier como de los demás jugadores. Sabes cuándo parar.</p><p>Con los años te has ganado fama de ganar de un modo que algunos llaman «hacer trampas». Por eso te ves en la obligación de no llamar la atención y de apostar en una lista rotativa de locales. Hay uno en el que disfrutas ganando más que en ningún otro: el Clover Club. Cada noche hay enormes cantidades de dinero en juego en este bar clandestino, pero lo controla la banda de los O'Bannion. Intimidante. Sin escrúpulos. Despiadada. Nadie quiere atraer la atención de la banda, y tu fama sin duda lo hace.</p><p>Pero el Clover Club tiene una línea roja que debe respetarse por encima de todo. A los descarados O'Bannion no les gusta que se aprovechen de ellos, y emplearán cualquier medio para impedirlo. Aquí, la banca siempre gana.</p><p>Seguro que eso cambia esta noche. Te subes el cuello del abrigo y entras en La Bella Luna. El restaurante está prácticamente vacío. Del fondo del local llega el débil sonido de una música estruendosa. Está claro dónde se encuentra toda la clientela. Solo puedes pensar en tomarte una copa y ganar a lo grande...</p>"
+  },
+  "setup": {
+    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de Encuentros: *Todo o nada*, *La casa siempre gana*, *Mala suerte*, *La banda de Naomi*, *Las máscaras de medianoche* y *Ratas*. Todos estos conjuntos, salvo Todo o nada, se encuentran en la Caja básica y en la expansión de lujo El legado de Dunwich. Se identifican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/all-or-nothing.png' align='right' /><img src='{setImgPath}/the-house-always-wins.png' align='right' /><img src='{setImgPath}/bad-luck.png' align='right' /><img src='{setImgPath}/naomis-crew.png' align='right' /><img src='{setImgPath}/midnight-masks.png' align='right' /><img src='{setImgPath}/rats.png' align='right' /></section>Al reunir el conjunto de Encuentros *Las máscaras de medianoche*, coge solo las 5 cartas de Traición (2x Pista falsa y 3x Sombra acechante). No cojas los Lugares, el Acto, el Plan ni la carta de referencia de escenario de ese conjunto.",
+    "scenarioReference": "Retira de la partida la carta de referencia de escenario original del conjunto de Encuentros *La casa siempre gana*. Usa la nueva carta de referencia de escenario del conjunto de Encuentros descargable Todo o nada.",
+    "newActAgenda": "Retira de la partida la carta de referencia de escenario, el mazo de Acto y el mazo de Plan originales del conjunto de Encuentros *La casa siempre gana*. Usa la nueva carta de referencia de escenario y crea los mazos de Acto y de Plan usando solo las nuevas cartas de Acto y de Plan del conjunto de Encuentros *Todo o nada*.",
+    "removeFromGame": "Retira de la partida el Apoyo Peter Clover y el Apoyo de historia Dr. Francis Morgan. Estas cartas no se usan en este escenario de desafío.",
+    "setAside": "Pon aparte, fuera del juego, las siguientes cartas: cada copia del Lugar Puerta del pasillo trasero, cada copia del Enemigo Portero del Clover Club y el Enemigo Siobhan Riley.",
+    "placeLocations": "Pon en juego cada uno de los Lugares restantes: Pasillo en penumbra, Salón del Clover Club, Bar del Clover Club, Sala de juego del Clover Club y La Bella Luna. Cada investigador comienza la partida en La Bella Luna.",
+    "placePitBoss": "Pon en juego en el Salón del Clover Club al Enemigo Jefe de sala del Clover Club.",
+    "returnTo": "<section style='display: flex; flex-direction: row; gap: 1em;'>Si tu colección las incluye, puedes decidir reunir también las cartas del conjunto de Encuentros *Regreso a La casa siempre gana*. Este conjunto se identifica con el icono de la derecha. Si lo haces, realiza los siguientes pasos adicionales:<section class='encounter-sets' style='flex-shrink: 0'><img src='{setImgPath}/return-to-the-house-always-wins.png' align='right' /></section></section>",
+    "returnToSetupCard": "Retira de la partida la carta de preparación de «Regreso».",
+    "returnToVersions": "Retira de la partida la versión original del Salón del Clover Club y usa en su lugar la versión nueva del Salón del Clover Club.",
+    "cloverClubStage": "Pon aparte, fuera del juego, el Escenario del Clover Club.",
+    "returnToTreacheries": "Incluye las nuevas cartas de Traición junto con el resto de las cartas de Encuentro.",
+    "cheated": "Recuerda que «Malasombra» O'Toole «ha hecho trampas».",
+    "startAt": "Cada investigador comienza la partida en La Bella Luna."
+  },
+  "label": {
+    "returnTo": {
+      "include": "Incluir el conjunto de Encuentros _Regreso a La casa siempre gana_",
+      "exclude": "No incluir el conjunto de Encuentros _Regreso a La casa siempre gana_"
+    }
+  },
+  "resolutions": {
+    "noResolution": {
+      "title": "Sin resolución",
+      "body": "<p>Si no se ha llegado a ninguna resolución porque todos los investigadores han sido derrotados: continúa en la _Resolución 2_.</p>"
+    },
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "_Resolución 1:_ con el corazón desbocado y la euforia corriendo por tus venas, no sabes qué te excita más: ganarles dinero a los O'Bannion o escapar de ellos. Esta noche demuestra lo que siempre has pensado: «Malasombra» O'Toole siempre gana...",
+      "victory": "Cada investigador obtiene una cantidad de experiencia igual al total de los valores de _Victoria X_ de las cartas de la zona de victoria.",
+      "experience": "_Experiencia_: {xp}",
+      "resourcesChoice": "Si la cantidad de recursos en el acto 2a es de (elige una opción)...",
+      "resources10": "10 {'{'}perPlayer{'}'} o más, «Malasombra» O'Toole comienza el siguiente escenario con 1 recurso adicional.",
+      "resources20": "20 {'{'}perPlayer{'}'} o más, «Malasombra» O'Toole comienza el siguiente escenario con 2 recursos adicionales.",
+      "resources30": "30 {'{'}perPlayer{'}'} o más, «Malasombra» O'Toole comienza el siguiente escenario con 3 recursos adicionales.",
+      "resources40": "40 {'{'}perPlayer{'}'} o más, «Malasombra» O'Toole obtiene 1 punto de experiencia adicional y comienza el siguiente escenario con 4 recursos adicionales.",
+      "resources50": "50 {'{'}perPlayer{'}'} o más, «Malasombra» O'Toole obtiene 2 puntos de experiencia adicionales y comienza el siguiente escenario con 5 recursos adicionales.",
+      "resources60": "60 {'{'}perPlayer{'}'} o más recursos, «Malasombra» O'Toole obtiene 3 puntos de experiencia adicionales y comienza el siguiente escenario con 6 recursos adicionales.",
+      "skidsMaySwap": "«Malasombra» O'Toole puede mejorar A la fuga a su versión avanzada, o bien devolver la versión avanzada de Deudas de hospital a su versión original."
+    },
+    "resolution2": {
+      "title": "Resolución 2",
+      "body": "<p>_Resolución 2:_ no has logrado pasar inadvertido. En cuestión de minutos te rodean los desalmados matones de los O'Bannion y te arrastran a un cuarto oscuro. Los brutos aprietan los puños y se remangan. Cierras los ojos y te preparas para la dura lección que están a punto de darte: la diosa Fortuna no sirve de nada en el Clover Club.</p><p>Acabas en un montón de basura junto a la entrada del club que da al callejón trasero. Bien mirado, podría haber sido peor. Entre magulladuras y golpes, tachas el Clover Club de tu lista rotativa. Apostar no merece la pena si lo que está en juego es tu vida. Sabes de primera mano que, en el Clover Club, la banca siempre gana...</p><ul><li>Cada investigador obtiene una cantidad de experiencia igual al total de los valores de _Victoria X_ de las cartas de la zona de victoria.<ul><li>_Experiencia_: {xp}</li></ul></li><li>«Malasombra» O'Toole debe mejorar Deudas de hospital a su versión avanzada, o bien devolver la versión avanzada de A la fuga a su versión original.</li></ul>"
+    },
+    "xp": {
+      "gamblersTake": "Recursos en el acto 2a"
+    },
+    "label": {
+      "skidsMaySwap": "«Malasombra» O'Toole puede mejorar A la fuga a su versión avanzada, o bien devolver la versión avanzada de Deudas de hospital a su versión original.",
+      "skidsMustSwap": "«Malasombra» O'Toole debe mejorar Deudas de hospital a su versión avanzada, o bien devolver la versión avanzada de A la fuga a su versión original.",
+      "upgradeOnTheLam": "Mejorar A la fuga a su versión avanzada",
+      "downgradeHospitalDebts": "Devolver la versión avanzada de Deudas de hospital a su versión original",
+      "upgradeHospitalDebts": "Mejorar Deudas de hospital a su versión avanzada",
+      "downgradeOnTheLam": "Devolver la versión avanzada de A la fuga a su versión original",
+      "doNotSwap": "No cambiar ninguna carta"
+    }
+  }
+}

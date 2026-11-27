@@ -1,0 +1,195 @@
+{
+  "cluesToSpend": "Pistas que gastar",
+  "xp": {
+    "bonus": "Por haber salvado el tejido de la existencia."
+  },
+  "remembered": {
+    "theChemistWasSaved": "La química fue salvada",
+    "theFormulaWasNotCompleted": "La fórmula no fue completada",
+    "theSampleWasRecovered": "La muestra fue recuperada",
+    "theSampleWasLost": "La muestra se perdió",
+    "theMiGoWereDrivenOff": "Los Mi-Go fueron expulsados",
+    "theSecretOfTheOozeWasStolen": "Han robado el secreto del cieno",
+    "theExplosivesWereDefused": "Los explosivos han sido desactivados",
+    "theExplosivesWereDetonated": "Los explosivos han detonado"
+  },
+  "intro": {
+    "title": "La masa que lo devoraba todo",
+    "body": "<p class='basic'>Informe de incidente: 8L-08.<br>Jueves, 05/07/1928.<br>Blackwater, Massachusetts.</p><p class='basic'>03:12 horas. Impacto en las afueras de Blackwater. Interceptada llamada a la policía; enviados agentes a investigar. Interrogado un granjero local, Ron Graham; asegura que el meteorito medía varios metros de ancho y tenía un tono verdoso. Cráter de unos 90 metros de diámetro. Radiación detectada en los alrededores. Se recomienda cuarentena inmediata y que un equipo de investigación continúe las observaciones. Situación bajo control.</p><p>No estaba bajo control.</p><p>Ese fue el informe que redactaron los federales nada más llegar. Durante los días siguientes, el pueblo de Blackwater estuvo confinado. Los periódicos no hablaban más que del impacto, pero poco se sabía aparte del enorme cráter y del efecto que había causado en la campiña. Nadie podía salir del pueblo, y solo podían entrar quienes tuvieran el visto bueno de la turbia agencia gubernamental. Entre esos pocos desafortunados había agentes de alto rango y un equipo de investigación de la cercana Universidad Miskatonic, convocado para estudiar el meteorito en sí. Para el resto de los habitantes fue un suceso extraño, nada más... hasta que el meteorito eclosionó.</p><p>Lo vi con mis propios ojos. Cuando la anomalía emergió, lo primero que hizo fue devorar al equipo de investigación enviado a recoger y estudiar muestras del meteorito. Lo siguiente que hizo fue devorar su instrumental de laboratorio. Después, el tractor de Ron Graham. Luego, su casa entera. Siguió creciendo y extendiéndose, devorando todo a su paso. Escapé con vida por los pelos.</p><p>Cuando llegó el ejército, creyeron que podrían matarla con balas y obuses. Todo lo que le lanzaron a la criatura fue devorado, un proyectil tras otro. Entonces se dividió en cientos de fragmentos más pequeños y el ejército se vio superado enseguida. Mientras arreciaba la batalla, otras personas del pueblo y yo vimos luces y formas en el cielo. Había algo ahí arriba, esperando. Haciendo tiempo.</p><p>La cuarentena sigue en pie, y estamos atrapados en medio. La anomalía no tardará en crecer lo bastante como para devorar todo Blackwater. Y si eso ocurre, ¿quién podría detener su avance?</p>"
+  },
+  "setup": {
+    "gatherSets": "Reúne todas las cartas del conjunto de Encuentros *La masa que lo devoraba todo*. Este conjunto se identifica con este icono:<section class='encounter-sets'><img src='{setImgPath}/the-blob-that-ate-everything.png' /></section>",
+    "gatherElseSets": "Reúne los conjuntos de Encuentros *La masa que devoraba todo lo demás* e *Incursión mi-go II*. Pon aparte, fuera del juego, todas las cartas de *Incursión mi-go II*. Baraja los 4 Lugares nuevos de Zona de cuarentena con los Lugares originales y retira 5 al azar.",
+    "epicMultiplayer": "Si juegas en *Modo multijugador épico*, reúne todas las cartas del conjunto de Encuentros Multijugador épico, identificado con este icono. (Retira de la partida todas las cartas del conjunto de Encuentros Grupo único).<section class='encounter-sets'><img src='{setImgPath}/epic-multiplayer.png' /></section>",
+    "singleGroup": "Si juegas en *Modo de grupo único*, reúne todas las cartas del conjunto de Encuentros Grupo único, identificado con este icono. (Retira de la partida todas las cartas del conjunto de Encuentros Multijugador épico).<section class='encounter-sets'><img src='{setImgPath}/single-group.png' /></section>",
+    "setAsideMiGo": "Pon aparte, fuera del juego, todas las cartas del conjunto de Encuentros Incursión mi-go. Este conjunto se identifica con este icono:<section class='encounter-sets'><img src='{setImgPath}/migo.png' /></section>",
+    "setAside": "Busca en el conjunto de Encuentros *La masa que lo devoraba todo* el Corazón vulnerable, 1 copia de Cieno aferrador, 1 copia de Cieno cúbico y las dos copias de Espectro de cieno, y ponlos aparte, fuera del juego.",
+    "subject": "Pon en juego al Enemigo Sujeto 8L-08 junto al mazo de Plan. No está en ningún Lugar.",
+    "placeLocations": "Dispón los Lugares siguiendo estas indicaciones:",
+    "shuffleQuarantine": "Baraja juntos los Lugares de Zona de cuarentena y retira 1 de ellos de la partida.",
+    "placeCrater": "Pon en juego El cráter.",
+    "innerRing": "Coge el Lugar de investigación, el CG temporal y 2 Lugares de Zona de cuarentena al azar. Barájalos y coloca cada uno conectado a El cráter, en un orden aleatorio.",
+    "outerRing": "Coge el Montículo fúngico y 3 Lugares de Zona de cuarentena al azar. Barájalos y coloca cada uno en 1 de las 4 posiciones del anillo exterior, las más alejadas de El cráter.",
+    "remaining": "Pon en juego los Lugares de Zona de cuarentena restantes.",
+    "startAt": "Cada investigador comienza la partida en el CG temporal.",
+    "countermeasures": "Si juegas en *Modo de grupo único*, coloca 1 recurso en la carta de referencia de escenario como contramedida (2 recursos si hay 3 o 4 investigadores en la partida)."
+  },
+  "tooltips": {
+    "theCrater": {
+      "deal": "{'{'}action{'}'} Gasta 1 contramedida: inflige 3 puntos de daño al Sujeto 8L-08 o a un Enemigo Excrecencia que esté en cualquier Lugar."
+    },
+    "researchSite": {
+      "gainCountermeasure": "{'{'}action{'}'} Gasta 2 pistas: obtén 1 contramedida.",
+      "placeClues": "{'{'}action{'}'} Gasta 1 contramedida: coloca 2 pistas en el Lugar de investigación _(de la reserva de fichas)_."
+    },
+    "temporaryHQ": {
+      "action": "{'{'}action{'}'} Gasta 1 contramedida: elige un efecto: curarte 3 puntos de daño, curarte 3 puntos de horror, obtener 5 recursos o robar 3 cartas."
+    },
+    "fungusMound": {
+      "test": "{'{'}action{'}'} Gasta 1 contramedida: elige un Enemigo Mi-Go que esté en cualquier Lugar y realiza una prueba de {'{'}intellect{'}'} (0). Por cada punto que tengas por encima del valor necesario, inflige 1 punto de daño al Enemigo elegido (hasta un máximo de 5)."
+    },
+    "sewer": {
+      "move": "{'{'}action{'}'} Realiza una prueba de {'{'}intellect{'}'} (1). Si tienes éxito, muévete a un Lugar que esté a un máximo de X conexiones de las Cloacas, donde X es la cantidad por la que tuviste éxito."
+    },
+    "bridge": {
+      "defeat": "{'{'}fast{'}'} Elige un Enemigo Excrecencia agotado que esté en el Puente y realiza una prueba de {'{'}intellect{'}'} (X), donde X es el valor de evitar de ese Enemigo. Si tienes éxito, derrota al Enemigo elegido. (Máximo un éxito por partida)."
+    },
+    "waterTower": {
+      "damage": "{'{'}action{'}'} Si no hay pistas en la Torre de agua: realiza una prueba de {'{'}intellect{'}'} (3). Si tienes éxito, inflige 3 puntos de daño a cada Enemigo Cieno que esté en la Torre de agua y en cada Lugar conectado. (Máximo un éxito por partida)."
+    },
+    "church": {
+      "evade": "{'{'}action{'}'} Si no hay pistas en la Iglesia: elige un Enemigo Cieno que esté en la Iglesia o en un Lugar conectado. Mueve el Enemigo elegido un Lugar alejándose de la Iglesia y evítalo automáticamente. (Límite de grupo de una vez por partida)."
+    },
+    "theMilitarysPlan": {
+      "action": "{'{'}action{'}'}: realiza una prueba de {'{'}intellect{'}'} o {'{'}agility{'}'} (3). Si tienes éxito, retira la ficha de Horror de este Lugar."
+    }
+  },
+  "specialRules": [
+    {
+      "title": "Masa X",
+      "body": "<p class='basic'>Muchos de los Enemigos de este escenario son fragmentos desgajados de la anomalía que tienen consciencia propia. Derrotarlos daña a la anomalía. Cuando un Enemigo con _Masa X_ sea derrotado, inflige X puntos de daño al Sujeto 8L-08.</p><ul><li>Los Enemigos con _Masa X_ no se colocan en la zona de victoria cuando son derrotados, salvo que también tengan _Victoria X_.</li></ul>"
+    },
+    {
+      "title": "Devorar",
+      "body": "<p class='basic'>Durante este escenario, el Sujeto 8L-08 puede «devorar» todo tipo de cosas.</p><ul><li>Si una carta es devorada, se coloca debajo del Sujeto 8L-08. Las cartas que estén debajo del Sujeto 8L-08 se consideran fuera del juego. Cada carta devorada vuelve al mazo de su propietario al final de la partida. Si un investigador es devorado, muere.</li><li>Si una ficha es devorada, se devuelve a la reserva de fichas.</li><li>Al elegir un Lugar que vaya a ser devorado, no puedes elegir uno cuya desaparición deje a otro Lugar sin conexiones válidas.</li><li>El Sujeto 8L-08 también puede devorar ciertos aspectos de la realidad u objetos metafísicos. Si lo hace, se te indicarán las consecuencias.</li></ul>"
+    },
+    {
+      "title": "Contramedidas",
+      "body": "<p class='basic'>Las contramedidas representan suministros, investigaciones o equipo militar que pueden ayudar a los investigadores a sobrevivir. Pueden gastarse mediante las capacidades de ciertas cartas para activar efectos poderosos. Sin embargo, es difícil obtener contramedidas nuevas, así que ¡cuidado con cómo las gastas!</p>"
+    },
+    {
+      "title": "Cartas de Historia",
+      "body": "<p class='basic'>Las cartas de Historia son un nuevo tipo de carta de este escenario. Sirven para ofrecer narrativa adicional y suelen aparecer en el reverso de otra carta del escenario. Cuando se te indique que resuelvas una carta de Historia, lee su texto narrativo y resuelve su texto de juego, si lo tiene.</p>"
+    },
+    {
+      "title": "Ácido de la realidad",
+      "body": "<style>.reality-acid-table{width:100%;border-collapse:collapse;font-size:.82em;line-height:1.25;background:#BEC5B1;color:#1f1a12}.reality-acid-table th{background:#A2B695;color:#1f1a12;text-transform:uppercase;letter-spacing:.04em;border:1px solid #7f9273;padding:4px 6px;font-weight:bold}.reality-acid-table td{border:1px solid #8f9b86;padding:4px 6px;vertical-align:top;font-weight:normal}.reality-acid-table tbody tr:nth-child(odd){background:#BEC5B1}.reality-acid-table tbody tr:nth-child(even){background:#CDD0C3}.reality-acid-table .token{width:13%;text-align:center;color:#1f1a12;white-space:nowrap}.reality-acid-table .aspect{width:74%}</style><p class='basic'>El Sujeto 8L-08 abre sus fauces y devora... Si la combinación de fichas de Caos revelada no aparece en la tabla, o si el aspecto indicado no puede ser devorado, revela dos fichas de Caos nuevas y vuelve a consultar la tabla. El orden de las fichas de Caos no importa.</p><table class='reality-acid-table'><thead><tr><th colspan='2'>Fichas de Caos</th><th>Aspecto de la realidad devorado</th></tr></thead><tbody><tr><td class='token'>{autoFail}</td><td class='token'>{skull}/{cultist}</td><td class='aspect'>...El Enemigo que no sea _Élite_ más cercano a ti.</td></tr><tr><td class='token'>{autoFail}</td><td class='token'>{tablet}/{elderThing}</td><td class='aspect'>...Una Traición que esté en tu Lugar.</td></tr><tr><td class='token'>{autoFail}</td><td class='token'>De –1 a –8</td><td class='aspect'>...1 punto de horror y 1 punto de daño de tu carta de Investigador.</td></tr><tr><td class='token'>{autoFail}</td><td class='token'>+0/+1</td><td class='aspect'>...Tu mayor defecto. Busca en tu mazo 1 carta de Debilidad cualquiera. Es devorada.</td></tr><tr><td class='token'>{autoFail}</td><td class='token'>{elderSign}</td><td class='aspect'>...La ficha {elderSign} que acabas de revelar.</td></tr><tr><td class='token'>+1</td><td class='token'>{skull}/{cultist}</td><td class='aspect'>...Tu cautela. Resuelve el Ácido de la realidad tres veces más, ignorando este resultado.</td></tr><tr><td class='token'>+1</td><td class='token'>{tablet}/{elderThing}</td><td class='aspect'>...Tu ignorancia. Descubre 1 pista en tu Lugar.</td></tr><tr><td class='token'>+1</td><td class='token'>De –1 a –8</td><td class='aspect'>...Las amistades. Hasta el final de la ronda, los investigadores no pueden asignar cartas a las pruebas de habilidad de los demás.</td></tr><tr><td class='token'>+1</td><td class='token'>0</td><td class='aspect'>...Tu carta de referencia de jugador.</td></tr><tr><td class='token'>0</td><td class='token'>0</td><td class='aspect'>...1 pista por investigador de tu Lugar.</td></tr><tr><td class='token'>0</td><td class='token'>{skull}</td><td class='aspect'>...Tu voz. Hasta el final de la ronda, no puedes hablar ni hacer ruido.</td></tr><tr><td class='token'>0</td><td class='token'>{cultist}</td><td class='aspect'>...La comida y la bebida de tu grupo. No se pueden consumir hasta que tu grupo haya infligido al menos 3 puntos de daño al Sujeto 8L-08.</td></tr><tr><td class='token'>0</td><td class='token'>{tablet}</td><td class='aspect'>...El concepto del lenguaje. Hasta el final de la fase de Investigación, solo puedes hablar en un galimatías.</td></tr><tr><td class='token'>0</td><td class='token'>{elderThing}</td><td class='aspect'>...La luz. Hasta el final de la ronda, los investigadores deben jugar con todas las fuentes de luz cercanas apagadas o tapadas (excepto las linternas).</td></tr><tr><td class='token'>0</td><td class='token'>–1/–2</td><td class='aspect'>...A sí mismo, y luego se regurgita. Inflige 1 punto de daño al Sujeto 8L-08.</td></tr><tr><td class='token'>0</td><td class='token'>–3</td><td class='aspect'>...Todo el daño de cada Enemigo _Excrecencia_.</td></tr><tr><td class='token'>0</td><td class='token'>De –4 a –8</td><td class='aspect'>...Todos los suministros, municiones, cargas y secretos de los Apoyos que controlas.</td></tr><tr><td class='token'>–1</td><td class='token'>{skull}</td><td class='aspect'>...Tu esperanza. Hasta el final de la siguiente fase de Mitos, tu Voluntad base pasa a ser 0.</td></tr><tr><td class='token'>–1</td><td class='token'>{cultist}</td><td class='aspect'>...Tu curiosidad. Hasta el final de la siguiente fase de Mitos, tu Intelecto base pasa a ser 0.</td></tr><tr><td class='token'>–1</td><td class='token'>{tablet}</td><td class='aspect'>...Tu precisión. Hasta el final de la siguiente fase de Mitos, tu Combate base pasa a ser 0.</td></tr><tr><td class='token'>–1</td><td class='token'>{elderThing}</td><td class='aspect'>...Tu atención. Hasta el final de la siguiente fase de Mitos, tu Agilidad base pasa a ser 0.</td></tr><tr><td class='token'>–1</td><td class='token'>–1</td><td class='aspect'>...Tu versatilidad. Hasta el final de la ronda, no puedes jugar ni usar cartas que no sean de la clase de tu investigador.</td></tr><tr><td class='token'>–1</td><td class='token'>–2</td><td class='aspect'>...Tu teléfono móvil.</td></tr><tr><td class='token'>–1</td><td class='token'>–3</td><td class='aspect'>...La bolsa de caos. Saca todas sus fichas y ponlas en otro recipiente.</td></tr><tr><td class='token'>–1</td><td class='token'>De –4 a –8</td><td class='aspect'>...Cartas de nivel 1 a 5 de tu elección, con al menos 5 niveles en total, de entre tu mazo, tu pila de descarte, tu mano y tu zona de juego.</td></tr><tr><td class='token'>–2</td><td class='token'>{skull}/{cultist}</td><td class='aspect'>...Las 3 primeras cartas de tu mazo.</td></tr><tr><td class='token'>–2</td><td class='token'>{tablet}/{elderThing}</td><td class='aspect'>...Las 3 primeras cartas de tu pila de descarte.</td></tr><tr><td class='token'>–2</td><td class='token'>–2</td><td class='aspect'>...La caja en la que guardas tu mazo.</td></tr><tr><td class='token'>–2</td><td class='token'>–3</td><td class='aspect'>...La funda de la carta de tu investigador.</td></tr><tr><td class='token'>–2</td><td class='token'>De –4 a –8</td><td class='aspect'>...El trabajo en equipo de tu grupo. Cada investigador pierde 1 acción.</td></tr><tr><td class='token'>–3</td><td class='token'>{skull}/{cultist}/{tablet}/{elderThing}</td><td class='aspect'>...Un Apoyo _Talento_, _Contacto_ o _Estado_ que controles.</td></tr><tr><td class='token'>–3</td><td class='token'>De –4 a –8</td><td class='aspect'>...Tu noción del tiempo. Hasta que hagas avanzar el Plan, los investigadores no pueden usar aparatos que midan el tiempo, preguntar la hora ni activar capacidades de ninguna carta cuyo título contenga «tiempo», «reloj» o «crono».</td></tr><tr><td class='token'>De –4 a –8</td><td class='token'>{skull}/{cultist}</td><td class='aspect'>...La minicarta de tu investigador. (Usa otra cosa para señalar tu Lugar).</td></tr><tr><td class='token'>De –4 a –8</td><td class='token'>{tablet}/{elderThing}</td><td class='aspect'>...Tu casa. Busca en la colección la carta Tu casa (Caja básica n.º 124); es devorada.</td></tr><tr><td class='token'>De –4 a –8</td><td class='token'>De –4 a –8</td><td class='aspect'>...Tu alma. Anota en tu registro de campaña que no tienes alma.</td></tr><tr><td class='token'>{skull}</td><td class='token'>{skull}</td><td class='aspect'>...El Apoyo _Aliado_ de mayor coste que controles.</td></tr><tr><td class='token'>{skull}</td><td class='token'>{cultist}</td><td class='aspect'>...Todas las cartas de Evento de tu mano.</td></tr><tr><td class='token'>{skull}</td><td class='token'>{tablet}</td><td class='aspect'>...Todos tus recursos.</td></tr><tr><td class='token'>{skull}</td><td class='token'>{elderThing}</td><td class='aspect'>...Todas las cartas de Habilidad de tu mano.</td></tr><tr><td class='token'>{cultist}</td><td class='token'>{cultist}</td><td class='aspect'>...Todas las cartas que se hayan exiliado.</td></tr><tr><td class='token'>{cultist}</td><td class='token'>{tablet}</td><td class='aspect'>...Tu identidad. Hasta el final de la ronda, considera en blanco el cuadro de texto de tu investigador (incluidos los _Atributos_).</td></tr><tr><td class='token'>{cultist}</td><td class='token'>{elderThing}</td><td class='aspect'>...El concepto de velocidad. Hasta el final de la ronda, los investigadores no pueden obtener ni realizar acciones adicionales.</td></tr><tr><td class='token'>{tablet}</td><td class='token'>{tablet}</td><td class='aspect'>...Tu sensación de urgencia. Hasta el final de la ronda, no puedes moverte.</td></tr><tr><td class='token'>{tablet}</td><td class='token'>{elderThing}</td><td class='aspect'>...Tu potencial. Hasta el final de la ronda, tus habilidades no pueden aumentar.</td></tr><tr><td class='token'>{elderThing}</td><td class='token'>{elderThing}</td><td class='aspect'>...Tu paciencia. Coloca 1 ficha de Perdición en el Plan en curso.</td></tr><tr><td class='token'>{elderSign}</td><td class='token'>{skull}/{cultist}</td><td class='aspect'>...Todos los Apoyos _Hechizo_ y _Ritual_ que controles.</td></tr><tr><td class='token'>{elderSign}</td><td class='token'>{tablet}/{elderThing}</td><td class='aspect'>...Todos los Apoyos _Objeto_ que controles.</td></tr><tr><td class='token'>{elderSign}</td><td class='token'>+1</td><td class='aspect'>...El concepto de «pila de descarte». Hasta el final de la siguiente fase de Mitos, cada carta que fuera a colocarse en la pila de descarte de cualquier investigador es devorada en su lugar.</td></tr><tr><td class='token'>{elderSign}</td><td class='token'>0</td><td class='aspect'>...Una de tus manos. Durante el resto de la partida, tienes 1 espacio de mano menos.</td></tr><tr><td class='token'>{elderSign}</td><td class='token'>–1</td><td class='aspect'>...El concepto del éxito. La próxima vez que un investigador fuera a tener éxito en una prueba por 2 o más, ese investigador fracasa automáticamente en su lugar.</td></tr><tr><td class='token'>{elderSign}</td><td class='token'>–2/–3</td><td class='aspect'>...1 contramedida.</td></tr><tr><td class='token'>{elderSign}</td><td class='token'>De –4 a –8</td><td class='aspect'>...El concepto de facilidad. Hasta el final de la partida, da la vuelta a la carta de referencia de escenario por su lado Difícil/Experto.</td></tr></tbody></table>"
+    }
+  ],
+  "resolutions": {
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<p>_Resolución 1_: ya no queda nada de Blackwater. La cuarentena se ha roto. Es imposible contener la anomalía. Primero se extenderá por la campiña, devorando todo a su paso. Pronto habrá devorado Massachusetts. Después, Nueva Inglaterra entera. Se ha enterrado bajo tierra y ni siquiera los océanos pueden detenerla. Ningún continente está a salvo. Devorará hasta el último organismo vivo del planeta. Y después, la propia Tierra... pero ahí no acabará. Ni siquiera el vacío del espacio puede frenar el crecimiento de la criatura. Con el tiempo, seguirá expandiéndose y devorando hasta que no quede nada salvo el frío vacío del espacio y la masa que lo devoraba todo.</p><ul><li>En tu registro de campaña, anota que *el Sujeto 8L-08 devoró el universo entero*.</li><li>Los investigadores pierden la campaña.</li></ul>"
+    },
+    "resolution2": {
+      "title": "Resolución 2",
+      "body": "<p>_Resolución 2_:</p><p class='basic'>Informe de incidente: 8L-08, continuación<br>Miércoles, 11/07/1928<br>Blackwater, Massachusetts</p><p class='basic'>07:42 horas. Establecido contacto con un sujeto <span class='censor'>alienígena hostil</span>.El sujeto <span class='censor'>llegó en un</span> meteorito; los investigadores no saben si este sirvió como medio de <span class='censor'>viaje espacial</span> o como una especie de <span class='censor'>huevo armamentístico</span>. Iniciados de inmediato los procedimientos de respuesta de emergencia. Hacia las 05:00 horas, el sujeto fue eliminado por terceros. Según el protocolo de actuación, se han recogido muestras y se han enviado a <span class='censor'>Roswell</span> para su estudio. Los agentes están borrando los restos de la presencia del sujeto en la zona de cuarentena. Se recomienda encarecidamente eliminar de inmediato el anterior informe de incidente, que contradice este.</p><p class='basic'>Se ha informado a la población de Blackwater <span class='basic'>de que</span> la cuarentena <span class='censor'>se debió al</span> contagio de un virus de transmisión aérea. <span class='censor'>Provocadas</span> varias infecciones <span class='censor'>a tal efecto</span>; equipos médicos en camino para confirmarlo.</p><p class='basic'>Los agentes intentan reunirse con los combatientes no autorizados para tomarles declaración. Dada la naturaleza delicada del incidente, se recomienda ponerlos en libertad y vigilarlos de cerca. La historia debe conocerse <span class='censor'>solo por necesidad</span>. <span class='censor'>Nadie más puede saber lo que ocurrió aquí en realidad</span>.</p><p class='basic'>Destruya este informe de inmediato. Seguirán instrucciones adicionales.</p><ul><li>En tu registro de campaña, anota que *la anomalía fue contenida*.</li><li>Por cada uno de los siguientes Apoyos que esté en juego (Disolvente universal, Vástago de cieno mascota, Arma Mi-Go y Tte. Wilson Stewart), un investigador cualquiera puede decidir añadir ese Apoyo a su mazo. No cuenta para el tamaño de mazo de ese investigador.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria. Cada investigador obtiene 3 puntos de experiencia adicionales por haber salvado el tejido de la existencia.</li></ul>"
+    }
+  },
+  "tokens": {
+    "easyStandard": {
+      "skull": "-1 por cada 5 cartas que haya devorado el Sujeto 8L-08.",
+      "cultist": "-2. Si esta ficha se revela durante un ataque contra un Enemigo, ese Enemigo obtiene Represalia para este ataque.",
+      "tablet": "-3. Después de que termine esta prueba de habilidad, el Sujeto 8L-08 devora todas las cartas que se asignaron a la prueba.",
+      "elderThing": "-5. Elige hasta 5 cartas de tu mano. El Sujeto 8L-08 devora todas esas cartas. Recibes +1 a tu valor de habilidad para esta prueba por cada carta devorada de este modo."
+    },
+    "hardExpert": {
+      "skull": "-1 por cada 3 cartas que haya devorado el Sujeto 8L-08.",
+      "cultist": "-3. Si esta ficha se revela durante un ataque contra un Enemigo, este obtiene Represalia para esta prueba.",
+      "tablet": "-4. Después de que termine esta prueba de habilidad, el Sujeto 8L-08 devora todas las cartas que se asignaron a la prueba.",
+      "elderThing": "-7. Elige hasta 7 cartas de tu mano. El Sujeto 8L-08 devora todas esas cartas. Recibes +1 a tu valor de habilidad para esta prueba por cada carta devorada de este modo."
+    }
+  },
+  "label": {
+    "doneDevouring": "Terminar de devorar cartas",
+    "ltWilsonStewart": {
+      "healDamage": "Curar 1 punto de daño del Tte. Wilson Stewart",
+      "healHorror": "Curar 1 punto de horror del Tte. Wilson Stewart",
+      "gainSkillValue": "Recibes +1 a tu valor de habilidad para tu próxima prueba de habilidad",
+      "drawCard": "Robar 1 carta",
+      "gainResource": "Obtener 1 recurso"
+    },
+    "temporaryHQ": {
+      "healDamage": "Curar 3 puntos de daño",
+      "healHorror": "Curar 3 puntos de horror",
+      "gainResources": "Obtener 5 recursos",
+      "drawCards": "Robar 3 cartas"
+    },
+    "replicatingAberration": {
+      "spendCountermeasure": "Gastar 1 contramedida para impedir la replicación",
+      "allowSpawn": "Permitir que aparezca la Aberración replicadora"
+    },
+    "abandonedWindmill": {
+      "investigate": "Mover las pistas a un Lugar de investigación o al CG temporal"
+    }
+  },
+  "realityAcid": {
+    "title": "Ácido de la realidad",
+    "devours": "El Sujeto 8L-08 abre sus fauces y devora...",
+    "consultAgain": "*Si la combinación de fichas de Caos revelada no aparece en la tabla, o si el aspecto indicado no puede ser devorado, revela dos fichas de Caos nuevas y vuelve a consultar la tabla.*",
+    "outcomes": {
+      "nearestEnemy": "...El Enemigo que no sea _Élite_ más cercano a ti.",
+      "treachery": "...Una Traición que esté en tu Lugar.",
+      "heal": "...1 punto de horror y 1 punto de daño de tu carta de Investigador.",
+      "greatestFlaw": "...Tu mayor defecto. Busca en tu mazo 1 carta de Debilidad cualquiera. Es devorada.",
+      "elderSignToken": "...La ficha {'{'}elderSign{'}'} que acabas de revelar.",
+      "caution": "...Tu cautela. Resuelve el Ácido de la realidad tres veces más, ignorando este resultado.",
+      "ignorance": "...Tu ignorancia. Descubre 1 pista en tu Lugar.",
+      "friendships": "...Las amistades. Hasta el final de la ronda, los investigadores no pueden asignar cartas a las pruebas de habilidad de los demás.",
+      "playerReferenceCard": "...Tu carta de referencia de jugador.",
+      "locationClues": "...1 pista por investigador de tu Lugar.",
+      "voice": "...Tu voz. Hasta el final de la ronda, no puedes hablar ni hacer ruido.",
+      "foodAndDrinks": "...La comida y la bebida de tu grupo. No se pueden consumir hasta que tu grupo haya infligido al menos 3 puntos de daño al Sujeto 8L-08.",
+      "language": "...El concepto del lenguaje. Hasta el final de la fase de Investigación, solo puedes hablar en un galimatías.",
+      "light": "...La luz. Hasta el final de la ronda, los investigadores deben jugar con todas las fuentes de luz cercanas apagadas o tapadas (excepto las linternas).",
+      "regurgitate": "...A sí mismo, y luego se regurgita. Inflige 1 punto de daño al Sujeto 8L-08.",
+      "manifold": "...Todo el daño de cada Enemigo _Excrecencia_.",
+      "uses": "...Todos los suministros, municiones, cargas y secretos de los Apoyos que controlas.",
+      "willpower": "...Tu esperanza. Hasta el final de la siguiente fase de Mitos, tu Voluntad base pasa a ser 0.",
+      "intellect": "...Tu curiosidad. Hasta el final de la siguiente fase de Mitos, tu Intelecto base pasa a ser 0.",
+      "combat": "...Tu precisión. Hasta el final de la siguiente fase de Mitos, tu Combate base pasa a ser 0.",
+      "agility": "...Tu atención. Hasta el final de la siguiente fase de Mitos, tu Agilidad base pasa a ser 0.",
+      "versatility": "...Tu versatilidad. Hasta el final de la ronda, no puedes jugar ni usar cartas que no sean de la clase de tu investigador.",
+      "cellPhone": "...Tu teléfono móvil.",
+      "chaosBag": "...La bolsa de caos. Saca todas sus fichas y ponlas en otro recipiente.",
+      "levelCards": "...Cartas de nivel 1 a 5 de tu elección, con al menos 5 niveles en total, de entre tu mazo, tu pila de descarte, tu mano y tu zona de juego.",
+      "top3Deck": "...Las 3 primeras cartas de tu mazo.",
+      "top3Discard": "...Las 3 primeras cartas de tu pila de descarte.",
+      "deckbox": "...La caja en la que guardas tu mazo.",
+      "cardSleeve": "...La funda de la carta de tu investigador.",
+      "teamwork": "...El trabajo en equipo de tu grupo. Cada investigador pierde 1 acción.",
+      "talentAsset": "...Un Apoyo _Talento_, _Contacto_ o _Estado_ que controles.",
+      "senseOfTime": "...Tu noción del tiempo. Hasta que hagas avanzar el Plan, los investigadores no pueden usar aparatos que midan el tiempo, preguntar la hora ni activar capacidades de ninguna carta cuyo título contenga «tiempo», «reloj» o «crono».",
+      "miniCard": "...La minicarta de tu investigador. (Usa otra cosa para señalar tu Lugar).",
+      "yourHouse": "...Tu casa. Busca en la colección la carta Tu casa (Caja básica n.º 124); es devorada.",
+      "noSoul": "...Tu alma. Anota en tu registro de campaña que no tienes alma.",
+      "ally": "...El Apoyo _Aliado_ de mayor coste que controles.",
+      "events": "...Todas las cartas de Evento de tu mano.",
+      "resources": "...Todos tus recursos.",
+      "skills": "...Todas las cartas de Habilidad de tu mano.",
+      "exiledCards": "...Todas las cartas que se hayan exiliado.",
+      "identity": "...Tu identidad. Hasta el final de la ronda, considera en blanco el cuadro de texto de tu investigador (incluidos los _Atributos_).",
+      "speed": "...El concepto de velocidad. Hasta el final de la ronda, los investigadores no pueden obtener ni realizar acciones adicionales.",
+      "cannotMove": "...Tu sensación de urgencia. Hasta el final de la ronda, no puedes moverte.",
+      "potential": "...Tu potencial. Hasta el final de la ronda, tus habilidades no pueden aumentar.",
+      "doom": "...Tu paciencia. Coloca 1 ficha de Perdición en el Plan en curso.",
+      "spellRitual": "...Todos los Apoyos _Hechizo_ y _Ritual_ que controles.",
+      "item": "...Todos los Apoyos _Objeto_ que controles.",
+      "discardPile": "...El concepto de «pila de descarte». Hasta el final de la siguiente fase de Mitos, cada carta que fuera a colocarse en la pila de descarte de cualquier investigador es devorada en su lugar.",
+      "handSlot": "...Una de tus manos. Durante el resto de la partida, tienes 1 espacio de mano menos.",
+      "success": "...El concepto del éxito. La próxima vez que un investigador fuera a tener éxito en una prueba por 2 o más, ese investigador fracasa automáticamente en su lugar.",
+      "countermeasure": "...1 contramedida.",
+      "easiness": "...El concepto de facilidad. Hasta el final de la partida, da la vuelta a la carta de referencia de escenario por su lado Difícil/Experto."
+    }
+  }
+}
