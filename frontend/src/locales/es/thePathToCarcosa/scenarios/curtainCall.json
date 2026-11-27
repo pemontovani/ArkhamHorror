@@ -24,6 +24,11 @@
     "placeLocations": {
       "instructions": "Pon en juego los Lugares Teatro, Vestíbulo, Palcos y Bastidores. Cada investigador comienza la partida en el Teatro.",
       "lola": "Si un investigador eligió a Lola Hayes en esta campaña, comienza la partida en los Bastidores en lugar de en el Teatro."
+    },
+    "returnTo": {
+      "gatherSets": "Reúne también todas las cartas de los siguientes conjuntos de encuentro: *Regreso a Se cierra el telón*, *Delirios enloquecedores* y *Miedo neurótico*. Estos conjuntos se indican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/return-to-curtain-call.png' /><img src='{setImgPath}/maddening-delusions.png' /><img src='{setImgPath}/neurotic-fear.png' /></section>*Delirios enloquecedores* sustituye a *Delirios* y *Miedo neurótico* sustituye a *Miedo impactante*. Retira del juego los conjuntos sustituidos.",
+      "actDeck": "Crea el mazo de Acto usando las seis copias del Acto 2a: *El Extranjero*.",
+      "royalEmissary": "Vincula esta carta de escenario al Emisario real como recordatorio: _Obligado_: Después de que el Emisario real se añada a la zona de victoria, coloca 1 recurso en esta carta como advertencia. Por cada advertencia que haya en esta carta, el Emisario real recibe +1 de salud por investigador."
     }
   },
   "resolutions": {

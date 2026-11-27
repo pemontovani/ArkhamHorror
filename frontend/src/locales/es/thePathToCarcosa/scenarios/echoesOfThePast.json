@@ -36,7 +36,15 @@
       "exactly3": "Si hay exactamente 3 jugadores en la partida, busca en los conjuntos de encuentro reunidos 2 copias del Buscador de Carcosa. Hazlos aparecer en sendos Lugares “Sociedad Histórica” _*Segundo piso*_ distintos.",
       "exactly4": "Si hay exactamente 4 jugadores en la partida, busca en los conjuntos de encuentro reunidos 3 copias del Buscador de Carcosa. Hazlos aparecer en sendos Lugares “Sociedad Histórica” _*Primer piso*_ o _*Segundo piso*_ distintos."
     },
-    "fledTheDinnerParty": "Consulta el Registro de campaña. *Si los investigadores huyeron de la fiesta*: Llegáis a la Sociedad Histórica con tiempo de sobra; cada investigador puede realizar 1 acción adicional durante su primer turno de esta partida."
+    "fledTheDinnerParty": "Consulta el Registro de campaña. *Si los investigadores huyeron de la fiesta*: Llegáis a la Sociedad Histórica con tiempo de sobra; cada investigador puede realizar 1 acción adicional durante su primer turno de esta partida.",
+    "fledDinnerPartyAdditionalAction": "Huida de la cena",
+    "returnTo": {
+      "gatherSets": "Reúne también todas las cartas de los siguientes conjuntos de encuentro: *Regreso a Ecos del pasado* y *Delirios enloquecedores*. Estos conjuntos se indican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/return-to-echoes-of-the-past.png' /><img src='{setImgPath}/maddening-delusions.png' /></section>*Delirios enloquecedores* sustituye a *Delirios*. Retira del juego el conjunto sustituido.",
+      "chooseLocations": "Elige al azar un Lugar Sociedad Histórica _Sótano_ y retíralo del juego sin mirar su lado revelado.",
+      "placeLocations": "Al poner los Lugares en juego, pon en juego las 3 copias de Pasillos tranquilos junto con los 8 Lugares Sociedad Histórica restantes. (Los 3 Lugares _Sótano_ deben formar una fila inferior debajo de los 3 Lugares _Planta baja_).",
+      "setAside": "Deja aparte también los dos Enemigos Guardián del juramento, fuera del juego.",
+      "additionalRule": "Durante este escenario se aplica la siguiente regla adicional: _Obligado_: Después de que los investigadores avancen al acto 2 o al acto 3, haz aparecer un Guardián del juramento puesto aparte en cualquier Lugar Sociedad Histórica vacío."
+    }
   },
   "resolutions": {
     "xp": {
@@ -70,6 +78,9 @@
     },
     "ledAstray": {
       "placeClue": "Coloca 1 de tus pistas sobre un Enemigo Sectario"
+    },
+    "historicalSocietyReadingRoom": {
+      "investigate": "Toma 1 de Perdición de un Enemigo como pista"
     }
   },
   "tooltips": {

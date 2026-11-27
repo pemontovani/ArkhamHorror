@@ -36,7 +36,12 @@
       "fiveOrSixNames": "Si hay exactamente 5 o 6 nombres, coloca 3 perdición sobre el Plan 1a."
     },
     "pastMidnight": "Consulta el Registro de campaña. Si *es más de medianoche*: Cada jugador descarta 2 cartas aleatorias de su mano inicial.",
-    "ghoulPriest": "Consulta el Registro de campaña. Si *el Sacerdote gul sigue con vida*: Barájalo en el mazo de Encuentro."
+    "ghoulPriest": "Consulta el Registro de campaña. Si *el Sacerdote gul sigue con vida*: Barájalo en el mazo de Encuentro.",
+    "returnTo": {
+      "gatherSets": "Reúne también todas las cartas de los siguientes conjuntos de encuentro: *Regreso al Devorador de las Profundidades*, *Gules de Umôrdhoth* y *La secta del Devorador*. Estos conjuntos se indican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/return-to-the-devourer-below.png' /><img src='{setImgPath}/ghouls-of-umrdhoth.png' /><img src='{setImgPath}/the-devourers-cult.png' /></section>*Gules de Umôrdhoth* sustituye a *Gules* y *La secta del Devorador* sustituye a *Secta oscura*. Retira del juego los conjuntos sustituidos.",
+      "placeLocations": "Al elegir al azar 4 Lugares Bosques de Arkham para ponerlos en juego, incluye los 4 Lugares Bosques de Arkham nuevos de este conjunto de encuentro, hasta un total de 10 posibilidades.",
+      "vaultOfEarthlyDemise": "Después de dejar aparte al Enemigo Umôrdhoth, vincúlale la *Cámara de la defunción terrenal*."
+    }
   },
   "resolutions": {
     "xp": {

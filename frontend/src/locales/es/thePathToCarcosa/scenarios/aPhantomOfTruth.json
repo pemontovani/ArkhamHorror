@@ -86,7 +86,13 @@
     "chooseLocations": "Elige al azar uno de los dos Lugares Montmartre, uno de los dos Lugares Opéra Garnier y uno de los dos Lugares Le Marais. Pon en juego los Lugares elegidos. Retira las otras versiones de esos Lugares de la partida.",
     "placeLocations": "Pon en juego los Lugares restantes (Montparnasse, Gare d’Orsay, Grand Guignol, Canal Saint-Martin, Cementerio de Père Lachaise, Notre-Dame y Jardines de Luxemburgo). (Consulta la distribución sugerida a continuación.) Cada investigador comienza la partida en la Gare d’Orsay.",
     "setAside": "Pon aparte, fuera del juego, el Enemigo de doble cara El organista.",
-    "lostSoul": "Si quedan copias de la Debilidad Alma perdida, ponlas aparte, fuera del juego."
+    "lostSoul": "Si quedan copias de la Debilidad Alma perdida, ponlas aparte, fuera del juego.",
+    "returnTo": {
+      "gatherSets": "Reúne también todas las cartas de los siguientes conjuntos de encuentro: *Regreso a El fantasma de la verdad* y *Enviados de Hastur*. Estos conjuntos se indican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/return-to-the-phantom-of-truth.png' /><img src='{setImgPath}/hasturs-envoys.png' /></section>*Enviados de Hastur* sustituye a *Agentes de Hastur*. Retira del juego el conjunto sustituido.",
+      "chooseLocations": "Elige al azar 1 de los 2 Lugares Montparnasse, 1 de los 2 Lugares Grand Guignol, 1 de los 2 Lugares Cementerio Père Lachaise, 1 de los 2 Lugares Canal Saint-Martin, 1 de los 2 Lugares Notre-Dame y 1 de los 2 Lugares Jardines de Luxemburgo. Pon esos Lugares en juego. Retira del juego las demás versiones de esos Lugares.",
+      "setAside": "Deja aparte también las dos copias de Figura en las sombras, fuera del juego.",
+      "additionalRule": "Durante este escenario se aplica la siguiente regla adicional: _Obligado_: Después de que El organista entre en juego, baraja con el mazo de Encuentros las dos copias de Figura en las sombras puestas aparte, junto con la pila de descarte de Encuentros."
+    }
   },
   "resolutions": {
     "xp": {

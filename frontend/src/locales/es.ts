@@ -1,4 +1,7 @@
 import base from '@/locales/es/base.json'
+import modifiers from '@/locales/es/modifiers.json'
+import traits from '@/locales/es/traits.json'
+import { homebrewMessages } from '@/locales/homebrew'
 import cardOption from '@/locales/es/cardOption.json'
 import event from '@/locales/es/event.json'
 import log from '@/locales/es/log.json'
@@ -32,6 +35,8 @@ export default
   , ...event
   , ...campaignLog
   , ...gameBoard
+  , ...modifiers
+  , ...traits
   , cards
   , investigators
   , label: { ...label, cards: cards["label"] }
@@ -52,4 +57,5 @@ export default
   , brethrenOfAsh
   , standalone
   , theLabyrinthsOfLunacy: theLabyrinthsOfLunacyLog
+  , ...homebrewMessages('es', traits.trait)
   }

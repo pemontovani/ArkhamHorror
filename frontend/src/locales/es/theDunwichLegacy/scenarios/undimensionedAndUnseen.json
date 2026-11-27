@@ -1,28 +1,28 @@
 {
   "heading": "Escenario V",
   "label": {
-    "playPowder": "Juega Polvo de Ibn-Ghazi",
-    "doNotPlayPowder": "No juegues Polvo de Ibn-Ghazi",
-    "doNotRemoveCluesAndFail": "No retires pistas de Prole de Yog-Sothoth y fracasa en la prueba de habilidad",
-    "doNotRemoveCluesAndTreatAsNegative4": "No retires pistas de Prole de Yog-Sothoth y trátalo como -4",
     "chooseInvestigatorToPlaceClue": "Elige un investigador para colocar una pista",
     "cluesToSpend": "Número de pistas a gastar",
-    "doNotRemoveCluesFail": "No retires pistas de Prole de Yog-Sothoth y fracasa en la prueba de habilidad",
-    "doNotRemoveCluesTreatAsMinusFour": "No retires pistas de Prole de Yog-Sothoth y trátalo como -4",
-    "spawnSetAsideBrood": "Haz aparecer una Prole de Yog-Sothoth dejada aparte en un Lugar aleatorio"
+    "doNotRemoveCluesFail": "No retires pistas de Progenie de Yog-Sothoth y fracasa en la prueba de habilidad",
+    "doNotRemoveCluesTreatAsMinusFour": "No retires pistas de Progenie de Yog-Sothoth y trátalo como -4",
+    "spawnSetAsideBrood": "Haz aparecer una Progenie de Yog-Sothoth dejada aparte en un Lugar aleatorio",
+    "playPowder": "Juega Polvo de Ibn-Ghazi",
+    "doNotPlayPowder": "No juegues Polvo de Ibn-Ghazi",
+    "doNotRemoveCluesAndFail": "No retires pistas de Progenie de Yog-Sothoth y fracasa en la prueba de habilidad",
+    "doNotRemoveCluesAndTreatAsNegative4": "No retires pistas de Progenie de Yog-Sothoth y trátalo como -4"
   },
   "tokens": {
     "easyStandard": {
-      "skull": "-1 por cada Prole de Yog-Sothoth en juego.",
+      "skull": "-1 por cada Progenie de Yog-Sothoth en juego.",
       "cultist": "Revela otra ficha. Si fracasas en esta prueba, recibe 1 horror.",
-      "tablet": "0. Debes retirar todas las fichas de pista de una Prole de Yog-Sothoth en juego, o el modificador de esta ficha es -4 en su lugar.",
-      "elderThing": "-3. Si se revela esta ficha durante un ataque o un intento de evasión contra una Prole de Yog-Sothoth, te ataca inmediatamente."
+      "tablet": "0. Debes retirar todas las fichas de pista de una Progenie de Yog-Sothoth en juego, o el modificador de esta ficha es -4 en su lugar.",
+      "elderThing": "-3. Si se revela esta ficha durante un ataque o un intento de evasión contra una Progenie de Yog-Sothoth, te ataca inmediatamente."
     },
     "hardExpert": {
-      "skull": "-2 por cada Prole de Yog-Sothoth en juego.",
+      "skull": "-2 por cada Progenie de Yog-Sothoth en juego.",
       "cultist": "Revela otra ficha. Si fracasas en esta prueba, recibe 1 horror y 1 daño.",
-      "tablet": "0. Debes retirar todas las fichas de pista de una Prole de Yog-Sothoth en juego, o esta prueba fracasa automáticamente.",
-      "elderThing": "-5. Si se revela esta ficha durante un ataque o un intento de evasión contra una Prole de Yog-Sothoth, te ataca inmediatamente."
+      "tablet": "0. Debes retirar todas las fichas de pista de una Progenie de Yog-Sothoth en juego, o esta prueba fracasa automáticamente.",
+      "elderThing": "-5. Si se revela esta ficha durante un ataque o un intento de evasión contra una Progenie de Yog-Sothoth, te ataca inmediatamente."
     }
   },
   "tooltips": {
@@ -45,14 +45,19 @@
     "placeLocations": "Pon en juego al azar una de las dos versiones de los siguientes Lugares: Aldea de Dunwich, Cañada de Cold Spring, Páramo arrasado, Pradera de diez acres, Patio del Diablo y Ruinas Whateley. Retira del juego las demás versiones de cada uno de esos Lugares. Cada investigador comienza la partida en la Aldea de Dunwich.",
     "sacrificedToYogSothoth": {
       "instructions": "Consulta el número de nombres anotados bajo «Sacrificados a Yog‑Sothoth» en tu Registro de campaña.",
-      "fourOrMore": "Si hay 4 o más nombres anotados, deja aparte 2 copias de Prole de Yog‑Sothoth, fuera del juego. A continuación, retira del juego las 3 copias finales de Prole de Yog‑Sothoth.",
-      "exactlyThree": "Si hay exactamente 3 nombres anotados, pon en juego 1 copia de Prole de Yog‑Sothoth en la Cañada de Cold Spring, y deja aparte 2 copias de Prole de Yog‑Sothoth, fuera del juego. A continuación, retira del juego las 2 copias finales de Prole de Yog‑Sothoth.",
-      "exactlyTwo": "Si hay exactamente 2 nombres anotados, pon en juego 1 copia de Prole de Yog‑Sothoth en la Cañada de Cold Spring, y deja aparte 3 copias de Prole de Yog‑Sothoth, fuera del juego. A continuación, retira del juego la copia final de Prole de Yog‑Sothoth.",
-      "oneOrFewer": "Si hay 1 o menos nombres anotados, pon en juego 1 copia de Prole de Yog‑Sothoth en la Cañada de Cold Spring, y pon en juego 1 copia de Prole de Yog‑Sothoth en el Páramo arrasado. A continuación, deja aparte las 3 copias finales de Prole de Yog‑Sothoth, fuera del juego."
+      "fourOrMore": "Si hay 4 o más nombres anotados, deja aparte 2 copias de Progenie de Yog‑Sothoth, fuera del juego. A continuación, retira del juego las 3 copias finales de Progenie de Yog‑Sothoth.",
+      "exactlyThree": "Si hay exactamente 3 nombres anotados, pon en juego 1 copia de Progenie de Yog‑Sothoth en la Cañada de Cold Spring, y deja aparte 2 copias de Progenie de Yog‑Sothoth, fuera del juego. A continuación, retira del juego las 2 copias finales de Progenie de Yog‑Sothoth.",
+      "exactlyTwo": "Si hay exactamente 2 nombres anotados, pon en juego 1 copia de Progenie de Yog‑Sothoth en la Cañada de Cold Spring, y deja aparte 3 copias de Progenie de Yog‑Sothoth, fuera del juego. A continuación, retira del juego la copia final de Progenie de Yog‑Sothoth.",
+      "oneOrFewer": "Si hay 1 o menos nombres anotados, pon en juego 1 copia de Progenie de Yog‑Sothoth en la Cañada de Cold Spring, y pon en juego 1 copia de Progenie de Yog‑Sothoth en el Páramo arrasado. A continuación, deja aparte las 3 copias finales de Progenie de Yog‑Sothoth, fuera del juego."
     },
     "setAside": "Deja aparte cada copia de Fórmula esotérica, fuera del juego.",
     "powderOfIbnGhazi": "Un investigador con el Polvo de Ibn-Ghazi en su mazo puede buscarlo en su mazo y ponerlo en juego.",
-    "randomBasicWeakness": "Cada investigador busca en la colección una Debilidad básica aleatoria de _*Locura*_, _*Lesión*_ o _*Pacto*_ y la añade a su mazo durante el resto de la campaña."
+    "randomBasicWeakness": "Cada investigador busca en la colección una Debilidad básica aleatoria de _*Locura*_, _*Lesión*_ o _*Pacto*_ y la añade a su mazo durante el resto de la campaña.",
+    "returnTo": {
+      "gatherSets": "Reúne también todas las cartas de los siguientes conjuntos de encuentro: *Regreso a Invisibles y sin dimensión* y *Miedo errático*. Estos conjuntos se indican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/return-to-undimensioned-and-unseen.png' /><img src='{setImgPath}/erratic-fear.png' /></section>*Miedo errático* sustituye a *Miedo impactante*. Retira del juego el conjunto sustituido.",
+      "broodOfYogSothoth": "Retira 4 copias de Progenie de Yog-Sothoth del escenario original y sustitúyelas por las 4 versiones nuevas de Progenie de Yog-Sothoth del conjunto de encuentro *Regreso a Invisibles y sin dimensión*.",
+      "additionalRule": "Durante este escenario se aplica la siguiente regla adicional: si una Progenie de Yog-Sothoth fuera a ponerse en juego, se elige al azar entre las versiones de Progenie de Yog-Sothoth puestas aparte."
+    }
   },
   "choosingARandomLocation": {
     "title": "Elegir un Lugar aleatorio",
@@ -71,7 +76,7 @@
     },
     "resolution1": {
       "title": "Resolución 1",
-      "body": "<div class='resolution'><p>_Resolución 1_: Hicisteis todo lo posible por detener a los monstruos desatados, pero había más de los que creíais y no pudisteis matarlos a todos. Exhaustos y aterrorizados, os retiráis a casa de Zebulon con la esperanza de sobrevivir a la noche.</p><ul><li>En tu Registro de campaña, anota que *X prole escapó a la naturaleza*. X es el número total de Prole de Yog‑Sothoth que sigue en juego o dejada aparte.</li><li>Si el mazo de un investigador contiene la carta Polvo de Ibn-Ghazi, retírala del mazo de ese investigador.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.<ul><li>_Experiencia_: {xp}</li></ul></li></ul></div>"
+      "body": "<div class='resolution'><p>_Resolución 1_: Hicisteis todo lo posible por detener a los monstruos desatados, pero había más de los que creíais y no pudisteis matarlos a todos. Exhaustos y aterrorizados, os retiráis a casa de Zebulon con la esperanza de sobrevivir a la noche.</p><ul><li>En tu Registro de campaña, anota que *X prole escapó a la naturaleza*. X es el número total de Progenie de Yog‑Sothoth que sigue en juego o dejada aparte.</li><li>Si el mazo de un investigador contiene la carta Polvo de Ibn-Ghazi, retírala del mazo de ese investigador.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de Victoria X de cada carta de la zona de victoria.<ul><li>_Experiencia_: {xp}</li></ul></li></ul></div>"
     },
     "resolution2": {
       "title": "Resolución 2",

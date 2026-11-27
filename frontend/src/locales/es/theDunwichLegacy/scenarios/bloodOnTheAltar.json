@@ -32,7 +32,15 @@
     "setAside": "Deja aparte las siguientes cartas, fuera del juego: Silas Bishop, La Cámara oculta, Llave de la cámara y Polvo de Ibn-Ghazi.",
     "delayed": "Consulta el Registro de campaña. Si *los investigadores se retrasaron de camino a Dunwich*: Añade 1 perdición al plan 1a.",
     "seekingVengeance": "Consulta el Registro de campaña. Si *la banda de O'Bannion tiene una cuenta pendiente con los investigadores*: En busca de venganza, la banda del Clover Club os ha seguido hasta Dunwich. Reúne todas las cartas del conjunto de encuentro La banda de Naomi y barájalas en el mazo de Encuentro. Este conjunto se indica con el siguiente icono:<section class='encounter-sets'><img src='{setImgPath}/naomis-crew.png' /></section>",
-    "placeUnderneath": "Toma las cartas La Cámara oculta y Llave de la cámara dejadas aparte, junto con las 3 cartas superiores del mazo de Encuentro. Barájalas y reparte al azar 1 carta boca abajo debajo de cada Lugar en juego excepto las Calles de la aldea."
+    "placeUnderneath": "Toma las cartas La Cámara oculta y Llave de la cámara dejadas aparte, junto con las 3 cartas superiores del mazo de Encuentro. Barájalas y reparte al azar 1 carta boca abajo debajo de cada Lugar en juego excepto las Calles de la aldea.",
+    "returnTo": {
+      "gatherSets": "Reúne también todas las cartas de los siguientes conjuntos de encuentro: *Regreso a Sangre en el altar* y *Males renacientes*. Estos conjuntos se indican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/return-to-blood-on-the-altar.png' /><img src='{setImgPath}/resurgent-evils.png' /></section>*Males renacientes* sustituye a *Antiguos males*. Retira del juego el conjunto sustituido.",
+      "placeLocations": "Retira del juego el Lugar original Calles de la aldea y sustitúyelo por el nuevo Calles de la aldea (*Decadencia silenciosa*). Ponlo en juego. Cada investigador comienza la partida en las Calles de la aldea.",
+      "placeRandomLocations": "Añade los Lugares nuevos a los Lugares originales del conjunto de encuentro *Sangre en el altar*. Retira del juego al azar 1 de las 3 copias de cada uno de estos Lugares. Después elige al azar 1 de los 6 Lugares restantes y retíralo también del juego. Pon en juego los Lugares restantes.",
+      "setAside": "Deja aparte también cada copia de Sicario a sueldo, fuera del juego.",
+      "seekingVengeance": "Haz aparecer uno de los Sicarios a sueldo puestos aparte en uno de los Lugares que no estén conectados con las Calles de la aldea, y baraja el otro Sicario a sueldo puesto aparte con el mazo de Encuentros.",
+      "placeUnderneath": "Al colocar cartas de Encuentro debajo de los Lugares, no incluyas las 6 cartas del conjunto de encuentro *La banda de Naomi*."
+    }
   },
   "hiddenChamber": {
     "title": "La Cámara oculta",

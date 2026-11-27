@@ -46,6 +46,13 @@
     },
     "burnedToTheGround": "Consulta el Registro de campaña. Si *tu casa se ha quemado hasta los cimientos*: Retira Tu casa del juego. Cada investigador comienza la partida en el Barrio Fluvial.",
     "houseStillStanding": "Consulta el Registro de campaña. Si *tu casa sigue en pie*: Cada investigador comienza la partida en Tu casa.",
-    "ghoulPriest": "Consulta el Registro de campaña. Si *el Sacerdote gul sigue con vida*: Barájalo en el mazo de Encuentro."
+    "ghoulPriest": "Consulta el Registro de campaña. Si *el Sacerdote gul sigue con vida*: Barájalo en el mazo de Encuentro.",
+    "returnTo": {
+      "gatherSets": "Reúne también todas las cartas de los siguientes conjuntos de encuentro: *Regreso a Las máscaras de medianoche* y *La secta del Devorador*. Estos conjuntos se indican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/return-to-the-midnight-masks.png' /><img src='{setImgPath}/the-devourers-cult.png' /></section>*La secta del Devorador* sustituye a *Secta oscura*. Retira del juego el conjunto sustituido.",
+      "cultistDeck": "<div class='columns simple'><p class='basic'>Al crear el mazo de Sectarios, incluye las 3 cartas nuevas de *Secta de Umôrdhoth* de esta expansión. Baraja el mazo de Sectarios y retira 3 cartas al azar sin mirarlas. (Debe quedarte un mazo de Sectarios de 5 cartas). Las cartas nuevas se identifican con el siguiente icono:</p><section class='encounter-sets'><img src='{setImgPath}/return-cult.png' /></section></div>",
+      "predatorOrPrey": "Al crear el mazo de Plan, usa al azar una de las dos copias del Plan 1a: *¿Depredador o presa?*, sin mirar sus reversos. Retira del juego la otra versión del Plan 1a.",
+      "placeLocations": "Elige también al azar uno de los dos Lugares Barrio Este, uno de los dos Lugares Barrio Norte, uno de los dos Lugares Barrio Fluvial y uno de los dos Lugares Universidad Miskatonic, y ponlos en juego. Retira del juego las demás versiones de Barrio Este, Barrio Norte, Barrio Fluvial y Universidad Miskatonic.",
+      "acolytes": "Si se te indica que busques un Acólito en el mazo de Encuentros, busca en su lugar en el mazo de Encuentros cualquier Enemigo _Sectario_ con 1 de salud."
+    }
   }
 }

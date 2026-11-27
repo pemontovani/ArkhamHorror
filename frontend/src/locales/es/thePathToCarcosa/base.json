@@ -1,4 +1,10 @@
 {
+  "difficulty": {
+    "Easy": "Quiero ver la obra",
+    "Standard": "Quiero leer las señales",
+    "Hard": "Quiero pronunciar el juramento",
+    "Expert": "Quiero al Rey de Amarillo"
+  },
   "specialRules": [
     {
       "title": "Nueva palabra clave: Oculto",
@@ -16,6 +22,14 @@
   "interludes": {
     "1": "La sombra de la realidad",
     "2": "Alma perdida"
+  },
+  "label": {
+    "gainAdditionalXp": "Elige a {name} para que obtenga 1 PX adicional",
+    "youngPsychopath": {
+      "fight": "El Joven psicópata obtiene +3 de combate hasta el final de la fase de Investigación"
+    },
+    "conviction": "Convicción",
+    "doubt": "Duda"
   },
   "key": {
     "theStrangerIsOnToYou": "El Extranjero sabe lo que intentan hacer los investigadores",
@@ -70,14 +84,6 @@
     "xp": {
       "bonus": "Pistas que había sobre el mazo de Acto cuando acabó la partida"
     }
-  },
-  "label": {
-    "gainAdditionalXp": "Elige a {name} para que obtenga 1 PX adicional",
-    "youngPsychopath": {
-      "fight": "El Joven psicópata obtiene +3 de combate hasta el final de la fase de Investigación"
-    },
-    "conviction": "Convicción",
-    "doubt": "Duda"
   },
   "interlude1": {
     "title": "Interludio I: La sombra de la realidad",

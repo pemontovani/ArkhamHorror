@@ -1,5 +1,8 @@
 {
   "heading": "Escenario VI",
+  "xp": {
+    "readActII": "Por haber leído el Acto II"
+  },
   "specialRules": [
     {
       "title": "Adyacencia de Lugares en las catacumbas",
@@ -22,6 +25,7 @@
   },
   "label": {
     "chooseWhoReadsActII": "Elige quién leerá el Acto II de El Rey de Amarillo",
+    "doneChoosingWhoReadsActII": "Terminar de elegir quién leerá el Acto II",
     "above": "Colocar arriba",
     "below": "Colocar abajo",
     "right": "Colocar a la derecha",
@@ -55,7 +59,12 @@
       "top": "A continuación, coloca todos los demás Lugares Catacumbas encima, en un orden aleatorio. Todas las cartas del mazo de Catacumbas deben mostrar sólo el lado Catacumbas, de forma que los jugadores no sepan cuál es cuál."
     },
     "startAt": "Cada investigador comienza la partida en el Lugar inicial. (*Recuerda activar el efecto _*Obligado*_ de ese Lugar cuando se revele*.) Si “abristeis un pasadizo secreto”, elige un Lugar Catacumbas adyacente al Lugar inicial y revélalo.",
-    "theManInThePallidMask": "El afectado por la Debilidad El hombre de la máscara pálida busca esa carta en su mazo y la pone aparte, fuera del juego."
+    "theManInThePallidMask": "El afectado por la Debilidad El hombre de la máscara pálida busca esa carta en su mazo y la pone aparte, fuera del juego.",
+    "returnTo": {
+      "gatherSets": "Reúne también todas las cartas del conjunto de encuentro *Regreso a La máscara pálida*. Se identifica con el siguiente icono:<section class='encounter-sets'><img src='{setImgPath}/return-to-the-pallid-mask.png' /></section>",
+      "catacombs": "Al crear el mazo de Catacumbas, primero deja aparte la Tumba de sombras y el Pasadizo bloqueado, como de costumbre. Después añade los 4 Lugares Catacumbas nuevos de este conjunto de encuentro a los Lugares Catacumbas restantes y determina tu Lugar inicial como de costumbre. A continuación, elige al azar 4 Lugares Catacumbas y retíralos del juego sin mirarlos. Crea el resto del mazo de Catacumbas de la forma normal.",
+      "additionalRule": "Durante este escenario se aplican las siguientes reglas adicionales: a efectos de la capacidad de aparición del Morador de cadáver, El hombre de la máscara pálida no cuenta como Enemigo _Humanoide_; y, mientras sea el acto 2, El hombre de la máscara pálida no puede abandonar la Tumba de sombras."
+    }
   },
   "resolutions": {
     "noResolution": {

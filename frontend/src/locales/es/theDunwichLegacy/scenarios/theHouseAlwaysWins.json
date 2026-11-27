@@ -26,7 +26,12 @@
     "placeLocations": "Pon en juego los Lugares Salón del Clover Club, Bar del Clover Club, Sala de juego del Clover Club y La Bella Luna. Cada investigador comienza la partida en La Bella Luna.",
     "placeCloverClubPitBoss": "Pon en juego Jefe de sala del Clover Club en el Salón del Clover Club.",
     "setAside": "Deja aparte las siguientes cartas, fuera del juego: Pasillo en penumbra, Peter Clover, Dr. Francis Morgan y cada copia de Puerta del pasillo trasero.",
-    "note": "<p class='basic'>_Nota_: Al comienzo de este escenario, el plan 1a otorga a cada enemigo _Criminal_ la palabra clave indiferente, que impide que esos enemigos se enfrenten a ti automáticamente. En algún momento, esos enemigos pueden perder la palabra clave indiferente. Recuerda que los enemigos que ya no son indiferentes se enfrentarán automáticamente a los investigadores en su Lugar, como es habitual.</p>"
+    "note": "<p class='basic'>_Nota_: Al comienzo de este escenario, el plan 1a otorga a cada enemigo _Criminal_ la palabra clave indiferente, que impide que esos enemigos se enfrenten a ti automáticamente. En algún momento, esos enemigos pueden perder la palabra clave indiferente. Recuerda que los enemigos que ya no son indiferentes se enfrentarán automáticamente a los investigadores en su Lugar, como es habitual.</p>",
+    "returnTo": {
+      "gatherSets": "Reúne también todas las cartas de los siguientes conjuntos de encuentro: *Regreso a La casa siempre gana* y *Miedo errático*. Estos conjuntos se indican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/return-to-the-house-always-wins.png' /><img src='{setImgPath}/erratic-fear.png' /></section>*Miedo errático* sustituye a *Miedo impactante*. Retira del juego el conjunto sustituido.",
+      "placeLocations": "Pon en juego los Lugares Bar del Clover Club, Sala de juego del Clover Club y La Bella Luna. Después elige al azar uno de los dos Lugares Salón del Clover Club, ponlo en juego y retira del juego la otra versión del Salón del Clover Club. Cada investigador comienza la partida en La Bella Luna.",
+      "setAside": "Deja aparte también el Escenario del Clover Club, fuera del juego."
+    }
   },
   "resolutions": {
     "xp": {

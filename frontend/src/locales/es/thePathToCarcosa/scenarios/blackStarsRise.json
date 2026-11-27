@@ -33,6 +33,9 @@
     "riftSeeker": {
       "takeDamageAndHorror": "Recibe 1 daño adicional y 1 horror adicional",
       "doom": "Coloca 1 perdición sobre cada plan"
+    },
+    "knightsHall": {
+      "investigate": "Recuerda que habéis «encontrado la llave de la torre»"
     }
   },
   "tooltips": {
@@ -67,7 +70,11 @@
     "setAside": "Pon aparte las siguientes cartas, fuera del juego: Ambas cartas de Acto (Acto 3a y Acto 3c), Bestia de Aldebarán, cada copia de Terror de la marea, cada copia de Buscador de grietas, Claustro, Sala del caballero, Torre de la abadía y Capilla de san Auberto (*recuerda usar las versiones de Torre de la abadía y Capilla de san Auberto que se eligieron al azar anteriormente*).",
     "chooseSetAsideLocations": "Elige al azar uno de los dos Lugares Coro gótico y ponlo aparte. Retira la otra versión de Coro gótico de la partida.",
     "chooseLocations": "Elige al azar uno de los dos Lugares Torre norte, uno de los dos Lugares Muro exterior y uno de los dos Lugares Escalones rotos. Pon en juego los Lugares elegidos. Retira las otras versiones de esos Lugares de la partida. A continuación, pon en juego los Lugares restantes (Porte de l’Avancée, Grand Rue e Iglesia de la abadía). (Consulta la página siguiente para la distribución sugerida.) Cada investigador comienza la partida en Porte de l’Avancée.",
-    "addWeakness": "Cada investigador busca en la colección una Debilidad básica _*Locura*_, _*Pacto*_, _*Sectario*_ o _*Detective*_ aleatoria y la añade a su mazo."
+    "addWeakness": "Cada investigador busca en la colección una Debilidad básica _*Locura*_, _*Pacto*_, _*Sectario*_ o _*Detective*_ aleatoria y la añade a su mazo.",
+    "returnTo": {
+      "gatherSets": "Reúne también todas las cartas de los siguientes conjuntos de encuentro: *Regreso a Surgen estrellas negras* y *Males ilusorios*. Estos conjuntos se indican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/return-to-black-stars-rise.png' /><img src='{setImgPath}/delusory-evils.png' /></section>*Males ilusorios* sustituye a *Antiguos males*. Retira del juego el conjunto sustituido.",
+      "version": "Separa en dos montones todas las copias de Claustro y de Sala del caballero según el icono de conjunto de encuentro de su reverso: un montón con las versiones originales y otro con las versiones nuevas de este conjunto de encuentro. Da la vuelta a cada montón para que solo se vea el icono del conjunto de encuentro *Surgen estrellas negras*, mezcla la posición de los dos montones para no saber cuál es cuál, retira del juego uno de ellos al azar y usa el otro durante toda la preparación de este escenario."
+    }
   },
   "resolutions": {
     "noResolution": {

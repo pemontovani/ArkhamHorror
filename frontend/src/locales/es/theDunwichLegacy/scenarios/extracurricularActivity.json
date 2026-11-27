@@ -12,7 +12,12 @@
       "theHourIsLate": "Si has completado La casa siempre gana, usa Despachos del profesorado (*Es tarde*). Déjala aparte, fuera del juego. Retira del juego Despachos del profesorado (*La noche es joven*)."
     },
     "setAside": "Deja aparte las siguientes cartas, fuera del juego: «Jazz» Mulligan, Pócima alquímica, El Experimento, Profesor Warren Rice, Residencia estudiantil y Laboratorios de alquimia.",
-    "placeLocations": "Pon en juego los Lugares Patio principal de Miskatonic, Biblioteca Orne, Edificio de Humanidades, Sindicato de estudiantes, Edificio de Ciencias y Edificio de Administración. Cada investigador comienza la partida en el Patio principal de Miskatonic."
+    "placeLocations": "Pon en juego los Lugares Patio principal de Miskatonic, Biblioteca Orne, Edificio de Humanidades, Sindicato de estudiantes, Edificio de Ciencias y Edificio de Administración. Cada investigador comienza la partida en el Patio principal de Miskatonic.",
+    "returnTo": {
+      "gatherSets": "Reúne también todas las cartas de los siguientes conjuntos de encuentro: *Regreso a Actividad extracurricular*, *Más allá del umbral*, *Males renacientes*, *Puertas secretas* y *Emisarios de Yog-Sothoth*. Estos conjuntos se indican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/return-to-extracurricular-activities.png' /><img src='{setImgPath}/beyond-the-threshold.png' /><img src='{setImgPath}/resurgent-evils.png' /><img src='{setImgPath}/secret-doors.png' /><img src='{setImgPath}/yog-sothoths-emissaries.png' /></section>*Más allá del umbral* sustituye a *El Más Allá*, *Males renacientes* sustituye a *Antiguos males*, *Puertas secretas* sustituye a *Puertas cerradas* y *Emisarios de Yog-Sothoth* sustituye a *Agentes de Yog-Sothoth*. Retira del juego los conjuntos sustituidos.",
+      "placeLocations": "Pon en juego los Lugares Patio principal de Miskatonic, Edificio de Humanidades, Sindicato de estudiantes, Edificio de Ciencias y Edificio de administración. Después elige al azar entre la Biblioteca Orne y el Observatorio Warren: pon en juego el Lugar elegido y retira el otro del juego. Cada investigador comienza la partida en el Patio principal de Miskatonic.",
+      "enthralledSecurityGuard": "Consulta el Registro de campaña. Si habéis completado *Regreso a La casa siempre gana*: busca en los conjuntos de encuentro 1 copia del Guardia de seguridad esclavizado y hazlo aparecer en el Edificio de administración."
+    }
   },
   "resolutions": {
     "noResolution": {
@@ -61,6 +66,11 @@
         "can": "{'{'}action{'}'}: _Investigar_. Si tienes éxito, en lugar de descubrir pistas, toma la Pócima alquímica de debajo de este Lugar si es posible.",
         "cannot": "{'{'}action{'}'}: _Investigar_. Si tienes éxito, en lugar de descubrir pistas, toma la Pócima alquímica de debajo de este Lugar si es posible (NO PUEDES)."
       }
+    }
+  },
+  "label": {
+    "alchemyLabs": {
+      "investigate": "Toma la Pócima alquímica"
     }
   }
 }

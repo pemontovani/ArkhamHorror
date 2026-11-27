@@ -36,7 +36,12 @@
       "bottom": "Baraja juntas la Sala de exposición (*Sala restringida*) y otras 2 Salas de exposición al azar para formar las 3 cartas inferiores del mazo de Exposiciones, con el lado no revelado boca arriba.",
       "top": "A continuación, coloca las otras 3 Salas de exposición encima, en un orden aleatorio. Las 6 cartas del mazo de Exposiciones deben mostrar sólo el lado no revelado, de modo que los jugadores no sepan cuál es la Sala de exposición (*Sala restringida*)."
     },
-    "setAside": "Deja aparte las siguientes cartas, fuera del juego: Harold Walsted, Adam Lynch, El Necronomicón (*Traducción de Olaus Wormius*) y Surgido de las sombras."
+    "setAside": "Deja aparte las siguientes cartas, fuera del juego: Harold Walsted, Adam Lynch, El Necronomicón (*Traducción de Olaus Wormius*) y Surgido de las sombras.",
+    "returnTo": {
+      "gatherSets": "Reúne también todas las cartas de los siguientes conjuntos de encuentro: *Regreso al Museo Miskatonic*, *Más allá del umbral*, *Frío insidioso* y *Puertas secretas*. Estos conjuntos se indican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/return-to-the-miskatonic-museum.png' /><img src='{setImgPath}/beyond-the-threshold.png' /><img src='{setImgPath}/creeping-cold.png' /><img src='{setImgPath}/secret-doors.png' /></section>*Más allá del umbral* sustituye a *El Más Allá*, *Frío insidioso* sustituye a *Frío helador* y *Puertas secretas* sustituye a *Puertas cerradas*. Retira del juego los conjuntos sustituidos.",
+      "exhibitDeck": "Antes de crear el mazo de Exposiciones, añade los 2 Lugares Sala de exposición nuevos a los 6 Lugares Sala de exposición originales. Deja aparte la Sala de exposición (*Sala restringida*) y retira del juego 2 Lugares Sala de exposición al azar. Después sigue creando el mazo de Exposiciones de la forma normal.",
+      "additionalRule": "Durante este escenario se aplica la siguiente regla adicional: mientras un investigador esté resolviendo el texto del plan 1b y del plan 2b, la capacidad _Obligado_ del siguiente Plan del mazo de Plan se considera activa."
+    }
   },
   "theVoid": {
     "title": "«El vacío»",

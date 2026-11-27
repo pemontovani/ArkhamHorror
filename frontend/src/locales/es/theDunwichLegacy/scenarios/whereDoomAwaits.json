@@ -37,7 +37,7 @@
   },
   "setup": {
     "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de encuentro: Donde aguarda la perdición, Bestias siervas, Hechicería, Los siervos de Bishop, Miedo impactante, Antiguos males, Frío helador. Estos conjuntos se indican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/where-doom-awaits.png' /><img src='{setImgPath}/beast-thralls.png' /><img src='{setImgPath}/sorcery.png' /><img src='{setImgPath}/bishops-thralls.png' /><img src='{setImgPath}/striking-fear.png' /><img src='{setImgPath}/ancient-evils.png' /><img src='{setImgPath}/chilling-cold.png' /></section>",
-    "placeLocations": "Pon en juego Pie de la colina, Sendero ascendente y Cumbre de Sentinel Hill. Cada investigador comienza la partida en la Pie de la colina.",
+    "placeLocations": "Pon en juego Pie de la colina, Sendero ascendente y Cumbre de Sentinel Hill. Cada investigador comienza la partida en Pie de la colina.",
     "divergingPaths": "Retira del juego 1 copia de Senda divergente, al azar. Deja aparte las otras 3 copias de Senda divergente, fuera del juego.",
     "alteredPaths": "Retira del juego 1 copia de Senda alterada, al azar. Deja aparte las otras 3 copias de Senda alterada, fuera del juego.",
     "setAside": "Deja aparte a Seth Bishop, fuera del juego.",
@@ -48,8 +48,16 @@
       "v2": "Si lo anterior no es cierto, consulta el Registro de campaña. Si *los investigadores no consiguieron recuperar el Necronomicón*, o si *el Necronomicón fue robado*, usa Acto 2—Ascender por la colina (v. II)",
       "v3": "Si ninguna de las anteriores es cierta, usa Acto 2—Ascender por la colina (v. III)"
     },
-    "addDoom": "Consulta el Registro de campaña. *Por cada Prole de Yog-Sothoth que escapó a la naturaleza*, añade 1 perdición al plan 1a.",
-    "hideousAbominations": "Consulta el Registro de campaña. Si *los investigadores libraron a Silas Bishop de su sufrimiento*, restos del cuerpo de la criatura han mutado y crecido en la Colina Sentinel. Pon en juego 1 enemigo «Conglomerado de esferas» del conjunto de encuentro Abominaciones espantosas en la Sendero ascendente. Baraja el resto de ese conjunto en el mazo de Encuentro. Este conjunto se indica con el siguiente icono:<section class='encounter-sets'><img src='{setImgPath}/hideous-abominations.png' /></section>"
+    "addDoom": "Consulta el Registro de campaña. *Por cada Progenie de Yog-Sothoth que escapó a la naturaleza*, añade 1 perdición al plan 1a.",
+    "hideousAbominations": "Consulta el Registro de campaña. Si *los investigadores libraron a Silas Bishop de su sufrimiento*, restos del cuerpo de la criatura han mutado y crecido en la Colina Sentinel. Pon en juego 1 enemigo «Conglomerado de esferas» del conjunto de encuentro Abominaciones espantosas en la Sendero ascendente. Baraja el resto de ese conjunto en el mazo de Encuentro. Este conjunto se indica con el siguiente icono:<section class='encounter-sets'><img src='{setImgPath}/hideous-abominations.png' /></section>",
+    "returnTo": {
+      "gatherSets": "Reúne también todas las cartas de los siguientes conjuntos de encuentro: *Regreso a Donde aguarda la perdición*, *Miedo errático*, *Males renacientes* y *Frío insidioso*. Estos conjuntos se indican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/return-to-where-doom-awaits.png' /><img src='{setImgPath}/erratic-fear.png' /><img src='{setImgPath}/resurgent-evils.png' /><img src='{setImgPath}/creeping-cold.png' /></section>*Miedo errático* sustituye a *Miedo impactante*, *Males renacientes* sustituye a *Antiguos males* y *Frío insidioso* sustituye a *Frío helador*. Retira del juego los conjuntos sustituidos.",
+      "placeLocations": "Pon en juego Pie de la colina (*Retorcido y serpenteante*), Sendero ascendente (*Retorcido y serpenteante*) y Cumbre de Sentinel Hill. Cada investigador comienza la partida en Pie de la colina.",
+      "divergingPaths": "Añade la Senda divergente nueva a las Sendas divergentes originales y después retira del juego al azar 1 copia de Senda divergente. Deja aparte las otras 3 copias de Senda divergente, fuera del juego.",
+      "alteredPaths": "Añade la Senda alterada nueva a las Sendas alteradas originales y después retira del juego al azar 1 copia de Senda alterada. Deja aparte las otras 3 copias de Senda alterada, fuera del juego.",
+      "setAside": "Deja aparte también a Naomi O'Bannion, fuera del juego.",
+      "naomi": "Consulta el Registro de campaña. Si *Naomi cubre las espaldas de los investigadores*: en lugar de obtener pistas de la reserva de fichas, el investigador jefe puede elegir un investigador para que añada a su mazo a la Naomi O'Bannion puesta aparte. Esta carta no cuenta para el tamaño de mazo de ese investigador."
+    }
   },
   "resolutions": {
     "noResolution": {
@@ -63,6 +71,17 @@
     "resolution2": {
       "title": "Resolución 2",
       "body": "<div class='resolution'><p>_Resolución 2_: Los hechiceros de Dunwich, en busca de poder arcano más allá de este reino, han logrado lo que Wilbur y el Viejo Whateley no pudieron. Mediante sacrificio de sangre y experimentos indescriptibles, el oscuro poder que buscaban los hechiceros está ahora a su alcance. Sin embargo, nunca tendrán la oportunidad de blandirlo de verdad. Al implorar al padre de Wilbur conocimiento, han atraído a la criatura desde su reino extradimensional. Yog-Sothoth emerge del desgarro abierto sobre la Colina Sentinel, cubriendo el cielo y envolviendo el mundo. Ahora ha llegado a la Tierra, y reina donde antaño pisó la humanidad.</p><ul><li>En tu Registro de campaña, anota que *Yog-Sothoth rasgó la barrera entre mundos y se fundió con toda la realidad*.</li><li>Cada investigador es conducido a la _locura_.</li><li>Los investigadores pierden la campaña.</li></ul></div>"
+    }
+  },
+  "label": {
+    "baseOfTheHill": {
+      "investigate": "Pon en juego una Senda divergente al azar"
+    },
+    "ascendingPath": {
+      "investigate": "Pon en juego una Senda alterada al azar"
+    },
+    "destroyedPath": {
+      "investigate": "Retira 1 de Perdición de {name}"
     }
   }
 }

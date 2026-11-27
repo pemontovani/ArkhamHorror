@@ -21,7 +21,13 @@
   "setup": {
     "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de encuentro: *Perdidos en el tiempo y el espacio*, *Hechicería*, *El Más Allá*, *Abominaciones espantosas*, *Agentes de Yog-Sothoth*. Estos conjuntos se indican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/lost-in-time-and-space.png' /><img src='{setImgPath}/sorcery.png' /><img src='{setImgPath}/the-beyond.png' /><img src='{setImgPath}/hideous-abominations.png' /><img src='{setImgPath}/agents-of-yog.png' /></section>",
     "placeLocations": "Pon en juego Otra dimensión. Cada investigador comienza la partida en Otra dimensión.",
-    "setAside": "Deja aparte las siguientes cartas, fuera del juego: Los bordes del universo, Desgarro en el tiempo y Yog-Sothoth."
+    "setAside": "Deja aparte las siguientes cartas, fuera del juego: Los bordes del universo, Desgarro en el tiempo y Yog-Sothoth.",
+    "returnTo": {
+      "gatherSets": "Reúne también todas las cartas de los siguientes conjuntos de encuentro: *Regreso a Perdidos en el tiempo y el espacio*, *Más allá del umbral* y *Emisarios de Yog-Sothoth*. Estos conjuntos se indican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/return-to-lost-in-time-and-space.png' /><img src='{setImgPath}/beyond-the-threshold.png' /><img src='{setImgPath}/yog-sothoths-emissaries.png' /></section>*Más allá del umbral* sustituye a *El Más Allá* y *Emisarios de Yog-Sothoth* sustituye a *Agentes de Yog-Sothoth*. Retira del juego los conjuntos sustituidos.",
+      "placeLocations": "Pon en juego también el Lugar de una sola cara Reinos del otro lado y haz aparecer allí a Yog-Sothoth.",
+      "setAside": "Deja aparte también a Seth Bishop (*Esclavo de Yog-Sothoth*), fuera del juego.",
+      "actAndAgenda": "Sustituye el Plan 3a: *Abriéndose paso* por el nuevo Plan 3a: *Abriéndose paso (v. II)*. Consulta el Registro de campaña: si *El ritual se completó*, sustituye además el Acto 2a: *Hacia el otro lado* por el nuevo Acto 2a: *Hacia el otro lado (v. II)*."
+    }
   },
   "locationsInTheEncounterDeck": {
     "title": "Lugares en el mazo de Encuentro",

@@ -1,8 +1,32 @@
 {
   "heading": "Escenario IV",
   "label": {
+    "remembered": {
+      "setAFireInTheKitchen": "Prendisteis fuego en la cocina",
+      "incitedAFightAmongstThePatients": "Incitasteis una pelea entre los pacientes",
+      "distractedTheGuards": "Distrajisteis a los guardias",
+      "releasedADangerousPatient": "Liberasteis a un paciente peligroso",
+      "knowTheGuardsPatrols": "Conocéis las patrullas de los guardias",
+      "recalledTheWayOut": "Recordasteis la salida",
+      "youTookTheKeysByForce": "Os hicisteis con las llaves por la fuerza"
+    },
+    "cloudedMemory": {
+      "forget": "Olvida algo que un investigador haya “recordado” por una capacidad de un Lugar. (Ya no es cierto.)",
+      "chooseForget": "Olvida algo que un investigador haya “recordado” por una capacidad de un Lugar. (Ya no es cierto.)",
+      "horror": "Recibe 1 horror y Memoria nublada obtiene oleada."
+    },
     "placeMonsterUnderActDeck": "Elige al azar un Enemigo de entre los Enemigos Monstruo puestos aparte y colócalo bajo el mazo de Acto sin mirarlo",
-    "automaticFail": "Esta prueba fracasa automáticamente"
+    "thisTestAutomaticallyFails": "Esta prueba fracasa automáticamente",
+    "infirmary": {
+      "healDamage": "Cura 1 daño y recibe 1 horror directo",
+      "healHorror": "Cura 1 horror y recibe 1 daño directo"
+    },
+    "wallsClosingIn": {
+      "chooseEnemy": "Elige al azar 1 Enemigo de entre los Enemigos Monstruo puestos aparte y colócalo bajo el mazo de Acto sin mirarlo"
+    },
+    "arkhamAsylum": {
+      "youKnockHerOverAndGrabTheKeys": "La derribas y te haces con las llaves"
+    }
   },
   "tokens": {
     "easyStandard": {
@@ -50,39 +74,16 @@
       "instructions": "Consulta el Registro de campaña. Según las siguientes circunstancias, debe usarse una versión distinta del Acto 2 en este escenario. Cada otra versión del Acto 2 se retira de la partida.",
       "v1": "*Si los investigadores se llevaron el broche de ónice*, usa el Acto 2: «Los realmente malos» (v. I)",
       "v2": "Si no es así, usa el Acto 2: «Los realmente malos» (v. II)"
+    },
+    "returnTo": {
+      "gatherSets": "Reúne también todas las cartas de los siguientes conjuntos de encuentro: *Regreso a El juramento inconfesable*, *Delirios enloquecedores*, *Realidad putrefacta* y *Enviados de Hastur*. Estos conjuntos se indican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/return-to-the-unspeakable-oath.png' /><img src='{setImgPath}/maddening-delusions.png' /><img src='{setImgPath}/decaying-reality.png' /><img src='{setImgPath}/hasturs-envoys.png' /></section>*Delirios enloquecedores* sustituye a *Delirios*, *Realidad putrefacta* sustituye a *Podredumbre e impurezas* y *Enviados de Hastur* sustituye a *Agentes de Hastur*. Retira del juego los conjuntos sustituidos.",
+      "setAside": "Deja aparte también el Enemigo Portador de la locura y la Traición Tratamiento radical, fuera del juego.",
+      "act2": "Al determinar qué versión del acto 2 usar, no sigas las instrucciones de preparación originales. En su lugar, retira del juego las versiones originales del acto 2 y consulta el Registro de campaña. Si tenéis tantas o más _Convicciones_ que _Dudas_, usa el nuevo Acto 2: *Los realmente graves (v. III)*. Si tenéis más _Dudas_ que _Convicciones_, usa el nuevo Acto 2: *Los realmente graves (v. IV)*."
     }
   },
   "tooltips": {
     "noAsylum": {
       "resign": "¡Por fin, una salida!"
-    }
-  },
-  "label": {
-    "remembered": {
-      "setAFireInTheKitchen": "Prendisteis fuego en la cocina",
-      "incitedAFightAmongstThePatients": "Incitasteis una pelea entre los pacientes",
-      "distractedTheGuards": "Distrajisteis a los guardias",
-      "releasedADangerousPatient": "Liberasteis a un paciente peligroso",
-      "knowTheGuardsPatrols": "Conocéis las patrullas de los guardias",
-      "recalledTheWayOut": "Recordasteis la salida",
-      "youTookTheKeysByForce": "Os hicisteis con las llaves por la fuerza"
-    },
-    "cloudedMemory": {
-      "forget": "Olvida algo que un investigador haya “recordado” por una capacidad de un Lugar. (Ya no es cierto.)",
-      "chooseForget": "Olvida algo que un investigador haya “recordado” por una capacidad de un Lugar. (Ya no es cierto.)",
-      "horror": "Recibe 1 horror y Memoria nublada obtiene oleada."
-    },
-    "placeMonsterUnderActDeck": "Elige al azar un Enemigo de entre los Enemigos Monstruo puestos aparte y colócalo bajo el mazo de Acto sin mirarlo",
-    "thisTestAutomaticallyFails": "Esta prueba fracasa automáticamente",
-    "infirmary": {
-      "healDamage": "Cura 1 daño y recibe 1 horror directo",
-      "healHorror": "Cura 1 horror y recibe 1 daño directo"
-    },
-    "wallsClosingIn": {
-      "chooseEnemy": "Elige al azar 1 Enemigo de entre los Enemigos Monstruo puestos aparte y colócalo bajo el mazo de Acto sin mirarlo"
-    },
-    "arkhamAsylum": {
-      "youKnockHerOverAndGrabTheKeys": "La derribas y te haces con las llaves"
     }
   },
   "resolutions": {

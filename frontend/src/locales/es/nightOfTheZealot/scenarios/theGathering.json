@@ -3,7 +3,13 @@
   "setup": {
     "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de encuentro: *El encuentro*, *Ratas*, *Gules*, *Miedo impactante*, *Antiguos males* y *Frío helador*. Estos conjuntos se indican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/the-gathering.png' /><img src='{setImgPath}/rats.png' /><img src='{setImgPath}/ghouls.png' /><img src='{setImgPath}/striking-fear.png' /><img src='{setImgPath}/ancient-evils.png' /><img src='{setImgPath}/chilling-cold.png' /></section>",
     "placeLocations": "Pon en juego el Lugar Estudio. Deja aparte todos los demás Lugares, fuera del juego. Cada investigador comienza la partida en el Estudio.",
-    "setOutOfPlay": "Deja aparte las cartas Sacerdote gul y Lita Chantler, fuera del juego."
+    "setOutOfPlay": "Deja aparte las cartas Sacerdote gul y Lita Chantler, fuera del juego.",
+    "returnTo": {
+      "gatherSets": "Reúne también todas las cartas de los siguientes conjuntos de encuentro: *Regreso a El encuentro* y *Gules de Umôrdhoth*. Estos conjuntos se indican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/return-to-the-gathering.png' /><img src='{setImgPath}/ghouls-of-umrdhoth.png' /></section>*Gules de Umôrdhoth* sustituye a *Gules*. Retira del juego el conjunto sustituido.",
+      "mysteriousGateway": "Al crear el mazo de Acto, usa el Acto 1a: *Portal misterioso*. Retira del juego el Acto 1a: *Atrapados*.",
+      "placeLocations": "Pon en juego el Lugar Estudio *(Portal aberrante)*, junto con los nuevos Lugares Vestíbulo de invitados, Dormitorio y Cuarto de baño. Cada investigador comienza la partida en el Estudio *(Portal aberrante)*. Retira del juego los Lugares originales Estudio y Pasillo, y deja aparte todos los demás Lugares, fuera del juego.",
+      "atticAndCellar": "Elige al azar uno de los dos Lugares Ático y uno de los dos Lugares Sótano y déjalos aparte, fuera del juego. Retira del juego las demás versiones de Ático y Sótano."
+    }
   },
   "tokens": {
     "easyStandard": {

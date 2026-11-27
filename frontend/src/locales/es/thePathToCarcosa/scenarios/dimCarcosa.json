@@ -21,6 +21,10 @@
     }
   },
   "label": {
+    "madnessCoils": {
+      "takeHorror": "Esto no puede ser real. Esto no puede ser real. Esto no puede ser real. Cada investigador recibe 2 horror. Avanza al plan 2a.",
+      "faint": "Los investigadores se desmayan y despiertan algún tiempo después. Avanza al plan 2a y coloca 1 perdición sobre él."
+    },
     "useV2": "Usa Buscad al Extranjero (v. II)",
     "useV3": "Usa Buscad al Extranjero (v. III)",
     "theFall": {
@@ -29,10 +33,6 @@
     },
     "aMomentsRest": {
       "chooseEnemy": "Elige un Enemigo en juego. Agota ese Enemigo y haz que deje de estar enfrentado a todos los investigadores"
-    },
-    "madnessCoils": {
-      "takeHorror": "Esto no puede ser real. Esto no puede ser real. Esto no puede ser real. Cada investigador recibe 2 horror. Avanza al plan 2a.",
-      "faint": "Los investigadores se desmayan y despiertan algún tiempo después. Avanza al plan 2a y coloca 1 perdición sobre él."
     }
   },
   "remembered": {
@@ -69,7 +69,13 @@
       "sixToEight": "Si hay entre 6 y 8 marcas, añade 1 perdición al plan 1a.",
       "nineOrMore": "Si hay 9 o más marcas, no se hace ningún cambio."
     },
-    "takeHorror": "Cada investigador recibe horror directo igual a la mitad de su cordura, redondeando hacia abajo (*no puede evitarse*). Este horror no puede hacer que seas derrotado (consulta “La cordura en el reino de Carcosa”, más abajo)."
+    "takeHorror": "Cada investigador recibe horror directo igual a la mitad de su cordura, redondeando hacia abajo (*no puede evitarse*). Este horror no puede hacer que seas derrotado (consulta “La cordura en el reino de Carcosa”, más abajo).",
+    "returnTo": {
+      "gatherSets": "Reúne también todas las cartas de los siguientes conjuntos de encuentro: *Regreso a Penumbrosa Carcosa*, *Delirios enloquecedores*, *Enviados de Hastur* y *Miedo neurótico*. Estos conjuntos se indican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/return-to-dim-carcosa.png' /><img src='{setImgPath}/maddening-delusions.png' /><img src='{setImgPath}/hasturs-envoys.png' /><img src='{setImgPath}/neurotic-fear.png' /></section>*Delirios enloquecedores* sustituye a *Delirios*, *Enviados de Hastur* sustituye a *Agentes de Hastur* y *Miedo neurótico* sustituye a *Miedo impactante*. Retira del juego los conjuntos sustituidos.",
+      "placeLocations": "Retira del juego el Lugar original El palacio del Rey y sustitúyelo por el nuevo El palacio del Rey (*Dominio de Hastur*). Continúa preparando los Lugares de la forma normal.",
+      "setAside": "Deja aparte también, fuera del juego, los siguientes Lugares nuevos: Recovecos de tu propia mente, La sala del trono y Escenario del Teatro Ward.",
+      "additionalRule": "Durante este escenario se aplica la siguiente regla adicional: la salud de Hastur no puede reducirse a menos de 2 por investigador salvo que algún investigador _conozca el secreto_."
+    }
   },
   "resolutions": {
     "xp": {

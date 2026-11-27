@@ -29,6 +29,13 @@
     "sickeningReality": {
       "instructions": "Coloca las 5 cartas de Historia “Realidad repulsiva” bajo la carta de referencia de escenario.",
       "note": "*Nota: Estas cartas son de doble cara y tienen cartas de Encuentro en el otro lado. Para no estropear la experiencia de juego, no mires el otro lado a menos que te lo indique un efecto.*"
+    },
+    "returnTo": {
+      "gatherSets": "Reúne también todas las cartas de los siguientes conjuntos de encuentro: *Regreso a El último rey*, *Realidad putrefacta* y *Males ilusorios*. Estos conjuntos se indican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/return-to-the-last-king.png' /><img src='{setImgPath}/decaying-reality.png' /><img src='{setImgPath}/delusory-evils.png' /></section>*Realidad putrefacta* sustituye a *Podredumbre e impurezas* y *Males ilusorios* sustituye a *Antiguos males*. Retira del juego los conjuntos sustituidos.",
+      "agendaDeck": "Retira del juego el Plan 1a: *Elegantemente tarde* y sustitúyelo por el nuevo Plan 1a: *Más vale tarde que nunca*.",
+      "dianneDevine": "Retira del juego la Dianne Devine (*Volátil y malvada*) original y sustitúyela por la nueva versión de Dianne Devine (*Ocultando un juramento inconfesable*).",
+      "sickeningReality": "Coloca las 3 cartas nuevas de Realidad repulsiva debajo de la carta de referencia de escenario junto con las 5 originales, hasta un total de 8.",
+      "setAside": "Deja aparte también la Traición Exhibición impactante, fuera del juego."
     }
   },
   "resolutions": {

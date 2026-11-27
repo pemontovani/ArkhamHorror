@@ -48,6 +48,7 @@
   "finishedGames": "Partidas Terminadas",
   "forgotPassword": "Olvidé mi contraseña",
   "invalidEmailOrPassword": "Correo electrónico o contraseña inválidos",
+  "accountDormant": "Este servidor es solo por invitación, y esta cuenta lleva demasiado tiempo inactiva para iniciar sesión.",
   "language": "Idioma",
   "logIn": "Iniciar sesión",
   "newGame": "Nueva Partida",
@@ -62,6 +63,10 @@
   "updatePassword": "Actualizar Contraseña",
   "username": "Nombre de usuario",
   "usernameOrEmailAlreadyTaken": "Nombre de usuario o correo electrónico ya en uso",
+  "registrationClosed": {
+    "title": "El registro está cerrado",
+    "body": "Este servidor es solo por invitación y ahora mismo no admite cuentas nuevas."
+  },
   "tooltips": {
     "attacksYou": "{name} te ataca",
     "takeControlOfKey": "Tomar control de la llave {key}",
@@ -1085,7 +1090,13 @@
     "continue": "Continuar",
     "quickAccess": "Accesos rápidos",
     "activeCount": "{count} en curso",
-    "dismiss": "Descartar",
+    "announcements": "Anuncios",
+    "categories": {
+      "important": "Importante",
+      "feature": "Nueva función",
+      "content": "Contenido nuevo"
+    },
+    "feedLabel": "Anuncios y novedades",
     "noActiveGames": "No hay partidas en curso.",
     "loadGame": "Cargar partida",
     "loadingGame": "Cargando…",
@@ -1096,7 +1107,8 @@
     "noFinishedGames": "No hay partidas terminadas.",
     "noGamesForOutcome": "No hay partidas terminadas con ese resultado.",
     "watchGames": "Ver",
-    "watchGamesAvailable": "{count} partida en directo abierta a espectadores | {count} partidas en directo abiertas a espectadores"
+    "watchGamesAvailable": "{count} partida en directo abierta a espectadores | {count} partidas en directo abiertas a espectadores",
+    "dismiss": "Descartar"
   },
   "watch": {
     "title": "Partidas para ver",
@@ -2212,6 +2224,9 @@
     "newLabel": "Nueva notificación",
     "bodyPlaceholder": "Lo que todos deberían ver en la página de inicio…",
     "htmlHint": "Se muestra como HTML, así que funcionan los <a href=\"…\">enlaces</a> y el <strong>énfasis</strong>.",
+    "categoryLabel": "Clasificar como",
+    "noCategory": "Sin sello",
+    "categoryHint": "La categoría es el sello de la tarjeta y el color de su borde. Deja sin sello los anuncios que no sean de ninguno de los tres tipos.",
     "preview": "Vista previa",
     "dateLabel": "Publicada el",
     "dateHint": "Deja la fecha vacía para publicarla ahora. Solo está porque la lista se ordena por ella, así que es la forma de poner una notificación por encima de otra que ya está publicada.",

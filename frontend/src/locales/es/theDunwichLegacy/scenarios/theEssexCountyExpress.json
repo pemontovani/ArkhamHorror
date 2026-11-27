@@ -23,7 +23,13 @@
     "placeLocations": "Pon en juego al azar uno de los tres Lugares Locomotora. Retira del juego las demás versiones de Locomotora. A continuación, pon en juego al azar seis de los ocho Lugares Vagón, en una línea recta a la izquierda de la Locomotora. Retira del juego los dos Lugares Vagón restantes.",
     "revealTrainCar": "Revela el Vagón más a la izquierda. Cada investigador comienza la partida en ese Lugar. (Si ese Lugar tiene un efecto «obligado» que se desencadena al entrar en ese Lugar, ignóralo.)",
     "setAside": "Deja aparte las 4 copias de A través del tiempo y el espacio, fuera del juego.",
-    "adjustChaosBag": "Según tu nivel de dificultad, añade las siguientes fichas de caos a la bolsa de caos, durante el resto de la campaña:<div class='columns'><ul><li>_Fácil_: -2</li><li>_Normal_: -3</li></ul><ul><li>_Difícil_: -4</li><li>_Experto_: -5</li></ul></div>"
+    "adjustChaosBag": "Según tu nivel de dificultad, añade las siguientes fichas de caos a la bolsa de caos, durante el resto de la campaña:<div class='columns'><ul><li>_Fácil_: -2</li><li>_Normal_: -3</li></ul><ul><li>_Difícil_: -4</li><li>_Experto_: -5</li></ul></div>",
+    "returnTo": {
+      "gatherSets": "Reúne también todas las cartas de los siguientes conjuntos de encuentro: *Regreso a El Essex County Express*, *Más allá del umbral*, *Miedo errático* y *Males renacientes*. Estos conjuntos se indican con los siguientes iconos:<section class='encounter-sets'><img src='{setImgPath}/return-to-the-essex-county-express.png' /><img src='{setImgPath}/beyond-the-threshold.png' /><img src='{setImgPath}/erratic-fear.png' /><img src='{setImgPath}/resurgent-evils.png' /></section>*Más allá del umbral* sustituye a *El Más Allá*, *Miedo errático* sustituye a *Miedo impactante* y *Males renacientes* sustituye a *Antiguos males*. Retira del juego los conjuntos sustituidos.",
+      "agendaDeck": "Retira del juego el Plan 1a: *Un desgarro en la realidad* y sustitúyelo por el nuevo Plan 0a: *Donde hay humo...* y el nuevo Plan 1a: *Un desgarro en la realidad (v. II)*. Al crear el mazo de Plan, el plan 0a debe quedar arriba.",
+      "placeLocations": "Al elegir al azar 6 Lugares Vagón para ponerlos en juego, incluye los 2 Lugares Vagón nuevos de este conjunto de encuentro, hasta un total de 10 cartas posibles. Al elegir al azar un Lugar Locomotora para ponerlo en juego, incluye el Lugar Locomotora nuevo, hasta un total de 4 cartas posibles.",
+      "setAside": "Deja aparte también el Apoyo de historia Maquinista, fuera del juego."
+    }
   },
   "moving": {
     "title": "Moverse en el tren: «izquierda» y «derecha»",
