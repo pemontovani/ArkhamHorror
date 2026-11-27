@@ -23,6 +23,7 @@ import theScarletKeys from '@/locales/es/theScarletKeys'
 import theFeastOfHemlockVale from '@/locales/es/theFeastOfHemlockVale'
 import theDrownedCity from '@/locales/es/theDrownedCity'
 import brethrenOfAsh from '@/locales/es/brethrenOfAsh'
+import childrenOfBlood from '@/locales/es/childrenOfBlood'
 import standalone from '@/locales/es/standalone'
 import theLabyrinthsOfLunacyLog from '@/locales/es/theLabyrinthsOfLunacy.json'
 
@@ -55,6 +56,7 @@ export default
   , theFeastOfHemlockVale
   , theDrownedCity
   , brethrenOfAsh
+  , childrenOfBlood
   , standalone
   , theLabyrinthsOfLunacy: theLabyrinthsOfLunacyLog
   , ...homebrewMessages('es', traits.trait)

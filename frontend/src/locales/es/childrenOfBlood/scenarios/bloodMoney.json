@@ -1,0 +1,126 @@
+{
+  "intro": {
+    "title": "Escenario III: Dinero manchado de sangre",
+    "body": "<p>La fiesta de Howard Wilkes se celebra en su elegante ático nuevo, en lo alto de uno de los edificios reconstruidos del Barrio Norte, con vistas al oscuro e industrioso distrito de Arkham. Subes en ascensor hasta la cuarta planta y recorres el corto y pulcro pasillo hasta la puerta del ático. Llamas, y te recibe un hombre alto de esmoquin que comprueba tu nombre y te deja pasar. Parece que la palabra de Charlie vale.</p><p>El detective Reynolds, también vestido de etiqueta, se acerca en cuanto pisas el vestíbulo. «Bien, ya estás aquí», dice. «El problema es que Wilkes no aparece y nadie lo ha visto. Propongo que nos ocupemos de la señorita Thomas. Hagamos que reconsidere su decisión de negocios. Después podemos charlar con el resto de la fiesta y ver qué más averiguamos». Mira nervioso a los invitados cercanos, que os observan a los dos con recelo. «Y démonos prisa».</p>"
+  },
+  "setup": {
+    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de encuentro:<section class='encounter-sets grid'><div><img src='{setImgPath}/blood-money.png' /><span>Blood Money</span></div><div><img src='{setImgPath}/agents-of-zburamoarte.png' /><span>Agents of Zburamoarte</span></div><div><img src='{setImgPath}/bloodthirst.png' /><span>Bloodthirst</span></div><div><img src='{setImgPath}/children-of-blood.png' /><span>Children of Blood</span></div><div><img src='{setImgPath}/blood-blight.png' /><span>Blood Blight</span></div><div><img src='{setImgPath}/hunted.png' /><span>Hunted</span></div><div><img src='{setImgPath}/infected.png' /><span>Infected</span></div><div><img src='{setImgPath}/sanguine-secrets.png' /><span>Sanguine Secrets</span></div><div><img src='{setImgPath}/arcane-lock.png' /><span>Arcane Lock{'{'}asterisk{'}'}</span></div></section><div class='center'>{'{'}asterisk{'}'}Este conjunto de encuentro se encuentra en la caja básica de Arkham Horror: El juego de cartas.</div>",
+    "sanguineSecrets": "Al reunir las cartas del conjunto de encuentro _Sanguine Secrets_, coge solo las tres copias de Sanguine Cultist y los Enemigos Blood-Crazed Zealot. No cojas las Traiciones Morbid Rituals.",
+    "gatherAdditionalSets": "Además, si hay 3 o 4 investigadores, reúne todas las cartas del siguiente conjunto de encuentro:<section class='encounter-sets grid'><div><img src='{setImgPath}/afflicted.png' /><span>Afflicted</span></div></section>",
+    "placeLocations": "Pon en juego los Lugares Office, Study, Dining Hall y Kitchen según el diagrama de la página 24.",
+    "foyer": "Pon en juego Foyer, con el lado (*Boring Party*) boca arriba.",
+    "masterBedroom": "Deja aparte Master Bedroom, fuera del juego.",
+    "balcony": "Si juegas en dificultad Fácil o Normal, deja aparte también el Balcony, fuera del juego. De lo contrario, retíralo del juego.",
+    "startAt": "Cada investigador comienza la partida en Foyer.",
+    "priscillaThomas": "Haz aparecer en Dining Hall al Enemigo Priscilla Thomas.",
+    "suspiciousGuests": "Reúne todos los Enemigos Suspicious Guest. Si la cantidad de investigadores en la partida es de...",
+    "onePlayer": "...exactamente 1, haz aparecer 1 Suspicious Guest en el Study. Retira del juego 2 copias de ese Enemigo.",
+    "twoPlayers": "...exactamente 2, haz aparecer 1 Suspicious Guest en el Study y 1 en la Office. Retira del juego 1 copia de ese Enemigo.",
+    "threeOrFourPlayers": "...exactamente 3 o 4, haz aparecer 1 Suspicious Guest en el Study, 1 en la Office y 1 en el Dining Hall.",
+    "agendaDeck": "Consulta tu registro de campaña.",
+    "feedingFrenzyV2": "Si está anotado *Los investigadores derrotaron a Zburamoarte*, crea el mazo de Plan usando el plan 2a, «Feeding Frenzy (v. II)». Retira del juego la otra copia del plan 2a.",
+    "feedingFrenzyV1": "De lo contrario, crea el mazo de Plan usando el plan 2a, «Feeding Frenzy (v. I)». Retira del juego la otra copia del plan 2a.",
+    "setAside": "Deja aparte todas las copias del Enemigo Child of Blood, el Enemigo Spawn of Zburamoarte, la Traición Sanguine Rebirth y el Apoyo de historia de doble cara Chosen of Zburamoarte, así como todos los Enemigos del conjunto de encuentro _Sanguine Secrets_ y todas las cartas del conjunto de encuentro _Infected_.",
+    "howardWilkes": "Reúne todas las copias del Enemigo Howard Wilkes.",
+    "firstChildOfZburamoarte": "Si juegas en dificultad Fácil, deja aparte a Howard Wilkes (*First Child of Zburamoarte*), fuera del juego. Retira del juego todas las demás copias de Howard Wilkes.",
+    "tooFarGone": "Si juegas en dificultad Normal, deja aparte a Howard Wilkes (*Too Far Gone*), fuera del juego. Retira del juego todas las demás copias de Howard Wilkes.",
+    "ultimatePredator": "Si juegas en dificultad Difícil o Experto, deja aparte a Howard Wilkes (*Ultimate Predator*), fuera del juego. Retira del juego todas las demás copias de Howard Wilkes.",
+    "juliaStern": "Consulta tu registro de campaña. Si está anotado *Los investigadores mataron a Julia Stern*, retira del juego todas las copias del Enemigo Julia Stern. De lo contrario, reúne todas las copias del Enemigo Julia Stern.",
+    "firstVictimOfNewHorizons": "Si juegas en dificultad Fácil, deja aparte a Julia Stern (*First Victim of New Horizons*), fuera del juego. Retira del juego todas las demás copias de Julia Stern.",
+    "outForBlood": "Si juegas en dificultad Normal, deja aparte a Julia Stern (*Out for Blood*), fuera del juego. Retira del juego todas las demás copias de Julia Stern.",
+    "childOfVengeance": "Si juegas en dificultad Difícil o Experto, deja aparte a Julia Stern (*Child of Vengeance*), fuera del juego. Retira del juego todas las demás copias de Julia Stern.",
+    "addCultist": "Añade 1 ficha {'{'}cultist{'}'} a la bolsa de caos durante el resto de la campaña."
+  },
+  "remembered": {
+    "theInvestigatorsSpokeWithPriscillaThomas": "Los investigadores hablaron con Priscilla Thomas."
+  },
+  "tokens": {
+    "easyStandard": {
+      "skull": "-X. X es la cantidad de fichas {'{'}blood{'}'} selladas en tu investigador más 1.",
+      "cultist": "-2. Si fracasas durante un ataque o un intento de evitar contra un Enemigo _Monster_, añade 1 ficha {'{'}blood{'}'} a la bolsa de caos.",
+      "tablet": "-3. Si fracasas y hay una ficha {'{'}blood{'}'} sellada en tu investigador, coloca 1 de tus pistas en tu Lugar.",
+      "elderThing": "-4. Si fracasas, prepara al Enemigo _Monster_ agotado más cercano."
+    },
+    "hardExpert": {
+      "skull": "-X. X es la cantidad de fichas {'{'}blood{'}'} selladas en tu investigador más 2.",
+      "cultist": "-3. Si esta ficha se revela durante un ataque o un intento de evitar contra un Enemigo _Monster_, después de que se resuelva esta prueba, añade 1 ficha {'{'}blood{'}'} a la bolsa de caos.",
+      "tablet": "-4. Si fracasas y hay una ficha {'{'}blood{'}'} sellada en tu investigador, coloca 1 de tus pistas en tu Lugar.",
+      "elderThing": "-5. Si fracasas, prepara al Enemigo _Monster_ agotado más cercano."
+    }
+  },
+  "codex": {
+    "partyGuest": {
+      "title": "Códice A: Alguien de la fiesta",
+      "body": "<p>Entablas conversación con la persona invitada, intentando averiguar lo que puedas y asegurándote de que no interfiera en tu investigación.</p><p class='basic'>Revela fichas al azar de la bolsa de caos hasta que reveles una ficha con un símbolo que no esté sellada en un Enemigo. Si la ficha es...</p><ul><li>...una ficha {'{'}skull{'}'}: esta persona te mira con recelo.</li><li>...una ficha {'{'}cultist{'}'}: esta persona intenta pasar inadvertida.</li><li>...una ficha {'{'}tablet{'}'}: cómodamente sentada, esta persona te sonríe.</li><li>...una ficha {'{'}elderThing{'}'}: esta persona engulle su comida como si le faltara tiempo.</li><li>...una ficha {'{'}blood{'}'}: esta persona va vestida para hacer negocios, no para una fiesta.</li><li>...una ficha {'{'}autoFail{'}'}: a esta persona le cuesta mantenerse en pie.</li><li>...una ficha {'{'}elderSign{'}'}: esta persona se une a un corrillo para cotillear.</li></ul><p class='basic'>Después de resolver el códice que corresponda a la ficha revelada, cualquier investigador puede volver a activar este códice.</p>"
+    },
+    "partyGuestSkull": {
+      "title": "Códice {'{'}skull{'}'}: Alguien de la fiesta",
+      "body": "<p>Esta persona comienza un relato largo, aburrido y dolorosamente ajeno a todo sobre lo mucho que le ha sorprendido que Howard Wilkes eligiera el Barrio Norte, «¡el barrio obrero, nada menos!», no solo para esta fiesta, sino también para su ático. Finges interés mientras divaga, hasta que encuentras un momento para escabullirte.</p><p class='basic right'>Evita automáticamente a este Enemigo y sella esta ficha en él (si Priscilla Thomas está en juego, sella esta ficha en ella en su lugar).</p>"
+    },
+    "partyGuestCultist": {
+      "title": "Códice {'{'}cultist{'}'}: Alguien de la fiesta",
+      "body": "<p>Cuando te acercas, esta persona te fulmina con una mirada asesina. Antes de que puedas siquiera preguntar qué le pasa, una daga hecha con un colmillo descomunal destella en sus manos al salir del bolsillo de su chaqueta. «¡Sé lo que intentas!», grita. «¡No permitiremos que detengas lo que ya ha comenzado!».</p><p class='basic right'>Descarta a este Enemigo y haz aparecer enfrentado a ti 1 Enemigo Cultist puesto aparte al azar. Sella esta ficha en ese Enemigo (si Priscilla Thomas está en juego, sella esta ficha en ella en su lugar).</p>"
+    },
+    "partyGuestTablet": {
+      "title": "Códice {'{'}tablet{'}'}: Alguien de la fiesta",
+      "body": "<p>La conversación, aunque instructiva en cuanto a ciertos sucesos extraños en French Hill, no te sirve para nada más.</p><p class='basic right'>Evita automáticamente a este Enemigo y sella esta ficha en él. Roba 1 carta.</p>"
+    },
+    "partyGuestElderThing": {
+      "title": "Códice {'{'}elderThing{'}'}: Alguien de la fiesta",
+      "body": "<p>«¡Cielo, tienes que probar los canapés!». Esta persona se te acerca con una galleta salada cubierta de una especie de paté de carne rojo sangre, dispuesta a metértela en la boca a la fuerza. Aprietas los dientes, comentas que necesitas ir al aseo y te marchas a toda prisa.</p><p class='basic right'>Evita automáticamente a este Enemigo y sella esta ficha en él. Puedes moverte a un Lugar conectado.</p>"
+    },
+    "partyGuestBlood": {
+      "title": "Códice {'{'}blood{'}'}: Alguien de la fiesta",
+      "body": "<p>Esta persona comenta que Howard Wilkes se ha topado con resistencia al intentar distribuir su producto por Arkham, y que entre los comercios de la zona se ha ganado fama de megalómano despiadado. Ha traído esta noche a Priscilla Thomas con la esperanza de triunfar fuera de la ciudad antes de que toda su operación se quede sin fondos.</p><p class='basic right'>Evita automáticamente a este Enemigo y sella esta ficha en él (si Priscilla Thomas está en juego, sella esta ficha en ella en su lugar).</p>"
+    },
+    "partyGuestAutoFail": {
+      "title": "Códice {'{'}autoFail{'}'}: Alguien de la fiesta",
+      "body": "<p>Esta persona se tambalea un poco y se apoya pesadamente en una estatua de mármol. Te acercas con cautela, tiendes la mano y le preguntas si necesita ayuda. En cuanto le tocas el hombro, se gira de golpe, con la mirada enloquecida y un gruñido en los labios.</p><p class='basic right'>Este Enemigo te ataca. Después del ataque, ese Enemigo deja de estar enfrentado a todos los investigadores y se mueve a un Lugar conectado (sin investigadores, si es posible).</p>"
+    },
+    "partyGuestElderSign": {
+      "title": "Códice {'{'}elderSign{'}'}: Alguien de la fiesta",
+      "body": "<p>Encuentras un pequeño corrillo que habla en voz baja. Consigues merodear justo al lado y te enteras de que cada cual tiene sus propias sospechas sobre lo que ocurre en realidad en la fiesta de esta noche.</p><p class='basic right'>Evita automáticamente a este Enemigo. Obtén 1 pista (de la reserva de fichas). Después, si el Detective Reynolds está en juego bajo el control de un investigador, ese investigador obtiene 1 pista (de la reserva de fichas).</p>"
+    },
+    "priscillaThomas": {
+      "title": "Códice B: Priscilla Thomas",
+      "body": "<p class='basic'>Si es la primera vez que se activa esta entrada del códice en este escenario, continúa en _Priscilla Thomas 1_. De lo contrario, salta a _Priscilla Thomas 2_.</p>"
+    },
+    "priscillaThomas1": {
+      "title": "Códice B: Priscilla Thomas",
+      "body": "<p>_Priscilla Thomas 1_: Priscilla Thomas está de pie junto a la puerta del comedor, observando a los demás invitados con aire de aburrida frustración. «Un anfitrión que llega tarde a su propia fiesta nunca es buena señal», dice. Se vuelve a mirarte cuando te acercas y enarca una ceja con suspicacia. «Supongo que tú no sabrás nada de eso, ¿no?».</p><p class='basic right'>Continúa en _Priscilla Thomas 2_.</p>"
+    },
+    "priscillaThomas2": {
+      "title": "Códice B: Priscilla Thomas",
+      "body": "<p>_Priscilla Thomas 2_: intentas hablar con la señorita Thomas sobre el motivo de su presencia en la fiesta, procurando sembrar en su mente la duda acerca de Howard Wilkes y su negocio.</p><p class='basic'>Libera todas las fichas de Caos selladas en Priscilla Thomas. Coloca en Priscilla Thomas 1 ficha de Horror (de la reserva de fichas) por cada ficha de Caos liberada de este modo.</p><p class='basic'>Elige un investigador de tu Lugar para que realice una prueba de {'{'}willpower{'}'} o de {'{'}intellect{'}'} (3). Si ese investigador tiene éxito, coloca 1 ficha de Horror en Priscilla Thomas. Después, si hay 4 o más fichas de Horror en Priscilla Thomas, continúa en _Priscilla Thomas 3_.</p><p class='basic'>Cualquier investigador puede volver a activar esta entrada del códice.</p>"
+    },
+    "priscillaThomas3": {
+      "title": "Códice B: Priscilla Thomas",
+      "body": "<p>_Priscilla Thomas 3_: la señorita Thomas escucha tu historia con el rostro impasible pero la mirada atenta. Al final asiente y deja la copa en una mesita cercana. «No digas más», dice. «Ya me daba la impresión de que era un mal negocio. No haces más que confirmar mis recelos. Gracias». Se vuelve para marcharse y se detiene en el umbral. «Si alguna vez pasas por Boston y necesitas trabajo, me vendrían bien tus dotes de investigación. Y se te pagaría bien». Dicho esto, se va camino del vestíbulo.</p><p class='basic right'>Retira del juego a Priscilla Thomas. Cada investigador puede curarse 2 puntos de horror u obtener 3 recursos.</p>"
+    },
+    "label": {
+      "healHorror": "Curar {count} de horror",
+      "gainResources": "Obtener {count} recursos"
+    }
+  },
+  "resolutions": {
+    "investigatorDefeat": {
+      "title": "Derrota de investigadores",
+      "body": "<p class='basic'>Antes de leer cualquier otra resolución, si al menos 1 investigador ha sido derrotado: los investigadores derrotados leen primero _Derrota de investigadores_.</p><p>_Derrota de investigadores_: forcejeas contra los monstruos, pero su número y su ferocidad te abruman, y se alimentan de tu carne mientras te derriban. Tu mundo entero es una tempestad ensangrentada de dolor cegador antes de que cedas por fin a la oscuridad de la muerte.</p><ul><li>Cada investigador derrotado _muere_.</li><li>Si se ha llegado a otra resolución, los demás investigadores continúan en ella. De lo contrario, anota en tu registro de campaña que *Los investigadores no lograron detener a los hijos de la sangre*. ¡Los investigadores pierden la campaña!</li></ul>"
+    },
+    "noResolution": {
+      "title": "Sin resolución",
+      "body": "<p>_Si no se ha llegado a ninguna resolución porque todos los investigadores supervivientes han desistido durante el acto 1a o el acto 2a_: incapaz de soportar el caos de la fiesta, huyes a la calle. Solo esperas que los problemas de la carne de New Horizons y de la sangre corrupta se resuelvan solos.</p><ul><li>En tu registro de campaña, anota que *Los investigadores no lograron detener a los hijos de la sangre*.</li><li>Cada investigador sufre 1 trauma físico y 1 trauma mental, pues jamás se recupera del todo de lo que presenció en su investigación.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de _Victoria X_ de cada carta de la zona de victoria.<ul><li>_Experiencia_: {xp}</li></ul></li><li>Cada investigador que no tenga la Debilidad The Blood Blight y que haya terminado el escenario con 2 o más fichas {'{'}blood{'}'} selladas en su carta de investigador se convierte en el portador de una Debilidad The Blood Blight puesta aparte.</li><li>¡Los investigadores pierden la campaña!</li></ul>"
+    },
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<p>_Resolución 1_: sales del ático y dejas atrás al derrotado Howard Wilkes y los restos destrozados de su secta. La policía de Arkham llega cuando sales a la calle, y dejas que el detective Reynolds se ocupe de sus preguntas. Vuelves a adentrarte en Arkham mientras los primeros rayos del sol de la mañana asoman sobre el río Miskatonic.</p><ul><li>En tu registro de campaña, anota que *Los investigadores detuvieron a los hijos de la sangre*.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de _Victoria X_ de cada carta de la zona de victoria.<ul><li>Cada investigador obtiene 1 punto de experiencia adicional por cada Enemigo _Civilian_ que hubiera debajo de la carta de referencia de escenario cuando terminó el escenario.</li><li>_Experiencia_: {xp}</li></ul></li><li>Cada investigador que no tenga la Debilidad The Blood Blight y que haya terminado el escenario con 2 o más fichas {'{'}blood{'}'} selladas en su carta de investigador se convierte en el portador de una Debilidad The Blood Blight puesta aparte.<ul><li>Si al menos 1 investigador tiene la Debilidad The Blood Blight en su mazo, los investigadores han obtenido la carta de recompensa de campaña Chosen of Zburamoarte. Añade esta carta a la reserva de cartas de Jugador.</li></ul></li><li>¡Los investigadores ganan la campaña!</li></ul>"
+    },
+    "resolution2": {
+      "title": "Resolución 2",
+      "body": "<p>_Resolución 2_: huyes del ático junto con los pocos invitados que has salvado cuando llega la policía de Arkham. Observas cómo irrumpen en el ático, pero no te quedas allí, y sales a las calles de Arkham justo cuando los primeros rayos del sol de la mañana asoman sobre el río Miskatonic.</p><ul><li>En tu registro de campaña, anota que *Los investigadores no lograron detener a los hijos de la sangre*.</li><li>Cada investigador sufre 1 trauma físico y 1 trauma mental, pues jamás se recupera del todo de los horrores de la Secta de la Orden Sanguínea.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de _Victoria X_ de cada carta de la zona de victoria.<ul><li>Cada investigador obtiene 1 punto de experiencia adicional por cada Enemigo _Civilian_ que hubiera debajo de la carta de referencia de escenario cuando terminó el escenario.</li><li>_Experiencia_: {xp}</li></ul></li><li>Cada investigador que no tenga la Debilidad The Blood Blight y que haya terminado el escenario con 2 o más fichas {'{'}blood{'}'} selladas en su carta de investigador se convierte en el portador de una Debilidad The Blood Blight puesta aparte.<ul><li>Si al menos 1 investigador tiene la Debilidad The Blood Blight en su mazo, los investigadores han obtenido la carta de recompensa de campaña Chosen of Zburamoarte. Añade esta carta a la reserva de cartas de Jugador.</li></ul></li><li>¡Los investigadores ganan la campaña!</li></ul>"
+    },
+    "xp": {
+      "rescuedGuests": "por cada Enemigo _Civilian_ rescatado"
+    }
+  }
+}

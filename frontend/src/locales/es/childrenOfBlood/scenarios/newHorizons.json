@@ -1,0 +1,98 @@
+{
+  "intro": {
+    "title": "Escenario II: New Horizons",
+    "body": "Con el detective Reynolds a tu lado, te diriges a las instalaciones de New Horizons, en el Distrito Portuario. «Bueno, tal como lo veo, tenemos dos opciones», dice Reynolds. «Podemos entrar ahora y hacer el registro. Tengo la orden, y será más oficial, pero también hay gente trabajando. La gente complica las cosas. O...». Saca un juego de ganzúas. «Esperamos a que oscurezca».",
+    "addCultist": "Añade 1 ficha {'{'}cultist{'}'} a la bolsa de caos durante el resto de la campaña.",
+    "chooseAsGroup": "Los investigadores deben elegir, como grupo:",
+    "searchDuringTheDay": "Registrar de día (pista: prepárate para entrar a base de labia). Continúa en la _Preparación (v. I)_.",
+    "searchAfterDark": "Registrar de noche (pista: prepárate para entrar a la fuerza). Salta a la _Preparación (v. II)_."
+  },
+  "label": {
+    "searchDuringTheDay": "Registrar de día",
+    "searchAfterDark": "Registrar de noche",
+    "spendExperienceToRemoveBlood": "<p>Gastar, como grupo, un total de 2 {'{'}perPlayer{'}'} puntos de experiencia para retirar 1 ficha {'{'}blood{'}'} de la bolsa de caos</p>",
+    "doNotSpendExperience": "No gastar experiencia"
+  },
+  "remembered": {
+    "theInvestigatorsFoundForgedPermits": "Los investigadores encontraron permisos falsificados.",
+    "theInvestigatorsFoundASheetOfArcaneSymbols": "Los investigadores encontraron una hoja de símbolos arcanos.",
+    "theInvestigatorsFoundTheManagersKeys": "Los investigadores encontraron las llaves del encargado.",
+    "theInvestigatorsStoleTheManagersKeys": "Los investigadores robaron las llaves del encargado."
+  },
+  "version1": {
+    "setup": {
+      "title": "Preparación (v. I)",
+      "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de encuentro:<section class='encounter-sets grid'><div><img src='{setImgPath}/new-horizons.png' /><span>New Horizons</span></div><div><img src='{setImgPath}/afflicted.png' /><span>Afflicted</span></div><div><img src='{setImgPath}/blood-blight.png' /><span>Blood Blight</span></div><div><img src='{setImgPath}/bloodthirst.png' /><span>Bloodthirst</span></div><div><img src='{setImgPath}/hunted.png' /><span>Hunted</span></div><div><img src='{setImgPath}/infected.png' /><span>Infected</span></div><div><img src='{setImgPath}/sanguine-secrets.png' /><span>Sanguine Secrets</span></div><div><img src='{setImgPath}/vermin.png' /><span>Vermin</span></div><div><img src='{setImgPath}/flying-terrors.png' /><span>Flying Terrors{'{'}asterisk{'}'}</span></div></section><div class='center'>{'{'}asterisk{'}'}Este conjunto de encuentro se encuentra en la caja básica de Arkham Horror: El juego de cartas.</div>",
+      "gatherLocations": "Reúne todos los Lugares del conjunto de encuentro _New Horizons_.",
+      "day": "Pon en juego cada Lugar _Day_. Retira del juego todos los Lugares _Night_. Cada investigador comienza la partida en el Lugar Factory Floor que elija.",
+      "shallowTunnels": "Si juegas en dificultad Fácil o Normal, deja aparte, fuera del juego, Cavern Entrance (*Shallow Tunnels*), Descending Tunnel y las 3 copias de Side Chamber (*Shallow Tunnels*). Retira del juego todos los Lugares restantes.",
+      "darkestDepths": "Si juegas en dificultad Difícil o Experto, deja aparte, fuera del juego, Cavern Entrance (*Darkest Depths*), Descending Tunnel y las 3 copias de Side Chamber (*Darkest Depths*). Retira del juego todos los Lugares restantes.",
+      "agendaDeck": "Crea el mazo de Plan usando el plan 1a, «Busy Day», y el plan 2a, «Digging Deeper (v. I)». Retira del juego todos los demás Planes.",
+      "factoryWorkers": "Haz aparecer 1 Enemigo Factory Worker en cada Lugar Factory Floor.",
+      "zburamoarte": "Reúne todas las copias del Enemigo Zburamoarte.",
+      "lethargicBeast": "Si juegas en dificultad Fácil, deja aparte a Zburamoarte (*Lethargic Beast*), fuera del juego. Retira del juego todas las demás copias de Zburamoarte.",
+      "sourceOfTheBlight": "Si juegas en dificultad Normal, deja aparte a Zburamoarte (*Source of the Blight*), fuera del juego. Retira del juego todas las demás copias de Zburamoarte.",
+      "progenitorOfMonsters": "Si juegas en dificultad Difícil o Experto, deja aparte a Zburamoarte (*Progenitor of Monsters*), fuera del juego. Retira del juego todas las demás copias de Zburamoarte.",
+      "setAside": "Deja aparte las siguientes cartas, fuera del juego: el Enemigo Javier Rivera, todas las copias del Enemigo Blighted Worker, todas las copias de la Traición Echoing in Darkness, los conjuntos de encuentro _Infected_ y _Flying Terrors_ y los Apoyos de historia Forged Permit y Sanguine Song.",
+      "removeNightWatchman": "Retira del juego el Enemigo Night Watchman."
+    }
+  },
+  "version2": {
+    "setup": {
+      "title": "Preparación (v. II)",
+      "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de encuentro:<section class='encounter-sets grid'><div><img src='{setImgPath}/new-horizons.png' /><span>New Horizons</span></div><div><img src='{setImgPath}/afflicted.png' /><span>Afflicted</span></div><div><img src='{setImgPath}/children-of-blood.png' /><span>Children of Blood</span></div><div><img src='{setImgPath}/infected.png' /><span>Infected</span></div><div><img src='{setImgPath}/preyed-upon.png' /><span>Preyed Upon</span></div><div><img src='{setImgPath}/sanguine-secrets.png' /><span>Sanguine Secrets</span></div><div><img src='{setImgPath}/stalked.png' /><span>Stalked</span></div><div><img src='{setImgPath}/flying-terrors.png' /><span>Flying Terrors{'{'}asterisk{'}'}</span></div><div><img src='{setImgPath}/reeking-decay.png' /><span>Reeking Decay{'{'}asterisk{'}'}</span></div></section><div class='center'>{'{'}asterisk{'}'}Este conjunto de encuentro se encuentra en la caja básica de Arkham Horror: El juego de cartas.</div>",
+      "gatherLocations": "Reúne todos los Lugares del conjunto de encuentro _New Horizons_.",
+      "night": "Pon en juego cada Lugar _Night_. Retira del juego todos los Lugares _Day_. Cada investigador comienza la partida en el Lugar Factory Floor que elija.",
+      "shallowTunnels": "Si juegas en dificultad Fácil o Normal, deja aparte, fuera del juego, Cavern Entrance (*Shallow Tunnels*), Descending Tunnel y las 3 copias de Side Chamber (*Shallow Tunnels*). Retira del juego todos los Lugares restantes.",
+      "darkestDepths": "Si juegas en dificultad Difícil o Experto, deja aparte, fuera del juego, Cavern Entrance (*Darkest Depths*), Descending Tunnel y las 3 copias de Side Chamber (*Darkest Depths*). Retira del juego todos los Lugares restantes.",
+      "agendaDeck": "Crea el mazo de Plan usando el plan 1a, «Quiet Night», y el plan 2a, «Digging Deeper (v. II)». Retira del juego todos los demás Planes.",
+      "zburamoarte": "Reúne todas las copias del Enemigo Zburamoarte.",
+      "lethargicBeast": "Si juegas en dificultad Fácil, deja aparte a Zburamoarte (*Lethargic Beast*), fuera del juego. Retira del juego todas las demás copias de Zburamoarte.",
+      "sourceOfTheBlight": "Si juegas en dificultad Normal, deja aparte a Zburamoarte (*Source of the Blight*), fuera del juego. Retira del juego todas las demás copias de Zburamoarte.",
+      "progenitorOfMonsters": "Si juegas en dificultad Difícil o Experto, deja aparte a Zburamoarte (*Progenitor of Monsters*), fuera del juego. Retira del juego todas las demás copias de Zburamoarte.",
+      "setAside": "Deja aparte las siguientes cartas, fuera del juego: el Enemigo Night Watchman, todas las copias del Enemigo Blighted Worker, todas las copias de la Traición Echoing in Darkness, los conjuntos de encuentro _Infected_ y _Flying Terrors_ y los Apoyos de historia Forged Permit y Sanguine Song.",
+      "removeJavierRivera": "Retira del juego el Enemigo Javier Rivera y todas las copias de Factory Worker."
+    }
+  },
+  "tokens": {
+    "easyStandard": {
+      "skull": "-X. X es el número del acto en curso.",
+      "cultist": "-1. Si hay una ficha {'{'}blood{'}'} sellada en tu investigador, revela una ficha adicional. Después de que se resuelva esta prueba de habilidad, libera 1 ficha {'{'}blood{'}'} sellada en ti.",
+      "tablet": "-3 (-5 en su lugar si hay una ficha {'{'}blood{'}'} sellada en tu investigador. Después de que se resuelva esta prueba, libera 1 ficha {'{'}blood{'}'} sellada en ti).",
+      "elderThing": "-4. Si fracasas y hay una ficha {'{'}blood{'}'} sellada en tu investigador, recibe 1 punto de daño y libera 1 ficha {'{'}blood{'}'} sellada en ti."
+    },
+    "hardExpert": {
+      "skull": "-X. X es el número del acto en curso más 1.",
+      "cultist": "-2. Si hay una ficha {'{'}blood{'}'} sellada en tu investigador, revela una ficha adicional.",
+      "tablet": "-3. Si hay una ficha {'{'}blood{'}'} sellada en tu investigador, en su lugar fracasas automáticamente.",
+      "elderThing": "-4. Después de que se resuelva esta prueba, si hay una ficha {'{'}blood{'}'} sellada en tu investigador, recibe 1 punto de daño y libera 1 ficha {'{'}blood{'}'} sellada en ti."
+    }
+  },
+  "spendExperience": "Gastar, como grupo, un total de 2 {'{'}perPlayer{'}'} puntos de experiencia para retirar 1 ficha {'{'}blood{'}'} de la bolsa de caos",
+  "resolutions": {
+    "noResolution": {
+      "title": "Sin resolución",
+      "body": "<p>_Si no se ha llegado a ninguna resolución (todos los investigadores han sido derrotados)_: «Las cosas se pusieron bastante feas ahí dentro».</p><p>Despiertas con la voz del detective Reynolds. Parpadeas a la luz de la mañana y te incorporas, con oleadas de dolor recorriendo tus articulaciones entumecidas. Reynolds te apoya una mano en el hombro. «No hay que forzar», dice. «Además, he estado vigilando la parte trasera de la fábrica, por si alguien, o algo, nos seguía fuera».</p><ul><li>Añade 1 ficha {'{'}blood{'}'} a la bolsa de caos durante el resto de la campaña.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de _Victoria X_ de cada carta de la zona de victoria.<ul><li>_Experiencia_: {xp}</li></ul></li><li>Salta a la _Resolución 5_.</li></ul>"
+    },
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<p>_Resolución 1_: por fin sales de la planta envasadora de carne, sin encontrarte mejor que las piezas de vacuno que colgaban de los ganchos en su interior. Esperas que lo que has conseguido resulte bastante útil, aunque no hayas llegado al fondo de lo que hacía la secta en el almacén. Al menos tienes un nombre del que partir: Howard Wilkes, propietario de New Horizons y líder de la secta que moraba en sus profundidades.</p><ul><li>En tu registro de campaña, anota que *Los investigadores no completaron su búsqueda*.</li><li>En tu registro de campaña, anota que *Los investigadores dejaron con vida a Zburamoarte*.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de _Victoria X_ de cada carta de la zona de victoria.<ul><li>_Experiencia_: {xp}</li></ul></li><li>Los investigadores pueden decidir gastar, como grupo, un total de 2 {'{'}perPlayer{'}'} puntos de experiencia para retirar 1 ficha {'{'}blood{'}'} de la bolsa de caos.</li><li>Salta a la _Resolución 5_.</li></ul>"
+    },
+    "resolution2": {
+      "title": "Resolución 2",
+      "body": "<p>_Resolución 2_: has llegado al fondo de las actividades de la secta en el almacén y, aunque has optado por dejar con vida a los monstruos que acechaban en las profundidades de los túneles, solo puedes esperar que tus esfuerzos basten para poner fin a todo esto. Al menos tienes un nombre del que partir: Howard Wilkes, propietario de New Horizons y líder de la secta que moraba en sus profundidades.</p><ul><li>En tu registro de campaña, anota que *Los investigadores completaron su búsqueda*.</li><li>En tu registro de campaña, anota que *Los investigadores dejaron con vida a Zburamoarte*.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de _Victoria X_ de cada carta de la zona de victoria.<ul><li>_Experiencia_: {xp}</li></ul></li><li>Los investigadores pueden decidir gastar, como grupo, un total de 2 {'{'}perPlayer{'}'} puntos de experiencia para retirar 1 ficha {'{'}blood{'}'} de la bolsa de caos.</li><li>Salta a la _Resolución 5_.</li></ul>"
+    },
+    "resolution3": {
+      "title": "Resolución 3",
+      "body": "<p>_Resolución 3_: tras un combate extenuante contra un enemigo verdaderamente descomunal, por fin acabas con la abominación. Esta bestia, este Zburamoarte, era el origen de la sangre infectada que se usaba en los rituales de la secta y que propagaba la plaga de sangre por todo Arkham a través de la carne corrupta. Derrotado el origen de la plaga, esperas que nadie más pueda correr la misma suerte que Julia Stern y otras personas de la fábrica New Horizons. Pero el caso no ha terminado, pues has averiguado que un hombre llamado Howard Wilkes, propietario de New Horizons, también lideraba la secta de Zburamoarte. Es hora de que responda por sus crímenes.</p><ul><li>En tu registro de campaña, anota que *Los investigadores completaron su búsqueda*.</li><li>En tu registro de campaña, anota que *Los investigadores derrotaron a Zburamoarte*.</li><li>Retira 1 ficha {'{'}blood{'}'} de la bolsa de caos.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de _Victoria X_ de cada carta de la zona de victoria.<ul><li>_Experiencia_: {xp}</li></ul></li><li>Salta a la _Resolución 5_.</li></ul>"
+    },
+    "resolution4": {
+      "title": "Resolución 4",
+      "body": "<p>_Resolución 4_: la secta te supera enseguida y te arrastra hacia las cuevas mientras repite el nombre: «Zburamoarte, Zburamoarte, Zburamoarte...». Por fortuna, pierdes el conocimiento durante los rituales de la secta y, cuando vuelves en ti, yaces en el suelo de la fábrica, sin nadie más a tu alrededor, mientras las primeras luces de la mañana asoman por las ventanas. Te levantas, estiras las articulaciones doloridas y te marchas a toda prisa.</p><ul><li>En tu registro de campaña, anota que *Los investigadores quedaron a merced de la secta*.</li><li>Añade 2 fichas {'{'}blood{'}'} a la bolsa de caos durante el resto de la campaña.</li><li>Cada investigador que no tenga la Debilidad The Blood Blight se convierte en el portador de una Debilidad The Blood Blight puesta aparte.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de _Victoria X_ de cada carta de la zona de victoria.<ul><li>_Experiencia_: {xp}</li></ul></li><li>Continúa en la _Resolución 5_.</li></ul>"
+    },
+    "resolution5": {
+      "title": "Resolución 5",
+      "body": "<p>_Resolución 5_: vuelves a reunirte con el detective Reynolds, con intención de investigar a ese tal Howard Wilkes y hacerle responder de lo que ha estado ocurriendo en sus instalaciones.</p><ul><li>Si «_Los investigadores encontraron una hoja de símbolos arcanos_», un investigador cualquiera puede convertirse en el portador del Apoyo de historia Sanguine Song puesto aparte.</li><li>Si «_Los investigadores encontraron permisos falsificados_», un investigador cualquiera puede convertirse en el portador del Apoyo de historia Forged Permit puesto aparte.</li><li>Cada investigador que haya terminado el escenario con 2 fichas {'{'}blood{'}'} selladas en su carta de investigador se convierte en el portador de una Debilidad The Blood Blight puesta aparte, si no lo era ya.</li><li>Libera todas las fichas {'{'}blood{'}'} selladas y devuélvelas a la bolsa de caos.</li><li>Continúa en el _Interludio: Amigos en los bajos fondos_.</li></ul>"
+    }
+  }
+}

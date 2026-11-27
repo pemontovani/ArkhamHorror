@@ -1,0 +1,70 @@
+{
+  "intro": {
+    "title": "Escenario I: Río de sangre",
+    "body": "«Haz lo que tengas que hacer para detenerla, para detener a esa cosa», te dice Christopher mientras te preparas para salir en busca de Julia. «Hazlo y ya está». Pasas la noche registrando frenéticamente el Distrito Portuario, pero no logras localizar nada concluyente. Te retiras a pasar una noche inquieta, con la esperanza de tener más suerte por la mañana."
+  },
+  "setup": {
+    "gatherSets": "Reúne todas las cartas de los siguientes conjuntos de encuentro:<section class='encounter-sets grid'><div><img src='{setImgPath}/river-of-blood.png' /><span>River of Blood</span></div><div><img src='{setImgPath}/blood-blight.png' /><span>Blood Blight</span></div><div><img src='{setImgPath}/blood-moon.png' /><span>Blood Moon</span></div><div><img src='{setImgPath}/children-of-blood.png' /><span>Children of Blood</span></div><div><img src='{setImgPath}/hunted.png' /><span>Hunted</span></div><div><img src='{setImgPath}/infected.png' /><span>Infected</span></div><div><img src='{setImgPath}/misinformation.png' /><span>Misinformation</span></div><div><img src='{setImgPath}/preyed-upon.png' /><span>Preyed Upon</span></div><div><img src='{setImgPath}/vermin.png' /><span>Vermin</span></div><div><img src='{setImgPath}/dead-ends.png' /><span>Dead Ends{'{'}asterisk{'}'}</span></div><div><img src='{setImgPath}/flying-terrors.png' /><span>Flying Terrors{'{'}asterisk{'}'}</span></div></section><div class='center'>{'{'}asterisk{'}'}Este conjunto de encuentro se encuentra en la caja básica de Arkham Horror: El juego de cartas.</div><br><div class='center'>Si juegas en dificultad Difícil o Experto, NO reúnas los conjuntos de encuentro _Preyed Upon_ y _Vermin_. En su lugar, reúne todas las cartas de los siguientes conjuntos de encuentro:</div><section class='encounter-sets grid'><div><img src='{setImgPath}/agents-of-zburamoarte.png' /><span>Agents of Zburamoarte</span></div><div><img src='{setImgPath}/mongrels.png' /><span>Mongrels</span></div></section>",
+    "gatherAdditionalSets": "Además, si hay 3 o 4 investigadores, reúne todas las cartas del siguiente conjunto de encuentro:<section class='encounter-sets grid'><div><img src='{setImgPath}/afflicted.png' /><span>Afflicted</span></div></section>",
+    "placeLocations": "Pon en juego cada Lugar de la siguiente forma:",
+    "dawn": "Si juegas en dificultad Fácil o Normal, pon en juego cada Lugar _Dawn_. Retira del juego todos los Lugares _Dusk_.",
+    "dusk": "Si juegas en dificultad Difícil o Experto, pon en juego cada Lugar _Dusk_. Retira del juego todos los Lugares _Dawn_.",
+    "startAt": "Cada investigador comienza la partida en Water Street.",
+    "waterfrontCivilians": "Haz aparecer en Main Street 1 Enemigo Waterfront Civilian.",
+    "additionalWaterfrontCivilians": "Si hay 3 o 4 investigadores en la partida, haz aparecer también en Garrison Street 1 Enemigo Waterfront Civilian.",
+    "juliaStern": "Reúne todas las copias del Enemigo Julia Stern.",
+    "onTheRun": "Si juegas en dificultad Fácil, deja aparte a Julia Stern (*On the Run*), fuera del juego. Retira del juego todas las demás copias de Julia Stern.",
+    "stalkingTheStreets": "Si juegas en dificultad Normal, deja aparte a Julia Stern (*Stalking the Streets*), fuera del juego. Retira del juego todas las demás copias de Julia Stern.",
+    "preyingUponArkham": "Si juegas en dificultad Difícil o Experto, deja aparte a Julia Stern (*Preying Upon Arkham*), fuera del juego. Retira del juego todas las demás copias de Julia Stern.",
+    "setOutOfPlay": "Deja aparte las siguientes cartas, fuera del juego: todos los Enemigos Waterfront Civilian restantes, todos los Enemigos Night Feeder (o todos los Enemigos Spawn of Zburamoarte si juegas en dificultad Difícil o Experto), todas las cartas del conjunto de encuentro _Infected_, el Apoyo de historia Detective Reynolds y el Apoyo de historia Fang of Zburamoarte.",
+    "lairs": "Baraja las 2 primeras cartas del mazo de Encuentros junto con el Enemigo Julia Stern puesto aparte. Coloca 1 de estas cartas boca abajo, al azar, debajo de cada Lugar _Lair_."
+  },
+  "label": {
+    "r1": "«Quizá aún haya esperanza para ella». (→ _R1_)",
+    "r2": "«Tenemos que acabar con este monstruo». (→ _R2_)",
+    "spendExperienceToRemoveBlood": "<p>Gastar, como grupo, un total de 2 {'{'}perPlayer{'}'} puntos de experiencia para retirar 1 ficha {'{'}blood{'}'} de la bolsa de caos</p>",
+    "doNotSpendExperience": "No gastar experiencia"
+  },
+  "remembered": {
+    "theInvestigatorsFoundASacrificialDagger": "Los investigadores encontraron una daga de sacrificios."
+  },
+  "resolutions": {
+    "noResolution": {
+      "title": "Sin resolución",
+      "body": "<p>_Si no se ha llegado a ninguna resolución (todos los investigadores han sido derrotados)_: no tarda en quedar claro que hay más criaturas al acecho en la noche que el monstruo en que se había convertido Julia Stern. Su cacería incansable ha sido demasiado para ti. Lo último que recuerdas es a las criaturas cerniéndose sobre ti antes de que, por fortuna, perdieras el conocimiento. Despiertas a la ardiente luz amarilla del amanecer. Tras recomponerte, vuelves a reunirte con el detective Reynolds.</p><ul><li>En tu registro de campaña, anota que *Los investigadores no lograron detener a Julia Stern*.</li><li>Añade 1 ficha {'{'}blood{'}'} a la bolsa de caos durante el resto de la campaña.</li><li>Cada investigador se convierte en el portador de una Debilidad The Blood Blight puesta aparte.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de _Victoria X_ de cada carta de la zona de victoria. Cada investigador obtiene además 3 puntos de experiencia adicionales por aprender de sus errores.<ul><li>_Experiencia_: {xp}</li></ul></li><li>Salta a la _Resolución 4_.</li></ul>"
+    },
+    "resolution1": {
+      "title": "Resolución 1",
+      "body": "<p>_Resolución 1_: tras un combate agotador, por fin reduces a tu presa. En vez de quitarle la vida, dejas inconsciente a Julia y te dispones a reunirte de nuevo con el detective Reynolds, aferrándote a la esperanza de que haya alguna forma de salvarla. Sin embargo, cuando vuelves a por ella descubres que ha desaparecido otra vez entre las sombras. Ojalá hayas tomado la decisión correcta. Por ahora, el único camino que te queda es volver a reunirte con el detective Reynolds y llegar al fondo de qué causó todo este derramamiento de sangre.</p><ul><li>En tu registro de campaña, anota que *Los investigadores perdonaron la vida a Julia Stern*.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de _Victoria X_ de cada carta de la zona de victoria.<ul><li>_Experiencia_: {xp}</li></ul></li><li>Los investigadores pueden decidir gastar, como grupo, un total de 2 {'{'}perPlayer{'}'} puntos de experiencia para retirar 1 ficha {'{'}blood{'}'} de la bolsa de caos.</li><li>Salta a la _Resolución 4_.</li></ul>"
+    },
+    "resolution2": {
+      "title": "Resolución 2",
+      "body": "<p>_Resolución 2_: por fin termina tu cacería. Poner fin a la vida de Julia, y a la de sus víctimas, es una medida lamentable, pero había que hacerlo para que el Distrito Portuario volviera a ser seguro. Tras tres noches sangrientas a orillas del río Miskatonic, esperas poder reunirte de nuevo con el detective Reynolds y llegar al fondo de qué causó todo esto.</p><ul><li>En tu registro de campaña, anota que *Los investigadores mataron a Julia Stern*.</li><li>Retira 1 ficha {'{'}blood{'}'} de la bolsa de caos durante el resto de la campaña.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de _Victoria X_ de cada carta de la zona de victoria.<ul><li>_Experiencia_: {xp}</li></ul></li><li>Salta a la _Resolución 4_.</li></ul>"
+    },
+    "resolution3": {
+      "title": "Resolución 3",
+      "body": "<p>_Resolución 3_: la cacería nocturna es larga y ardua, pero Julia resulta demasiado astuta y veloz para tus esfuerzos. En la mañana del tercer día de búsqueda, temes que tendrás que esperar a que vuelva a atacar. Por ahora, el único camino que te queda es volver a reunirte con el detective Reynolds y llegar al fondo de qué causó todo este derramamiento de sangre.</p><ul><li>En tu registro de campaña, anota que *Los investigadores no lograron detener a Julia Stern*.</li><li>Cada investigador obtiene una cantidad de experiencia igual al valor de _Victoria X_ de cada carta de la zona de victoria.</li><li>Cada investigador obtiene 2 puntos de experiencia adicionales por estar mejor preparados para lo que se avecina.<ul><li>_Experiencia_: {xp}</li></ul></li><li>Continúa en la _Resolución 4_.</li></ul>"
+    },
+    "resolution4": {
+      "title": "Resolución 4",
+      "body": "<p>_Resolución 4_: de vuelta en el despacho del detective Reynolds, le explicas lo que has averiguado. Te dice que sus indicios también apuntaban a la planta envasadora de carne New Horizons y a un grupo sospechoso que se había visto por los alrededores del edificio, vestido con túnicas en lugar de los delantales y monos habituales de la plantilla. «El mismo sitio donde trabajaba Julia», dice Reynolds. «Parece que ese lugar merece una visita».</p><ul><li>¡El detective Reynolds se une a la investigación! Elige un investigador para que se convierta en el portador del Apoyo de historia Detective Reynolds puesto aparte.</li><li>Si «Los investigadores encontraron una daga de sacrificios», elige un investigador para que se convierta en el portador del Apoyo de historia Fang of Zburamoarte puesto aparte.</li><li>Cada investigador que haya terminado el escenario con 3 fichas {'{'}blood{'}'} selladas en su carta de investigador se convierte en el portador de una Debilidad The Blood Blight puesta aparte, si no lo era ya.</li><li>Libera todas las fichas {'{'}blood{'}'} selladas y devuélvelas a la bolsa de caos.</li><li>Continúa en el _Escenario II: New Horizons_.</li></ul>"
+    },
+    "xp": {
+      "noResolution": "por aprender de sus errores",
+      "resolution3": "por estar mejor preparados para lo que se avecina"
+    }
+  },
+  "spendExperience": "Gastar, como grupo, un total de 2 {'{'}perPlayer{'}'} puntos de experiencia para retirar 1 ficha {'{'}blood{'}'} de la bolsa de caos",
+  "tokens": {
+    "easyStandard": {
+      "skull": "-X. X es el número del plan en curso.",
+      "tablet": "-2. Si fracasas y estás en un Lugar _Lair_, recibe 1 punto de horror.",
+      "elderThing": "-3. Si fracasas y hay 1 o más fichas {'{'}blood{'}'} (*sangre*) selladas en tu investigador, después de que se resuelva esta prueba, libera 1 de esas fichas y recibe 1 punto de daño."
+    },
+    "hardExpert": {
+      "skull": "-X. X es el número del plan en curso más 1.",
+      "tablet": "-3. Si estás en un Lugar _Lair_, recibe 1 punto de horror.",
+      "elderThing": "-4. Si hay 1 o más fichas {'{'}blood{'}'} (*sangre*) selladas en tu investigador, después de que se resuelva esta prueba, libera 1 de esas fichas y recibe 1 punto de daño directo."
+    }
+  }
+}
